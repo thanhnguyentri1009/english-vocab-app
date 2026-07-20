@@ -41,14 +41,20 @@ export default function WordLearn({ words, accent, onFinish, onBack }: WordLearn
   }
 
   return (
-    <div style={{ padding: '32px 24px', maxWidth: 640, margin: '0 auto' }}>
+    <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
       <Space
-        style={{ width: '100%', justifyContent: 'space-between', marginBottom: 16 }}
+        style={{
+          width: '100%',
+          justifyContent: 'space-between',
+          marginBottom: 16,
+          flexWrap: 'wrap',
+          rowGap: 8,
+        }}
       >
-        <Button type="text" onClick={onBack}>
+        <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
           ← Choose another level
         </Button>
-        <Text style={{ color: '#8a97a3' }}>
+        <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
           Word {index + 1} / {words.length}
         </Text>
       </Space>
@@ -74,14 +80,22 @@ export default function WordLearn({ words, accent, onFinish, onBack }: WordLearn
           boxShadow: '0 4px 16px rgba(0,0,0,0.05)',
           cursor: 'pointer',
         }}
-        styles={{ body: { width: '100%' } }}
+        styles={{ body: { width: '100%', padding: '20px 16px' } }}
       >
         {!flipped ? (
           <div>
-            <Title level={1} style={{ margin: 0, color: '#3d4954' }}>
+            <Title
+              level={2}
+              style={{
+                margin: 0,
+                color: '#3d4954',
+                fontSize: 'clamp(24px, 7vw, 40px)',
+                wordBreak: 'break-word',
+              }}
+            >
               {word.en}
             </Title>
-            <Space size={8} style={{ marginTop: 4 }}>
+            <Space size={8} wrap style={{ marginTop: 4, justifyContent: 'center', width: '100%' }}>
               <Text style={{ color: '#a3adb6' }}>{word.ipa}</Text>
               <Tag color={accent} style={{ borderRadius: 8 }}>
                 {word.pos}
@@ -110,7 +124,15 @@ export default function WordLearn({ words, accent, onFinish, onBack }: WordLearn
           </div>
         ) : (
           <div>
-            <Title level={2} style={{ margin: 0, color: accent }}>
+            <Title
+              level={2}
+              style={{
+                margin: 0,
+                color: accent,
+                fontSize: 'clamp(22px, 6vw, 32px)',
+                wordBreak: 'break-word',
+              }}
+            >
               {word.vi}
             </Title>
             <Text style={{ display: 'block', marginTop: 16, color: '#a3adb6' }}>

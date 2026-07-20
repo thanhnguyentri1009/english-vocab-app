@@ -66,7 +66,7 @@ export default function Quiz({ words, pool, accent, onDone, onBack }: QuizProps)
 
   if (finished) {
     return (
-      <div style={{ padding: '32px 24px', maxWidth: 640, margin: '0 auto' }}>
+      <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
         <Result
           status={score === questions.length ? 'success' : 'info'}
           title={`You scored ${score}/${questions.length}`}
@@ -96,12 +96,18 @@ export default function Quiz({ words, pool, accent, onDone, onBack }: QuizProps)
   return (
     <div style={{ padding: '32px 24px', maxWidth: 640, margin: '0 auto' }}>
       <Space
-        style={{ width: '100%', justifyContent: 'space-between', marginBottom: 16 }}
+        style={{
+          width: '100%',
+          justifyContent: 'space-between',
+          marginBottom: 16,
+          flexWrap: 'wrap',
+          rowGap: 8,
+        }}
       >
-        <Button type="text" onClick={onBack}>
+        <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
           ← Choose another level
         </Button>
-        <Text style={{ color: '#8a97a3' }}>
+        <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
           Question {step + 1} / {questions.length}
         </Text>
       </Space>
@@ -123,7 +129,15 @@ export default function Quiz({ words, pool, accent, onDone, onBack }: QuizProps)
         }}
       >
         <Text style={{ color: '#8a97a3' }}>What is the English word for this?</Text>
-        <Title level={2} style={{ margin: '8px 0 0', color: '#3d4954' }}>
+        <Title
+          level={2}
+          style={{
+            margin: '8px 0 0',
+            color: '#3d4954',
+            fontSize: 'clamp(22px, 6vw, 32px)',
+            wordBreak: 'break-word',
+          }}
+        >
           {question.word.vi}
         </Title>
       </Card>
@@ -147,7 +161,7 @@ export default function Quiz({ words, pool, accent, onDone, onBack }: QuizProps)
             }
           }
           return (
-            <Col span={12} key={option.en}>
+            <Col xs={24} sm={12} key={option.en}>
               <Card
                 hoverable={!selected}
                 onClick={() => choose(option)}
@@ -160,8 +174,8 @@ export default function Quiz({ words, pool, accent, onDone, onBack }: QuizProps)
                 }}
                 styles={{ body: { padding: '16px 8px' } }}
               >
-                <Space>
-                  <Text strong style={{ fontSize: 16 }}>
+                <Space wrap style={{ justifyContent: 'center', width: '100%' }}>
+                  <Text strong style={{ fontSize: 16, wordBreak: 'break-word' }}>
                     {option.en}
                   </Text>
                   {icon}

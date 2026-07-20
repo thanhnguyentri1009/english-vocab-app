@@ -9,8 +9,15 @@ interface LevelSelectProps {
 
 export default function LevelSelect({ onSelect }: LevelSelectProps) {
   return (
-    <div style={{ padding: "32px 24px", maxWidth: 960, margin: "0 auto" }}>
-      <Title level={2} style={{ textAlign: "center", color: "#5b6b7a" }}>
+    <div style={{ padding: "24px 16px", maxWidth: 960, margin: "0 auto" }}>
+      <Title
+        level={2}
+        style={{
+          textAlign: "center",
+          color: "#5b6b7a",
+          fontSize: "clamp(22px, 6vw, 30px)",
+        }}
+      >
         English Vocabulary Builder
       </Title>
       <Text
