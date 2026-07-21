@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button, Card, Typography, Row, Col, Progress, Space, Tag } from 'antd'
 import { LeftOutlined, RightOutlined, SoundOutlined } from '@ant-design/icons'
 import type { VocabularyWord } from '../data/vocabulary'
@@ -15,15 +15,31 @@ function speak(text: string) {
 interface WordLearnProps {
   words: VocabularyWord[]
   accent: string
+  initialIndex?: number
+  onIndexChange?: (index: number) => void
   onFinish: () => void
   onBack: () => void
 }
 
-export default function WordLearn({ words, accent, onFinish, onBack }: WordLearnProps) {
-  const [index, setIndex] = useState(0)
+export default function WordLearn({
+  words,
+  accent,
+  initialIndex = 0,
+  onIndexChange,
+  onFinish,
+  onBack,
+}: WordLearnProps) {
+  const [index, setIndex] = useState(() =>
+    Math.min(initialIndex, Math.max(words.length - 1, 0)),
+  )
   const [flipped, setFlipped] = useState(false)
   const word = words[index]
   const isLast = index === words.length - 1
+
+  useEffect(() => {
+    onIndexChange?.(index)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index])
 
   const goNext = () => {
     if (isLast) {
@@ -52,7 +68,7 @@ export default function WordLearn({ words, accent, onFinish, onBack }: WordLearn
         }}
       >
         <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
-          ← Choose another level
+          ← Level overview
         </Button>
         <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
           Word {index + 1} / {words.length}

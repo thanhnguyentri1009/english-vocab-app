@@ -85,7 +85,7 @@ export default function Quiz({ words, pool, accent, onDone, onBack }: QuizProps)
               Learn 6 new words
             </Button>,
             <Button key="back" onClick={onBack}>
-              Back to levels
+              Level overview
             </Button>,
           ]}
         />
@@ -94,7 +94,7 @@ export default function Quiz({ words, pool, accent, onDone, onBack }: QuizProps)
   }
 
   return (
-    <div style={{ padding: '32px 24px', maxWidth: 640, margin: '0 auto' }}>
+    <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
       <Space
         style={{
           width: '100%',
@@ -105,7 +105,7 @@ export default function Quiz({ words, pool, accent, onDone, onBack }: QuizProps)
         }}
       >
         <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
-          ← Choose another level
+          ← Level overview
         </Button>
         <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
           Question {step + 1} / {questions.length}
