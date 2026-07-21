@@ -2,6 +2,9 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
+import { restoreGithubPagesRoute } from './utils/restoreGithubPagesRoute.ts'
+
+restoreGithubPagesRoute()
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
