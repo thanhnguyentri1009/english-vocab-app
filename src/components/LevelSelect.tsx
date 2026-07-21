@@ -1,23 +1,42 @@
 import { Button, Card, Col, Row, Typography } from "antd";
-import { CefrLevel, LEVELS, VOCABULARY } from "../data/vocabulary";
+import { LeftOutlined } from "@ant-design/icons";
+import type { LevelInfo, VocabularyWord } from "../data/vocabulary/topics";
 
 const { Title, Text } = Typography;
 
 interface LevelSelectProps {
-  onSelect: (level: CefrLevel) => void;
-  learnedWords: Partial<Record<CefrLevel, string[]>>;
+  topicTitle: string;
+  topicSubtitle: string;
+  levels: LevelInfo[];
+  vocabulary: Record<string, VocabularyWord[]>;
+  onSelect: (levelKey: string) => void;
+  learnedWords: Partial<Record<string, string[]>>;
   syncCode: string;
   onSwitchAccount: () => void;
+  onBackToTopics: () => void;
 }
 
 export default function LevelSelect({
+  topicTitle,
+  topicSubtitle,
+  levels,
+  vocabulary,
   onSelect,
   learnedWords,
   syncCode,
   onSwitchAccount,
+  onBackToTopics,
 }: LevelSelectProps) {
   return (
     <div style={{ padding: "24px 16px", maxWidth: 960, margin: "0 auto" }}>
+      <Button
+        type="text"
+        icon={<LeftOutlined />}
+        onClick={onBackToTopics}
+        style={{ paddingLeft: 4, paddingRight: 4, marginBottom: 8 }}
+      >
+        Topics
+      </Button>
       <Title
         level={2}
         style={{
@@ -26,7 +45,7 @@ export default function LevelSelect({
           fontSize: "clamp(22px, 6vw, 30px)",
         }}
       >
-        English Vocabulary Builder
+        {topicTitle}
       </Title>
       <Text
         style={{
@@ -36,7 +55,7 @@ export default function LevelSelect({
           color: "#8a97a3",
         }}
       >
-        Pick a level to start learning new words
+        {topicSubtitle}
       </Text>
       <div style={{ textAlign: "center", marginBottom: 32 }}>
         <Text style={{ color: "#a3adb6" }}>
@@ -52,9 +71,9 @@ export default function LevelSelect({
         </Button>
       </div>
       <Row gutter={[20, 20]} justify="center" align="stretch">
-        {LEVELS.map((level) => {
+        {levels.map((level) => {
           const learnedCount = learnedWords[level.key]?.length ?? 0;
-          const total = VOCABULARY[level.key].length;
+          const total = vocabulary[level.key]?.length ?? 0;
           return (
             <Col key={level.key} xs={12} sm={12} md={6}>
               <Card
@@ -96,7 +115,7 @@ export default function LevelSelect({
                     marginTop: 4,
                   }}
                 >
-                  {learnedCount > 0 ? `${learnedCount}/${total} learned` : " "}
+                  {learnedCount > 0 ? `${learnedCount}/${total} learned` : " "}
                 </Text>
               </Card>
             </Col>

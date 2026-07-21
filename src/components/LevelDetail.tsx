@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Button, List, Modal, Progress, Segmented, Space, Typography } from 'antd'
 import { LeftOutlined, UnorderedListOutlined } from '@ant-design/icons'
-import type { LevelInfo, VocabularyWord } from '../data/vocabulary'
+import type { VocabularyWord } from '../data/vocabulary'
+import type { LevelInfo } from '../data/vocabulary/topics'
 
 const { Title, Text } = Typography
 

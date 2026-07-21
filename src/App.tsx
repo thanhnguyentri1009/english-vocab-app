@@ -6,8 +6,15 @@ import LevelDetail from "./components/LevelDetail";
 import LevelSelect from "./components/LevelSelect";
 import Quiz from "./components/Quiz";
 import SyncCodeGate from "./components/SyncCodeGate";
+import TopicSelect from "./components/TopicSelect";
 import WordLearn from "./components/WordLearn";
-import { CefrLevel, LEVELS, VOCABULARY } from "./data/vocabulary";
+import {
+  findTopicForLevel,
+  getLevelsForTopic,
+  getVocabularyForTopic,
+  Topic,
+  TOPICS,
+} from "./data/vocabulary";
 import {
   loadProgress,
   ProgressState,
@@ -19,7 +26,7 @@ import { clearSyncCode, getSyncCode, setSyncCode } from "./utils/syncCode";
 
 const DEFAULT_BATCH_SIZE = 6;
 
-type Stage = "select" | "levelDetail" | "learn" | "quiz";
+type Stage = "topicSelect" | "select" | "levelDetail" | "learn" | "quiz";
 
 const baseTheme = {
   algorithm: theme.defaultAlgorithm,
@@ -66,31 +73,44 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Parse the URL ourselves (e.g. "/b1", "/b1/learn", "/b1/quiz") instead of
-  // using nested <Route>s, so this single component stays mounted across
-  // every navigation — its Firestore subscription and local state must not
-  // reset just because the path changed.
+  // Parse the URL ourselves (e.g. "/oxford/b1", "/oxford/b1/learn",
+  // "/toeic/600-780/quiz") instead of using nested <Route>s, so this single
+  // component stays mounted across every navigation — its Firestore
+  // subscription and local state must not reset just because the path changed.
   const segments = location.pathname.split("/").filter(Boolean);
-  const rawLevel = segments[0]?.toUpperCase();
-  const levelKey = (LEVELS.some((l) => l.key === rawLevel) ? rawLevel : null) as
-    | CefrLevel
+  const rawTopic = segments[0];
+  const topicKey = (TOPICS.some((t) => t.key === rawTopic) ? rawTopic : null) as
+    | Topic
     | null;
-  const subRoute = segments[1];
-  const stage: Stage = !levelKey
-    ? "select"
-    : subRoute === "quiz"
-      ? "quiz"
-      : subRoute === "learn"
-        ? "learn"
-        : "levelDetail";
+  const rawLevel = segments[1];
+  const levels = topicKey ? getLevelsForTopic(topicKey) : [];
+  // Level slugs in the URL are lowercased (e.g. "/oxford/b1"); level keys
+  // themselves may not be (e.g. Oxford's "B1") — match case-insensitively,
+  // then use the matched entry's real-cased key everywhere else.
+  const matchedLevel = topicKey
+    ? levels.find((l) => l.key.toLowerCase() === rawLevel?.toLowerCase())
+    : undefined;
+  const levelKey = matchedLevel ? matchedLevel.key : null;
+  const subRoute = segments[2];
+  const stage: Stage = !topicKey
+    ? "topicSelect"
+    : !levelKey
+      ? "select"
+      : subRoute === "quiz"
+        ? "quiz"
+        : subRoute === "learn"
+          ? "learn"
+          : "levelDetail";
 
-  // If someone visits an unknown level slug directly, send them back home.
+  // If someone visits an unknown topic/level slug directly, send them back home.
   useEffect(() => {
-    if (segments[0] && !levelKey) {
+    if (segments[0] && !topicKey) {
       navigate("/", { replace: true });
+    } else if (topicKey && segments[1] && !levelKey) {
+      navigate(`/${topicKey}`, { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [segments[0], levelKey]);
+  }, [segments[0], segments[1], topicKey, levelKey]);
 
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress(syncCode));
   const [batchSize, setBatchSize] = useState(() => progress.batchSize ?? DEFAULT_BATCH_SIZE);
@@ -134,13 +154,15 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
     const session = progress.session;
     if (!session) return;
     autoResumedRef.current = true;
+    const sessionTopic = session.topic ?? findTopicForLevel(session.level) ?? "oxford";
     const suffix =
       session.screen === "learn" ? "/learn" : session.screen === "quiz" ? "/quiz" : "";
-    navigate(`/${session.level.toLowerCase()}${suffix}`, { replace: true });
+    navigate(`/${sessionTopic}/${session.level.toLowerCase()}${suffix}`, { replace: true });
   }, [progress.session, location.pathname, navigate]);
 
-  const level = LEVELS.find((l) => l.key === levelKey);
-  const pool = levelKey ? VOCABULARY[levelKey] : [];
+  const level = levelKey ? levels.find((l) => l.key === levelKey) : undefined;
+  const vocabulary = topicKey ? getVocabularyForTopic(topicKey) : {};
+  const pool = levelKey ? vocabulary[levelKey] ?? [] : [];
   const learnedWords = (levelKey && progress.learnedWords[levelKey]) || [];
   const resumeWordIndex =
     levelKey && progress.session?.level === levelKey ? progress.session.wordIndex : 0;
@@ -174,60 +196,73 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
     updateProgress((p) => ({ ...p, batchSize: size }));
   };
 
-  const handleSelectLevel = (key: CefrLevel) => {
-    const wordIndex = progress.session?.level === key ? progress.session.wordIndex : 0;
-    navigate(`/${key.toLowerCase()}`);
-    persistSession({ level: key, screen: "levelDetail", wordIndex });
+  const handleSelectTopic = (topic: Topic) => {
+    navigate(`/${topic}`);
   };
 
-  const handleBackToLevels = () => {
+  const handleSelectLevel = (key: string) => {
+    if (!topicKey) return;
+    const wordIndex = progress.session?.level === key ? progress.session.wordIndex : 0;
+    navigate(`/${topicKey}/${key.toLowerCase()}`);
+    persistSession({ topic: topicKey, level: key, screen: "levelDetail", wordIndex });
+  };
+
+  const handleBackToTopics = () => {
     navigate("/");
     updateProgress((p) => ({ ...p, session: undefined }));
   };
 
+  const handleBackToLevels = () => {
+    if (!topicKey) return;
+    navigate(`/${topicKey}`);
+    updateProgress((p) => ({ ...p, session: undefined }));
+  };
+
   const handleBackToDetail = () => {
-    if (!levelKey) return;
-    navigate(`/${levelKey.toLowerCase()}`);
-    persistSession({ level: levelKey, screen: "levelDetail", wordIndex: resumeWordIndex });
+    if (!topicKey || !levelKey) return;
+    navigate(`/${topicKey}/${levelKey.toLowerCase()}`);
+    persistSession({ topic: topicKey, level: levelKey, screen: "levelDetail", wordIndex: resumeWordIndex });
   };
 
   const handleContinueLearning = () => {
-    if (!levelKey) return;
-    navigate(`/${levelKey.toLowerCase()}/learn`);
-    persistSession({ level: levelKey, screen: "learn", wordIndex: resumeWordIndex });
+    if (!topicKey || !levelKey) return;
+    navigate(`/${topicKey}/${levelKey.toLowerCase()}/learn`);
+    persistSession({ topic: topicKey, level: levelKey, screen: "learn", wordIndex: resumeWordIndex });
   };
 
   const handleWordIndexChange = (wordIndex: number) => {
-    if (!levelKey) return;
-    persistSession({ level: levelKey, screen: "learn", wordIndex });
+    if (!topicKey || !levelKey) return;
+    persistSession({ topic: topicKey, level: levelKey, screen: "learn", wordIndex });
   };
 
   const handleFinishLearn = () => {
-    if (!levelKey) return;
-    navigate(`/${levelKey.toLowerCase()}/quiz`);
-    persistSession({ level: levelKey, screen: "quiz", wordIndex: 0 });
+    if (!topicKey || !levelKey) return;
+    navigate(`/${topicKey}/${levelKey.toLowerCase()}/quiz`);
+    persistSession({ topic: topicKey, level: levelKey, screen: "quiz", wordIndex: 0 });
   };
 
   // Runs exactly once as soon as the quiz for the current batch finishes,
   // regardless of which button the user taps afterwards (or if they leave
   // without tapping anything) — so progress is never lost.
   const handleQuizComplete = () => {
-    if (!levelKey) return;
+    if (!topicKey || !levelKey) return;
     const updatedSet = new Set(progress.learnedWords[levelKey] ?? []);
     batch.forEach((w) => updatedSet.add(w.en));
     const updatedLearnedWords = Array.from(updatedSet);
     updateProgress((p) => ({
       ...p,
       learnedWords: { ...p.learnedWords, [levelKey]: updatedLearnedWords },
-      session: { level: levelKey, screen: "quiz", wordIndex: 0 },
+      session: { topic: topicKey, level: levelKey, screen: "quiz", wordIndex: 0 },
     }));
   };
 
   const handleNextBatch = () => {
-    if (!levelKey) return;
-    navigate(`/${levelKey.toLowerCase()}/learn`);
-    persistSession({ level: levelKey, screen: "learn", wordIndex: 0 });
+    if (!topicKey || !levelKey) return;
+    navigate(`/${topicKey}/${levelKey.toLowerCase()}/learn`);
+    persistSession({ topic: topicKey, level: levelKey, screen: "learn", wordIndex: 0 });
   };
+
+  const topicInfo = topicKey ? TOPICS.find((t) => t.key === topicKey) : undefined;
 
   return (
     <ConfigProvider
@@ -249,12 +284,25 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
             : "linear-gradient(180deg, #f4f7fb 0%, #fbfcfe 220px)",
         }}
       >
-        {stage === "select" && (
+        {stage === "topicSelect" && (
+          <TopicSelect
+            topics={TOPICS}
+            onSelect={handleSelectTopic}
+            syncCode={syncCode}
+            onSwitchAccount={onSwitchAccount}
+          />
+        )}
+        {stage === "select" && topicInfo && (
           <LevelSelect
+            topicTitle={topicInfo.title}
+            topicSubtitle={topicInfo.subtitle}
+            levels={levels}
+            vocabulary={vocabulary}
             onSelect={handleSelectLevel}
             learnedWords={progress.learnedWords}
             syncCode={syncCode}
             onSwitchAccount={onSwitchAccount}
+            onBackToTopics={handleBackToTopics}
           />
         )}
         {stage === "levelDetail" && level && (

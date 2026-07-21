@@ -7,12 +7,15 @@ import {
   type Unsubscribe,
 } from 'firebase/firestore'
 import { db } from '../firebase'
-import type { CefrLevel } from '../data/vocabulary'
+import type { Topic } from '../data/vocabulary'
 
 export type Screen = 'levelDetail' | 'learn' | 'quiz'
 
 export interface Session {
-  level: CefrLevel
+  // Absent on sessions saved before topics existed — those all predate
+  // anything but Oxford, so callers fall back to 'oxford'.
+  topic?: Topic
+  level: string
   screen: Screen
   // Position within the current batch of not-yet-learned words (the batch
   // itself is derived from learnedWords + batchSize, not stored here).
@@ -20,7 +23,7 @@ export interface Session {
 }
 
 export interface ProgressState {
-  learnedWords: Partial<Record<CefrLevel, string[]>>
+  learnedWords: Partial<Record<string, string[]>>
   session?: Session
   // How many new words to show per learning round (e.g. 3, 6, or 10).
   batchSize?: number
