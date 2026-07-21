@@ -86,7 +86,7 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
           title={`You scored ${score}/${questions.length}`}
           subTitle={
             score === questions.length
-              ? 'Great job! You have mastered these 6 words.'
+              ? `Great job! You have mastered ${score === 1 ? 'this word' : `these ${questions.length} words`}.`
               : 'Review the words you missed and try again.'
           }
           extra={[
@@ -96,7 +96,7 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
               style={{ background: accent, borderColor: accent }}
               onClick={onDone}
             >
-              Learn 6 new words
+              Learn new words
             </Button>,
             <Button key="back" onClick={onBack}>
               Level overview

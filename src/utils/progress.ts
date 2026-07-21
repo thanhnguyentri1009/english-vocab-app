@@ -14,13 +14,16 @@ export type Screen = 'levelDetail' | 'learn' | 'quiz'
 export interface Session {
   level: CefrLevel
   screen: Screen
-  batchIndex: number
+  // Position within the current batch of not-yet-learned words (the batch
+  // itself is derived from learnedWords + batchSize, not stored here).
   wordIndex: number
 }
 
 export interface ProgressState {
   learnedWords: Partial<Record<CefrLevel, string[]>>
   session?: Session
+  // How many new words to show per learning round (e.g. 3, 6, or 10).
+  batchSize?: number
   // Client clock timestamp of the last local change — used to resolve
   // conflicts between the local cache and Firestore (last write wins).
   updatedAt?: number
@@ -40,6 +43,7 @@ export function loadProgress(code: string): ProgressState {
     return {
       learnedWords: parsed.learnedWords ?? {},
       session: parsed.session,
+      batchSize: parsed.batchSize,
       updatedAt: parsed.updatedAt,
     }
   } catch {
@@ -78,6 +82,7 @@ export function subscribeRemoteProgress(
       onUpdate({
         learnedWords: (data.learnedWords as ProgressState['learnedWords']) ?? {},
         session: (data.session as Session | null | undefined) ?? undefined,
+        batchSize: (data.batchSize as number | null | undefined) ?? undefined,
         updatedAt: (data.updatedAt as number | undefined) ?? 0,
       })
     },
@@ -92,6 +97,7 @@ export function pushRemoteProgress(code: string, state: ProgressState) {
   setDoc(progressDocRef(code), {
     learnedWords: state.learnedWords,
     session: state.session ?? null,
+    batchSize: state.batchSize ?? null,
     updatedAt: state.updatedAt ?? Date.now(),
     serverUpdatedAt: serverTimestamp(),
   }).catch(() => {

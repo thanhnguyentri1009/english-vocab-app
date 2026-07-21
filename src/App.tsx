@@ -1,5 +1,6 @@
 import { ConfigProvider, theme } from "antd";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { BrowserRouter, useLocation, useNavigate } from "react-router-dom";
 import "./App.css";
 import LevelDetail from "./components/LevelDetail";
 import LevelSelect from "./components/LevelSelect";
@@ -16,7 +17,7 @@ import {
 } from "./utils/progress";
 import { clearSyncCode, getSyncCode, setSyncCode } from "./utils/syncCode";
 
-const BATCH_SIZE = 6;
+const DEFAULT_BATCH_SIZE = 6;
 
 type Stage = "select" | "levelDetail" | "learn" | "quiz";
 
@@ -32,27 +33,27 @@ const baseTheme = {
 function App() {
   const [syncCode, setSyncCodeState] = useState<string | null>(() => getSyncCode());
 
-  if (!syncCode) {
-    return (
-      <ConfigProvider theme={baseTheme}>
-        <SyncCodeGate
-          onSubmit={(code) => {
-            setSyncCode(code);
-            setSyncCodeState(code);
+  return (
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
+      {!syncCode ? (
+        <ConfigProvider theme={baseTheme}>
+          <SyncCodeGate
+            onSubmit={(code) => {
+              setSyncCode(code);
+              setSyncCodeState(code);
+            }}
+          />
+        </ConfigProvider>
+      ) : (
+        <VocabApp
+          syncCode={syncCode}
+          onSwitchAccount={() => {
+            clearSyncCode();
+            setSyncCodeState(null);
           }}
         />
-      </ConfigProvider>
-    );
-  }
-
-  return (
-    <VocabApp
-      syncCode={syncCode}
-      onSwitchAccount={() => {
-        clearSyncCode();
-        setSyncCodeState(null);
-      }}
-    />
+      )}
+    </BrowserRouter>
   );
 }
 
@@ -62,17 +63,40 @@ interface VocabAppProps {
 }
 
 function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // Parse the URL ourselves (e.g. "/b1", "/b1/learn", "/b1/quiz") instead of
+  // using nested <Route>s, so this single component stays mounted across
+  // every navigation — its Firestore subscription and local state must not
+  // reset just because the path changed.
+  const segments = location.pathname.split("/").filter(Boolean);
+  const rawLevel = segments[0]?.toUpperCase();
+  const levelKey = (LEVELS.some((l) => l.key === rawLevel) ? rawLevel : null) as
+    | CefrLevel
+    | null;
+  const subRoute = segments[1];
+  const stage: Stage = !levelKey
+    ? "select"
+    : subRoute === "quiz"
+      ? "quiz"
+      : subRoute === "learn"
+        ? "learn"
+        : "levelDetail";
+
+  // If someone visits an unknown level slug directly, send them back home.
+  useEffect(() => {
+    if (segments[0] && !levelKey) {
+      navigate("/", { replace: true });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [segments[0], levelKey]);
+
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress(syncCode));
-  const [levelKey, setLevelKey] = useState<CefrLevel | null>(
-    () => progress.session?.level ?? null,
-  );
-  const [batchIndex, setBatchIndex] = useState(() => progress.session?.batchIndex ?? 0);
-  const [resumeWordIndex, setResumeWordIndex] = useState(
-    () => progress.session?.wordIndex ?? 0,
-  );
-  const [stage, setStage] = useState<Stage>(() => progress.session?.screen ?? "select");
+  const [batchSize, setBatchSize] = useState(() => progress.batchSize ?? DEFAULT_BATCH_SIZE);
 
   const appliedRemoteRef = useRef(false);
+  const autoResumedRef = useRef(false);
 
   useEffect(() => {
     saveProgress(syncCode, progress);
@@ -91,16 +115,9 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
           pushRemoteProgress(syncCode, current);
           return current;
         }
-        // Only jump to another device's in-progress session once, right
-        // after the app opens — not while navigating locally.
         if (!appliedRemoteRef.current) {
           appliedRemoteRef.current = true;
-          if (remoteState.session) {
-            setLevelKey(remoteState.session.level);
-            setBatchIndex(remoteState.session.batchIndex);
-            setResumeWordIndex(remoteState.session.wordIndex);
-            setStage(remoteState.session.screen);
-          }
+          if (remoteState.batchSize) setBatchSize(remoteState.batchSize);
         }
         return remoteState;
       });
@@ -108,19 +125,34 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
     return unsubscribe;
   }, [syncCode]);
 
+  // Jump straight back into whatever was last being learned (possibly on a
+  // different device) — but only right after opening the app at "/", never
+  // overriding a URL the user actually navigated to themselves.
+  useEffect(() => {
+    if (autoResumedRef.current) return;
+    if (location.pathname !== "/") return;
+    const session = progress.session;
+    if (!session) return;
+    autoResumedRef.current = true;
+    const suffix =
+      session.screen === "learn" ? "/learn" : session.screen === "quiz" ? "/quiz" : "";
+    navigate(`/${session.level.toLowerCase()}${suffix}`, { replace: true });
+  }, [progress.session, location.pathname, navigate]);
+
   const level = LEVELS.find((l) => l.key === levelKey);
   const pool = levelKey ? VOCABULARY[levelKey] : [];
   const learnedWords = (levelKey && progress.learnedWords[levelKey]) || [];
+  const resumeWordIndex =
+    levelKey && progress.session?.level === levelKey ? progress.session.wordIndex : 0;
 
+  // The current batch is always the next `batchSize` words that haven't
+  // been learned yet — no separate index to keep in sync, so changing
+  // batchSize or the learned-word count can never make this drift.
+  const learnedSet = useMemo(() => new Set(learnedWords), [learnedWords]);
   const batch = useMemo(() => {
     if (!pool.length) return [];
-    const start = (batchIndex * BATCH_SIZE) % pool.length;
-    const slice = pool.slice(start, start + BATCH_SIZE);
-    if (slice.length < BATCH_SIZE) {
-      return [...slice, ...pool.slice(0, BATCH_SIZE - slice.length)];
-    }
-    return slice;
-  }, [pool, batchIndex]);
+    return pool.filter((w) => !learnedSet.has(w.en)).slice(0, batchSize);
+  }, [pool, learnedSet, batchSize]);
 
   // Any locally-triggered progress change is saved to localStorage and
   // pushed to Firestore so other devices using the same sync code see it.
@@ -137,64 +169,43 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
     updateProgress((p) => ({ ...p, session }));
   };
 
-  const handleSelectLevel = (key: CefrLevel) => {
-    // Resume exactly where they left off if that's this same level;
-    // otherwise start from the first batch that hasn't been learned yet
-    // (derived from the actual learned-word count, never hardcoded to 0).
-    const existingSession = progress.session;
-    const resumingSameLevel = existingSession?.level === key;
-    const learnedCount = progress.learnedWords[key]?.length ?? 0;
-    const nextBatchIndex = Math.floor(learnedCount / BATCH_SIZE);
-    const resolvedBatchIndex = resumingSameLevel
-      ? existingSession.batchIndex
-      : nextBatchIndex;
-    const resolvedWordIndex = resumingSameLevel ? existingSession.wordIndex : 0;
+  const handleChangeBatchSize = (size: number) => {
+    setBatchSize(size);
+    updateProgress((p) => ({ ...p, batchSize: size }));
+  };
 
-    setLevelKey(key);
-    setBatchIndex(resolvedBatchIndex);
-    setResumeWordIndex(resolvedWordIndex);
-    setStage("levelDetail");
-    persistSession({
-      level: key,
-      screen: "levelDetail",
-      batchIndex: resolvedBatchIndex,
-      wordIndex: resolvedWordIndex,
-    });
+  const handleSelectLevel = (key: CefrLevel) => {
+    const wordIndex = progress.session?.level === key ? progress.session.wordIndex : 0;
+    navigate(`/${key.toLowerCase()}`);
+    persistSession({ level: key, screen: "levelDetail", wordIndex });
   };
 
   const handleBackToLevels = () => {
-    setStage("select");
-    setLevelKey(null);
+    navigate("/");
     updateProgress((p) => ({ ...p, session: undefined }));
   };
 
   const handleBackToDetail = () => {
     if (!levelKey) return;
-    setStage("levelDetail");
-    persistSession({
-      level: levelKey,
-      screen: "levelDetail",
-      batchIndex,
-      wordIndex: resumeWordIndex,
-    });
+    navigate(`/${levelKey.toLowerCase()}`);
+    persistSession({ level: levelKey, screen: "levelDetail", wordIndex: resumeWordIndex });
   };
 
   const handleContinueLearning = () => {
     if (!levelKey) return;
-    setStage("learn");
-    persistSession({ level: levelKey, screen: "learn", batchIndex, wordIndex: resumeWordIndex });
+    navigate(`/${levelKey.toLowerCase()}/learn`);
+    persistSession({ level: levelKey, screen: "learn", wordIndex: resumeWordIndex });
   };
 
   const handleWordIndexChange = (wordIndex: number) => {
-    setResumeWordIndex(wordIndex);
     if (!levelKey) return;
-    persistSession({ level: levelKey, screen: "learn", batchIndex, wordIndex });
+    persistSession({ level: levelKey, screen: "learn", wordIndex });
   };
 
   const handleFinishLearn = () => {
-    setStage("quiz");
     if (!levelKey) return;
-    persistSession({ level: levelKey, screen: "quiz", batchIndex, wordIndex: 0 });
+    navigate(`/${levelKey.toLowerCase()}/quiz`);
+    persistSession({ level: levelKey, screen: "quiz", wordIndex: 0 });
   };
 
   // Runs exactly once as soon as the quiz for the current batch finishes,
@@ -202,25 +213,20 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
   // without tapping anything) — so progress is never lost.
   const handleQuizComplete = () => {
     if (!levelKey) return;
-    const learnedSet = new Set(progress.learnedWords[levelKey] ?? []);
-    batch.forEach((w) => learnedSet.add(w.en));
-    const updatedLearnedWords = Array.from(learnedSet);
-    // Derived from the actual learned-word count (a Set, so adding the same
-    // batch twice is harmless) rather than "batchIndex + 1", so this can
-    // never drift out of sync even if this handler somehow ran twice.
-    const nextBatchIndex = Math.floor(updatedLearnedWords.length / BATCH_SIZE);
-    setBatchIndex(nextBatchIndex);
-    setResumeWordIndex(0);
+    const updatedSet = new Set(progress.learnedWords[levelKey] ?? []);
+    batch.forEach((w) => updatedSet.add(w.en));
+    const updatedLearnedWords = Array.from(updatedSet);
     updateProgress((p) => ({
+      ...p,
       learnedWords: { ...p.learnedWords, [levelKey]: updatedLearnedWords },
-      session: { level: levelKey, screen: "quiz", batchIndex: nextBatchIndex, wordIndex: 0 },
+      session: { level: levelKey, screen: "quiz", wordIndex: 0 },
     }));
   };
 
   const handleNextBatch = () => {
     if (!levelKey) return;
-    setStage("learn");
-    persistSession({ level: levelKey, screen: "learn", batchIndex, wordIndex: 0 });
+    navigate(`/${levelKey.toLowerCase()}/learn`);
+    persistSession({ level: levelKey, screen: "learn", wordIndex: 0 });
   };
 
   return (
@@ -256,6 +262,8 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
             level={level}
             pool={pool}
             learnedWords={learnedWords}
+            batchSize={batchSize}
+            onChangeBatchSize={handleChangeBatchSize}
             onContinue={handleContinueLearning}
             onBack={handleBackToLevels}
           />

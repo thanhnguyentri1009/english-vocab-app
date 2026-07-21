@@ -5,6 +5,24 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>English Vocabulary Builder</title>
+    <!-- Counterpart to public/404.html — restores the real path (encoded
+         there as ?redirect=...) before React Router mounts, so a hard
+         refresh on a client-side route like /english-vocab-app/b1 works
+         on GitHub Pages' static hosting. -->
+    <script>
+      (function () {
+        var redirect = new URLSearchParams(window.location.search).get(
+          "redirect",
+        );
+        if (redirect) {
+          history.replaceState(
+            null,
+            "",
+            window.location.pathname.replace(/\/$/, "") + "/" + redirect,
+          );
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
