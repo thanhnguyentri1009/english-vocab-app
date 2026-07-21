@@ -1,4 +1,11 @@
-import { doc, onSnapshot, serverTimestamp, setDoc, type Unsubscribe } from 'firebase/firestore'
+import {
+  doc,
+  getDoc,
+  onSnapshot,
+  serverTimestamp,
+  setDoc,
+  type Unsubscribe,
+} from 'firebase/firestore'
 import { db } from '../firebase'
 import type { CefrLevel } from '../data/vocabulary'
 
@@ -14,50 +21,64 @@ export interface Session {
 export interface ProgressState {
   learnedWords: Partial<Record<CefrLevel, string[]>>
   session?: Session
+  // Client clock timestamp of the last local change — used to resolve
+  // conflicts between the local cache and Firestore (last write wins).
+  updatedAt?: number
 }
-
-const STORAGE_KEY = 'vocab-progress-v1'
-
-// Fixed sync code shared across devices — anyone who opens this app syncs
-// to the same Firestore document. No login, so treat it as a shared diary.
-const SYNC_CODE = 'thanh'
 
 const defaultState: ProgressState = { learnedWords: {} }
 
-export function loadProgress(): ProgressState {
+function storageKey(code: string) {
+  return `vocab-progress-v1:${code}`
+}
+
+export function loadProgress(code: string): ProgressState {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY)
+    const raw = localStorage.getItem(storageKey(code))
     if (!raw) return defaultState
     const parsed = JSON.parse(raw) as ProgressState
-    return { learnedWords: parsed.learnedWords ?? {}, session: parsed.session }
+    return {
+      learnedWords: parsed.learnedWords ?? {},
+      session: parsed.session,
+      updatedAt: parsed.updatedAt,
+    }
   } catch {
     return defaultState
   }
 }
 
-export function saveProgress(state: ProgressState) {
+export function saveProgress(code: string, state: ProgressState) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state))
+    localStorage.setItem(storageKey(code), JSON.stringify(state))
   } catch {
     // localStorage may be unavailable (private browsing, storage disabled) — ignore
   }
 }
 
-function progressDocRef() {
-  return doc(db, 'progress', SYNC_CODE)
+function progressDocRef(code: string) {
+  return doc(db, 'progress', code)
+}
+
+// Access is only granted to codes whose document was created ahead of time
+// (manually, in the Firestore console) — this never auto-creates new ones.
+export async function codeExists(code: string): Promise<boolean> {
+  const snapshot = await getDoc(progressDocRef(code))
+  return snapshot.exists()
 }
 
 export function subscribeRemoteProgress(
+  code: string,
   onUpdate: (state: ProgressState) => void,
 ): Unsubscribe {
   return onSnapshot(
-    progressDocRef(),
+    progressDocRef(code),
     (snapshot) => {
       const data = snapshot.data()
       if (!data) return
       onUpdate({
         learnedWords: (data.learnedWords as ProgressState['learnedWords']) ?? {},
         session: (data.session as Session | null | undefined) ?? undefined,
+        updatedAt: (data.updatedAt as number | undefined) ?? 0,
       })
     },
     () => {
@@ -66,12 +87,13 @@ export function subscribeRemoteProgress(
   )
 }
 
-export function pushRemoteProgress(state: ProgressState) {
+export function pushRemoteProgress(code: string, state: ProgressState) {
   // Firestore rejects `undefined` field values — use `null` instead.
-  setDoc(progressDocRef(), {
+  setDoc(progressDocRef(code), {
     learnedWords: state.learnedWords,
     session: state.session ?? null,
-    updatedAt: serverTimestamp(),
+    updatedAt: state.updatedAt ?? Date.now(),
+    serverUpdatedAt: serverTimestamp(),
   }).catch(() => {
     // offline — local cache already has the data, will sync on the next change
   })

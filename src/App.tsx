@@ -4,22 +4,65 @@ import "./App.css";
 import LevelDetail from "./components/LevelDetail";
 import LevelSelect from "./components/LevelSelect";
 import Quiz from "./components/Quiz";
+import SyncCodeGate from "./components/SyncCodeGate";
 import WordLearn from "./components/WordLearn";
 import { CefrLevel, LEVELS, VOCABULARY } from "./data/vocabulary";
 import {
   loadProgress,
+  ProgressState,
+  pushRemoteProgress,
   saveProgress,
   subscribeRemoteProgress,
-  pushRemoteProgress,
-  ProgressState,
 } from "./utils/progress";
+import { clearSyncCode, getSyncCode, setSyncCode } from "./utils/syncCode";
 
 const BATCH_SIZE = 6;
 
 type Stage = "select" | "levelDetail" | "learn" | "quiz";
 
+const baseTheme = {
+  algorithm: theme.defaultAlgorithm,
+  token: {
+    colorPrimary: "#7aa7d9",
+    fontFamily: "'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif",
+    borderRadius: 12,
+  },
+};
+
 function App() {
-  const [progress, setProgress] = useState<ProgressState>(() => loadProgress());
+  const [syncCode, setSyncCodeState] = useState<string | null>(() => getSyncCode());
+
+  if (!syncCode) {
+    return (
+      <ConfigProvider theme={baseTheme}>
+        <SyncCodeGate
+          onSubmit={(code) => {
+            setSyncCode(code);
+            setSyncCodeState(code);
+          }}
+        />
+      </ConfigProvider>
+    );
+  }
+
+  return (
+    <VocabApp
+      syncCode={syncCode}
+      onSwitchAccount={() => {
+        clearSyncCode();
+        setSyncCodeState(null);
+      }}
+    />
+  );
+}
+
+interface VocabAppProps {
+  syncCode: string;
+  onSwitchAccount: () => void;
+}
+
+function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
+  const [progress, setProgress] = useState<ProgressState>(() => loadProgress(syncCode));
   const [levelKey, setLevelKey] = useState<CefrLevel | null>(
     () => progress.session?.level ?? null,
   );
@@ -32,27 +75,38 @@ function App() {
   const appliedRemoteRef = useRef(false);
 
   useEffect(() => {
-    saveProgress(progress);
-  }, [progress]);
+    saveProgress(syncCode, progress);
+  }, [syncCode, progress]);
 
   // Listen for changes made from any other device using the same sync code.
   useEffect(() => {
-    const unsubscribe = subscribeRemoteProgress((remoteState) => {
-      setProgress(remoteState);
-      // Only jump to another device's in-progress session once, right after
-      // the app opens — not while the user is actively navigating locally.
-      if (!appliedRemoteRef.current) {
-        appliedRemoteRef.current = true;
-        if (remoteState.session) {
-          setLevelKey(remoteState.session.level);
-          setBatchIndex(remoteState.session.batchIndex);
-          setResumeWordIndex(remoteState.session.wordIndex);
-          setStage(remoteState.session.screen);
+    const unsubscribe = subscribeRemoteProgress(syncCode, (remoteState) => {
+      setProgress((current) => {
+        const remoteTime = remoteState.updatedAt ?? 0;
+        const localTime = current.updatedAt ?? 0;
+        if (remoteTime < localTime) {
+          // Our local change hasn't reached Firestore yet (e.g. the page was
+          // refreshed right after an action) — keep the newer local data and
+          // re-push it so the remote copy catches up.
+          pushRemoteProgress(syncCode, current);
+          return current;
         }
-      }
+        // Only jump to another device's in-progress session once, right
+        // after the app opens — not while navigating locally.
+        if (!appliedRemoteRef.current) {
+          appliedRemoteRef.current = true;
+          if (remoteState.session) {
+            setLevelKey(remoteState.session.level);
+            setBatchIndex(remoteState.session.batchIndex);
+            setResumeWordIndex(remoteState.session.wordIndex);
+            setStage(remoteState.session.screen);
+          }
+        }
+        return remoteState;
+      });
     });
     return unsubscribe;
-  }, []);
+  }, [syncCode]);
 
   const level = LEVELS.find((l) => l.key === levelKey);
   const pool = levelKey ? VOCABULARY[levelKey] : [];
@@ -72,9 +126,9 @@ function App() {
   // pushed to Firestore so other devices using the same sync code see it.
   const updateProgress = (updater: (p: ProgressState) => ProgressState) => {
     setProgress((prev) => {
-      const next = updater(prev);
-      saveProgress(next);
-      pushRemoteProgress(next);
+      const next = { ...updater(prev), updatedAt: Date.now() };
+      saveProgress(syncCode, next);
+      pushRemoteProgress(syncCode, next);
       return next;
     });
   };
@@ -84,11 +138,28 @@ function App() {
   };
 
   const handleSelectLevel = (key: CefrLevel) => {
+    // Resume exactly where they left off if that's this same level;
+    // otherwise start from the first batch that hasn't been learned yet
+    // (derived from the actual learned-word count, never hardcoded to 0).
+    const existingSession = progress.session;
+    const resumingSameLevel = existingSession?.level === key;
+    const learnedCount = progress.learnedWords[key]?.length ?? 0;
+    const nextBatchIndex = Math.floor(learnedCount / BATCH_SIZE);
+    const resolvedBatchIndex = resumingSameLevel
+      ? existingSession.batchIndex
+      : nextBatchIndex;
+    const resolvedWordIndex = resumingSameLevel ? existingSession.wordIndex : 0;
+
     setLevelKey(key);
-    setBatchIndex(0);
-    setResumeWordIndex(0);
+    setBatchIndex(resolvedBatchIndex);
+    setResumeWordIndex(resolvedWordIndex);
     setStage("levelDetail");
-    persistSession({ level: key, screen: "levelDetail", batchIndex: 0, wordIndex: 0 });
+    persistSession({
+      level: key,
+      screen: "levelDetail",
+      batchIndex: resolvedBatchIndex,
+      wordIndex: resolvedWordIndex,
+    });
   };
 
   const handleBackToLevels = () => {
@@ -126,18 +197,30 @@ function App() {
     persistSession({ level: levelKey, screen: "quiz", batchIndex, wordIndex: 0 });
   };
 
-  const handleNextBatch = () => {
+  // Runs exactly once as soon as the quiz for the current batch finishes,
+  // regardless of which button the user taps afterwards (or if they leave
+  // without tapping anything) — so progress is never lost.
+  const handleQuizComplete = () => {
     if (!levelKey) return;
     const learnedSet = new Set(progress.learnedWords[levelKey] ?? []);
     batch.forEach((w) => learnedSet.add(w.en));
-    const nextBatchIndex = batchIndex + 1;
+    const updatedLearnedWords = Array.from(learnedSet);
+    // Derived from the actual learned-word count (a Set, so adding the same
+    // batch twice is harmless) rather than "batchIndex + 1", so this can
+    // never drift out of sync even if this handler somehow ran twice.
+    const nextBatchIndex = Math.floor(updatedLearnedWords.length / BATCH_SIZE);
     setBatchIndex(nextBatchIndex);
     setResumeWordIndex(0);
-    setStage("learn");
     updateProgress((p) => ({
-      learnedWords: { ...p.learnedWords, [levelKey]: Array.from(learnedSet) },
-      session: { level: levelKey, screen: "learn", batchIndex: nextBatchIndex, wordIndex: 0 },
+      learnedWords: { ...p.learnedWords, [levelKey]: updatedLearnedWords },
+      session: { level: levelKey, screen: "quiz", batchIndex: nextBatchIndex, wordIndex: 0 },
     }));
+  };
+
+  const handleNextBatch = () => {
+    if (!levelKey) return;
+    setStage("learn");
+    persistSession({ level: levelKey, screen: "learn", batchIndex, wordIndex: 0 });
   };
 
   return (
@@ -161,7 +244,12 @@ function App() {
         }}
       >
         {stage === "select" && (
-          <LevelSelect onSelect={handleSelectLevel} learnedWords={progress.learnedWords} />
+          <LevelSelect
+            onSelect={handleSelectLevel}
+            learnedWords={progress.learnedWords}
+            syncCode={syncCode}
+            onSwitchAccount={onSwitchAccount}
+          />
         )}
         {stage === "levelDetail" && level && (
           <LevelDetail
@@ -187,6 +275,7 @@ function App() {
             words={batch}
             pool={pool}
             accent={level.accent}
+            onComplete={handleQuizComplete}
             onDone={handleNextBatch}
             onBack={handleBackToDetail}
           />

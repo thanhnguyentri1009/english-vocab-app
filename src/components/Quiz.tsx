@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Button, Card, Typography, Row, Col, Progress, Space, Result } from 'antd'
 import { CheckCircleFilled, CloseCircleFilled } from '@ant-design/icons'
 import type { VocabularyWord } from '../data/vocabulary'
@@ -31,16 +31,30 @@ interface QuizProps {
   words: VocabularyWord[]
   pool: VocabularyWord[]
   accent: string
+  onComplete: () => void
   onDone: () => void
   onBack: () => void
 }
 
-export default function Quiz({ words, pool, accent, onDone, onBack }: QuizProps) {
+export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }: QuizProps) {
   const questions = useMemo(() => buildQuestions(words, pool), [words, pool])
   const [step, setStep] = useState(0)
   const [selected, setSelected] = useState<VocabularyWord | null>(null)
   const [score, setScore] = useState(0)
   const [finished, setFinished] = useState(false)
+  const completedRef = useRef(false)
+
+  // Mark the batch as learned the moment the quiz finishes, regardless of
+  // which button the user taps afterwards (or if they just close the tab).
+  // Guarded so it only ever fires once per batch, even under React
+  // StrictMode's dev-only double-invoked effects.
+  useEffect(() => {
+    if (finished && !completedRef.current) {
+      completedRef.current = true
+      onComplete()
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [finished])
 
   const question = questions[step]
   const isLast = step === questions.length - 1

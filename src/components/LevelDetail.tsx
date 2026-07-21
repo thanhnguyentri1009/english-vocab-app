@@ -1,5 +1,6 @@
-import { Button, List, Progress, Space, Typography } from 'antd'
-import { LeftOutlined } from '@ant-design/icons'
+import { useState } from 'react'
+import { Button, List, Modal, Progress, Space, Typography } from 'antd'
+import { LeftOutlined, UnorderedListOutlined } from '@ant-design/icons'
 import type { LevelInfo, VocabularyWord } from '../data/vocabulary'
 
 const { Title, Text } = Typography
@@ -19,6 +20,7 @@ export default function LevelDetail({
   onContinue,
   onBack,
 }: LevelDetailProps) {
+  const [showLearned, setShowLearned] = useState(false)
   const learnedSet = new Set(learnedWords)
   const learnedEntries = pool.filter((w) => learnedSet.has(w.en))
   const hasProgress = learnedEntries.length > 0
@@ -54,26 +56,31 @@ export default function LevelDetail({
         shape="round"
         block
         onClick={onContinue}
-        style={{ background: level.accent, borderColor: level.accent, marginBottom: 24 }}
+        style={{ background: level.accent, borderColor: level.accent, marginBottom: 12 }}
       >
         {hasProgress ? 'Continue learning' : 'Start learning'}
       </Button>
 
-      <Title level={4} style={{ color: '#5b6b7a', marginBottom: 12 }}>
-        Words you've learned
-      </Title>
-      {hasProgress ? (
+      <Button
+        shape="round"
+        block
+        icon={<UnorderedListOutlined />}
+        disabled={!hasProgress}
+        onClick={() => setShowLearned(true)}
+      >
+        View learned words ({learnedEntries.length})
+      </Button>
+
+      <Modal
+        title={`Words you've learned — ${level.title}`}
+        open={showLearned}
+        onCancel={() => setShowLearned(false)}
+        footer={null}
+      >
         <List
           size="small"
           dataSource={learnedEntries}
-          style={{
-            maxHeight: 340,
-            overflowY: 'auto',
-            background: '#fff',
-            borderRadius: 12,
-            border: '1px solid #e5e9ed',
-            padding: '4px 16px',
-          }}
+          pagination={{ pageSize: 10, size: 'small', align: 'center' }}
           renderItem={(word) => (
             <List.Item>
               <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
@@ -83,11 +90,7 @@ export default function LevelDetail({
             </List.Item>
           )}
         />
-      ) : (
-        <Text style={{ color: '#a3adb6' }}>
-          You haven't learned any words at this level yet — start now!
-        </Text>
-      )}
+      </Modal>
     </div>
   )
 }
