@@ -57,7 +57,7 @@ export function subscribeRemoteProgress(
       if (!data) return
       onUpdate({
         learnedWords: (data.learnedWords as ProgressState['learnedWords']) ?? {},
-        session: data.session as Session | undefined,
+        session: (data.session as Session | null | undefined) ?? undefined,
       })
     },
     () => {
@@ -67,7 +67,12 @@ export function subscribeRemoteProgress(
 }
 
 export function pushRemoteProgress(state: ProgressState) {
-  setDoc(progressDocRef(), { ...state, updatedAt: serverTimestamp() }).catch(() => {
+  // Firestore rejects `undefined` field values — use `null` instead.
+  setDoc(progressDocRef(), {
+    learnedWords: state.learnedWords,
+    session: state.session ?? null,
+    updatedAt: serverTimestamp(),
+  }).catch(() => {
     // offline — local cache already has the data, will sync on the next change
   })
 }
