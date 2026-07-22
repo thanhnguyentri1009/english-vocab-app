@@ -86,6 +86,7 @@ export default function LevelSelect({
                   border: `1px solid ${level.accent}33`,
                   boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
                   height: "100%",
+                  minHeight: 180,
                 }}
                 styles={{
                   body: {
@@ -99,10 +100,11 @@ export default function LevelSelect({
               >
                 <div
                   style={{
-                    fontSize: 30,
+                    fontSize: "clamp(18px, 4vw, 26px)",
                     fontWeight: 700,
                     color: level.accent,
                     marginBottom: 6,
+                    lineHeight: 1.25,
                   }}
                 >
                   {level.title}
