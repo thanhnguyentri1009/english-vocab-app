@@ -4,8 +4,11 @@ export type { VocabularyWord } from './word'
 import { LEVELS as OXFORD_LEVELS, VOCABULARY as OXFORD_VOCABULARY } from './oxford'
 import { TOEIC_LEVELS, TOEIC } from './toeic'
 import { IELTS_LEVELS, IELTS } from './ielts'
+import { COLLOCATION_LEVELS, COLLOCATION } from './collocation'
+import { PHRASAL_VERB_LEVELS, PHRASAL_VERBS } from './phrasal-verbs'
+import { IDIOM_LEVELS, IDIOMS } from './idioms'
 
-export type Topic = 'oxford' | 'toeic' | 'ielts'
+export type Topic = 'oxford' | 'toeic' | 'ielts' | 'collocation' | 'phrasal-verbs' | 'idioms'
 
 export interface TopicInfo {
   key: Topic
@@ -37,6 +40,27 @@ export const TOPICS: TopicInfo[] = [
     color: '#fdeaf0',
     accent: '#d97aa0',
   },
+  {
+    key: 'collocation',
+    title: 'Collocation',
+    subtitle: 'Common word pairs by context',
+    color: '#f0f5ea',
+    accent: '#8cae5c',
+  },
+  {
+    key: 'phrasal-verbs',
+    title: 'Phrasal Verbs',
+    subtitle: 'Verb + particle by context',
+    color: '#eaf6f5',
+    accent: '#4fa89c',
+  },
+  {
+    key: 'idioms',
+    title: 'Idioms',
+    subtitle: 'Common expressions by theme',
+    color: '#f5eaff',
+    accent: '#b17ad9',
+  },
 ]
 
 export interface LevelInfo {
@@ -55,6 +79,12 @@ export function getLevelsForTopic(topic: Topic): LevelInfo[] {
       return TOEIC_LEVELS
     case 'ielts':
       return IELTS_LEVELS
+    case 'collocation':
+      return COLLOCATION_LEVELS
+    case 'phrasal-verbs':
+      return PHRASAL_VERB_LEVELS
+    case 'idioms':
+      return IDIOM_LEVELS
   }
 }
 
@@ -66,6 +96,12 @@ export function getVocabularyForTopic(topic: Topic): Record<string, VocabularyWo
       return TOEIC
     case 'ielts':
       return IELTS
+    case 'collocation':
+      return COLLOCATION
+    case 'phrasal-verbs':
+      return PHRASAL_VERBS
+    case 'idioms':
+      return IDIOMS
   }
 }
 
