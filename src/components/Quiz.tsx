@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { Button, Card, Typography, Row, Col, Progress, Space, Result } from 'antd'
+import { Button, Card, Typography, Row, Col, Progress, Space, Result, List } from 'antd'
 import { CheckCircleFilled, CloseCircleFilled } from '@ant-design/icons'
 import type { VocabularyWord } from '../data/vocabulary'
 
@@ -40,7 +40,11 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
   const questions = useMemo(() => buildQuestions(words, pool), [words, pool])
   const [step, setStep] = useState(0)
   const [selected, setSelected] = useState<VocabularyWord | null>(null)
+  const [wrongOptions, setWrongOptions] = useState<Set<string>>(new Set())
+  const [flashWrong, setFlashWrong] = useState<string | null>(null)
+  const [erred, setErred] = useState(false)
   const [score, setScore] = useState(0)
+  const [missedWords, setMissedWords] = useState<VocabularyWord[]>([])
   const [finished, setFinished] = useState(false)
   const completedRef = useRef(false)
 
@@ -60,14 +64,31 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
   const isLast = step === questions.length - 1
 
   const choose = (option: VocabularyWord) => {
-    if (selected) return
-    setSelected(option)
-    if (option.en === question.word.en) setScore((s) => s + 1)
+    if (selected || flashWrong || wrongOptions.has(option.en)) return
+    if (option.en === question.word.en) {
+      setSelected(option)
+      if (!erred) setScore((s) => s + 1)
+    } else {
+      setErred(true)
+      setFlashWrong(option.en)
+      setWrongOptions((prev) => new Set(prev).add(option.en))
+    }
   }
+
+  // Briefly flash the wrong option red, then clear it so the user can pick
+  // again — a miss no longer skips straight to the next question.
+  useEffect(() => {
+    if (!flashWrong) return
+    const timer = setTimeout(() => setFlashWrong(null), 700)
+    return () => clearTimeout(timer)
+  }, [flashWrong])
 
   useEffect(() => {
     if (!selected) return
     const timer = setTimeout(() => {
+      setWrongOptions(new Set())
+      setErred(false)
+      if (erred) setMissedWords((prev) => [...prev, question.word])
       if (isLast) {
         setFinished(true)
       } else {
@@ -76,7 +97,7 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
       }
     }, 900)
     return () => clearTimeout(timer)
-  }, [selected, isLast])
+  }, [selected, isLast, erred, question])
 
   if (finished) {
     return (
@@ -103,6 +124,25 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
             </Button>,
           ]}
         />
+        {missedWords.length > 0 && (
+          <Card
+            title={`Words you missed (${missedWords.length})`}
+            style={{ borderRadius: 16, marginTop: 8 }}
+          >
+            <List
+              size="small"
+              dataSource={missedWords}
+              renderItem={(word) => (
+                <List.Item>
+                  <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
+                    <Text strong>{word.en}</Text>
+                    <Text style={{ color: '#8a97a3' }}>{word.vi}</Text>
+                  </Space>
+                </List.Item>
+              )}
+            />
+          </Card>
+        )}
       </div>
     )
   }
@@ -159,32 +199,37 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
       <Row gutter={[16, 16]}>
         {question.options.map((option) => {
           const isCorrect = option.en === question.word.en
-          const isChosen = selected?.en === option.en
+          const isFlashingWrong = flashWrong === option.en
+          const isPermanentlyWrong = !isFlashingWrong && wrongOptions.has(option.en)
+          const isDisabled = Boolean(selected) || isFlashingWrong || isPermanentlyWrong
           let background = '#fff'
           let borderColor = '#e5e9ed'
           let icon: ReactNode = null
-          if (selected) {
-            if (isCorrect) {
-              background = '#f0fbf4'
-              borderColor = '#7ad9a3'
-              icon = <CheckCircleFilled style={{ color: '#52c47f' }} />
-            } else if (isChosen) {
-              background = '#fff3f0'
-              borderColor = '#e88'
-              icon = <CloseCircleFilled style={{ color: '#e26a5a' }} />
-            }
+          if (selected && isCorrect) {
+            background = '#f0fbf4'
+            borderColor = '#7ad9a3'
+            icon = <CheckCircleFilled style={{ color: '#52c47f' }} />
+          } else if (isFlashingWrong) {
+            background = '#fff3f0'
+            borderColor = '#e88'
+            icon = <CloseCircleFilled style={{ color: '#e26a5a' }} />
+          } else if (isPermanentlyWrong) {
+            background = '#f5f5f5'
+            borderColor = '#e5e9ed'
+            icon = <CloseCircleFilled style={{ color: '#c7ccd1' }} />
           }
           return (
             <Col xs={24} sm={12} key={option.en}>
               <Card
-                hoverable={!selected}
+                hoverable={!isDisabled}
                 onClick={() => choose(option)}
                 style={{
                   borderRadius: 14,
                   textAlign: 'center',
                   background,
                   border: `1.5px solid ${borderColor}`,
-                  cursor: selected ? 'default' : 'pointer',
+                  cursor: isDisabled ? 'default' : 'pointer',
+                  opacity: isPermanentlyWrong ? 0.7 : 1,
                 }}
                 styles={{ body: { padding: '16px 8px' } }}
               >

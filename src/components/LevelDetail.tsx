@@ -103,11 +103,12 @@ export default function LevelDetail({
         open={showLearned}
         onCancel={() => setShowLearned(false)}
         footer={null}
+        styles={{ body: { maxHeight: '70vh', overflowY: 'auto' } }}
       >
         <List
           size="small"
           dataSource={learnedEntries}
-          pagination={{ pageSize: 10, size: 'small', align: 'center' }}
+          pagination={{ defaultPageSize: 10, size: 'small', align: 'center' }}
           renderItem={(word) => (
             <List.Item>
               <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
