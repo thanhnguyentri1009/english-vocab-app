@@ -117,6 +117,10 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
 
   const appliedRemoteRef = useRef(false);
   const autoResumedRef = useRef(false);
+  // Firestore's first snapshot hasn't arrived yet right after mount — block
+  // remote pushes until then, so a stale local cache (e.g. resuming a saved
+  // session) can never race ahead of the real remote state and overwrite it.
+  const remoteSyncedRef = useRef(false);
 
   useEffect(() => {
     saveProgress(syncCode, progress);
@@ -124,7 +128,9 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
 
   // Listen for changes made from any other device using the same sync code.
   useEffect(() => {
+    remoteSyncedRef.current = false;
     const unsubscribe = subscribeRemoteProgress(syncCode, (remoteState) => {
+      remoteSyncedRef.current = true;
       setProgress((current) => {
         const remoteTime = remoteState.updatedAt ?? 0;
         const localTime = current.updatedAt ?? 0;
@@ -182,7 +188,14 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
     setProgress((prev) => {
       const next = { ...updater(prev), updatedAt: Date.now() };
       saveProgress(syncCode, next);
-      pushRemoteProgress(syncCode, next);
+      // Wait for the first Firestore snapshot before pushing — otherwise a
+      // change based on the stale local cache (e.g. an effect firing right
+      // after mount) could race ahead of a genuinely newer remote state and
+      // overwrite it. Once the first snapshot arrives, its own last-write-wins
+      // check re-pushes this change anyway if it's really the newer one.
+      if (remoteSyncedRef.current) {
+        pushRemoteProgress(syncCode, next);
+      }
       return next;
     });
   };

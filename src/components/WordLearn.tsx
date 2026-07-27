@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Button, Card, Typography, Row, Col, Progress, Space, Tag } from 'antd'
 import { LeftOutlined, RightOutlined, SoundOutlined } from '@ant-design/icons'
 import type { VocabularyWord } from '../data/vocabulary'
@@ -36,7 +36,16 @@ export default function WordLearn({
   const word = words[index]
   const isLast = index === words.length - 1
 
+  // Skip the very first run (mount, resuming a saved position) — only
+  // report real navigation, so resuming a session never re-pushes stale
+  // progress to Firestore with a fresh timestamp and clobbers newer data
+  // synced from another device.
+  const isFirstRender = useRef(true)
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false
+      return
+    }
     onIndexChange?.(index)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index])
