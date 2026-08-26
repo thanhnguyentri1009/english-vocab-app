@@ -25,7 +25,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
     try {
       const exists = await codeExists(trimmed);
       if (!exists) {
-        setError("Bạn không có quyền vào bài học.");
+        setError("This code does not exist. Please check and try again.");
         return;
       }
       onSubmit(trimmed);
