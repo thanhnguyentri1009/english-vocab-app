@@ -29,4 +29,18 @@ export const LEVELS: LevelInfo[] = [
     color: '#f5eaff',
     accent: '#b17ad9',
   },
+  {
+    key: 'C1',
+    title: 'C1',
+    subtitle: 'Advanced',
+    color: '#fdeaf0',
+    accent: '#d97aa0',
+  },
+  {
+    key: 'C2',
+    title: 'C2',
+    subtitle: 'Proficiency',
+    color: '#eaf6f5',
+    accent: '#4fa89c',
+  },
 ]
