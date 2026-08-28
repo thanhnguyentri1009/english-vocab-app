@@ -91,9 +91,16 @@ export default function SpeakingSession({ level, onBack }: Props) {
     rec.start();
   };
 
-  const stopRecording = () => {
-    (recRef.current as any)?.stop();
+  // Cancel: abort recording without scoring anything.
+  const cancelRecording = () => {
+    (recRef.current as any)?.abort?.();
     setStatus("idle");
+  };
+
+  // Submit: stop recording and let the pending result (if any) come through
+  // onresult so the score/transcript is shown.
+  const submitRecording = () => {
+    (recRef.current as any)?.stop();
   };
 
   const goTo = (next: number) => {
@@ -203,7 +210,7 @@ export default function SpeakingSession({ level, onBack }: Props) {
           {status !== "done" ? (
             <>
               <button
-                onClick={status === "idle" ? startRecording : stopRecording}
+                onClick={status === "idle" ? startRecording : cancelRecording}
                 disabled={!SpeechRecognitionAPI}
                 style={{
                   width: 80,
@@ -236,8 +243,23 @@ export default function SpeakingSession({ level, onBack }: Props) {
                   ? "Speech recognition requires Chrome"
                   : status === "idle"
                     ? "Tap to speak"
-                    : "Listening…"}
+                    : "Listening… tap the mic to cancel"}
               </div>
+
+              {status === "listening" && (
+                <Button
+                  type="primary"
+                  size="large"
+                  onClick={submitRecording}
+                  style={{
+                    marginTop: 16,
+                    background: level.accent,
+                    borderColor: level.accent,
+                  }}
+                >
+                  Submit
+                </Button>
+              )}
             </>
           ) : (
             <div>

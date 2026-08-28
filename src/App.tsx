@@ -2,7 +2,6 @@ import { ConfigProvider, theme } from "antd";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { BrowserRouter, useLocation, useNavigate } from "react-router-dom";
 import "./App.css";
-import ExerciseCategorySelect from "./components/ExerciseCategorySelect";
 import ExerciseQuiz from "./components/ExerciseQuiz";
 import LevelDetail from "./components/LevelDetail";
 import LevelSelect from "./components/LevelSelect";
@@ -42,7 +41,6 @@ type Stage =
   | "levelDetail"
   | "learn"
   | "quiz"
-  | "exerciseCategory"
   | "exerciseQuiz"
   | "speakingHome"
   | "speakingSession";
@@ -102,16 +100,14 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
     ? SPEAKING_LEVELS.find((l) => l.key === speakingLevelKey)
     : undefined;
 
-  // Determine if this is an exercise section (grammar / word-types)
+  // Determine if this is an exercise section (grammar / word-types) — each
+  // section is a single mixed pool now, so there's no per-category route.
   const exerciseSection: ExerciseSection | null =
     rawTopic === "grammar" || rawTopic === "word-types" ? rawTopic : null;
-  const exerciseCategoryKey = exerciseSection ? segments[1] : undefined;
 
   // Resolve the exercise category object
   const exerciseCategories = exerciseSection === "grammar" ? GRAMMAR_CATEGORIES : WORD_TYPE_CATEGORIES;
-  const exerciseCategory = exerciseCategoryKey
-    ? exerciseCategories.find((c) => c.key === exerciseCategoryKey)
-    : undefined;
+  const exerciseCategory = exerciseSection ? exerciseCategories[0] : undefined;
 
   // Vocabulary routing (unchanged)
   const topicKey = (TOPICS.some((t) => t.key === rawTopic) ? rawTopic : null) as Topic | null;
@@ -128,9 +124,7 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
       ? "speakingSession"
       : "speakingHome"
     : exerciseSection
-      ? exerciseCategoryKey
-        ? "exerciseQuiz"
-        : "exerciseCategory"
+      ? "exerciseQuiz"
       : !topicKey
         ? "topicSelect"
         : !levelKey
@@ -147,13 +141,15 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
       navigate("/", { replace: true });
     } else if (topicKey && segments[1] && !levelKey) {
       navigate(`/${topicKey}`, { replace: true });
-    } else if (exerciseSection && exerciseCategoryKey && !exerciseCategory) {
+    } else if (exerciseSection && segments[1]) {
+      // Old per-category routes (e.g. /grammar/tenses) no longer exist —
+      // each section is now a single mixed pool.
       navigate(`/${exerciseSection}`, { replace: true });
     } else if (isSpeaking && speakingLevelKey && !speakingLevel) {
       navigate("/speaking", { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [segments[0], segments[1], topicKey, levelKey, exerciseSection, exerciseCategoryKey, isSpeaking, speakingLevelKey]);
+  }, [segments[0], segments[1], topicKey, levelKey, exerciseSection, isSpeaking, speakingLevelKey]);
 
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress(syncCode));
   const [batchSize, setBatchSize] = useState(() => progress.batchSize ?? DEFAULT_BATCH_SIZE);
@@ -299,8 +295,7 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
   const activeTab = isSpeaking ? "speaking" : (exerciseSection ?? "vocabulary");
 
   // Which stages show the main tab bar
-  const showTabBar =
-    stage === "topicSelect" || stage === "exerciseCategory" || stage === "speakingHome";
+  const showTabBar = stage === "topicSelect" || stage === "speakingHome";
 
   return (
     <ConfigProvider
@@ -340,17 +335,10 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
             onSwitchAccount={onSwitchAccount}
           />
         )}
-        {stage === "exerciseCategory" && exerciseSection && (
-          <ExerciseCategorySelect
-            section={exerciseSection}
-            categories={exerciseCategories}
-            onSelect={(key) => navigate(`/${exerciseSection}/${key}`)}
-          />
-        )}
         {stage === "exerciseQuiz" && exerciseSection && exerciseCategory && (
           <ExerciseQuiz
             category={exerciseCategory}
-            onBack={() => navigate(`/${exerciseSection}`)}
+            onBack={() => navigate("/")}
           />
         )}
         {stage === "select" && topicInfo && (
