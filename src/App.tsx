@@ -7,6 +7,8 @@ import ExerciseQuiz from "./components/ExerciseQuiz";
 import LevelDetail from "./components/LevelDetail";
 import LevelSelect from "./components/LevelSelect";
 import Quiz from "./components/Quiz";
+import SpeakingLevelSelect from "./components/SpeakingLevelSelect";
+import SpeakingSession from "./components/SpeakingSession";
 import SyncCodeGate from "./components/SyncCodeGate";
 import TopicSelect from "./components/TopicSelect";
 import WordLearn from "./components/WordLearn";
@@ -14,6 +16,7 @@ import {
   GRAMMAR_CATEGORIES,
   WORD_TYPE_CATEGORIES,
 } from "./data/exercises";
+import { SPEAKING_LEVELS } from "./data/speaking/sentences";
 import {
   findTopicForLevel,
   getLevelsForTopic,
@@ -40,7 +43,9 @@ type Stage =
   | "learn"
   | "quiz"
   | "exerciseCategory"
-  | "exerciseQuiz";
+  | "exerciseQuiz"
+  | "speakingHome"
+  | "speakingSession";
 
 const baseTheme = {
   algorithm: theme.defaultAlgorithm,
@@ -90,6 +95,13 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
   const segments = location.pathname.split("/").filter(Boolean);
   const rawTopic = segments[0];
 
+  // Determine if this is a speaking section
+  const isSpeaking = rawTopic === "speaking";
+  const speakingLevelKey = isSpeaking ? segments[1]?.toLowerCase() : undefined;
+  const speakingLevel = speakingLevelKey
+    ? SPEAKING_LEVELS.find((l) => l.key === speakingLevelKey)
+    : undefined;
+
   // Determine if this is an exercise section (grammar / word-types)
   const exerciseSection: ExerciseSection | null =
     rawTopic === "grammar" || rawTopic === "word-types" ? rawTopic : null;
@@ -111,31 +123,37 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
   const levelKey = matchedLevel ? matchedLevel.key : null;
   const subRoute = segments[2];
 
-  const stage: Stage = exerciseSection
-    ? exerciseCategoryKey
-      ? "exerciseQuiz"
-      : "exerciseCategory"
-    : !topicKey
-      ? "topicSelect"
-      : !levelKey
-        ? "select"
-        : subRoute === "quiz"
-          ? "quiz"
-          : subRoute === "learn"
-            ? "learn"
-            : "levelDetail";
+  const stage: Stage = isSpeaking
+    ? speakingLevelKey && speakingLevel
+      ? "speakingSession"
+      : "speakingHome"
+    : exerciseSection
+      ? exerciseCategoryKey
+        ? "exerciseQuiz"
+        : "exerciseCategory"
+      : !topicKey
+        ? "topicSelect"
+        : !levelKey
+          ? "select"
+          : subRoute === "quiz"
+            ? "quiz"
+            : subRoute === "learn"
+              ? "learn"
+              : "levelDetail";
 
   // Redirect unknown routes
   useEffect(() => {
-    if (segments[0] && !topicKey && !exerciseSection) {
+    if (segments[0] && !topicKey && !exerciseSection && !isSpeaking) {
       navigate("/", { replace: true });
     } else if (topicKey && segments[1] && !levelKey) {
       navigate(`/${topicKey}`, { replace: true });
     } else if (exerciseSection && exerciseCategoryKey && !exerciseCategory) {
       navigate(`/${exerciseSection}`, { replace: true });
+    } else if (isSpeaking && speakingLevelKey && !speakingLevel) {
+      navigate("/speaking", { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [segments[0], segments[1], topicKey, levelKey, exerciseSection, exerciseCategoryKey]);
+  }, [segments[0], segments[1], topicKey, levelKey, exerciseSection, exerciseCategoryKey, isSpeaking, speakingLevelKey]);
 
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress(syncCode));
   const [batchSize, setBatchSize] = useState(() => progress.batchSize ?? DEFAULT_BATCH_SIZE);
@@ -278,10 +296,11 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
   const topicInfo = topicKey ? TOPICS.find((t) => t.key === topicKey) : undefined;
 
   // Determine active main tab
-  const activeTab = exerciseSection ?? "vocabulary";
+  const activeTab = isSpeaking ? "speaking" : (exerciseSection ?? "vocabulary");
 
   // Which stages show the main tab bar
-  const showTabBar = stage === "topicSelect" || stage === "exerciseCategory";
+  const showTabBar =
+    stage === "topicSelect" || stage === "exerciseCategory" || stage === "speakingHome";
 
   return (
     <ConfigProvider
@@ -378,6 +397,18 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
             onBack={handleBackToDetail}
           />
         )}
+        {stage === "speakingHome" && (
+          <SpeakingLevelSelect
+            levels={SPEAKING_LEVELS}
+            onSelect={(key) => navigate(`/speaking/${key}`)}
+          />
+        )}
+        {stage === "speakingSession" && speakingLevel && (
+          <SpeakingSession
+            level={speakingLevel}
+            onBack={() => navigate("/speaking")}
+          />
+        )}
       </div>
     </ConfigProvider>
   );
@@ -387,6 +418,7 @@ const TABS = [
   { key: "vocabulary", label: "Vocabulary" },
   { key: "grammar", label: "Grammar" },
   { key: "word-types", label: "Word Types" },
+  { key: "speaking", label: "Speaking" },
 ] as const;
 
 function MainTabBar({
