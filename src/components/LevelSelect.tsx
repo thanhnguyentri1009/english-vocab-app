@@ -1,5 +1,6 @@
 import { Button, Card, Col, Row, Typography } from "antd";
 import { LeftOutlined } from "@ant-design/icons";
+import { useTranslation } from "react-i18next";
 import type { LevelInfo, VocabularyWord } from "../data/vocabulary/topics";
 
 const { Title, Text } = Typography;
@@ -27,6 +28,7 @@ export default function LevelSelect({
   onSwitchAccount,
   onBackToTopics,
 }: LevelSelectProps) {
+  const { t } = useTranslation();
   return (
     <div style={{ padding: "24px 16px", maxWidth: 960, margin: "0 auto" }}>
       <Button
@@ -35,7 +37,7 @@ export default function LevelSelect({
         onClick={onBackToTopics}
         style={{ paddingLeft: 4, paddingRight: 4, marginBottom: 8 }}
       >
-        Topics
+        {t("levelSelect.topics")}
       </Button>
       <Title
         level={2}
@@ -59,7 +61,7 @@ export default function LevelSelect({
       </Text>
       <div style={{ textAlign: "center", marginBottom: 32 }}>
         <Text style={{ color: "#a3adb6" }}>
-          Signed in as <Text strong>{syncCode}</Text>
+          {t("common.signedInAs")} <Text strong>{syncCode}</Text>
         </Text>{" "}
         <Button
           type="link"
@@ -67,7 +69,7 @@ export default function LevelSelect({
           onClick={onSwitchAccount}
           style={{ padding: 0 }}
         >
-          Switch
+          {t("common.switch")}
         </Button>
       </div>
       <Row gutter={[20, 20]} justify="center" align="stretch">
@@ -117,7 +119,7 @@ export default function LevelSelect({
                     marginTop: 4,
                   }}
                 >
-                  {learnedCount > 0 ? `${learnedCount}/${total} learned` : " "}
+                  {learnedCount > 0 ? t("levelSelect.learnedCount", { learned: learnedCount, total }) : " "}
                 </Text>
               </Card>
             </Col>

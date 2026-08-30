@@ -1,8 +1,10 @@
 import { ConfigProvider, theme } from "antd";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { BrowserRouter, useLocation, useNavigate } from "react-router-dom";
 import "./App.css";
 import ExerciseQuiz from "./components/ExerciseQuiz";
+import LanguageSwitcher from "./components/LanguageSwitcher";
 import LevelDetail from "./components/LevelDetail";
 import LevelSelect from "./components/LevelSelect";
 import Quiz from "./components/Quiz";
@@ -61,6 +63,7 @@ function App() {
 
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <LanguageSwitcher />
       {!syncCode ? (
         <ConfigProvider theme={baseTheme}>
           <SyncCodeGate
@@ -345,6 +348,7 @@ function VocabApp({ syncCode, displayName, onSwitchAccount }: VocabAppProps) {
         {stage === "exerciseQuiz" && exerciseSection && exerciseCategory && (
           <ExerciseQuiz
             category={exerciseCategory}
+            syncCode={syncCode}
             onBack={() => navigate("/")}
           />
         )}
@@ -410,10 +414,10 @@ function VocabApp({ syncCode, displayName, onSwitchAccount }: VocabAppProps) {
 }
 
 const TABS = [
-  { key: "vocabulary", label: "Vocabulary" },
-  { key: "grammar", label: "Grammar" },
-  { key: "word-types", label: "Word Types" },
-  { key: "speaking", label: "Speaking" },
+  { key: "vocabulary", labelKey: "tabs.vocabulary" },
+  { key: "grammar", labelKey: "tabs.grammar" },
+  { key: "word-types", labelKey: "tabs.wordTypes" },
+  { key: "speaking", labelKey: "tabs.speaking" },
 ] as const;
 
 function MainTabBar({
@@ -423,6 +427,7 @@ function MainTabBar({
   active: string;
   onChange: (tab: string) => void;
 }) {
+  const { t } = useTranslation();
   return (
     <div
       style={{
@@ -451,7 +456,7 @@ function MainTabBar({
               transition: "all 0.15s",
             }}
           >
-            {tab.label}
+            {t(tab.labelKey)}
           </button>
         );
       })}

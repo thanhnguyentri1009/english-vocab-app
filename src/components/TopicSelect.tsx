@@ -1,4 +1,5 @@
 import { Button, Card, Col, Row, Typography } from "antd";
+import { useTranslation } from "react-i18next";
 import type { Topic, TopicInfo } from "../data/vocabulary";
 
 const { Title, Text } = Typography;
@@ -16,6 +17,7 @@ export default function TopicSelect({
   syncCode,
   onSwitchAccount,
 }: TopicSelectProps) {
+  const { t } = useTranslation();
   return (
     <div style={{ padding: "24px 16px", maxWidth: 960, margin: "0 auto" }}>
       <Title
@@ -26,7 +28,7 @@ export default function TopicSelect({
           fontSize: "clamp(22px, 6vw, 30px)",
         }}
       >
-        English Vocabulary Builder
+        {t("topicSelect.title")}
       </Title>
       <Text
         style={{
@@ -36,11 +38,11 @@ export default function TopicSelect({
           color: "#8a97a3",
         }}
       >
-        Pick a topic to start learning new words
+        {t("topicSelect.subtitle")}
       </Text>
       <div style={{ textAlign: "center", marginBottom: 32 }}>
         <Text style={{ color: "#a3adb6" }}>
-          Signed in as <Text strong>{syncCode}</Text>
+          {t("common.signedInAs")} <Text strong>{syncCode}</Text>
         </Text>{" "}
         <Button
           type="link"
@@ -48,7 +50,7 @@ export default function TopicSelect({
           onClick={onSwitchAccount}
           style={{ padding: 0 }}
         >
-          Switch
+          {t("common.switch")}
         </Button>
       </div>
       <Row gutter={[20, 20]} justify="center" align="stretch">

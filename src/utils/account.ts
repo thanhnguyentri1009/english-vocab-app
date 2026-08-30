@@ -61,26 +61,29 @@ export async function signOutAccount(): Promise<void> {
   }
 }
 
+// Returns an i18n key (under the "errors" namespace) rather than the final
+// message — callers translate it with `t()` so the message follows the
+// active language.
 export function friendlyAuthError(err: unknown): string {
   const code = (err as { code?: string } | null)?.code ?? ''
   switch (code) {
     case 'app/auth-unavailable':
-      return 'Account sign-in isn’t available right now. Please use a sync code instead.'
+      return 'errors.authUnavailable'
     case 'auth/email-already-in-use':
-      return 'This email is already registered. Try logging in instead.'
+      return 'errors.emailInUse'
     case 'auth/invalid-email':
-      return 'That email address looks invalid.'
+      return 'errors.invalidEmail'
     case 'auth/weak-password':
-      return 'Password should be at least 6 characters.'
+      return 'errors.weakPassword'
     case 'auth/user-not-found':
     case 'auth/wrong-password':
     case 'auth/invalid-credential':
-      return 'Incorrect email or password.'
+      return 'errors.incorrectCredentials'
     case 'auth/too-many-requests':
-      return 'Too many attempts. Please wait a moment and try again.'
+      return 'errors.tooManyRequests'
     case 'auth/network-request-failed':
-      return 'Network error. Please check your connection and try again.'
+      return 'errors.networkError'
     default:
-      return 'Something went wrong. Please try again.'
+      return 'errors.generic'
   }
 }

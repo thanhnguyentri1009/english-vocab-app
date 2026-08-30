@@ -1,4 +1,5 @@
 import { Card, Col, Row, Typography } from "antd";
+import { useTranslation } from "react-i18next";
 import type { SpeakingLevel } from "../data/speaking/sentences";
 
 const { Title, Text } = Typography;
@@ -9,16 +10,17 @@ interface Props {
 }
 
 export default function SpeakingLevelSelect({ levels, onSelect }: Props) {
+  const { t } = useTranslation();
   return (
     <div style={{ padding: "24px 16px", maxWidth: 960, margin: "0 auto" }}>
       <Title
         level={3}
         style={{ textAlign: "center", color: "#5b6b7a", marginBottom: 4, fontSize: "clamp(18px, 5vw, 24px)" }}
       >
-        Speaking Practice
+        {t("speakingLevelSelect.title")}
       </Title>
       <Text style={{ display: "block", textAlign: "center", color: "#8a97a3", marginBottom: 32 }}>
-        Choose your level and practise speaking aloud
+        {t("speakingLevelSelect.subtitle")}
       </Text>
       <Row gutter={[20, 20]} justify="center" align="stretch">
         {levels.map((level) => (
@@ -53,7 +55,7 @@ export default function SpeakingLevelSelect({ levels, onSelect }: Props) {
                 {level.description}
               </Text>
               <Text style={{ color: level.accent, fontSize: 13, fontWeight: 500 }}>
-                {level.sentences.length} sentences
+                {t("speakingLevelSelect.sentencesCount", { count: level.sentences.length })}
               </Text>
             </Card>
           </Col>

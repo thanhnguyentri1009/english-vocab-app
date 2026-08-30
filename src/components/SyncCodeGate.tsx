@@ -1,5 +1,6 @@
 import { Button, Card, Input, Typography } from "antd";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import type { User } from "firebase/auth";
 import {
   accountLabel,
@@ -24,6 +25,7 @@ type Mode = "account" | "code";
 type AccountMode = "register" | "login";
 
 export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
+  const { t } = useTranslation();
   const [mode, setMode] = useState<Mode>("code");
   const [accountMode, setAccountMode] = useState<AccountMode>("register");
 
@@ -47,7 +49,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
 
   const handleAccountSubmit = async () => {
     if (!email.trim() || !password) {
-      setAccountError("Enter both an email and a password.");
+      setAccountError("syncGate.enterEmailAndPassword");
       return;
     }
     setAccountBusy(true);
@@ -80,11 +82,11 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
         onSubmit(accountSyncCode(pendingUser.uid), accountLabel(pendingUser));
       } else {
         setVerifyMessageIsError(true);
-        setVerifyMessage("Still not verified — check your inbox (and spam folder) for the link.");
+        setVerifyMessage("syncGate.stillNotVerified");
       }
     } catch {
       setVerifyMessageIsError(true);
-      setVerifyMessage("Could not check right now. Please try again.");
+      setVerifyMessage("syncGate.couldNotCheck");
     } finally {
       setVerifyBusy(null);
     }
@@ -97,7 +99,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
     try {
       await sendVerificationEmail(pendingUser);
       setVerifyMessageIsError(false);
-      setVerifyMessage("Verification email sent again.");
+      setVerifyMessage("syncGate.verificationResent");
     } catch (err) {
       setVerifyMessageIsError(true);
       setVerifyMessage(friendlyAuthError(err));
@@ -116,7 +118,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
   const handleCodeSubmit = async () => {
     const trimmed = code.trim();
     if (!isValidSyncCode(trimmed)) {
-      setCodeError('Enter a name or code without "/" or "." characters.');
+      setCodeError("syncGate.invalidCode");
       return;
     }
     // Normalize any casing of the guest code so everyone using it shares
@@ -128,12 +130,12 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
     try {
       const exists = await codeExists(normalized);
       if (!exists) {
-        setCodeError("This code does not exist. Please check and try again.");
+        setCodeError("syncGate.codeNotFound");
         return;
       }
       onSubmit(normalized);
     } catch {
-      setCodeError("Could not connect right now. Please try again.");
+      setCodeError("syncGate.couldNotConnect");
     } finally {
       setCodeChecking(false);
     }
@@ -152,21 +154,22 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
     >
       <Card style={{ maxWidth: 360, width: "100%", borderRadius: 16, textAlign: "center" }}>
         <Title level={3} style={{ marginTop: 0, color: "#5b6b7a" }}>
-          Welcome
+          {t("syncGate.welcome")}
         </Title>
 
         {pendingUser ? (
           <>
             <Text style={{ color: "#8a97a3", display: "block", marginBottom: 20 }}>
-              We sent a verification link to <Text strong>{pendingUser.email}</Text>. Click
-              the link in that email, then come back here.
+              {t("syncGate.verifyInstructionsBefore")}
+              <Text strong>{pendingUser.email}</Text>
+              {t("syncGate.verifyInstructionsAfter")}
             </Text>
             {verifyMessage && (
               <Text
                 type={verifyMessageIsError ? "danger" : "success"}
                 style={{ display: "block", marginBottom: 8 }}
               >
-                {verifyMessage}
+                {t(verifyMessage)}
               </Text>
             )}
             <Button
@@ -178,7 +181,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
               disabled={verifyBusy !== null && verifyBusy !== "check"}
               style={{ marginBottom: 8 }}
             >
-              I've verified — Continue
+              {t("syncGate.checkVerifiedContinue")}
             </Button>
             <Button
               block
@@ -188,23 +191,23 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
               disabled={verifyBusy !== null && verifyBusy !== "resend"}
               style={{ marginBottom: 16 }}
             >
-              Resend email
+              {t("syncGate.resendEmail")}
             </Button>
             <Button type="link" size="small" onClick={handleLeaveVerify} style={{ color: "#a3adb6" }}>
-              Use a different email
+              {t("syncGate.useDifferentEmail")}
             </Button>
           </>
         ) : mode === "account" ? (
           <>
             <Text style={{ color: "#8a97a3", display: "block", marginBottom: 20 }}>
               {accountMode === "register"
-                ? "Create an account to save your learning progress and sync it across devices."
-                : "Log in to pick up right where you left off."}
+                ? t("syncGate.registerSubtitle")
+                : t("syncGate.loginSubtitle")}
             </Text>
 
             <Input
               size="large"
-              placeholder="Email"
+              placeholder={t("syncGate.emailPlaceholder")}
               value={email}
               onChange={(e) => {
                 setEmail(e.target.value);
@@ -216,7 +219,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
             />
             <Input.Password
               size="large"
-              placeholder="Password"
+              placeholder={t("syncGate.passwordPlaceholder")}
               value={password}
               onChange={(e) => {
                 setPassword(e.target.value);
@@ -228,7 +231,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
             />
             {accountError && (
               <Text type="danger" style={{ display: "block", marginBottom: 8 }}>
-                {accountError}
+                {t(accountError)}
               </Text>
             )}
             <Button
@@ -238,13 +241,13 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
               onClick={handleAccountSubmit}
               loading={accountBusy}
             >
-              {accountMode === "register" ? "Sign up" : "Log in"}
+              {accountMode === "register" ? t("syncGate.signUp") : t("syncGate.logIn")}
             </Button>
 
             <Text style={{ color: "#8a97a3", fontSize: 13, display: "block", marginTop: 16 }}>
               {accountMode === "register" ? (
                 <>
-                  Already have an account?{" "}
+                  {t("syncGate.alreadyHaveAccount")}{" "}
                   <Button
                     type="link"
                     size="small"
@@ -254,12 +257,12 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
                       setAccountError("");
                     }}
                   >
-                    Log in
+                    {t("syncGate.logIn")}
                   </Button>
                 </>
               ) : (
                 <>
-                  Don't have an account?{" "}
+                  {t("syncGate.noAccount")}{" "}
                   <Button
                     type="link"
                     size="small"
@@ -269,7 +272,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
                       setAccountError("");
                     }}
                   >
-                    Sign up
+                    {t("syncGate.signUp")}
                   </Button>
                 </>
               )}
@@ -284,22 +287,22 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
               }}
               style={{ marginTop: 4, color: "#a3adb6" }}
             >
-              Use a sync code instead
+              {t("syncGate.useSyncCodeInstead")}
             </Button>
           </>
         ) : (
           <>
             <Text style={{ color: "#8a97a3", display: "block", marginBottom: 8 }}>
-              Enter a name or code to save your learning progress. Use the same code
-              on every device to keep them in sync.
+              {t("syncGate.codeSubtitle")}
             </Text>
             <Text style={{ color: "#7aa7d9", fontSize: 13, display: "block", marginBottom: 20 }}>
-              Just exploring? Don't want to use an email — type{" "}
-              <Text strong style={{ color: "#7aa7d9" }}>guest</Text> below to jump straight in.
+              {t("syncGate.guestHintBefore")}
+              <Text strong style={{ color: "#7aa7d9" }}>{t("syncGate.guestWord")}</Text>
+              {t("syncGate.guestHintAfter")}
             </Text>
             <Input
               size="large"
-              placeholder="Enter your name, or type 'guest'"
+              placeholder={t("syncGate.codePlaceholder")}
               value={code}
               onChange={(e) => {
                 setCode(e.target.value);
@@ -312,7 +315,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
             />
             {codeError && (
               <Text type="danger" style={{ display: "block", marginBottom: 8 }}>
-                {codeError}
+                {t(codeError)}
               </Text>
             )}
             <Button
@@ -322,7 +325,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
               onClick={handleCodeSubmit}
               loading={codeChecking}
             >
-              Continue
+              {t("syncGate.continue")}
             </Button>
 
             <Button
@@ -334,7 +337,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
               }}
               style={{ marginTop: 12, color: "#a3adb6" }}
             >
-              Sign up / log in with an account instead
+              {t("syncGate.signUpLoginInstead")}
             </Button>
           </>
         )}

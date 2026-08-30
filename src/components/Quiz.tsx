@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Button, Card, Typography, Row, Col, Progress, Space, Result, List } from 'antd'
 import { CheckCircleFilled, CloseCircleFilled } from '@ant-design/icons'
+import { useTranslation } from 'react-i18next'
 import type { VocabularyWord } from '../data/vocabulary'
 
 const { Title, Text } = Typography
@@ -37,6 +38,7 @@ interface QuizProps {
 }
 
 export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }: QuizProps) {
+  const { t } = useTranslation()
   const questions = useMemo(() => buildQuestions(words, pool), [words, pool])
   const [step, setStep] = useState(0)
   const [selected, setSelected] = useState<VocabularyWord | null>(null)
@@ -104,11 +106,13 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
       <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
         <Result
           status={score === questions.length ? 'success' : 'info'}
-          title={`You scored ${score}/${questions.length}`}
+          title={t('quiz.scored', { score, total: questions.length })}
           subTitle={
             score === questions.length
-              ? `Great job! You have mastered ${score === 1 ? 'this word' : `these ${questions.length} words`}.`
-              : 'Review the words you missed and try again.'
+              ? score === 1
+                ? t('quiz.masteredSingle')
+                : t('quiz.masteredPlural', { count: questions.length })
+              : t('quiz.reviewMissed')
           }
           extra={[
             <Button
@@ -117,16 +121,16 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
               style={{ background: accent, borderColor: accent }}
               onClick={onDone}
             >
-              Learn new words
+              {t('quiz.learnNewWords')}
             </Button>,
             <Button key="back" onClick={onBack}>
-              Level overview
+              {t('quiz.levelOverview')}
             </Button>,
           ]}
         />
         {missedWords.length > 0 && (
           <Card
-            title={`Words you missed (${missedWords.length})`}
+            title={t('quiz.wordsMissed', { count: missedWords.length })}
             style={{ borderRadius: 16, marginTop: 8 }}
           >
             <List
@@ -159,10 +163,10 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
         }}
       >
         <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
-          ← Level overview
+          {t('quiz.levelOverviewBack')}
         </Button>
         <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
-          Question {step + 1} / {questions.length}
+          {t('quiz.questionCounter', { current: step + 1, total: questions.length })}
         </Text>
       </Space>
       <Progress
@@ -182,7 +186,7 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
           marginBottom: 24,
         }}
       >
-        <Text style={{ color: '#8a97a3' }}>What is the English word for this?</Text>
+        <Text style={{ color: '#8a97a3' }}>{t('quiz.prompt')}</Text>
         <Title
           level={2}
           style={{

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Button, Card, Typography, Row, Col, Progress, Space, Tag } from 'antd'
 import { LeftOutlined, RightOutlined, SoundOutlined } from '@ant-design/icons'
+import { useTranslation } from 'react-i18next'
 import type { VocabularyWord } from '../data/vocabulary'
 
 const { Title, Text, Paragraph } = Typography
@@ -29,6 +30,7 @@ export default function WordLearn({
   onFinish,
   onBack,
 }: WordLearnProps) {
+  const { t } = useTranslation()
   const [index, setIndex] = useState(() =>
     Math.min(initialIndex, Math.max(words.length - 1, 0)),
   )
@@ -77,10 +79,10 @@ export default function WordLearn({
         }}
       >
         <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
-          ← Level overview
+          {t('wordLearn.levelOverview')}
         </Button>
         <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
-          Word {index + 1} / {words.length}
+          {t('wordLearn.wordCounter', { current: index + 1, total: words.length })}
         </Text>
       </Space>
       <Progress
@@ -135,7 +137,7 @@ export default function WordLearn({
               }}
               style={{ marginTop: 4, color: accent }}
             >
-              Listen
+              {t('wordLearn.listen')}
             </Button>
             <Paragraph style={{ margin: '12px 0 0', color: '#5b6b7a' }}>
               {word.definition}
@@ -144,7 +146,7 @@ export default function WordLearn({
               "{word.example}"
             </Paragraph>
             <Text style={{ display: 'block', marginTop: 16, color: '#a3adb6' }}>
-              (Tap the card to see the translation)
+              {t('wordLearn.tapToTranslate')}
             </Text>
           </div>
         ) : (
@@ -175,7 +177,7 @@ export default function WordLearn({
             disabled={index === 0}
             shape="round"
           >
-            Back
+            {t('wordLearn.back')}
           </Button>
         </Col>
         <Col>
@@ -185,7 +187,7 @@ export default function WordLearn({
             shape="round"
             style={{ background: accent, borderColor: accent }}
           >
-            {isLast ? 'Start the quiz' : 'Next word'} <RightOutlined />
+            {isLast ? t('wordLearn.startQuiz') : t('wordLearn.nextWord')} <RightOutlined />
           </Button>
         </Col>
       </Row>

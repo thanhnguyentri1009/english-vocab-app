@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button, List, Modal, Progress, Segmented, Space, Typography } from 'antd'
 import { LeftOutlined, UnorderedListOutlined } from '@ant-design/icons'
+import { useTranslation } from 'react-i18next'
 import type { VocabularyWord } from '../data/vocabulary'
 import type { LevelInfo } from '../data/vocabulary/topics'
 
@@ -27,6 +28,7 @@ export default function LevelDetail({
   onContinue,
   onBack,
 }: LevelDetailProps) {
+  const { t } = useTranslation()
   const [showLearned, setShowLearned] = useState(false)
   const learnedSet = new Set(learnedWords)
   const learnedEntries = pool.filter((w) => learnedSet.has(w.en))
@@ -40,7 +42,7 @@ export default function LevelDetail({
         onClick={onBack}
         style={{ paddingLeft: 4, paddingRight: 4, marginBottom: 16 }}
       >
-        <LeftOutlined /> All levels
+        <LeftOutlined /> {t('levelDetail.allLevels')}
       </Button>
 
       <Title
@@ -50,7 +52,7 @@ export default function LevelDetail({
         {level.title} · {level.subtitle}
       </Title>
       <Text style={{ color: '#8a97a3' }}>
-        {learnedEntries.length} / {pool.length} words learned
+        {t('levelDetail.wordsLearned', { learned: learnedEntries.length, total: pool.length })}
       </Text>
       <Progress
         percent={pool.length ? (learnedEntries.length / pool.length) * 100 : 0}
@@ -61,12 +63,12 @@ export default function LevelDetail({
 
       {isComplete ? (
         <Text style={{ display: 'block', textAlign: 'center', color: level.accent, marginBottom: 16 }}>
-          🎉 You've learned every word in this level!
+          {t('levelDetail.completeMessage')}
         </Text>
       ) : (
         <div style={{ marginBottom: 16 }}>
           <Text style={{ display: 'block', color: '#8a97a3', marginBottom: 8 }}>
-            Words per round
+            {t('levelDetail.wordsPerRound')}
           </Text>
           <Segmented
             block
@@ -85,7 +87,7 @@ export default function LevelDetail({
         onClick={onContinue}
         style={{ background: level.accent, borderColor: level.accent, marginBottom: 12 }}
       >
-        {hasProgress ? 'Continue learning' : 'Start learning'}
+        {hasProgress ? t('levelDetail.continueLearning') : t('levelDetail.startLearning')}
       </Button>
 
       <Button
@@ -95,11 +97,11 @@ export default function LevelDetail({
         disabled={!hasProgress}
         onClick={() => setShowLearned(true)}
       >
-        View learned words ({learnedEntries.length})
+        {t('levelDetail.viewLearnedWords', { count: learnedEntries.length })}
       </Button>
 
       <Modal
-        title={`Words you've learned — ${level.title}`}
+        title={t('levelDetail.modalTitle', { title: level.title })}
         open={showLearned}
         onCancel={() => setShowLearned(false)}
         footer={null}

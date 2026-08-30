@@ -1,6 +1,7 @@
 import { ArrowLeftOutlined, AudioOutlined, SoundOutlined } from "@ant-design/icons";
 import { Button, Typography } from "antd";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import type { SpeakingLevel } from "../data/speaking/sentences";
 
 const { Text, Title } = Typography;
@@ -43,6 +44,7 @@ interface Props {
 }
 
 export default function SpeakingSession({ level, onBack }: Props) {
+  const { t } = useTranslation();
   const [index, setIndex] = useState(0);
   const [status, setStatus] = useState<Status>("idle");
   const [transcript, setTranscript] = useState("");
@@ -114,7 +116,11 @@ export default function SpeakingSession({ level, onBack }: Props) {
   const resultColor =
     score >= 0.85 ? "#22c55e" : score >= 0.5 ? "#f97316" : "#ef4444";
   const resultLabel =
-    score >= 0.85 ? "Excellent!" : score >= 0.5 ? "Almost there!" : "Try again";
+    score >= 0.85
+      ? t("speakingSession.excellent")
+      : score >= 0.5
+        ? t("speakingSession.almostThere")
+        : t("speakingSession.tryAgain");
 
   return (
     <>
@@ -137,10 +143,10 @@ export default function SpeakingSession({ level, onBack }: Props) {
           />
           <div style={{ flex: 1, minWidth: 0 }}>
             <Title level={4} style={{ margin: 0, color: level.accent, fontSize: 18 }}>
-              {level.label} — Speaking
+              {t("speakingSession.headerTitle", { label: level.label })}
             </Title>
             <Text style={{ color: "#8a97a3", fontSize: 13 }}>
-              {index + 1} / {total}
+              {t("speakingSession.counter", { current: index + 1, total })}
             </Text>
           </div>
         </div>
@@ -186,7 +192,7 @@ export default function SpeakingSession({ level, onBack }: Props) {
           {/* Listen button */}
           <button
             onClick={() => speak(sentence.text)}
-            title="Listen to pronunciation"
+            title={t("speakingSession.listenTitle")}
             style={{
               position: "absolute",
               top: 12,
@@ -240,10 +246,10 @@ export default function SpeakingSession({ level, onBack }: Props) {
 
               <div style={{ marginTop: 10, color: "#94a3b8", fontSize: 14 }}>
                 {!SpeechRecognitionAPI
-                  ? "Speech recognition requires Chrome"
+                  ? t("speakingSession.requiresChrome")
                   : status === "idle"
-                    ? "Tap to speak"
-                    : "Listening… tap the mic to cancel"}
+                    ? t("speakingSession.tapToSpeak")
+                    : t("speakingSession.listeningCancel")}
               </div>
 
               {status === "listening" && (
@@ -257,7 +263,7 @@ export default function SpeakingSession({ level, onBack }: Props) {
                     borderColor: level.accent,
                   }}
                 >
-                  Submit
+                  {t("speakingSession.submit")}
                 </Button>
               )}
             </>
@@ -290,7 +296,7 @@ export default function SpeakingSession({ level, onBack }: Props) {
                   margin: "0 auto 20px",
                 }}
               >
-                <Text style={{ color: "#94a3b8", fontSize: 12 }}>You said: </Text>
+                <Text style={{ color: "#94a3b8", fontSize: 12 }}>{t("speakingSession.youSaid")}</Text>
                 <Text style={{ color: "#334155", fontSize: 14, fontStyle: "italic" }}>
                   "{transcript}"
                 </Text>
@@ -305,7 +311,7 @@ export default function SpeakingSession({ level, onBack }: Props) {
                     setScore(0);
                   }}
                 >
-                  Try again
+                  {t("speakingSession.tryAgain")}
                 </Button>
                 <Button
                   type="primary"
@@ -313,7 +319,7 @@ export default function SpeakingSession({ level, onBack }: Props) {
                   disabled={index === total - 1}
                   style={{ background: level.accent, borderColor: level.accent }}
                 >
-                  Next
+                  {t("speakingSession.next")}
                 </Button>
               </div>
             </div>
@@ -329,10 +335,10 @@ export default function SpeakingSession({ level, onBack }: Props) {
           }}
         >
           <Button onClick={() => goTo(index - 1)} disabled={index === 0}>
-            ← Previous
+            {t("speakingSession.previous")}
           </Button>
           <Button onClick={() => goTo(index + 1)} disabled={index === total - 1}>
-            Next →
+            {t("speakingSession.nextArrow")}
           </Button>
         </div>
       </div>
