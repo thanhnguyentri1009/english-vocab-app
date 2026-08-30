@@ -66,9 +66,16 @@ function progressDocRef(code: string) {
   return doc(db, 'progress', code)
 }
 
+// A standing demo code (e.g. for interviewers/reviewers trying the app
+// without creating anything) — always considered valid; its Firestore doc
+// is created lazily on first write, same as account-derived codes.
+export const GUEST_CODE = 'guest'
+
 // Access is only granted to codes whose document was created ahead of time
-// (manually, in the Firestore console) — this never auto-creates new ones.
+// (manually, in the Firestore console) — this never auto-creates new ones,
+// except for GUEST_CODE above.
 export async function codeExists(code: string): Promise<boolean> {
+  if (code.toLowerCase() === GUEST_CODE) return true
   const snapshot = await getDoc(progressDocRef(code))
   return snapshot.exists()
 }

@@ -5,14 +5,13 @@ import {
   accountLabel,
   accountSyncCode,
   friendlyAuthError,
-  isAccountAuthAvailable,
   loginWithEmail,
   refreshEmailVerified,
   registerWithEmail,
   sendVerificationEmail,
   signOutAccount,
 } from "../utils/account";
-import { codeExists } from "../utils/progress";
+import { codeExists, GUEST_CODE } from "../utils/progress";
 import { isValidSyncCode } from "../utils/syncCode";
 
 const { Title, Text } = Typography;
@@ -25,7 +24,7 @@ type Mode = "account" | "code";
 type AccountMode = "register" | "login";
 
 export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
-  const [mode, setMode] = useState<Mode>(isAccountAuthAvailable ? "account" : "code");
+  const [mode, setMode] = useState<Mode>("code");
   const [accountMode, setAccountMode] = useState<AccountMode>("register");
 
   // Account form state
@@ -120,15 +119,19 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
       setCodeError('Enter a name or code without "/" or "." characters.');
       return;
     }
+    // Normalize any casing of the guest code so everyone using it shares
+    // the same demo progress doc instead of fragmenting into "Guest",
+    // "GUEST", etc.
+    const normalized = trimmed.toLowerCase() === GUEST_CODE ? GUEST_CODE : trimmed;
     setCodeChecking(true);
     setCodeError("");
     try {
-      const exists = await codeExists(trimmed);
+      const exists = await codeExists(normalized);
       if (!exists) {
         setCodeError("This code does not exist. Please check and try again.");
         return;
       }
-      onSubmit(trimmed);
+      onSubmit(normalized);
     } catch {
       setCodeError("Could not connect right now. Please try again.");
     } finally {
@@ -286,13 +289,17 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
           </>
         ) : (
           <>
-            <Text style={{ color: "#8a97a3", display: "block", marginBottom: 20 }}>
+            <Text style={{ color: "#8a97a3", display: "block", marginBottom: 8 }}>
               Enter a name or code to save your learning progress. Use the same code
               on every device to keep them in sync.
             </Text>
+            <Text style={{ color: "#7aa7d9", fontSize: 13, display: "block", marginBottom: 20 }}>
+              Just exploring? Don't want to use an email — type{" "}
+              <Text strong style={{ color: "#7aa7d9" }}>guest</Text> below to jump straight in.
+            </Text>
             <Input
               size="large"
-              placeholder="Enter your name"
+              placeholder="Enter your name, or type 'guest'"
               value={code}
               onChange={(e) => {
                 setCode(e.target.value);
