@@ -30,7 +30,8 @@ import {
   saveProgress,
   subscribeRemoteProgress,
 } from "./utils/progress";
-import { clearSyncCode, getSyncCode, setSyncCode } from "./utils/syncCode";
+import { signOutAccount } from "./utils/account";
+import { clearSyncCode, getSyncCode, getSyncLabel, setSyncCode } from "./utils/syncCode";
 
 const DEFAULT_BATCH_SIZE = 6;
 type ExerciseSection = "grammar" | "word-types";
@@ -56,24 +57,29 @@ const baseTheme = {
 
 function App() {
   const [syncCode, setSyncCodeState] = useState<string | null>(() => getSyncCode());
+  const [syncLabel, setSyncLabelState] = useState<string | null>(() => getSyncLabel());
 
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       {!syncCode ? (
         <ConfigProvider theme={baseTheme}>
           <SyncCodeGate
-            onSubmit={(code) => {
-              setSyncCode(code);
+            onSubmit={(code, label) => {
+              setSyncCode(code, label);
               setSyncCodeState(code);
+              setSyncLabelState(label ?? null);
             }}
           />
         </ConfigProvider>
       ) : (
         <VocabApp
           syncCode={syncCode}
+          displayName={syncLabel ?? syncCode}
           onSwitchAccount={() => {
             clearSyncCode();
             setSyncCodeState(null);
+            setSyncLabelState(null);
+            void signOutAccount();
           }}
         />
       )}
@@ -83,10 +89,11 @@ function App() {
 
 interface VocabAppProps {
   syncCode: string;
+  displayName: string;
   onSwitchAccount: () => void;
 }
 
-function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
+function VocabApp({ syncCode, displayName, onSwitchAccount }: VocabAppProps) {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -331,7 +338,7 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
           <TopicSelect
             topics={TOPICS}
             onSelect={handleSelectTopic}
-            syncCode={syncCode}
+            syncCode={displayName}
             onSwitchAccount={onSwitchAccount}
           />
         )}
@@ -349,7 +356,7 @@ function VocabApp({ syncCode, onSwitchAccount }: VocabAppProps) {
             vocabulary={vocabulary}
             onSelect={handleSelectLevel}
             learnedWords={progress.learnedWords}
-            syncCode={syncCode}
+            syncCode={displayName}
             onSwitchAccount={onSwitchAccount}
             onBackToTopics={handleBackToTopics}
           />
