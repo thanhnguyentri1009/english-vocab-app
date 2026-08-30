@@ -11,14 +11,32 @@ const STORAGE_KEY = "exercise-stage-progress";
 // ── Progress types ──────────────────────────────────────────────────────────
 
 interface StageRecord {
-  questionIndex: number;
-  score: number;
+  // Ids answered correctly the very first time they were shown this run —
+  // this is the "score" used for grading (badges, tier colors, review modal).
   correctIds: string[];
+  // Ids answered correctly at least once (on a first try or a retry) — once
+  // an id is here it leaves the retry queue for good. A stage is complete
+  // when every question in it is mastered.
+  masteredIds: string[];
+  // Ids that have been answered wrong at least once, so a later correct
+  // answer on retry isn't mistaken for a first try.
+  wrongOnceIds: string[];
   completed: boolean;
 }
 
 interface CategoryProgress {
   stages: Record<number, StageRecord>;
+}
+
+// Fills in defaults for any missing fields — keeps old saved progress
+// (from before retries existed) from crashing on the new shape.
+function normalizeRecord(raw?: Partial<StageRecord>): StageRecord {
+  return {
+    correctIds: raw?.correctIds ?? [],
+    masteredIds: raw?.masteredIds ?? [],
+    wrongOnceIds: raw?.wrongOnceIds ?? [],
+    completed: raw?.completed ?? false,
+  };
 }
 
 function loadCategoryProgress(categoryKey: string): CategoryProgress {
@@ -65,10 +83,13 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
   const [activeStage, setActiveStage] = useState(0);
 
   // ── Quiz state ──
-  const [step, setStep] = useState(0);
+  // The queue holds every question in the stage still needing a correct
+  // answer, in play order. A wrong answer sends the question to the back of
+  // the queue instead of dropping it, so it comes back around later; a
+  // correct answer removes it for good. The stage finishes once the queue
+  // is empty.
+  const [queue, setQueue] = useState<ExerciseQuestion[]>([]);
   const [selected, setSelected] = useState<number | null>(null);
-  const [firstAttempt, setFirstAttempt] = useState(true);
-  const [stageScore, setStageScore] = useState(0);
   const [stageCorrect, setStageCorrect] = useState<ExerciseQuestion[]>([]);
 
   // ── Modal ──
@@ -76,25 +97,24 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
 
   // ── Derived ──
   const stageQs = questions.slice(activeStage * STAGE_SIZE, (activeStage + 1) * STAGE_SIZE);
-  const q = stageQs[step];
   const total = stageQs.length;
+  const q = queue[0];
+  const masteredCount = total - queue.length;
   const answered = selected !== null;
-  const isCorrect = answered && selected === q?.correctIndex;
+  const isCorrect = answered && !!q && selected === q.correctIndex;
+  const stageScore = stageCorrect.length;
+  const activeRecord = normalizeRecord(progress.stages[activeStage]);
+  const isRetry = !!q && activeRecord.wrongOnceIds.includes(q.id);
 
   // Update the active stage's saved record (functional form to avoid stale closure)
   const updateRecord = (updater: (r: StageRecord) => StageRecord) => {
-    setProgress((prev) => {
-      const current: StageRecord = prev.stages[activeStage] ?? {
-        questionIndex: 0,
-        score: 0,
-        correctIds: [],
-        completed: false,
-      };
-      return {
-        ...prev,
-        stages: { ...prev.stages, [activeStage]: updater(current) },
-      };
-    });
+    setProgress((prev) => ({
+      ...prev,
+      stages: {
+        ...prev.stages,
+        [activeStage]: updater(normalizeRecord(prev.stages[activeStage])),
+      },
+    }));
   };
 
   // ── Quiz actions ──
@@ -102,60 +122,60 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
   const choose = (idx: number) => {
     if (answered || !q) return;
     setSelected(idx);
-    if (idx === q.correctIndex && firstAttempt) {
-      setStageScore((s) => s + 1);
-      setStageCorrect((prev) => [...prev, q]);
+    const isFirstTry = !activeRecord.wrongOnceIds.includes(q.id);
+    if (idx === q.correctIndex) {
+      if (isFirstTry) setStageCorrect((prev) => [...prev, q]);
       updateRecord((r) => ({
         ...r,
-        score: r.score + 1,
-        correctIds: [...r.correctIds, q.id],
+        correctIds: isFirstTry ? [...r.correctIds, q.id] : r.correctIds,
+        masteredIds: r.masteredIds.includes(q.id) ? r.masteredIds : [...r.masteredIds, q.id],
+      }));
+    } else {
+      updateRecord((r) => ({
+        ...r,
+        wrongOnceIds: r.wrongOnceIds.includes(q.id) ? r.wrongOnceIds : [...r.wrongOnceIds, q.id],
       }));
     }
-    if (idx !== q.correctIndex) setFirstAttempt(false);
   };
 
   const next = () => {
-    if (step + 1 >= total) {
-      updateRecord((r) => ({ ...r, completed: true, questionIndex: total }));
+    if (!q) return;
+    const rest = queue.slice(1);
+    const nextQueue = isCorrect ? rest : [...rest, q];
+    if (nextQueue.length === 0) {
+      updateRecord((r) => ({ ...r, completed: true }));
       setView("stage-done");
     } else {
-      const ns = step + 1;
-      setStep(ns);
+      setQueue(nextQueue);
       setSelected(null);
-      setFirstAttempt(true);
-      updateRecord((r) => ({ ...r, questionIndex: ns }));
     }
   };
 
   // ── Stage navigation ──
 
-  const enterStage = (idx: number) => {
-    const rec = progress.stages[idx];
-    const isCompleted = rec?.completed ?? false;
+  // A stage unlocks once the one before it is completed — stage 0 is
+  // always open.
+  const isStageLocked = (idx: number) =>
+    idx > 0 && !normalizeRecord(progress.stages[idx - 1]).completed;
 
-    if (isCompleted) {
-      setProgress((prev) => ({
-        ...prev,
-        stages: {
-          ...prev.stages,
-          [idx]: { questionIndex: 0, score: 0, correctIds: [], completed: false },
-        },
-      }));
-      setStep(0);
-      setStageScore(0);
+  const enterStage = (idx: number) => {
+    if (isStageLocked(idx)) return;
+    const rec = normalizeRecord(progress.stages[idx]);
+    const qs = questions.slice(idx * STAGE_SIZE, (idx + 1) * STAGE_SIZE);
+
+    if (rec.completed) {
+      setProgress((prev) => ({ ...prev, stages: { ...prev.stages, [idx]: normalizeRecord() } }));
+      setQueue(qs);
       setStageCorrect([]);
     } else {
-      const qi = rec?.questionIndex ?? 0;
-      const savedIds = new Set(rec?.correctIds ?? []);
-      const qs = questions.slice(idx * STAGE_SIZE, (idx + 1) * STAGE_SIZE);
-      setStep(qi);
-      setStageScore(rec?.score ?? 0);
-      setStageCorrect(qs.filter((item) => savedIds.has(item.id)));
+      const masteredSet = new Set(rec.masteredIds);
+      const correctSet = new Set(rec.correctIds);
+      setQueue(qs.filter((item) => !masteredSet.has(item.id)));
+      setStageCorrect(qs.filter((item) => correctSet.has(item.id)));
     }
 
     setActiveStage(idx);
     setSelected(null);
-    setFirstAttempt(true);
     setView("quiz");
   };
 
@@ -163,7 +183,7 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
   const allCorrect = Object.entries(progress.stages).flatMap(([idxStr, rec]) => {
     const idx = Number(idxStr);
     const qs = questions.slice(idx * STAGE_SIZE, (idx + 1) * STAGE_SIZE);
-    const ids = new Set(rec.correctIds);
+    const ids = new Set(normalizeRecord(rec).correctIds);
     return qs.filter((item) => ids.has(item.id));
   });
 
@@ -286,9 +306,9 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
             onClick={() => setView("stages")} style={{ color: "#8a97a3" }} />
           <div style={{ flex: 1 }}>
             <Text style={{ color: "#8a97a3", fontSize: 13 }}>
-              {title} · Stage {activeStage + 1} · Q {step + 1}/{total}
+              {title} · Stage {activeStage + 1} · {masteredCount}/{total} mastered
             </Text>
-            <Progress percent={Math.round((step / total) * 100)}
+            <Progress percent={Math.round((masteredCount / total) * 100)}
               strokeColor={accent} showInfo={false} size="small" style={{ marginTop: 4 }} />
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
@@ -306,6 +326,11 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
         </div>
 
         {/* Question */}
+        {isRetry && (
+          <Text style={{ color: "#e07b39", fontSize: 12.5, fontWeight: 600, display: "block", marginBottom: 6 }}>
+            Retry — you missed this one earlier in this stage
+          </Text>
+        )}
         <Card style={{ borderRadius: 16, background: color, border: `1px solid ${accent}33`, marginBottom: 16 }}
           styles={{ body: { padding: "24px 20px" } }}>
           <Text style={{ fontSize: 17, color: "#2d3840", lineHeight: 1.6, fontWeight: 500 }}>
@@ -348,7 +373,9 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
               <div>
                 <Text style={{ fontWeight: 600, color: isCorrect ? "#1e6e3a" : "#b34a00",
                   display: "block", marginBottom: 4 }}>
-                  {isCorrect ? "Correct!" : `Correct answer: ${q.options[q.correctIndex]}`}
+                  {isCorrect
+                    ? "Correct!"
+                    : `Correct answer: ${q.options[q.correctIndex]} — this question will come back at the end of the stage.`}
                 </Text>
                 <Text style={{ color: "#4a5568", fontSize: 14, lineHeight: 1.6 }}>
                   {q.explanation}
@@ -362,7 +389,7 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
           <Button type="primary" size="large" onClick={next}
             style={{ width: "100%", borderRadius: 12, height: 48,
               background: accent, borderColor: accent, fontWeight: 600 }}>
-            {step + 1 >= total ? "Finish Stage" : "Next Question →"}
+            {isCorrect && queue.length === 1 ? "Finish Stage" : "Next Question →"}
           </Button>
         )}
       </div>
@@ -418,11 +445,12 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
       {/* Stage grid */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 12 }}>
         {Array.from({ length: totalStages }, (_, idx) => {
-          const rec = progress.stages[idx];
-          const isCompleted = rec?.completed ?? false;
-          const isInProgress = !isCompleted && (rec?.questionIndex ?? 0) > 0;
-          const qi = rec?.questionIndex ?? 0;
-          const stScore = rec?.score ?? 0;
+          const rec = normalizeRecord(progress.stages[idx]);
+          const isCompleted = rec.completed;
+          const isInProgress = !isCompleted && (rec.masteredIds.length > 0 || rec.wrongOnceIds.length > 0);
+          const locked = isStageLocked(idx);
+          const stScore = rec.correctIds.length;
+          const stMastered = rec.masteredIds.length;
 
           let cardBg = "#f8f9fa";
           let cardBorder = "1.5px dashed #d8e0e8";
@@ -434,7 +462,9 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
           let barPercent: number | null = null;
           let barColor = accent;
 
-          if (isCompleted) {
+          if (locked) {
+            statusText = "Locked — finish the previous stage first";
+          } else if (isCompleted) {
             const pct = Math.round((stScore / STAGE_SIZE) * 100);
             statusText = `${stScore}/${STAGE_SIZE} correct`;
             if (pct >= 80) {
@@ -455,9 +485,9 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
             cardBorder = `1.5px solid ${accent}55`;
             badgeBg = accent; badgeColor = "#fff";
             titleColor = accent;
-            statusText = `Q ${qi + 1}/${STAGE_SIZE} · ${stScore} pts`;
+            statusText = `${stMastered}/${STAGE_SIZE} mastered`;
             statusColor = accent;
-            barPercent = Math.round((qi / STAGE_SIZE) * 100);
+            barPercent = Math.round((stMastered / STAGE_SIZE) * 100);
             barColor = accent;
           }
 
@@ -469,13 +499,15 @@ export default function ExerciseQuiz({ category, onBack }: Props) {
               key={idx}
               className="stage-card"
               onClick={() => enterStage(idx)}
+              disabled={locked}
               style={{
                 background: cardBg,
                 border: cardBorder,
                 borderRadius: 14,
                 padding: "14px 16px",
                 textAlign: "left",
-                cursor: "pointer",
+                cursor: locked ? "not-allowed" : "pointer",
+                opacity: locked ? 0.6 : 1,
                 fontFamily: "inherit",
                 width: "100%",
                 display: "flex",
