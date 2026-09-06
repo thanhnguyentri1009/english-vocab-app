@@ -68,6 +68,7 @@
     "wordsPerRound": "Words per round",
     "continueLearning": "Continue learning",
     "startLearning": "Start learning",
+    "reviewLearned": "Review learned words",
     "viewLearnedWords": "View learned words ({{count}})",
     "modalTitle": "Words you've learned — {{title}}"
   },
@@ -86,6 +87,17 @@
     "masteredPlural": "Great job! You have mastered these {{count}} words.",
     "reviewMissed": "Review the words you missed and try again.",
     "learnNewWords": "Learn new words",
+    "levelOverview": "Level overview",
+    "wordsMissed": "Words you missed ({{count}})",
+    "levelOverviewBack": "← Level overview",
+    "questionCounter": "Question {{current}} / {{total}}",
+    "prompt": "What is the English word for this?"
+  },
+  "review": {
+    "scored": "You scored {{score}}/{{total}}",
+    "perfect": "Perfect! You know all these words.",
+    "tryAgainMessage": "Take another round to review the ones you missed.",
+    "reviewAgain": "Review again",
     "levelOverview": "Level overview",
     "wordsMissed": "Words you missed ({{count}})",
     "levelOverviewBack": "← Level overview",

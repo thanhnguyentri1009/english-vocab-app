@@ -8,6 +8,7 @@ import LanguageSwitcher from "./components/LanguageSwitcher";
 import LevelDetail from "./components/LevelDetail";
 import LevelSelect from "./components/LevelSelect";
 import Quiz from "./components/Quiz";
+import Review from "./components/Review";
 import SpeakingLevelSelect from "./components/SpeakingLevelSelect";
 import SpeakingSession from "./components/SpeakingSession";
 import SyncCodeGate from "./components/SyncCodeGate";
@@ -44,6 +45,7 @@ type Stage =
   | "levelDetail"
   | "learn"
   | "quiz"
+  | "review"
   | "exerciseQuiz"
   | "speakingHome"
   | "speakingSession";
@@ -143,7 +145,9 @@ function VocabApp({ syncCode, displayName, onSwitchAccount }: VocabAppProps) {
             ? "quiz"
             : subRoute === "learn"
               ? "learn"
-              : "levelDetail";
+              : subRoute === "review"
+                ? "review"
+                : "levelDetail";
 
   // Redirect unknown routes
   useEffect(() => {
@@ -217,6 +221,10 @@ function VocabApp({ syncCode, displayName, onSwitchAccount }: VocabAppProps) {
     if (!pool.length) return [];
     return pool.filter((w) => !learnedSet.has(w.en)).slice(0, batchSize);
   }, [pool, learnedSet, batchSize]);
+  const reviewWords = useMemo(
+    () => pool.filter((w) => learnedSet.has(w.en)),
+    [pool, learnedSet],
+  );
 
   const updateProgress = (updater: (p: ProgressState) => ProgressState) => {
     setProgress((prev) => {
@@ -299,6 +307,18 @@ function VocabApp({ syncCode, displayName, onSwitchAccount }: VocabAppProps) {
     persistSession({ topic: topicKey, level: levelKey, screen: "learn", wordIndex: 0 });
   };
 
+  // Review mode is a no-save practice loop: navigating in and out of it
+  // never touches persisted progress or the resumable session.
+  const handleStartReview = () => {
+    if (!topicKey || !levelKey) return;
+    navigate(`/${topicKey}/${levelKey.toLowerCase()}/review`);
+  };
+
+  const handleBackFromReview = () => {
+    if (!topicKey || !levelKey) return;
+    navigate(`/${topicKey}/${levelKey.toLowerCase()}`);
+  };
+
   const topicInfo = topicKey ? TOPICS.find((t) => t.key === topicKey) : undefined;
 
   // Determine active main tab
@@ -373,6 +393,7 @@ function VocabApp({ syncCode, displayName, onSwitchAccount }: VocabAppProps) {
             batchSize={batchSize}
             onChangeBatchSize={handleChangeBatchSize}
             onContinue={handleContinueLearning}
+            onReview={handleStartReview}
             onBack={handleBackToLevels}
           />
         )}
@@ -394,6 +415,14 @@ function VocabApp({ syncCode, displayName, onSwitchAccount }: VocabAppProps) {
             onComplete={handleQuizComplete}
             onDone={handleNextBatch}
             onBack={handleBackToDetail}
+          />
+        )}
+        {stage === "review" && level && (
+          <Review
+            words={reviewWords}
+            pool={pool}
+            accent={level.accent}
+            onBack={handleBackFromReview}
           />
         )}
         {stage === "speakingHome" && (

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Button, List, Modal, Progress, Segmented, Space, Typography } from 'antd'
-import { LeftOutlined, UnorderedListOutlined } from '@ant-design/icons'
+import { LeftOutlined, ReloadOutlined, UnorderedListOutlined } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
 import type { VocabularyWord } from '../data/vocabulary'
 import type { LevelInfo } from '../data/vocabulary/topics'
@@ -16,6 +16,7 @@ interface LevelDetailProps {
   batchSize: number
   onChangeBatchSize: (size: number) => void
   onContinue: () => void
+  onReview: () => void
   onBack: () => void
 }
 
@@ -26,6 +27,7 @@ export default function LevelDetail({
   batchSize,
   onChangeBatchSize,
   onContinue,
+  onReview,
   onBack,
 }: LevelDetailProps) {
   const { t } = useTranslation()
@@ -88,6 +90,17 @@ export default function LevelDetail({
         style={{ background: level.accent, borderColor: level.accent, marginBottom: 12 }}
       >
         {hasProgress ? t('levelDetail.continueLearning') : t('levelDetail.startLearning')}
+      </Button>
+
+      <Button
+        shape="round"
+        block
+        icon={<ReloadOutlined />}
+        disabled={!hasProgress}
+        onClick={onReview}
+        style={{ marginBottom: 12 }}
+      >
+        {t('levelDetail.reviewLearned')}
       </Button>
 
       <Button
