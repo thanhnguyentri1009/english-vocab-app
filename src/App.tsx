@@ -325,7 +325,7 @@ function VocabApp({ syncCode, displayName, onSwitchAccount }: VocabAppProps) {
   const activeTab = isSpeaking ? "speaking" : (exerciseSection ?? "vocabulary");
 
   // Which stages show the main tab bar
-  const showTabBar = stage === "topicSelect" || stage === "speakingHome";
+  const showTabBar = stage === "topicSelect" || stage === "speakingHome" || stage === "exerciseQuiz";
 
   return (
     <ConfigProvider

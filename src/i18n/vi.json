@@ -70,7 +70,9 @@
     "startLearning": "Bắt đầu học",
     "reviewLearned": "Ôn tập từ đã học",
     "viewLearnedWords": "Xem từ đã học ({{count}})",
-    "modalTitle": "Từ bạn đã học — {{title}}"
+    "modalTitle": "Từ bạn đã học — {{title}}",
+    "searchPlaceholder": "Tìm từ...",
+    "noSearchResults": "Không tìm thấy từ nào phù hợp"
   },
   "wordLearn": {
     "levelOverview": "← Tổng quan cấp độ",

@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import { Button, List, Modal, Progress, Segmented, Space, Typography } from 'antd'
-import { LeftOutlined, ReloadOutlined, UnorderedListOutlined } from '@ant-design/icons'
+import { useMemo, useState } from 'react'
+import { Button, Empty, Input, List, Modal, Progress, Segmented, Space, Typography } from 'antd'
+import { LeftOutlined, ReloadOutlined, SearchOutlined, UnorderedListOutlined } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
 import type { VocabularyWord } from '../data/vocabulary'
 import type { LevelInfo } from '../data/vocabulary/topics'
@@ -32,10 +32,19 @@ export default function LevelDetail({
 }: LevelDetailProps) {
   const { t } = useTranslation()
   const [showLearned, setShowLearned] = useState(false)
+  const [searchText, setSearchText] = useState('')
   const learnedSet = new Set(learnedWords)
   const learnedEntries = pool.filter((w) => learnedSet.has(w.en))
   const hasProgress = learnedEntries.length > 0
   const isComplete = pool.length > 0 && learnedEntries.length >= pool.length
+
+  const filteredLearnedEntries = useMemo(() => {
+    const query = searchText.trim().toLowerCase()
+    if (!query) return learnedEntries
+    return learnedEntries.filter(
+      (w) => w.en.toLowerCase().includes(query) || w.vi.toLowerCase().includes(query),
+    )
+  }, [learnedEntries, searchText])
 
   return (
     <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
@@ -116,23 +125,38 @@ export default function LevelDetail({
       <Modal
         title={t('levelDetail.modalTitle', { title: level.title })}
         open={showLearned}
-        onCancel={() => setShowLearned(false)}
+        onCancel={() => {
+          setShowLearned(false)
+          setSearchText('')
+        }}
         footer={null}
         styles={{ body: { maxHeight: '70vh', overflowY: 'auto' } }}
       >
-        <List
-          size="small"
-          dataSource={learnedEntries}
-          pagination={{ defaultPageSize: 10, size: 'small', align: 'center' }}
-          renderItem={(word) => (
-            <List.Item>
-              <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
-                <Text strong>{word.en}</Text>
-                <Text style={{ color: '#8a97a3' }}>{word.vi}</Text>
-              </Space>
-            </List.Item>
-          )}
+        <Input
+          allowClear
+          prefix={<SearchOutlined style={{ color: '#8a97a3' }} />}
+          placeholder={t('levelDetail.searchPlaceholder')}
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
+          style={{ marginBottom: 12 }}
         />
+        {filteredLearnedEntries.length === 0 ? (
+          <Empty description={t('levelDetail.noSearchResults')} />
+        ) : (
+          <List
+            size="small"
+            dataSource={filteredLearnedEntries}
+            pagination={{ defaultPageSize: 10, size: 'small', align: 'center' }}
+            renderItem={(word) => (
+              <List.Item>
+                <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
+                  <Text strong>{word.en}</Text>
+                  <Text style={{ color: '#8a97a3' }}>{word.vi}</Text>
+                </Space>
+              </List.Item>
+            )}
+          />
+        )}
       </Modal>
     </div>
   )

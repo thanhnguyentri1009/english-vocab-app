@@ -70,7 +70,9 @@
     "startLearning": "Start learning",
     "reviewLearned": "Review learned words",
     "viewLearnedWords": "View learned words ({{count}})",
-    "modalTitle": "Words you've learned — {{title}}"
+    "modalTitle": "Words you've learned — {{title}}",
+    "searchPlaceholder": "Search words...",
+    "noSearchResults": "No matching words found"
   },
   "wordLearn": {
     "levelOverview": "← Level overview",
