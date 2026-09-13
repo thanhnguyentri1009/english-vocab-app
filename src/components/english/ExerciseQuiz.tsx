@@ -2,7 +2,7 @@ import { ArrowLeftOutlined, CheckCircleOutlined, RedoOutlined } from "@ant-desig
 import { Button, Card, Modal, Progress, Typography } from "antd";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import type { ExerciseCategory, ExerciseQuestion } from "../data/exercises";
+import type { ExerciseCategory, ExerciseQuestion } from "../../data/english/exercises";
 import {
   loadExerciseProgress,
   pushRemoteExerciseProgress,
@@ -11,7 +11,7 @@ import {
   type CategoryProgress,
   type ExerciseProgressState,
   type StageRecord,
-} from "../utils/exerciseProgress";
+} from "../../utils/english/exerciseProgress";
 
 const { Text, Title } = Typography;
 

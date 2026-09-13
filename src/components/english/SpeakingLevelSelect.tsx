@@ -1,6 +1,6 @@
 import { Card, Col, Row, Typography } from "antd";
 import { useTranslation } from "react-i18next";
-import type { SpeakingLevel } from "../data/speaking/sentences";
+import type { SpeakingLevel } from "../../data/english/speaking/sentences";
 
 const { Title, Text } = Typography;
 

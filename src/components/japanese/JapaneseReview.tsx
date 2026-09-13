@@ -1,14 +1,14 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import { Button, Card, Typography, Row, Col, Progress, Space, Result, List } from 'antd'
 import { CheckCircleFilled, CloseCircleFilled } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
-import type { VocabularyWord } from '../data/vocabulary'
+import type { JapaneseWord } from '../../data/japanese/types'
 
 const { Title, Text } = Typography
 
 interface Question {
-  word: VocabularyWord
-  options: VocabularyWord[]
+  word: JapaneseWord
+  options: JapaneseWord[]
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -20,65 +20,52 @@ function shuffle<T>(arr: T[]): T[] {
   return a
 }
 
-function buildQuestions(words: VocabularyWord[], pool: VocabularyWord[]): Question[] {
-  return words.map((word) => {
-    const distractors = shuffle(pool.filter((w) => w.en !== word.en)).slice(0, 3)
+function buildQuestions(words: JapaneseWord[], pool: JapaneseWord[]): Question[] {
+  return shuffle(words).map((word) => {
+    const distractors = shuffle(pool.filter((w) => w.id !== word.id)).slice(0, 3)
     const options = shuffle([word, ...distractors])
     return { word, options }
   })
 }
 
-interface QuizProps {
-  words: VocabularyWord[]
-  pool: VocabularyWord[]
+interface JapaneseReviewProps {
+  words: JapaneseWord[]
+  pool: JapaneseWord[]
   accent: string
-  onComplete: () => void
-  onDone: () => void
   onBack: () => void
 }
 
-export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }: QuizProps) {
+// Practice mode: reshuffles the learned words into a fresh question order
+// every round and never persists score, mistakes, or position anywhere.
+export default function JapaneseReview({ words, pool, accent, onBack }: JapaneseReviewProps) {
   const { t } = useTranslation()
-  const questions = useMemo(() => buildQuestions(words, pool), [words, pool])
+  const [round, setRound] = useState(0)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const questions = useMemo(() => buildQuestions(words, pool), [words, pool, round])
   const [step, setStep] = useState(0)
-  const [selected, setSelected] = useState<VocabularyWord | null>(null)
+  const [selected, setSelected] = useState<JapaneseWord | null>(null)
   const [wrongOptions, setWrongOptions] = useState<Set<string>>(new Set())
   const [flashWrong, setFlashWrong] = useState<string | null>(null)
   const [erred, setErred] = useState(false)
   const [score, setScore] = useState(0)
-  const [missedWords, setMissedWords] = useState<VocabularyWord[]>([])
+  const [missedWords, setMissedWords] = useState<JapaneseWord[]>([])
   const [finished, setFinished] = useState(false)
-  const completedRef = useRef(false)
-
-  // Mark the batch as learned the moment the quiz finishes, regardless of
-  // which button the user taps afterwards (or if they just close the tab).
-  // Guarded so it only ever fires once per batch, even under React
-  // StrictMode's dev-only double-invoked effects.
-  useEffect(() => {
-    if (finished && !completedRef.current) {
-      completedRef.current = true
-      onComplete()
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [finished])
 
   const question = questions[step]
   const isLast = step === questions.length - 1
 
-  const choose = (option: VocabularyWord) => {
-    if (selected || flashWrong || wrongOptions.has(option.en)) return
-    if (option.en === question.word.en) {
+  const choose = (option: JapaneseWord) => {
+    if (selected || flashWrong || wrongOptions.has(option.id)) return
+    if (option.id === question.word.id) {
       setSelected(option)
       if (!erred) setScore((s) => s + 1)
     } else {
       setErred(true)
-      setFlashWrong(option.en)
-      setWrongOptions((prev) => new Set(prev).add(option.en))
+      setFlashWrong(option.id)
+      setWrongOptions((prev) => new Set(prev).add(option.id))
     }
   }
 
-  // Briefly flash the wrong option red, then clear it so the user can pick
-  // again — a miss no longer skips straight to the next question.
   useEffect(() => {
     if (!flashWrong) return
     const timer = setTimeout(() => setFlashWrong(null), 700)
@@ -101,36 +88,52 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
     return () => clearTimeout(timer)
   }, [selected, isLast, erred, question])
 
+  const restart = () => {
+    setRound((r) => r + 1)
+    setStep(0)
+    setSelected(null)
+    setWrongOptions(new Set())
+    setFlashWrong(null)
+    setErred(false)
+    setScore(0)
+    setMissedWords([])
+    setFinished(false)
+  }
+
+  if (questions.length === 0) {
+    return (
+      <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
+        <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
+          {t('japanese.review.levelOverviewBack')}
+        </Button>
+      </div>
+    )
+  }
+
   if (finished) {
     return (
       <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
         <Result
           status={score === questions.length ? 'success' : 'info'}
-          title={t('quiz.scored', { score, total: questions.length })}
-          subTitle={
-            score === questions.length
-              ? score === 1
-                ? t('quiz.masteredSingle')
-                : t('quiz.masteredPlural', { count: questions.length })
-              : t('quiz.reviewMissed')
-          }
+          title={t('japanese.review.scored', { score, total: questions.length })}
+          subTitle={score === questions.length ? t('japanese.review.perfect') : t('japanese.review.tryAgainMessage')}
           extra={[
             <Button
-              key="continue"
+              key="again"
               type="primary"
               style={{ background: accent, borderColor: accent }}
-              onClick={onDone}
+              onClick={restart}
             >
-              {t('quiz.learnNewWords')}
+              {t('japanese.review.reviewAgain')}
             </Button>,
             <Button key="back" onClick={onBack}>
-              {t('quiz.levelOverview')}
+              {t('japanese.review.levelOverview')}
             </Button>,
           ]}
         />
         {missedWords.length > 0 && (
           <Card
-            title={t('quiz.wordsMissed', { count: missedWords.length })}
+            title={t('japanese.review.wordsMissed', { count: missedWords.length })}
             style={{ borderRadius: 16, marginTop: 8 }}
           >
             <List
@@ -139,8 +142,8 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
               renderItem={(word) => (
                 <List.Item>
                   <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
-                    <Text strong>{word.en}</Text>
-                    <Text style={{ color: '#8a97a3' }}>{word.vi}</Text>
+                    <Text strong>{word.jp}</Text>
+                    <Text style={{ color: '#8a97a3' }}>{word.meaning}</Text>
                   </Space>
                 </List.Item>
               )}
@@ -163,10 +166,10 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
         }}
       >
         <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
-          {t('quiz.levelOverviewBack')}
+          {t('japanese.review.levelOverviewBack')}
         </Button>
         <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
-          {t('quiz.questionCounter', { current: step + 1, total: questions.length })}
+          {t('japanese.review.questionCounter', { current: step + 1, total: questions.length })}
         </Text>
       </Space>
       <Progress
@@ -186,7 +189,7 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
           marginBottom: 24,
         }}
       >
-        <Text style={{ color: '#8a97a3' }}>{t('quiz.prompt')}</Text>
+        <Text style={{ color: '#8a97a3' }}>{t('japanese.review.prompt')}</Text>
         <Title
           level={2}
           style={{
@@ -196,15 +199,15 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
             wordBreak: 'break-word',
           }}
         >
-          {question.word.vi}
+          {question.word.meaning}
         </Title>
       </Card>
 
       <Row gutter={[16, 16]}>
         {question.options.map((option) => {
-          const isCorrect = option.en === question.word.en
-          const isFlashingWrong = flashWrong === option.en
-          const isPermanentlyWrong = !isFlashingWrong && wrongOptions.has(option.en)
+          const isCorrect = option.id === question.word.id
+          const isFlashingWrong = flashWrong === option.id
+          const isPermanentlyWrong = !isFlashingWrong && wrongOptions.has(option.id)
           const isDisabled = Boolean(selected) || isFlashingWrong || isPermanentlyWrong
           let background = '#fff'
           let borderColor = '#e5e9ed'
@@ -223,7 +226,7 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
             icon = <CloseCircleFilled style={{ color: '#c7ccd1' }} />
           }
           return (
-            <Col xs={24} sm={12} key={option.en}>
+            <Col xs={24} sm={12} key={option.id}>
               <Card
                 hoverable={!isDisabled}
                 onClick={() => choose(option)}
@@ -237,11 +240,14 @@ export default function Quiz({ words, pool, accent, onComplete, onDone, onBack }
                 }}
                 styles={{ body: { padding: '16px 8px' } }}
               >
-                <Space wrap style={{ justifyContent: 'center', width: '100%' }}>
-                  <Text strong style={{ fontSize: 16, wordBreak: 'break-word' }}>
-                    {option.en}
-                  </Text>
-                  {icon}
+                <Space orientation="vertical" size={0} style={{ width: '100%' }}>
+                  <Space wrap style={{ justifyContent: 'center', width: '100%' }}>
+                    <Text strong style={{ fontSize: 18, wordBreak: 'break-word' }}>
+                      {option.jp}
+                    </Text>
+                    {icon}
+                  </Space>
+                  <Text style={{ color: '#a3adb6', fontSize: 12 }}>{option.reading}</Text>
                 </Space>
               </Card>
             </Col>

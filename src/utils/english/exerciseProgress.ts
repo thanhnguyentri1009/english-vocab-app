@@ -5,7 +5,7 @@ import {
   setDoc,
   type Unsubscribe,
 } from 'firebase/firestore'
-import { db } from '../firebase'
+import { db } from '../../firebase'
 
 export interface StageRecord {
   // Ids answered correctly the very first time they were shown this run —

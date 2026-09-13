@@ -1,0 +1,250 @@
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { Button, Card, Typography, Row, Col, Progress, Space, Result, List } from 'antd'
+import { CheckCircleFilled, CloseCircleFilled } from '@ant-design/icons'
+import { useTranslation } from 'react-i18next'
+import type { JapaneseWord } from '../../data/japanese/types'
+
+const { Title, Text } = Typography
+
+interface Question {
+  word: JapaneseWord
+  options: JapaneseWord[]
+}
+
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+function buildQuestions(words: JapaneseWord[], pool: JapaneseWord[]): Question[] {
+  return words.map((word) => {
+    const distractors = shuffle(pool.filter((w) => w.id !== word.id)).slice(0, 3)
+    const options = shuffle([word, ...distractors])
+    return { word, options }
+  })
+}
+
+interface JapaneseQuizProps {
+  words: JapaneseWord[]
+  pool: JapaneseWord[]
+  accent: string
+  onComplete: () => void
+  onDone: () => void
+  onBack: () => void
+}
+
+export default function JapaneseQuiz({ words, pool, accent, onComplete, onDone, onBack }: JapaneseQuizProps) {
+  const { t } = useTranslation()
+  const questions = useMemo(() => buildQuestions(words, pool), [words, pool])
+  const [step, setStep] = useState(0)
+  const [selected, setSelected] = useState<JapaneseWord | null>(null)
+  const [wrongOptions, setWrongOptions] = useState<Set<string>>(new Set())
+  const [flashWrong, setFlashWrong] = useState<string | null>(null)
+  const [erred, setErred] = useState(false)
+  const [score, setScore] = useState(0)
+  const [missedWords, setMissedWords] = useState<JapaneseWord[]>([])
+  const [finished, setFinished] = useState(false)
+  const completedRef = useRef(false)
+
+  useEffect(() => {
+    if (finished && !completedRef.current) {
+      completedRef.current = true
+      onComplete()
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [finished])
+
+  const question = questions[step]
+  const isLast = step === questions.length - 1
+
+  const choose = (option: JapaneseWord) => {
+    if (selected || flashWrong || wrongOptions.has(option.id)) return
+    if (option.id === question.word.id) {
+      setSelected(option)
+      if (!erred) setScore((s) => s + 1)
+    } else {
+      setErred(true)
+      setFlashWrong(option.id)
+      setWrongOptions((prev) => new Set(prev).add(option.id))
+    }
+  }
+
+  useEffect(() => {
+    if (!flashWrong) return
+    const timer = setTimeout(() => setFlashWrong(null), 700)
+    return () => clearTimeout(timer)
+  }, [flashWrong])
+
+  useEffect(() => {
+    if (!selected) return
+    const timer = setTimeout(() => {
+      setWrongOptions(new Set())
+      setErred(false)
+      if (erred) setMissedWords((prev) => [...prev, question.word])
+      if (isLast) {
+        setFinished(true)
+      } else {
+        setSelected(null)
+        setStep((s) => s + 1)
+      }
+    }, 900)
+    return () => clearTimeout(timer)
+  }, [selected, isLast, erred, question])
+
+  if (finished) {
+    return (
+      <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
+        <Result
+          status={score === questions.length ? 'success' : 'info'}
+          title={t('japanese.quiz.scored', { score, total: questions.length })}
+          subTitle={
+            score === questions.length
+              ? score === 1
+                ? t('japanese.quiz.masteredSingle')
+                : t('japanese.quiz.masteredPlural', { count: questions.length })
+              : t('japanese.quiz.reviewMissed')
+          }
+          extra={[
+            <Button
+              key="continue"
+              type="primary"
+              style={{ background: accent, borderColor: accent }}
+              onClick={onDone}
+            >
+              {t('japanese.quiz.learnNewWords')}
+            </Button>,
+            <Button key="back" onClick={onBack}>
+              {t('japanese.quiz.levelOverview')}
+            </Button>,
+          ]}
+        />
+        {missedWords.length > 0 && (
+          <Card
+            title={t('japanese.quiz.wordsMissed', { count: missedWords.length })}
+            style={{ borderRadius: 16, marginTop: 8 }}
+          >
+            <List
+              size="small"
+              dataSource={missedWords}
+              renderItem={(word) => (
+                <List.Item>
+                  <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
+                    <Text strong>{word.jp}</Text>
+                    <Text style={{ color: '#8a97a3' }}>{word.meaning}</Text>
+                  </Space>
+                </List.Item>
+              )}
+            />
+          </Card>
+        )}
+      </div>
+    )
+  }
+
+  return (
+    <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
+      <Space
+        style={{
+          width: '100%',
+          justifyContent: 'space-between',
+          marginBottom: 16,
+          flexWrap: 'wrap',
+          rowGap: 8,
+        }}
+      >
+        <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
+          {t('japanese.quiz.levelOverviewBack')}
+        </Button>
+        <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
+          {t('japanese.quiz.questionCounter', { current: step + 1, total: questions.length })}
+        </Text>
+      </Space>
+      <Progress
+        percent={((step + 1) / questions.length) * 100}
+        showInfo={false}
+        strokeColor={accent}
+        style={{ marginBottom: 24 }}
+      />
+
+      <Card
+        style={{
+          borderRadius: 20,
+          textAlign: 'center',
+          background: '#fff',
+          border: `1px solid ${accent}33`,
+          boxShadow: '0 4px 16px rgba(0,0,0,0.05)',
+          marginBottom: 24,
+        }}
+      >
+        <Text style={{ color: '#8a97a3' }}>{t('japanese.quiz.prompt')}</Text>
+        <Title
+          level={2}
+          style={{
+            margin: '8px 0 0',
+            color: '#3d4954',
+            fontSize: 'clamp(22px, 6vw, 32px)',
+            wordBreak: 'break-word',
+          }}
+        >
+          {question.word.meaning}
+        </Title>
+      </Card>
+
+      <Row gutter={[16, 16]}>
+        {question.options.map((option) => {
+          const isCorrect = option.id === question.word.id
+          const isFlashingWrong = flashWrong === option.id
+          const isPermanentlyWrong = !isFlashingWrong && wrongOptions.has(option.id)
+          const isDisabled = Boolean(selected) || isFlashingWrong || isPermanentlyWrong
+          let background = '#fff'
+          let borderColor = '#e5e9ed'
+          let icon: ReactNode = null
+          if (selected && isCorrect) {
+            background = '#f0fbf4'
+            borderColor = '#7ad9a3'
+            icon = <CheckCircleFilled style={{ color: '#52c47f' }} />
+          } else if (isFlashingWrong) {
+            background = '#fff3f0'
+            borderColor = '#e88'
+            icon = <CloseCircleFilled style={{ color: '#e26a5a' }} />
+          } else if (isPermanentlyWrong) {
+            background = '#f5f5f5'
+            borderColor = '#e5e9ed'
+            icon = <CloseCircleFilled style={{ color: '#c7ccd1' }} />
+          }
+          return (
+            <Col xs={24} sm={12} key={option.id}>
+              <Card
+                hoverable={!isDisabled}
+                onClick={() => choose(option)}
+                style={{
+                  borderRadius: 14,
+                  textAlign: 'center',
+                  background,
+                  border: `1.5px solid ${borderColor}`,
+                  cursor: isDisabled ? 'default' : 'pointer',
+                  opacity: isPermanentlyWrong ? 0.7 : 1,
+                }}
+                styles={{ body: { padding: '16px 8px' } }}
+              >
+                <Space orientation="vertical" size={0} style={{ width: '100%' }}>
+                  <Space wrap style={{ justifyContent: 'center', width: '100%' }}>
+                    <Text strong style={{ fontSize: 18, wordBreak: 'break-word' }}>
+                      {option.jp}
+                    </Text>
+                    {icon}
+                  </Space>
+                  <Text style={{ color: '#a3adb6', fontSize: 12 }}>{option.reading}</Text>
+                </Space>
+              </Card>
+            </Col>
+          )
+        })}
+      </Row>
+    </div>
+  )
+}

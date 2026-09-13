@@ -1,20 +1,14 @@
 import { useEffect, useRef, useState } from 'react'
-import { Button, Card, Typography, Row, Col, Progress, Space, Tag } from 'antd'
+import { Button, Card, Typography, Row, Col, Progress, Space } from 'antd'
 import { LeftOutlined, RightOutlined, SoundOutlined } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
-import type { VocabularyWord } from '../data/vocabulary'
+import type { JapaneseWord } from '../../data/japanese/types'
+import { speak } from '../../utils/speech'
 
 const { Title, Text, Paragraph } = Typography
 
-function speak(text: string) {
-  if (!window.speechSynthesis) return
-  const utter = new SpeechSynthesisUtterance(text)
-  utter.lang = 'en-US'
-  window.speechSynthesis.speak(utter)
-}
-
-interface WordLearnProps {
-  words: VocabularyWord[]
+interface JapaneseWordLearnProps {
+  words: JapaneseWord[]
   accent: string
   initialIndex?: number
   onIndexChange?: (index: number) => void
@@ -22,14 +16,14 @@ interface WordLearnProps {
   onBack: () => void
 }
 
-export default function WordLearn({
+export default function JapaneseWordLearn({
   words,
   accent,
   initialIndex = 0,
   onIndexChange,
   onFinish,
   onBack,
-}: WordLearnProps) {
+}: JapaneseWordLearnProps) {
   const { t } = useTranslation()
   const [index, setIndex] = useState(() =>
     Math.min(initialIndex, Math.max(words.length - 1, 0)),
@@ -38,10 +32,6 @@ export default function WordLearn({
   const word = words[index]
   const isLast = index === words.length - 1
 
-  // Skip the very first run (mount, resuming a saved position) — only
-  // report real navigation, so resuming a session never re-pushes stale
-  // progress to Firestore with a fresh timestamp and clobbers newer data
-  // synced from another device.
   const isFirstRender = useRef(true)
   useEffect(() => {
     if (isFirstRender.current) {
@@ -79,10 +69,10 @@ export default function WordLearn({
         }}
       >
         <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
-          {t('wordLearn.levelOverview')}
+          {t('japanese.wordLearn.levelOverview')}
         </Button>
         <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
-          {t('wordLearn.wordCounter', { current: index + 1, total: words.length })}
+          {t('japanese.wordLearn.wordCounter', { current: index + 1, total: words.length })}
         </Text>
       </Space>
       <Progress
@@ -116,37 +106,28 @@ export default function WordLearn({
               style={{
                 margin: 0,
                 color: '#3d4954',
-                fontSize: 'clamp(24px, 7vw, 40px)',
+                fontSize: 'clamp(28px, 8vw, 44px)',
                 wordBreak: 'break-word',
               }}
             >
-              {word.en}
+              {word.jp}
             </Title>
-            <Space size={8} wrap style={{ marginTop: 4, justifyContent: 'center', width: '100%' }}>
-              <Text style={{ color: '#a3adb6' }}>{word.ipa}</Text>
-              <Tag color={accent} style={{ borderRadius: 8 }}>
-                {word.pos}
-              </Tag>
-            </Space>
+            <Text style={{ display: 'block', marginTop: 4, color: '#a3adb6', fontSize: 18 }}>
+              {word.reading}
+            </Text>
             <Button
               type="text"
               icon={<SoundOutlined />}
               onClick={(e) => {
                 e.stopPropagation()
-                speak(word.en)
+                speak(word.jp, 'ja-JP')
               }}
               style={{ marginTop: 4, color: accent }}
             >
-              {t('wordLearn.listen')}
+              {t('japanese.wordLearn.listen')}
             </Button>
-            <Paragraph style={{ margin: '12px 0 0', color: '#5b6b7a' }}>
-              {word.definition}
-            </Paragraph>
-            <Paragraph italic style={{ margin: '4px 0 0', color: '#a3adb6' }}>
-              "{word.example}"
-            </Paragraph>
             <Text style={{ display: 'block', marginTop: 16, color: '#a3adb6' }}>
-              {t('wordLearn.tapToTranslate')}
+              {t('japanese.wordLearn.tapToTranslate')}
             </Text>
           </div>
         ) : (
@@ -160,10 +141,11 @@ export default function WordLearn({
                 wordBreak: 'break-word',
               }}
             >
-              {word.vi}
+              {word.meaning}
             </Title>
+            <Paragraph style={{ margin: '12px 0 0', color: '#5b6b7a' }}>{word.romaji}</Paragraph>
             <Text style={{ display: 'block', marginTop: 16, color: '#a3adb6' }}>
-              {word.en} {word.ipa}
+              {word.jp} {word.reading}
             </Text>
           </div>
         )}
@@ -177,7 +159,7 @@ export default function WordLearn({
             disabled={index === 0}
             shape="round"
           >
-            {t('wordLearn.back')}
+            {t('japanese.wordLearn.back')}
           </Button>
         </Col>
         <Col>
@@ -187,7 +169,7 @@ export default function WordLearn({
             shape="round"
             style={{ background: accent, borderColor: accent }}
           >
-            {isLast ? t('wordLearn.startQuiz') : t('wordLearn.nextWord')} <RightOutlined />
+            {isLast ? t('japanese.wordLearn.startQuiz') : t('japanese.wordLearn.nextWord')} <RightOutlined />
           </Button>
         </Col>
       </Row>

@@ -12,8 +12,7 @@ import {
   sendVerificationEmail,
   signOutAccount,
 } from "../utils/account";
-import { codeExists, GUEST_CODE } from "../utils/progress";
-import { isValidSyncCode } from "../utils/syncCode";
+import { codeExists, GUEST_CODE, isValidSyncCode } from "../utils/syncCode";
 
 const { Title, Text } = Typography;
 

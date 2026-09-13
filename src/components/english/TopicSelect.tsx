@@ -1,6 +1,6 @@
 import { Button, Card, Col, Row, Typography } from "antd";
 import { useTranslation } from "react-i18next";
-import type { Topic, TopicInfo } from "../data/vocabulary";
+import type { Topic, TopicInfo } from "../../data/english/vocabulary";
 
 const { Title, Text } = Typography;
 

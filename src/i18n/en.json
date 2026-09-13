@@ -127,6 +127,93 @@
     "previous": "← Previous",
     "nextArrow": "Next →"
   },
+  "trackSelect": {
+    "title": "What would you like to learn?",
+    "subtitle": "Pick a language to start with — you can switch anytime.",
+    "englishTitle": "English",
+    "englishSubtitle": "Vocabulary, grammar, and speaking practice",
+    "japaneseTitle": "日本語 (Japanese)",
+    "japaneseSubtitle": "Hiragana, katakana, kanji, and JLPT vocabulary",
+    "switchTrack": "Switch"
+  },
+  "japanese": {
+    "tabs": {
+      "alphabet": "Alphabet",
+      "vocabulary": "Vocabulary"
+    },
+    "alphabetSelect": {
+      "title": "Japanese Alphabet",
+      "subtitle": "Choose a writing system to explore",
+      "hiragana": "Hiragana",
+      "hiraganaSubtitle": "The basic phonetic script",
+      "katakana": "Katakana",
+      "katakanaSubtitle": "Used for foreign words and emphasis",
+      "kanji": "Kanji",
+      "kanjiSubtitle": "Basic characters (JLPT N5)"
+    },
+    "alphabetTable": {
+      "back": "← Alphabet",
+      "tapToListen": "Tap a character to hear it",
+      "onyomi": "On'yomi",
+      "kunyomi": "Kun'yomi",
+      "strokes": "{{count}} strokes",
+      "group": {
+        "basic": "Basic",
+        "dakuten": "Dakuten (voiced)",
+        "handakuten": "Handakuten (semi-voiced)",
+        "yoon": "Yōon (contracted sounds)"
+      }
+    },
+    "levelSelect": {
+      "title": "Japanese Vocabulary",
+      "subtitle": "Pick a JLPT level to start learning words"
+    },
+    "levelDetail": {
+      "allLevels": "All levels",
+      "wordsLearned": "{{learned}} / {{total}} words learned",
+      "completeMessage": "🎉 You've learned every word in this level!",
+      "wordsPerRound": "Words per round",
+      "continueLearning": "Continue learning",
+      "startLearning": "Start learning",
+      "reviewLearned": "Review learned words",
+      "viewLearnedWords": "View learned words ({{count}})",
+      "modalTitle": "Words you've learned — {{title}}",
+      "searchPlaceholder": "Search words...",
+      "noSearchResults": "No matching words found"
+    },
+    "wordLearn": {
+      "levelOverview": "← Level overview",
+      "wordCounter": "Word {{current}} / {{total}}",
+      "listen": "Listen",
+      "tapToTranslate": "(Tap the card to see the meaning)",
+      "back": "Back",
+      "startQuiz": "Start the quiz",
+      "nextWord": "Next word"
+    },
+    "quiz": {
+      "scored": "You scored {{score}}/{{total}}",
+      "masteredSingle": "Great job! You have mastered this word.",
+      "masteredPlural": "Great job! You have mastered these {{count}} words.",
+      "reviewMissed": "Review the words you missed and try again.",
+      "learnNewWords": "Learn new words",
+      "levelOverview": "Level overview",
+      "wordsMissed": "Words you missed ({{count}})",
+      "levelOverviewBack": "← Level overview",
+      "questionCounter": "Question {{current}} / {{total}}",
+      "prompt": "What is the Japanese word for this meaning?"
+    },
+    "review": {
+      "scored": "You scored {{score}}/{{total}}",
+      "perfect": "Perfect! You know all these words.",
+      "tryAgainMessage": "Take another round to review the ones you missed.",
+      "reviewAgain": "Review again",
+      "levelOverview": "Level overview",
+      "wordsMissed": "Words you missed ({{count}})",
+      "levelOverviewBack": "← Level overview",
+      "questionCounter": "Question {{current}} / {{total}}",
+      "prompt": "What is the Japanese word for this meaning?"
+    }
+  },
   "exerciseQuiz": {
     "redoConfirmTitle": "Redo Stage {{n}}?",
     "redoConfirmContent": "This clears your saved answers for this stage and starts it over.",

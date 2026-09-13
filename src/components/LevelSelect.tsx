@@ -1,7 +1,7 @@
 import { Button, Card, Col, Row, Typography } from "antd";
 import { LeftOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
-import type { LevelInfo, VocabularyWord } from "../data/vocabulary/topics";
+import type { LevelInfo } from "../data/english/vocabulary/topics";
 
 const { Title, Text } = Typography;
 
@@ -9,7 +9,9 @@ interface LevelSelectProps {
   topicTitle: string;
   topicSubtitle: string;
   levels: LevelInfo[];
-  vocabulary: Record<string, VocabularyWord[]>;
+  // Only `.length` is ever read — loosened from `VocabularyWord[]` so this
+  // component can be reused for the Japanese track's JLPT-level picker too.
+  vocabulary: Record<string, unknown[]>;
   onSelect: (levelKey: string) => void;
   learnedWords: Partial<Record<string, string[]>>;
   syncCode: string;

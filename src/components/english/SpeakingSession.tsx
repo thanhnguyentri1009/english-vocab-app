@@ -2,7 +2,7 @@ import { ArrowLeftOutlined, AudioOutlined, SoundOutlined } from "@ant-design/ico
 import { Button, Typography } from "antd";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import type { SpeakingLevel } from "../data/speaking/sentences";
+import type { SpeakingLevel } from "../../data/english/speaking/sentences";
 
 const { Text, Title } = Typography;
 

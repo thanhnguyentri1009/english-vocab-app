@@ -2,8 +2,8 @@ import { useMemo, useState } from 'react'
 import { Button, Empty, Input, List, Modal, Progress, Segmented, Space, Typography } from 'antd'
 import { LeftOutlined, ReloadOutlined, SearchOutlined, UnorderedListOutlined } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
-import type { VocabularyWord } from '../data/vocabulary'
-import type { LevelInfo } from '../data/vocabulary/topics'
+import type { VocabularyWord } from '../../data/english/vocabulary'
+import type { LevelInfo } from '../../data/english/vocabulary/topics'
 
 const { Title, Text } = Typography
 
