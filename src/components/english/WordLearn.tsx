@@ -24,13 +24,14 @@ export default function WordLearn({
   onFinish,
   onBack,
 }: WordLearnProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [index, setIndex] = useState(() =>
     Math.min(initialIndex, Math.max(words.length - 1, 0)),
   )
   const [flipped, setFlipped] = useState(false)
   const word = words[index]
   const isLast = index === words.length - 1
+  const isVietnamese = i18n.language.startsWith('vi')
 
   // Skip the very first run (mount, resuming a saved position) — only
   // report real navigation, so resuming a session never re-pushes stale
@@ -154,7 +155,7 @@ export default function WordLearn({
                 wordBreak: 'break-word',
               }}
             >
-              {word.vi}
+              {isVietnamese ? word.vi : word.definition}
             </Title>
             <Text style={{ display: 'block', marginTop: 16, color: '#a3adb6' }}>
               {word.en} {word.ipa}

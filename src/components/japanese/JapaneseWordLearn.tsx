@@ -24,13 +24,14 @@ export default function JapaneseWordLearn({
   onFinish,
   onBack,
 }: JapaneseWordLearnProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [index, setIndex] = useState(() =>
     Math.min(initialIndex, Math.max(words.length - 1, 0)),
   )
   const [flipped, setFlipped] = useState(false)
   const word = words[index]
   const isLast = index === words.length - 1
+  const isVietnamese = i18n.language.startsWith('vi')
 
   const isFirstRender = useRef(true)
   useEffect(() => {
@@ -141,7 +142,7 @@ export default function JapaneseWordLearn({
                 wordBreak: 'break-word',
               }}
             >
-              {word.meaning}
+              {isVietnamese ? word.vi : word.meaning}
             </Title>
             <Paragraph style={{ margin: '12px 0 0', color: '#5b6b7a' }}>{word.romaji}</Paragraph>
             <Text style={{ display: 'block', marginTop: 16, color: '#a3adb6' }}>

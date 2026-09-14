@@ -8,18892 +8,21591 @@ export const N1: JapaneseWord[] = [
     "jp": "現像",
     "reading": "げんぞう",
     "romaji": "genzou",
-    "meaning": "developing (film)"
+    "meaning": "developing (film)",
+    "vi": "tráng (phim)"
   },
   {
     "id": "n1-0002",
     "jp": "原則",
     "reading": "げんそく",
     "romaji": "gensoku",
-    "meaning": "principle, general rule"
+    "meaning": "principle, general rule",
+    "vi": "nguyên tắc, quy tắc chung"
   },
   {
     "id": "n1-0003",
     "jp": "見地",
     "reading": "けんち",
     "romaji": "kenchi",
-    "meaning": "point of view"
+    "meaning": "point of view",
+    "vi": "quan điểm, góc nhìn"
   },
   {
     "id": "n1-0004",
     "jp": "現地",
     "reading": "げんち",
     "romaji": "genchi",
-    "meaning": "actual place, local"
+    "meaning": "actual place, local",
+    "vi": "tại chỗ, địa phương"
   },
   {
     "id": "n1-0005",
     "jp": "限定",
     "reading": "げんてい",
     "romaji": "gentei",
-    "meaning": "limit, restriction"
+    "meaning": "limit, restriction",
+    "vi": "giới hạn, hạn chế"
   },
   {
     "id": "n1-0006",
     "jp": "原点",
     "reading": "げんてん",
     "romaji": "genten",
-    "meaning": "origin (coordinates, starting point)"
+    "meaning": "origin (coordinates, starting point)",
+    "vi": "gốc tọa độ, điểm xuất phát"
   },
   {
     "id": "n1-0007",
     "jp": "原典",
     "reading": "げんてん",
     "romaji": "genten",
-    "meaning": "original, source"
+    "meaning": "original, source",
+    "vi": "nguyên bản, nguồn gốc"
   },
   {
     "id": "n1-0008",
     "jp": "原爆",
     "reading": "げんばく",
     "romaji": "genbaku",
-    "meaning": "atomic bomb"
+    "meaning": "atomic bomb",
+    "vi": "bom nguyên tử"
   },
   {
     "id": "n1-0009",
     "jp": "原文",
     "reading": "げんぶん",
     "romaji": "genbun",
-    "meaning": "the text, original"
+    "meaning": "the text, original",
+    "vi": "nguyên văn, bản gốc"
   },
   {
     "id": "n1-0010",
     "jp": "厳密",
     "reading": "げんみつ",
     "romaji": "genmitsu",
-    "meaning": "strict, close"
+    "meaning": "strict, close",
+    "vi": "nghiêm ngặt, chặt chẽ"
   },
   {
     "id": "n1-0011",
     "jp": "賢明",
     "reading": "けんめい",
     "romaji": "kenmei",
-    "meaning": "wisdom, intelligence, prudence"
+    "meaning": "wisdom, intelligence, prudence",
+    "vi": "sáng suốt, khôn ngoan, thận trọng"
   },
   {
     "id": "n1-0012",
     "jp": "倹約",
     "reading": "けんやく",
     "romaji": "ken'yaku",
-    "meaning": "thrift, economy, frugality"
+    "meaning": "thrift, economy, frugality",
+    "vi": "tiết kiệm, cần kiệm"
   },
   {
     "id": "n1-0013",
     "jp": "原油",
     "reading": "げんゆ",
     "romaji": "gen'yu",
-    "meaning": "crude oil"
+    "meaning": "crude oil",
+    "vi": "dầu thô"
   },
   {
     "id": "n1-0014",
     "jp": "兼用",
     "reading": "けんよう",
     "romaji": "ken'you",
-    "meaning": "multi-use, combined use"
+    "meaning": "multi-use, combined use",
+    "vi": "dùng chung, đa năng"
   },
   {
     "id": "n1-0015",
     "jp": "権力",
     "reading": "けんりょく",
     "romaji": "kenryoku",
-    "meaning": "(political) power, authority, influence"
+    "meaning": "(political) power, authority, influence",
+    "vi": "quyền lực (chính trị), quyền uy"
   },
   {
     "id": "n1-0016",
     "jp": "言論",
     "reading": "げんろん",
     "romaji": "genron",
-    "meaning": "discussion, speech"
+    "meaning": "discussion, speech",
+    "vi": "ngôn luận, phát biểu"
   },
   {
     "id": "n1-0017",
     "jp": "故～",
     "reading": "こ～",
     "romaji": "ko～",
-    "meaning": "deceased, late"
+    "meaning": "deceased, late",
+    "vi": "cố (người đã mất)"
   },
   {
     "id": "n1-0018",
     "jp": "語彙",
     "reading": "ごい",
     "romaji": "goi",
-    "meaning": "vocabulary, glossary"
+    "meaning": "vocabulary, glossary",
+    "vi": "từ vựng, bảng thuật ngữ"
   },
   {
     "id": "n1-0019",
     "jp": "恋する",
     "reading": "こいする",
     "romaji": "koisuru",
-    "meaning": "to fall in love with, to love"
+    "meaning": "to fall in love with, to love",
+    "vi": "yêu, phải lòng"
   },
   {
     "id": "n1-0020",
     "jp": "甲",
     "reading": "こう",
     "romaji": "kou",
-    "meaning": "1st in rank; shell"
+    "meaning": "1st in rank; shell",
+    "vi": "hạng nhất; mai, vỏ"
   },
   {
     "id": "n1-0021",
     "jp": "～光",
     "reading": "～こう",
     "romaji": "～kou",
-    "meaning": "light"
+    "meaning": "light",
+    "vi": "ánh sáng"
   },
   {
     "id": "n1-0022",
     "jp": "好意",
     "reading": "こうい",
     "romaji": "koui",
-    "meaning": "good will, favor, courtesy"
+    "meaning": "good will, favor, courtesy",
+    "vi": "thiện chí, sự ưu ái"
   },
   {
     "id": "n1-0023",
     "jp": "行為",
     "reading": "こうい",
     "romaji": "koui",
-    "meaning": "act, deed, conduct"
+    "meaning": "act, deed, conduct",
+    "vi": "hành vi, hành động"
   },
   {
     "id": "n1-0024",
     "jp": "合意",
     "reading": "ごうい",
     "romaji": "goui",
-    "meaning": "agreement, consent, mutual understanding"
+    "meaning": "agreement, consent, mutual understanding",
+    "vi": "sự đồng thuận, thỏa thuận"
   },
   {
     "id": "n1-0025",
     "jp": "工学",
     "reading": "こうがく",
     "romaji": "kougaku",
-    "meaning": "engineering"
+    "meaning": "engineering",
+    "vi": "kỹ thuật, ngành công nghệ"
   },
   {
     "id": "n1-0026",
     "jp": "抗議",
     "reading": "こうぎ",
     "romaji": "kougi",
-    "meaning": "protest, objection"
+    "meaning": "protest, objection",
+    "vi": "phản đối, kháng nghị"
   },
   {
     "id": "n1-0027",
     "jp": "合議",
     "reading": "ごうぎ",
     "romaji": "gougi",
-    "meaning": "consultation, conference"
+    "meaning": "consultation, conference",
+    "vi": "hội ý, bàn bạc"
   },
   {
     "id": "n1-0028",
     "jp": "皇居",
     "reading": "こうきょ",
     "romaji": "koukyo",
-    "meaning": "Imperial Palace"
+    "meaning": "Imperial Palace",
+    "vi": "Hoàng cung"
   },
   {
     "id": "n1-0029",
     "jp": "好況",
     "reading": "こうきょう",
     "romaji": "koukyou",
-    "meaning": "prosperous conditions, healthy economy"
+    "meaning": "prosperous conditions, healthy economy",
+    "vi": "tình hình kinh tế thuận lợi, thịnh vượng"
   },
   {
     "id": "n1-0030",
     "jp": "鉱業",
     "reading": "こうぎょう",
     "romaji": "kougyou",
-    "meaning": "mining industry"
+    "meaning": "mining industry",
+    "vi": "ngành khai khoáng"
   },
   {
     "id": "n1-0031",
     "jp": "興業",
     "reading": "こうぎょう",
     "romaji": "kougyou",
-    "meaning": "starting a business; industry"
+    "meaning": "starting a business; industry",
+    "vi": "khởi nghiệp; công nghiệp"
   },
   {
     "id": "n1-0032",
     "jp": "高原",
     "reading": "こうげん",
     "romaji": "kougen",
-    "meaning": "tableland, plateau"
+    "meaning": "tableland, plateau",
+    "vi": "cao nguyên"
   },
   {
     "id": "n1-0033",
     "jp": "交互",
     "reading": "こうご",
     "romaji": "kougo",
-    "meaning": "mutual, reciprocal, alternate"
+    "meaning": "mutual, reciprocal, alternate",
+    "vi": "luân phiên, qua lại"
   },
   {
     "id": "n1-0034",
     "jp": "煌々と",
     "reading": "こうこうと",
     "romaji": "koukouto",
-    "meaning": "brightly"
+    "meaning": "brightly",
+    "vi": "sáng rực, sáng chói"
   },
   {
     "id": "n1-0035",
     "jp": "考古学",
     "reading": "こうこがく",
     "romaji": "koukogaku",
-    "meaning": "archeology"
+    "meaning": "archeology",
+    "vi": "khảo cổ học"
   },
   {
     "id": "n1-0036",
     "jp": "工作",
     "reading": "こうさく",
     "romaji": "kousaku",
-    "meaning": "handicraft, maneuvering"
+    "meaning": "handicraft, maneuvering",
+    "vi": "thủ công, vận động ngầm"
   },
   {
     "id": "n1-0037",
     "jp": "耕作",
     "reading": "こうさく",
     "romaji": "kousaku",
-    "meaning": "cultivation, farming"
+    "meaning": "cultivation, farming",
+    "vi": "canh tác, làm nông"
   },
   {
     "id": "n1-0038",
     "jp": "鉱山",
     "reading": "こうざん",
     "romaji": "kouzan",
-    "meaning": "mine"
+    "meaning": "mine",
+    "vi": "mỏ (khai khoáng)"
   },
   {
     "id": "n1-0039",
     "jp": "講習",
     "reading": "こうしゅう",
     "romaji": "koushuu",
-    "meaning": "short course, training"
+    "meaning": "short course, training",
+    "vi": "khóa học ngắn, huấn luyện"
   },
   {
     "id": "n1-0040",
     "jp": "口述",
     "reading": "こうじゅつ",
     "romaji": "koujutsu",
-    "meaning": "verbal statement"
+    "meaning": "verbal statement",
+    "vi": "lời khai miệng, tường thuật bằng miệng"
   },
   {
     "id": "n1-0041",
     "jp": "控除",
     "reading": "こうじょ",
     "romaji": "koujo",
-    "meaning": "subsidy, deduction"
+    "meaning": "subsidy, deduction",
+    "vi": "khấu trừ"
   },
   {
     "id": "n1-0042",
     "jp": "交渉",
     "reading": "こうしょう",
     "romaji": "koushou",
-    "meaning": "negotiation"
+    "meaning": "negotiation",
+    "vi": "đàm phán, thương lượng"
   },
   {
     "id": "n1-0043",
     "jp": "高尚",
     "reading": "こうしょう",
     "romaji": "koushou",
-    "meaning": "high, noble, refined"
+    "meaning": "high, noble, refined",
+    "vi": "cao thượng, thanh cao"
   },
   {
     "id": "n1-0044",
     "jp": "向上",
     "reading": "こうじょう",
     "romaji": "koujou",
-    "meaning": "rise, improvement, progress"
+    "meaning": "rise, improvement, progress",
+    "vi": "tiến bộ, cải thiện, nâng cao"
   },
   {
     "id": "n1-0045",
     "jp": "行進",
     "reading": "こうしん",
     "romaji": "koushin",
-    "meaning": "march, parade"
+    "meaning": "march, parade",
+    "vi": "diễu hành"
   },
   {
     "id": "n1-0046",
     "jp": "香辛料",
     "reading": "こうしんりょう",
     "romaji": "koushinryou",
-    "meaning": "spices"
+    "meaning": "spices",
+    "vi": "gia vị"
   },
   {
     "id": "n1-0047",
     "jp": "降水",
     "reading": "こうすい",
     "romaji": "kousui",
-    "meaning": "rainfall, precipitation"
+    "meaning": "rainfall, precipitation",
+    "vi": "lượng mưa, giáng thủy"
   },
   {
     "id": "n1-0048",
     "jp": "洪水",
     "reading": "こうずい",
     "romaji": "kouzui",
-    "meaning": "flood"
+    "meaning": "flood",
+    "vi": "lũ lụt"
   },
   {
     "id": "n1-0049",
     "jp": "合成",
     "reading": "ごうせい",
     "romaji": "gousei",
-    "meaning": "synthetic, mixed"
+    "meaning": "synthetic, mixed",
+    "vi": "tổng hợp, pha trộn"
   },
   {
     "id": "n1-0050",
     "jp": "公然",
     "reading": "こうぜん",
     "romaji": "kouzen",
-    "meaning": "openly"
+    "meaning": "openly",
+    "vi": "công khai"
   },
   {
     "id": "n1-0051",
     "jp": "抗争",
     "reading": "こうそう",
     "romaji": "kousou",
-    "meaning": "dispute, resistance"
+    "meaning": "dispute, resistance",
+    "vi": "tranh chấp, đối kháng"
   },
   {
     "id": "n1-0052",
     "jp": "構想",
     "reading": "こうそう",
     "romaji": "kousou",
-    "meaning": "plan, plot, idea, conception"
+    "meaning": "plan, plot, idea, conception",
+    "vi": "ý tưởng, dự thảo, quan niệm"
   },
   {
     "id": "n1-0053",
     "jp": "後退",
     "reading": "こうたい",
     "romaji": "koutai",
-    "meaning": "retreat, backspace"
+    "meaning": "retreat, backspace",
+    "vi": "lùi lại, thụt lùi"
   },
   {
     "id": "n1-0054",
     "jp": "光沢",
     "reading": "こうたく",
     "romaji": "koutaku",
-    "meaning": "luster, glossy finish (of photographs)"
+    "meaning": "luster, glossy finish (of photographs)",
+    "vi": "độ bóng, độ láng (của ảnh)"
   },
   {
     "id": "n1-0055",
     "jp": "公団",
     "reading": "こうだん",
     "romaji": "koudan",
-    "meaning": "public corporation"
+    "meaning": "public corporation",
+    "vi": "tập đoàn công (nhà nước)"
   },
   {
     "id": "n1-0056",
     "jp": "好調",
     "reading": "こうちょう",
     "romaji": "kouchou",
-    "meaning": "satisfactory, in good shape"
+    "meaning": "satisfactory, in good shape",
+    "vi": "thuận lợi, tình trạng tốt"
   },
   {
     "id": "n1-0057",
     "jp": "口頭",
     "reading": "こうとう",
     "romaji": "koutou",
-    "meaning": "oral"
+    "meaning": "oral",
+    "vi": "bằng miệng, khẩu ngữ"
   },
   {
     "id": "n1-0058",
     "jp": "講読",
     "reading": "こうどく",
     "romaji": "koudoku",
-    "meaning": "reading"
+    "meaning": "reading",
+    "vi": "đọc hiểu, giảng đọc"
   },
   {
     "id": "n1-0059",
     "jp": "購読",
     "reading": "こうどく",
     "romaji": "koudoku",
-    "meaning": "subscription"
+    "meaning": "subscription",
+    "vi": "đăng ký mua (báo/tạp chí)"
   },
   {
     "id": "n1-0060",
     "jp": "購入",
     "reading": "こうにゅう",
     "romaji": "kounyuu",
-    "meaning": "purchase, buy"
+    "meaning": "purchase, buy",
+    "vi": "mua, mua sắm"
   },
   {
     "id": "n1-0061",
     "jp": "公認",
     "reading": "こうにん",
     "romaji": "kounin",
-    "meaning": "official recognition, authorization"
+    "meaning": "official recognition, authorization",
+    "vi": "công nhận chính thức, cho phép"
   },
   {
     "id": "n1-0062",
     "jp": "光熱費",
     "reading": "こうねつひ",
     "romaji": "kounetsuhi",
-    "meaning": "cost of fuel and light"
+    "meaning": "cost of fuel and light",
+    "vi": "chi phí điện nước, tiền điện ga"
   },
   {
     "id": "n1-0063",
     "jp": "購買",
     "reading": "こうばい",
     "romaji": "koubai",
-    "meaning": "purchase, buy"
+    "meaning": "purchase, buy",
+    "vi": "mua, mua sắm"
   },
   {
     "id": "n1-0064",
     "jp": "好評",
     "reading": "こうひょう",
     "romaji": "kouhyou",
-    "meaning": "popularity, favorable reputation"
+    "meaning": "popularity, favorable reputation",
+    "vi": "được đánh giá tốt, tiếng tăm tốt"
   },
   {
     "id": "n1-0065",
     "jp": "交付",
     "reading": "こうふ",
     "romaji": "koufu",
-    "meaning": "delivering, furnishing (with copies)"
+    "meaning": "delivering, furnishing (with copies)",
+    "vi": "giao nộp, cấp phát"
   },
   {
     "id": "n1-0066",
     "jp": "公募",
     "reading": "こうぼ",
     "romaji": "koubo",
-    "meaning": "public appeal, public contribution"
+    "meaning": "public appeal, public contribution",
+    "vi": "tuyển mộ công khai, kêu gọi công chúng"
   },
   {
     "id": "n1-0067",
     "jp": "巧妙",
     "reading": "こうみょう",
     "romaji": "koumyou",
-    "meaning": "ingenious, skillful, clever"
+    "meaning": "ingenious, skillful, clever",
+    "vi": "khéo léo, tinh vi"
   },
   {
     "id": "n1-0068",
     "jp": "公用",
     "reading": "こうよう",
     "romaji": "kouyou",
-    "meaning": "government business, public use, public expense"
+    "meaning": "government business, public use, public expense",
+    "vi": "công vụ, dùng công, chi phí công"
   },
   {
     "id": "n1-0069",
     "jp": "小売",
     "reading": "こうり",
     "romaji": "kouri",
-    "meaning": "retail"
+    "meaning": "retail",
+    "vi": "bán lẻ"
   },
   {
     "id": "n1-0070",
     "jp": "効率",
     "reading": "こうりつ",
     "romaji": "kouritsu",
-    "meaning": "efficiency"
+    "meaning": "efficiency",
+    "vi": "hiệu suất"
   },
   {
     "id": "n1-0071",
     "jp": "公立",
     "reading": "こうりつ",
     "romaji": "kouritsu",
-    "meaning": "public institution"
+    "meaning": "public institution",
+    "vi": "công lập"
   },
   {
     "id": "n1-0072",
     "jp": "護衛",
     "reading": "ごえい",
     "romaji": "goei",
-    "meaning": "guard, convoy, escort"
+    "meaning": "guard, convoy, escort",
+    "vi": "bảo vệ, hộ tống"
   },
   {
     "id": "n1-0073",
     "jp": "コーナー",
     "reading": "コーナー",
     "romaji": "コーナー",
-    "meaning": "corner"
+    "meaning": "corner",
+    "vi": "góc, khu vực (corner)"
   },
   {
     "id": "n1-0074",
     "jp": "小柄",
     "reading": "こがら",
     "romaji": "kogara",
-    "meaning": "small, diminutive"
+    "meaning": "small, diminutive",
+    "vi": "nhỏ nhắn, nhỏ con"
   },
   {
     "id": "n1-0075",
     "jp": "小切手",
     "reading": "こぎって",
     "romaji": "kogitte",
-    "meaning": "cheque, check"
+    "meaning": "cheque, check",
+    "vi": "séc"
   },
   {
     "id": "n1-0076",
     "jp": "国産",
     "reading": "こくさん",
     "romaji": "kokusan",
-    "meaning": "domestic products"
+    "meaning": "domestic products",
+    "vi": "hàng nội địa, sản xuất trong nước"
   },
   {
     "id": "n1-0077",
     "jp": "国定",
     "reading": "こくてい",
     "romaji": "kokutei",
-    "meaning": "state-sponsored, national"
+    "meaning": "state-sponsored, national",
+    "vi": "do nhà nước quy định, quốc gia"
   },
   {
     "id": "n1-0078",
     "jp": "告白",
     "reading": "こくはく",
     "romaji": "kokuhaku",
-    "meaning": "confession, acknowledgment"
+    "meaning": "confession, acknowledgment",
+    "vi": "thú nhận, thổ lộ"
   },
   {
     "id": "n1-0079",
     "jp": "国防",
     "reading": "こくぼう",
     "romaji": "kokubou",
-    "meaning": "national defense"
+    "meaning": "national defense",
+    "vi": "quốc phòng"
   },
   {
     "id": "n1-0080",
     "jp": "国有",
     "reading": "こくゆう",
     "romaji": "kokuyuu",
-    "meaning": "national ownership"
+    "meaning": "national ownership",
+    "vi": "quốc hữu, sở hữu nhà nước"
   },
   {
     "id": "n1-0081",
     "jp": "極楽",
     "reading": "ごくらく",
     "romaji": "gokuraku",
-    "meaning": "paradise"
+    "meaning": "paradise",
+    "vi": "cực lạc, thiên đường"
   },
   {
     "id": "n1-0082",
     "jp": "国連",
     "reading": "こくれん",
     "romaji": "kokuren",
-    "meaning": "U.N., United Nations"
+    "meaning": "U.N., United Nations",
+    "vi": "Liên Hợp Quốc"
   },
   {
     "id": "n1-0083",
     "jp": "焦げ茶",
     "reading": "こげちゃ",
     "romaji": "kogecha",
-    "meaning": "dark brown"
+    "meaning": "dark brown",
+    "vi": "nâu sẫm"
   },
   {
     "id": "n1-0084",
     "jp": "語源",
     "reading": "ごげん",
     "romaji": "gogen",
-    "meaning": "word root, word derivation, etymology"
+    "meaning": "word root, word derivation, etymology",
+    "vi": "từ nguyên, gốc từ"
   },
   {
     "id": "n1-0085",
     "jp": "心地",
     "reading": "ここち",
     "romaji": "kokochi",
-    "meaning": "feeling, sensation, mood"
+    "meaning": "feeling, sensation, mood",
+    "vi": "cảm giác, tâm trạng"
   },
   {
     "id": "n1-0086",
     "jp": "心得",
     "reading": "こころえ",
     "romaji": "kokoroe",
-    "meaning": "knowledge, information"
+    "meaning": "knowledge, information",
+    "vi": "hiểu biết, kiến thức cơ bản"
   },
   {
     "id": "n1-0087",
     "jp": "心掛け",
     "reading": "こころがけ",
     "romaji": "kokorogake",
-    "meaning": "readiness, intention, aim"
+    "meaning": "readiness, intention, aim",
+    "vi": "sự chuẩn bị tinh thần, ý định"
   },
   {
     "id": "n1-0088",
     "jp": "心掛ける",
     "reading": "こころがける",
     "romaji": "kokorogakeru",
-    "meaning": "to bear in mind, to aim to do"
+    "meaning": "to bear in mind, to aim to do",
+    "vi": "luôn tâm niệm, cố gắng làm"
   },
   {
     "id": "n1-0089",
     "jp": "志",
     "reading": "こころざし",
     "romaji": "kokorozashi",
-    "meaning": "will, intention, motive"
+    "meaning": "will, intention, motive",
+    "vi": "chí hướng, ý chí"
   },
   {
     "id": "n1-0090",
     "jp": "志す",
     "reading": "こころざす",
     "romaji": "kokorozasu",
-    "meaning": "to plan, to intend, to aspire to"
+    "meaning": "to plan, to intend, to aspire to",
+    "vi": "quyết chí, mong muốn đạt được"
   },
   {
     "id": "n1-0091",
     "jp": "心強い",
     "reading": "こころづよい",
     "romaji": "kokorozuyoi",
-    "meaning": "heartening, reassuring"
+    "meaning": "heartening, reassuring",
+    "vi": "yên tâm, vững lòng"
   },
   {
     "id": "n1-0092",
     "jp": "心細い",
     "reading": "こころぼそい",
     "romaji": "kokorobosoi",
-    "meaning": "helpless, hopeless, discouraging"
+    "meaning": "helpless, hopeless, discouraging",
+    "vi": "cô đơn lo lắng, thiếu tự tin"
   },
   {
     "id": "n1-0093",
     "jp": "試み",
     "reading": "こころみ",
     "romaji": "kokoromi",
-    "meaning": "trial, experiment"
+    "meaning": "trial, experiment",
+    "vi": "thử nghiệm, nỗ lực thử"
   },
   {
     "id": "n1-0094",
     "jp": "試みる",
     "reading": "こころみる",
     "romaji": "kokoromiru",
-    "meaning": "to try, to test"
+    "meaning": "to try, to test",
+    "vi": "thử, thử nghiệm"
   },
   {
     "id": "n1-0095",
     "jp": "快い",
     "reading": "こころよい",
     "romaji": "kokoroyoi",
-    "meaning": "pleasant, agreeable"
+    "meaning": "pleasant, agreeable",
+    "vi": "dễ chịu, thoải mái"
   },
   {
     "id": "n1-0096",
     "jp": "誤差",
     "reading": "ごさ",
     "romaji": "gosa",
-    "meaning": "error"
+    "meaning": "error",
+    "vi": "sai số"
   },
   {
     "id": "n1-0097",
     "jp": "ございます (かん)",
     "reading": "ございます (かん)",
     "romaji": "gozaimasu (kan)",
-    "meaning": "to be (polite, to exist)"
+    "meaning": "to be (polite, to exist)",
+    "vi": "có, là (thể lịch sự)"
   },
   {
     "id": "n1-0098",
     "jp": "孤児",
     "reading": "こじ",
     "romaji": "koji",
-    "meaning": "orphan"
+    "meaning": "orphan",
+    "vi": "trẻ mồ côi"
   },
   {
     "id": "n1-0099",
     "jp": "こじれる",
     "reading": "こじれる",
     "romaji": "kojireru",
-    "meaning": "to get complicated, to grow worse"
+    "meaning": "to get complicated, to grow worse",
+    "vi": "trở nên rắc rối, xấu đi"
   },
   {
     "id": "n1-0100",
     "jp": "こす (みずを～)",
     "reading": "こす (みずを～)",
     "romaji": "kosu (mizuwo～)",
-    "meaning": "to strain, to filter"
+    "meaning": "to strain, to filter",
+    "vi": "lọc (nước)"
   },
   {
     "id": "n1-0101",
     "jp": "梢",
     "reading": "こずえ",
     "romaji": "kozue",
-    "meaning": "treetop"
+    "meaning": "treetop",
+    "vi": "ngọn cây"
   },
   {
     "id": "n1-0102",
     "jp": "個性",
     "reading": "こせい",
     "romaji": "kosei",
-    "meaning": "individuality, personality, idiosyncrasy"
+    "meaning": "individuality, personality, idiosyncrasy",
+    "vi": "cá tính, nét riêng"
   },
   {
     "id": "n1-0103",
     "jp": "戸籍",
     "reading": "こせき",
     "romaji": "koseki",
-    "meaning": "census, family register"
+    "meaning": "census, family register",
+    "vi": "hộ tịch, sổ hộ khẩu"
   },
   {
     "id": "n1-0104",
     "jp": "古代",
     "reading": "こだい",
     "romaji": "kodai",
-    "meaning": "ancient times"
+    "meaning": "ancient times",
+    "vi": "thời cổ đại"
   },
   {
     "id": "n1-0105",
     "jp": "こたつ",
     "reading": "こたつ",
     "romaji": "kotatsu",
-    "meaning": "table with heater, (originally) charcoal brazier in a floor well"
+    "meaning": "table with heater, (originally) charcoal brazier in a floor well",
+    "vi": "bàn sưởi kotatsu (bàn có lò sưởi bên dưới)"
   },
   {
     "id": "n1-0106",
     "jp": "こだわる",
     "reading": "こだわる",
     "romaji": "kodawaru",
-    "meaning": "to fuss over, to be particular about"
+    "meaning": "to fuss over, to be particular about",
+    "vi": "câu nệ, để tâm quá mức vào"
   },
   {
     "id": "n1-0107",
     "jp": "誇張",
     "reading": "こちょう",
     "romaji": "kochou",
-    "meaning": "exaggeration"
+    "meaning": "exaggeration",
+    "vi": "sự phóng đại, cường điệu"
   },
   {
     "id": "n1-0108",
     "jp": "こつ (をつかむ)",
     "reading": "こつ (をつかむ)",
     "romaji": "kotsu (wotsukamu)",
-    "meaning": "secret, trick, hang"
+    "meaning": "secret, trick, hang",
+    "vi": "bí quyết, mẹo"
   },
   {
     "id": "n1-0109",
     "jp": "滑稽",
     "reading": "こっけい",
     "romaji": "kokkei",
-    "meaning": "funny, humorous, comical"
+    "meaning": "funny, humorous, comical",
+    "vi": "buồn cười, hài hước"
   },
   {
     "id": "n1-0110",
     "jp": "国交",
     "reading": "こっこう",
     "romaji": "kokkou",
-    "meaning": "diplomatic relations"
+    "meaning": "diplomatic relations",
+    "vi": "quan hệ ngoại giao"
   },
   {
     "id": "n1-0111",
     "jp": "骨董品",
     "reading": "こっとうひん",
     "romaji": "kottouhin",
-    "meaning": "curio"
+    "meaning": "curio",
+    "vi": "đồ cổ"
   },
   {
     "id": "n1-0112",
     "jp": "固定",
     "reading": "こてい",
     "romaji": "kotei",
-    "meaning": "fixation, fixing (e.g., salary, capital)"
+    "meaning": "fixation, fixing (e.g., salary, capital)",
+    "vi": "cố định"
   },
   {
     "id": "n1-0113",
     "jp": "事柄",
     "reading": "ことがら",
     "romaji": "kotogara",
-    "meaning": "matter, thing, affair, circumstance"
+    "meaning": "matter, thing, affair, circumstance",
+    "vi": "sự việc, vấn đề"
   },
   {
     "id": "n1-0114",
     "jp": "孤独",
     "reading": "こどく",
     "romaji": "kodoku",
-    "meaning": "isolation, loneliness, solitude"
+    "meaning": "isolation, loneliness, solitude",
+    "vi": "cô độc, cô đơn"
   },
   {
     "id": "n1-0115",
     "jp": "ことごとく",
     "reading": "ことごとく",
     "romaji": "kotogotoku",
-    "meaning": "altogether, entirely"
+    "meaning": "altogether, entirely",
+    "vi": "hoàn toàn, tất cả"
   },
   {
     "id": "n1-0116",
     "jp": "言付け",
     "reading": "ことづけ",
     "romaji": "kotozuke",
-    "meaning": "to leave a message"
+    "meaning": "to leave a message",
+    "vi": "nhắn lại, để lại lời nhắn"
   },
   {
     "id": "n1-0117",
     "jp": "殊に",
     "reading": "ことに",
     "romaji": "kotoni",
-    "meaning": "especially, above all"
+    "meaning": "especially, above all",
+    "vi": "đặc biệt là, nhất là"
   },
   {
     "id": "n1-0118",
     "jp": "粉々",
     "reading": "こなごな",
     "romaji": "konagona",
-    "meaning": "in very small pieces"
+    "meaning": "in very small pieces",
+    "vi": "vụn nát, tan tành"
   },
   {
     "id": "n1-0119",
     "jp": "好ましい",
     "reading": "このましい",
     "romaji": "konomashii",
-    "meaning": "nice, likable, desirable"
+    "meaning": "nice, likable, desirable",
+    "vi": "đáng mong muốn, dễ mến"
   },
   {
     "id": "n1-0120",
     "jp": "碁盤",
     "reading": "ごばん",
     "romaji": "goban",
-    "meaning": "Go board"
+    "meaning": "Go board",
+    "vi": "bàn cờ vây"
   },
   {
     "id": "n1-0121",
     "jp": "個別",
     "reading": "こべつ",
     "romaji": "kobetsu",
-    "meaning": "particular case"
+    "meaning": "particular case",
+    "vi": "riêng lẻ, cá biệt"
   },
   {
     "id": "n1-0122",
     "jp": "ごまかす",
     "reading": "ごまかす",
     "romaji": "gomakasu",
-    "meaning": "to deceive, to falsify, to misrepresent"
+    "meaning": "to deceive, to falsify, to misrepresent",
+    "vi": "lừa dối, che giấu, gian lận"
   },
   {
     "id": "n1-0123",
     "jp": "細やか",
     "reading": "こまやか",
     "romaji": "komayaka",
-    "meaning": "meager, modest"
+    "meaning": "meager, modest",
+    "vi": "nhỏ nhặt, khiêm tốn"
   },
   {
     "id": "n1-0124",
     "jp": "コマーシャル",
     "reading": "コマーシャル",
     "romaji": "コマーシャル",
-    "meaning": "a commercial"
+    "meaning": "a commercial",
+    "vi": "quảng cáo (truyền hình)"
   },
   {
     "id": "n1-0125",
     "jp": "込める",
     "reading": "こめる",
     "romaji": "komeru",
-    "meaning": "to include, to put into"
+    "meaning": "to include, to put into",
+    "vi": "gửi gắm, dồn vào"
   },
   {
     "id": "n1-0126",
     "jp": "コメント",
     "reading": "コメント",
     "romaji": "コメント",
-    "meaning": "comment"
+    "meaning": "comment",
+    "vi": "bình luận"
   },
   {
     "id": "n1-0127",
     "jp": "籠もる",
     "reading": "こもる",
     "romaji": "komoru",
-    "meaning": "to seclude oneself, to be confined in"
+    "meaning": "to seclude oneself, to be confined in",
+    "vi": "tự giam mình, ở lì trong"
   },
   {
     "id": "n1-0128",
     "jp": "固有",
     "reading": "こゆう",
     "romaji": "koyuu",
-    "meaning": "characteristic, tradition, peculiar"
+    "meaning": "characteristic, tradition, peculiar",
+    "vi": "riêng có, đặc trưng"
   },
   {
     "id": "n1-0129",
     "jp": "暦",
     "reading": "こよみ",
     "romaji": "koyomi",
-    "meaning": "calendar, almanac"
+    "meaning": "calendar, almanac",
+    "vi": "lịch"
   },
   {
     "id": "n1-0130",
     "jp": "凝らす",
     "reading": "こらす",
     "romaji": "korasu",
-    "meaning": "to concentrate, to devote, to peer into"
+    "meaning": "to concentrate, to devote, to peer into",
+    "vi": "tập trung, dồn hết vào, chăm chú nhìn"
   },
   {
     "id": "n1-0131",
     "jp": "ごらんなさい (かん)",
     "reading": "ごらんなさい (かん)",
     "romaji": "gorannasai (kan)",
-    "meaning": "look, (please) try to do"
+    "meaning": "look, (please) try to do",
+    "vi": "này, hãy nhìn xem/thử làm xem"
   },
   {
     "id": "n1-0132",
     "jp": "孤立",
     "reading": "こりつ",
     "romaji": "koritsu",
-    "meaning": "isolation, helplessness"
+    "meaning": "isolation, helplessness",
+    "vi": "cô lập, bị bỏ rơi"
   },
   {
     "id": "n1-0133",
     "jp": "懲りる",
     "reading": "こりる",
     "romaji": "koriru",
-    "meaning": "to learn by experience, to be disgusted with"
+    "meaning": "to learn by experience, to be disgusted with",
+    "vi": "chừa hẳn, tởn đến già"
   },
   {
     "id": "n1-0134",
     "jp": "凝る",
     "reading": "こる",
     "romaji": "koru",
-    "meaning": "to stiffen, to harden"
+    "meaning": "to stiffen, to harden",
+    "vi": "cứng lại, mỏi (cơ)"
   },
   {
     "id": "n1-0135",
     "jp": "根気",
     "reading": "こんき",
     "romaji": "konki",
-    "meaning": "patience; perseverance, energy"
+    "meaning": "patience; perseverance, energy",
+    "vi": "sự kiên nhẫn, bền bỉ"
   },
   {
     "id": "n1-0136",
     "jp": "根拠",
     "reading": "こんきょ",
     "romaji": "konkyo",
-    "meaning": "basis, foundation"
+    "meaning": "basis, foundation",
+    "vi": "căn cứ, cơ sở"
   },
   {
     "id": "n1-0137",
     "jp": "混血",
     "reading": "こんけつ",
     "romaji": "konketsu",
-    "meaning": "mixed race, mixed parentage"
+    "meaning": "mixed race, mixed parentage",
+    "vi": "con lai, hỗn huyết"
   },
   {
     "id": "n1-0138",
     "jp": "コンタクト (レンズ)",
     "reading": "コンタクト (レンズ)",
     "romaji": "コンタクト (レンズ)",
-    "meaning": "contact; contact lens"
+    "meaning": "contact; contact lens",
+    "vi": "liên lạc; kính áp tròng"
   },
   {
     "id": "n1-0139",
     "jp": "昆虫",
     "reading": "こんちゅう",
     "romaji": "konchuu",
-    "meaning": "insect, bug"
+    "meaning": "insect, bug",
+    "vi": "côn trùng"
   },
   {
     "id": "n1-0140",
     "jp": "根底",
     "reading": "こんてい",
     "romaji": "kontei",
-    "meaning": "root, basis, foundation"
+    "meaning": "root, basis, foundation",
+    "vi": "gốc rễ, nền tảng"
   },
   {
     "id": "n1-0141",
     "jp": "混同",
     "reading": "こんどう",
     "romaji": "kondou",
-    "meaning": "confusion, mixing, merger"
+    "meaning": "confusion, mixing, merger",
+    "vi": "nhầm lẫn, đánh đồng"
   },
   {
     "id": "n1-0142",
     "jp": "コントラスト",
     "reading": "コントラスト",
     "romaji": "コントラスト",
-    "meaning": "contrast"
+    "meaning": "contrast",
+    "vi": "sự tương phản"
   },
   {
     "id": "n1-0143",
     "jp": "コントロール",
     "reading": "コントロール",
     "romaji": "コントロール",
-    "meaning": "control"
+    "meaning": "control",
+    "vi": "điều khiển, kiểm soát"
   },
   {
     "id": "n1-0144",
     "jp": "コンパス",
     "reading": "コンパス",
     "romaji": "コンパス",
-    "meaning": "compass"
+    "meaning": "compass",
+    "vi": "com-pa, la bàn"
   },
   {
     "id": "n1-0145",
     "jp": "根本",
     "reading": "こんぽん",
     "romaji": "konpon",
-    "meaning": "foundation, root, base"
+    "meaning": "foundation, root, base",
+    "vi": "gốc rễ, căn bản"
   },
   {
     "id": "n1-0146",
     "jp": "財",
     "reading": "ざい",
     "romaji": "zai",
-    "meaning": "fortune, riches"
+    "meaning": "fortune, riches",
+    "vi": "tài sản, của cải"
   },
   {
     "id": "n1-0147",
     "jp": "再会",
     "reading": "さいかい",
     "romaji": "saikai",
-    "meaning": "meeting again, reunion"
+    "meaning": "meeting again, reunion",
+    "vi": "gặp lại, tái ngộ"
   },
   {
     "id": "n1-0148",
     "jp": "災害",
     "reading": "さいがい",
     "romaji": "saigai",
-    "meaning": "calamity, disaster, misfortune"
+    "meaning": "calamity, disaster, misfortune",
+    "vi": "thiên tai, tai họa"
   },
   {
     "id": "n1-0149",
     "jp": "細菌",
     "reading": "さいきん",
     "romaji": "saikin",
-    "meaning": "bacillus, bacterium, germ"
+    "meaning": "bacillus, bacterium, germ",
+    "vi": "vi khuẩn"
   },
   {
     "id": "n1-0150",
     "jp": "細工",
     "reading": "さいく",
     "romaji": "saiku",
-    "meaning": "work, craftsmanship, trick"
+    "meaning": "work, craftsmanship, trick",
+    "vi": "thủ công tinh xảo, mánh khóe"
   },
   {
     "id": "n1-0151",
     "jp": "採掘",
     "reading": "さいくつ",
     "romaji": "saikutsu",
-    "meaning": "mining"
+    "meaning": "mining",
+    "vi": "khai thác (mỏ)"
   },
   {
     "id": "n1-0152",
     "jp": "サイクル",
     "reading": "サイクル",
     "romaji": "サイクル",
-    "meaning": "cycle"
+    "meaning": "cycle",
+    "vi": "chu kỳ"
   },
   {
     "id": "n1-0153",
     "jp": "採決",
     "reading": "さいけつ",
     "romaji": "saiketsu",
-    "meaning": "vote, roll call"
+    "meaning": "vote, roll call",
+    "vi": "biểu quyết"
   },
   {
     "id": "n1-0154",
     "jp": "再建",
     "reading": "さいけん",
     "romaji": "saiken",
-    "meaning": "(temple or shrine) rebuilding"
+    "meaning": "(temple or shrine) rebuilding",
+    "vi": "tái thiết, xây dựng lại (đền, chùa)"
   },
   {
     "id": "n1-0155",
     "jp": "再現",
     "reading": "さいげん",
     "romaji": "saigen",
-    "meaning": "reproduction, return, revival"
+    "meaning": "reproduction, return, revival",
+    "vi": "tái hiện, khôi phục"
   },
   {
     "id": "n1-0156",
     "jp": "財源",
     "reading": "ざいげん",
     "romaji": "zaigen",
-    "meaning": "source of funds, resources, finances"
+    "meaning": "source of funds, resources, finances",
+    "vi": "nguồn tài chính, nguồn vốn"
   },
   {
     "id": "n1-0157",
     "jp": "在庫",
     "reading": "ざいこ",
     "romaji": "zaiko",
-    "meaning": "stockpile, stock"
+    "meaning": "stockpile, stock",
+    "vi": "hàng tồn kho"
   },
   {
     "id": "n1-0158",
     "jp": "採算",
     "reading": "さいさん",
     "romaji": "saisan",
-    "meaning": "profit"
+    "meaning": "profit",
+    "vi": "tính toán lời lỗ, lợi nhuận"
   },
   {
     "id": "n1-0159",
     "jp": "サイズ",
     "reading": "サイズ",
     "romaji": "サイズ",
-    "meaning": "size"
+    "meaning": "size",
+    "vi": "kích cỡ"
   },
   {
     "id": "n1-0160",
     "jp": "再生",
     "reading": "さいせい",
     "romaji": "saisei",
-    "meaning": "playback, regeneration, resuscitation"
+    "meaning": "playback, regeneration, resuscitation",
+    "vi": "phát lại, tái sinh, hồi phục"
   },
   {
     "id": "n1-0161",
     "jp": "財政",
     "reading": "ざいせい",
     "romaji": "zaisei",
-    "meaning": "economy, financial affairs"
+    "meaning": "economy, financial affairs",
+    "vi": "tài chính"
   },
   {
     "id": "n1-0162",
     "jp": "最善",
     "reading": "さいぜん",
     "romaji": "saizen",
-    "meaning": "the very best"
+    "meaning": "the very best",
+    "vi": "tốt nhất"
   },
   {
     "id": "n1-0163",
     "jp": "採択",
     "reading": "さいたく",
     "romaji": "saitaku",
-    "meaning": "adoption, selection, choice"
+    "meaning": "adoption, selection, choice",
+    "vi": "thông qua, lựa chọn (nghị quyết)"
   },
   {
     "id": "n1-0164",
     "jp": "栽培",
     "reading": "さいばい",
     "romaji": "saibai",
-    "meaning": "cultivation"
+    "meaning": "cultivation",
+    "vi": "trồng trọt, canh tác"
   },
   {
     "id": "n1-0165",
     "jp": "再発",
     "reading": "さいはつ",
     "romaji": "saihatsu",
-    "meaning": "return, relapse, reoccurrence"
+    "meaning": "return, relapse, reoccurrence",
+    "vi": "tái phát"
   },
   {
     "id": "n1-0166",
     "jp": "細胞",
     "reading": "さいぼう",
     "romaji": "saibou",
-    "meaning": "cell"
+    "meaning": "cell",
+    "vi": "tế bào"
   },
   {
     "id": "n1-0167",
     "jp": "採用",
     "reading": "さいよう",
     "romaji": "saiyou",
-    "meaning": "use, adopt"
+    "meaning": "use, adopt",
+    "vi": "tuyển dụng, áp dụng"
   },
   {
     "id": "n1-0168",
     "jp": "遮る",
     "reading": "さえぎる",
     "romaji": "saegiru",
-    "meaning": "to interrupt, to intercept, to obstruct"
+    "meaning": "to interrupt, to intercept, to obstruct",
+    "vi": "ngắt lời, che khuất, cản trở"
   },
   {
     "id": "n1-0169",
     "jp": "さえずる",
     "reading": "さえずる",
     "romaji": "saezuru",
-    "meaning": "to sing, to chirp, to twitter"
+    "meaning": "to sing, to chirp, to twitter",
+    "vi": "hót líu lo"
   },
   {
     "id": "n1-0170",
     "jp": "冴える",
     "reading": "さえる",
     "romaji": "saeru",
-    "meaning": "to be clear, to be bright, to be skillful"
+    "meaning": "to be clear, to be bright, to be skillful",
+    "vi": "tỉnh táo, minh mẫn, sắc sảo"
   },
   {
     "id": "n1-0171",
     "jp": "竿",
     "reading": "さお",
     "romaji": "sao",
-    "meaning": "rod, pole (e.g., for drying laundry)"
+    "meaning": "rod, pole (e.g., for drying laundry)",
+    "vi": "cây sào, gậy"
   },
   {
     "id": "n1-0172",
     "jp": "栄える",
     "reading": "さかえる",
     "romaji": "sakaeru",
-    "meaning": "to flourish, to prosper, to thrive"
+    "meaning": "to flourish, to prosper, to thrive",
+    "vi": "phồn vinh, thịnh vượng"
   },
   {
     "id": "n1-0173",
     "jp": "差額",
     "reading": "さがく",
     "romaji": "sagaku",
-    "meaning": "balance, difference, margin"
+    "meaning": "balance, difference, margin",
+    "vi": "phần chênh lệch"
   },
   {
     "id": "n1-0174",
     "jp": "杯",
     "reading": "さかずき",
     "romaji": "sakazuki",
-    "meaning": "wine cup"
+    "meaning": "wine cup",
+    "vi": "chén rượu"
   },
   {
     "id": "n1-0175",
     "jp": "逆立ち",
     "reading": "さかだち",
     "romaji": "sakadachi",
-    "meaning": "handstand, headstand"
+    "meaning": "handstand, headstand",
+    "vi": "trồng cây chuối, lộn ngược"
   },
   {
     "id": "n1-0176",
     "jp": "さきに (いぜん)",
     "reading": "さきに (いぜん)",
     "romaji": "sakini (izen)",
-    "meaning": "before, earlier than, previously"
+    "meaning": "before, earlier than, previously",
+    "vi": "trước đây, trước kia"
   },
   {
     "id": "n1-0177",
     "jp": "詐欺",
     "reading": "さぎ",
     "romaji": "sagi",
-    "meaning": "fraud, swindle"
+    "meaning": "fraud, swindle",
+    "vi": "lừa đảo"
   },
   {
     "id": "n1-0178",
     "jp": "削減",
     "reading": "さくげん",
     "romaji": "sakugen",
-    "meaning": "cut, reduction"
+    "meaning": "cut, reduction",
+    "vi": "cắt giảm"
   },
   {
     "id": "n1-0179",
     "jp": "錯誤",
     "reading": "さくご",
     "romaji": "sakugo",
-    "meaning": "mistake"
+    "meaning": "mistake",
+    "vi": "sai lầm, nhầm lẫn"
   },
   {
     "id": "n1-0180",
     "jp": "作戦",
     "reading": "さくせん",
     "romaji": "sakusen",
-    "meaning": "military operations, tactics, strategy"
+    "meaning": "military operations, tactics, strategy",
+    "vi": "chiến thuật, tác chiến"
   },
   {
     "id": "n1-0181",
     "jp": "叫び",
     "reading": "さけび",
     "romaji": "sakebi",
-    "meaning": "shout, scream, outcry"
+    "meaning": "shout, scream, outcry",
+    "vi": "tiếng hét, tiếng kêu la"
   },
   {
     "id": "n1-0182",
     "jp": "捧げる",
     "reading": "ささげる",
     "romaji": "sasageru",
-    "meaning": "to lift up, to give, to offer"
+    "meaning": "to lift up, to give, to offer",
+    "vi": "dâng tặng, cống hiến"
   },
   {
     "id": "n1-0183",
     "jp": "差し掛かる",
     "reading": "さしかかる",
     "romaji": "sashikakaru",
-    "meaning": "to come near to, to approach"
+    "meaning": "to come near to, to approach",
+    "vi": "sắp đến gần, tới gần"
   },
   {
     "id": "n1-0184",
     "jp": "指図",
     "reading": "さしず",
     "romaji": "sashizu",
-    "meaning": "instruction, mandate"
+    "meaning": "instruction, mandate",
+    "vi": "chỉ thị, sai khiến"
   },
   {
     "id": "n1-0185",
     "jp": "差し出す",
     "reading": "さしだす",
     "romaji": "sashidasu",
-    "meaning": "to present, to submit, to hold out"
+    "meaning": "to present, to submit, to hold out",
+    "vi": "đưa ra, trình nộp, chìa ra"
   },
   {
     "id": "n1-0186",
     "jp": "差し支える",
     "reading": "さしつかえる",
     "romaji": "sashitsukaeru",
-    "meaning": "to interfere, to hinder"
+    "meaning": "to interfere, to hinder",
+    "vi": "gây trở ngại, ảnh hưởng xấu"
   },
   {
     "id": "n1-0187",
     "jp": "授ける",
     "reading": "さずける",
     "romaji": "sazukeru",
-    "meaning": "to grant, to award, to teach"
+    "meaning": "to grant, to award, to teach",
+    "vi": "ban cho, truyền dạy"
   },
   {
     "id": "n1-0188",
     "jp": "摩する",
     "reading": "さする",
     "romaji": "sasuru",
-    "meaning": "to rub, to stroke"
+    "meaning": "to rub, to stroke",
+    "vi": "xoa, vuốt ve"
   },
   {
     "id": "n1-0189",
     "jp": "さぞ (さぞや。さぞかし)",
     "reading": "さぞ (さぞや。さぞかし)",
     "romaji": "sazo (sazoya。sazokashi)",
-    "meaning": "I am sure, certainly, no doubt"
+    "meaning": "I am sure, certainly, no doubt",
+    "vi": "chắc hẳn, ắt hẳn"
   },
   {
     "id": "n1-0190",
     "jp": "定まる",
     "reading": "さだまる",
     "romaji": "sadamaru",
-    "meaning": "to become settled, to be fixed"
+    "meaning": "to become settled, to be fixed",
+    "vi": "được ổn định, được xác định"
   },
   {
     "id": "n1-0191",
     "jp": "定める",
     "reading": "さだめる",
     "romaji": "sadameru",
-    "meaning": "to decide, to determine"
+    "meaning": "to decide, to determine",
+    "vi": "quy định, xác định"
   },
   {
     "id": "n1-0192",
     "jp": "座談会",
     "reading": "ざだんかい",
     "romaji": "zadankai",
-    "meaning": "symposium, round-table discussion"
+    "meaning": "symposium, round-table discussion",
+    "vi": "buổi tọa đàm, thảo luận bàn tròn"
   },
   {
     "id": "n1-0193",
     "jp": "雑",
     "reading": "ざつ",
     "romaji": "zatsu",
-    "meaning": "rough, crude"
+    "meaning": "rough, crude",
+    "vi": "sơ sài, cẩu thả"
   },
   {
     "id": "n1-0194",
     "jp": "雑貨",
     "reading": "ざっか",
     "romaji": "zakka",
-    "meaning": "miscellaneous goods, general goods"
+    "meaning": "miscellaneous goods, general goods",
+    "vi": "hàng tạp hóa"
   },
   {
     "id": "n1-0195",
     "jp": "殺人",
     "reading": "さつじん",
     "romaji": "satsujin",
-    "meaning": "murder"
+    "meaning": "murder",
+    "vi": "giết người"
   },
   {
     "id": "n1-0196",
     "jp": "察する",
     "reading": "さっする",
     "romaji": "sassuru",
-    "meaning": "to guess, to sense, to judge"
+    "meaning": "to guess, to sense, to judge",
+    "vi": "đoán biết, cảm nhận được"
   },
   {
     "id": "n1-0197",
     "jp": "雑談",
     "reading": "ざつだん",
     "romaji": "zatsudan",
-    "meaning": "chatting, idle talk"
+    "meaning": "chatting, idle talk",
+    "vi": "nói chuyện phiếm"
   },
   {
     "id": "n1-0198",
     "jp": "さっと",
     "reading": "さっと",
     "romaji": "satto",
-    "meaning": "suddenly, smoothly"
+    "meaning": "suddenly, smoothly",
+    "vi": "nhanh chóng, thoăn thoắt"
   },
   {
     "id": "n1-0199",
     "jp": "さっぱりする",
     "reading": "さっぱりする",
     "romaji": "sapparisuru",
-    "meaning": "to refresh"
+    "meaning": "to refresh",
+    "vi": "cảm thấy sảng khoái, nhẹ nhõm"
   },
   {
     "id": "n1-0200",
     "jp": "悟る",
     "reading": "さとる",
     "romaji": "satoru",
-    "meaning": "to attain enlightenment, to understand"
+    "meaning": "to attain enlightenment, to understand",
+    "vi": "giác ngộ, thấu hiểu"
   },
   {
     "id": "n1-0201",
     "jp": "最中",
     "reading": "さなか",
     "romaji": "sanaka",
-    "meaning": "in the middle of, midst"
+    "meaning": "in the middle of, midst",
+    "vi": "đang giữa lúc, đang trong lúc"
   },
   {
     "id": "n1-0202",
     "jp": "座標",
     "reading": "ざひょう",
     "romaji": "zahyou",
-    "meaning": "coordinates"
+    "meaning": "coordinates",
+    "vi": "tọa độ"
   },
   {
     "id": "n1-0203",
     "jp": "さほど",
     "reading": "さほど",
     "romaji": "sahodo",
-    "meaning": "not so, not that much"
+    "meaning": "not so, not that much",
+    "vi": "không đến nỗi, không quá"
   },
   {
     "id": "n1-0204",
     "jp": "サボる",
     "reading": "サボる",
     "romaji": "サボru",
-    "meaning": "to cut (skip) classes; to loaf on the job; to idle away one's time"
+    "meaning": "to cut (skip) classes; to loaf on the job; to idle away one's time",
+    "vi": "trốn học, trốn việc, lười biếng"
   },
   {
     "id": "n1-0205",
     "jp": "様",
     "reading": "さま",
     "romaji": "sama",
-    "meaning": "state; way (a person does something); Mr. or Mrs."
+    "meaning": "state; way (a person does something); Mr. or Mrs.",
+    "vi": "trạng thái; cách thức; ngài/bà (kính ngữ)"
   },
   {
     "id": "n1-0206",
     "jp": "寒気",
     "reading": "さむけ",
     "romaji": "samuke",
-    "meaning": "chill, shiver, cold"
+    "meaning": "chill, shiver, cold",
+    "vi": "cảm giác ớn lạnh, rùng mình"
   },
   {
     "id": "n1-0207",
     "jp": "侍",
     "reading": "さむらい",
     "romaji": "samurai",
-    "meaning": "samurai"
+    "meaning": "samurai",
+    "vi": "võ sĩ đạo, samurai"
   },
   {
     "id": "n1-0208",
     "jp": "さも",
     "reading": "さも",
     "romaji": "samo",
-    "meaning": "with gusto, with satisfaction"
+    "meaning": "with gusto, with satisfaction",
+    "vi": "ra vẻ, có vẻ như thật"
   },
   {
     "id": "n1-0209",
     "jp": "作用",
     "reading": "さよう",
     "romaji": "sayou",
-    "meaning": "operation, effect, function"
+    "meaning": "operation, effect, function",
+    "vi": "tác dụng, chức năng"
   },
   {
     "id": "n1-0210",
     "jp": "さらう (こどもを～)",
     "reading": "さらう (こどもを～)",
     "romaji": "sarau (kodomowo～)",
-    "meaning": "to kidnap"
+    "meaning": "to kidnap",
+    "vi": "bắt cóc (trẻ em)"
   },
   {
     "id": "n1-0211",
     "jp": "障る",
     "reading": "さわる",
     "romaji": "sawaru",
-    "meaning": "to hinder, to interfere with, to affect"
+    "meaning": "to hinder, to interfere with, to affect",
+    "vi": "gây hại, ảnh hưởng xấu"
   },
   {
     "id": "n1-0212",
     "jp": "酸",
     "reading": "さん",
     "romaji": "san",
-    "meaning": "acid"
+    "meaning": "acid",
+    "vi": "axit"
   },
   {
     "id": "n1-0213",
     "jp": "山岳",
     "reading": "さんがく",
     "romaji": "sangaku",
-    "meaning": "mountains"
+    "meaning": "mountains",
+    "vi": "núi non"
   },
   {
     "id": "n1-0214",
     "jp": "参議院",
     "reading": "さんぎいん",
     "romaji": "sangiin",
-    "meaning": "House of Councilors"
+    "meaning": "House of Councilors",
+    "vi": "Thượng viện (Nhật Bản)"
   },
   {
     "id": "n1-0215",
     "jp": "産休",
     "reading": "さんきゅう",
     "romaji": "sankyuu",
-    "meaning": "maternity leave"
+    "meaning": "maternity leave",
+    "vi": "nghỉ thai sản"
   },
   {
     "id": "n1-0216",
     "jp": "サンキュー",
     "reading": "サンキュー",
     "romaji": "サンキュー",
-    "meaning": "thank you"
+    "meaning": "thank you",
+    "vi": "cảm ơn"
   },
   {
     "id": "n1-0217",
     "jp": "残金",
     "reading": "ざんきん",
     "romaji": "zankin",
-    "meaning": "remaining money"
+    "meaning": "remaining money",
+    "vi": "số tiền còn lại"
   },
   {
     "id": "n1-0218",
     "jp": "産後",
     "reading": "さんご",
     "romaji": "sango",
-    "meaning": "postpartum, after childbirth"
+    "meaning": "postpartum, after childbirth",
+    "vi": "sau khi sinh"
   },
   {
     "id": "n1-0219",
     "jp": "残酷",
     "reading": "ざんこく",
     "romaji": "zankoku",
-    "meaning": "cruelty, harshness"
+    "meaning": "cruelty, harshness",
+    "vi": "tàn nhẫn, tàn khốc"
   },
   {
     "id": "n1-0220",
     "jp": "産出",
     "reading": "さんしゅつ",
     "romaji": "sanshutsu",
-    "meaning": "yield, produce"
+    "meaning": "yield, produce",
+    "vi": "sản xuất, cho ra (sản phẩm)"
   },
   {
     "id": "n1-0221",
     "jp": "参照",
     "reading": "さんしょう",
     "romaji": "sanshou",
-    "meaning": "reference, consultation, consultation"
+    "meaning": "reference, consultation, consultation",
+    "vi": "tham chiếu, tham khảo"
   },
   {
     "id": "n1-0222",
     "jp": "参上",
     "reading": "さんじょう",
     "romaji": "sanjou",
-    "meaning": "calling on, visiting"
+    "meaning": "calling on, visiting",
+    "vi": "đến thăm, đến gặp (khiêm nhường ngữ)"
   },
   {
     "id": "n1-0223",
     "jp": "残高",
     "reading": "ざんだか",
     "romaji": "zandaka",
-    "meaning": "(bank) balance, remainder"
+    "meaning": "(bank) balance, remainder",
+    "vi": "số dư (tài khoản)"
   },
   {
     "id": "n1-0224",
     "jp": "サンタクロース",
     "reading": "サンタクロース",
     "romaji": "サンタクロース",
-    "meaning": "Santa Claus"
+    "meaning": "Santa Claus",
+    "vi": "ông già Noel"
   },
   {
     "id": "n1-0225",
     "jp": "桟橋",
     "reading": "さんばし",
     "romaji": "sanbashi",
-    "meaning": "wharf, jetty, pier"
+    "meaning": "wharf, jetty, pier",
+    "vi": "cầu tàu, bến tàu"
   },
   {
     "id": "n1-0226",
     "jp": "賛美",
     "reading": "さんび",
     "romaji": "sanbi",
-    "meaning": "praise, adoration, glorification"
+    "meaning": "praise, adoration, glorification",
+    "vi": "ca ngợi, tán dương"
   },
   {
     "id": "n1-0227",
     "jp": "山腹",
     "reading": "さんぷく",
     "romaji": "sanpuku",
-    "meaning": "hillside, mountainside"
+    "meaning": "hillside, mountainside",
+    "vi": "sườn núi"
   },
   {
     "id": "n1-0228",
     "jp": "産婦人科",
     "reading": "さんふじんか",
     "romaji": "sanfujinka",
-    "meaning": "maternity and gynecology department"
+    "meaning": "maternity and gynecology department",
+    "vi": "khoa sản phụ khoa"
   },
   {
     "id": "n1-0229",
     "jp": "産物",
     "reading": "さんぶつ",
     "romaji": "sanbutsu",
-    "meaning": "product, result, fruit"
+    "meaning": "product, result, fruit",
+    "vi": "sản vật, kết quả"
   },
   {
     "id": "n1-0230",
     "jp": "山脈",
     "reading": "さんみゃく",
     "romaji": "sanmyaku",
-    "meaning": "mountain range"
+    "meaning": "mountain range",
+    "vi": "dãy núi"
   },
   {
     "id": "n1-0231",
     "jp": "仕上がり",
     "reading": "しあがり",
     "romaji": "shiagari",
-    "meaning": "finish, end, completion"
+    "meaning": "finish, end, completion",
+    "vi": "sự hoàn thành, thành phẩm"
   },
   {
     "id": "n1-0232",
     "jp": "仕上",
     "reading": "しあげ",
     "romaji": "shiage",
-    "meaning": "end, finishing touches"
+    "meaning": "end, finishing touches",
+    "vi": "hoàn thiện, khâu hoàn tất"
   },
   {
     "id": "n1-0233",
     "jp": "仕上げる",
     "reading": "しあげる",
     "romaji": "shiageru",
-    "meaning": "to finish up, to complete"
+    "meaning": "to finish up, to complete",
+    "vi": "hoàn thành, hoàn tất"
   },
   {
     "id": "n1-0234",
     "jp": "飼育",
     "reading": "しいく",
     "romaji": "shiiku",
-    "meaning": "breeding, raising, rearing"
+    "meaning": "breeding, raising, rearing",
+    "vi": "chăn nuôi, nuôi dưỡng"
   },
   {
     "id": "n1-0235",
     "jp": "強いて",
     "reading": "しいて",
     "romaji": "shiite",
-    "meaning": "to dare, to insist"
+    "meaning": "to dare, to insist",
+    "vi": "cố ép, khiên cưỡng"
   },
   {
     "id": "n1-0236",
     "jp": "シート",
     "reading": "シート",
     "romaji": "シート",
-    "meaning": "seat; sheet"
+    "meaning": "seat; sheet",
+    "vi": "ghế ngồi; tấm/tờ (sheet)"
   },
   {
     "id": "n1-0237",
     "jp": "ジーパン",
     "reading": "ジーパン",
     "romaji": "ジーパン",
-    "meaning": "jeans"
+    "meaning": "jeans",
+    "vi": "quần jean"
   },
   {
     "id": "n1-0238",
     "jp": "仕入れる",
     "reading": "しいれる",
     "romaji": "shiireru",
-    "meaning": "to lay in stock, to replenish stock, to procure"
+    "meaning": "to lay in stock, to replenish stock, to procure",
+    "vi": "nhập hàng, mua hàng dự trữ"
   },
   {
     "id": "n1-0239",
     "jp": "強いる",
     "reading": "しいる",
     "romaji": "shiiru",
-    "meaning": "to force, to compel, to coerce"
+    "meaning": "to force, to compel, to coerce",
+    "vi": "ép buộc, cưỡng ép"
   },
   {
     "id": "n1-0240",
     "jp": "潮",
     "reading": "しお",
     "romaji": "shio",
-    "meaning": "tide"
+    "meaning": "tide",
+    "vi": "thủy triều"
   },
   {
     "id": "n1-0241",
     "jp": "歯科",
     "reading": "しか",
     "romaji": "shika",
-    "meaning": "dentistry"
+    "meaning": "dentistry",
+    "vi": "nha khoa"
   },
   {
     "id": "n1-0242",
     "jp": "自我",
     "reading": "じが",
     "romaji": "jiga",
-    "meaning": "self, ego"
+    "meaning": "self, ego",
+    "vi": "cái tôi, bản ngã"
   },
   {
     "id": "n1-0243",
     "jp": "自覚",
     "reading": "じかく",
     "romaji": "jikaku",
-    "meaning": "self-conscious"
+    "meaning": "self-conscious",
+    "vi": "tự ý thức, tự giác"
   },
   {
     "id": "n1-0244",
     "jp": "仕掛",
     "reading": "しかけ",
     "romaji": "shikake",
-    "meaning": "device, trick, mechanism"
+    "meaning": "device, trick, mechanism",
+    "vi": "cơ chế, cơ cấu, mưu mẹo"
   },
   {
     "id": "n1-0245",
     "jp": "仕掛ける",
     "reading": "しかける",
     "romaji": "shikakeru",
-    "meaning": "to lay, to set, to wage"
+    "meaning": "to lay, to set, to wage",
+    "vi": "gài đặt, khơi mào, tiến hành"
   },
   {
     "id": "n1-0246",
     "jp": "しかしながら",
     "reading": "しかしながら",
     "romaji": "shikashinagara",
-    "meaning": "however, nevertheless"
+    "meaning": "however, nevertheless",
+    "vi": "tuy nhiên, dù vậy"
   },
   {
     "id": "n1-0247",
     "jp": "色彩",
     "reading": "しきさい",
     "romaji": "shikisai",
-    "meaning": "color"
+    "meaning": "color",
+    "vi": "màu sắc"
   },
   {
     "id": "n1-0248",
     "jp": "式場",
     "reading": "しきじょう",
     "romaji": "shikijou",
-    "meaning": "ceremonial hall, place of ceremony (e.g., marriage)"
+    "meaning": "ceremonial hall, place of ceremony (e.g., marriage)",
+    "vi": "hội trường làm lễ"
   },
   {
     "id": "n1-0249",
     "jp": "しきたり",
     "reading": "しきたり",
     "romaji": "shikitari",
-    "meaning": "custom, conventional practice, tradition"
+    "meaning": "custom, conventional practice, tradition",
+    "vi": "tập tục, lệ thường"
   },
   {
     "id": "n1-0250",
     "jp": "事業",
     "reading": "じぎょう",
     "romaji": "jigyou",
-    "meaning": "project, enterprise, business"
+    "meaning": "project, enterprise, business",
+    "vi": "sự nghiệp, dự án kinh doanh"
   },
   {
     "id": "n1-0251",
     "jp": "軽蔑",
     "reading": "けいべつ",
     "romaji": "keibetsu",
-    "meaning": "scorn, disdain"
+    "meaning": "scorn, disdain",
+    "vi": "khinh miệt, coi thường"
   },
   {
     "id": "n1-0252",
     "jp": "経歴",
     "reading": "けいれき",
     "romaji": "keireki",
-    "meaning": "personal history, career"
+    "meaning": "personal history, career",
+    "vi": "lý lịch, quá trình công tác"
   },
   {
     "id": "n1-0253",
     "jp": "経路",
     "reading": "けいろ",
     "romaji": "keiro",
-    "meaning": "course, route, channel"
+    "meaning": "course, route, channel",
+    "vi": "lộ trình, đường đi, kênh"
   },
   {
     "id": "n1-0254",
     "jp": "けがらわしい",
     "reading": "けがらわしい",
     "romaji": "kegarawashii",
-    "meaning": "filthy, unfair"
+    "meaning": "filthy, unfair",
+    "vi": "bẩn thỉu, đê tiện"
   },
   {
     "id": "n1-0255",
     "jp": "劇団",
     "reading": "げきだん",
     "romaji": "gekidan",
-    "meaning": "troupe, theatrical company"
+    "meaning": "troupe, theatrical company",
+    "vi": "đoàn kịch"
   },
   {
     "id": "n1-0256",
     "jp": "激励",
     "reading": "げきれい",
     "romaji": "gekirei",
-    "meaning": "encouragement"
+    "meaning": "encouragement",
+    "vi": "khích lệ, động viên"
   },
   {
     "id": "n1-0257",
     "jp": "ゲスト",
     "reading": "ゲスト",
     "romaji": "ゲスト",
-    "meaning": "guest"
+    "meaning": "guest",
+    "vi": "khách mời"
   },
   {
     "id": "n1-0258",
     "jp": "獣",
     "reading": "けだもの",
     "romaji": "kedamono",
-    "meaning": "beast, brute"
+    "meaning": "beast, brute",
+    "vi": "dã thú, thú vật"
   },
   {
     "id": "n1-0259",
     "jp": "決",
     "reading": "けつ",
     "romaji": "ketsu",
-    "meaning": "decision, vote"
+    "meaning": "decision, vote",
+    "vi": "quyết định, biểu quyết"
   },
   {
     "id": "n1-0260",
     "jp": "決意",
     "reading": "けつい",
     "romaji": "ketsui",
-    "meaning": "decision, determination"
+    "meaning": "decision, determination",
+    "vi": "quyết tâm"
   },
   {
     "id": "n1-0261",
     "jp": "結核",
     "reading": "けっかく",
     "romaji": "kekkaku",
-    "meaning": "tuberculosis"
+    "meaning": "tuberculosis",
+    "vi": "bệnh lao"
   },
   {
     "id": "n1-0262",
     "jp": "決議",
     "reading": "けつぎ",
     "romaji": "ketsugi",
-    "meaning": "resolution, vote, decision"
+    "meaning": "resolution, vote, decision",
+    "vi": "nghị quyết"
   },
   {
     "id": "n1-0263",
     "jp": "結合",
     "reading": "けつごう",
     "romaji": "ketsugou",
-    "meaning": "combination, union"
+    "meaning": "combination, union",
+    "vi": "kết hợp, liên kết"
   },
   {
     "id": "n1-0264",
     "jp": "決算",
     "reading": "けっさん",
     "romaji": "kessan",
-    "meaning": "balance sheet, settlement of accounts"
+    "meaning": "balance sheet, settlement of accounts",
+    "vi": "quyết toán"
   },
   {
     "id": "n1-0265",
     "jp": "月謝",
     "reading": "げっしゃ",
     "romaji": "gessha",
-    "meaning": "monthly tuition fee"
+    "meaning": "monthly tuition fee",
+    "vi": "học phí hàng tháng"
   },
   {
     "id": "n1-0266",
     "jp": "決勝",
     "reading": "けっしょう",
     "romaji": "kesshou",
-    "meaning": "finals (in sports)"
+    "meaning": "finals (in sports)",
+    "vi": "chung kết"
   },
   {
     "id": "n1-0267",
     "jp": "結晶",
     "reading": "けっしょう",
     "romaji": "kesshou",
-    "meaning": "crystal, crystallization"
+    "meaning": "crystal, crystallization",
+    "vi": "tinh thể, kết tinh"
   },
   {
     "id": "n1-0268",
     "jp": "結成",
     "reading": "けっせい",
     "romaji": "kessei",
-    "meaning": "formation"
+    "meaning": "formation",
+    "vi": "thành lập"
   },
   {
     "id": "n1-0269",
     "jp": "結束",
     "reading": "けっそく",
     "romaji": "kessoku",
-    "meaning": "union, unity"
+    "meaning": "union, unity",
+    "vi": "đoàn kết, gắn kết"
   },
   {
     "id": "n1-0270",
     "jp": "げっそり",
     "reading": "げっそり",
     "romaji": "gessori",
-    "meaning": "being disheartened, losing weight"
+    "meaning": "being disheartened, losing weight",
+    "vi": "sa sút tinh thần, sút cân"
   },
   {
     "id": "n1-0271",
     "jp": "決断",
     "reading": "けつだん",
     "romaji": "ketsudan",
-    "meaning": "decision, determination"
+    "meaning": "decision, determination",
+    "vi": "quyết đoán"
   },
   {
     "id": "n1-0272",
     "jp": "月賦",
     "reading": "げっぷ",
     "romaji": "geppu",
-    "meaning": "monthly installment"
+    "meaning": "monthly installment",
+    "vi": "trả góp hàng tháng"
   },
   {
     "id": "n1-0273",
     "jp": "欠乏",
     "reading": "けつぼう",
     "romaji": "ketsubou",
-    "meaning": "shortage"
+    "meaning": "shortage",
+    "vi": "thiếu hụt"
   },
   {
     "id": "n1-0274",
     "jp": "蹴飛ばす",
     "reading": "けとばす",
     "romaji": "ketobasu",
-    "meaning": "to kick away, to kick (someone)"
+    "meaning": "to kick away, to kick (someone)",
+    "vi": "đá văng, đá (ai đó)"
   },
   {
     "id": "n1-0275",
     "jp": "けなす",
     "reading": "けなす",
     "romaji": "kenasu",
-    "meaning": "to speak ill of"
+    "meaning": "to speak ill of",
+    "vi": "nói xấu, chê bai"
   },
   {
     "id": "n1-0276",
     "jp": "煙たい",
     "reading": "けむたい",
     "romaji": "kemutai",
-    "meaning": "smoky, feeling awkward"
+    "meaning": "smoky, feeling awkward",
+    "vi": "ngột ngạt khói, cảm thấy khó xử"
   },
   {
     "id": "n1-0277",
     "jp": "煙る",
     "reading": "けむる",
     "romaji": "kemuru",
-    "meaning": "to smoke (e.g., fire)"
+    "meaning": "to smoke (e.g., fire)",
+    "vi": "bốc khói, mờ khói"
   },
   {
     "id": "n1-0278",
     "jp": "獣",
     "reading": "けもの",
     "romaji": "kemono",
-    "meaning": "beast, brute"
+    "meaning": "beast, brute",
+    "vi": "dã thú, thú vật"
   },
   {
     "id": "n1-0279",
     "jp": "家来",
     "reading": "けらい",
     "romaji": "kerai",
-    "meaning": "retainer, retinue, servant"
+    "meaning": "retainer, retinue, servant",
+    "vi": "gia thần, tùy tùng"
   },
   {
     "id": "n1-0280",
     "jp": "下痢",
     "reading": "げり",
     "romaji": "geri",
-    "meaning": "diarrhea"
+    "meaning": "diarrhea",
+    "vi": "tiêu chảy"
   },
   {
     "id": "n1-0281",
     "jp": "権威",
     "reading": "けんい",
     "romaji": "ken'i",
-    "meaning": "authority, power, influence"
+    "meaning": "authority, power, influence",
+    "vi": "quyền uy, uy tín"
   },
   {
     "id": "n1-0282",
     "jp": "兼業",
     "reading": "けんぎょう",
     "romaji": "kengyou",
-    "meaning": "holding two jobs at the same time"
+    "meaning": "holding two jobs at the same time",
+    "vi": "làm kiêm nhiệm, làm hai nghề"
   },
   {
     "id": "n1-0283",
     "jp": "原形",
     "reading": "げんけい",
     "romaji": "genkei",
-    "meaning": "original form, base form"
+    "meaning": "original form, base form",
+    "vi": "hình dạng ban đầu, nguyên hình"
   },
   {
     "id": "n1-0284",
     "jp": "原型",
     "reading": "げんけい",
     "romaji": "genkei",
-    "meaning": "prototype, model, archetypal"
+    "meaning": "prototype, model, archetypal",
+    "vi": "nguyên mẫu, khuôn mẫu"
   },
   {
     "id": "n1-0285",
     "jp": "権限",
     "reading": "けんげん",
     "romaji": "kengen",
-    "meaning": "power, authority, jurisdiction"
+    "meaning": "power, authority, jurisdiction",
+    "vi": "thẩm quyền"
   },
   {
     "id": "n1-0286",
     "jp": "現行",
     "reading": "げんこう",
     "romaji": "genkou",
-    "meaning": "present, current, in operation"
+    "meaning": "present, current, in operation",
+    "vi": "hiện hành"
   },
   {
     "id": "n1-0287",
     "jp": "健在",
     "reading": "けんざい",
     "romaji": "kenzai",
-    "meaning": "in good health, well"
+    "meaning": "in good health, well",
+    "vi": "vẫn khỏe mạnh, còn sống khỏe"
   },
   {
     "id": "n1-0288",
     "jp": "原作",
     "reading": "げんさく",
     "romaji": "gensaku",
-    "meaning": "original work"
+    "meaning": "original work",
+    "vi": "nguyên tác"
   },
   {
     "id": "n1-0289",
     "jp": "検事",
     "reading": "けんじ",
     "romaji": "kenji",
-    "meaning": "public prosecutor"
+    "meaning": "public prosecutor",
+    "vi": "công tố viên"
   },
   {
     "id": "n1-0290",
     "jp": "原子",
     "reading": "げんし",
     "romaji": "genshi",
-    "meaning": "atom"
+    "meaning": "atom",
+    "vi": "nguyên tử"
   },
   {
     "id": "n1-0291",
     "jp": "元首",
     "reading": "げんしゅ",
     "romaji": "genshu",
-    "meaning": "ruler, sovereign"
+    "meaning": "ruler, sovereign",
+    "vi": "nguyên thủ (quốc gia)"
   },
   {
     "id": "n1-0292",
     "jp": "原書",
     "reading": "げんしょ",
     "romaji": "gensho",
-    "meaning": "original document"
+    "meaning": "original document",
+    "vi": "sách nguyên bản"
   },
   {
     "id": "n1-0293",
     "jp": "懸賞",
     "reading": "けんしょう",
     "romaji": "kenshou",
-    "meaning": "offering prizes, winning, reward"
+    "meaning": "offering prizes, winning, reward",
+    "vi": "treo giải thưởng"
   },
   {
     "id": "n1-0294",
     "jp": "健全",
     "reading": "けんぜん",
     "romaji": "kenzen",
-    "meaning": "health, soundness, wholesome"
+    "meaning": "health, soundness, wholesome",
+    "vi": "lành mạnh, vững chắc"
   },
   {
     "id": "n1-0295",
     "jp": "元素",
     "reading": "げんそ",
     "romaji": "genso",
-    "meaning": "element"
+    "meaning": "element",
+    "vi": "nguyên tố"
   },
   {
     "id": "n1-0296",
     "jp": "同調",
     "reading": "どうちょう",
     "romaji": "douchou",
-    "meaning": "sympathy, agree with, alignment"
+    "meaning": "sympathy, agree with, alignment",
+    "vi": "đồng tình, hòa theo"
   },
   {
     "id": "n1-0297",
     "jp": "到底",
     "reading": "とうてい",
     "romaji": "toutei",
-    "meaning": "(cannot) possibly"
+    "meaning": "(cannot) possibly",
+    "vi": "dù thế nào cũng (không thể)"
   },
   {
     "id": "n1-0298",
     "jp": "動的",
     "reading": "どうてき",
     "romaji": "douteki",
-    "meaning": "dynamic, kinetic"
+    "meaning": "dynamic, kinetic",
+    "vi": "động, có tính động"
   },
   {
     "id": "n1-0299",
     "jp": "尊い",
     "reading": "とうとい",
     "romaji": "toutoi",
-    "meaning": "precious, valuable, noble"
+    "meaning": "precious, valuable, noble",
+    "vi": "quý báu, cao quý"
   },
   {
     "id": "n1-0300",
     "jp": "貴い",
     "reading": "とうとい",
     "romaji": "toutoi",
-    "meaning": "precious, valuable, noble"
+    "meaning": "precious, valuable, noble",
+    "vi": "quý báu, cao quý"
   },
   {
     "id": "n1-0301",
     "jp": "同等",
     "reading": "どうとう",
     "romaji": "doutou",
-    "meaning": "equality, equal, same rank"
+    "meaning": "equality, equal, same rank",
+    "vi": "sự bình đẳng, ngang hàng"
   },
   {
     "id": "n1-0302",
     "jp": "堂々",
     "reading": "どうどう",
     "romaji": "doudou",
-    "meaning": "magnificent, grand, impressive"
+    "meaning": "magnificent, grand, impressive",
+    "vi": "hùng vĩ, đường hoàng, uy nghi"
   },
   {
     "id": "n1-0303",
     "jp": "尊ぶ",
     "reading": "とうとぶ",
     "romaji": "toutobu",
-    "meaning": "to value, to prize, to esteem"
+    "meaning": "to value, to prize, to esteem",
+    "vi": "coi trọng, tôn kính"
   },
   {
     "id": "n1-0304",
     "jp": "どうにか",
     "reading": "どうにか",
     "romaji": "dounika",
-    "meaning": "in some way or other, one way or another"
+    "meaning": "in some way or other, one way or another",
+    "vi": "bằng cách nào đó"
   },
   {
     "id": "n1-0305",
     "jp": "投入",
     "reading": "とうにゅう",
     "romaji": "tounyuu",
-    "meaning": "throw, investment, making (an electrical circuit)"
+    "meaning": "throw, investment, making (an electrical circuit)",
+    "vi": "đầu tư, ném vào, đóng (mạch điện)"
   },
   {
     "id": "n1-0306",
     "jp": "導入",
     "reading": "どうにゅう",
     "romaji": "dounyuu",
-    "meaning": "introduction, bringing in, leading in"
+    "meaning": "introduction, bringing in, leading in",
+    "vi": "đưa vào, giới thiệu, du nhập"
   },
   {
     "id": "n1-0307",
     "jp": "当人",
     "reading": "とうにん",
     "romaji": "tounin",
-    "meaning": "the one concerned, the said person"
+    "meaning": "the one concerned, the said person",
+    "vi": "đương sự, người liên quan"
   },
   {
     "id": "n1-0308",
     "jp": "同封",
     "reading": "どうふう",
     "romaji": "doufuu",
-    "meaning": "enclosure (e.g., in a letter)"
+    "meaning": "enclosure (e.g., in a letter)",
+    "vi": "đính kèm (trong thư)"
   },
   {
     "id": "n1-0309",
     "jp": "逃亡",
     "reading": "とうぼう",
     "romaji": "toubou",
-    "meaning": "escape"
+    "meaning": "escape",
+    "vi": "đào tẩu, bỏ trốn"
   },
   {
     "id": "n1-0310",
     "jp": "冬眠",
     "reading": "とうみん",
     "romaji": "toumin",
-    "meaning": "hibernation, winter sleep"
+    "meaning": "hibernation, winter sleep",
+    "vi": "ngủ đông"
   },
   {
     "id": "n1-0311",
     "jp": "同盟",
     "reading": "どうめい",
     "romaji": "doumei",
-    "meaning": "alliance, union, league"
+    "meaning": "alliance, union, league",
+    "vi": "đồng minh, liên minh"
   },
   {
     "id": "n1-0312",
     "jp": "どうやら",
     "reading": "どうやら",
     "romaji": "douyara",
-    "meaning": "it seems like, somehow or other"
+    "meaning": "it seems like, somehow or other",
+    "vi": "có vẻ như, dường như"
   },
   {
     "id": "n1-0313",
     "jp": "動力",
     "reading": "どうりょく",
     "romaji": "douryoku",
-    "meaning": "power, motive power, dynamic force"
+    "meaning": "power, motive power, dynamic force",
+    "vi": "động lực"
   },
   {
     "id": "n1-0314",
     "jp": "登録",
     "reading": "とうろく",
     "romaji": "touroku",
-    "meaning": "registration, register, record"
+    "meaning": "registration, register, record",
+    "vi": "đăng ký"
   },
   {
     "id": "n1-0315",
     "jp": "討論",
     "reading": "とうろん",
     "romaji": "touron",
-    "meaning": "discussion; debate"
+    "meaning": "discussion; debate",
+    "vi": "thảo luận, tranh luận"
   },
   {
     "id": "n1-0316",
     "jp": "遠ざかる",
     "reading": "とおざかる",
     "romaji": "toozakaru",
-    "meaning": "to go far off"
+    "meaning": "to go far off",
+    "vi": "xa dần, rời xa"
   },
   {
     "id": "n1-0317",
     "jp": "遠回り",
     "reading": "とおまわり",
     "romaji": "toomawari",
-    "meaning": "detour, roundabout way"
+    "meaning": "detour, roundabout way",
+    "vi": "đường vòng"
   },
   {
     "id": "n1-0318",
     "jp": "トーン",
     "reading": "トーン",
     "romaji": "トーン",
-    "meaning": "tone"
+    "meaning": "tone",
+    "vi": "tông (giọng, màu)"
   },
   {
     "id": "n1-0319",
     "jp": "とかく",
     "reading": "とかく",
     "romaji": "tokaku",
-    "meaning": "anyhow, anyway, in any case"
+    "meaning": "anyhow, anyway, in any case",
+    "vi": "dù sao đi nữa, thế nào cũng"
   },
   {
     "id": "n1-0320",
     "jp": "とがめる",
     "reading": "とがめる",
     "romaji": "togameru",
-    "meaning": "to blame, to rebuke"
+    "meaning": "to blame, to rebuke",
+    "vi": "trách móc, khiển trách"
   },
   {
     "id": "n1-0321",
     "jp": "時折",
     "reading": "ときおり",
     "romaji": "tokiori",
-    "meaning": "sometimes"
+    "meaning": "sometimes",
+    "vi": "thỉnh thoảng"
   },
   {
     "id": "n1-0322",
     "jp": "とぎれる",
     "reading": "とぎれる",
     "romaji": "togireru",
-    "meaning": "to pause, to be interrupted"
+    "meaning": "to pause, to be interrupted",
+    "vi": "bị gián đoạn, đứt quãng"
   },
   {
     "id": "n1-0323",
     "jp": "研ぐ",
     "reading": "とぐ",
     "romaji": "togu",
-    "meaning": "to sharpen, to grind, to polish"
+    "meaning": "to sharpen, to grind, to polish",
+    "vi": "mài, mài giũa"
   },
   {
     "id": "n1-0324",
     "jp": "特技",
     "reading": "とくぎ",
     "romaji": "tokugi",
-    "meaning": "special talent; skill"
+    "meaning": "special talent; skill",
+    "vi": "biệt tài, kỹ năng đặc biệt"
   },
   {
     "id": "n1-0325",
     "jp": "独裁",
     "reading": "どくさい",
     "romaji": "dokusai",
-    "meaning": "dictatorship, despotism"
+    "meaning": "dictatorship, despotism",
+    "vi": "độc tài"
   },
   {
     "id": "n1-0326",
     "jp": "特産",
     "reading": "とくさん",
     "romaji": "tokusan",
-    "meaning": "specialty, special product"
+    "meaning": "specialty, special product",
+    "vi": "đặc sản"
   },
   {
     "id": "n1-0327",
     "jp": "独自",
     "reading": "どくじ",
     "romaji": "dokuji",
-    "meaning": "original, peculiar, characteristic"
+    "meaning": "original, peculiar, characteristic",
+    "vi": "độc đáo, riêng biệt"
   },
   {
     "id": "n1-0328",
     "jp": "特集",
     "reading": "とくしゅう",
     "romaji": "tokushuu",
-    "meaning": "feature (e.g., newspaper, special edition, report)"
+    "meaning": "feature (e.g., newspaper, special edition, report)",
+    "vi": "chuyên mục đặc biệt, số đặc biệt"
   },
   {
     "id": "n1-0329",
     "jp": "独占",
     "reading": "どくせん",
     "romaji": "dokusen",
-    "meaning": "monopoly"
+    "meaning": "monopoly",
+    "vi": "độc quyền"
   },
   {
     "id": "n1-0330",
     "jp": "独創",
     "reading": "どくそう",
     "romaji": "dokusou",
-    "meaning": "originality"
+    "meaning": "originality",
+    "vi": "tính sáng tạo độc đáo"
   },
   {
     "id": "n1-0331",
     "jp": "得点",
     "reading": "とくてん",
     "romaji": "tokuten",
-    "meaning": "score, points made"
+    "meaning": "score, points made",
+    "vi": "điểm số"
   },
   {
     "id": "n1-0332",
     "jp": "特派",
     "reading": "とくは",
     "romaji": "tokuha",
-    "meaning": "send specially, special envoy"
+    "meaning": "send specially, special envoy",
+    "vi": "phái cử đặc biệt, đặc phái viên"
   },
   {
     "id": "n1-0333",
     "jp": "特有",
     "reading": "とくゆう",
     "romaji": "tokuyuu",
-    "meaning": "characteristic (of, peculiar (to))"
+    "meaning": "characteristic (of, peculiar (to))",
+    "vi": "đặc trưng riêng có"
   },
   {
     "id": "n1-0334",
     "jp": "とげ (をさす)",
     "reading": "とげ (をさす)",
     "romaji": "toge (wosasu)",
-    "meaning": "thorn"
+    "meaning": "thorn",
+    "vi": "gai (đâm gai)"
   },
   {
     "id": "n1-0335",
     "jp": "遂げる",
     "reading": "とげる",
     "romaji": "togeru",
-    "meaning": "to accomplish, to achieve, to carry out"
+    "meaning": "to accomplish, to achieve, to carry out",
+    "vi": "hoàn thành, đạt được"
   },
   {
     "id": "n1-0336",
     "jp": "～どころか",
     "reading": "～どころか",
     "romaji": "～dokoroka",
-    "meaning": "rather, far from"
+    "meaning": "rather, far from",
+    "vi": "chứ đừng nói, không những không mà còn"
   },
   {
     "id": "n1-0337",
     "jp": "年頃",
     "reading": "としごろ",
     "romaji": "toshigoro",
-    "meaning": "age, marriageable age, adolescence"
+    "meaning": "age, marriageable age, adolescence",
+    "vi": "tuổi cập kê, tuổi mới lớn"
   },
   {
     "id": "n1-0338",
     "jp": "戸締り",
     "reading": "とじまり",
     "romaji": "tojimari",
-    "meaning": "closing up, locking the doors"
+    "meaning": "closing up, locking the doors",
+    "vi": "khóa cửa cẩn thận"
   },
   {
     "id": "n1-0339",
     "jp": "途上",
     "reading": "とじょう",
     "romaji": "tojou",
-    "meaning": "en/in route, half way"
+    "meaning": "en/in route, half way",
+    "vi": "trên đường, giữa chừng"
   },
   {
     "id": "n1-0340",
     "jp": "土台",
     "reading": "どだい",
     "romaji": "dodai",
-    "meaning": "foundation, base, basis"
+    "meaning": "foundation, base, basis",
+    "vi": "nền móng, cơ sở"
   },
   {
     "id": "n1-0341",
     "jp": "途絶える",
     "reading": "とだえる",
     "romaji": "todaeru",
-    "meaning": "to stop, to cease, to come to an end"
+    "meaning": "to stop, to cease, to come to an end",
+    "vi": "bị gián đoạn, ngừng hẳn"
   },
   {
     "id": "n1-0342",
     "jp": "特許",
     "reading": "とっきょ",
     "romaji": "tokkyo",
-    "meaning": "special permission, patent"
+    "meaning": "special permission, patent",
+    "vi": "bằng sáng chế, giấy phép đặc biệt"
   },
   {
     "id": "n1-0343",
     "jp": "特権",
     "reading": "とっけん",
     "romaji": "tokken",
-    "meaning": "privilege, special right"
+    "meaning": "privilege, special right",
+    "vi": "đặc quyền"
   },
   {
     "id": "n1-0344",
     "jp": "とっさに",
     "reading": "とっさに",
     "romaji": "tossani",
-    "meaning": "at once"
+    "meaning": "at once",
+    "vi": "ngay lập tức, tức thì"
   },
   {
     "id": "n1-0345",
     "jp": "突如",
     "reading": "とつじょ",
     "romaji": "totsujo",
-    "meaning": "suddenly, all of a sudden"
+    "meaning": "suddenly, all of a sudden",
+    "vi": "đột nhiên, bất thình lình"
   },
   {
     "id": "n1-0346",
     "jp": "とって",
     "reading": "とって",
     "romaji": "totte",
-    "meaning": "handle, grip, knob"
+    "meaning": "handle, grip, knob",
+    "vi": "tay cầm, núm"
   },
   {
     "id": "n1-0347",
     "jp": "突破",
     "reading": "とっぱ",
     "romaji": "toppa",
-    "meaning": "breaking through, breakthrough, penetration"
+    "meaning": "breaking through, breakthrough, penetration",
+    "vi": "đột phá, phá vỡ"
   },
   {
     "id": "n1-0348",
     "jp": "土手",
     "reading": "どて",
     "romaji": "dote",
-    "meaning": "embankment, bank"
+    "meaning": "embankment, bank",
+    "vi": "bờ đê"
   },
   {
     "id": "n1-0349",
     "jp": "届",
     "reading": "とどけ",
     "romaji": "todoke",
-    "meaning": "report, notification, registration"
+    "meaning": "report, notification, registration",
+    "vi": "đơn báo cáo, giấy khai báo"
   },
   {
     "id": "n1-0350",
     "jp": "滞る",
     "reading": "とどこおる",
     "romaji": "todokooru",
-    "meaning": "to stagnate, to be delayed"
+    "meaning": "to stagnate, to be delayed",
+    "vi": "bị trì trệ, chậm trễ"
   },
   {
     "id": "n1-0351",
     "jp": "整える",
     "reading": "ととのえる",
     "romaji": "totonoeru",
-    "meaning": "to put in order, to arrange, to adjust; to get ready, to prepare; to raise money"
+    "meaning": "to put in order, to arrange, to adjust; to get ready, to prepare; to raise money",
+    "vi": "sắp xếp, chuẩn bị sẵn sàng; xoay xở tiền"
   },
   {
     "id": "n1-0352",
     "jp": "止める",
     "reading": "とどめる",
     "romaji": "todomeru",
-    "meaning": "to end, to stop, to cease, to resign"
+    "meaning": "to end, to stop, to cease, to resign",
+    "vi": "chấm dứt, dừng lại, từ chức"
   },
   {
     "id": "n1-0353",
     "jp": "唱える",
     "reading": "となえる",
     "romaji": "tonaeru",
-    "meaning": "to recite, to chant, to call upon"
+    "meaning": "to recite, to chant, to call upon",
+    "vi": "tụng niệm, hô hào, xướng lên"
   },
   {
     "id": "n1-0354",
     "jp": "殿様",
     "reading": "とのさま",
     "romaji": "tonosama",
-    "meaning": "feudal lord"
+    "meaning": "feudal lord",
+    "vi": "lãnh chúa phong kiến"
   },
   {
     "id": "n1-0355",
     "jp": "土俵",
     "reading": "どひょう",
     "romaji": "dohyou",
-    "meaning": "arena"
+    "meaning": "arena",
+    "vi": "sàn đấu sumo, võ đài"
   },
   {
     "id": "n1-0356",
     "jp": "扉",
     "reading": "とびら",
     "romaji": "tobira",
-    "meaning": "door, opening"
+    "meaning": "door, opening",
+    "vi": "cánh cửa"
   },
   {
     "id": "n1-0357",
     "jp": "溝",
     "reading": "どぶ",
     "romaji": "dobu",
-    "meaning": "ditch, drain, gap"
+    "meaning": "ditch, drain, gap",
+    "vi": "rãnh, cống, khoảng cách"
   },
   {
     "id": "n1-0358",
     "jp": "徒歩",
     "reading": "とほ",
     "romaji": "toho",
-    "meaning": "walking, going on foot"
+    "meaning": "walking, going on foot",
+    "vi": "đi bộ"
   },
   {
     "id": "n1-0359",
     "jp": "土木",
     "reading": "どぼく",
     "romaji": "doboku",
-    "meaning": "public works"
+    "meaning": "public works",
+    "vi": "công trình công cộng, xây dựng"
   },
   {
     "id": "n1-0360",
     "jp": "とぼける",
     "reading": "とぼける",
     "romaji": "tobokeru",
-    "meaning": "to play dumb, to feign ignorance, to play innocent, to have a blank facial expression; to play the fool; to be in one's dotage"
+    "meaning": "to play dumb, to feign ignorance, to play innocent, to have a blank facial expression; to play the fool; to be in one's dotage",
+    "vi": "giả ngây giả dại, giả vờ không biết"
   },
   {
     "id": "n1-0361",
     "jp": "乏しい",
     "reading": "とぼしい",
     "romaji": "toboshii",
-    "meaning": "meager, scarce, hard up, poor"
+    "meaning": "meager, scarce, hard up, poor",
+    "vi": "thiếu thốn, khan hiếm"
   },
   {
     "id": "n1-0362",
     "jp": "富",
     "reading": "とみ",
     "romaji": "tomi",
-    "meaning": "wealth, fortune"
+    "meaning": "wealth, fortune",
+    "vi": "sự giàu có, tài sản"
   },
   {
     "id": "n1-0363",
     "jp": "富む",
     "reading": "とむ",
     "romaji": "tomu",
-    "meaning": "to be rich, to become rich"
+    "meaning": "to be rich, to become rich",
+    "vi": "trở nên giàu có"
   },
   {
     "id": "n1-0364",
     "jp": "共稼ぎ",
     "reading": "ともかせぎ",
     "romaji": "tomokasegi",
-    "meaning": "working together, (husband and wife) earning a living together"
+    "meaning": "working together, (husband and wife) earning a living together",
+    "vi": "vợ chồng cùng đi làm"
   },
   {
     "id": "n1-0365",
     "jp": "伴う",
     "reading": "ともなう",
     "romaji": "tomonau",
-    "meaning": "to accompany, to bring with"
+    "meaning": "to accompany, to bring with",
+    "vi": "đi kèm, kéo theo"
   },
   {
     "id": "n1-0366",
     "jp": "共働き",
     "reading": "ともばたらき",
     "romaji": "tomobataraki",
-    "meaning": "dual income (husband and wife both working)"
+    "meaning": "dual income (husband and wife both working)",
+    "vi": "vợ chồng cùng đi làm (thu nhập kép)"
   },
   {
     "id": "n1-0367",
     "jp": "ドライ",
     "reading": "ドライ",
     "romaji": "ドライ",
-    "meaning": "dry"
+    "meaning": "dry",
+    "vi": "khô, khô khan (tính cách)"
   },
   {
     "id": "n1-0368",
     "jp": "ドライクリーニング",
     "reading": "ドライクリーニング",
     "romaji": "ドライクリーニング",
-    "meaning": "dry cleaning"
+    "meaning": "dry cleaning",
+    "vi": "giặt khô"
   },
   {
     "id": "n1-0369",
     "jp": "ドライバー",
     "reading": "ドライバー",
     "romaji": "ドライバー",
-    "meaning": "driver, screwdriver"
+    "meaning": "driver, screwdriver",
+    "vi": "tài xế; tua vít"
   },
   {
     "id": "n1-0370",
     "jp": "ドライブイン",
     "reading": "ドライブイン",
     "romaji": "ドライブイン",
-    "meaning": "drive in"
+    "meaning": "drive in",
+    "vi": "quán ven đường cho khách lái xe ghé (drive-in)"
   },
   {
     "id": "n1-0371",
     "jp": "トラブル",
     "reading": "トラブル",
     "romaji": "トラブル",
-    "meaning": "trouble (sometimes used as a verb)"
+    "meaning": "trouble (sometimes used as a verb)",
+    "vi": "rắc rối, sự cố"
   },
   {
     "id": "n1-0372",
     "jp": "トランジスター",
     "reading": "トランジスター",
     "romaji": "トランジスター",
-    "meaning": "transistor"
+    "meaning": "transistor",
+    "vi": "bóng bán dẫn"
   },
   {
     "id": "n1-0373",
     "jp": "とりあえず",
     "reading": "とりあえず",
     "romaji": "toriaezu",
-    "meaning": "at once, first of all, for the time being"
+    "meaning": "at once, first of all, for the time being",
+    "vi": "trước mắt, tạm thời"
   },
   {
     "id": "n1-0374",
     "jp": "取扱",
     "reading": "とりあつかい",
     "romaji": "toriatsukai",
-    "meaning": "treatment, handling, management"
+    "meaning": "treatment, handling, management",
+    "vi": "cách xử lý, quản lý"
   },
   {
     "id": "n1-0375",
     "jp": "取り扱う",
     "reading": "とりあつかう",
     "romaji": "toriatsukau",
-    "meaning": "to treat, to handle, to deal in"
+    "meaning": "to treat, to handle, to deal in",
+    "vi": "xử lý, xử trí, kinh doanh"
   },
   {
     "id": "n1-0376",
     "jp": "鳥居",
     "reading": "とりい",
     "romaji": "torii",
-    "meaning": "Shinto shrine archway"
+    "meaning": "Shinto shrine archway",
+    "vi": "cổng torii (đền thờ Thần đạo)"
   },
   {
     "id": "n1-0377",
     "jp": "取り替え",
     "reading": "とりかえ",
     "romaji": "torikae",
-    "meaning": "swap, exchange"
+    "meaning": "swap, exchange",
+    "vi": "sự thay thế, trao đổi"
   },
   {
     "id": "n1-0378",
     "jp": "取り組む",
     "reading": "とりくむ",
     "romaji": "torikumu",
-    "meaning": "to tackle, to engage in a bout, to come to grips with"
+    "meaning": "to tackle, to engage in a bout, to come to grips with",
+    "vi": "bắt tay giải quyết, đối mặt với"
   },
   {
     "id": "n1-0379",
     "jp": "取締り",
     "reading": "とりしまり",
     "romaji": "torishimari",
-    "meaning": "control, crackdown, supervision"
+    "meaning": "control, crackdown, supervision",
+    "vi": "sự giám sát, truy quét"
   },
   {
     "id": "n1-0380",
     "jp": "取り締まる",
     "reading": "とりしまる",
     "romaji": "torishimaru",
-    "meaning": "to crack down, to control, to supervise"
+    "meaning": "to crack down, to control, to supervise",
+    "vi": "truy quét, giám sát, quản lý"
   },
   {
     "id": "n1-0381",
     "jp": "取り調べる",
     "reading": "とりしらべる",
     "romaji": "torishiraberu",
-    "meaning": "to investigate, to examine"
+    "meaning": "to investigate, to examine",
+    "vi": "điều tra, thẩm vấn"
   },
   {
     "id": "n1-0382",
     "jp": "取り立てる",
     "reading": "とりたてる",
     "romaji": "toritateru",
-    "meaning": "to collect, to extort"
+    "meaning": "to collect, to extort",
+    "vi": "thu (nợ), đòi (tiền)"
   },
   {
     "id": "n1-0383",
     "jp": "取り次ぐ",
     "reading": "とりつぐ",
     "romaji": "toritsugu",
-    "meaning": "to act as an agent for, to announce (someone), to convey (a message)"
+    "meaning": "to act as an agent for, to announce (someone), to convey (a message)",
+    "vi": "chuyển lời, làm trung gian truyền đạt"
   },
   {
     "id": "n1-0384",
     "jp": "取り付ける",
     "reading": "とりつける",
     "romaji": "toritsukeru",
-    "meaning": "to furnish, to install; to get someone's agreement"
+    "meaning": "to furnish, to install; to get someone's agreement",
+    "vi": "lắp đặt; đạt được sự đồng ý"
   },
   {
     "id": "n1-0385",
     "jp": "取り除く",
     "reading": "とりのぞく",
     "romaji": "torinozoku",
-    "meaning": "to remove, to take away, to set apart"
+    "meaning": "to remove, to take away, to set apart",
+    "vi": "loại bỏ, gỡ bỏ"
   },
   {
     "id": "n1-0386",
     "jp": "取引",
     "reading": "とりひき",
     "romaji": "torihiki",
-    "meaning": "transactions, dealings, business"
+    "meaning": "transactions, dealings, business",
+    "vi": "giao dịch"
   },
   {
     "id": "n1-0387",
     "jp": "取り巻く",
     "reading": "とりまく",
     "romaji": "torimaku",
-    "meaning": "to surround, to circle, to enclose"
+    "meaning": "to surround, to circle, to enclose",
+    "vi": "bao quanh, vây quanh"
   },
   {
     "id": "n1-0388",
     "jp": "取り混ぜる",
     "reading": "とりまぜる",
     "romaji": "torimazeru",
-    "meaning": "to mix, to put together"
+    "meaning": "to mix, to put together",
+    "vi": "trộn lẫn, gộp chung"
   },
   {
     "id": "n1-0389",
     "jp": "取り戻す",
     "reading": "とりもどす",
     "romaji": "torimodosu",
-    "meaning": "to take back, to regain"
+    "meaning": "to take back, to regain",
+    "vi": "lấy lại, giành lại"
   },
   {
     "id": "n1-0390",
     "jp": "取り寄せる",
     "reading": "とりよせる",
     "romaji": "toriyoseru",
-    "meaning": "to order, to send away for"
+    "meaning": "to order, to send away for",
+    "vi": "đặt hàng từ xa, gọi mang đến"
   },
   {
     "id": "n1-0391",
     "jp": "ドリル",
     "reading": "ドリル",
     "romaji": "ドリル",
-    "meaning": "drill"
+    "meaning": "drill",
+    "vi": "máy khoan; bài tập luyện"
   },
   {
     "id": "n1-0392",
     "jp": "副",
     "reading": "とりわけ",
     "romaji": "toriwake",
-    "meaning": "especially, above all"
+    "meaning": "especially, above all",
+    "vi": "đặc biệt là, nhất là"
   },
   {
     "id": "n1-0393",
     "jp": "とろける",
     "reading": "とろける",
     "romaji": "torokeru",
-    "meaning": "melt; to be enchanted with"
+    "meaning": "melt; to be enchanted with",
+    "vi": "tan chảy; say đắm"
   },
   {
     "id": "n1-0394",
     "jp": "鈍感",
     "reading": "どんかん",
     "romaji": "donkan",
-    "meaning": "thickheadedness, stolidity"
+    "meaning": "thickheadedness, stolidity",
+    "vi": "chậm hiểu, vô cảm, trơ lì"
   },
   {
     "id": "n1-0395",
     "jp": "とんだ",
     "reading": "とんだ",
     "romaji": "tonda",
-    "meaning": "terrible, awful, serious, absolutely not"
+    "meaning": "terrible, awful, serious, absolutely not",
+    "vi": "tệ hại, khủng khiếp, ngoài sức tưởng tượng"
   },
   {
     "id": "n1-0396",
     "jp": "度忘れ",
     "reading": "どわすれ",
     "romaji": "dowasure",
-    "meaning": "lapse of memory, forget for a moment"
+    "meaning": "lapse of memory, forget for a moment",
+    "vi": "quên bẵng đi, đãng trí nhất thời"
   },
   {
     "id": "n1-0397",
     "jp": "問屋",
     "reading": "とんや",
     "romaji": "ton'ya",
-    "meaning": "wholesale store"
+    "meaning": "wholesale store",
+    "vi": "cửa hàng bán buôn, đại lý"
   },
   {
     "id": "n1-0398",
     "jp": "内閣",
     "reading": "ないかく",
     "romaji": "naikaku",
-    "meaning": "cabinet, (government)"
+    "meaning": "cabinet, (government)",
+    "vi": "nội các"
   },
   {
     "id": "n1-0399",
     "jp": "乃至",
     "reading": "ないし",
     "romaji": "naishi",
-    "meaning": "from...to, between...and, or"
+    "meaning": "from...to, between...and, or",
+    "vi": "từ...đến, hoặc là"
   },
   {
     "id": "n1-0400",
     "jp": "内緒",
     "reading": "ないしょ",
     "romaji": "naisho",
-    "meaning": "secrecy, privacy, secret"
+    "meaning": "secrecy, privacy, secret",
+    "vi": "bí mật, giấu kín"
   },
   {
     "id": "n1-0401",
     "jp": "内心",
     "reading": "ないしん",
     "romaji": "naishin",
-    "meaning": "innermost thoughts, real intention, inmost heart"
+    "meaning": "innermost thoughts, real intention, inmost heart",
+    "vi": "trong lòng, ý nghĩ thật sự"
   },
   {
     "id": "n1-0402",
     "jp": "内蔵",
     "reading": "ないぞう",
     "romaji": "naizou",
-    "meaning": "internal organ; built-in"
+    "meaning": "internal organ; built-in",
+    "vi": "nội tạng; được tích hợp sẵn"
   },
   {
     "id": "n1-0403",
     "jp": "ナイター",
     "reading": "ナイター",
     "romaji": "ナイター",
-    "meaning": "game under lights (e.g., baseball), night game"
+    "meaning": "game under lights (e.g., baseball), night game",
+    "vi": "trận đấu ban đêm (có đèn chiếu sáng)"
   },
   {
     "id": "n1-0404",
     "jp": "内部",
     "reading": "ないぶ",
     "romaji": "naibu",
-    "meaning": "interior, inside, internal"
+    "meaning": "interior, inside, internal",
+    "vi": "bên trong, nội bộ"
   },
   {
     "id": "n1-0405",
     "jp": "内乱",
     "reading": "ないらん",
     "romaji": "nairan",
-    "meaning": "civil war, domestic conflict"
+    "meaning": "civil war, domestic conflict",
+    "vi": "nội chiến"
   },
   {
     "id": "n1-0406",
     "jp": "内陸",
     "reading": "ないりく",
     "romaji": "nairiku",
-    "meaning": "inland"
+    "meaning": "inland",
+    "vi": "nội địa, trong đất liền"
   },
   {
     "id": "n1-0407",
     "jp": "苗",
     "reading": "なえ",
     "romaji": "nae",
-    "meaning": "rice seedling"
+    "meaning": "rice seedling",
+    "vi": "mạ (lúa)"
   },
   {
     "id": "n1-0408",
     "jp": "なおさら",
     "reading": "なおさら",
     "romaji": "naosara",
-    "meaning": "all the more, still less"
+    "meaning": "all the more, still less",
+    "vi": "càng thêm, lại càng"
   },
   {
     "id": "n1-0409",
     "jp": "流し",
     "reading": "ながし",
     "romaji": "nagashi",
-    "meaning": "sink"
+    "meaning": "sink",
+    "vi": "bồn rửa"
   },
   {
     "id": "n1-0410",
     "jp": "長々",
     "reading": "ながなが",
     "romaji": "naganaga",
-    "meaning": "long, drawn-out, very long"
+    "meaning": "long, drawn-out, very long",
+    "vi": "dài dòng, lê thê"
   },
   {
     "id": "n1-0411",
     "jp": "中程",
     "reading": "なかほど",
     "romaji": "nakahodo",
-    "meaning": "middle, midway"
+    "meaning": "middle, midway",
+    "vi": "khoảng giữa"
   },
   {
     "id": "n1-0412",
     "jp": "渚",
     "reading": "なぎさ",
     "romaji": "nagisa",
-    "meaning": "water's edge, beach, shore"
+    "meaning": "water's edge, beach, shore",
+    "vi": "bờ nước, bãi biển"
   },
   {
     "id": "n1-0413",
     "jp": "嘆く",
     "reading": "なげく",
     "romaji": "nageku",
-    "meaning": "to sigh, to lament, to grieve"
+    "meaning": "to sigh, to lament, to grieve",
+    "vi": "than thở, buồn rầu"
   },
   {
     "id": "n1-0414",
     "jp": "投げ出す",
     "reading": "なげだす",
     "romaji": "nagedasu",
-    "meaning": "to abandon, to throw out"
+    "meaning": "to abandon, to throw out",
+    "vi": "vứt bỏ, buông xuôi"
   },
   {
     "id": "n1-0415",
     "jp": "仲人",
     "reading": "なこうど",
     "romaji": "nakoudo",
-    "meaning": "go-between, matchmaker"
+    "meaning": "go-between, matchmaker",
+    "vi": "người mai mối"
   },
   {
     "id": "n1-0416",
     "jp": "和やか",
     "reading": "なごやか",
     "romaji": "nagoyaka",
-    "meaning": "mild, calm, harmonious"
+    "meaning": "mild, calm, harmonious",
+    "vi": "hòa nhã, ôn hòa"
   },
   {
     "id": "n1-0417",
     "jp": "名残",
     "reading": "なごり",
     "romaji": "nagori",
-    "meaning": "remains, traces, memory"
+    "meaning": "remains, traces, memory",
+    "vi": "dấu vết, hồi ức còn lại"
   },
   {
     "id": "n1-0418",
     "jp": "情け",
     "reading": "なさけ",
     "romaji": "nasake",
-    "meaning": "sympathy, compassion"
+    "meaning": "sympathy, compassion",
+    "vi": "lòng thương xót, tình cảm"
   },
   {
     "id": "n1-0419",
     "jp": "情無い",
     "reading": "なさけない",
     "romaji": "nasakenai",
-    "meaning": "miserable, pitiable, shameful"
+    "meaning": "miserable, pitiable, shameful",
+    "vi": "thảm hại, đáng thương, đáng xấu hổ"
   },
   {
     "id": "n1-0420",
     "jp": "情深い",
     "reading": "なさけぶかい",
     "romaji": "nasakebukai",
-    "meaning": "tender-hearted, compassionate"
+    "meaning": "tender-hearted, compassionate",
+    "vi": "giàu lòng trắc ẩn"
   },
   {
     "id": "n1-0421",
     "jp": "詰る",
     "reading": "なじる",
     "romaji": "najiru",
-    "meaning": "to rebuke, to scold, to tell off"
+    "meaning": "to rebuke, to scold, to tell off",
+    "vi": "trách móc, mắng mỏ"
   },
   {
     "id": "n1-0422",
     "jp": "名高い",
     "reading": "なだかい",
     "romaji": "nadakai",
-    "meaning": "famous, celebrated, well-known"
+    "meaning": "famous, celebrated, well-known",
+    "vi": "nổi tiếng, lừng danh"
   },
   {
     "id": "n1-0423",
     "jp": "雪崩",
     "reading": "なだれ",
     "romaji": "nadare",
-    "meaning": "avalanche"
+    "meaning": "avalanche",
+    "vi": "tuyết lở"
   },
   {
     "id": "n1-0424",
     "jp": "懐く",
     "reading": "なつく",
     "romaji": "natsuku",
-    "meaning": "to become emotionally attached"
+    "meaning": "to become emotionally attached",
+    "vi": "quyến luyến, quấn quýt"
   },
   {
     "id": "n1-0425",
     "jp": "名付ける",
     "reading": "なづける",
     "romaji": "nazukeru",
-    "meaning": "to name"
+    "meaning": "to name",
+    "vi": "đặt tên"
   },
   {
     "id": "n1-0426",
     "jp": "何気ない",
     "reading": "なにげない",
     "romaji": "nanigenai",
-    "meaning": "casual, unconcerned"
+    "meaning": "casual, unconcerned",
+    "vi": "vô tình, tự nhiên (không cố ý)"
   },
   {
     "id": "n1-0427",
     "jp": "なにとぞ",
     "reading": "なにとぞ",
     "romaji": "nanitozo",
-    "meaning": "please, kindly, by all means"
+    "meaning": "please, kindly, by all means",
+    "vi": "xin hãy, mong rằng"
   },
   {
     "id": "n1-0428",
     "jp": "なにより",
     "reading": "なにより",
     "romaji": "naniyori",
-    "meaning": "most, best"
+    "meaning": "most, best",
+    "vi": "hơn hết, tốt nhất"
   },
   {
     "id": "n1-0429",
     "jp": "ナプキン",
     "reading": "ナプキン",
     "romaji": "ナプキン",
-    "meaning": "napkin"
+    "meaning": "napkin",
+    "vi": "khăn ăn"
   },
   {
     "id": "n1-0430",
     "jp": "名札",
     "reading": "なふだ",
     "romaji": "nafuda",
-    "meaning": "name plate, name tag"
+    "meaning": "name plate, name tag",
+    "vi": "bảng tên, thẻ tên"
   },
   {
     "id": "n1-0431",
     "jp": "生臭い",
     "reading": "なまぐさい",
     "romaji": "namagusai",
-    "meaning": "smelling of fish or blood, fish or meat"
+    "meaning": "smelling of fish or blood, fish or meat",
+    "vi": "tanh (mùi cá, máu)"
   },
   {
     "id": "n1-0432",
     "jp": "生温い",
     "reading": "なまぬるい",
     "romaji": "namanurui",
-    "meaning": "lukewarm, halfhearted"
+    "meaning": "lukewarm, halfhearted",
+    "vi": "hâm hẩm, nửa vời"
   },
   {
     "id": "n1-0433",
     "jp": "生身",
     "reading": "なまみ",
     "romaji": "namami",
-    "meaning": "living flesh, flesh and blood, the quick"
+    "meaning": "living flesh, flesh and blood, the quick",
+    "vi": "thân xác sống, cơ thể bằng xương bằng thịt"
   },
   {
     "id": "n1-0434",
     "jp": "鉛",
     "reading": "なまり",
     "romaji": "namari",
-    "meaning": "lead (the metal)"
+    "meaning": "lead (the metal)",
+    "vi": "chì"
   },
   {
     "id": "n1-0435",
     "jp": "滑らか",
     "reading": "なめらか",
     "romaji": "nameraka",
-    "meaning": "smoothness, glassiness"
+    "meaning": "smoothness, glassiness",
+    "vi": "trơn mượt, mịn màng"
   },
   {
     "id": "n1-0436",
     "jp": "嘗める",
     "reading": "なめる",
     "romaji": "nameru",
-    "meaning": "to lick; to experience; to make fun of"
+    "meaning": "to lick; to experience; to make fun of",
+    "vi": "liếm; nếm trải; coi thường"
   },
   {
     "id": "n1-0437",
     "jp": "悩ましい",
     "reading": "なやましい",
     "romaji": "nayamashii",
-    "meaning": "seductive, melancholy, languid"
+    "meaning": "seductive, melancholy, languid",
+    "vi": "quyến rũ, u sầu, uể oải"
   },
   {
     "id": "n1-0438",
     "jp": "悩ます",
     "reading": "なやます",
     "romaji": "nayamasu",
-    "meaning": "to bother, to harass, to molest"
+    "meaning": "to bother, to harass, to molest",
+    "vi": "làm phiền, quấy rối"
   },
   {
     "id": "n1-0439",
     "jp": "悩み",
     "reading": "なやみ",
     "romaji": "nayami",
-    "meaning": "trouble(s), worry, distress"
+    "meaning": "trouble(s), worry, distress",
+    "vi": "nỗi phiền muộn, lo lắng"
   },
   {
     "id": "n1-0440",
     "jp": "並びに",
     "reading": "ならびに",
     "romaji": "narabini",
-    "meaning": "and"
+    "meaning": "and",
+    "vi": "và, cùng với"
   },
   {
     "id": "n1-0441",
     "jp": "成り立つ",
     "reading": "なりたつ",
     "romaji": "naritatsu",
-    "meaning": "to consist of; to be practical (logical, feasible, viable), to be concluded, to hold true"
+    "meaning": "to consist of; to be practical (logical, feasible, viable), to be concluded, to hold true",
+    "vi": "được cấu thành từ; khả thi, hợp lý"
   },
   {
     "id": "n1-0442",
     "jp": "なるたけ",
     "reading": "なるたけ",
     "romaji": "narutake",
-    "meaning": "as much as possible, if possible"
+    "meaning": "as much as possible, if possible",
+    "vi": "càng nhiều càng tốt, nếu có thể"
   },
   {
     "id": "n1-0443",
     "jp": "慣れ",
     "reading": "なれ",
     "romaji": "nare",
-    "meaning": "practice, experience"
+    "meaning": "practice, experience",
+    "vi": "sự quen thuộc, kinh nghiệm"
   },
   {
     "id": "n1-0444",
     "jp": "馴々しい",
     "reading": "なれなれしい",
     "romaji": "narenareshii",
-    "meaning": "familiar, make free with"
+    "meaning": "familiar, make free with",
+    "vi": "thân mật quá mức, suồng sã"
   },
   {
     "id": "n1-0445",
     "jp": "～なんか",
     "reading": "～なんか",
     "romaji": "～nanka",
-    "meaning": "in the least ~"
+    "meaning": "in the least ~",
+    "vi": "những thứ như ~, cỡ như ~"
   },
   {
     "id": "n1-0446",
     "jp": "ナンセンス",
     "reading": "ナンセンス",
     "romaji": "ナンセンス",
-    "meaning": "nonsense"
+    "meaning": "nonsense",
+    "vi": "vô nghĩa"
   },
   {
     "id": "n1-0447",
     "jp": "何だか",
     "reading": "なんだか",
     "romaji": "nandaka",
-    "meaning": "a little, somewhat, somehow"
+    "meaning": "a little, somewhat, somehow",
+    "vi": "có vẻ, không hiểu sao lại"
   },
   {
     "id": "n1-0448",
     "jp": "なんだかんだ",
     "reading": "なんだかんだ",
     "romaji": "nandakanda",
-    "meaning": "something or other"
+    "meaning": "something or other",
+    "vi": "cái này cái kia, lằng nhằng đủ thứ"
   },
   {
     "id": "n1-0449",
     "jp": "なんなり",
     "reading": "なんなり",
     "romaji": "nannari",
-    "meaning": "anything, whatever"
+    "meaning": "anything, whatever",
+    "vi": "bất cứ điều gì"
   },
   {
     "id": "n1-0450",
     "jp": "荷",
     "reading": "に",
     "romaji": "ni",
-    "meaning": "load, baggage, cargo"
+    "meaning": "load, baggage, cargo",
+    "vi": "hàng hóa, gánh nặng"
   },
   {
     "id": "n1-0451",
     "jp": "似通う",
     "reading": "にかよう",
     "romaji": "nikayou",
-    "meaning": "to resemble closely"
+    "meaning": "to resemble closely",
+    "vi": "giống nhau, tương tự"
   },
   {
     "id": "n1-0452",
     "jp": "にきび",
     "reading": "にきび",
     "romaji": "nikibi",
-    "meaning": "pimple, acne"
+    "meaning": "pimple, acne",
+    "vi": "mụn trứng cá"
   },
   {
     "id": "n1-0453",
     "jp": "賑わう",
     "reading": "にぎわう",
     "romaji": "nigiwau",
-    "meaning": "to prosper, to flourish, to be crowded with people"
+    "meaning": "to prosper, to flourish, to be crowded with people",
+    "vi": "nhộn nhịp, đông đúc, thịnh vượng"
   },
   {
     "id": "n1-0454",
     "jp": "憎しみ",
     "reading": "にくしみ",
     "romaji": "nikushimi",
-    "meaning": "hatred"
+    "meaning": "hatred",
+    "vi": "sự căm ghét, thù hận"
   },
   {
     "id": "n1-0455",
     "jp": "肉親",
     "reading": "にくしん",
     "romaji": "nikushin",
-    "meaning": "blood relationship, blood relative"
+    "meaning": "blood relationship, blood relative",
+    "vi": "người thân ruột thịt"
   },
   {
     "id": "n1-0456",
     "jp": "肉体",
     "reading": "にくたい",
     "romaji": "nikutai",
-    "meaning": "the body, the flesh"
+    "meaning": "the body, the flesh",
+    "vi": "thể xác, cơ thể"
   },
   {
     "id": "n1-0457",
     "jp": "逃げ出す",
     "reading": "にげだす",
     "romaji": "nigedasu",
-    "meaning": "to run away, to escape from"
+    "meaning": "to run away, to escape from",
+    "vi": "bỏ chạy, trốn thoát"
   },
   {
     "id": "n1-0458",
     "jp": "西日",
     "reading": "にしび",
     "romaji": "nishibi",
-    "meaning": "westering sun"
+    "meaning": "westering sun",
+    "vi": "nắng chiều (hướng tây)"
   },
   {
     "id": "n1-0459",
     "jp": "滲む",
     "reading": "にじむ",
     "romaji": "nijimu",
-    "meaning": "to run, to blur, to spread"
+    "meaning": "to run, to blur, to spread",
+    "vi": "loang ra, nhòe đi"
   },
   {
     "id": "n1-0460",
     "jp": "にせ物",
     "reading": "にせもの",
     "romaji": "nisemono",
-    "meaning": "imitation, counterfeit"
+    "meaning": "imitation, counterfeit",
+    "vi": "hàng giả, đồ nhái"
   },
   {
     "id": "n1-0461",
     "jp": "日夜",
     "reading": "にちや",
     "romaji": "nichiya",
-    "meaning": "day and night, always"
+    "meaning": "day and night, always",
+    "vi": "ngày đêm, luôn luôn"
   },
   {
     "id": "n1-0462",
     "jp": "荷造り",
     "reading": "にづくり",
     "romaji": "nizukuri",
-    "meaning": "packing, baling, crating"
+    "meaning": "packing, baling, crating",
+    "vi": "đóng gói hành lý"
   },
   {
     "id": "n1-0463",
     "jp": "担う",
     "reading": "になう",
     "romaji": "ninau",
-    "meaning": "to carry on shoulder, to bear (burden), to shoulder (gun)"
+    "meaning": "to carry on shoulder, to bear (burden), to shoulder (gun)",
+    "vi": "gánh vác, đảm nhận"
   },
   {
     "id": "n1-0464",
     "jp": "鈍る",
     "reading": "にぶる",
     "romaji": "niburu",
-    "meaning": "to become less capable, to grow dull, to become blunt, to weaken"
+    "meaning": "to become less capable, to grow dull, to become blunt, to weaken",
+    "vi": "trở nên chậm chạp, cùn đi, yếu đi"
   },
   {
     "id": "n1-0465",
     "jp": "にも関わらず",
     "reading": "にもかかわらず",
     "romaji": "nimokakawarazu",
-    "meaning": "in spite of, nevertheless"
+    "meaning": "in spite of, nevertheless",
+    "vi": "mặc dù vậy, tuy nhiên"
   },
   {
     "id": "n1-0466",
     "jp": "ニュアンス",
     "reading": "ニュアンス",
     "romaji": "ニュアンス",
-    "meaning": "nuance"
+    "meaning": "nuance",
+    "vi": "sắc thái"
   },
   {
     "id": "n1-0467",
     "jp": "ニュー",
     "reading": "ニュー",
     "romaji": "ニュー",
-    "meaning": "new"
+    "meaning": "new",
+    "vi": "mới"
   },
   {
     "id": "n1-0468",
     "jp": "入手",
     "reading": "にゅうしゅ",
     "romaji": "nyuushu",
-    "meaning": "obtaining, coming to hand"
+    "meaning": "obtaining, coming to hand",
+    "vi": "có được, thu được"
   },
   {
     "id": "n1-0469",
     "jp": "入賞",
     "reading": "にゅうしょう",
     "romaji": "nyuushou",
-    "meaning": "winning a prize or place (in a contest"
+    "meaning": "winning a prize or place (in a contest",
+    "vi": "đoạt giải"
   },
   {
     "id": "n1-0470",
     "jp": "入浴",
     "reading": "にゅうよく",
     "romaji": "nyuuyoku",
-    "meaning": "bathe, bathing"
+    "meaning": "bathe, bathing",
+    "vi": "tắm"
   },
   {
     "id": "n1-0471",
     "jp": "尿",
     "reading": "にょう",
     "romaji": "nyou",
-    "meaning": "urine"
+    "meaning": "urine",
+    "vi": "nước tiểu"
   },
   {
     "id": "n1-0472",
     "jp": "認識",
     "reading": "にんしき",
     "romaji": "ninshiki",
-    "meaning": "recognition, cognizance"
+    "meaning": "recognition, cognizance",
+    "vi": "nhận thức"
   },
   {
     "id": "n1-0473",
     "jp": "妊娠",
     "reading": "にんしん",
     "romaji": "ninshin",
-    "meaning": "conception, pregnancy"
+    "meaning": "conception, pregnancy",
+    "vi": "mang thai"
   },
   {
     "id": "n1-0474",
     "jp": "任務",
     "reading": "にんむ",
     "romaji": "ninmu",
-    "meaning": "duty, mission, task"
+    "meaning": "duty, mission, task",
+    "vi": "nhiệm vụ"
   },
   {
     "id": "n1-0475",
     "jp": "任命",
     "reading": "にんめい",
     "romaji": "ninmei",
-    "meaning": "appointment, nomination, ordination"
+    "meaning": "appointment, nomination, ordination",
+    "vi": "bổ nhiệm"
   },
   {
     "id": "n1-0476",
     "jp": "抜かす",
     "reading": "ぬかす",
     "romaji": "nukasu",
-    "meaning": "to omit, to leave out"
+    "meaning": "to omit, to leave out",
+    "vi": "bỏ sót, bỏ qua"
   },
   {
     "id": "n1-0477",
     "jp": "抜け出す",
     "reading": "ぬけだす",
     "romaji": "nukedasu",
-    "meaning": "to slip out, to sneak away, to excel"
+    "meaning": "to slip out, to sneak away, to excel",
+    "vi": "lẻn ra, trốn đi; nổi trội"
   },
   {
     "id": "n1-0478",
     "jp": "主",
     "reading": "ぬし",
     "romaji": "nushi",
-    "meaning": "owner, master, god"
+    "meaning": "owner, master, god",
+    "vi": "chủ nhân, chúa tể"
   },
   {
     "id": "n1-0479",
     "jp": "沼",
     "reading": "ぬま",
     "romaji": "numa",
-    "meaning": "swamp, bog, pond"
+    "meaning": "swamp, bog, pond",
+    "vi": "đầm lầy"
   },
   {
     "id": "n1-0480",
     "jp": "音色",
     "reading": "ねいろ",
     "romaji": "neiro",
-    "meaning": "tone color, timbre"
+    "meaning": "tone color, timbre",
+    "vi": "âm sắc"
   },
   {
     "id": "n1-0481",
     "jp": "値打ち",
     "reading": "ねうち",
     "romaji": "neuchi",
-    "meaning": "value, worth, price"
+    "meaning": "value, worth, price",
+    "vi": "giá trị"
   },
   {
     "id": "n1-0482",
     "jp": "ネガ",
     "reading": "ネガ",
     "romaji": "ネガ",
-    "meaning": "(photographic) negative"
+    "meaning": "(photographic) negative",
+    "vi": "phim âm bản"
   },
   {
     "id": "n1-0483",
     "jp": "寝かせる",
     "reading": "ねかせる",
     "romaji": "nekaseru",
-    "meaning": "to put to bed, to lay down, to ferment"
+    "meaning": "to put to bed, to lay down, to ferment",
+    "vi": "đặt nằm xuống, cho ngủ; ủ (lên men)"
   },
   {
     "id": "n1-0484",
     "jp": "ねじまわし",
     "reading": "ねじまわし",
     "romaji": "nejimawashi",
-    "meaning": "screwdriver"
+    "meaning": "screwdriver",
+    "vi": "tua vít"
   },
   {
     "id": "n1-0485",
     "jp": "捩れる",
     "reading": "ねじれる",
     "romaji": "nejireru",
-    "meaning": "twist, strain"
+    "meaning": "twist, strain",
+    "vi": "bị vặn xoắn"
   },
   {
     "id": "n1-0486",
     "jp": "妬む",
     "reading": "ねたむ",
     "romaji": "netamu",
-    "meaning": "to be jealous, to be envious"
+    "meaning": "to be jealous, to be envious",
+    "vi": "ghen tị, đố kỵ"
   },
   {
     "id": "n1-0487",
     "jp": "ねだる",
     "reading": "ねだる",
     "romaji": "nedaru",
-    "meaning": "to nag, to demand"
+    "meaning": "to nag, to demand",
+    "vi": "nài nỉ, đòi hỏi"
   },
   {
     "id": "n1-0488",
     "jp": "熱意",
     "reading": "ねつい",
     "romaji": "netsui",
-    "meaning": "zeal, enthusiasm"
+    "meaning": "zeal, enthusiasm",
+    "vi": "nhiệt huyết, sự nhiệt tình"
   },
   {
     "id": "n1-0489",
     "jp": "熱湯",
     "reading": "ねっとう",
     "romaji": "nettou",
-    "meaning": "boiling water"
+    "meaning": "boiling water",
+    "vi": "nước sôi"
   },
   {
     "id": "n1-0490",
     "jp": "熱量",
     "reading": "ねつりょう",
     "romaji": "netsuryou",
-    "meaning": "calorific value"
+    "meaning": "calorific value",
+    "vi": "nhiệt lượng"
   },
   {
     "id": "n1-0491",
     "jp": "粘り",
     "reading": "ねばり",
     "romaji": "nebari",
-    "meaning": "stickiness, viscosity"
+    "meaning": "stickiness, viscosity",
+    "vi": "độ dính, độ nhớt"
   },
   {
     "id": "n1-0492",
     "jp": "粘る",
     "reading": "ねばる",
     "romaji": "nebaru",
-    "meaning": "to be sticky, to be adhesive, to persist, to stick to"
+    "meaning": "to be sticky, to be adhesive, to persist, to stick to",
+    "vi": "dính, kiên trì bám lấy"
   },
   {
     "id": "n1-0493",
     "jp": "値引き",
     "reading": "ねびき",
     "romaji": "nebiki",
-    "meaning": "price reduction, discount"
+    "meaning": "price reduction, discount",
+    "vi": "giảm giá"
   },
   {
     "id": "n1-0494",
     "jp": "根回し",
     "reading": "ねまわし",
     "romaji": "nemawashi",
-    "meaning": "making necessary arrangements"
+    "meaning": "making necessary arrangements",
+    "vi": "vận động hậu trường, dàn xếp trước"
   },
   {
     "id": "n1-0495",
     "jp": "眠たい",
     "reading": "ねむたい",
     "romaji": "nemutai",
-    "meaning": "sleepy"
+    "meaning": "sleepy",
+    "vi": "buồn ngủ"
   },
   {
     "id": "n1-0496",
     "jp": "練る",
     "reading": "ねる",
     "romaji": "neru",
-    "meaning": "to knead, to work over, to polish up"
+    "meaning": "to knead, to work over, to polish up",
+    "vi": "nhào nặn, trau chuốt, hoàn thiện"
   },
   {
     "id": "n1-0497",
     "jp": "念",
     "reading": "ねん",
     "romaji": "nen",
-    "meaning": "sense, feeling, desire"
+    "meaning": "sense, feeling, desire",
+    "vi": "cảm giác, ý niệm"
   },
   {
     "id": "n1-0498",
     "jp": "年賀",
     "reading": "ねんが",
     "romaji": "nenga",
-    "meaning": "New Year's greetings, New Year's card"
+    "meaning": "New Year's greetings, New Year's card",
+    "vi": "lời chúc/thiệp năm mới"
   },
   {
     "id": "n1-0499",
     "jp": "念願",
     "reading": "ねんがん",
     "romaji": "nengan",
-    "meaning": "one's heart's desire, earnest petition"
+    "meaning": "one's heart's desire, earnest petition",
+    "vi": "ước nguyện tha thiết"
   },
   {
     "id": "n1-0500",
     "jp": "年号",
     "reading": "ねんごう",
     "romaji": "nengou",
-    "meaning": "name of an era, year number"
+    "meaning": "name of an era, year number",
+    "vi": "niên hiệu"
   },
   {
     "id": "n1-0501",
     "jp": "燃焼",
     "reading": "ねんしょう",
     "romaji": "nenshou",
-    "meaning": "burning, combustion"
+    "meaning": "burning, combustion",
+    "vi": "sự cháy, đốt cháy"
   },
   {
     "id": "n1-0502",
     "jp": "年長",
     "reading": "ねんちょう",
     "romaji": "nenchou",
-    "meaning": "seniority"
+    "meaning": "seniority",
+    "vi": "bậc đàn anh, người lớn tuổi hơn"
   },
   {
     "id": "n1-0503",
     "jp": "燃料",
     "reading": "ねんりょう",
     "romaji": "nenryou",
-    "meaning": "fuel"
+    "meaning": "fuel",
+    "vi": "nhiên liệu"
   },
   {
     "id": "n1-0504",
     "jp": "年輪",
     "reading": "ねんりん",
     "romaji": "nenrin",
-    "meaning": "annual tree ring"
+    "meaning": "annual tree ring",
+    "vi": "vòng gỗ (vân niên đại)"
   },
   {
     "id": "n1-0505",
     "jp": "ノイローゼ",
     "reading": "ノイローゼ",
     "romaji": "ノイローゼ",
-    "meaning": "neurosis (GER: Neurose)"
+    "meaning": "neurosis (GER: Neurose)",
+    "vi": "chứng suy nhược thần kinh"
   },
   {
     "id": "n1-0506",
     "jp": "農耕",
     "reading": "のうこう",
     "romaji": "noukou",
-    "meaning": "farming, agriculture"
+    "meaning": "farming, agriculture",
+    "vi": "nông canh, trồng trọt"
   },
   {
     "id": "n1-0507",
     "jp": "農場",
     "reading": "のうじょう",
     "romaji": "noujou",
-    "meaning": "farm"
+    "meaning": "farm",
+    "vi": "nông trại"
   },
   {
     "id": "n1-0508",
     "jp": "農地",
     "reading": "のうち",
     "romaji": "nouchi",
-    "meaning": "agricultural land"
+    "meaning": "agricultural land",
+    "vi": "đất nông nghiệp"
   },
   {
     "id": "n1-0509",
     "jp": "納入",
     "reading": "のうにゅう",
     "romaji": "nounyuu",
-    "meaning": "payment, supply"
+    "meaning": "payment, supply",
+    "vi": "nộp, cung cấp"
   },
   {
     "id": "n1-0510",
     "jp": "逃す",
     "reading": "のがす",
     "romaji": "nogasu",
-    "meaning": "to let loose, to set free, to let escape"
+    "meaning": "to let loose, to set free, to let escape",
+    "vi": "để tuột mất, bỏ lỡ"
   },
   {
     "id": "n1-0511",
     "jp": "逃れる",
     "reading": "のがれる",
     "romaji": "nogareru",
-    "meaning": "to escape"
+    "meaning": "to escape",
+    "vi": "trốn thoát"
   },
   {
     "id": "n1-0512",
     "jp": "軒並",
     "reading": "のきなみ",
     "romaji": "nokinami",
-    "meaning": "row of houses; uniformly"
+    "meaning": "row of houses; uniformly",
+    "vi": "dãy nhà liền kề; đồng loạt"
   },
   {
     "id": "n1-0513",
     "jp": "望ましい",
     "reading": "のぞましい",
     "romaji": "nozomashii",
-    "meaning": "desirable, hoped for"
+    "meaning": "desirable, hoped for",
+    "vi": "đáng mong đợi"
   },
   {
     "id": "n1-0514",
     "jp": "乗っ取る",
     "reading": "のっとる",
     "romaji": "nottoru",
-    "meaning": "to capture, to occupy, to take over"
+    "meaning": "to capture, to occupy, to take over",
+    "vi": "chiếm đoạt, cướp quyền kiểm soát"
   },
   {
     "id": "n1-0515",
     "jp": "のどか",
     "reading": "のどか",
     "romaji": "nodoka",
-    "meaning": "tranquil, calm, quiet"
+    "meaning": "tranquil, calm, quiet",
+    "vi": "yên bình, thanh thản"
   },
   {
     "id": "n1-0516",
     "jp": "罵る",
     "reading": "ののしる",
     "romaji": "nonoshiru",
-    "meaning": "to speak ill of, to abuse"
+    "meaning": "to speak ill of, to abuse",
+    "vi": "chửi mắng, lăng mạ"
   },
   {
     "id": "n1-0517",
     "jp": "延べ",
     "reading": "のべ",
     "romaji": "nobe",
-    "meaning": "futures, credit (buying), stretching, total"
+    "meaning": "futures, credit (buying), stretching, total",
+    "vi": "tổng cộng, kéo dài, mua chịu"
   },
   {
     "id": "n1-0518",
     "jp": "飲み込む",
     "reading": "のみこむ",
     "romaji": "nomikomu",
-    "meaning": "to gulp down, to swallow deeply, to understand"
+    "meaning": "to gulp down, to swallow deeply, to understand",
+    "vi": "nuốt xuống; nắm bắt được, hiểu rõ"
   },
   {
     "id": "n1-0519",
     "jp": "乗り込む",
     "reading": "のりこむ",
     "romaji": "norikomu",
-    "meaning": "to board, to get into (a car); to march into, to enter"
+    "meaning": "to board, to get into (a car); to march into, to enter",
+    "vi": "lên (xe), tiến vào"
   },
   {
     "id": "n1-0520",
     "jp": "刃",
     "reading": "は",
     "romaji": "ha",
-    "meaning": "blade, sword"
+    "meaning": "blade, sword",
+    "vi": "lưỡi dao, kiếm"
   },
   {
     "id": "n1-0521",
     "jp": "～派",
     "reading": "～は",
     "romaji": "～ha",
-    "meaning": "group, party, section (mil)"
+    "meaning": "group, party, section (mil)",
+    "vi": "phe, phái"
   },
   {
     "id": "n1-0522",
     "jp": "バー",
     "reading": "バー",
     "romaji": "バー",
-    "meaning": "bar"
+    "meaning": "bar",
+    "vi": "quầy bar"
   },
   {
     "id": "n1-0523",
     "jp": "把握",
     "reading": "はあく",
     "romaji": "haaku",
-    "meaning": "grasp, catch, understanding"
+    "meaning": "grasp, catch, understanding",
+    "vi": "nắm bắt, hiểu rõ"
   },
   {
     "id": "n1-0524",
     "jp": "パート",
     "reading": "パート",
     "romaji": "パート",
-    "meaning": "part-time job"
+    "meaning": "part-time job",
+    "vi": "công việc bán thời gian"
   },
   {
     "id": "n1-0525",
     "jp": "廃棄",
     "reading": "はいき",
     "romaji": "haiki",
-    "meaning": "disposal, abandon, discarding"
+    "meaning": "disposal, abandon, discarding",
+    "vi": "loại bỏ, hủy bỏ"
   },
   {
     "id": "n1-0526",
     "jp": "配給",
     "reading": "はいきゅう",
     "romaji": "haikyuu",
-    "meaning": "distribution (e.g., films, rice"
+    "meaning": "distribution (e.g., films, rice",
+    "vi": "phân phối"
   },
   {
     "id": "n1-0527",
     "jp": "ばい菌",
     "reading": "ばいきん",
     "romaji": "baikin",
-    "meaning": "bacteria, germ(s)"
+    "meaning": "bacteria, germ(s)",
+    "vi": "vi khuẩn, vi trùng"
   },
   {
     "id": "n1-0528",
     "jp": "配偶者",
     "reading": "はいぐうしゃ",
     "romaji": "haiguusha",
-    "meaning": "spouse"
+    "meaning": "spouse",
+    "vi": "vợ/chồng, phối ngẫu"
   },
   {
     "id": "n1-0529",
     "jp": "拝啓",
     "reading": "はいけい",
     "romaji": "haikei",
-    "meaning": "-- a formal greeting used at the beginning of a letter --"
+    "meaning": "-- a formal greeting used at the beginning of a letter --",
+    "vi": "kính gửi (mở đầu thư trang trọng)"
   },
   {
     "id": "n1-0530",
     "jp": "背景",
     "reading": "はいけい",
     "romaji": "haikei",
-    "meaning": "background, scenery, setting"
+    "meaning": "background, scenery, setting",
+    "vi": "bối cảnh, phông nền"
   },
   {
     "id": "n1-0531",
     "jp": "背後",
     "reading": "はいご",
     "romaji": "haigo",
-    "meaning": "back, rear"
+    "meaning": "back, rear",
+    "vi": "phía sau, đằng sau"
   },
   {
     "id": "n1-0532",
     "jp": "廃止",
     "reading": "はいし",
     "romaji": "haishi",
-    "meaning": "abolition, repeal"
+    "meaning": "abolition, repeal",
+    "vi": "bãi bỏ, hủy bỏ"
   },
   {
     "id": "n1-0533",
     "jp": "拝借",
     "reading": "はいしゃく",
     "romaji": "haishaku",
-    "meaning": "(humble) (polite) borrowing"
+    "meaning": "(humble) (polite) borrowing",
+    "vi": "mượn (khiêm nhường ngữ)"
   },
   {
     "id": "n1-0534",
     "jp": "排除",
     "reading": "はいじょ",
     "romaji": "haijo",
-    "meaning": "exclusion, removal, rejection"
+    "meaning": "exclusion, removal, rejection",
+    "vi": "loại trừ, loại bỏ"
   },
   {
     "id": "n1-0535",
     "jp": "賠償",
     "reading": "ばいしょう",
     "romaji": "baishou",
-    "meaning": "reparations, indemnity, compensation"
+    "meaning": "reparations, indemnity, compensation",
+    "vi": "bồi thường"
   },
   {
     "id": "n1-0536",
     "jp": "排水",
     "reading": "はいすい",
     "romaji": "haisui",
-    "meaning": "drainage"
+    "meaning": "drainage",
+    "vi": "thoát nước"
   },
   {
     "id": "n1-0537",
     "jp": "敗戦",
     "reading": "はいせん",
     "romaji": "haisen",
-    "meaning": "defeat, losing a war"
+    "meaning": "defeat, losing a war",
+    "vi": "thua trận"
   },
   {
     "id": "n1-0538",
     "jp": "配置",
     "reading": "はいち",
     "romaji": "haichi",
-    "meaning": "arrangement (of resources), disposition"
+    "meaning": "arrangement (of resources), disposition",
+    "vi": "bố trí, sắp xếp"
   },
   {
     "id": "n1-0539",
     "jp": "配布",
     "reading": "はいふ",
     "romaji": "haifu",
-    "meaning": "distribution"
+    "meaning": "distribution",
+    "vi": "phân phát"
   },
   {
     "id": "n1-0540",
     "jp": "配分",
     "reading": "はいぶん",
     "romaji": "haibun",
-    "meaning": "distribution, allotment"
+    "meaning": "distribution, allotment",
+    "vi": "phân bổ"
   },
   {
     "id": "n1-0541",
     "jp": "敗北",
     "reading": "はいぼく",
     "romaji": "haiboku",
-    "meaning": "defeat (as a verb it means 'to be defeated')"
+    "meaning": "defeat (as a verb it means 'to be defeated')",
+    "vi": "thất bại"
   },
   {
     "id": "n1-0542",
     "jp": "倍率",
     "reading": "ばいりつ",
     "romaji": "bairitsu",
-    "meaning": "diameter, magnification"
+    "meaning": "diameter, magnification",
+    "vi": "độ phóng đại, tỷ lệ"
   },
   {
     "id": "n1-0543",
     "jp": "配慮",
     "reading": "はいりょ",
     "romaji": "hairyo",
-    "meaning": "consideration, concern, forethought"
+    "meaning": "consideration, concern, forethought",
+    "vi": "sự quan tâm, cân nhắc chu đáo"
   },
   {
     "id": "n1-0544",
     "jp": "配列",
     "reading": "はいれつ",
     "romaji": "hairetsu",
-    "meaning": "arrangement, array (programming)"
+    "meaning": "arrangement, array (programming)",
+    "vi": "sự sắp xếp, mảng (lập trình)"
   },
   {
     "id": "n1-0545",
     "jp": "破壊",
     "reading": "はかい",
     "romaji": "hakai",
-    "meaning": "destruction"
+    "meaning": "destruction",
+    "vi": "sự phá hủy"
   },
   {
     "id": "n1-0546",
     "jp": "いたわる",
     "reading": "いたわる",
     "romaji": "itawaru",
-    "meaning": "to sympathize with, to console, to care for"
+    "meaning": "to sympathize with, to console, to care for",
+    "vi": "quan tâm, an ủi, chăm sóc"
   },
   {
     "id": "n1-0547",
     "jp": "一概に",
     "reading": "いちがいに",
     "romaji": "ichigaini",
-    "meaning": "unconditionally, necessarily"
+    "meaning": "unconditionally, necessarily",
+    "vi": "một cách chung chung, khẳng định chắc chắn"
   },
   {
     "id": "n1-0548",
     "jp": "著しい",
     "reading": "いちじるしい",
     "romaji": "ichijirushii",
-    "meaning": "remarkable, considerable"
+    "meaning": "remarkable, considerable",
+    "vi": "đáng kể, rõ rệt"
   },
   {
     "id": "n1-0549",
     "jp": "一同",
     "reading": "いちどう",
     "romaji": "ichidou",
-    "meaning": "all present, all concerned, all of us"
+    "meaning": "all present, all concerned, all of us",
+    "vi": "tất cả mọi người (có mặt)"
   },
   {
     "id": "n1-0550",
     "jp": "一部分",
     "reading": "いちぶぶん",
     "romaji": "ichibubun",
-    "meaning": "a part, a portion"
+    "meaning": "a part, a portion",
+    "vi": "một phần"
   },
   {
     "id": "n1-0551",
     "jp": "一別",
     "reading": "いちべつ",
     "romaji": "ichibetsu",
-    "meaning": "parting"
+    "meaning": "parting",
+    "vi": "sự chia ly"
   },
   {
     "id": "n1-0552",
     "jp": "一面",
     "reading": "いちめん",
     "romaji": "ichimen",
-    "meaning": "one side, the other hand"
+    "meaning": "one side, the other hand",
+    "vi": "một mặt, mặt khác"
   },
   {
     "id": "n1-0553",
     "jp": "一目",
     "reading": "いちもく",
     "romaji": "ichimoku",
-    "meaning": "a glance, a look, a glimpse"
+    "meaning": "a glance, a look, a glimpse",
+    "vi": "cái liếc nhìn"
   },
   {
     "id": "n1-0554",
     "jp": "一様",
     "reading": "いちよう",
     "romaji": "ichiyou",
-    "meaning": "uniform, similar, equal"
+    "meaning": "uniform, similar, equal",
+    "vi": "đồng đều, giống nhau"
   },
   {
     "id": "n1-0555",
     "jp": "一律",
     "reading": "いちりつ",
     "romaji": "ichiritsu",
-    "meaning": "even, uniform, equal"
+    "meaning": "even, uniform, equal",
+    "vi": "đồng loạt, như nhau"
   },
   {
     "id": "n1-0556",
     "jp": "一連",
     "reading": "いちれん",
     "romaji": "ichiren",
-    "meaning": "a series, a chain, a ream (of paper)"
+    "meaning": "a series, a chain, a ream (of paper)",
+    "vi": "một loạt, một chuỗi"
   },
   {
     "id": "n1-0557",
     "jp": "一括",
     "reading": "いっかつ",
     "romaji": "ikkatsu",
-    "meaning": "all together, batch"
+    "meaning": "all together, batch",
+    "vi": "gộp chung, theo lô"
   },
   {
     "id": "n1-0558",
     "jp": "一気",
     "reading": "いっき",
     "romaji": "ikki",
-    "meaning": "at one push, in one gulp"
+    "meaning": "at one push, in one gulp",
+    "vi": "một hơi, liền một mạch"
   },
   {
     "id": "n1-0559",
     "jp": "一挙に",
     "reading": "いっきょに",
     "romaji": "ikkyoni",
-    "meaning": "at a stroke, with a single swoop"
+    "meaning": "at a stroke, with a single swoop",
+    "vi": "chỉ trong một lần, ngay lập tức"
   },
   {
     "id": "n1-0560",
     "jp": "一見",
     "reading": "いっけん",
     "romaji": "ikken",
-    "meaning": "a look, a glimpse, glance; first meeting"
+    "meaning": "a look, a glimpse, glance; first meeting",
+    "vi": "thoạt nhìn; lần gặp đầu tiên"
   },
   {
     "id": "n1-0561",
     "jp": "一切",
     "reading": "いっさい",
     "romaji": "issai",
-    "meaning": "without exception, the whole"
+    "meaning": "without exception, the whole",
+    "vi": "tất cả, hoàn toàn"
   },
   {
     "id": "n1-0562",
     "jp": "一心",
     "reading": "いっしん",
     "romaji": "isshin",
-    "meaning": "one mind, with rapt attention"
+    "meaning": "one mind, with rapt attention",
+    "vi": "một lòng, chuyên tâm"
   },
   {
     "id": "n1-0563",
     "jp": "いっそ",
     "reading": "いっそ",
     "romaji": "isso",
-    "meaning": "rather, sooner, might as well"
+    "meaning": "rather, sooner, might as well",
+    "vi": "thà rằng, chi bằng"
   },
   {
     "id": "n1-0564",
     "jp": "一変",
     "reading": "いっぺん",
     "romaji": "ippen",
-    "meaning": "complete change"
+    "meaning": "complete change",
+    "vi": "thay đổi hoàn toàn"
   },
   {
     "id": "n1-0565",
     "jp": "意図",
     "reading": "いと",
     "romaji": "ito",
-    "meaning": "intention, aim, design"
+    "meaning": "intention, aim, design",
+    "vi": "ý đồ, mục đích"
   },
   {
     "id": "n1-0566",
     "jp": "営む",
     "reading": "いとなむ",
     "romaji": "itonamu",
-    "meaning": "to carry on (e.g., in ceremony), to run a business"
+    "meaning": "to carry on (e.g., in ceremony), to run a business",
+    "vi": "tiến hành, kinh doanh"
   },
   {
     "id": "n1-0567",
     "jp": "挑む",
     "reading": "いどむ",
     "romaji": "idomu",
-    "meaning": "to challenge"
+    "meaning": "to challenge",
+    "vi": "thách thức, thử thách"
   },
   {
     "id": "n1-0568",
     "jp": "稲光",
     "reading": "いなびかり",
     "romaji": "inabikari",
-    "meaning": "(flash of) lightning"
+    "meaning": "(flash of) lightning",
+    "vi": "ánh chớp"
   },
   {
     "id": "n1-0569",
     "jp": "祈り",
     "reading": "いのり",
     "romaji": "inori",
-    "meaning": "prayer, supplication"
+    "meaning": "prayer, supplication",
+    "vi": "lời cầu nguyện"
   },
   {
     "id": "n1-0570",
     "jp": "いびき",
     "reading": "いびき",
     "romaji": "ibiki",
-    "meaning": "snoring"
+    "meaning": "snoring",
+    "vi": "tiếng ngáy"
   },
   {
     "id": "n1-0571",
     "jp": "今更",
     "reading": "いまさら",
     "romaji": "imasara",
-    "meaning": "now, again"
+    "meaning": "now, again",
+    "vi": "giờ đây (mới), bây giờ mới"
   },
   {
     "id": "n1-0572",
     "jp": "未だ",
     "reading": "いまだ",
     "romaji": "imada",
-    "meaning": "yet, still"
+    "meaning": "yet, still",
+    "vi": "vẫn chưa, vẫn còn"
   },
   {
     "id": "n1-0573",
     "jp": "移民",
     "reading": "いみん",
     "romaji": "imin",
-    "meaning": "emigrant, immigrant"
+    "meaning": "emigrant, immigrant",
+    "vi": "người di cư, di dân"
   },
   {
     "id": "n1-0574",
     "jp": "嫌々",
     "reading": "いやいや",
     "romaji": "iyaiya",
-    "meaning": "reluctantly, by no means, unwillingly"
+    "meaning": "reluctantly, by no means, unwillingly",
+    "vi": "miễn cưỡng, bất đắc dĩ"
   },
   {
     "id": "n1-0575",
     "jp": "卑しい",
     "reading": "いやしい",
     "romaji": "iyashii",
-    "meaning": "greedy, vulgar, shabby"
+    "meaning": "greedy, vulgar, shabby",
+    "vi": "hèn hạ, tham lam, thấp kém"
   },
   {
     "id": "n1-0576",
     "jp": "いやに",
     "reading": "いやに",
     "romaji": "iyani",
-    "meaning": "awfully, terribly"
+    "meaning": "awfully, terribly",
+    "vi": "quá đỗi, kỳ lạ (đến khó chịu)"
   },
   {
     "id": "n1-0577",
     "jp": "いやらしい",
     "reading": "いやらしい",
     "romaji": "iyarashii",
-    "meaning": "unpleasant, disgusting, indecent"
+    "meaning": "unpleasant, disgusting, indecent",
+    "vi": "khó chịu, đáng ghét, tục tĩu"
   },
   {
     "id": "n1-0578",
     "jp": "意欲",
     "reading": "いよく",
     "romaji": "iyoku",
-    "meaning": "will, desire, ambition"
+    "meaning": "will, desire, ambition",
+    "vi": "ý chí, khát khao"
   },
   {
     "id": "n1-0579",
     "jp": "威力",
     "reading": "いりょく",
     "romaji": "iryoku",
-    "meaning": "power, might, authority"
+    "meaning": "power, might, authority",
+    "vi": "uy lực, sức mạnh"
   },
   {
     "id": "n1-0580",
     "jp": "衣類",
     "reading": "いるい",
     "romaji": "irui",
-    "meaning": "clothes, clothing, garments"
+    "meaning": "clothes, clothing, garments",
+    "vi": "quần áo"
   },
   {
     "id": "n1-0581",
     "jp": "異論",
     "reading": "いろん",
     "romaji": "iron",
-    "meaning": "different opinion, objection"
+    "meaning": "different opinion, objection",
+    "vi": "ý kiến khác, phản đối"
   },
   {
     "id": "n1-0582",
     "jp": "印鑑",
     "reading": "いんかん",
     "romaji": "inkan",
-    "meaning": "stamp, seal"
+    "meaning": "stamp, seal",
+    "vi": "con dấu"
   },
   {
     "id": "n1-0583",
     "jp": "陰気",
     "reading": "いんき",
     "romaji": "inki",
-    "meaning": "gloom, melancholy"
+    "meaning": "gloom, melancholy",
+    "vi": "u ám, ảm đạm"
   },
   {
     "id": "n1-0584",
     "jp": "隠居",
     "reading": "いんきょ",
     "romaji": "inkyo",
-    "meaning": "retirement; retired person"
+    "meaning": "retirement; retired person",
+    "vi": "về hưu, ẩn cư; người đã nghỉ hưu"
   },
   {
     "id": "n1-0585",
     "jp": "インターチェンジ",
     "reading": "インターチェンジ",
     "romaji": "インターチェンジ",
-    "meaning": "interchange"
+    "meaning": "interchange",
+    "vi": "nút giao thông (đường cao tốc)"
   },
   {
     "id": "n1-0586",
     "jp": "インターナショナル",
     "reading": "インターナショナル",
     "romaji": "インターナショナル",
-    "meaning": "international"
+    "meaning": "international",
+    "vi": "quốc tế"
   },
   {
     "id": "n1-0587",
     "jp": "インターフォン",
     "reading": "インターフォン",
     "romaji": "インターフォン",
-    "meaning": "entry phone, intercom"
+    "meaning": "entry phone, intercom",
+    "vi": "điện thoại nội bộ, chuông cửa có loa"
   },
   {
     "id": "n1-0588",
     "jp": "インテリ",
     "reading": "インテリ",
     "romaji": "インテリ",
-    "meaning": "(abbr.) egghead, intelligentsia"
+    "meaning": "(abbr.) egghead, intelligentsia",
+    "vi": "trí thức, tầng lớp trí thức"
   },
   {
     "id": "n1-0589",
     "jp": "インフォメーション",
     "reading": "インフォメーション",
     "romaji": "インフォメーション",
-    "meaning": "information"
+    "meaning": "information",
+    "vi": "thông tin, quầy thông tin"
   },
   {
     "id": "n1-0590",
     "jp": "インフレ",
     "reading": "インフレ",
     "romaji": "インフレ",
-    "meaning": "(abbr.) inflation"
+    "meaning": "(abbr.) inflation",
+    "vi": "lạm phát"
   },
   {
     "id": "n1-0591",
     "jp": "受かる",
     "reading": "うかる",
     "romaji": "ukaru",
-    "meaning": "to pass (examination)"
+    "meaning": "to pass (examination)",
+    "vi": "thi đậu, đỗ (kỳ thi)"
   },
   {
     "id": "n1-0592",
     "jp": "受け入れ",
     "reading": "うけいれ",
     "romaji": "ukeire",
-    "meaning": "receiving, acceptance"
+    "meaning": "receiving, acceptance",
+    "vi": "sự tiếp nhận, chấp nhận"
   },
   {
     "id": "n1-0593",
     "jp": "受け入れる",
     "reading": "うけいれる",
     "romaji": "ukeireru",
-    "meaning": "to accept, to receive"
+    "meaning": "to accept, to receive",
+    "vi": "tiếp nhận, chấp nhận"
   },
   {
     "id": "n1-0594",
     "jp": "受け継ぐ",
     "reading": "うけつぐ",
     "romaji": "uketsugu",
-    "meaning": "to inherit, to succeed"
+    "meaning": "to inherit, to succeed",
+    "vi": "kế thừa, tiếp nối"
   },
   {
     "id": "n1-0595",
     "jp": "受け付ける",
     "reading": "うけつける",
     "romaji": "uketsukeru",
-    "meaning": "to be accepted, to receive (an application)"
+    "meaning": "to be accepted, to receive (an application)",
+    "vi": "tiếp nhận (đơn từ)"
   },
   {
     "id": "n1-0596",
     "jp": "受け止める",
     "reading": "うけとめる",
     "romaji": "uketomeru",
-    "meaning": "to catch, to react to, to take"
+    "meaning": "to catch, to react to, to take",
+    "vi": "đón nhận, tiếp nhận (một vấn đề)"
   },
   {
     "id": "n1-0597",
     "jp": "受身",
     "reading": "うけみ",
     "romaji": "ukemi",
-    "meaning": "passive, passive voice"
+    "meaning": "passive, passive voice",
+    "vi": "thể bị động"
   },
   {
     "id": "n1-0598",
     "jp": "受持ち",
     "reading": "うけもち",
     "romaji": "ukemochi",
-    "meaning": "charge (of something), matter in one's charge"
+    "meaning": "charge (of something), matter in one's charge",
+    "vi": "phần việc phụ trách"
   },
   {
     "id": "n1-0599",
     "jp": "動き",
     "reading": "うごき",
     "romaji": "ugoki",
-    "meaning": "movement, activity, trend"
+    "meaning": "movement, activity, trend",
+    "vi": "sự chuyển động, xu hướng"
   },
   {
     "id": "n1-0600",
     "jp": "埋める",
     "reading": "うずめる",
     "romaji": "uzumeru",
-    "meaning": "to bury, to fill"
+    "meaning": "to bury, to fill",
+    "vi": "chôn, lấp đầy"
   },
   {
     "id": "n1-0601",
     "jp": "嘘つき",
     "reading": "うそつき",
     "romaji": "usotsuki",
-    "meaning": "liar"
+    "meaning": "liar",
+    "vi": "kẻ nói dối"
   },
   {
     "id": "n1-0602",
     "jp": "うたた寝",
     "reading": "うたたね",
     "romaji": "utatane",
-    "meaning": "dozing, napping"
+    "meaning": "dozing, napping",
+    "vi": "ngủ gật, chợp mắt"
   },
   {
     "id": "n1-0603",
     "jp": "打ち明ける",
     "reading": "うちあける",
     "romaji": "uchiakeru",
-    "meaning": "to confess, to be open"
+    "meaning": "to confess, to be open",
+    "vi": "thổ lộ, thú nhận, bộc bạch"
   },
   {
     "id": "n1-0604",
     "jp": "打ち切る",
     "reading": "うちきる",
     "romaji": "uchikiru",
-    "meaning": "to stop, to abort, to discontinue, to close"
+    "meaning": "to stop, to abort, to discontinue, to close",
+    "vi": "chấm dứt, ngừng lại"
   },
   {
     "id": "n1-0605",
     "jp": "打ち消し",
     "reading": "うちけし",
     "romaji": "uchikeshi",
-    "meaning": "(gram) negation, denial, negative"
+    "meaning": "(gram) negation, denial, negative",
+    "vi": "thể phủ định (ngữ pháp)"
   },
   {
     "id": "n1-0606",
     "jp": "打ち込む",
     "reading": "うちこむ",
     "romaji": "uchikomu",
-    "meaning": "to devote oneself to, to shoot into"
+    "meaning": "to devote oneself to, to shoot into",
+    "vi": "dốc lòng vào, bắn vào"
   },
   {
     "id": "n1-0607",
     "jp": "団扇",
     "reading": "うちわ",
     "romaji": "uchiwa",
-    "meaning": "fan"
+    "meaning": "fan",
+    "vi": "quạt (quạt tay)"
   },
   {
     "id": "n1-0608",
     "jp": "内訳",
     "reading": "うちわけ",
     "romaji": "uchiwake",
-    "meaning": "the items, breakdown, classification"
+    "meaning": "the items, breakdown, classification",
+    "vi": "bảng chi tiết, phân loại các khoản"
   },
   {
     "id": "n1-0609",
     "jp": "写し",
     "reading": "うつし",
     "romaji": "utsushi",
-    "meaning": "copy, duplicate"
+    "meaning": "copy, duplicate",
+    "vi": "bản sao"
   },
   {
     "id": "n1-0610",
     "jp": "訴え",
     "reading": "うったえ",
     "romaji": "uttae",
-    "meaning": "lawsuit, complaint"
+    "meaning": "lawsuit, complaint",
+    "vi": "đơn kiện, khiếu nại"
   },
   {
     "id": "n1-0611",
     "jp": "うっとうしい",
     "reading": "うっとうしい",
     "romaji": "uttoushii",
-    "meaning": "weary, annoying"
+    "meaning": "weary, annoying",
+    "vi": "khó chịu, ngột ngạt"
   },
   {
     "id": "n1-0612",
     "jp": "うつむく",
     "reading": "うつむく",
     "romaji": "utsumuku",
-    "meaning": "to look downward, to stoop"
+    "meaning": "to look downward, to stoop",
+    "vi": "cúi đầu xuống"
   },
   {
     "id": "n1-0613",
     "jp": "空ろ",
     "reading": "うつろ",
     "romaji": "utsuro",
-    "meaning": "blank, hollow, empty"
+    "meaning": "blank, hollow, empty",
+    "vi": "trống rỗng, vô hồn"
   },
   {
     "id": "n1-0614",
     "jp": "器",
     "reading": "うつわ",
     "romaji": "utsuwa",
-    "meaning": "bowl, vessel, container"
+    "meaning": "bowl, vessel, container",
+    "vi": "vật đựng, chén bát"
   },
   {
     "id": "n1-0615",
     "jp": "腕前",
     "reading": "うでまえ",
     "romaji": "udemae",
-    "meaning": "ability, skill, facility"
+    "meaning": "ability, skill, facility",
+    "vi": "tay nghề, năng lực"
   },
   {
     "id": "n1-0616",
     "jp": "雨天",
     "reading": "うてん",
     "romaji": "uten",
-    "meaning": "rainy weather"
+    "meaning": "rainy weather",
+    "vi": "trời mưa"
   },
   {
     "id": "n1-0617",
     "jp": "促す",
     "reading": "うながす",
     "romaji": "unagasu",
-    "meaning": "to urge, to suggest, to demand"
+    "meaning": "to urge, to suggest, to demand",
+    "vi": "thúc giục, khuyến khích"
   },
   {
     "id": "n1-0618",
     "jp": "うぬぼれ",
     "reading": "うぬぼれ",
     "romaji": "unubore",
-    "meaning": "pretension, conceit, hubris"
+    "meaning": "pretension, conceit, hubris",
+    "vi": "tính tự phụ, kiêu ngạo"
   },
   {
     "id": "n1-0619",
     "jp": "生まれつき",
     "reading": "うまれつき",
     "romaji": "umaretsuki",
-    "meaning": "by nature, by birth, native"
+    "meaning": "by nature, by birth, native",
+    "vi": "bẩm sinh, từ khi sinh ra"
   },
   {
     "id": "n1-0620",
     "jp": "埋め込む",
     "reading": "うめこむ",
     "romaji": "umekomu",
-    "meaning": "to embed, implant"
+    "meaning": "to embed, implant",
+    "vi": "cấy ghép, nhúng vào"
   },
   {
     "id": "n1-0621",
     "jp": "梅干し",
     "reading": "うめぼし",
     "romaji": "umeboshi",
-    "meaning": "dried plum"
+    "meaning": "dried plum",
+    "vi": "mơ muối (umeboshi)"
   },
   {
     "id": "n1-0622",
     "jp": "裏返し",
     "reading": "うらがえし",
     "romaji": "uragaeshi",
-    "meaning": "inside out, reverse"
+    "meaning": "inside out, reverse",
+    "vi": "lộn trái, mặt trái"
   },
   {
     "id": "n1-0623",
     "jp": "売り出し",
     "reading": "うりだし",
     "romaji": "uridashi",
-    "meaning": "(bargain) sale"
+    "meaning": "(bargain) sale",
+    "vi": "đợt giảm giá, bán khuyến mãi"
   },
   {
     "id": "n1-0624",
     "jp": "売り出す",
     "reading": "うりだす",
     "romaji": "uridasu",
-    "meaning": "to put on sale, to market"
+    "meaning": "to put on sale, to market",
+    "vi": "tung ra bán, bắt đầu bán"
   },
   {
     "id": "n1-0625",
     "jp": "潤う",
     "reading": "うるおう",
     "romaji": "uruou",
-    "meaning": "to be moist; to profit by"
+    "meaning": "to be moist; to profit by",
+    "vi": "ẩm ướt; hưởng lợi"
   },
   {
     "id": "n1-0626",
     "jp": "浮気",
     "reading": "うわき",
     "romaji": "uwaki",
-    "meaning": "affair, to cheat"
+    "meaning": "affair, to cheat",
+    "vi": "ngoại tình, phản bội"
   },
   {
     "id": "n1-0627",
     "jp": "上回る",
     "reading": "うわまわる",
     "romaji": "uwamawaru",
-    "meaning": "to exceed"
+    "meaning": "to exceed",
+    "vi": "vượt quá"
   },
   {
     "id": "n1-0628",
     "jp": "植わる",
     "reading": "うわる",
     "romaji": "uwaru",
-    "meaning": "to be planted"
+    "meaning": "to be planted",
+    "vi": "được trồng"
   },
   {
     "id": "n1-0629",
     "jp": "運営",
     "reading": "うんえい",
     "romaji": "un'ei",
-    "meaning": "management, administration, operation"
+    "meaning": "management, administration, operation",
+    "vi": "vận hành, điều hành"
   },
   {
     "id": "n1-0630",
     "jp": "うんざり",
     "reading": "うんざり",
     "romaji": "unzari",
-    "meaning": "tedious, boring, being fed up with"
+    "meaning": "tedious, boring, being fed up with",
+    "vi": "chán ngán, ngán ngẩm"
   },
   {
     "id": "n1-0631",
     "jp": "運送",
     "reading": "うんそう",
     "romaji": "unsou",
-    "meaning": "shipping, freight"
+    "meaning": "shipping, freight",
+    "vi": "vận chuyển"
   },
   {
     "id": "n1-0632",
     "jp": "運賃",
     "reading": "うんちん",
     "romaji": "unchin",
-    "meaning": "freight rates, shipping expenses, (passenger) fare"
+    "meaning": "freight rates, shipping expenses, (passenger) fare",
+    "vi": "cước phí vận chuyển, giá vé"
   },
   {
     "id": "n1-0633",
     "jp": "云々",
     "reading": "うんぬん",
     "romaji": "unnun",
-    "meaning": "and so on, and so forth"
+    "meaning": "and so on, and so forth",
+    "vi": "vân vân"
   },
   {
     "id": "n1-0634",
     "jp": "運搬",
     "reading": "うんぱん",
     "romaji": "unpan",
-    "meaning": "transport, carriage"
+    "meaning": "transport, carriage",
+    "vi": "vận chuyển, chuyên chở"
   },
   {
     "id": "n1-0635",
     "jp": "運命",
     "reading": "うんめい",
     "romaji": "unmei",
-    "meaning": "fate"
+    "meaning": "fate",
+    "vi": "số phận"
   },
   {
     "id": "n1-0636",
     "jp": "運輸",
     "reading": "うんゆ",
     "romaji": "un'yu",
-    "meaning": "transportation"
+    "meaning": "transportation",
+    "vi": "vận tải"
   },
   {
     "id": "n1-0637",
     "jp": "運用",
     "reading": "うんよう",
     "romaji": "un'you",
-    "meaning": "making use of, application, practical use"
+    "meaning": "making use of, application, practical use",
+    "vi": "vận dụng, sử dụng thực tế"
   },
   {
     "id": "n1-0638",
     "jp": "エアメール",
     "reading": "エアメール",
     "romaji": "エアメール",
-    "meaning": "air mail"
+    "meaning": "air mail",
+    "vi": "thư gửi hàng không"
   },
   {
     "id": "n1-0639",
     "jp": "～営",
     "reading": "～えい",
     "romaji": "～ei",
-    "meaning": "~ run"
+    "meaning": "~ run",
+    "vi": "vận hành bởi ~ (kinh doanh bởi)"
   },
   {
     "id": "n1-0640",
     "jp": "英字",
     "reading": "えいじ",
     "romaji": "eiji",
-    "meaning": "English letter (character)"
+    "meaning": "English letter (character)",
+    "vi": "chữ cái tiếng Anh"
   },
   {
     "id": "n1-0641",
     "jp": "映写",
     "reading": "えいしゃ",
     "romaji": "eisha",
-    "meaning": "projection"
+    "meaning": "projection",
+    "vi": "chiếu phim"
   },
   {
     "id": "n1-0642",
     "jp": "映像",
     "reading": "えいぞう",
     "romaji": "eizou",
-    "meaning": "reflection, image"
+    "meaning": "reflection, image",
+    "vi": "hình ảnh, thước phim"
   },
   {
     "id": "n1-0643",
     "jp": "英雄",
     "reading": "えいゆう",
     "romaji": "eiyuu",
-    "meaning": "hero, great man"
+    "meaning": "hero, great man",
+    "vi": "anh hùng"
   },
   {
     "id": "n1-0644",
     "jp": "液",
     "reading": "えき",
     "romaji": "eki",
-    "meaning": "liquid, fluid"
+    "meaning": "liquid, fluid",
+    "vi": "chất lỏng"
   },
   {
     "id": "n1-0645",
     "jp": "閲覧",
     "reading": "えつらん",
     "romaji": "etsuran",
-    "meaning": "inspection, reference, browse"
+    "meaning": "inspection, reference, browse",
+    "vi": "duyệt xem, tra cứu"
   },
   {
     "id": "n1-0646",
     "jp": "獲物",
     "reading": "えもの",
     "romaji": "emono",
-    "meaning": "game, spoils, trophy"
+    "meaning": "game, spoils, trophy",
+    "vi": "con mồi, chiến lợi phẩm"
   },
   {
     "id": "n1-0647",
     "jp": "襟",
     "reading": "えり",
     "romaji": "eri",
-    "meaning": "neck, collar"
+    "meaning": "neck, collar",
+    "vi": "cổ áo"
   },
   {
     "id": "n1-0648",
     "jp": "エレガント",
     "reading": "エレガント",
     "romaji": "エレガント",
-    "meaning": "elegant"
+    "meaning": "elegant",
+    "vi": "thanh lịch"
   },
   {
     "id": "n1-0649",
     "jp": "円滑",
     "reading": "えんかつ",
     "romaji": "enkatsu",
-    "meaning": "harmony, smoothness"
+    "meaning": "harmony, smoothness",
+    "vi": "suôn sẻ, trôi chảy"
   },
   {
     "id": "n1-0650",
     "jp": "縁側",
     "reading": "えんがわ",
     "romaji": "engawa",
-    "meaning": "veranda, porch, balcony, open corridor"
+    "meaning": "veranda, porch, balcony, open corridor",
+    "vi": "hiên nhà (kiểu Nhật)"
   },
   {
     "id": "n1-0651",
     "jp": "沿岸",
     "reading": "えんがん",
     "romaji": "engan",
-    "meaning": "coast, shore"
+    "meaning": "coast, shore",
+    "vi": "bờ biển, duyên hải"
   },
   {
     "id": "n1-0652",
     "jp": "婉曲",
     "reading": "えんきょく",
     "romaji": "enkyoku",
-    "meaning": "euphemistic, indirect, insinuating"
+    "meaning": "euphemistic, indirect, insinuating",
+    "vi": "nói giảm nói tránh, gián tiếp"
   },
   {
     "id": "n1-0653",
     "jp": "演出",
     "reading": "えんしゅつ",
     "romaji": "enshutsu",
-    "meaning": "production (erg. play, direction)"
+    "meaning": "production (erg. play, direction)",
+    "vi": "đạo diễn, dàn dựng"
   },
   {
     "id": "n1-0654",
     "jp": "エンジニア",
     "reading": "エンジニア",
     "romaji": "エンジニア",
-    "meaning": "engineer"
+    "meaning": "engineer",
+    "vi": "kỹ sư"
   },
   {
     "id": "n1-0655",
     "jp": "演じる",
     "reading": "えんじる",
     "romaji": "enjiru",
-    "meaning": "to perform, to play (a part), to act"
+    "meaning": "to perform, to play (a part), to act",
+    "vi": "diễn, đóng vai"
   },
   {
     "id": "n1-0656",
     "jp": "演ずる",
     "reading": "えんずる",
     "romaji": "enzuru",
-    "meaning": "to perform, to play (a part), to act"
+    "meaning": "to perform, to play (a part), to act",
+    "vi": "diễn, đóng vai"
   },
   {
     "id": "n1-0657",
     "jp": "沿線",
     "reading": "えんせん",
     "romaji": "ensen",
-    "meaning": "along railway line"
+    "meaning": "along railway line",
+    "vi": "dọc theo tuyến đường sắt"
   },
   {
     "id": "n1-0658",
     "jp": "縁談",
     "reading": "えんだん",
     "romaji": "endan",
-    "meaning": "marriage proposal"
+    "meaning": "marriage proposal",
+    "vi": "chuyện mai mối, đề nghị hôn nhân"
   },
   {
     "id": "n1-0659",
     "jp": "遠方",
     "reading": "えんぽう",
     "romaji": "enpou",
-    "meaning": "long way, distant place"
+    "meaning": "long way, distant place",
+    "vi": "nơi xa xôi"
   },
   {
     "id": "n1-0660",
     "jp": "円満",
     "reading": "えんまん",
     "romaji": "enman",
-    "meaning": "harmony, peace, smoothness"
+    "meaning": "harmony, peace, smoothness",
+    "vi": "êm đẹp, hòa thuận"
   },
   {
     "id": "n1-0661",
     "jp": "追い込む",
     "reading": "おいこむ",
     "romaji": "oikomu",
-    "meaning": "to herd, to corner, to drive"
+    "meaning": "to herd, to corner, to drive",
+    "vi": "dồn vào chân tường, lùa vào"
   },
   {
     "id": "n1-0662",
     "jp": "追い出す",
     "reading": "おいだす",
     "romaji": "oidasu",
-    "meaning": "to expel, to drive out"
+    "meaning": "to expel, to drive out",
+    "vi": "đuổi ra, trục xuất"
   },
   {
     "id": "n1-0663",
     "jp": "於いて",
     "reading": "おいて",
     "romaji": "oite",
-    "meaning": "at, in, on"
+    "meaning": "at, in, on",
+    "vi": "tại, ở (trang trọng)"
   },
   {
     "id": "n1-0664",
     "jp": "老いる",
     "reading": "おいる",
     "romaji": "oiru",
-    "meaning": "to age, to grow old"
+    "meaning": "to age, to grow old",
+    "vi": "già đi"
   },
   {
     "id": "n1-0665",
     "jp": "応急",
     "reading": "おうきゅう",
     "romaji": "oukyuu",
-    "meaning": "emergency"
+    "meaning": "emergency",
+    "vi": "cấp cứu, khẩn cấp"
   },
   {
     "id": "n1-0666",
     "jp": "黄金",
     "reading": "おうごん",
     "romaji": "ougon",
-    "meaning": "gold"
+    "meaning": "gold",
+    "vi": "vàng"
   },
   {
     "id": "n1-0667",
     "jp": "往診",
     "reading": "おうしん",
     "romaji": "oushin",
-    "meaning": "doctor's visit, house call"
+    "meaning": "doctor's visit, house call",
+    "vi": "bác sĩ đến khám tại nhà"
   },
   {
     "id": "n1-0668",
     "jp": "応募",
     "reading": "おうぼ",
     "romaji": "oubo",
-    "meaning": "subscription, application"
+    "meaning": "subscription, application",
+    "vi": "ứng tuyển, đăng ký tham gia"
   },
   {
     "id": "n1-0669",
     "jp": "おおい (かん)",
     "reading": "おおい (かん)",
     "romaji": "ooi (kan)",
-    "meaning": "hey"
+    "meaning": "hey",
+    "vi": "này! (gọi ai đó)"
   },
   {
     "id": "n1-0670",
     "jp": "大方",
     "reading": "おおかた",
     "romaji": "ookata",
-    "meaning": "almost all, majority"
+    "meaning": "almost all, majority",
+    "vi": "phần lớn, hầu hết"
   },
   {
     "id": "n1-0671",
     "jp": "大柄",
     "reading": "おおがら",
     "romaji": "oogara",
-    "meaning": "large build, large pattern"
+    "meaning": "large build, large pattern",
+    "vi": "khổ người to lớn; hoa văn to"
   },
   {
     "id": "n1-0672",
     "jp": "おおげさ",
     "reading": "おおげさ",
     "romaji": "oogesa",
-    "meaning": "grandiose, exaggerated"
+    "meaning": "grandiose, exaggerated",
+    "vi": "phóng đại, cường điệu"
   },
   {
     "id": "n1-0673",
     "jp": "大筋",
     "reading": "おおすじ",
     "romaji": "oosuji",
-    "meaning": "outline, summary"
+    "meaning": "outline, summary",
+    "vi": "đại cương, nét chính"
   },
   {
     "id": "n1-0674",
     "jp": "大空",
     "reading": "おおぞら",
     "romaji": "oozora",
-    "meaning": "heaven, the sky"
+    "meaning": "heaven, the sky",
+    "vi": "bầu trời rộng lớn"
   },
   {
     "id": "n1-0675",
     "jp": "オートマチック",
     "reading": "オートマチック",
     "romaji": "オートマチック",
-    "meaning": "automatic"
+    "meaning": "automatic",
+    "vi": "tự động"
   },
   {
     "id": "n1-0676",
     "jp": "大幅",
     "reading": "おおはば",
     "romaji": "oohaba",
-    "meaning": "full width, large scale, drastic"
+    "meaning": "full width, large scale, drastic",
+    "vi": "quy mô lớn, đáng kể"
   },
   {
     "id": "n1-0677",
     "jp": "おおまかな",
     "reading": "おおまかな",
     "romaji": "oomakana",
-    "meaning": "rough, approximate"
+    "meaning": "rough, approximate",
+    "vi": "sơ lược, đại khái"
   },
   {
     "id": "n1-0678",
     "jp": "大水",
     "reading": "おおみず",
     "romaji": "oomizu",
-    "meaning": "flood"
+    "meaning": "flood",
+    "vi": "lũ lụt"
   },
   {
     "id": "n1-0679",
     "jp": "公",
     "reading": "おおやけ",
     "romaji": "ooyake",
-    "meaning": "public"
+    "meaning": "public",
+    "vi": "công cộng, công khai"
   },
   {
     "id": "n1-0680",
     "jp": "犯す",
     "reading": "おかす",
     "romaji": "okasu",
-    "meaning": "to perpetrate, to violate"
+    "meaning": "to perpetrate, to violate",
+    "vi": "phạm (tội), vi phạm"
   },
   {
     "id": "n1-0681",
     "jp": "侵す",
     "reading": "おかす",
     "romaji": "okasu",
-    "meaning": "to invade, to raid, to trespass"
+    "meaning": "to invade, to raid, to trespass",
+    "vi": "xâm phạm, xâm lược"
   },
   {
     "id": "n1-0682",
     "jp": "臆病",
     "reading": "おくびょう",
     "romaji": "okubyou",
-    "meaning": "cowardice, timidity"
+    "meaning": "cowardice, timidity",
+    "vi": "nhút nhát, hèn nhát"
   },
   {
     "id": "n1-0683",
     "jp": "遅らす",
     "reading": "おくらす",
     "romaji": "okurasu",
-    "meaning": "to retard, to delay"
+    "meaning": "to retard, to delay",
+    "vi": "làm chậm trễ, hoãn lại"
   },
   {
     "id": "n1-0684",
     "jp": "厳か",
     "reading": "おごそか",
     "romaji": "ogosoka",
-    "meaning": "majestic, dignified"
+    "meaning": "majestic, dignified",
+    "vi": "trang nghiêm, tôn nghiêm"
   },
   {
     "id": "n1-0685",
     "jp": "行い",
     "reading": "おこない",
     "romaji": "okonai",
-    "meaning": "conduct, behavior, action"
+    "meaning": "conduct, behavior, action",
+    "vi": "hành vi, cách cư xử"
   },
   {
     "id": "n1-0686",
     "jp": "おごる (ゆうしょくを～)",
     "reading": "おごる (ゆうしょくを～)",
     "romaji": "ogoru (yuushokuwo～)",
-    "meaning": "to give (someone) a treat"
+    "meaning": "to give (someone) a treat",
+    "vi": "mời, khao (bữa tối)"
   },
   {
     "id": "n1-0687",
     "jp": "収まる",
     "reading": "おさまる",
     "romaji": "osamaru",
-    "meaning": "to settle into; to be obtained"
+    "meaning": "to settle into; to be obtained",
+    "vi": "yên vị, ổn thỏa; thu được"
   },
   {
     "id": "n1-0688",
     "jp": "納まる",
     "reading": "おさまる",
     "romaji": "osamaru",
-    "meaning": "to settle into; to be obtained"
+    "meaning": "to settle into; to be obtained",
+    "vi": "yên vị, ổn thỏa; được nộp vào"
   },
   {
     "id": "n1-0689",
     "jp": "治まる",
     "reading": "おさまる",
     "romaji": "osamaru",
-    "meaning": "to be at peace, to calm down"
+    "meaning": "to be at peace, to calm down",
+    "vi": "bình ổn, lắng dịu"
   },
   {
     "id": "n1-0690",
     "jp": "お産",
     "reading": "おさん",
     "romaji": "osan",
-    "meaning": "(giving) birth"
+    "meaning": "(giving) birth",
+    "vi": "sinh nở"
   },
   {
     "id": "n1-0691",
     "jp": "押し切る",
     "reading": "おしきる",
     "romaji": "oshikiru",
-    "meaning": "to have one's own way"
+    "meaning": "to have one's own way",
+    "vi": "khăng khăng làm theo ý mình"
   },
   {
     "id": "n1-0692",
     "jp": "押し込む",
     "reading": "おしこむ",
     "romaji": "oshikomu",
-    "meaning": "to push into, to crowd into"
+    "meaning": "to push into, to crowd into",
+    "vi": "đẩy vào, nhồi nhét vào"
   },
   {
     "id": "n1-0693",
     "jp": "惜しむ",
     "reading": "おしむ",
     "romaji": "oshimu",
-    "meaning": "to be frugal, to value, to regret"
+    "meaning": "to be frugal, to value, to regret",
+    "vi": "tiếc, trân trọng, tiết kiệm"
   },
   {
     "id": "n1-0694",
     "jp": "押し寄せる",
     "reading": "おしよせる",
     "romaji": "oshiyoseru",
-    "meaning": "to push aside, to advance on"
+    "meaning": "to push aside, to advance on",
+    "vi": "ùa tới, tràn đến"
   },
   {
     "id": "n1-0695",
     "jp": "雄",
     "reading": "おす",
     "romaji": "osu",
-    "meaning": "male (animal)"
+    "meaning": "male (animal)",
+    "vi": "con đực"
   },
   {
     "id": "n1-0696",
     "jp": "御世辞",
     "reading": "おせじ",
     "romaji": "oseji",
-    "meaning": "flattery, compliment"
+    "meaning": "flattery, compliment",
+    "vi": "lời xã giao, khen ngợi"
   },
   {
     "id": "n1-0697",
     "jp": "襲う",
     "reading": "おそう",
     "romaji": "osou",
-    "meaning": "to attack"
+    "meaning": "to attack",
+    "vi": "tấn công"
   },
   {
     "id": "n1-0698",
     "jp": "遅くとも",
     "reading": "おそくとも",
     "romaji": "osokutomo",
-    "meaning": "at the latest"
+    "meaning": "at the latest",
+    "vi": "chậm nhất là"
   },
   {
     "id": "n1-0699",
     "jp": "恐れ",
     "reading": "おそれ",
     "romaji": "osore",
-    "meaning": "fear, horror"
+    "meaning": "fear, horror",
+    "vi": "nỗi sợ hãi"
   },
   {
     "id": "n1-0700",
     "jp": "恐れ入る",
     "reading": "おそれいる",
     "romaji": "osoreiru",
-    "meaning": "to be filled with awe, to feel small"
+    "meaning": "to be filled with awe, to feel small",
+    "vi": "cảm thấy áy náy, hổ thẹn"
   },
   {
     "id": "n1-0701",
     "jp": "おだてる",
     "reading": "おだてる",
     "romaji": "odateru",
-    "meaning": "to flatter"
+    "meaning": "to flatter",
+    "vi": "nịnh hót, tâng bốc"
   },
   {
     "id": "n1-0702",
     "jp": "落ち込む",
     "reading": "おちこむ",
     "romaji": "ochikomu",
-    "meaning": "to get depressed"
+    "meaning": "to get depressed",
+    "vi": "chán nản, suy sụp tinh thần"
   },
   {
     "id": "n1-0703",
     "jp": "落ち着き",
     "reading": "おちつき",
     "romaji": "ochitsuki",
-    "meaning": "calm, composure"
+    "meaning": "calm, composure",
+    "vi": "sự bình tĩnh, điềm tĩnh"
   },
   {
     "id": "n1-0704",
     "jp": "落葉",
     "reading": "おちば",
     "romaji": "ochiba",
-    "meaning": "fallen leaves"
+    "meaning": "fallen leaves",
+    "vi": "lá rụng"
   },
   {
     "id": "n1-0705",
     "jp": "乙",
     "reading": "おつ",
     "romaji": "otsu",
-    "meaning": "2nd in rank"
+    "meaning": "2nd in rank",
+    "vi": "hạng nhì, loại B"
   },
   {
     "id": "n1-0706",
     "jp": "お使い",
     "reading": "おつかい",
     "romaji": "otsukai",
-    "meaning": "errand"
+    "meaning": "errand",
+    "vi": "việc vặt, chạy việc"
   },
   {
     "id": "n1-0707",
     "jp": "おっかない",
     "reading": "おっかない",
     "romaji": "okkanai",
-    "meaning": "frightening, scary"
+    "meaning": "frightening, scary",
+    "vi": "đáng sợ, hãi hùng"
   },
   {
     "id": "n1-0708",
     "jp": "お手上げ",
     "reading": "おてあげ",
     "romaji": "oteage",
-    "meaning": "given in, given up hope"
+    "meaning": "given in, given up hope",
+    "vi": "bó tay, chịu thua"
   },
   {
     "id": "n1-0709",
     "jp": "おどおど",
     "reading": "おどおど",
     "romaji": "odoodo",
-    "meaning": "coweringly, hesitantly"
+    "meaning": "coweringly, hesitantly",
+    "vi": "rụt rè, sợ sệt"
   },
   {
     "id": "n1-0710",
     "jp": "脅す",
     "reading": "おどす",
     "romaji": "odosu",
-    "meaning": "to threaten, to menace"
+    "meaning": "to threaten, to menace",
+    "vi": "đe dọa, uy hiếp"
   },
   {
     "id": "n1-0711",
     "jp": "訪れる",
     "reading": "おとずれる",
     "romaji": "otozureru",
-    "meaning": "to visit"
+    "meaning": "to visit",
+    "vi": "đến thăm, viếng thăm"
   },
   {
     "id": "n1-0712",
     "jp": "お供",
     "reading": "おとも",
     "romaji": "otomo",
-    "meaning": "attendant, companion"
+    "meaning": "attendant, companion",
+    "vi": "người tháp tùng, người đi cùng"
   },
   {
     "id": "n1-0713",
     "jp": "衰える",
     "reading": "おとろえる",
     "romaji": "otoroeru",
-    "meaning": "to become weak, to decline"
+    "meaning": "to become weak, to decline",
+    "vi": "suy yếu, suy giảm"
   },
   {
     "id": "n1-0714",
     "jp": "同い年",
     "reading": "おないどし",
     "romaji": "onaidoshi",
-    "meaning": "of the same age"
+    "meaning": "of the same age",
+    "vi": "cùng tuổi"
   },
   {
     "id": "n1-0715",
     "jp": "自ずから",
     "reading": "おのずから",
     "romaji": "onozukara",
-    "meaning": "naturally, as a matter of course"
+    "meaning": "naturally, as a matter of course",
+    "vi": "một cách tự nhiên, tất yếu"
   },
   {
     "id": "n1-0716",
     "jp": "怯える",
     "reading": "おびえる",
     "romaji": "obieru",
-    "meaning": "to become frightened"
+    "meaning": "to become frightened",
+    "vi": "sợ hãi, khiếp sợ"
   },
   {
     "id": "n1-0717",
     "jp": "おびただしい",
     "reading": "おびただしい",
     "romaji": "obitadashii",
-    "meaning": "abundantly, innumerably"
+    "meaning": "abundantly, innumerably",
+    "vi": "vô số, rất nhiều"
   },
   {
     "id": "n1-0718",
     "jp": "脅かす",
     "reading": "おびやかす",
     "romaji": "obiyakasu",
-    "meaning": "to threaten, to coerce"
+    "meaning": "to threaten, to coerce",
+    "vi": "đe dọa, uy hiếp"
   },
   {
     "id": "n1-0719",
     "jp": "帯びる",
     "reading": "おびる",
     "romaji": "obiru",
-    "meaning": "to bear, to carry, to be entrusted"
+    "meaning": "to bear, to carry, to be entrusted",
+    "vi": "mang, đeo; được giao phó"
   },
   {
     "id": "n1-0720",
     "jp": "お袋",
     "reading": "おふくろ",
     "romaji": "ofukuro",
-    "meaning": "mother"
+    "meaning": "mother",
+    "vi": "mẹ (cách gọi thân mật)"
   },
   {
     "id": "n1-0721",
     "jp": "覚え",
     "reading": "おぼえ",
     "romaji": "oboe",
-    "meaning": "memory, sense, experience"
+    "meaning": "memory, sense, experience",
+    "vi": "trí nhớ, cảm giác, kinh nghiệm"
   },
   {
     "id": "n1-0722",
     "jp": "おまけ",
     "reading": "おまけ",
     "romaji": "omake",
-    "meaning": "a discount; something additional"
+    "meaning": "a discount; something additional",
+    "vi": "quà tặng kèm, phần thêm; giảm giá"
   },
   {
     "id": "n1-0723",
     "jp": "お宮",
     "reading": "おみや",
     "romaji": "omiya",
-    "meaning": "Shinto shrine"
+    "meaning": "Shinto shrine",
+    "vi": "đền thờ Thần đạo"
   },
   {
     "id": "n1-0724",
     "jp": "おむつ",
     "reading": "おむつ",
     "romaji": "omutsu",
-    "meaning": "diaper, nappy"
+    "meaning": "diaper, nappy",
+    "vi": "tã lót"
   },
   {
     "id": "n1-0725",
     "jp": "思い付き",
     "reading": "おもいつき",
     "romaji": "omoitsuki",
-    "meaning": "plan, idea, suggestion"
+    "meaning": "plan, idea, suggestion",
+    "vi": "ý tưởng bất chợt, sáng kiến"
   },
   {
     "id": "n1-0726",
     "jp": "趣",
     "reading": "おもむき",
     "romaji": "omomuki",
-    "meaning": "flavor, appearance, quaint"
+    "meaning": "flavor, appearance, quaint",
+    "vi": "phong vị, vẻ đẹp riêng, nét thú vị"
   },
   {
     "id": "n1-0727",
     "jp": "赴く",
     "reading": "おもむく",
     "romaji": "omomuku",
-    "meaning": "to go, to proceed"
+    "meaning": "to go, to proceed",
+    "vi": "đi đến, tiến đến"
   },
   {
     "id": "n1-0728",
     "jp": "重んじる",
     "reading": "おもんじる",
     "romaji": "omonjiru",
-    "meaning": "to respect, to honor, to esteem, to prize"
+    "meaning": "to respect, to honor, to esteem, to prize",
+    "vi": "coi trọng, tôn trọng"
   },
   {
     "id": "n1-0729",
     "jp": "重んずる",
     "reading": "おもんずる",
     "romaji": "omonzuru",
-    "meaning": "to honor, to respect, to value"
+    "meaning": "to honor, to respect, to value",
+    "vi": "coi trọng, tôn trọng"
   },
   {
     "id": "n1-0730",
     "jp": "親父",
     "reading": "おやじ",
     "romaji": "oyaji",
-    "meaning": "one's father, old man, one's boss"
+    "meaning": "one's father, old man, one's boss",
+    "vi": "cha (cách gọi thân mật); ông chủ"
   },
   {
     "id": "n1-0731",
     "jp": "及び",
     "reading": "および",
     "romaji": "oyobi",
-    "meaning": "and, as well as"
+    "meaning": "and, as well as",
+    "vi": "và, cũng như"
   },
   {
     "id": "n1-0732",
     "jp": "及ぶ",
     "reading": "およぶ",
     "romaji": "oyobu",
-    "meaning": "to reach, to extend"
+    "meaning": "to reach, to extend",
+    "vi": "đạt tới, lan tới"
   },
   {
     "id": "n1-0733",
     "jp": "折",
     "reading": "おり",
     "romaji": "ori",
-    "meaning": "chance, occasion"
+    "meaning": "chance, occasion",
+    "vi": "dịp, cơ hội"
   },
   {
     "id": "n1-0734",
     "jp": "檻",
     "reading": "おり",
     "romaji": "ori",
-    "meaning": "cage, pen, jail cell"
+    "meaning": "cage, pen, jail cell",
+    "vi": "lồng, chuồng, phòng giam"
   },
   {
     "id": "n1-0735",
     "jp": "オリエンテーション",
     "reading": "オリエンテーション",
     "romaji": "オリエンテーション",
-    "meaning": "orientation"
+    "meaning": "orientation",
+    "vi": "buổi định hướng"
   },
   {
     "id": "n1-0736",
     "jp": "折り返す",
     "reading": "おりかえす",
     "romaji": "orikaesu",
-    "meaning": "to turn up, to fold back"
+    "meaning": "to turn up, to fold back",
+    "vi": "gấp lại, quay lại"
   },
   {
     "id": "n1-0737",
     "jp": "織物",
     "reading": "おりもの",
     "romaji": "orimono",
-    "meaning": "textile, fabric"
+    "meaning": "textile, fabric",
+    "vi": "vải dệt, hàng dệt"
   },
   {
     "id": "n1-0738",
     "jp": "俺",
     "reading": "おれ",
     "romaji": "ore",
-    "meaning": "I (ego) (boastful first-person pronoun)"
+    "meaning": "I (ego) (boastful first-person pronoun)",
+    "vi": "tao (đại từ xưng hô nam giới, suồng sã)"
   },
   {
     "id": "n1-0739",
     "jp": "愚か",
     "reading": "おろか",
     "romaji": "oroka",
-    "meaning": "foolish, stupid"
+    "meaning": "foolish, stupid",
+    "vi": "ngu ngốc, khờ dại"
   },
   {
     "id": "n1-0740",
     "jp": "おろそか",
     "reading": "おろそか",
     "romaji": "orosoka",
-    "meaning": "neglect, negligence, carelessness"
+    "meaning": "neglect, negligence, carelessness",
+    "vi": "sự lơ là, cẩu thả"
   },
   {
     "id": "n1-0741",
     "jp": "おんぶ",
     "reading": "おんぶ",
     "romaji": "onbu",
-    "meaning": "carrying on one's back (erg. Baby)"
+    "meaning": "carrying on one's back (erg. Baby)",
+    "vi": "cõng (trên lưng)"
   },
   {
     "id": "n1-0742",
     "jp": "オンライン",
     "reading": "オンライン",
     "romaji": "オンライン",
-    "meaning": "on-line"
+    "meaning": "on-line",
+    "vi": "trực tuyến"
   },
   {
     "id": "n1-0743",
     "jp": "温和",
     "reading": "おんわ",
     "romaji": "onwa",
-    "meaning": "gentle, mild, moderate"
+    "meaning": "gentle, mild, moderate",
+    "vi": "ôn hòa, dịu dàng"
   },
   {
     "id": "n1-0744",
     "jp": "我",
     "reading": "が～",
     "romaji": "ga～",
-    "meaning": "ego"
+    "meaning": "ego",
+    "vi": "cái tôi, bản ngã"
   },
   {
     "id": "n1-0745",
     "jp": "カーペット",
     "reading": "カーペット",
     "romaji": "カーペット",
-    "meaning": "carpet"
+    "meaning": "carpet",
+    "vi": "thảm"
   },
   {
     "id": "n1-0746",
     "jp": "～界",
     "reading": "～かい",
     "romaji": "～kai",
-    "meaning": "world, circle, kingdom"
+    "meaning": "world, circle, kingdom",
+    "vi": "giới, thế giới"
   },
   {
     "id": "n1-0747",
     "jp": "～街",
     "reading": "～がい",
     "romaji": "～gai",
-    "meaning": "town"
+    "meaning": "town",
+    "vi": "khu phố, phố"
   },
   {
     "id": "n1-0748",
     "jp": "改悪",
     "reading": "かいあく",
     "romaji": "kaiaku",
-    "meaning": "deterioration, changing for the worse"
+    "meaning": "deterioration, changing for the worse",
+    "vi": "sự thay đổi theo hướng xấu đi"
   },
   {
     "id": "n1-0749",
     "jp": "海運",
     "reading": "かいうん",
     "romaji": "kaiun",
-    "meaning": "marine transportation"
+    "meaning": "marine transportation",
+    "vi": "vận tải đường biển"
   },
   {
     "id": "n1-0750",
     "jp": "外貨",
     "reading": "がいか",
     "romaji": "gaika",
-    "meaning": "foreign money"
+    "meaning": "foreign money",
+    "vi": "ngoại tệ"
   },
   {
     "id": "n1-0751",
     "jp": "改革",
     "reading": "かいかく",
     "romaji": "kaikaku",
-    "meaning": "reform, reformation, innovation"
+    "meaning": "reform, reformation, innovation",
+    "vi": "cải cách, đổi mới"
   },
   {
     "id": "n1-0752",
     "jp": "貝殻",
     "reading": "かいがら",
     "romaji": "kaigara",
-    "meaning": "shell"
+    "meaning": "shell",
+    "vi": "vỏ sò, vỏ ốc"
   },
   {
     "id": "n1-0753",
     "jp": "外観",
     "reading": "がいかん",
     "romaji": "gaikan",
-    "meaning": "appearance, exterior, facade"
+    "meaning": "appearance, exterior, facade",
+    "vi": "vẻ ngoài, ngoại quan"
   },
   {
     "id": "n1-0754",
     "jp": "階級",
     "reading": "かいきゅう",
     "romaji": "kaikyuu",
-    "meaning": "class, rank, grade"
+    "meaning": "class, rank, grade",
+    "vi": "giai cấp, cấp bậc"
   },
   {
     "id": "n1-0755",
     "jp": "海峡",
     "reading": "かいきょう",
     "romaji": "kaikyou",
-    "meaning": "channel"
+    "meaning": "channel",
+    "vi": "eo biển"
   },
   {
     "id": "n1-0756",
     "jp": "会見",
     "reading": "かいけん",
     "romaji": "kaiken",
-    "meaning": "interview, conference"
+    "meaning": "interview, conference",
+    "vi": "cuộc phỏng vấn, họp báo"
   },
   {
     "id": "n1-0757",
     "jp": "介護",
     "reading": "かいご",
     "romaji": "kaigo",
-    "meaning": "nursing"
+    "meaning": "nursing",
+    "vi": "chăm sóc (người bệnh/người già)"
   },
   {
     "id": "n1-0758",
     "jp": "開催",
     "reading": "かいさい",
     "romaji": "kaisai",
-    "meaning": "holding a meeting, open an exhibition"
+    "meaning": "holding a meeting, open an exhibition",
+    "vi": "tổ chức (sự kiện, triển lãm)"
   },
   {
     "id": "n1-0759",
     "jp": "回収",
     "reading": "かいしゅう",
     "romaji": "kaishuu",
-    "meaning": "collection, recovery"
+    "meaning": "collection, recovery",
+    "vi": "thu hồi, thu gom"
   },
   {
     "id": "n1-0760",
     "jp": "改修",
     "reading": "かいしゅう",
     "romaji": "kaishuu",
-    "meaning": "repair, improvement"
+    "meaning": "repair, improvement",
+    "vi": "tu sửa, cải tạo"
   },
   {
     "id": "n1-0761",
     "jp": "怪獣",
     "reading": "かいじゅう",
     "romaji": "kaijuu",
-    "meaning": "monster"
+    "meaning": "monster",
+    "vi": "quái vật"
   },
   {
     "id": "n1-0762",
     "jp": "解除",
     "reading": "かいじょ",
     "romaji": "kaijo",
-    "meaning": "cancellation, release, cancel"
+    "meaning": "cancellation, release, cancel",
+    "vi": "hủy bỏ, giải trừ"
   },
   {
     "id": "n1-0763",
     "jp": "外相",
     "reading": "がいしょう",
     "romaji": "gaishou",
-    "meaning": "Foreign Minister"
+    "meaning": "Foreign Minister",
+    "vi": "Bộ trưởng Ngoại giao"
   },
   {
     "id": "n1-0764",
     "jp": "害する",
     "reading": "がいする",
     "romaji": "gaisuru",
-    "meaning": "to harm, to offend"
+    "meaning": "to harm, to offend",
+    "vi": "gây hại, xúc phạm"
   },
   {
     "id": "n1-0765",
     "jp": "概説",
     "reading": "がいせつ",
     "romaji": "gaisetsu",
-    "meaning": "general statement, outline"
+    "meaning": "general statement, outline",
+    "vi": "khái quát, tổng quan"
   },
   {
     "id": "n1-0766",
     "jp": "回送",
     "reading": "かいそう",
     "romaji": "kaisou",
-    "meaning": "forwarding"
+    "meaning": "forwarding",
+    "vi": "chuyển tiếp (thư từ, chuyến xe không đón khách)"
   },
   {
     "id": "n1-0767",
     "jp": "階層",
     "reading": "かいそう",
     "romaji": "kaisou",
-    "meaning": "class, level, stratum, hierarchy"
+    "meaning": "class, level, stratum, hierarchy",
+    "vi": "tầng lớp, hệ thống phân cấp"
   },
   {
     "id": "n1-0768",
     "jp": "開拓",
     "reading": "かいたく",
     "romaji": "kaitaku",
-    "meaning": "cultivation, pioneer"
+    "meaning": "cultivation, pioneer",
+    "vi": "khai hoang, khai phá"
   },
   {
     "id": "n1-0769",
     "jp": "会談",
     "reading": "かいだん",
     "romaji": "kaidan",
-    "meaning": "conversation, interview"
+    "meaning": "conversation, interview",
+    "vi": "cuộc hội đàm"
   },
   {
     "id": "n1-0770",
     "jp": "改定",
     "reading": "かいてい",
     "romaji": "kaitei",
-    "meaning": "reform"
+    "meaning": "reform",
+    "vi": "sửa đổi, điều chỉnh lại"
   },
   {
     "id": "n1-0771",
     "jp": "改訂",
     "reading": "かいてい",
     "romaji": "kaitei",
-    "meaning": "revision"
+    "meaning": "revision",
+    "vi": "hiệu đính, tu chỉnh"
   },
   {
     "id": "n1-0772",
     "jp": "ガイド",
     "reading": "ガイド",
     "romaji": "ガイド",
-    "meaning": "guide"
+    "meaning": "guide",
+    "vi": "hướng dẫn viên, sách hướng dẫn"
   },
   {
     "id": "n1-0773",
     "jp": "街道",
     "reading": "かいどう",
     "romaji": "kaidou",
-    "meaning": "highway"
+    "meaning": "highway",
+    "vi": "đường cái, quốc lộ"
   },
   {
     "id": "n1-0774",
     "jp": "該当",
     "reading": "がいとう",
     "romaji": "gaitou",
-    "meaning": "corresponding, answering to, coming under"
+    "meaning": "corresponding, answering to, coming under",
+    "vi": "tương ứng, thuộc diện"
   },
   {
     "id": "n1-0775",
     "jp": "街頭",
     "reading": "がいとう",
     "romaji": "gaitou",
-    "meaning": "in the street"
+    "meaning": "in the street",
+    "vi": "ngoài phố, trên đường phố"
   },
   {
     "id": "n1-0776",
     "jp": "ガイドブック",
     "reading": "ガイドブック",
     "romaji": "ガイドブック",
-    "meaning": "guidebook"
+    "meaning": "guidebook",
+    "vi": "sách hướng dẫn"
   },
   {
     "id": "n1-0777",
     "jp": "介入",
     "reading": "かいにゅう",
     "romaji": "kainyuu",
-    "meaning": "intervention"
+    "meaning": "intervention",
+    "vi": "can thiệp"
   },
   {
     "id": "n1-0778",
     "jp": "概念",
     "reading": "がいねん",
     "romaji": "gainen",
-    "meaning": "general idea, concept, notion"
+    "meaning": "general idea, concept, notion",
+    "vi": "khái niệm"
   },
   {
     "id": "n1-0779",
     "jp": "開発",
     "reading": "かいはつ",
     "romaji": "kaihatsu",
-    "meaning": "development, exploitation"
+    "meaning": "development, exploitation",
+    "vi": "phát triển, khai thác"
   },
   {
     "id": "n1-0780",
     "jp": "海抜",
     "reading": "かいばつ",
     "romaji": "kaibatsu",
-    "meaning": "height above sea level"
+    "meaning": "height above sea level",
+    "vi": "độ cao so với mực nước biển"
   },
   {
     "id": "n1-0781",
     "jp": "介抱",
     "reading": "かいほう",
     "romaji": "kaihou",
-    "meaning": "nursing, looking after"
+    "meaning": "nursing, looking after",
+    "vi": "chăm sóc, trông nom"
   },
   {
     "id": "n1-0782",
     "jp": "解剖",
     "reading": "かいぼう",
     "romaji": "kaibou",
-    "meaning": "dissection, autopsy"
+    "meaning": "dissection, autopsy",
+    "vi": "giải phẫu, mổ xẻ"
   },
   {
     "id": "n1-0783",
     "jp": "外来",
     "reading": "がいらい",
     "romaji": "gairai",
-    "meaning": "(abbr.) imported, outpatient clinic"
+    "meaning": "(abbr.) imported, outpatient clinic",
+    "vi": "ngoại lai, ngoại trú"
   },
   {
     "id": "n1-0784",
     "jp": "回覧",
     "reading": "かいらん",
     "romaji": "kairan",
-    "meaning": "circulation"
+    "meaning": "circulation",
+    "vi": "chuyển lần lượt (tài liệu, thông báo)"
   },
   {
     "id": "n1-0785",
     "jp": "概略",
     "reading": "がいりゃく",
     "romaji": "gairyaku",
-    "meaning": "outline, summary, gist"
+    "meaning": "outline, summary, gist",
+    "vi": "đại cương, tóm lược"
   },
   {
     "id": "n1-0786",
     "jp": "海流",
     "reading": "かいりゅう",
     "romaji": "kairyuu",
-    "meaning": "ocean current"
+    "meaning": "ocean current",
+    "vi": "hải lưu, dòng biển"
   },
   {
     "id": "n1-0787",
     "jp": "改良",
     "reading": "かいりょう",
     "romaji": "kairyou",
-    "meaning": "improvement, reform"
+    "meaning": "improvement, reform",
+    "vi": "cải tiến, cải lương"
   },
   {
     "id": "n1-0788",
     "jp": "回路",
     "reading": "かいろ",
     "romaji": "kairo",
-    "meaning": "circuit (electric)"
+    "meaning": "circuit (electric)",
+    "vi": "mạch điện"
   },
   {
     "id": "n1-0789",
     "jp": "海路",
     "reading": "かいろ",
     "romaji": "kairo",
-    "meaning": "sea route"
+    "meaning": "sea route",
+    "vi": "đường biển, hải trình"
   },
   {
     "id": "n1-0790",
     "jp": "省みる",
     "reading": "かえりみる",
     "romaji": "kaerimiru",
-    "meaning": "to reflect"
+    "meaning": "to reflect",
+    "vi": "tự xét lại, suy ngẫm"
   },
   {
     "id": "n1-0791",
     "jp": "顧みる",
     "reading": "かえりみる",
     "romaji": "kaerimiru",
-    "meaning": "to look back, to turn around, to review"
+    "meaning": "to look back, to turn around, to review",
+    "vi": "nhìn lại, hồi tưởng"
   },
   {
     "id": "n1-0792",
     "jp": "顔付き",
     "reading": "かおつき",
     "romaji": "kaotsuki",
-    "meaning": "facial expression"
+    "meaning": "facial expression",
+    "vi": "vẻ mặt, nét mặt"
   },
   {
     "id": "n1-0793",
     "jp": "課外",
     "reading": "かがい",
     "romaji": "kagai",
-    "meaning": "extracurricular"
+    "meaning": "extracurricular",
+    "vi": "ngoại khóa"
   },
   {
     "id": "n1-0794",
     "jp": "掲げる",
     "reading": "かかげる",
     "romaji": "kakageru",
-    "meaning": "to hoist, to fly (a sail), to float (a flag)"
+    "meaning": "to hoist, to fly (a sail), to float (a flag)",
+    "vi": "treo, kéo (cờ), giương lên"
   },
   {
     "id": "n1-0795",
     "jp": "かかと",
     "reading": "かかと",
     "romaji": "kakato",
-    "meaning": "shoe heel"
+    "meaning": "shoe heel",
+    "vi": "gót giày, gót chân"
   },
   {
     "id": "n1-0796",
     "jp": "書き取る",
     "reading": "かきとる",
     "romaji": "kakitoru",
-    "meaning": "to write down, to take dictation"
+    "meaning": "to write down, to take dictation",
+    "vi": "viết chính tả, ghi chép lại"
   },
   {
     "id": "n1-0797",
     "jp": "掻き回す",
     "reading": "かきまわす",
     "romaji": "kakimawasu",
-    "meaning": "to stir up, to churn, to disturb"
+    "meaning": "to stir up, to churn, to disturb",
+    "vi": "khuấy, làm xáo trộn"
   },
   {
     "id": "n1-0798",
     "jp": "かく (はじを)",
     "reading": "かく (はじを)",
     "romaji": "kaku (hajiwo)",
-    "meaning": "to humiliate oneself"
+    "meaning": "to humiliate oneself",
+    "vi": "làm nhục bản thân (mất mặt)"
   },
   {
     "id": "n1-0799",
     "jp": "～画",
     "reading": "～かく",
     "romaji": "～kaku",
-    "meaning": "~ strokes"
+    "meaning": "~ strokes",
+    "vi": "~ nét (chữ Hán)"
   },
   {
     "id": "n1-0800",
     "jp": "学芸",
     "reading": "がくげい",
     "romaji": "gakugei",
-    "meaning": "arts and sciences, liberal arts"
+    "meaning": "arts and sciences, liberal arts",
+    "vi": "học thuật và nghệ thuật"
   },
   {
     "id": "n1-0801",
     "jp": "格差",
     "reading": "かくさ",
     "romaji": "kakusa",
-    "meaning": "difference, disparity"
+    "meaning": "difference, disparity",
+    "vi": "chênh lệch, khoảng cách"
   },
   {
     "id": "n1-0802",
     "jp": "拡散",
     "reading": "かくさん",
     "romaji": "kakusan",
-    "meaning": "scattering, diffusion"
+    "meaning": "scattering, diffusion",
+    "vi": "khuếch tán, lan tỏa"
   },
   {
     "id": "n1-0803",
     "jp": "学士",
     "reading": "がくし",
     "romaji": "gakushi",
-    "meaning": "university graduate"
+    "meaning": "university graduate",
+    "vi": "cử nhân"
   },
   {
     "id": "n1-0804",
     "jp": "各種",
     "reading": "かくしゅ",
     "romaji": "kakushu",
-    "meaning": "every kind, all sorts"
+    "meaning": "every kind, all sorts",
+    "vi": "các loại, mọi loại"
   },
   {
     "id": "n1-0805",
     "jp": "隔週",
     "reading": "かくしゅう",
     "romaji": "kakushuu",
-    "meaning": "every other week"
+    "meaning": "every other week",
+    "vi": "cách tuần, hai tuần một lần"
   },
   {
     "id": "n1-0806",
     "jp": "確信",
     "reading": "かくしん",
     "romaji": "kakushin",
-    "meaning": "conviction, confidence"
+    "meaning": "conviction, confidence",
+    "vi": "sự tin chắc, niềm tin"
   },
   {
     "id": "n1-0807",
     "jp": "革新",
     "reading": "かくしん",
     "romaji": "kakushin",
-    "meaning": "reform, innovation"
+    "meaning": "reform, innovation",
+    "vi": "cải cách, đổi mới"
   },
   {
     "id": "n1-0808",
     "jp": "学説",
     "reading": "がくせつ",
     "romaji": "gakusetsu",
-    "meaning": "theory"
+    "meaning": "theory",
+    "vi": "học thuyết"
   },
   {
     "id": "n1-0809",
     "jp": "確定",
     "reading": "かくてい",
     "romaji": "kakutei",
-    "meaning": "fixed, decision"
+    "meaning": "fixed, decision",
+    "vi": "xác định, quyết định"
   },
   {
     "id": "n1-0810",
     "jp": "カクテル",
     "reading": "カクテル",
     "romaji": "カクテル",
-    "meaning": "cocktail"
+    "meaning": "cocktail",
+    "vi": "cocktail"
   },
   {
     "id": "n1-0811",
     "jp": "獲得",
     "reading": "かくとく",
     "romaji": "kakutoku",
-    "meaning": "acquisition, possession"
+    "meaning": "acquisition, possession",
+    "vi": "giành được, thu được"
   },
   {
     "id": "n1-0812",
     "jp": "楽譜",
     "reading": "がくふ",
     "romaji": "gakufu",
-    "meaning": "score (music, sheet music)"
+    "meaning": "score (music, sheet music)",
+    "vi": "bản nhạc"
   },
   {
     "id": "n1-0813",
     "jp": "確保",
     "reading": "かくほ",
     "romaji": "kakuho",
-    "meaning": "guarantee, insure, secure"
+    "meaning": "guarantee, insure, secure",
+    "vi": "đảm bảo, giữ chắc"
   },
   {
     "id": "n1-0814",
     "jp": "革命",
     "reading": "かくめい",
     "romaji": "kakumei",
-    "meaning": "revolution"
+    "meaning": "revolution",
+    "vi": "cách mạng"
   },
   {
     "id": "n1-0815",
     "jp": "確立",
     "reading": "かくりつ",
     "romaji": "kakuritsu",
-    "meaning": "establishment"
+    "meaning": "establishment",
+    "vi": "sự thiết lập, xác lập"
   },
   {
     "id": "n1-0816",
     "jp": "賭",
     "reading": "かけ",
     "romaji": "kake",
-    "meaning": "betting, gambling, a gamble"
+    "meaning": "betting, gambling, a gamble",
+    "vi": "cá cược, đánh bạc"
   },
   {
     "id": "n1-0817",
     "jp": "掛～",
     "reading": "かけ～",
     "romaji": "kake～",
-    "meaning": "credit"
+    "meaning": "credit",
+    "vi": "trả góp, ghi nợ"
   },
   {
     "id": "n1-0818",
     "jp": "～掛け",
     "reading": "～かけ",
     "romaji": "～kake",
-    "meaning": "rack, hanger"
+    "meaning": "rack, hanger",
+    "vi": "giá treo, móc treo"
   },
   {
     "id": "n1-0819",
     "jp": "崖",
     "reading": "がけ",
     "romaji": "gake",
-    "meaning": "cliff"
+    "meaning": "cliff",
+    "vi": "vách đá"
   },
   {
     "id": "n1-0820",
     "jp": "駆け足",
     "reading": "かけあし",
     "romaji": "kakeashi",
-    "meaning": "running fast, double time"
+    "meaning": "running fast, double time",
+    "vi": "chạy nhanh, chạy nước rút"
   },
   {
     "id": "n1-0821",
     "jp": "家計",
     "reading": "かけい",
     "romaji": "kakei",
-    "meaning": "household economy, family finances"
+    "meaning": "household economy, family finances",
+    "vi": "kinh tế gia đình, chi tiêu gia đình"
   },
   {
     "id": "n1-0822",
     "jp": "駆けっこ",
     "reading": "かけっこ",
     "romaji": "kakekko",
-    "meaning": "(foot) race"
+    "meaning": "(foot) race",
+    "vi": "cuộc thi chạy"
   },
   {
     "id": "n1-0823",
     "jp": "加工",
     "reading": "かこう",
     "romaji": "kakou",
-    "meaning": "manufacturing, processing, treatment"
+    "meaning": "manufacturing, processing, treatment",
+    "vi": "gia công, chế biến"
   },
   {
     "id": "n1-0824",
     "jp": "化合",
     "reading": "かごう",
     "romaji": "kagou",
-    "meaning": "chemical combination"
+    "meaning": "chemical combination",
+    "vi": "hóa hợp"
   },
   {
     "id": "n1-0825",
     "jp": "かさばる",
     "reading": "かさばる",
     "romaji": "kasabaru",
-    "meaning": "to be bulky"
+    "meaning": "to be bulky",
+    "vi": "cồng kềnh"
   },
   {
     "id": "n1-0826",
     "jp": "かさむ",
     "reading": "かさむ",
     "romaji": "kasamu",
-    "meaning": "to pile up, to increase"
+    "meaning": "to pile up, to increase",
+    "vi": "tăng lên, chồng chất"
   },
   {
     "id": "n1-0827",
     "jp": "箇条書",
     "reading": "かじょうがき",
     "romaji": "kajougaki",
-    "meaning": "itemized form, itemization"
+    "meaning": "itemized form, itemization",
+    "vi": "liệt kê theo từng mục"
   },
   {
     "id": "n1-0828",
     "jp": "頭",
     "reading": "かしら",
     "romaji": "kashira",
-    "meaning": "head, chief"
+    "meaning": "head, chief",
+    "vi": "đầu lĩnh, thủ lĩnh"
   },
   {
     "id": "n1-0829",
     "jp": "微か",
     "reading": "かすか",
     "romaji": "kasuka",
-    "meaning": "faint, dim, weak"
+    "meaning": "faint, dim, weak",
+    "vi": "mờ nhạt, yếu ớt"
   },
   {
     "id": "n1-0830",
     "jp": "霞む",
     "reading": "かすむ",
     "romaji": "kasumu",
-    "meaning": "to grow hazy, to be misty"
+    "meaning": "to grow hazy, to be misty",
+    "vi": "mờ đi, mù sương"
   },
   {
     "id": "n1-0831",
     "jp": "擦る",
     "reading": "かする",
     "romaji": "kasuru",
-    "meaning": "to rub, to chafe"
+    "meaning": "to rub, to chafe",
+    "vi": "cọ xát, xoa"
   },
   {
     "id": "n1-0832",
     "jp": "火星",
     "reading": "かせい",
     "romaji": "kasei",
-    "meaning": "Mars"
+    "meaning": "Mars",
+    "vi": "Sao Hỏa"
   },
   {
     "id": "n1-0833",
     "jp": "化石",
     "reading": "かせき",
     "romaji": "kaseki",
-    "meaning": "fossil, petrifaction, fossilization"
+    "meaning": "fossil, petrifaction, fossilization",
+    "vi": "hóa thạch"
   },
   {
     "id": "n1-0834",
     "jp": "河川",
     "reading": "かせん",
     "romaji": "kasen",
-    "meaning": "rivers"
+    "meaning": "rivers",
+    "vi": "sông ngòi"
   },
   {
     "id": "n1-0835",
     "jp": "化繊",
     "reading": "かせん",
     "romaji": "kasen",
-    "meaning": "synthetic fibers"
+    "meaning": "synthetic fibers",
+    "vi": "sợi tổng hợp"
   },
   {
     "id": "n1-0836",
     "jp": "過疎",
     "reading": "かそ",
     "romaji": "kaso",
-    "meaning": "depopulation"
+    "meaning": "depopulation",
+    "vi": "thưa dân, giảm dân số"
   },
   {
     "id": "n1-0837",
     "jp": "片～",
     "reading": "かた～",
     "romaji": "kata～",
-    "meaning": "single ~"
+    "meaning": "single ~",
+    "vi": "một bên, đơn lẻ"
   },
   {
     "id": "n1-0838",
     "jp": "片言",
     "reading": "かたこと",
     "romaji": "katakoto",
-    "meaning": "broken (in reference to speaking style, e.g., Japanese)"
+    "meaning": "broken (in reference to speaking style, e.g., Japanese)",
+    "vi": "nói bập bẹ, nói không rành"
   },
   {
     "id": "n1-0839",
     "jp": "傾ける",
     "reading": "かたむける",
     "romaji": "katamukeru",
-    "meaning": "to incline, to tilt, to bend"
+    "meaning": "to incline, to tilt, to bend",
+    "vi": "nghiêng, dốc (hết tâm sức)"
   },
   {
     "id": "n1-0840",
     "jp": "固める",
     "reading": "かためる",
     "romaji": "katameru",
-    "meaning": "to harden, to freeze, to fortify"
+    "meaning": "to harden, to freeze, to fortify",
+    "vi": "làm cứng, củng cố"
   },
   {
     "id": "n1-0841",
     "jp": "傍ら",
     "reading": "かたわら",
     "romaji": "katawara",
-    "meaning": "beside(s, while, nearby"
+    "meaning": "beside(s, while, nearby",
+    "vi": "bên cạnh; trong khi"
   },
   {
     "id": "n1-0842",
     "jp": "花壇",
     "reading": "かだん",
     "romaji": "kadan",
-    "meaning": "flower bed"
+    "meaning": "flower bed",
+    "vi": "bồn hoa"
   },
   {
     "id": "n1-0843",
     "jp": "家畜",
     "reading": "かちく",
     "romaji": "kachiku",
-    "meaning": "domestic animals, livestock, cattle"
+    "meaning": "domestic animals, livestock, cattle",
+    "vi": "gia súc, vật nuôi"
   },
   {
     "id": "n1-0844",
     "jp": "且つ",
     "reading": "かつ",
     "romaji": "katsu",
-    "meaning": "yet, and"
+    "meaning": "yet, and",
+    "vi": "hơn nữa, đồng thời"
   },
   {
     "id": "n1-0845",
     "jp": "がっくり",
     "reading": "がっくり",
     "romaji": "gakkuri",
-    "meaning": "heartbroken"
+    "meaning": "heartbroken",
+    "vi": "thất vọng, suy sụp"
   },
   {
     "id": "n1-0846",
     "jp": "合唱",
     "reading": "がっしょう",
     "romaji": "gasshou",
-    "meaning": "chorus, singing in a chorus"
+    "meaning": "chorus, singing in a chorus",
+    "vi": "hợp xướng, đồng ca"
   },
   {
     "id": "n1-0847",
     "jp": "がっしり",
     "reading": "がっしり",
     "romaji": "gasshiri",
-    "meaning": "firmly, solidly, tough"
+    "meaning": "firmly, solidly, tough",
+    "vi": "vững chắc, chắc nịch"
   },
   {
     "id": "n1-0848",
     "jp": "合致",
     "reading": "がっち",
     "romaji": "gatchi",
-    "meaning": "agreement, concurrence, conforming to"
+    "meaning": "agreement, concurrence, conforming to",
+    "vi": "phù hợp, khớp nhau"
   },
   {
     "id": "n1-0849",
     "jp": "がっちり",
     "reading": "がっちり",
     "romaji": "gatchiri",
-    "meaning": "solidly built, tightly"
+    "meaning": "solidly built, tightly",
+    "vi": "chắc chắn, cân đối"
   },
   {
     "id": "n1-0850",
     "jp": "かつて",
     "reading": "かつて",
     "romaji": "katsute",
-    "meaning": "once, before, formerly"
+    "meaning": "once, before, formerly",
+    "vi": "trước đây, từng"
   },
   {
     "id": "n1-0851",
     "jp": "勝手",
     "reading": "かって",
     "romaji": "katte",
-    "meaning": "kitchen; one's way, selfishness"
+    "meaning": "kitchen; one's way, selfishness",
+    "vi": "bếp; tùy tiện, ích kỷ"
   },
   {
     "id": "n1-0852",
     "jp": "カット",
     "reading": "カット",
     "romaji": "カット",
-    "meaning": "cut, cutting"
+    "meaning": "cut, cutting",
+    "vi": "cắt"
   },
   {
     "id": "n1-0853",
     "jp": "活発",
     "reading": "かっぱつ",
     "romaji": "kappatsu",
-    "meaning": "vigor, active"
+    "meaning": "vigor, active",
+    "vi": "năng động, hoạt bát"
   },
   {
     "id": "n1-0854",
     "jp": "合併",
     "reading": "がっぺい",
     "romaji": "gappei",
-    "meaning": "combination, amalgamation, merger"
+    "meaning": "combination, amalgamation, merger",
+    "vi": "sáp nhập, hợp nhất"
   },
   {
     "id": "n1-0855",
     "jp": "カテゴリー",
     "reading": "カテゴリー",
     "romaji": "カテゴリー",
-    "meaning": "category"
+    "meaning": "category",
+    "vi": "danh mục, hạng mục"
   },
   {
     "id": "n1-0856",
     "jp": "叶う",
     "reading": "かなう",
     "romaji": "kanau",
-    "meaning": "to come true"
+    "meaning": "to come true",
+    "vi": "trở thành hiện thực, thành sự thật"
   },
   {
     "id": "n1-0857",
     "jp": "叶える",
     "reading": "かなえる",
     "romaji": "kanaeru",
-    "meaning": "to grant (request, wish)"
+    "meaning": "to grant (request, wish)",
+    "vi": "thực hiện (điều ước, nguyện vọng)"
   },
   {
     "id": "n1-0858",
     "jp": "金槌",
     "reading": "かなづち",
     "romaji": "kanazuchi",
-    "meaning": "(iron) hammer"
+    "meaning": "(iron) hammer",
+    "vi": "búa (sắt)"
   },
   {
     "id": "n1-0859",
     "jp": "かなわない",
     "reading": "かなわない",
     "romaji": "kanawanai",
-    "meaning": "be beyond one's power, be unable"
+    "meaning": "be beyond one's power, be unable",
+    "vi": "không chịu nổi, không thể sánh được"
   },
   {
     "id": "n1-0860",
     "jp": "加入",
     "reading": "かにゅう",
     "romaji": "kanyuu",
-    "meaning": "becoming a member, admission"
+    "meaning": "becoming a member, admission",
+    "vi": "gia nhập, tham gia"
   },
   {
     "id": "n1-0861",
     "jp": "予て",
     "reading": "かねて",
     "romaji": "kanete",
-    "meaning": "previously, already, lately"
+    "meaning": "previously, already, lately",
+    "vi": "từ trước, đã từng"
   },
   {
     "id": "n1-0862",
     "jp": "庇う",
     "reading": "かばう",
     "romaji": "kabau",
-    "meaning": "to protect someone, to&nbsp;&nbsp;cover up for someone"
+    "meaning": "to protect someone, to&nbsp;&nbsp;cover up for someone",
+    "vi": "bênh vực, che chở"
   },
   {
     "id": "n1-0863",
     "jp": "株式",
     "reading": "かぶしき",
     "romaji": "kabushiki",
-    "meaning": "stock"
+    "meaning": "stock",
+    "vi": "cổ phiếu"
   },
   {
     "id": "n1-0864",
     "jp": "かぶれる",
     "reading": "かぶれる",
     "romaji": "kabureru",
-    "meaning": "to react to; to be influenced by"
+    "meaning": "to react to; to be influenced by",
+    "vi": "bị dị ứng (da); bị ảnh hưởng"
   },
   {
     "id": "n1-0865",
     "jp": "花粉",
     "reading": "かふん",
     "romaji": "kafun",
-    "meaning": "pollen"
+    "meaning": "pollen",
+    "vi": "phấn hoa"
   },
   {
     "id": "n1-0866",
     "jp": "貨幣",
     "reading": "かへい",
     "romaji": "kahei",
-    "meaning": "money, currency, coinage"
+    "meaning": "money, currency, coinage",
+    "vi": "tiền tệ"
   },
   {
     "id": "n1-0867",
     "jp": "構える",
     "reading": "かまえる",
     "romaji": "kamaeru",
-    "meaning": "to set up"
+    "meaning": "to set up",
+    "vi": "chuẩn bị tư thế, xây dựng, bố trí"
   },
   {
     "id": "n1-0868",
     "jp": "過密",
     "reading": "かみつ",
     "romaji": "kamitsu",
-    "meaning": "crowded"
+    "meaning": "crowded",
+    "vi": "quá đông đúc, mật độ cao"
   },
   {
     "id": "n1-0869",
     "jp": "噛み切る",
     "reading": "かみきる",
     "romaji": "kamikiru",
-    "meaning": "to bite off, to gnaw through"
+    "meaning": "to bite off, to gnaw through",
+    "vi": "cắn đứt"
   },
   {
     "id": "n1-0870",
     "jp": "カムバック",
     "reading": "カムバック",
     "romaji": "カムバック",
-    "meaning": "comeback"
+    "meaning": "comeback",
+    "vi": "sự trở lại"
   },
   {
     "id": "n1-0871",
     "jp": "カメラマン",
     "reading": "カメラマン",
     "romaji": "カメラマン",
-    "meaning": "cameraman"
+    "meaning": "cameraman",
+    "vi": "người quay phim, nhiếp ảnh gia"
   },
   {
     "id": "n1-0872",
     "jp": "粥",
     "reading": "かゆ",
     "romaji": "kayu",
-    "meaning": "rice porridge"
+    "meaning": "rice porridge",
+    "vi": "cháo"
   },
   {
     "id": "n1-0873",
     "jp": "体付き",
     "reading": "からだつき",
     "romaji": "karadatsuki",
-    "meaning": "body build, figure"
+    "meaning": "body build, figure",
+    "vi": "vóc dáng"
   },
   {
     "id": "n1-0874",
     "jp": "絡む",
     "reading": "からむ",
     "romaji": "karamu",
-    "meaning": "to entangle, to entwine"
+    "meaning": "to entangle, to entwine",
+    "vi": "vướng vào, dính líu"
   },
   {
     "id": "n1-0875",
     "jp": "かりに",
     "reading": "かりに",
     "romaji": "karini",
-    "meaning": "temporarily; if, for argument's sake"
+    "meaning": "temporarily; if, for argument's sake",
+    "vi": "tạm thời; giả sử"
   },
   {
     "id": "n1-0876",
     "jp": "カルテ",
     "reading": "カルテ",
     "romaji": "カルテ",
-    "meaning": "clinical records (GER: Karte)"
+    "meaning": "clinical records (GER: Karte)",
+    "vi": "hồ sơ bệnh án"
   },
   {
     "id": "n1-0877",
     "jp": "ガレージ",
     "reading": "ガレージ",
     "romaji": "ガレージ",
-    "meaning": "garage (at house)"
+    "meaning": "garage (at house)",
+    "vi": "ga-ra ô tô"
   },
   {
     "id": "n1-0878",
     "jp": "過労",
     "reading": "かろう",
     "romaji": "karou",
-    "meaning": "overwork, strain"
+    "meaning": "overwork, strain",
+    "vi": "làm việc quá sức"
   },
   {
     "id": "n1-0879",
     "jp": "かろうじて",
     "reading": "かろうじて",
     "romaji": "karoujite",
-    "meaning": "barely, narrowly"
+    "meaning": "barely, narrowly",
+    "vi": "chật vật lắm mới, suýt soát"
   },
   {
     "id": "n1-0880",
     "jp": "交す",
     "reading": "かわす",
     "romaji": "kawasu",
-    "meaning": "to exchange"
+    "meaning": "to exchange",
+    "vi": "trao đổi"
   },
   {
     "id": "n1-0881",
     "jp": "代る代る",
     "reading": "かわるがわる",
     "romaji": "kawarugawaru",
-    "meaning": "alternately"
+    "meaning": "alternately",
+    "vi": "lần lượt, thay phiên nhau"
   },
   {
     "id": "n1-0882",
     "jp": "簡易",
     "reading": "かんい",
     "romaji": "kan'i",
-    "meaning": "simplicity, easiness, quasi-"
+    "meaning": "simplicity, easiness, quasi-",
+    "vi": "sự đơn giản, tiện lợi"
   },
   {
     "id": "n1-0883",
     "jp": "灌漑",
     "reading": "かんがい",
     "romaji": "kangai",
-    "meaning": "irrigation"
+    "meaning": "irrigation",
+    "vi": "tưới tiêu"
   },
   {
     "id": "n1-0884",
     "jp": "眼科",
     "reading": "がんか",
     "romaji": "ganka",
-    "meaning": "ophthalmology"
+    "meaning": "ophthalmology",
+    "vi": "khoa mắt, nhãn khoa"
   },
   {
     "id": "n1-0885",
     "jp": "眼球",
     "reading": "がんきゅう",
     "romaji": "gankyuu",
-    "meaning": "eyeball"
+    "meaning": "eyeball",
+    "vi": "nhãn cầu"
   },
   {
     "id": "n1-0886",
     "jp": "玩具",
     "reading": "がんぐ",
     "romaji": "gangu",
-    "meaning": "toy"
+    "meaning": "toy",
+    "vi": "đồ chơi"
   },
   {
     "id": "n1-0887",
     "jp": "簡潔",
     "reading": "かんけつ",
     "romaji": "kanketsu",
-    "meaning": "brevity, concise, simple"
+    "meaning": "brevity, concise, simple",
+    "vi": "ngắn gọn, súc tích"
   },
   {
     "id": "n1-0888",
     "jp": "還元",
     "reading": "かんげん",
     "romaji": "kangen",
-    "meaning": "resolution, reduction, return"
+    "meaning": "resolution, reduction, return",
+    "vi": "hoàn nguyên, quy hồi"
   },
   {
     "id": "n1-0889",
     "jp": "看護",
     "reading": "かんご",
     "romaji": "kango",
-    "meaning": "nursing"
+    "meaning": "nursing",
+    "vi": "chăm sóc, điều dưỡng"
   },
   {
     "id": "n1-0890",
     "jp": "漢語",
     "reading": "かんご",
     "romaji": "kango",
-    "meaning": "Chinese word, Sino-Japanese word"
+    "meaning": "Chinese word, Sino-Japanese word",
+    "vi": "từ Hán (gốc Trung Quốc)"
   },
   {
     "id": "n1-0891",
     "jp": "頑固",
     "reading": "がんこ",
     "romaji": "ganko",
-    "meaning": "stubbornness, obstinacy"
+    "meaning": "stubbornness, obstinacy",
+    "vi": "ngoan cố, cứng đầu"
   },
   {
     "id": "n1-0892",
     "jp": "勧告",
     "reading": "かんこく",
     "romaji": "kankoku",
-    "meaning": "advice, counsel"
+    "meaning": "advice, counsel",
+    "vi": "khuyến cáo, khuyên bảo"
   },
   {
     "id": "n1-0893",
     "jp": "換算",
     "reading": "かんさん",
     "romaji": "kansan",
-    "meaning": "conversion, change, exchange"
+    "meaning": "conversion, change, exchange",
+    "vi": "quy đổi, chuyển đổi"
   },
   {
     "id": "n1-0894",
     "jp": "監視",
     "reading": "かんし",
     "romaji": "kanshi",
-    "meaning": "observation, guarding, surveillance"
+    "meaning": "observation, guarding, surveillance",
+    "vi": "giám sát, theo dõi"
   },
   {
     "id": "n1-0895",
     "jp": "慣習",
     "reading": "かんしゅう",
     "romaji": "kanshuu",
-    "meaning": "usual (historical) custom"
+    "meaning": "usual (historical) custom",
+    "vi": "tập quán, phong tục"
   },
   {
     "id": "n1-0896",
     "jp": "観衆",
     "reading": "かんしゅう",
     "romaji": "kanshuu",
-    "meaning": "spectators, audience"
+    "meaning": "spectators, audience",
+    "vi": "khán giả"
   },
   {
     "id": "n1-0897",
     "jp": "願書",
     "reading": "がんしょ",
     "romaji": "gansho",
-    "meaning": "application form"
+    "meaning": "application form",
+    "vi": "đơn xin (nhập học...)"
   },
   {
     "id": "n1-0898",
     "jp": "干渉",
     "reading": "かんしょう",
     "romaji": "kanshou",
-    "meaning": "interference, intervention"
+    "meaning": "interference, intervention",
+    "vi": "can thiệp"
   },
   {
     "id": "n1-0899",
     "jp": "頑丈",
     "reading": "がんじょう",
     "romaji": "ganjou",
-    "meaning": "solid, firm, strong"
+    "meaning": "solid, firm, strong",
+    "vi": "chắc chắn, cường tráng"
   },
   {
     "id": "n1-0900",
     "jp": "感触",
     "reading": "かんしょく",
     "romaji": "kanshoku",
-    "meaning": "sense of touch, feeling, sensation"
+    "meaning": "sense of touch, feeling, sensation",
+    "vi": "cảm giác, xúc cảm"
   },
   {
     "id": "n1-0901",
     "jp": "肝心",
     "reading": "かんじん",
     "romaji": "kanjin",
-    "meaning": "essential, fundamental, crucial"
+    "meaning": "essential, fundamental, crucial",
+    "vi": "cốt yếu, quan trọng"
   },
   {
     "id": "n1-0902",
     "jp": "肝腎",
     "reading": "かんじん",
     "romaji": "kanjin",
-    "meaning": "essential, fundamental, crucial"
+    "meaning": "essential, fundamental, crucial",
+    "vi": "cốt yếu, quan trọng"
   },
   {
     "id": "n1-0903",
     "jp": "関税",
     "reading": "かんぜい",
     "romaji": "kanzei",
-    "meaning": "customs, duty, tariff"
+    "meaning": "customs, duty, tariff",
+    "vi": "thuế quan"
   },
   {
     "id": "n1-0904",
     "jp": "岩石",
     "reading": "がんせき",
     "romaji": "ganseki",
-    "meaning": "rock"
+    "meaning": "rock",
+    "vi": "đá, nham thạch"
   },
   {
     "id": "n1-0905",
     "jp": "感染",
     "reading": "かんせん",
     "romaji": "kansen",
-    "meaning": "infection, contagion"
+    "meaning": "infection, contagion",
+    "vi": "lây nhiễm"
   },
   {
     "id": "n1-0906",
     "jp": "幹線",
     "reading": "かんせん",
     "romaji": "kansen",
-    "meaning": "main line, trunk line"
+    "meaning": "main line, trunk line",
+    "vi": "tuyến đường chính"
   },
   {
     "id": "n1-0907",
     "jp": "簡素",
     "reading": "かんそ",
     "romaji": "kanso",
-    "meaning": "simplicity, plain"
+    "meaning": "simplicity, plain",
+    "vi": "giản dị, đơn sơ"
   },
   {
     "id": "n1-0908",
     "jp": "観点",
     "reading": "かんてん",
     "romaji": "kanten",
-    "meaning": "point of view"
+    "meaning": "point of view",
+    "vi": "quan điểm, góc nhìn"
   },
   {
     "id": "n1-0909",
     "jp": "感度",
     "reading": "かんど",
     "romaji": "kando",
-    "meaning": "sensitivity, severity (quake)"
+    "meaning": "sensitivity, severity (quake)",
+    "vi": "độ nhạy; cường độ (động đất)"
   },
   {
     "id": "n1-0910",
     "jp": "カンニング",
     "reading": "カンニング",
     "romaji": "カンニング",
-    "meaning": "cunning, cheat"
+    "meaning": "cunning, cheat",
+    "vi": "quay cóp, gian lận (thi cử)"
   },
   {
     "id": "n1-0911",
     "jp": "元年",
     "reading": "がんねん",
     "romaji": "gannen",
-    "meaning": "first year (of a specific reign)"
+    "meaning": "first year (of a specific reign)",
+    "vi": "năm đầu (niên hiệu)"
   },
   {
     "id": "n1-0912",
     "jp": "幹部",
     "reading": "かんぶ",
     "romaji": "kanbu",
-    "meaning": "management, executive"
+    "meaning": "management, executive",
+    "vi": "cán bộ quản lý, lãnh đạo"
   },
   {
     "id": "n1-0913",
     "jp": "完ぺき",
     "reading": "かんぺき",
     "romaji": "kanpeki",
-    "meaning": "perfection, completeness, flawless"
+    "meaning": "perfection, completeness, flawless",
+    "vi": "hoàn hảo, hoàn thiện"
   },
   {
     "id": "n1-0914",
     "jp": "勘弁",
     "reading": "かんべん",
     "romaji": "kanben",
-    "meaning": "pardon, forgiveness, forbearance"
+    "meaning": "pardon, forgiveness, forbearance",
+    "vi": "tha thứ, lượng thứ"
   },
   {
     "id": "n1-0915",
     "jp": "感無量",
     "reading": "かんむりょう",
     "romaji": "kanmuryou",
-    "meaning": "deep feeling, filled with emotion"
+    "meaning": "deep feeling, filled with emotion",
+    "vi": "cảm động sâu sắc, xúc động khôn tả"
   },
   {
     "id": "n1-0916",
     "jp": "勧誘",
     "reading": "かんゆう",
     "romaji": "kan'yuu",
-    "meaning": "invitation, canvassing, inducement"
+    "meaning": "invitation, canvassing, inducement",
+    "vi": "chèo kéo, mời gọi"
   },
   {
     "id": "n1-0917",
     "jp": "関与",
     "reading": "かんよ",
     "romaji": "kan'yo",
-    "meaning": "participation, taking part in"
+    "meaning": "participation, taking part in",
+    "vi": "tham gia, liên quan"
   },
   {
     "id": "n1-0918",
     "jp": "寛容",
     "reading": "かんよう",
     "romaji": "kan'you",
-    "meaning": "forbearance, tolerance, generosity, involvement"
+    "meaning": "forbearance, tolerance, generosity, involvement",
+    "vi": "khoan dung, độ lượng"
   },
   {
     "id": "n1-0919",
     "jp": "元来",
     "reading": "がんらい",
     "romaji": "ganrai",
-    "meaning": "originally, naturally"
+    "meaning": "originally, naturally",
+    "vi": "vốn dĩ, từ đầu"
   },
   {
     "id": "n1-0920",
     "jp": "観覧",
     "reading": "かんらん",
     "romaji": "kanran",
-    "meaning": "viewing"
+    "meaning": "viewing",
+    "vi": "xem, tham quan"
   },
   {
     "id": "n1-0921",
     "jp": "慣例",
     "reading": "かんれい",
     "romaji": "kanrei",
-    "meaning": "custom, precedent, of convention"
+    "meaning": "custom, precedent, of convention",
+    "vi": "thông lệ, tiền lệ"
   },
   {
     "id": "n1-0922",
     "jp": "還暦",
     "reading": "かんれき",
     "romaji": "kanreki",
-    "meaning": "60th birthday"
+    "meaning": "60th birthday",
+    "vi": "lễ mừng thọ 60 tuổi"
   },
   {
     "id": "n1-0923",
     "jp": "貫禄",
     "reading": "かんろく",
     "romaji": "kanroku",
-    "meaning": "presence, dignity"
+    "meaning": "presence, dignity",
+    "vi": "phong thái, uy nghiêm"
   },
   {
     "id": "n1-0924",
     "jp": "緩和",
     "reading": "かんわ",
     "romaji": "kanwa",
-    "meaning": "relief, mitigation"
+    "meaning": "relief, mitigation",
+    "vi": "giảm nhẹ, nới lỏng"
   },
   {
     "id": "n1-0925",
     "jp": "議案",
     "reading": "ぎあん",
     "romaji": "gian",
-    "meaning": "legislative bill"
+    "meaning": "legislative bill",
+    "vi": "dự luật"
   },
   {
     "id": "n1-0926",
     "jp": "危害",
     "reading": "きがい",
     "romaji": "kigai",
-    "meaning": "injury, harm, danger"
+    "meaning": "injury, harm, danger",
+    "vi": "tổn hại, nguy hiểm"
   },
   {
     "id": "n1-0927",
     "jp": "企画",
     "reading": "きかく",
     "romaji": "kikaku",
-    "meaning": "planning, project"
+    "meaning": "planning, project",
+    "vi": "lập kế hoạch, dự án"
   },
   {
     "id": "n1-0928",
     "jp": "規格",
     "reading": "きかく",
     "romaji": "kikaku",
-    "meaning": "standard, norm"
+    "meaning": "standard, norm",
+    "vi": "tiêu chuẩn, quy cách"
   },
   {
     "id": "n1-0929",
     "jp": "着飾る",
     "reading": "きかざる",
     "romaji": "kikazaru",
-    "meaning": "to dress up"
+    "meaning": "to dress up",
+    "vi": "ăn diện, trang điểm"
   },
   {
     "id": "n1-0930",
     "jp": "気兼ね",
     "reading": "きがね",
     "romaji": "kigane",
-    "meaning": "hesitance, diffidence, feeling constraint"
+    "meaning": "hesitance, diffidence, feeling constraint",
+    "vi": "ngại ngùng, e dè"
   },
   {
     "id": "n1-0931",
     "jp": "気軽",
     "reading": "きがる",
     "romaji": "kigaru",
-    "meaning": "cheerful, buoyant, lighthearted"
+    "meaning": "cheerful, buoyant, lighthearted",
+    "vi": "thoải mái, không câu nệ"
   },
   {
     "id": "n1-0932",
     "jp": "危機",
     "reading": "きき",
     "romaji": "kiki",
-    "meaning": "crisis"
+    "meaning": "crisis",
+    "vi": "khủng hoảng, nguy cơ"
   },
   {
     "id": "n1-0933",
     "jp": "聞き取り",
     "reading": "ききとり",
     "romaji": "kikitori",
-    "meaning": "listening comprehension"
+    "meaning": "listening comprehension",
+    "vi": "nghe hiểu"
   },
   {
     "id": "n1-0934",
     "jp": "効き目",
     "reading": "ききめ",
     "romaji": "kikime",
-    "meaning": "effect, virtue, efficacy"
+    "meaning": "effect, virtue, efficacy",
+    "vi": "hiệu quả, công hiệu"
   },
   {
     "id": "n1-0935",
     "jp": "帰京",
     "reading": "ききょう",
     "romaji": "kikyou",
-    "meaning": "returning to Tokyo"
+    "meaning": "returning to Tokyo",
+    "vi": "trở về Tokyo"
   },
   {
     "id": "n1-0936",
     "jp": "戯曲",
     "reading": "ぎきょく",
     "romaji": "gikyoku",
-    "meaning": "play, drama"
+    "meaning": "play, drama",
+    "vi": "kịch bản, vở kịch"
   },
   {
     "id": "n1-0937",
     "jp": "基金",
     "reading": "ききん",
     "romaji": "kikin",
-    "meaning": "fund, foundation"
+    "meaning": "fund, foundation",
+    "vi": "quỹ, quỹ tài trợ"
   },
   {
     "id": "n1-0938",
     "jp": "喜劇",
     "reading": "きげき",
     "romaji": "kigeki",
-    "meaning": "comedy, funny show"
+    "meaning": "comedy, funny show",
+    "vi": "hài kịch"
   },
   {
     "id": "n1-0939",
     "jp": "議決",
     "reading": "ぎけつ",
     "romaji": "giketsu",
-    "meaning": "resolution, decision, vote"
+    "meaning": "resolution, decision, vote",
+    "vi": "nghị quyết, biểu quyết"
   },
   {
     "id": "n1-0940",
     "jp": "棄権",
     "reading": "きけん",
     "romaji": "kiken",
-    "meaning": "abstain from voting, renunciation of a right"
+    "meaning": "abstain from voting, renunciation of a right",
+    "vi": "bỏ phiếu trắng, từ bỏ quyền"
   },
   {
     "id": "n1-0941",
     "jp": "既婚",
     "reading": "きこん",
     "romaji": "kikon",
-    "meaning": "married"
+    "meaning": "married",
+    "vi": "đã kết hôn"
   },
   {
     "id": "n1-0942",
     "jp": "気障",
     "reading": "きざ",
     "romaji": "kiza",
-    "meaning": "affectation, conceit, snobbery"
+    "meaning": "affectation, conceit, snobbery",
+    "vi": "làm điệu, khoe khoang"
   },
   {
     "id": "n1-0943",
     "jp": "記載",
     "reading": "きさい",
     "romaji": "kisai",
-    "meaning": "mention, entry"
+    "meaning": "mention, entry",
+    "vi": "ghi chép, ghi vào"
   },
   {
     "id": "n1-0944",
     "jp": "兆",
     "reading": "きざし",
     "romaji": "kizashi",
-    "meaning": "sign, omen, indication"
+    "meaning": "sign, omen, indication",
+    "vi": "dấu hiệu, điềm báo"
   },
   {
     "id": "n1-0945",
     "jp": "気質",
     "reading": "きしつ",
     "romaji": "kishitsu",
-    "meaning": "character, trait, temperament"
+    "meaning": "character, trait, temperament",
+    "vi": "tính khí, khí chất"
   },
   {
     "id": "n1-0946",
     "jp": "期日",
     "reading": "きじつ",
     "romaji": "kijitsu",
-    "meaning": "fixed date, settlement date"
+    "meaning": "fixed date, settlement date",
+    "vi": "kỳ hạn, ngày ấn định"
   },
   {
     "id": "n1-0947",
     "jp": "きしむ",
     "reading": "きしむ",
     "romaji": "kishimu",
-    "meaning": "to jar, to creak, to grate"
+    "meaning": "to jar, to creak, to grate",
+    "vi": "kêu cọt kẹt"
   },
   {
     "id": "n1-0948",
     "jp": "議事堂",
     "reading": "ぎじどう",
     "romaji": "gijidou",
-    "meaning": "Diet building"
+    "meaning": "Diet building",
+    "vi": "tòa nhà quốc hội"
   },
   {
     "id": "n1-0949",
     "jp": "記述",
     "reading": "きじゅつ",
     "romaji": "kijutsu",
-    "meaning": "describing, descriptor"
+    "meaning": "describing, descriptor",
+    "vi": "mô tả, trần thuật"
   },
   {
     "id": "n1-0950",
     "jp": "気象",
     "reading": "きしょう",
     "romaji": "kishou",
-    "meaning": "weather, climate"
+    "meaning": "weather, climate",
+    "vi": "khí tượng, thời tiết"
   },
   {
     "id": "n1-0951",
     "jp": "傷付く",
     "reading": "きずつく",
     "romaji": "kizutsuku",
-    "meaning": "to be hurt, to be wounded, to get injured"
+    "meaning": "to be hurt, to be wounded, to get injured",
+    "vi": "bị tổn thương, bị thương"
   },
   {
     "id": "n1-0952",
     "jp": "傷付ける",
     "reading": "きずつける",
     "romaji": "kizutsukeru",
-    "meaning": "to wound, to hurt someone's feelings"
+    "meaning": "to wound, to hurt someone's feelings",
+    "vi": "làm tổn thương ai đó"
   },
   {
     "id": "n1-0953",
     "jp": "犠牲",
     "reading": "ぎせい",
     "romaji": "gisei",
-    "meaning": "sacrifice"
+    "meaning": "sacrifice",
+    "vi": "sự hy sinh"
   },
   {
     "id": "n1-0954",
     "jp": "汽船",
     "reading": "きせん",
     "romaji": "kisen",
-    "meaning": "steamship"
+    "meaning": "steamship",
+    "vi": "tàu thủy chạy hơi nước"
   },
   {
     "id": "n1-0955",
     "jp": "寄贈",
     "reading": "きぞう",
     "romaji": "kizou",
-    "meaning": "donation, presentation"
+    "meaning": "donation, presentation",
+    "vi": "quyên tặng, hiến tặng"
   },
   {
     "id": "n1-0956",
     "jp": "偽造",
     "reading": "ぎぞう",
     "romaji": "gizou",
-    "meaning": "forgery, fabrication, counterfeiting"
+    "meaning": "forgery, fabrication, counterfeiting",
+    "vi": "làm giả"
   },
   {
     "id": "n1-0957",
     "jp": "貴族",
     "reading": "きぞく",
     "romaji": "kizoku",
-    "meaning": "noble, aristocrat"
+    "meaning": "noble, aristocrat",
+    "vi": "quý tộc"
   },
   {
     "id": "n1-0958",
     "jp": "議題",
     "reading": "ぎだい",
     "romaji": "gidai",
-    "meaning": "topic of discussion, agenda"
+    "meaning": "topic of discussion, agenda",
+    "vi": "đề tài thảo luận, nghị trình"
   },
   {
     "id": "n1-0959",
     "jp": "鍛える",
     "reading": "きたえる",
     "romaji": "kitaeru",
-    "meaning": "to forge, to train, to discipline"
+    "meaning": "to forge, to train, to discipline",
+    "vi": "rèn luyện"
   },
   {
     "id": "n1-0960",
     "jp": "気立て",
     "reading": "きだて",
     "romaji": "kidate",
-    "meaning": "good-natured, kind-hearted"
+    "meaning": "good-natured, kind-hearted",
+    "vi": "tính tình tốt bụng"
   },
   {
     "id": "n1-0961",
     "jp": "来る",
     "reading": "きたる",
     "romaji": "kitaru",
-    "meaning": "to come, to approach,"
+    "meaning": "to come, to approach,",
+    "vi": "sắp tới, đang đến (dùng làm định ngữ chỉ thời gian)"
   },
   {
     "id": "n1-0962",
     "jp": "きちっと",
     "reading": "きちっと",
     "romaji": "kichitto",
-    "meaning": "exactly, perfectly"
+    "meaning": "exactly, perfectly",
+    "vi": "chính xác, gọn gàng"
   },
   {
     "id": "n1-0963",
     "jp": "几帳面",
     "reading": "きちょうめん",
     "romaji": "kichoumen",
-    "meaning": "methodical, punctual, steady"
+    "meaning": "methodical, punctual, steady",
+    "vi": "cẩn thận, ngăn nắp, đúng giờ"
   },
   {
     "id": "n1-0964",
     "jp": "きっかり",
     "reading": "きっかり",
     "romaji": "kikkari",
-    "meaning": "exactly, precisely"
+    "meaning": "exactly, precisely",
+    "vi": "đúng, chính xác"
   },
   {
     "id": "n1-0965",
     "jp": "きっちり",
     "reading": "きっちり",
     "romaji": "kitchiri",
-    "meaning": "precisely, tightly"
+    "meaning": "precisely, tightly",
+    "vi": "chính xác, khít khao"
   },
   {
     "id": "n1-0966",
     "jp": "きっぱり",
     "reading": "きっぱり",
     "romaji": "kippari",
-    "meaning": "clearly, plainly, distinctly"
+    "meaning": "clearly, plainly, distinctly",
+    "vi": "dứt khoát, rõ ràng"
   },
   {
     "id": "n1-0967",
     "jp": "規定",
     "reading": "きてい",
     "romaji": "kitei",
-    "meaning": "regulation, provisions"
+    "meaning": "regulation, provisions",
+    "vi": "quy định"
   },
   {
     "id": "n1-0968",
     "jp": "起点",
     "reading": "きてん",
     "romaji": "kiten",
-    "meaning": "starting point"
+    "meaning": "starting point",
+    "vi": "điểm xuất phát"
   },
   {
     "id": "n1-0969",
     "jp": "軌道",
     "reading": "きどう",
     "romaji": "kidou",
-    "meaning": "orbit; track"
+    "meaning": "orbit; track",
+    "vi": "quỹ đạo; đường ray"
   },
   {
     "id": "n1-0970",
     "jp": "技能",
     "reading": "ぎのう",
     "romaji": "ginou",
-    "meaning": "technical skill, ability, capacity"
+    "meaning": "technical skill, ability, capacity",
+    "vi": "kỹ năng, tay nghề"
   },
   {
     "id": "n1-0971",
     "jp": "規範",
     "reading": "きはん",
     "romaji": "kihan",
-    "meaning": "model, standard, example"
+    "meaning": "model, standard, example",
+    "vi": "chuẩn mực, khuôn mẫu"
   },
   {
     "id": "n1-0972",
     "jp": "気品",
     "reading": "きひん",
     "romaji": "kihin",
-    "meaning": "grace, elegance"
+    "meaning": "grace, elegance",
+    "vi": "vẻ thanh nhã, cao quý"
   },
   {
     "id": "n1-0973",
     "jp": "気風",
     "reading": "きふう",
     "romaji": "kifuu",
-    "meaning": "character, traits, ethos"
+    "meaning": "character, traits, ethos",
+    "vi": "khí chất, phong cách"
   },
   {
     "id": "n1-0974",
     "jp": "起伏",
     "reading": "きふく",
     "romaji": "kifuku",
-    "meaning": "undulation"
+    "meaning": "undulation",
+    "vi": "sự lên xuống, gập ghềnh"
   },
   {
     "id": "n1-0975",
     "jp": "規模",
     "reading": "きぼ",
     "romaji": "kibo",
-    "meaning": "scale, scope, plan, structure"
+    "meaning": "scale, scope, plan, structure",
+    "vi": "quy mô"
   },
   {
     "id": "n1-0976",
     "jp": "気まぐれ",
     "reading": "きまぐれ",
     "romaji": "kimagure",
-    "meaning": "whim, caprice, uneven temper"
+    "meaning": "whim, caprice, uneven temper",
+    "vi": "tính khí thất thường"
   },
   {
     "id": "n1-0977",
     "jp": "生真面目",
     "reading": "きまじめ",
     "romaji": "kimajime",
-    "meaning": "serious, sincerity"
+    "meaning": "serious, sincerity",
+    "vi": "nghiêm túc, chân thành thái quá"
   },
   {
     "id": "n1-0978",
     "jp": "期末",
     "reading": "きまつ",
     "romaji": "kimatsu",
-    "meaning": "(end of the season or term)"
+    "meaning": "(end of the season or term)",
+    "vi": "cuối kỳ, cuối học kỳ"
   },
   {
     "id": "n1-0979",
     "jp": "きまりわるい",
     "reading": "きまりわるい",
     "romaji": "kimariwarui",
-    "meaning": "feeling awkward, being ashamed"
+    "meaning": "feeling awkward, being ashamed",
+    "vi": "cảm thấy ngượng ngùng, xấu hổ"
   },
   {
     "id": "n1-0980",
     "jp": "記名",
     "reading": "きめい",
     "romaji": "kimei",
-    "meaning": "signature, register"
+    "meaning": "signature, register",
+    "vi": "ghi tên, ký tên"
   },
   {
     "id": "n1-0981",
     "jp": "規約",
     "reading": "きやく",
     "romaji": "kiyaku",
-    "meaning": "agreement, rules, code"
+    "meaning": "agreement, rules, code",
+    "vi": "quy ước, điều lệ"
   },
   {
     "id": "n1-0982",
     "jp": "脚色",
     "reading": "きゃくしょく",
     "romaji": "kyakushoku",
-    "meaning": "dramatization (e.g., film"
+    "meaning": "dramatization (e.g., film",
+    "vi": "chuyển thể kịch bản"
   },
   {
     "id": "n1-0983",
     "jp": "逆転",
     "reading": "ぎゃくてん",
     "romaji": "gyakuten",
-    "meaning": "(sudden) change, reversal, turn-around"
+    "meaning": "(sudden) change, reversal, turn-around",
+    "vi": "đảo ngược tình thế, lật ngược"
   },
   {
     "id": "n1-0984",
     "jp": "脚本",
     "reading": "きゃくほん",
     "romaji": "kyakuhon",
-    "meaning": "scenario"
+    "meaning": "scenario",
+    "vi": "kịch bản"
   },
   {
     "id": "n1-0985",
     "jp": "華奢",
     "reading": "きゃしゃ",
     "romaji": "kyasha",
-    "meaning": "delicate, slender"
+    "meaning": "delicate, slender",
+    "vi": "mảnh mai, thanh mảnh"
   },
   {
     "id": "n1-0986",
     "jp": "客観",
     "reading": "きゃっかん",
     "romaji": "kyakkan",
-    "meaning": "objective"
+    "meaning": "objective",
+    "vi": "khách quan"
   },
   {
     "id": "n1-0987",
     "jp": "キャッチ",
     "reading": "キャッチ",
     "romaji": "キャッチ",
-    "meaning": "catch"
+    "meaning": "catch",
+    "vi": "bắt lấy"
   },
   {
     "id": "n1-0988",
     "jp": "キャリア",
     "reading": "キャリア",
     "romaji": "キャリア",
-    "meaning": "career, career government employee"
+    "meaning": "career, career government employee",
+    "vi": "sự nghiệp, công chức lâu năm"
   },
   {
     "id": "n1-0989",
     "jp": "救援",
     "reading": "きゅうえん",
     "romaji": "kyuuen",
-    "meaning": "relief, rescue, reinforcement"
+    "meaning": "relief, rescue, reinforcement",
+    "vi": "cứu trợ, chi viện"
   },
   {
     "id": "n1-0990",
     "jp": "休学",
     "reading": "きゅうがく",
     "romaji": "kyuugaku",
-    "meaning": "temporary absence from school, suspension"
+    "meaning": "temporary absence from school, suspension",
+    "vi": "tạm nghỉ học, bảo lưu học tập"
   },
   {
     "id": "n1-0991",
     "jp": "究極",
     "reading": "きゅうきょく",
     "romaji": "kyuukyoku",
-    "meaning": "ultimate, final, eventual"
+    "meaning": "ultimate, final, eventual",
+    "vi": "cuối cùng, tối hậu"
   },
   {
     "id": "n1-0992",
     "jp": "窮屈",
     "reading": "きゅうくつ",
     "romaji": "kyuukutsu",
-    "meaning": "narrow, tight, formal"
+    "meaning": "narrow, tight, formal",
+    "vi": "chật hẹp, gò bó"
   },
   {
     "id": "n1-0993",
     "jp": "球根",
     "reading": "きゅうこん",
     "romaji": "kyuukon",
-    "meaning": "(plant) bulb"
+    "meaning": "(plant) bulb",
+    "vi": "củ (thực vật)"
   },
   {
     "id": "n1-0994",
     "jp": "救済",
     "reading": "きゅうさい",
     "romaji": "kyuusai",
-    "meaning": "relief, aid, rescue"
+    "meaning": "relief, aid, rescue",
+    "vi": "cứu tế, cứu trợ"
   },
   {
     "id": "n1-0995",
     "jp": "給仕",
     "reading": "きゅうじ",
     "romaji": "kyuuji",
-    "meaning": "waiter"
+    "meaning": "waiter",
+    "vi": "người phục vụ bàn"
   },
   {
     "id": "n1-0996",
     "jp": "給食",
     "reading": "きゅうしょく",
     "romaji": "kyuushoku",
-    "meaning": "school lunch, providing a meal"
+    "meaning": "school lunch, providing a meal",
+    "vi": "bữa ăn học đường"
   },
   {
     "id": "n1-0997",
     "jp": "休戦",
     "reading": "きゅうせん",
     "romaji": "kyuusen",
-    "meaning": "truce, armistice"
+    "meaning": "truce, armistice",
+    "vi": "đình chiến"
   },
   {
     "id": "n1-0998",
     "jp": "宮殿",
     "reading": "きゅうでん",
     "romaji": "kyuuden",
-    "meaning": "palace"
+    "meaning": "palace",
+    "vi": "cung điện"
   },
   {
     "id": "n1-0999",
     "jp": "旧知",
     "reading": "きゅうち",
     "romaji": "kyuuchi",
-    "meaning": "old friend, old friendship"
+    "meaning": "old friend, old friendship",
+    "vi": "bạn cũ, tình bạn lâu năm"
   },
   {
     "id": "n1-1000",
     "jp": "窮乏",
     "reading": "きゅうぼう",
     "romaji": "kyuubou",
-    "meaning": "poverty"
+    "meaning": "poverty",
+    "vi": "nghèo túng, khốn khó"
   },
   {
     "id": "n1-1001",
     "jp": "寄与",
     "reading": "きよ",
     "romaji": "kiyo",
-    "meaning": "contribution, service"
+    "meaning": "contribution, service",
+    "vi": "đóng góp, cống hiến"
   },
   {
     "id": "n1-1002",
     "jp": "強",
     "reading": "きょう",
     "romaji": "kyou",
-    "meaning": "strong"
+    "meaning": "strong",
+    "vi": "mạnh, hơn một chút (sau số đếm)"
   },
   {
     "id": "n1-1003",
     "jp": "～狂",
     "reading": "～きょう",
     "romaji": "～kyou",
-    "meaning": "maniac, fan, freak"
+    "meaning": "maniac, fan, freak",
+    "vi": "kẻ cuồng, người mê"
   },
   {
     "id": "n1-1004",
     "jp": "驚異",
     "reading": "きょうい",
     "romaji": "kyoui",
-    "meaning": "wonder, miracle"
+    "meaning": "wonder, miracle",
+    "vi": "điều kỳ diệu, kỳ quan"
   },
   {
     "id": "n1-1005",
     "jp": "教科",
     "reading": "きょうか",
     "romaji": "kyouka",
-    "meaning": "subject, curriculum"
+    "meaning": "subject, curriculum",
+    "vi": "môn học, giáo trình"
   },
   {
     "id": "n1-1006",
     "jp": "協会",
     "reading": "きょうかい",
     "romaji": "kyoukai",
-    "meaning": "association, society, organization"
+    "meaning": "association, society, organization",
+    "vi": "hiệp hội"
   },
   {
     "id": "n1-1007",
     "jp": "共学",
     "reading": "きょうがく",
     "romaji": "kyougaku",
-    "meaning": "coeducation"
+    "meaning": "coeducation",
+    "vi": "giáo dục hỗn hợp (nam nữ học chung)"
   },
   {
     "id": "n1-1008",
     "jp": "共感",
     "reading": "きょうかん",
     "romaji": "kyoukan",
-    "meaning": "sympathy, response"
+    "meaning": "sympathy, response",
+    "vi": "sự đồng cảm"
   },
   {
     "id": "n1-1009",
     "jp": "境遇",
     "reading": "きょうぐう",
     "romaji": "kyouguu",
-    "meaning": "environment, circumstances"
+    "meaning": "environment, circumstances",
+    "vi": "hoàn cảnh, cảnh ngộ"
   },
   {
     "id": "n1-1010",
     "jp": "教訓",
     "reading": "きょうくん",
     "romaji": "kyoukun",
-    "meaning": "lesson, precept, moral instruction"
+    "meaning": "lesson, precept, moral instruction",
+    "vi": "bài học, lời răn dạy"
   },
   {
     "id": "n1-1011",
     "jp": "強行",
     "reading": "きょうこう",
     "romaji": "kyoukou",
-    "meaning": "forcing, enforcement"
+    "meaning": "forcing, enforcement",
+    "vi": "cưỡng chế thực hiện"
   },
   {
     "id": "n1-1012",
     "jp": "強硬",
     "reading": "きょうこう",
     "romaji": "kyoukou",
-    "meaning": "firm, vigorous, stubborn"
+    "meaning": "firm, vigorous, stubborn",
+    "vi": "cứng rắn, kiên quyết"
   },
   {
     "id": "n1-1013",
     "jp": "教材",
     "reading": "きょうざい",
     "romaji": "kyouzai",
-    "meaning": "teaching materials"
+    "meaning": "teaching materials",
+    "vi": "tài liệu giảng dạy"
   },
   {
     "id": "n1-1014",
     "jp": "凶作",
     "reading": "きょうさく",
     "romaji": "kyousaku",
-    "meaning": "bad harvest, poor crop"
+    "meaning": "bad harvest, poor crop",
+    "vi": "mất mùa"
   },
   {
     "id": "n1-1015",
     "jp": "業者",
     "reading": "ぎょうしゃ",
     "romaji": "gyousha",
-    "meaning": "trader, merchant"
+    "meaning": "trader, merchant",
+    "vi": "nhà buôn, thương nhân"
   },
   {
     "id": "n1-1016",
     "jp": "教習",
     "reading": "きょうしゅう",
     "romaji": "kyoushuu",
-    "meaning": "training, instruction"
+    "meaning": "training, instruction",
+    "vi": "đào tạo, huấn luyện"
   },
   {
     "id": "n1-1017",
     "jp": "郷愁",
     "reading": "きょうしゅう",
     "romaji": "kyoushuu",
-    "meaning": "nostalgia, homesickness"
+    "meaning": "nostalgia, homesickness",
+    "vi": "nỗi nhớ quê, hoài niệm"
   },
   {
     "id": "n1-1018",
     "jp": "教職",
     "reading": "きょうしょく",
     "romaji": "kyoushoku",
-    "meaning": "teaching profession"
+    "meaning": "teaching profession",
+    "vi": "nghề giáo"
   },
   {
     "id": "n1-1019",
     "jp": "興じる",
     "reading": "きょうじる",
     "romaji": "kyoujiru",
-    "meaning": "to amuse oneself, to make merry"
+    "meaning": "to amuse oneself, to make merry",
+    "vi": "vui đùa, giải trí"
   },
   {
     "id": "n1-1020",
     "jp": "強制",
     "reading": "きょうせい",
     "romaji": "kyousei",
-    "meaning": "obligation, compulsion, enforcement"
+    "meaning": "obligation, compulsion, enforcement",
+    "vi": "cưỡng chế, bắt buộc"
   },
   {
     "id": "n1-1021",
     "jp": "行政",
     "reading": "ぎょうせい",
     "romaji": "gyousei",
-    "meaning": "administration"
+    "meaning": "administration",
+    "vi": "hành chính"
   },
   {
     "id": "n1-1022",
     "jp": "業績",
     "reading": "ぎょうせき",
     "romaji": "gyouseki",
-    "meaning": "achievement, work, contribution"
+    "meaning": "achievement, work, contribution",
+    "vi": "thành tích, thành quả công việc"
   },
   {
     "id": "n1-1023",
     "jp": "共存",
     "reading": "きょうぞん",
     "romaji": "kyouzon",
-    "meaning": "coexistence"
+    "meaning": "coexistence",
+    "vi": "cùng tồn tại"
   },
   {
     "id": "n1-1024",
     "jp": "協定",
     "reading": "きょうてい",
     "romaji": "kyoutei",
-    "meaning": "arrangement, pact, agreement"
+    "meaning": "arrangement, pact, agreement",
+    "vi": "hiệp định, thỏa thuận"
   },
   {
     "id": "n1-1025",
     "jp": "郷土",
     "reading": "きょうど",
     "romaji": "kyoudo",
-    "meaning": "homeland"
+    "meaning": "homeland",
+    "vi": "quê hương"
   },
   {
     "id": "n1-1026",
     "jp": "脅迫",
     "reading": "きょうはく",
     "romaji": "kyouhaku",
-    "meaning": "threat, coercion"
+    "meaning": "threat, coercion",
+    "vi": "đe dọa, uy hiếp"
   },
   {
     "id": "n1-1027",
     "jp": "業務",
     "reading": "ぎょうむ",
     "romaji": "gyoumu",
-    "meaning": "business, duties, work"
+    "meaning": "business, duties, work",
+    "vi": "công việc, nghiệp vụ"
   },
   {
     "id": "n1-1028",
     "jp": "共鳴",
     "reading": "きょうめい",
     "romaji": "kyoumei",
-    "meaning": "resonance, sympathy"
+    "meaning": "resonance, sympathy",
+    "vi": "cộng hưởng, đồng cảm"
   },
   {
     "id": "n1-1029",
     "jp": "郷里",
     "reading": "きょうり",
     "romaji": "kyouri",
-    "meaning": "birth-place, home town"
+    "meaning": "birth-place, home town",
+    "vi": "quê nhà"
   },
   {
     "id": "n1-1030",
     "jp": "強烈",
     "reading": "きょうれつ",
     "romaji": "kyouretsu",
-    "meaning": "strong, intense, severe"
+    "meaning": "strong, intense, severe",
+    "vi": "mãnh liệt, dữ dội"
   },
   {
     "id": "n1-1031",
     "jp": "共和",
     "reading": "きょうわ",
     "romaji": "kyouwa",
-    "meaning": "republicanism, cooperation"
+    "meaning": "republicanism, cooperation",
+    "vi": "cộng hòa"
   },
   {
     "id": "n1-1032",
     "jp": "局限",
     "reading": "きょくげん",
     "romaji": "kyokugen",
-    "meaning": "limit, localize"
+    "meaning": "limit, localize",
+    "vi": "giới hạn, khu biệt"
   },
   {
     "id": "n1-1033",
     "jp": "極端",
     "reading": "きょくたん",
     "romaji": "kyokutan",
-    "meaning": "extreme, extremity"
+    "meaning": "extreme, extremity",
+    "vi": "cực đoan"
   },
   {
     "id": "n1-1034",
     "jp": "居住",
     "reading": "きょじゅう",
     "romaji": "kyojuu",
-    "meaning": "residence"
+    "meaning": "residence",
+    "vi": "cư trú"
   },
   {
     "id": "n1-1035",
     "jp": "拒絶",
     "reading": "きょぜつ",
     "romaji": "kyozetsu",
-    "meaning": "refusal, rejection"
+    "meaning": "refusal, rejection",
+    "vi": "cự tuyệt, từ chối"
   },
   {
     "id": "n1-1036",
     "jp": "漁船",
     "reading": "ぎょせん",
     "romaji": "gyosen",
-    "meaning": "fishing boat"
+    "meaning": "fishing boat",
+    "vi": "tàu đánh cá"
   },
   {
     "id": "n1-1037",
     "jp": "漁村",
     "reading": "ぎょそん",
     "romaji": "gyoson",
-    "meaning": "fishing village"
+    "meaning": "fishing village",
+    "vi": "làng chài"
   },
   {
     "id": "n1-1038",
     "jp": "拒否",
     "reading": "きょひ",
     "romaji": "kyohi",
-    "meaning": "denial, rejection, refusal"
+    "meaning": "denial, rejection, refusal",
+    "vi": "từ chối, khước từ"
   },
   {
     "id": "n1-1039",
     "jp": "許容",
     "reading": "きょよう",
     "romaji": "kyoyou",
-    "meaning": "permission, pardon"
+    "meaning": "permission, pardon",
+    "vi": "cho phép, dung thứ"
   },
   {
     "id": "n1-1040",
     "jp": "清らか",
     "reading": "きよらか",
     "romaji": "kiyoraka",
-    "meaning": "clean, pure, chaste"
+    "meaning": "clean, pure, chaste",
+    "vi": "trong sạch, thanh khiết"
   },
   {
     "id": "n1-1041",
     "jp": "きらびやか",
     "reading": "きらびやか",
     "romaji": "kirabiyaka",
-    "meaning": "gorgeous, gaudy, dazzling"
+    "meaning": "gorgeous, gaudy, dazzling",
+    "vi": "lộng lẫy, rực rỡ"
   },
   {
     "id": "n1-1042",
     "jp": "～きり",
     "reading": "～きり",
     "romaji": "～kiri",
-    "meaning": "only"
+    "meaning": "only",
+    "vi": "chỉ, chỉ mỗi"
   },
   {
     "id": "n1-1043",
     "jp": "義理",
     "reading": "ぎり",
     "romaji": "giri",
-    "meaning": "debt of gratitude, obligation"
+    "meaning": "debt of gratitude, obligation",
+    "vi": "nghĩa vụ, ơn nghĩa"
   },
   {
     "id": "n1-1044",
     "jp": "切替",
     "reading": "きりかえ",
     "romaji": "kirikae",
-    "meaning": "exchange, conversion, switchover"
+    "meaning": "exchange, conversion, switchover",
+    "vi": "chuyển đổi, thay đổi"
   },
   {
     "id": "n1-1045",
     "jp": "気流",
     "reading": "きりゅう",
     "romaji": "kiryuu",
-    "meaning": "atmospheric current"
+    "meaning": "atmospheric current",
+    "vi": "luồng khí, dòng khí quyển"
   },
   {
     "id": "n1-1046",
     "jp": "切れ目",
     "reading": "きれめ",
     "romaji": "kireme",
-    "meaning": "break, pause, gap"
+    "meaning": "break, pause, gap",
+    "vi": "chỗ ngắt, khoảng nghỉ"
   },
   {
     "id": "n1-1047",
     "jp": "疑惑",
     "reading": "ぎわく",
     "romaji": "giwaku",
-    "meaning": "doubt, misgivings, suspicion"
+    "meaning": "doubt, misgivings, suspicion",
+    "vi": "nghi ngờ, ngờ vực"
   },
   {
     "id": "n1-1048",
     "jp": "極めて",
     "reading": "きわめて",
     "romaji": "kiwamete",
-    "meaning": "exceedingly, extremely (written expression)"
+    "meaning": "exceedingly, extremely (written expression)",
+    "vi": "cực kỳ, hết sức"
   },
   {
     "id": "n1-1049",
     "jp": "近眼",
     "reading": "きんがん",
     "romaji": "kingan",
-    "meaning": "nearsightedness"
+    "meaning": "nearsightedness",
+    "vi": "cận thị"
   },
   {
     "id": "n1-1050",
     "jp": "緊急",
     "reading": "きんきゅう",
     "romaji": "kinkyuu",
-    "meaning": "urgent, pressing, emergency"
+    "meaning": "urgent, pressing, emergency",
+    "vi": "khẩn cấp"
   },
   {
     "id": "n1-1051",
     "jp": "近郊",
     "reading": "きんこう",
     "romaji": "kinkou",
-    "meaning": "suburbs, outskirts"
+    "meaning": "suburbs, outskirts",
+    "vi": "vùng ngoại ô"
   },
   {
     "id": "n1-1052",
     "jp": "均衡",
     "reading": "きんこう",
     "romaji": "kinkou",
-    "meaning": "equilibrium, balance"
+    "meaning": "equilibrium, balance",
+    "vi": "cân bằng"
   },
   {
     "id": "n1-1053",
     "jp": "禁じる",
     "reading": "きんじる",
     "romaji": "kinjiru",
-    "meaning": "to prohibit"
+    "meaning": "to prohibit",
+    "vi": "cấm"
   },
   {
     "id": "n1-1054",
     "jp": "勤勉",
     "reading": "きんべん",
     "romaji": "kinben",
-    "meaning": "industry, diligence"
+    "meaning": "industry, diligence",
+    "vi": "cần cù, siêng năng"
   },
   {
     "id": "n1-1055",
     "jp": "吟味",
     "reading": "ぎんみ",
     "romaji": "ginmi",
-    "meaning": "examination, careful investigation"
+    "meaning": "examination, careful investigation",
+    "vi": "xem xét kỹ lưỡng, thẩm định"
   },
   {
     "id": "n1-1056",
     "jp": "勤務",
     "reading": "きんむ",
     "romaji": "kinmu",
-    "meaning": "service, duty, work"
+    "meaning": "service, duty, work",
+    "vi": "làm việc, công tác"
   },
   {
     "id": "n1-1057",
     "jp": "禁物",
     "reading": "きんもつ",
     "romaji": "kinmotsu",
-    "meaning": "taboo, forbidden thing"
+    "meaning": "taboo, forbidden thing",
+    "vi": "điều cấm kỵ"
   },
   {
     "id": "n1-1058",
     "jp": "勤労",
     "reading": "きんろう",
     "romaji": "kinrou",
-    "meaning": "labor, exertion, diligent service"
+    "meaning": "labor, exertion, diligent service",
+    "vi": "lao động, làm việc chăm chỉ"
   },
   {
     "id": "n1-1059",
     "jp": "クイズ",
     "reading": "クイズ",
     "romaji": "クイズ",
-    "meaning": "quiz"
+    "meaning": "quiz",
+    "vi": "câu đố, trò chơi đố vui"
   },
   {
     "id": "n1-1060",
     "jp": "食い違う",
     "reading": "くいちがう",
     "romaji": "kuichigau",
-    "meaning": "to cross each other, to differ"
+    "meaning": "to cross each other, to differ",
+    "vi": "khác nhau, mâu thuẫn nhau"
   },
   {
     "id": "n1-1061",
     "jp": "空間",
     "reading": "くうかん",
     "romaji": "kuukan",
-    "meaning": "space, room, airspace"
+    "meaning": "space, room, airspace",
+    "vi": "không gian"
   },
   {
     "id": "n1-1062",
     "jp": "空腹",
     "reading": "くうふく",
     "romaji": "kuufuku",
-    "meaning": "hunger"
+    "meaning": "hunger",
+    "vi": "đói bụng"
   },
   {
     "id": "n1-1063",
     "jp": "区画",
     "reading": "くかく",
     "romaji": "kukaku",
-    "meaning": "division, section, area"
+    "meaning": "division, section, area",
+    "vi": "phân khu, khu vực"
   },
   {
     "id": "n1-1064",
     "jp": "区間",
     "reading": "くかん",
     "romaji": "kukan",
-    "meaning": "section"
+    "meaning": "section",
+    "vi": "đoạn, chặng (đường)"
   },
   {
     "id": "n1-1065",
     "jp": "茎",
     "reading": "くき",
     "romaji": "kuki",
-    "meaning": "stalk"
+    "meaning": "stalk",
+    "vi": "cuống, thân cây"
   },
   {
     "id": "n1-1066",
     "jp": "区切り",
     "reading": "くぎり",
     "romaji": "kugiri",
-    "meaning": "an end, a stop, punctuation"
+    "meaning": "an end, a stop, punctuation",
+    "vi": "sự phân đoạn, dấu ngắt câu"
   },
   {
     "id": "n1-1067",
     "jp": "くぐる",
     "reading": "くぐる",
     "romaji": "kuguru",
-    "meaning": "to pass through; to go around"
+    "meaning": "to pass through; to go around",
+    "vi": "chui qua, luồn qua"
   },
   {
     "id": "n1-1068",
     "jp": "くじ (～をひく)",
     "reading": "くじ (～をひく)",
     "romaji": "kuji (～wohiku)",
-    "meaning": "lottery, lot"
+    "meaning": "lottery, lot",
+    "vi": "xổ số, rút thăm"
   },
   {
     "id": "n1-1069",
     "jp": "くじびき",
     "reading": "くじびき",
     "romaji": "kujibiki",
-    "meaning": "lottery, drawn lot"
+    "meaning": "lottery, drawn lot",
+    "vi": "bốc thăm trúng thưởng"
   },
   {
     "id": "n1-1070",
     "jp": "くすぐったい",
     "reading": "くすぐったい",
     "romaji": "kusuguttai",
-    "meaning": "ticklish"
+    "meaning": "ticklish",
+    "vi": "buồn (khi bị cù); nhột"
   },
   {
     "id": "n1-1071",
     "jp": "愚痴",
     "reading": "ぐち",
     "romaji": "guchi",
-    "meaning": "idle complaint, grumble"
+    "meaning": "idle complaint, grumble",
+    "vi": "lời than vãn, phàn nàn"
   },
   {
     "id": "n1-1072",
     "jp": "口吟む",
     "reading": "くちずさむ",
     "romaji": "kuchizusamu",
-    "meaning": "to humble"
+    "meaning": "to humble",
+    "vi": "ngâm nga, lẩm bẩm"
   },
   {
     "id": "n1-1073",
     "jp": "嘴",
     "reading": "くちばし",
     "romaji": "kuchibashi",
-    "meaning": "beak, bill"
+    "meaning": "beak, bill",
+    "vi": "mỏ (chim)"
   },
   {
     "id": "n1-1074",
     "jp": "朽ちる",
     "reading": "くちる",
     "romaji": "kuchiru",
-    "meaning": "to rot"
+    "meaning": "to rot",
+    "vi": "mục nát, thối rữa"
   },
   {
     "id": "n1-1075",
     "jp": "覆す",
     "reading": "くつがえす",
     "romaji": "kutsugaesu",
-    "meaning": "to overturn, to upset, to overthrow"
+    "meaning": "to overturn, to upset, to overthrow",
+    "vi": "lật đổ, đảo lộn"
   },
   {
     "id": "n1-1076",
     "jp": "くっきり",
     "reading": "くっきり",
     "romaji": "kukkiri",
-    "meaning": "distinctly, clearly, boldly"
+    "meaning": "distinctly, clearly, boldly",
+    "vi": "rõ nét, rõ ràng"
   },
   {
     "id": "n1-1077",
     "jp": "屈折",
     "reading": "くっせつ",
     "romaji": "kussetsu",
-    "meaning": "bending, indentation, refraction"
+    "meaning": "bending, indentation, refraction",
+    "vi": "khúc xạ, uốn cong"
   },
   {
     "id": "n1-1078",
     "jp": "ぐっと",
     "reading": "ぐっと",
     "romaji": "gutto",
-    "meaning": "firmly, fast, more"
+    "meaning": "firmly, fast, more",
+    "vi": "mạnh mẽ, đáng kể (hơn hẳn)"
   },
   {
     "id": "n1-1079",
     "jp": "首飾り",
     "reading": "くびかざり",
     "romaji": "kubikazari",
-    "meaning": "necklace"
+    "meaning": "necklace",
+    "vi": "vòng cổ, dây chuyền"
   },
   {
     "id": "n1-1080",
     "jp": "首輪",
     "reading": "くびわ",
     "romaji": "kubiwa",
-    "meaning": "necklace, choker"
+    "meaning": "necklace, choker",
+    "vi": "vòng cổ (cho thú cưng)"
   },
   {
     "id": "n1-1081",
     "jp": "組み込む",
     "reading": "くみこむ",
     "romaji": "kumikomu",
-    "meaning": "to insert, to include, to cut in (printing)"
+    "meaning": "to insert, to include, to cut in (printing)",
+    "vi": "lồng vào, đưa vào (hệ thống)"
   },
   {
     "id": "n1-1082",
     "jp": "組み合わせる",
     "reading": "くみあわせる",
     "romaji": "kumiawaseru",
-    "meaning": "to join together, to combine, to join up"
+    "meaning": "to join together, to combine, to join up",
+    "vi": "kết hợp, ghép nối"
   },
   {
     "id": "n1-1083",
     "jp": "蔵",
     "reading": "くら",
     "romaji": "kura",
-    "meaning": "warehouse, cellar"
+    "meaning": "warehouse, cellar",
+    "vi": "kho, hầm chứa"
   },
   {
     "id": "n1-1084",
     "jp": "グレー",
     "reading": "グレー",
     "romaji": "グレー",
-    "meaning": "grey, gray"
+    "meaning": "grey, gray",
+    "vi": "màu xám"
   },
   {
     "id": "n1-1085",
     "jp": "クレーン",
     "reading": "クレーン",
     "romaji": "クレーン",
-    "meaning": "crane"
+    "meaning": "crane",
+    "vi": "cần cẩu"
   },
   {
     "id": "n1-1086",
     "jp": "玄人",
     "reading": "くろうと",
     "romaji": "kurouto",
-    "meaning": "expert, professional"
+    "meaning": "expert, professional",
+    "vi": "chuyên gia, người sành sỏi"
   },
   {
     "id": "n1-1087",
     "jp": "黒字",
     "reading": "くろじ",
     "romaji": "kuroji",
-    "meaning": "balance (figure) in the black"
+    "meaning": "balance (figure) in the black",
+    "vi": "có lãi, thặng dư"
   },
   {
     "id": "n1-1088",
     "jp": "軍艦",
     "reading": "ぐんかん",
     "romaji": "gunkan",
-    "meaning": "warship, battleship"
+    "meaning": "warship, battleship",
+    "vi": "chiến hạm, tàu chiến"
   },
   {
     "id": "n1-1089",
     "jp": "軍事",
     "reading": "ぐんじ",
     "romaji": "gunji",
-    "meaning": "military affairs"
+    "meaning": "military affairs",
+    "vi": "quân sự"
   },
   {
     "id": "n1-1090",
     "jp": "君主",
     "reading": "くんしゅ",
     "romaji": "kunshu",
-    "meaning": "ruler, monarch"
+    "meaning": "ruler, monarch",
+    "vi": "quân chủ, vua"
   },
   {
     "id": "n1-1091",
     "jp": "群集",
     "reading": "ぐんしゅう",
     "romaji": "gunshuu",
-    "meaning": "(social) group, crowd, mob"
+    "meaning": "(social) group, crowd, mob",
+    "vi": "đám đông"
   },
   {
     "id": "n1-1092",
     "jp": "群衆",
     "reading": "ぐんしゅう",
     "romaji": "gunshuu",
-    "meaning": "(social) group, crowd, mob"
+    "meaning": "(social) group, crowd, mob",
+    "vi": "đám đông, quần chúng"
   },
   {
     "id": "n1-1093",
     "jp": "軍備",
     "reading": "ぐんび",
     "romaji": "gunbi",
-    "meaning": "armaments, military preparations"
+    "meaning": "armaments, military preparations",
+    "vi": "quân bị, vũ trang"
   },
   {
     "id": "n1-1094",
     "jp": "軍服",
     "reading": "ぐんぷく",
     "romaji": "gunpuku",
-    "meaning": "military or naval uniform"
+    "meaning": "military or naval uniform",
+    "vi": "quân phục"
   },
   {
     "id": "n1-1095",
     "jp": "芸",
     "reading": "げい",
     "romaji": "gei",
-    "meaning": "art, accomplishment, performance"
+    "meaning": "art, accomplishment, performance",
+    "vi": "nghệ thuật, tài lẻ"
   },
   {
     "id": "n1-1096",
     "jp": "経過",
     "reading": "けいか",
     "romaji": "keika",
-    "meaning": "passage, progress"
+    "meaning": "passage, progress",
+    "vi": "diễn biến, quá trình"
   },
   {
     "id": "n1-1097",
     "jp": "軽快",
     "reading": "けいかい",
     "romaji": "keikai",
-    "meaning": "lively, casual, light"
+    "meaning": "lively, casual, light",
+    "vi": "nhẹ nhàng, thoải mái"
   },
   {
     "id": "n1-1098",
     "jp": "警戒",
     "reading": "けいかい",
     "romaji": "keikai",
-    "meaning": "warning, admonition, vigilance"
+    "meaning": "warning, admonition, vigilance",
+    "vi": "cảnh giác, đề phòng"
   },
   {
     "id": "n1-1099",
     "jp": "敬具",
     "reading": "けいぐ",
     "romaji": "keigu",
-    "meaning": "Sincerely (used at the end of letter)"
+    "meaning": "Sincerely (used at the end of letter)",
+    "vi": "kính thư (dùng cuối thư)"
   },
   {
     "id": "n1-1100",
     "jp": "軽減",
     "reading": "けいげん",
     "romaji": "keigen",
-    "meaning": "reduction, lessening"
+    "meaning": "reduction, lessening",
+    "vi": "giảm nhẹ, giảm bớt"
   },
   {
     "id": "n1-1101",
     "jp": "掲載",
     "reading": "けいさい",
     "romaji": "keisai",
-    "meaning": "appearance (e.g., article in paper)"
+    "meaning": "appearance (e.g., article in paper)",
+    "vi": "đăng tải (báo chí)"
   },
   {
     "id": "n1-1102",
     "jp": "傾斜",
     "reading": "けいしゃ",
     "romaji": "keisha",
-    "meaning": "inclination, slope, dip"
+    "meaning": "inclination, slope, dip",
+    "vi": "độ nghiêng, dốc"
   },
   {
     "id": "n1-1103",
     "jp": "形成",
     "reading": "けいせい",
     "romaji": "keisei",
-    "meaning": "formation"
+    "meaning": "formation",
+    "vi": "sự hình thành"
   },
   {
     "id": "n1-1104",
     "jp": "形勢",
     "reading": "けいせい",
     "romaji": "keisei",
-    "meaning": "condition, situation, prospects"
+    "meaning": "condition, situation, prospects",
+    "vi": "tình hình, cục diện"
   },
   {
     "id": "n1-1105",
     "jp": "軽率",
     "reading": "けいそつ",
     "romaji": "keisotsu",
-    "meaning": "thoughtless, careless, hasty"
+    "meaning": "thoughtless, careless, hasty",
+    "vi": "hấp tấp, thiếu suy nghĩ"
   },
   {
     "id": "n1-1106",
     "jp": "刑罰",
     "reading": "けいばつ",
     "romaji": "keibatsu",
-    "meaning": "judgment, penalty, punishment"
+    "meaning": "judgment, penalty, punishment",
+    "vi": "hình phạt"
   },
   {
     "id": "n1-1107",
     "jp": "経費",
     "reading": "けいひ",
     "romaji": "keihi",
-    "meaning": "expenses, cost, outlay"
+    "meaning": "expenses, cost, outlay",
+    "vi": "chi phí"
   },
   {
     "id": "n1-1108",
     "jp": "警部",
     "reading": "けいぶ",
     "romaji": "keibu",
-    "meaning": "police inspector"
+    "meaning": "police inspector",
+    "vi": "cảnh sát viên (cấp thanh tra)"
   },
   {
     "id": "n1-1109",
     "jp": "転換",
     "reading": "てんかん",
     "romaji": "tenkan",
-    "meaning": "convert, divert"
+    "meaning": "convert, divert",
+    "vi": "chuyển đổi, chuyển hướng"
   },
   {
     "id": "n1-1110",
     "jp": "転居",
     "reading": "てんきょ",
     "romaji": "tenkyo",
-    "meaning": "moving, changing residence"
+    "meaning": "moving, changing residence",
+    "vi": "chuyển nhà, đổi chỗ ở"
   },
   {
     "id": "n1-1111",
     "jp": "転勤",
     "reading": "てんきん",
     "romaji": "tenkin",
-    "meaning": "transfer (to another office of a company)"
+    "meaning": "transfer (to another office of a company)",
+    "vi": "chuyển công tác"
   },
   {
     "id": "n1-1112",
     "jp": "点検",
     "reading": "てんけん",
     "romaji": "tenken",
-    "meaning": "inspection, examination, checking"
+    "meaning": "inspection, examination, checking",
+    "vi": "kiểm tra"
   },
   {
     "id": "n1-1113",
     "jp": "電源",
     "reading": "でんげん",
     "romaji": "dengen",
-    "meaning": "source of electricity, power (e.g., button on TV)"
+    "meaning": "source of electricity, power (e.g., button on TV)",
+    "vi": "nguồn điện"
   },
   {
     "id": "n1-1114",
     "jp": "天国",
     "reading": "てんごく",
     "romaji": "tengoku",
-    "meaning": "paradise, heaven, Kingdom of Heaven"
+    "meaning": "paradise, heaven, Kingdom of Heaven",
+    "vi": "thiên đường"
   },
   {
     "id": "n1-1115",
     "jp": "天才",
     "reading": "てんさい",
     "romaji": "tensai",
-    "meaning": "a genius"
+    "meaning": "a genius",
+    "vi": "thiên tài"
   },
   {
     "id": "n1-1116",
     "jp": "天災",
     "reading": "てんさい",
     "romaji": "tensai",
-    "meaning": "natural calamity, disaster"
+    "meaning": "natural calamity, disaster",
+    "vi": "thiên tai"
   },
   {
     "id": "n1-1117",
     "jp": "展示",
     "reading": "てんじ",
     "romaji": "tenji",
-    "meaning": "exhibition, display"
+    "meaning": "exhibition, display",
+    "vi": "trưng bày, triển lãm"
   },
   {
     "id": "n1-1118",
     "jp": "伝説",
     "reading": "でんせつ",
     "romaji": "densetsu",
-    "meaning": "tradition, legend, folklore"
+    "meaning": "tradition, legend, folklore",
+    "vi": "truyền thuyết"
   },
   {
     "id": "n1-1119",
     "jp": "点線",
     "reading": "てんせん",
     "romaji": "tensen",
-    "meaning": "dotted line"
+    "meaning": "dotted line",
+    "vi": "đường chấm chấm"
   },
   {
     "id": "n1-1120",
     "jp": "転じる",
     "reading": "てんじる",
     "romaji": "tenjiru",
-    "meaning": "to turn, to shift"
+    "meaning": "to turn, to shift",
+    "vi": "chuyển hướng, chuyển sang"
   },
   {
     "id": "n1-1121",
     "jp": "転ずる",
     "reading": "てんずる",
     "romaji": "tenzuru",
-    "meaning": "to turn, to shift"
+    "meaning": "to turn, to shift",
+    "vi": "chuyển hướng, chuyển sang"
   },
   {
     "id": "n1-1122",
     "jp": "天体",
     "reading": "てんたい",
     "romaji": "tentai",
-    "meaning": "heavenly body"
+    "meaning": "heavenly body",
+    "vi": "thiên thể"
   },
   {
     "id": "n1-1123",
     "jp": "伝達",
     "reading": "でんたつ",
     "romaji": "dentatsu",
-    "meaning": "transmission (e.g., news, communication, delivery)"
+    "meaning": "transmission (e.g., news, communication, delivery)",
+    "vi": "truyền đạt"
   },
   {
     "id": "n1-1124",
     "jp": "天地",
     "reading": "てんち",
     "romaji": "tenchi",
-    "meaning": "heaven and earth, the universe"
+    "meaning": "heaven and earth, the universe",
+    "vi": "trời đất, vũ trụ"
   },
   {
     "id": "n1-1125",
     "jp": "てんで",
     "reading": "てんで",
     "romaji": "tende",
-    "meaning": "(not) at all, altogether, entirely"
+    "meaning": "(not) at all, altogether, entirely",
+    "vi": "hoàn toàn (không), tuyệt nhiên"
   },
   {
     "id": "n1-1126",
     "jp": "転任",
     "reading": "てんにん",
     "romaji": "tennin",
-    "meaning": "change of post"
+    "meaning": "change of post",
+    "vi": "chuyển nhiệm sở"
   },
   {
     "id": "n1-1127",
     "jp": "展望",
     "reading": "てんぼう",
     "romaji": "tenbou",
-    "meaning": "view, outlook, prospect"
+    "meaning": "view, outlook, prospect",
+    "vi": "triển vọng, tầm nhìn"
   },
   {
     "id": "n1-1128",
     "jp": "伝来",
     "reading": "でんらい",
     "romaji": "denrai",
-    "meaning": "ancestral, hereditary, imported"
+    "meaning": "ancestral, hereditary, imported",
+    "vi": "truyền từ đời trước, du nhập"
   },
   {
     "id": "n1-1129",
     "jp": "転落",
     "reading": "てんらく",
     "romaji": "tenraku",
-    "meaning": "fall, degradation"
+    "meaning": "fall, degradation",
+    "vi": "rơi xuống, sa sút"
   },
   {
     "id": "n1-1130",
     "jp": "問い合わせる",
     "reading": "といあわせる",
     "romaji": "toiawaseru",
-    "meaning": "to inquire, to seek information"
+    "meaning": "to inquire, to seek information",
+    "vi": "hỏi thăm, tra hỏi thông tin"
   },
   {
     "id": "n1-1131",
     "jp": "当～",
     "reading": "とう～",
     "romaji": "tou～",
-    "meaning": "Our ~ (e.g., Hotel, plane, etc.)"
+    "meaning": "Our ~ (e.g., Hotel, plane, etc.)",
+    "vi": "~ này, ~ chúng tôi"
   },
   {
     "id": "n1-1132",
     "jp": "胴",
     "reading": "どう",
     "romaji": "dou",
-    "meaning": "trunk, body, frame"
+    "meaning": "trunk, body, frame",
+    "vi": "thân (người/vật)"
   },
   {
     "id": "n1-1133",
     "jp": "同意",
     "reading": "どうい",
     "romaji": "doui",
-    "meaning": "agreement, consent; same meaning"
+    "meaning": "agreement, consent; same meaning",
+    "vi": "đồng ý; cùng nghĩa"
   },
   {
     "id": "n1-1134",
     "jp": "動員",
     "reading": "どういん",
     "romaji": "douin",
-    "meaning": "mobilization"
+    "meaning": "mobilization",
+    "vi": "động viên, huy động"
   },
   {
     "id": "n1-1135",
     "jp": "同感",
     "reading": "どうかん",
     "romaji": "doukan",
-    "meaning": "agreement, same opinion, same feeling"
+    "meaning": "agreement, same opinion, same feeling",
+    "vi": "đồng cảm, cùng ý kiến"
   },
   {
     "id": "n1-1136",
     "jp": "陶器",
     "reading": "とうき",
     "romaji": "touki",
-    "meaning": "pottery, ceramics"
+    "meaning": "pottery, ceramics",
+    "vi": "đồ gốm"
   },
   {
     "id": "n1-1137",
     "jp": "討議",
     "reading": "とうぎ",
     "romaji": "tougi",
-    "meaning": "debate, discussion"
+    "meaning": "debate, discussion",
+    "vi": "thảo luận, tranh luận"
   },
   {
     "id": "n1-1138",
     "jp": "動機",
     "reading": "どうき",
     "romaji": "douki",
-    "meaning": "motive, incentive"
+    "meaning": "motive, incentive",
+    "vi": "động cơ, động lực"
   },
   {
     "id": "n1-1139",
     "jp": "等級",
     "reading": "とうきゅう",
     "romaji": "toukyuu",
-    "meaning": "grade, class"
+    "meaning": "grade, class",
+    "vi": "cấp bậc, hạng"
   },
   {
     "id": "n1-1140",
     "jp": "同級",
     "reading": "どうきゅう",
     "romaji": "doukyuu",
-    "meaning": "the same grade, same class"
+    "meaning": "the same grade, same class",
+    "vi": "cùng lớp, cùng khối"
   },
   {
     "id": "n1-1141",
     "jp": "同居",
     "reading": "どうきょ",
     "romaji": "doukyo",
-    "meaning": "living together"
+    "meaning": "living together",
+    "vi": "sống chung"
   },
   {
     "id": "n1-1142",
     "jp": "登校",
     "reading": "とうこう",
     "romaji": "toukou",
-    "meaning": "attendance (at school)"
+    "meaning": "attendance (at school)",
+    "vi": "đến trường"
   },
   {
     "id": "n1-1143",
     "jp": "統合",
     "reading": "とうごう",
     "romaji": "tougou",
-    "meaning": "integration, unification, synthesis"
+    "meaning": "integration, unification, synthesis",
+    "vi": "hợp nhất, tích hợp"
   },
   {
     "id": "n1-1144",
     "jp": "動向",
     "reading": "どうこう",
     "romaji": "doukou",
-    "meaning": "trend, tendency, movement, attitude"
+    "meaning": "trend, tendency, movement, attitude",
+    "vi": "xu hướng, động thái"
   },
   {
     "id": "n1-1145",
     "jp": "投資",
     "reading": "とうし",
     "romaji": "toushi",
-    "meaning": "investment"
+    "meaning": "investment",
+    "vi": "đầu tư"
   },
   {
     "id": "n1-1146",
     "jp": "同情",
     "reading": "どうじょう",
     "romaji": "doujou",
-    "meaning": "sympathy, compassion, sympathize"
+    "meaning": "sympathy, compassion, sympathize",
+    "vi": "thông cảm, đồng cảm"
   },
   {
     "id": "n1-1147",
     "jp": "道場",
     "reading": "どうじょう",
     "romaji": "doujou",
-    "meaning": "(arch) dojo, hall used for martial arts training, mandala"
+    "meaning": "(arch) dojo, hall used for martial arts training, mandala",
+    "vi": "võ đường"
   },
   {
     "id": "n1-1148",
     "jp": "統制",
     "reading": "とうせい",
     "romaji": "tousei",
-    "meaning": "regulation, control"
+    "meaning": "regulation, control",
+    "vi": "quản chế, kiểm soát"
   },
   {
     "id": "n1-1149",
     "jp": "当選",
     "reading": "とうせん",
     "romaji": "tousen",
-    "meaning": "being elected, winning the prize"
+    "meaning": "being elected, winning the prize",
+    "vi": "trúng cử, trúng thưởng"
   },
   {
     "id": "n1-1150",
     "jp": "逃走",
     "reading": "とうそう",
     "romaji": "tousou",
-    "meaning": "flight, desertion, escape"
+    "meaning": "flight, desertion, escape",
+    "vi": "chạy trốn, đào tẩu"
   },
   {
     "id": "n1-1151",
     "jp": "統率",
     "reading": "とうそつ",
     "romaji": "tousotsu",
-    "meaning": "command, generalship, leadership"
+    "meaning": "command, generalship, leadership",
+    "vi": "chỉ huy, thống lĩnh"
   },
   {
     "id": "n1-1152",
     "jp": "到達",
     "reading": "とうたつ",
     "romaji": "toutatsu",
-    "meaning": "reaching, attaining, arrival"
+    "meaning": "reaching, attaining, arrival",
+    "vi": "đạt tới, đến nơi"
   },
   {
     "id": "n1-1153",
     "jp": "統治",
     "reading": "とうち",
     "romaji": "touchi",
-    "meaning": "rule, reign, governing"
+    "meaning": "rule, reign, governing",
+    "vi": "cai trị, thống trị"
   },
   {
     "id": "n1-1154",
     "jp": "仕切る",
     "reading": "しきる",
     "romaji": "shikiru",
-    "meaning": "to partition, to divide, to mark off"
+    "meaning": "to partition, to divide, to mark off",
+    "vi": "ngăn cách, phân chia"
   },
   {
     "id": "n1-1155",
     "jp": "資金",
     "reading": "しきん",
     "romaji": "shikin",
-    "meaning": "funds, capital"
+    "meaning": "funds, capital",
+    "vi": "vốn, quỹ"
   },
   {
     "id": "n1-1156",
     "jp": "軸",
     "reading": "じく",
     "romaji": "jiku",
-    "meaning": "axis, stem, shaft"
+    "meaning": "axis, stem, shaft",
+    "vi": "trục"
   },
   {
     "id": "n1-1157",
     "jp": "しくじる",
     "reading": "しくじる",
     "romaji": "shikujiru",
-    "meaning": "to fail, to fall through, to blunder"
+    "meaning": "to fail, to fall through, to blunder",
+    "vi": "thất bại, hỏng việc"
   },
   {
     "id": "n1-1158",
     "jp": "仕組",
     "reading": "しくみ",
     "romaji": "shikumi",
-    "meaning": "structure, mechanism"
+    "meaning": "structure, mechanism",
+    "vi": "cơ cấu, cơ chế"
   },
   {
     "id": "n1-1159",
     "jp": "死刑",
     "reading": "しけい",
     "romaji": "shikei",
-    "meaning": "death penalty"
+    "meaning": "death penalty",
+    "vi": "án tử hình"
   },
   {
     "id": "n1-1160",
     "jp": "湿気る",
     "reading": "しける",
     "romaji": "shikeru",
-    "meaning": "to be damp, to be moist"
+    "meaning": "to be damp, to be moist",
+    "vi": "bị ẩm, ẩm mốc"
   },
   {
     "id": "n1-1161",
     "jp": "施行",
     "reading": "しこう",
     "romaji": "shikou",
-    "meaning": "enforcement, operation"
+    "meaning": "enforcement, operation",
+    "vi": "thi hành, thực thi"
   },
   {
     "id": "n1-1162",
     "jp": "思考",
     "reading": "しこう",
     "romaji": "shikou",
-    "meaning": "thought"
+    "meaning": "thought",
+    "vi": "tư duy, suy nghĩ"
   },
   {
     "id": "n1-1163",
     "jp": "志向",
     "reading": "しこう",
     "romaji": "shikou",
-    "meaning": "intention, aim"
+    "meaning": "intention, aim",
+    "vi": "khuynh hướng, xu hướng"
   },
   {
     "id": "n1-1164",
     "jp": "嗜好",
     "reading": "しこう",
     "romaji": "shikou",
-    "meaning": "taste, liking, preference"
+    "meaning": "taste, liking, preference",
+    "vi": "sở thích"
   },
   {
     "id": "n1-1165",
     "jp": "事項",
     "reading": "じこう",
     "romaji": "jikou",
-    "meaning": "matter(s), item(s), facts"
+    "meaning": "matter(s), item(s), facts",
+    "vi": "sự việc, hạng mục"
   },
   {
     "id": "n1-1166",
     "jp": "時刻表",
     "reading": "じこくひょう",
     "romaji": "jikokuhyou",
-    "meaning": "timetable, (train) schedule"
+    "meaning": "timetable, (train) schedule",
+    "vi": "bảng giờ tàu/xe"
   },
   {
     "id": "n1-1167",
     "jp": "地獄",
     "reading": "じごく",
     "romaji": "jigoku",
-    "meaning": "hell"
+    "meaning": "hell",
+    "vi": "địa ngục"
   },
   {
     "id": "n1-1168",
     "jp": "時差",
     "reading": "じさ",
     "romaji": "jisa",
-    "meaning": "time difference"
+    "meaning": "time difference",
+    "vi": "chênh lệch múi giờ"
   },
   {
     "id": "n1-1169",
     "jp": "自在",
     "reading": "じざい",
     "romaji": "jizai",
-    "meaning": "freely, at will"
+    "meaning": "freely, at will",
+    "vi": "tự do, tùy ý"
   },
   {
     "id": "n1-1170",
     "jp": "視察",
     "reading": "しさつ",
     "romaji": "shisatsu",
-    "meaning": "inspection, observation"
+    "meaning": "inspection, observation",
+    "vi": "thị sát, giám sát"
   },
   {
     "id": "n1-1171",
     "jp": "資産",
     "reading": "しさん",
     "romaji": "shisan",
-    "meaning": "property, fortune, assets"
+    "meaning": "property, fortune, assets",
+    "vi": "tài sản"
   },
   {
     "id": "n1-1172",
     "jp": "支持",
     "reading": "しじ",
     "romaji": "shiji",
-    "meaning": "support"
+    "meaning": "support",
+    "vi": "ủng hộ"
   },
   {
     "id": "n1-1173",
     "jp": "自主",
     "reading": "じしゅ",
     "romaji": "jishu",
-    "meaning": "independence, autonomy"
+    "meaning": "independence, autonomy",
+    "vi": "tự chủ"
   },
   {
     "id": "n1-1174",
     "jp": "自首",
     "reading": "じしゅ",
     "romaji": "jishu",
-    "meaning": "surrender, give oneself up"
+    "meaning": "surrender, give oneself up",
+    "vi": "tự thú, đầu thú"
   },
   {
     "id": "n1-1175",
     "jp": "刺繍",
     "reading": "ししゅう",
     "romaji": "shishuu",
-    "meaning": "embroidery"
+    "meaning": "embroidery",
+    "vi": "thêu"
   },
   {
     "id": "n1-1176",
     "jp": "市場",
     "reading": "しじょう",
     "romaji": "shijou",
-    "meaning": "(the) market (as a concept)"
+    "meaning": "(the) market (as a concept)",
+    "vi": "thị trường"
   },
   {
     "id": "n1-1177",
     "jp": "辞職",
     "reading": "じしょく",
     "romaji": "jishoku",
-    "meaning": "resignation"
+    "meaning": "resignation",
+    "vi": "từ chức"
   },
   {
     "id": "n1-1178",
     "jp": "雫",
     "reading": "しずく",
     "romaji": "shizuku",
-    "meaning": "drop (of water)"
+    "meaning": "drop (of water)",
+    "vi": "giọt (nước)"
   },
   {
     "id": "n1-1179",
     "jp": "システム",
     "reading": "システム",
     "romaji": "システム",
-    "meaning": "system"
+    "meaning": "system",
+    "vi": "hệ thống"
   },
   {
     "id": "n1-1180",
     "jp": "沈める",
     "reading": "しずめる",
     "romaji": "shizumeru",
-    "meaning": "to sink, to submerge"
+    "meaning": "to sink, to submerge",
+    "vi": "nhấn chìm"
   },
   {
     "id": "n1-1181",
     "jp": "施設",
     "reading": "しせつ",
     "romaji": "shisetsu",
-    "meaning": "establishment, facility"
+    "meaning": "establishment, facility",
+    "vi": "cơ sở, thiết bị"
   },
   {
     "id": "n1-1182",
     "jp": "事前",
     "reading": "じぜん",
     "romaji": "jizen",
-    "meaning": "prior, beforehand, in advance"
+    "meaning": "prior, beforehand, in advance",
+    "vi": "trước, tiền kỳ"
   },
   {
     "id": "n1-1183",
     "jp": "子息",
     "reading": "しそく",
     "romaji": "shisoku",
-    "meaning": "(hon.) son"
+    "meaning": "(hon.) son",
+    "vi": "con trai (cách nói tôn trọng)"
   },
   {
     "id": "n1-1184",
     "jp": "持続",
     "reading": "じぞく",
     "romaji": "jizoku",
-    "meaning": "continuation, endurance"
+    "meaning": "continuation, endurance",
+    "vi": "duy trì, bền bỉ"
   },
   {
     "id": "n1-1185",
     "jp": "自尊心",
     "reading": "じそんしん",
     "romaji": "jisonshin",
-    "meaning": "self-respect, conceit"
+    "meaning": "self-respect, conceit",
+    "vi": "lòng tự trọng"
   },
   {
     "id": "n1-1186",
     "jp": "慕う",
     "reading": "したう",
     "romaji": "shitau",
-    "meaning": "to yearn to adore"
+    "meaning": "to yearn to adore",
+    "vi": "ngưỡng mộ, kính mến"
   },
   {
     "id": "n1-1187",
     "jp": "下心",
     "reading": "したごころ",
     "romaji": "shitagokoro",
-    "meaning": "secret intention, motive"
+    "meaning": "secret intention, motive",
+    "vi": "ý đồ, ẩn ý"
   },
   {
     "id": "n1-1188",
     "jp": "下地",
     "reading": "したじ",
     "romaji": "shitaji",
-    "meaning": "groundwork, foundation"
+    "meaning": "groundwork, foundation",
+    "vi": "nền tảng, cơ sở"
   },
   {
     "id": "n1-1189",
     "jp": "親しむ",
     "reading": "したしむ",
     "romaji": "shitashimu",
-    "meaning": "to be intimate with, to befriend"
+    "meaning": "to be intimate with, to befriend",
+    "vi": "thân thiết, gần gũi"
   },
   {
     "id": "n1-1190",
     "jp": "下調べ",
     "reading": "したしらべ",
     "romaji": "shitashirabe",
-    "meaning": "preliminary investigation"
+    "meaning": "preliminary investigation",
+    "vi": "khảo sát sơ bộ"
   },
   {
     "id": "n1-1191",
     "jp": "愛想",
     "reading": "あいそう",
     "romaji": "aisou",
-    "meaning": "sociability"
+    "meaning": "sociability",
+    "vi": "sự thân thiện, niềm nở"
   },
   {
     "id": "n1-1192",
     "jp": "間柄",
     "reading": "あいだがら",
     "romaji": "aidagara",
-    "meaning": "relationship"
+    "meaning": "relationship",
+    "vi": "mối quan hệ"
   },
   {
     "id": "n1-1193",
     "jp": "合間",
     "reading": "あいま",
     "romaji": "aima",
-    "meaning": "interval"
+    "meaning": "interval",
+    "vi": "khoảng thời gian rảnh, lúc rảnh"
   },
   {
     "id": "n1-1194",
     "jp": "敢えて",
     "reading": "あえて",
     "romaji": "aete",
-    "meaning": "dare (to do), venture (to do), challenge (to do)"
+    "meaning": "dare (to do), venture (to do), challenge (to do)",
+    "vi": "dám (làm), cố tình (làm)"
   },
   {
     "id": "n1-1195",
     "jp": "仰ぐ",
     "reading": "あおぐ",
     "romaji": "aogu",
-    "meaning": "to look up (to), to respect; to ask for"
+    "meaning": "to look up (to), to respect; to ask for",
+    "vi": "ngước nhìn, tôn kính; nhờ vả"
   },
   {
     "id": "n1-1196",
     "jp": "垢",
     "reading": "あか",
     "romaji": "aka",
-    "meaning": "dirt, filth"
+    "meaning": "dirt, filth",
+    "vi": "chất bẩn, ghét"
   },
   {
     "id": "n1-1197",
     "jp": "赤字",
     "reading": "あかじ",
     "romaji": "akaji",
-    "meaning": "deficit, go in the red"
+    "meaning": "deficit, go in the red",
+    "vi": "thâm hụt, lỗ"
   },
   {
     "id": "n1-1198",
     "jp": "明かす",
     "reading": "あかす",
     "romaji": "akasu",
-    "meaning": "to reveal; to stay up"
+    "meaning": "to reveal; to stay up",
+    "vi": "tiết lộ; thức trắng đêm"
   },
   {
     "id": "n1-1199",
     "jp": "赤らむ",
     "reading": "あからむ",
     "romaji": "akaramu",
-    "meaning": "to become red, to blush"
+    "meaning": "to become red, to blush",
+    "vi": "đỏ mặt, ửng đỏ"
   },
   {
     "id": "n1-1200",
     "jp": "上がり",
     "reading": "あがり",
     "romaji": "agari",
-    "meaning": "ascent; income; completion, stop"
+    "meaning": "ascent; income; completion, stop",
+    "vi": "sự đi lên; thu nhập; hoàn thành"
   },
   {
     "id": "n1-1201",
     "jp": "諦め",
     "reading": "あきらめ",
     "romaji": "akirame",
-    "meaning": "resignation, reconciliation, consolation"
+    "meaning": "resignation, reconciliation, consolation",
+    "vi": "sự cam chịu, từ bỏ"
   },
   {
     "id": "n1-1202",
     "jp": "アクセル",
     "reading": "アクセル",
     "romaji": "アクセル",
-    "meaning": "(abbr.) accelerator"
+    "meaning": "(abbr.) accelerator",
+    "vi": "chân ga"
   },
   {
     "id": "n1-1203",
     "jp": "あくどい",
     "reading": "あくどい",
     "romaji": "akudoi",
-    "meaning": "gaudy vicious"
+    "meaning": "gaudy vicious",
+    "vi": "lòe loẹt, ác độc"
   },
   {
     "id": "n1-1204",
     "jp": "顎",
     "reading": "あご",
     "romaji": "ago",
-    "meaning": "chin"
+    "meaning": "chin",
+    "vi": "cằm"
   },
   {
     "id": "n1-1205",
     "jp": "憧れ",
     "reading": "あこがれ",
     "romaji": "akogare",
-    "meaning": "yearning, longing, aspiration"
+    "meaning": "yearning, longing, aspiration",
+    "vi": "sự khao khát, ngưỡng mộ"
   },
   {
     "id": "n1-1206",
     "jp": "麻",
     "reading": "あさ",
     "romaji": "asa",
-    "meaning": "hemp"
+    "meaning": "hemp",
+    "vi": "cây gai dầu, vải lanh"
   },
   {
     "id": "n1-1207",
     "jp": "あざ",
     "reading": "あざ",
     "romaji": "aza",
-    "meaning": "birthmark, bruise"
+    "meaning": "birthmark, bruise",
+    "vi": "vết bớt, vết bầm"
   },
   {
     "id": "n1-1208",
     "jp": "浅ましい",
     "reading": "あさましい",
     "romaji": "asamashii",
-    "meaning": "shameful, mean, despicable"
+    "meaning": "shameful, mean, despicable",
+    "vi": "đáng xấu hổ, hèn hạ"
   },
   {
     "id": "n1-1209",
     "jp": "欺く",
     "reading": "あざむく",
     "romaji": "azamuku",
-    "meaning": "to deceive"
+    "meaning": "to deceive",
+    "vi": "lừa dối"
   },
   {
     "id": "n1-1210",
     "jp": "鮮やか",
     "reading": "あざやか",
     "romaji": "azayaka",
-    "meaning": "vivid, clear"
+    "meaning": "vivid, clear",
+    "vi": "tươi sáng, rõ nét"
   },
   {
     "id": "n1-1211",
     "jp": "嘲笑う",
     "reading": "あざわらう",
     "romaji": "azawarau",
-    "meaning": "to sneer at, to ridicule"
+    "meaning": "to sneer at, to ridicule",
+    "vi": "chế giễu, cười nhạo"
   },
   {
     "id": "n1-1212",
     "jp": "悪しからず",
     "reading": "あしからず",
     "romaji": "ashikarazu",
-    "meaning": "don't take me wrong, but..., I'm sorry"
+    "meaning": "don't take me wrong, but..., I'm sorry",
+    "vi": "xin đừng hiểu lầm, xin lỗi"
   },
   {
     "id": "n1-1213",
     "jp": "味わい",
     "reading": "あじわい",
     "romaji": "ajiwai",
-    "meaning": "flavor, relish"
+    "meaning": "flavor, relish",
+    "vi": "hương vị, sự thú vị"
   },
   {
     "id": "n1-1214",
     "jp": "焦る",
     "reading": "あせる",
     "romaji": "aseru",
-    "meaning": "to be in a hurry, to be impatient"
+    "meaning": "to be in a hurry, to be impatient",
+    "vi": "vội vàng, nóng lòng"
   },
   {
     "id": "n1-1215",
     "jp": "あせる (こえが～)",
     "reading": "あせる (こえが～)",
     "romaji": "aseru (koega～)",
-    "meaning": "to fade, to discolor"
+    "meaning": "to fade, to discolor",
+    "vi": "phai màu"
   },
   {
     "id": "n1-1216",
     "jp": "値",
     "reading": "あたい",
     "romaji": "atai",
-    "meaning": "value, price, worth"
+    "meaning": "value, price, worth",
+    "vi": "giá trị, giá cả"
   },
   {
     "id": "n1-1217",
     "jp": "値する",
     "reading": "あたいする",
     "romaji": "ataisuru",
-    "meaning": "to be worth, to deserve"
+    "meaning": "to be worth, to deserve",
+    "vi": "đáng giá, xứng đáng"
   },
   {
     "id": "n1-1218",
     "jp": "悪化",
     "reading": "あっか",
     "romaji": "akka",
-    "meaning": "deterioration, worsen"
+    "meaning": "deterioration, worsen",
+    "vi": "xấu đi, tệ đi"
   },
   {
     "id": "n1-1219",
     "jp": "扱い",
     "reading": "あつかい",
     "romaji": "atsukai",
-    "meaning": "treatment, service"
+    "meaning": "treatment, service",
+    "vi": "cách đối xử, xử lý"
   },
   {
     "id": "n1-1220",
     "jp": "呆気ない",
     "reading": "あっけない",
     "romaji": "akkenai",
-    "meaning": "not enough, too quick (short, long, etc.)"
+    "meaning": "not enough, too quick (short, long, etc.)",
+    "vi": "quá ngắn ngủi, hụt hẫng"
   },
   {
     "id": "n1-1221",
     "jp": "あっさり",
     "reading": "あっさり",
     "romaji": "assari",
-    "meaning": "easily, readily, quickly"
+    "meaning": "easily, readily, quickly",
+    "vi": "dễ dàng, đơn giản; thanh đạm"
   },
   {
     "id": "n1-1222",
     "jp": "斡旋",
     "reading": "あっせん",
     "romaji": "assen",
-    "meaning": "kind offices, mediation"
+    "meaning": "kind offices, mediation",
+    "vi": "môi giới, dàn xếp"
   },
   {
     "id": "n1-1223",
     "jp": "圧倒",
     "reading": "あっとう",
     "romaji": "attou",
-    "meaning": "overwhelm, overpower"
+    "meaning": "overwhelm, overpower",
+    "vi": "áp đảo"
   },
   {
     "id": "n1-1224",
     "jp": "圧迫",
     "reading": "あっぱく",
     "romaji": "appaku",
-    "meaning": "pressure, coercion, oppression"
+    "meaning": "pressure, coercion, oppression",
+    "vi": "áp bức, đè nén"
   },
   {
     "id": "n1-1225",
     "jp": "あつらえる",
     "reading": "あつらえる",
     "romaji": "atsuraeru",
-    "meaning": "to give an order, to place an order"
+    "meaning": "to give an order, to place an order",
+    "vi": "đặt làm riêng"
   },
   {
     "id": "n1-1226",
     "jp": "圧力",
     "reading": "あつりょく",
     "romaji": "atsuryoku",
-    "meaning": "stress, pressure"
+    "meaning": "stress, pressure",
+    "vi": "áp lực"
   },
   {
     "id": "n1-1227",
     "jp": "当て",
     "reading": "あて",
     "romaji": "ate",
-    "meaning": "expectations; depend"
+    "meaning": "expectations; depend",
+    "vi": "kỳ vọng; sự nương tựa"
   },
   {
     "id": "n1-1228",
     "jp": "～宛",
     "reading": "～あて",
     "romaji": "～ate",
-    "meaning": "for…(e.g., In a letter)"
+    "meaning": "for…(e.g., In a letter)",
+    "vi": "gửi cho... (trong thư)"
   },
   {
     "id": "n1-1229",
     "jp": "当て字",
     "reading": "あてじ",
     "romaji": "ateji",
-    "meaning": "phonetic-equivalent character, substitute character"
+    "meaning": "phonetic-equivalent character, substitute character",
+    "vi": "chữ Hán mượn âm (ateji)"
   },
   {
     "id": "n1-1230",
     "jp": "跡継ぎ",
     "reading": "あとつぎ",
     "romaji": "atotsugi",
-    "meaning": "heir, successor"
+    "meaning": "heir, successor",
+    "vi": "người thừa kế"
   },
   {
     "id": "n1-1231",
     "jp": "後回し",
     "reading": "あとまわし",
     "romaji": "atomawashi",
-    "meaning": "putting off, postponing"
+    "meaning": "putting off, postponing",
+    "vi": "sự trì hoãn, để sau"
   },
   {
     "id": "n1-1232",
     "jp": "油絵",
     "reading": "あぶらえ",
     "romaji": "aburae",
-    "meaning": "oil painting"
+    "meaning": "oil painting",
+    "vi": "tranh sơn dầu"
   },
   {
     "id": "n1-1233",
     "jp": "アプローチ",
     "reading": "アプローチ",
     "romaji": "アプローチ",
-    "meaning": "approach (in golf)"
+    "meaning": "approach (in golf)",
+    "vi": "cú đánh tiếp cận (golf)"
   },
   {
     "id": "n1-1234",
     "jp": "あべこべ",
     "reading": "あべこべ",
     "romaji": "abekobe",
-    "meaning": "contrary, opposite, inverse"
+    "meaning": "contrary, opposite, inverse",
+    "vi": "ngược lại, trái ngược"
   },
   {
     "id": "n1-1235",
     "jp": "甘える",
     "reading": "あまえる",
     "romaji": "amaeru",
-    "meaning": "to behave like a spoiled child, to fawn on"
+    "meaning": "to behave like a spoiled child, to fawn on",
+    "vi": "nũng nịu, làm nũng"
   },
   {
     "id": "n1-1236",
     "jp": "雨具",
     "reading": "あまぐ",
     "romaji": "amagu",
-    "meaning": "rain gear"
+    "meaning": "rain gear",
+    "vi": "đồ dùng đi mưa"
   },
   {
     "id": "n1-1237",
     "jp": "甘口",
     "reading": "あまくち",
     "romaji": "amakuchi",
-    "meaning": "sweet flavor"
+    "meaning": "sweet flavor",
+    "vi": "vị ngọt"
   },
   {
     "id": "n1-1238",
     "jp": "アマチュア",
     "reading": "アマチュア",
     "romaji": "アマチュア",
-    "meaning": "amateur"
+    "meaning": "amateur",
+    "vi": "nghiệp dư"
   },
   {
     "id": "n1-1239",
     "jp": "網",
     "reading": "あみ",
     "romaji": "ami",
-    "meaning": "net"
+    "meaning": "net",
+    "vi": "lưới"
   },
   {
     "id": "n1-1240",
     "jp": "操る",
     "reading": "あやつる",
     "romaji": "ayatsuru",
-    "meaning": "to manipulate, to operate, to pull strings"
+    "meaning": "to manipulate, to operate, to pull strings",
+    "vi": "điều khiển, giật dây"
   },
   {
     "id": "n1-1241",
     "jp": "危ぶむ",
     "reading": "あやぶむ",
     "romaji": "ayabumu",
-    "meaning": "to fear, to have misgivings, to be doubtful"
+    "meaning": "to fear, to have misgivings, to be doubtful",
+    "vi": "lo ngại, nghi ngờ"
   },
   {
     "id": "n1-1242",
     "jp": "あやふや",
     "reading": "あやふや",
     "romaji": "ayafuya",
-    "meaning": "uncertain, vague, ambiguous"
+    "meaning": "uncertain, vague, ambiguous",
+    "vi": "mơ hồ, không rõ ràng"
   },
   {
     "id": "n1-1243",
     "jp": "過ち",
     "reading": "あやまち",
     "romaji": "ayamachi",
-    "meaning": "fault, error, indiscretion"
+    "meaning": "fault, error, indiscretion",
+    "vi": "lỗi lầm, sai sót"
   },
   {
     "id": "n1-1244",
     "jp": "誤る",
     "reading": "あやまる",
     "romaji": "ayamaru",
-    "meaning": "to make a mistake"
+    "meaning": "to make a mistake",
+    "vi": "phạm sai lầm"
   },
   {
     "id": "n1-1245",
     "jp": "歩み",
     "reading": "あゆみ",
     "romaji": "ayumi",
-    "meaning": "step, progress, history"
+    "meaning": "step, progress, history",
+    "vi": "bước đi, tiến trình"
   },
   {
     "id": "n1-1246",
     "jp": "歩む",
     "reading": "あゆむ",
     "romaji": "ayumu",
-    "meaning": "to walk"
+    "meaning": "to walk",
+    "vi": "bước đi, tiến bước"
   },
   {
     "id": "n1-1247",
     "jp": "予め",
     "reading": "あらかじめ",
     "romaji": "arakajime",
-    "meaning": "in advance, previously"
+    "meaning": "in advance, previously",
+    "vi": "trước, sẵn"
   },
   {
     "id": "n1-1248",
     "jp": "荒らす",
     "reading": "あらす",
     "romaji": "arasu",
-    "meaning": "to damage; to invade"
+    "meaning": "to damage; to invade",
+    "vi": "phá hoại; xâm phạm"
   },
   {
     "id": "n1-1249",
     "jp": "争い",
     "reading": "あらそい",
     "romaji": "arasoi",
-    "meaning": "dispute, quarrel, conflict"
+    "meaning": "dispute, quarrel, conflict",
+    "vi": "tranh chấp, xung đột"
   },
   {
     "id": "n1-1250",
     "jp": "改まる",
     "reading": "あらたまる",
     "romaji": "aratamaru",
-    "meaning": "to be renewed; to be formal"
+    "meaning": "to be renewed; to be formal",
+    "vi": "được đổi mới; trở nên trang trọng"
   },
   {
     "id": "n1-1251",
     "jp": "荒っぽい",
     "reading": "あらっぽい",
     "romaji": "arappoi",
-    "meaning": "rough, rude"
+    "meaning": "rough, rude",
+    "vi": "thô lỗ, thô bạo"
   },
   {
     "id": "n1-1252",
     "jp": "アラブ",
     "reading": "アラブ",
     "romaji": "アラブ",
-    "meaning": "Arab"
+    "meaning": "Arab",
+    "vi": "Ả Rập"
   },
   {
     "id": "n1-1253",
     "jp": "霰",
     "reading": "あられ",
     "romaji": "arare",
-    "meaning": "hail (e.g., falling ice balls)"
+    "meaning": "hail (e.g., falling ice balls)",
+    "vi": "mưa đá"
   },
   {
     "id": "n1-1254",
     "jp": "有り様",
     "reading": "ありさま",
     "romaji": "arisama",
-    "meaning": "state, condition"
+    "meaning": "state, condition",
+    "vi": "tình trạng, thực trạng"
   },
   {
     "id": "n1-1255",
     "jp": "ありのまま",
     "reading": "ありのまま",
     "romaji": "arinomama",
-    "meaning": "the truth, as it is, frankly"
+    "meaning": "the truth, as it is, frankly",
+    "vi": "y như thật, thẳng thắn"
   },
   {
     "id": "n1-1256",
     "jp": "ありふれる",
     "reading": "ありふれる",
     "romaji": "arifureru",
-    "meaning": "common, ordinary, routine"
+    "meaning": "common, ordinary, routine",
+    "vi": "bình thường, phổ biến"
   },
   {
     "id": "n1-1257",
     "jp": "アルカリ",
     "reading": "アルカリ",
     "romaji": "アルカリ",
-    "meaning": "alkali"
+    "meaning": "alkali",
+    "vi": "kiềm"
   },
   {
     "id": "n1-1258",
     "jp": "アルミ",
     "reading": "アルミ",
     "romaji": "アルミ",
-    "meaning": "aluminum (Al, aluminum)"
+    "meaning": "aluminum (Al, aluminum)",
+    "vi": "nhôm"
   },
   {
     "id": "n1-1259",
     "jp": "アワー",
     "reading": "アワー",
     "romaji": "アワー",
-    "meaning": "hour"
+    "meaning": "hour",
+    "vi": "giờ (đồng hồ)"
   },
   {
     "id": "n1-1260",
     "jp": "合わす",
     "reading": "あわす",
     "romaji": "awasu",
-    "meaning": "to join together, to face, to unite"
+    "meaning": "to join together, to face, to unite",
+    "vi": "kết hợp, đối diện"
   },
   {
     "id": "n1-1261",
     "jp": "～合せ",
     "reading": "～あわせ",
     "romaji": "～awase",
-    "meaning": "in all"
+    "meaning": "in all",
+    "vi": "tổng cộng, gộp lại"
   },
   {
     "id": "n1-1262",
     "jp": "アンコール",
     "reading": "アンコール",
     "romaji": "アンコール",
-    "meaning": "encore"
+    "meaning": "encore",
+    "vi": "diễn lại (yêu cầu khán giả)"
   },
   {
     "id": "n1-1263",
     "jp": "暗殺",
     "reading": "あんさつ",
     "romaji": "ansatsu",
-    "meaning": "assassination"
+    "meaning": "assassination",
+    "vi": "ám sát"
   },
   {
     "id": "n1-1264",
     "jp": "暗算",
     "reading": "あんざん",
     "romaji": "anzan",
-    "meaning": "mental arithmetic"
+    "meaning": "mental arithmetic",
+    "vi": "tính nhẩm"
   },
   {
     "id": "n1-1265",
     "jp": "暗示",
     "reading": "あんじ",
     "romaji": "anji",
-    "meaning": "hint, suggestion"
+    "meaning": "hint, suggestion",
+    "vi": "gợi ý, ám chỉ"
   },
   {
     "id": "n1-1266",
     "jp": "案じる",
     "reading": "あんじる",
     "romaji": "anjiru",
-    "meaning": "to be anxious, to ponder"
+    "meaning": "to be anxious, to ponder",
+    "vi": "lo lắng, cân nhắc"
   },
   {
     "id": "n1-1267",
     "jp": "安静",
     "reading": "あんせい",
     "romaji": "ansei",
-    "meaning": "rest"
+    "meaning": "rest",
+    "vi": "nghỉ ngơi (tĩnh dưỡng)"
   },
   {
     "id": "n1-1268",
     "jp": "案の定",
     "reading": "あんのじょう",
     "romaji": "annojou",
-    "meaning": "sure enough, as usual"
+    "meaning": "sure enough, as usual",
+    "vi": "quả đúng như dự đoán"
   },
   {
     "id": "n1-1269",
     "jp": "いい加減",
     "reading": "いいかげん",
     "romaji": "iikagen",
-    "meaning": "random, irresponsible"
+    "meaning": "random, irresponsible",
+    "vi": "qua loa, vô trách nhiệm"
   },
   {
     "id": "n1-1270",
     "jp": "言い訳",
     "reading": "いいわけ",
     "romaji": "iiwake",
-    "meaning": "excuse, explanation"
+    "meaning": "excuse, explanation",
+    "vi": "lời bào chữa, biện minh"
   },
   {
     "id": "n1-1271",
     "jp": "イェス",
     "reading": "イェス",
     "romaji": "イェス",
-    "meaning": "yes; Jesus"
+    "meaning": "yes; Jesus",
+    "vi": "vâng; Giê-su"
   },
   {
     "id": "n1-1272",
     "jp": "家出",
     "reading": "いえで",
     "romaji": "iede",
-    "meaning": "running away from home"
+    "meaning": "running away from home",
+    "vi": "bỏ nhà ra đi"
   },
   {
     "id": "n1-1273",
     "jp": "生かす",
     "reading": "いかす",
     "romaji": "ikasu",
-    "meaning": "to keep something alive; to make use of"
+    "meaning": "to keep something alive; to make use of",
+    "vi": "giữ cho sống; tận dụng"
   },
   {
     "id": "n1-1274",
     "jp": "いかに",
     "reading": "いかに",
     "romaji": "ikani",
-    "meaning": "how, in what way"
+    "meaning": "how, in what way",
+    "vi": "như thế nào"
   },
   {
     "id": "n1-1275",
     "jp": "いかにも",
     "reading": "いかにも",
     "romaji": "ikanimo",
-    "meaning": "truly (same as 実に (じつに))"
+    "meaning": "truly (same as 実に (じつに))",
+    "vi": "quả thực, đúng là"
   },
   {
     "id": "n1-1276",
     "jp": "異議",
     "reading": "いぎ",
     "romaji": "igi",
-    "meaning": "objection, dissent, protest"
+    "meaning": "objection, dissent, protest",
+    "vi": "sự phản đối, dị nghị"
   },
   {
     "id": "n1-1277",
     "jp": "生き甲斐",
     "reading": "いきがい",
     "romaji": "ikigai",
-    "meaning": "something one lives for, very important"
+    "meaning": "something one lives for, very important",
+    "vi": "lẽ sống, mục đích sống"
   },
   {
     "id": "n1-1278",
     "jp": "行き違い",
     "reading": "いきちがい",
     "romaji": "ikichigai",
-    "meaning": "misunderstanding, disagreement"
+    "meaning": "misunderstanding, disagreement",
+    "vi": "sự hiểu lầm, bất đồng"
   },
   {
     "id": "n1-1279",
     "jp": "意気込む",
     "reading": "いきごむ",
     "romaji": "ikigomu",
-    "meaning": "to be enthusiastic about"
+    "meaning": "to be enthusiastic about",
+    "vi": "hăng hái, hào hứng"
   },
   {
     "id": "n1-1280",
     "jp": "育成",
     "reading": "いくせい",
     "romaji": "ikusei",
-    "meaning": "rearing, training, cultivation"
+    "meaning": "rearing, training, cultivation",
+    "vi": "đào tạo, bồi dưỡng"
   },
   {
     "id": "n1-1281",
     "jp": "幾多",
     "reading": "いくた",
     "romaji": "ikuta",
-    "meaning": "many, numerous"
+    "meaning": "many, numerous",
+    "vi": "nhiều, vô số"
   },
   {
     "id": "n1-1282",
     "jp": "(花を〜) 生ける, 活ける",
     "reading": "(はなを～) いける",
     "romaji": "(hanawo～) ikeru",
-    "meaning": "to arrange (flowers)"
+    "meaning": "to arrange (flowers)",
+    "vi": "cắm hoa"
   },
   {
     "id": "n1-1283",
     "jp": "異見",
     "reading": "いけん",
     "romaji": "iken",
-    "meaning": "different opinion, objection"
+    "meaning": "different opinion, objection",
+    "vi": "ý kiến khác, phản đối"
   },
   {
     "id": "n1-1284",
     "jp": "意向",
     "reading": "いこう",
     "romaji": "ikou",
-    "meaning": "intention, idea, inclination"
+    "meaning": "intention, idea, inclination",
+    "vi": "ý định, ý muốn"
   },
   {
     "id": "n1-1285",
     "jp": "移行",
     "reading": "いこう",
     "romaji": "ikou",
-    "meaning": "switching over to"
+    "meaning": "switching over to",
+    "vi": "chuyển sang, chuyển đổi"
   },
   {
     "id": "n1-1286",
     "jp": "いざ",
     "reading": "いざ",
     "romaji": "iza",
-    "meaning": "now, come (now), crucial moment"
+    "meaning": "now, come (now), crucial moment",
+    "vi": "nào, đến lúc; khi cần thiết"
   },
   {
     "id": "n1-1287",
     "jp": "移住",
     "reading": "いじゅう",
     "romaji": "ijuu",
-    "meaning": "migration, immigration"
+    "meaning": "migration, immigration",
+    "vi": "di cư"
   },
   {
     "id": "n1-1288",
     "jp": "衣装",
     "reading": "いしょう",
     "romaji": "ishou",
-    "meaning": "clothing, costume, outfit"
+    "meaning": "clothing, costume, outfit",
+    "vi": "trang phục"
   },
   {
     "id": "n1-1289",
     "jp": "いじる",
     "reading": "いじる",
     "romaji": "ijiru",
-    "meaning": "to touch, to tamper with"
+    "meaning": "to touch, to tamper with",
+    "vi": "sờ mó, nghịch, can thiệp vào"
   },
   {
     "id": "n1-1290",
     "jp": "異性",
     "reading": "いせい",
     "romaji": "isei",
-    "meaning": "the opposite sex"
+    "meaning": "the opposite sex",
+    "vi": "người khác giới"
   },
   {
     "id": "n1-1291",
     "jp": "遺跡",
     "reading": "いせき",
     "romaji": "iseki",
-    "meaning": "historic ruins"
+    "meaning": "historic ruins",
+    "vi": "di tích lịch sử"
   },
   {
     "id": "n1-1292",
     "jp": "依存",
     "reading": "いぞん",
     "romaji": "izon",
-    "meaning": "dependence, dependent, reliance"
+    "meaning": "dependence, dependent, reliance",
+    "vi": "lệ thuộc, phụ thuộc"
   },
   {
     "id": "n1-1293",
     "jp": "委託",
     "reading": "いたく",
     "romaji": "itaku",
-    "meaning": "consign (goods (for sale) to a firm), entrust"
+    "meaning": "consign (goods (for sale) to a firm), entrust",
+    "vi": "ủy thác, giao phó"
   },
   {
     "id": "n1-1294",
     "jp": "いたって",
     "reading": "いたって",
     "romaji": "itatte",
-    "meaning": "very much, exceedingly, extremely"
+    "meaning": "very much, exceedingly, extremely",
+    "vi": "rất, hết sức"
   },
   {
     "id": "n1-1295",
     "jp": "出世",
     "reading": "しゅっせ",
     "romaji": "shusse",
-    "meaning": "promotion, successful career, eminence"
+    "meaning": "promotion, successful career, eminence",
+    "vi": "thăng tiến, thành đạt"
   },
   {
     "id": "n1-1296",
     "jp": "出題",
     "reading": "しゅつだい",
     "romaji": "shutsudai",
-    "meaning": "proposing a question"
+    "meaning": "proposing a question",
+    "vi": "ra đề (thi)"
   },
   {
     "id": "n1-1297",
     "jp": "出動",
     "reading": "しゅつどう",
     "romaji": "shutsudou",
-    "meaning": "mobilization, action"
+    "meaning": "mobilization, action",
+    "vi": "xuất động, triển khai"
   },
   {
     "id": "n1-1298",
     "jp": "出費",
     "reading": "しゅっぴ",
     "romaji": "shuppi",
-    "meaning": "expenses, disbursements"
+    "meaning": "expenses, disbursements",
+    "vi": "chi phí, khoản chi"
   },
   {
     "id": "n1-1299",
     "jp": "出品",
     "reading": "しゅっぴん",
     "romaji": "shuppin",
-    "meaning": "exhibit, display"
+    "meaning": "exhibit, display",
+    "vi": "trưng bày sản phẩm"
   },
   {
     "id": "n1-1300",
     "jp": "主導",
     "reading": "しゅどう",
     "romaji": "shudou",
-    "meaning": "main leadership"
+    "meaning": "main leadership",
+    "vi": "chủ đạo, dẫn dắt"
   },
   {
     "id": "n1-1301",
     "jp": "主任",
     "reading": "しゅにん",
     "romaji": "shunin",
-    "meaning": "person in charge, responsible official"
+    "meaning": "person in charge, responsible official",
+    "vi": "chủ nhiệm, người phụ trách"
   },
   {
     "id": "n1-1302",
     "jp": "首脳",
     "reading": "しゅのう",
     "romaji": "shunou",
-    "meaning": "head, leader"
+    "meaning": "head, leader",
+    "vi": "người đứng đầu, nguyên thủ"
   },
   {
     "id": "n1-1303",
     "jp": "守備",
     "reading": "しゅび",
     "romaji": "shubi",
-    "meaning": "defense"
+    "meaning": "defense",
+    "vi": "phòng thủ"
   },
   {
     "id": "n1-1304",
     "jp": "手法",
     "reading": "しゅほう",
     "romaji": "shuhou",
-    "meaning": "technique"
+    "meaning": "technique",
+    "vi": "kỹ thuật, thủ pháp"
   },
   {
     "id": "n1-1305",
     "jp": "樹木",
     "reading": "じゅもく",
     "romaji": "jumoku",
-    "meaning": "trees and shrubs, arbor"
+    "meaning": "trees and shrubs, arbor",
+    "vi": "cây cối"
   },
   {
     "id": "n1-1306",
     "jp": "樹立",
     "reading": "じゅりつ",
     "romaji": "juritsu",
-    "meaning": "establish, create"
+    "meaning": "establish, create",
+    "vi": "thiết lập, xác lập"
   },
   {
     "id": "n1-1307",
     "jp": "準急",
     "reading": "じゅんきゅう",
     "romaji": "junkyuu",
-    "meaning": "local express (train, slower than an express)"
+    "meaning": "local express (train, slower than an express)",
+    "vi": "tàu tốc hành hạng nhẹ"
   },
   {
     "id": "n1-1308",
     "jp": "準じる",
     "reading": "じゅんじる",
     "romaji": "junjiru",
-    "meaning": "to follow, to conform, to apply to"
+    "meaning": "to follow, to conform, to apply to",
+    "vi": "tuân theo, dựa theo"
   },
   {
     "id": "n1-1309",
     "jp": "～署",
     "reading": "～しょ",
     "romaji": "～sho",
-    "meaning": "department"
+    "meaning": "department",
+    "vi": "sở, cục"
   },
   {
     "id": "n1-1310",
     "jp": "～症",
     "reading": "～しょう",
     "romaji": "～shou",
-    "meaning": "disease"
+    "meaning": "disease",
+    "vi": "chứng bệnh"
   },
   {
     "id": "n1-1311",
     "jp": "～証",
     "reading": "～しょう",
     "romaji": "～shou",
-    "meaning": "proof, certificate"
+    "meaning": "proof, certificate",
+    "vi": "chứng chỉ, giấy chứng nhận"
   },
   {
     "id": "n1-1312",
     "jp": "～嬢",
     "reading": "～じょう",
     "romaji": "～jou",
-    "meaning": "young woman"
+    "meaning": "young woman",
+    "vi": "cô, tiểu thư"
   },
   {
     "id": "n1-1313",
     "jp": "上位",
     "reading": "じょうい",
     "romaji": "joui",
-    "meaning": "superior, higher order"
+    "meaning": "superior, higher order",
+    "vi": "cấp cao, thứ hạng trên"
   },
   {
     "id": "n1-1314",
     "jp": "上演",
     "reading": "じょうえん",
     "romaji": "jouen",
-    "meaning": "art performance"
+    "meaning": "art performance",
+    "vi": "công diễn (nghệ thuật)"
   },
   {
     "id": "n1-1315",
     "jp": "城下",
     "reading": "じょうか",
     "romaji": "jouka",
-    "meaning": "land near the castle"
+    "meaning": "land near the castle",
+    "vi": "vùng dưới thành (lâu đài)"
   },
   {
     "id": "n1-1316",
     "jp": "消去",
     "reading": "しょうきょ",
     "romaji": "shoukyo",
-    "meaning": "elimination, erasing"
+    "meaning": "elimination, erasing",
+    "vi": "xóa bỏ"
   },
   {
     "id": "n1-1317",
     "jp": "上空",
     "reading": "じょうくう",
     "romaji": "joukuu",
-    "meaning": "sky, high-altitude sky, upper air"
+    "meaning": "sky, high-altitude sky, upper air",
+    "vi": "bầu trời, không phận"
   },
   {
     "id": "n1-1318",
     "jp": "衝撃",
     "reading": "しょうげき",
     "romaji": "shougeki",
-    "meaning": "shock, crash, impact, ballistic"
+    "meaning": "shock, crash, impact, ballistic",
+    "vi": "cú sốc, va chạm mạnh"
   },
   {
     "id": "n1-1319",
     "jp": "証言",
     "reading": "しょうげん",
     "romaji": "shougen",
-    "meaning": "evidence, testimony"
+    "meaning": "evidence, testimony",
+    "vi": "lời khai, chứng ngôn"
   },
   {
     "id": "n1-1320",
     "jp": "証拠",
     "reading": "しょうこ",
     "romaji": "shouko",
-    "meaning": "evidence, proof"
+    "meaning": "evidence, proof",
+    "vi": "bằng chứng"
   },
   {
     "id": "n1-1321",
     "jp": "照合",
     "reading": "しょうごう",
     "romaji": "shougou",
-    "meaning": "check, verification"
+    "meaning": "check, verification",
+    "vi": "đối chiếu, kiểm chứng"
   },
   {
     "id": "n1-1322",
     "jp": "詳細",
     "reading": "しょうさい",
     "romaji": "shousai",
-    "meaning": "detail, particulars"
+    "meaning": "detail, particulars",
+    "vi": "chi tiết"
   },
   {
     "id": "n1-1323",
     "jp": "上昇",
     "reading": "じょうしょう",
     "romaji": "joushou",
-    "meaning": "rising, ascending, climbing"
+    "meaning": "rising, ascending, climbing",
+    "vi": "tăng lên, đi lên"
   },
   {
     "id": "n1-1324",
     "jp": "昇進",
     "reading": "しょうしん",
     "romaji": "shoushin",
-    "meaning": "promotion"
+    "meaning": "promotion",
+    "vi": "thăng chức"
   },
   {
     "id": "n1-1325",
     "jp": "称する",
     "reading": "しょうする",
     "romaji": "shousuru",
-    "meaning": "to take the name of, to call oneself"
+    "meaning": "to take the name of, to call oneself",
+    "vi": "tự xưng là"
   },
   {
     "id": "n1-1326",
     "jp": "情勢",
     "reading": "じょうせい",
     "romaji": "jousei",
-    "meaning": "state of things, condition, situation"
+    "meaning": "state of things, condition, situation",
+    "vi": "tình hình, tình thế"
   },
   {
     "id": "n1-1327",
     "jp": "消息",
     "reading": "しょうそく",
     "romaji": "shousoku",
-    "meaning": "news, letter, circumstances"
+    "meaning": "news, letter, circumstances",
+    "vi": "tin tức, tin tăm"
   },
   {
     "id": "n1-1328",
     "jp": "承諾",
     "reading": "しょうだく",
     "romaji": "shoudaku",
-    "meaning": "consent, agreement"
+    "meaning": "consent, agreement",
+    "vi": "sự chấp thuận"
   },
   {
     "id": "n1-1329",
     "jp": "情緒",
     "reading": "じょうちょ",
     "romaji": "joucho",
-    "meaning": "emotion, feeling"
+    "meaning": "emotion, feeling",
+    "vi": "cảm xúc, tình cảm"
   },
   {
     "id": "n1-1330",
     "jp": "情緒",
     "reading": "じょうしょ",
     "romaji": "jousho",
-    "meaning": "emotion, feeling"
+    "meaning": "emotion, feeling",
+    "vi": "cảm xúc, tình cảm"
   },
   {
     "id": "n1-1331",
     "jp": "象徴",
     "reading": "しょうちょう",
     "romaji": "shouchou",
-    "meaning": "symbol"
+    "meaning": "symbol",
+    "vi": "biểu tượng"
   },
   {
     "id": "n1-1332",
     "jp": "小児科",
     "reading": "しょうにか",
     "romaji": "shounika",
-    "meaning": "pediatrics"
+    "meaning": "pediatrics",
+    "vi": "khoa nhi"
   },
   {
     "id": "n1-1333",
     "jp": "使用人",
     "reading": "しようにん",
     "romaji": "shiyounin",
-    "meaning": "employee, servant"
+    "meaning": "employee, servant",
+    "vi": "người làm thuê, người hầu"
   },
   {
     "id": "n1-1334",
     "jp": "情熱",
     "reading": "じょうねつ",
     "romaji": "jounetsu",
-    "meaning": "passion, enthusiasm, zeal"
+    "meaning": "passion, enthusiasm, zeal",
+    "vi": "đam mê, nhiệt huyết"
   },
   {
     "id": "n1-1335",
     "jp": "譲歩",
     "reading": "じょうほ",
     "romaji": "jouho",
-    "meaning": "concession, conciliation, compromise"
+    "meaning": "concession, conciliation, compromise",
+    "vi": "nhượng bộ"
   },
   {
     "id": "n1-1336",
     "jp": "条約",
     "reading": "じょうやく",
     "romaji": "jouyaku",
-    "meaning": "treaty, pact"
+    "meaning": "treaty, pact",
+    "vi": "hiệp ước"
   },
   {
     "id": "n1-1337",
     "jp": "勝利",
     "reading": "しょうり",
     "romaji": "shouri",
-    "meaning": "victory, triumph, win"
+    "meaning": "victory, triumph, win",
+    "vi": "chiến thắng"
   },
   {
     "id": "n1-1338",
     "jp": "上陸",
     "reading": "じょうりく",
     "romaji": "jouriku",
-    "meaning": "landing, disembarkation"
+    "meaning": "landing, disembarkation",
+    "vi": "đổ bộ, cập bến"
   },
   {
     "id": "n1-1339",
     "jp": "蒸溜",
     "reading": "じょうりゅう",
     "romaji": "jouryuu",
-    "meaning": "distillation"
+    "meaning": "distillation",
+    "vi": "sự chưng cất"
   },
   {
     "id": "n1-1340",
     "jp": "奨励",
     "reading": "しょうれい",
     "romaji": "shourei",
-    "meaning": "encouragement, promotion"
+    "meaning": "encouragement, promotion",
+    "vi": "khuyến khích"
   },
   {
     "id": "n1-1341",
     "jp": "ショー",
     "reading": "ショー",
     "romaji": "ショー",
-    "meaning": "show"
+    "meaning": "show",
+    "vi": "buổi trình diễn"
   },
   {
     "id": "n1-1342",
     "jp": "除外",
     "reading": "じょがい",
     "romaji": "jogai",
-    "meaning": "exception, exclusion"
+    "meaning": "exception, exclusion",
+    "vi": "loại trừ, ngoại lệ"
   },
   {
     "id": "n1-1343",
     "jp": "職員",
     "reading": "しょくいん",
     "romaji": "shokuin",
-    "meaning": "staff member, personnel"
+    "meaning": "staff member, personnel",
+    "vi": "nhân viên"
   },
   {
     "id": "n1-1344",
     "jp": "植民地",
     "reading": "しょくみんち",
     "romaji": "shokuminchi",
-    "meaning": "colony"
+    "meaning": "colony",
+    "vi": "thuộc địa"
   },
   {
     "id": "n1-1345",
     "jp": "職務",
     "reading": "しょくむ",
     "romaji": "shokumu",
-    "meaning": "professional duties"
+    "meaning": "professional duties",
+    "vi": "nhiệm vụ công việc"
   },
   {
     "id": "n1-1346",
     "jp": "諸君",
     "reading": "しょくん",
     "romaji": "shokun",
-    "meaning": "Gentlemen!, Ladies!"
+    "meaning": "Gentlemen!, Ladies!",
+    "vi": "các bạn! (cách gọi trang trọng, số nhiều)"
   },
   {
     "id": "n1-1347",
     "jp": "助言",
     "reading": "じょげん",
     "romaji": "jogen",
-    "meaning": "advice, suggestion"
+    "meaning": "advice, suggestion",
+    "vi": "lời khuyên"
   },
   {
     "id": "n1-1348",
     "jp": "徐行",
     "reading": "じょこう",
     "romaji": "jokou",
-    "meaning": "going slowly"
+    "meaning": "going slowly",
+    "vi": "đi chậm"
   },
   {
     "id": "n1-1349",
     "jp": "所在",
     "reading": "しょざい",
     "romaji": "shozai",
-    "meaning": "whereabouts"
+    "meaning": "whereabouts",
+    "vi": "nơi ở, tung tích"
   },
   {
     "id": "n1-1350",
     "jp": "所持",
     "reading": "しょじ",
     "romaji": "shoji",
-    "meaning": "possession, owning"
+    "meaning": "possession, owning",
+    "vi": "sở hữu, mang theo"
   },
   {
     "id": "n1-1351",
     "jp": "所属",
     "reading": "しょぞく",
     "romaji": "shozoku",
-    "meaning": "attached to, belong to"
+    "meaning": "attached to, belong to",
+    "vi": "trực thuộc, thuộc về"
   },
   {
     "id": "n1-1352",
     "jp": "処置",
     "reading": "しょち",
     "romaji": "shochi",
-    "meaning": "treatment"
+    "meaning": "treatment",
+    "vi": "xử trí, xử lý"
   },
   {
     "id": "n1-1353",
     "jp": "しょっちゅう",
     "reading": "しょっちゅう",
     "romaji": "shotchuu",
-    "meaning": "always, constantly"
+    "meaning": "always, constantly",
+    "vi": "luôn luôn, thường xuyên"
   },
   {
     "id": "n1-1354",
     "jp": "所定",
     "reading": "しょてい",
     "romaji": "shotei",
-    "meaning": "fixed, prescribed"
+    "meaning": "fixed, prescribed",
+    "vi": "quy định sẵn"
   },
   {
     "id": "n1-1355",
     "jp": "所得",
     "reading": "しょとく",
     "romaji": "shotoku",
-    "meaning": "income"
+    "meaning": "income",
+    "vi": "thu nhập"
   },
   {
     "id": "n1-1356",
     "jp": "処罰",
     "reading": "しょばつ",
     "romaji": "shobatsu",
-    "meaning": "punishment"
+    "meaning": "punishment",
+    "vi": "trừng phạt"
   },
   {
     "id": "n1-1357",
     "jp": "初版",
     "reading": "しょはん",
     "romaji": "shohan",
-    "meaning": "first edition"
+    "meaning": "first edition",
+    "vi": "ấn bản đầu tiên"
   },
   {
     "id": "n1-1358",
     "jp": "書評",
     "reading": "しょひょう",
     "romaji": "shohyou",
-    "meaning": "book review"
+    "meaning": "book review",
+    "vi": "bài phê bình sách"
   },
   {
     "id": "n1-1359",
     "jp": "処分",
     "reading": "しょぶん",
     "romaji": "shobun",
-    "meaning": "disposal, dealing, punishment"
+    "meaning": "disposal, dealing, punishment",
+    "vi": "xử lý, xử phạt"
   },
   {
     "id": "n1-1360",
     "jp": "庶民",
     "reading": "しょみん",
     "romaji": "shomin",
-    "meaning": "masses, common people"
+    "meaning": "masses, common people",
+    "vi": "dân thường, quần chúng"
   },
   {
     "id": "n1-1361",
     "jp": "庶務",
     "reading": "しょむ",
     "romaji": "shomu",
-    "meaning": "general affairs"
+    "meaning": "general affairs",
+    "vi": "công việc hành chính chung"
   },
   {
     "id": "n1-1362",
     "jp": "所有",
     "reading": "しょゆう",
     "romaji": "shoyuu",
-    "meaning": "one's possessions, ownership"
+    "meaning": "one's possessions, ownership",
+    "vi": "sở hữu"
   },
   {
     "id": "n1-1363",
     "jp": "調べ",
     "reading": "しらべ",
     "romaji": "shirabe",
-    "meaning": "investigation, inspection"
+    "meaning": "investigation, inspection",
+    "vi": "sự điều tra, kiểm tra"
   },
   {
     "id": "n1-1364",
     "jp": "自立",
     "reading": "じりつ",
     "romaji": "jiritsu",
-    "meaning": "independence, self-reliance"
+    "meaning": "independence, self-reliance",
+    "vi": "tự lập"
   },
   {
     "id": "n1-1365",
     "jp": "記す",
     "reading": "しるす",
     "romaji": "shirusu",
-    "meaning": "to note, to write down"
+    "meaning": "to note, to write down",
+    "vi": "ghi chép"
   },
   {
     "id": "n1-1366",
     "jp": "指令",
     "reading": "しれい",
     "romaji": "shirei",
-    "meaning": "orders, instructions, directive"
+    "meaning": "orders, instructions, directive",
+    "vi": "chỉ thị, mệnh lệnh"
   },
   {
     "id": "n1-1367",
     "jp": "～心",
     "reading": "～しん",
     "romaji": "～shin",
-    "meaning": "mind of ~"
+    "meaning": "mind of ~",
+    "vi": "tâm, lòng ~"
   },
   {
     "id": "n1-1368",
     "jp": "陣",
     "reading": "じん",
     "romaji": "jin",
-    "meaning": "battle formation, camp, encampment"
+    "meaning": "battle formation, camp, encampment",
+    "vi": "trận địa, doanh trại"
   },
   {
     "id": "n1-1369",
     "jp": "進化",
     "reading": "しんか",
     "romaji": "shinka",
-    "meaning": "evolution, progress"
+    "meaning": "evolution, progress",
+    "vi": "tiến hóa"
   },
   {
     "id": "n1-1370",
     "jp": "人格",
     "reading": "じんかく",
     "romaji": "jinkaku",
-    "meaning": "personality, character"
+    "meaning": "personality, character",
+    "vi": "nhân cách"
   },
   {
     "id": "n1-1371",
     "jp": "審議",
     "reading": "しんぎ",
     "romaji": "shingi",
-    "meaning": "deliberation"
+    "meaning": "deliberation",
+    "vi": "thẩm nghị, xem xét"
   },
   {
     "id": "n1-1372",
     "jp": "新婚",
     "reading": "しんこん",
     "romaji": "shinkon",
-    "meaning": "newly-wed"
+    "meaning": "newly-wed",
+    "vi": "mới cưới"
   },
   {
     "id": "n1-1373",
     "jp": "審査",
     "reading": "しんさ",
     "romaji": "shinsa",
-    "meaning": "judging, inspection, examination"
+    "meaning": "judging, inspection, examination",
+    "vi": "thẩm định, xét duyệt"
   },
   {
     "id": "n1-1374",
     "jp": "人材",
     "reading": "じんざい",
     "romaji": "jinzai",
-    "meaning": "man of talent"
+    "meaning": "man of talent",
+    "vi": "nhân tài"
   },
   {
     "id": "n1-1375",
     "jp": "紳士",
     "reading": "しんし",
     "romaji": "shinshi",
-    "meaning": "gentleman"
+    "meaning": "gentleman",
+    "vi": "quý ông, quý ngài"
   },
   {
     "id": "n1-1376",
     "jp": "真実",
     "reading": "しんじつ",
     "romaji": "shinjitsu",
-    "meaning": "truth, reality"
+    "meaning": "truth, reality",
+    "vi": "sự thật"
   },
   {
     "id": "n1-1377",
     "jp": "信者",
     "reading": "しんじゃ",
     "romaji": "shinja",
-    "meaning": "believer, devotee"
+    "meaning": "believer, devotee",
+    "vi": "tín đồ"
   },
   {
     "id": "n1-1378",
     "jp": "真珠",
     "reading": "しんじゅ",
     "romaji": "shinju",
-    "meaning": "pearl"
+    "meaning": "pearl",
+    "vi": "ngọc trai"
   },
   {
     "id": "n1-1379",
     "jp": "進出",
     "reading": "しんしゅつ",
     "romaji": "shinshutsu",
-    "meaning": "advancement"
+    "meaning": "advancement",
+    "vi": "tiến vào, mở rộng (thị trường)"
   },
   {
     "id": "n1-1380",
     "jp": "心情",
     "reading": "しんじょう",
     "romaji": "shinjou",
-    "meaning": "mentality"
+    "meaning": "mentality",
+    "vi": "tâm tình, tâm trạng"
   },
   {
     "id": "n1-1381",
     "jp": "新人",
     "reading": "しんじん",
     "romaji": "shinjin",
-    "meaning": "new face, newcomer"
+    "meaning": "new face, newcomer",
+    "vi": "người mới, gương mặt mới"
   },
   {
     "id": "n1-1382",
     "jp": "神聖",
     "reading": "しんせい",
     "romaji": "shinsei",
-    "meaning": "holiness, sacredness, dignity"
+    "meaning": "holiness, sacredness, dignity",
+    "vi": "thần thánh, tôn nghiêm"
   },
   {
     "id": "n1-1383",
     "jp": "親善",
     "reading": "しんぜん",
     "romaji": "shinzen",
-    "meaning": "friendship"
+    "meaning": "friendship",
+    "vi": "hữu nghị"
   },
   {
     "id": "n1-1384",
     "jp": "真相",
     "reading": "しんそう",
     "romaji": "shinsou",
-    "meaning": "truth, real situation"
+    "meaning": "truth, real situation",
+    "vi": "sự thật, chân tướng"
   },
   {
     "id": "n1-1385",
     "jp": "迅速",
     "reading": "じんそく",
     "romaji": "jinsoku",
-    "meaning": "quick, fast, prompt"
+    "meaning": "quick, fast, prompt",
+    "vi": "nhanh chóng, mau lẹ"
   },
   {
     "id": "n1-1386",
     "jp": "人体",
     "reading": "じんたい",
     "romaji": "jintai",
-    "meaning": "human body"
+    "meaning": "human body",
+    "vi": "cơ thể người"
   },
   {
     "id": "n1-1387",
     "jp": "新築",
     "reading": "しんちく",
     "romaji": "shinchiku",
-    "meaning": "new building, new construction"
+    "meaning": "new building, new construction",
+    "vi": "nhà mới xây"
   },
   {
     "id": "n1-1388",
     "jp": "心中",
     "reading": "しんじゅう",
     "romaji": "shinjuu",
-    "meaning": "double suicide"
+    "meaning": "double suicide",
+    "vi": "cùng tự sát (đôi tình nhân)"
   },
   {
     "id": "n1-1389",
     "jp": "進呈",
     "reading": "しんてい",
     "romaji": "shintei",
-    "meaning": "presentation"
+    "meaning": "presentation",
+    "vi": "tặng, kính biếu"
   },
   {
     "id": "n1-1390",
     "jp": "進展",
     "reading": "しんてん",
     "romaji": "shinten",
-    "meaning": "progress, development"
+    "meaning": "progress, development",
+    "vi": "tiến triển"
   },
   {
     "id": "n1-1391",
     "jp": "神殿",
     "reading": "しんでん",
     "romaji": "shinden",
-    "meaning": "temple, sacred place"
+    "meaning": "temple, sacred place",
+    "vi": "đền thờ, thánh điện"
   },
   {
     "id": "n1-1392",
     "jp": "進度",
     "reading": "しんど",
     "romaji": "shindo",
-    "meaning": "progress"
+    "meaning": "progress",
+    "vi": "tiến độ"
   },
   {
     "id": "n1-1393",
     "jp": "振動",
     "reading": "しんどう",
     "romaji": "shindou",
-    "meaning": "oscillation, vibration"
+    "meaning": "oscillation, vibration",
+    "vi": "dao động, rung động"
   },
   {
     "id": "n1-1394",
     "jp": "新入生",
     "reading": "しんにゅうせい",
     "romaji": "shinnyuusei",
-    "meaning": "new student, first-year student, freshman"
+    "meaning": "new student, first-year student, freshman",
+    "vi": "học sinh/sinh viên mới"
   },
   {
     "id": "n1-1395",
     "jp": "信任",
     "reading": "しんにん",
     "romaji": "shinnin",
-    "meaning": "trust, confidence, credence"
+    "meaning": "trust, confidence, credence",
+    "vi": "sự tín nhiệm"
   },
   {
     "id": "n1-1396",
     "jp": "神秘",
     "reading": "しんぴ",
     "romaji": "shinpi",
-    "meaning": "mystery"
+    "meaning": "mystery",
+    "vi": "sự huyền bí"
   },
   {
     "id": "n1-1397",
     "jp": "辛抱",
     "reading": "しんぼう",
     "romaji": "shinbou",
-    "meaning": "patience, endurance"
+    "meaning": "patience, endurance",
+    "vi": "sự nhẫn nại, chịu đựng"
   },
   {
     "id": "n1-1398",
     "jp": "人民",
     "reading": "じんみん",
     "romaji": "jinmin",
-    "meaning": "people, public"
+    "meaning": "people, public",
+    "vi": "nhân dân"
   },
   {
     "id": "n1-1399",
     "jp": "侵略",
     "reading": "しんりゃく",
     "romaji": "shinryaku",
-    "meaning": "aggression, invasion, raid"
+    "meaning": "aggression, invasion, raid",
+    "vi": "xâm lược"
   },
   {
     "id": "n1-1400",
     "jp": "診療",
     "reading": "しんりょう",
     "romaji": "shinryou",
-    "meaning": "medical examination and treatment"
+    "meaning": "medical examination and treatment",
+    "vi": "khám và điều trị"
   },
   {
     "id": "n1-1401",
     "jp": "粋",
     "reading": "すい",
     "romaji": "sui",
-    "meaning": "essence"
+    "meaning": "essence",
+    "vi": "tinh túy, cốt lõi"
   },
   {
     "id": "n1-1402",
     "jp": "水源",
     "reading": "すいげん",
     "romaji": "suigen",
-    "meaning": "source of river"
+    "meaning": "source of river",
+    "vi": "nguồn sông, đầu nguồn"
   },
   {
     "id": "n1-1403",
     "jp": "推進",
     "reading": "すいしん",
     "romaji": "suishin",
-    "meaning": "propulsion, driving force"
+    "meaning": "propulsion, driving force",
+    "vi": "sự thúc đẩy, động lực"
   },
   {
     "id": "n1-1404",
     "jp": "吹奏",
     "reading": "すいそう",
     "romaji": "suisou",
-    "meaning": "playing wind instruments"
+    "meaning": "playing wind instruments",
+    "vi": "diễn tấu nhạc cụ hơi"
   },
   {
     "id": "n1-1405",
     "jp": "推測",
     "reading": "すいそく",
     "romaji": "suisoku",
-    "meaning": "guess, conjecture"
+    "meaning": "guess, conjecture",
+    "vi": "phỏng đoán, suy đoán"
   },
   {
     "id": "n1-1406",
     "jp": "水田",
     "reading": "すいでん",
     "romaji": "suiden",
-    "meaning": "(water-filled) paddy field"
+    "meaning": "(water-filled) paddy field",
+    "vi": "ruộng lúa nước"
   },
   {
     "id": "n1-1407",
     "jp": "推理",
     "reading": "すいり",
     "romaji": "suiri",
-    "meaning": "reasoning, inference, mystery or detective genre"
+    "meaning": "reasoning, inference, mystery or detective genre",
+    "vi": "suy luận, suy lý; thể loại trinh thám"
   },
   {
     "id": "n1-1408",
     "jp": "数詞",
     "reading": "すうし",
     "romaji": "suushi",
-    "meaning": "numeral"
+    "meaning": "numeral",
+    "vi": "số từ"
   },
   {
     "id": "n1-1409",
     "jp": "崇拝",
     "reading": "すうはい",
     "romaji": "suuhai",
-    "meaning": "worship, adoration"
+    "meaning": "worship, adoration",
+    "vi": "sự tôn thờ, sùng bái"
   },
   {
     "id": "n1-1410",
     "jp": "据え付ける",
     "reading": "すえつける",
     "romaji": "suetsukeru",
-    "meaning": "to install, to equip, to mount"
+    "meaning": "to install, to equip, to mount",
+    "vi": "lắp đặt, trang bị"
   },
   {
     "id": "n1-1411",
     "jp": "据える",
     "reading": "すえる",
     "romaji": "sueru",
-    "meaning": "to set, to lay, to place"
+    "meaning": "to set, to lay, to place",
+    "vi": "đặt, để, an vị"
   },
   {
     "id": "n1-1412",
     "jp": "すがすがしい",
     "reading": "すがすがしい",
     "romaji": "sugasugashii",
-    "meaning": "fresh, refreshing"
+    "meaning": "fresh, refreshing",
+    "vi": "sảng khoái, tươi mát"
   },
   {
     "id": "n1-1413",
     "jp": "救い",
     "reading": "すくい",
     "romaji": "sukui",
-    "meaning": "help, aid, relief"
+    "meaning": "help, aid, relief",
+    "vi": "sự cứu giúp, cứu trợ"
   },
   {
     "id": "n1-1414",
     "jp": "すくう (みずを～)",
     "reading": "すくう (みずを～)",
     "romaji": "sukuu (mizuwo～)",
-    "meaning": "to scoop"
+    "meaning": "to scoop",
+    "vi": "múc, vốc (nước)"
   },
   {
     "id": "n1-1415",
     "jp": "健やか",
     "reading": "すこやか",
     "romaji": "sukoyaka",
-    "meaning": "vigorous, healthy, sound"
+    "meaning": "vigorous, healthy, sound",
+    "vi": "khỏe mạnh, cường tráng"
   },
   {
     "id": "n1-1416",
     "jp": "濯ぐ",
     "reading": "すすぐ",
     "romaji": "susugu",
-    "meaning": "to rinse, to wash out"
+    "meaning": "to rinse, to wash out",
+    "vi": "xả, tráng (nước)"
   },
   {
     "id": "n1-1417",
     "jp": "進み",
     "reading": "すすみ",
     "romaji": "susumi",
-    "meaning": "progress"
+    "meaning": "progress",
+    "vi": "sự tiến triển"
   },
   {
     "id": "n1-1418",
     "jp": "裾",
     "reading": "すそ",
     "romaji": "suso",
-    "meaning": "(trouser) cuff, (skirt) hem, cut edge of a hairdo"
+    "meaning": "(trouser) cuff, (skirt) hem, cut edge of a hairdo",
+    "vi": "gấu quần, gấu váy"
   },
   {
     "id": "n1-1419",
     "jp": "スタジオ",
     "reading": "スタジオ",
     "romaji": "スタジオ",
-    "meaning": "studio"
+    "meaning": "studio",
+    "vi": "phòng thu, studio"
   },
   {
     "id": "n1-1420",
     "jp": "スチーム",
     "reading": "スチーム",
     "romaji": "スチーム",
-    "meaning": "steam"
+    "meaning": "steam",
+    "vi": "hơi nước"
   },
   {
     "id": "n1-1421",
     "jp": "ストライキ",
     "reading": "ストライキ",
     "romaji": "ストライキ",
-    "meaning": "strike"
+    "meaning": "strike",
+    "vi": "cuộc đình công"
   },
   {
     "id": "n1-1422",
     "jp": "スト",
     "reading": "スト",
     "romaji": "スト",
-    "meaning": "(abbr.) strike"
+    "meaning": "(abbr.) strike",
+    "vi": "đình công (viết tắt)"
   },
   {
     "id": "n1-1423",
     "jp": "ストロー",
     "reading": "ストロー",
     "romaji": "ストロー",
-    "meaning": "straw"
+    "meaning": "straw",
+    "vi": "ống hút"
   },
   {
     "id": "n1-1424",
     "jp": "ストロボ",
     "reading": "ストロボ",
     "romaji": "ストロボ",
-    "meaning": "stroboscope (literally: strobo, strobe lamp, stroboscopic lamp)"
+    "meaning": "stroboscope (literally: strobo, strobe lamp, stroboscopic lamp)",
+    "vi": "đèn flash, đèn nháy (stroboscope)"
   },
   {
     "id": "n1-1425",
     "jp": "すばしこい",
     "reading": "すばしこい",
     "romaji": "subashikoi",
-    "meaning": "nimble, smart, quick"
+    "meaning": "nimble, smart, quick",
+    "vi": "nhanh nhẹn, lanh lợi"
   },
   {
     "id": "n1-1426",
     "jp": "素早い",
     "reading": "すばやい",
     "romaji": "subayai",
-    "meaning": "fast, quick"
+    "meaning": "fast, quick",
+    "vi": "nhanh, mau lẹ"
   },
   {
     "id": "n1-1427",
     "jp": "ずばり",
     "reading": "ずばり",
     "romaji": "zubari",
-    "meaning": "decisively, unreservedly, frankly"
+    "meaning": "decisively, unreservedly, frankly",
+    "vi": "thẳng thắn, dứt khoát"
   },
   {
     "id": "n1-1428",
     "jp": "スプリング",
     "reading": "スプリング",
     "romaji": "スプリング",
-    "meaning": "spring"
+    "meaning": "spring",
+    "vi": "lò xo"
   },
   {
     "id": "n1-1429",
     "jp": "スペース",
     "reading": "スペース",
     "romaji": "スペース",
-    "meaning": "space"
+    "meaning": "space",
+    "vi": "không gian, khoảng trống"
   },
   {
     "id": "n1-1430",
     "jp": "ずぶぬれ",
     "reading": "ずぶぬれ",
     "romaji": "zubunure",
-    "meaning": "soaked, dripping wet"
+    "meaning": "soaked, dripping wet",
+    "vi": "ướt sũng"
   },
   {
     "id": "n1-1431",
     "jp": "スポーツカー",
     "reading": "スポーツカー",
     "romaji": "スポーツカー",
-    "meaning": "sports car"
+    "meaning": "sports car",
+    "vi": "xe thể thao"
   },
   {
     "id": "n1-1432",
     "jp": "澄ます",
     "reading": "すます",
     "romaji": "sumasu",
-    "meaning": "to clear, to make clear, to listen for"
+    "meaning": "to clear, to make clear, to listen for",
+    "vi": "làm trong, lắng nghe (chăm chú)"
   },
   {
     "id": "n1-1433",
     "jp": "清ます",
     "reading": "すます",
     "romaji": "sumasu",
-    "meaning": "to clear, to make clear, to listen for"
+    "meaning": "to clear, to make clear, to listen for",
+    "vi": "làm trong, lắng nghe (chăm chú)"
   },
   {
     "id": "n1-1434",
     "jp": "済ます",
     "reading": "すます",
     "romaji": "sumasu",
-    "meaning": "to finish; to settle; to do without"
+    "meaning": "to finish; to settle; to do without",
+    "vi": "hoàn tất, giải quyết xong; xong xuôi mà không cần thêm gì"
   },
   {
     "id": "n1-1435",
     "jp": "すみやか",
     "reading": "すみやか",
     "romaji": "sumiyaka",
-    "meaning": "speedy"
+    "meaning": "speedy",
+    "vi": "nhanh chóng, mau lẹ"
   },
   {
     "id": "n1-1436",
     "jp": "スラックス",
     "reading": "スラックス",
     "romaji": "スラックス",
-    "meaning": "slacks"
+    "meaning": "slacks",
+    "vi": "quần tây (slacks)"
   },
   {
     "id": "n1-1437",
     "jp": "ずらっと",
     "reading": "ずらっと",
     "romaji": "zuratto",
-    "meaning": "in a line, in a row"
+    "meaning": "in a line, in a row",
+    "vi": "thành hàng dài, xếp thành dãy"
   },
   {
     "id": "n1-1438",
     "jp": "ずるずる",
     "reading": "ずるずる",
     "romaji": "zuruzuru",
-    "meaning": "dragging on, sound of sniffling"
+    "meaning": "dragging on, sound of sniffling",
+    "vi": "kéo dài lê thê; tiếng sụt sịt"
   },
   {
     "id": "n1-1439",
     "jp": "ずれ",
     "reading": "ずれ",
     "romaji": "zure",
-    "meaning": "difference, gap"
+    "meaning": "difference, gap",
+    "vi": "sự lệch, khoảng cách chênh lệch"
   },
   {
     "id": "n1-1440",
     "jp": "すれちがい",
     "reading": "すれちがい",
     "romaji": "surechigai",
-    "meaning": "chance encounter"
+    "meaning": "chance encounter",
+    "vi": "sự lướt qua nhau, gặp thoáng qua"
   },
   {
     "id": "n1-1441",
     "jp": "擦れる",
     "reading": "すれる",
     "romaji": "sureru",
-    "meaning": "to rub, to chafe"
+    "meaning": "to rub, to chafe",
+    "vi": "cọ xát, chà xát"
   },
   {
     "id": "n1-1442",
     "jp": "すんなり",
     "reading": "すんなり",
     "romaji": "sunnari",
-    "meaning": "pass with no objection, slim, slender"
+    "meaning": "pass with no objection, slim, slender",
+    "vi": "suôn sẻ, trôi chảy; thon thả, mảnh mai"
   },
   {
     "id": "n1-1443",
     "jp": "生育",
     "reading": "せいいく",
     "romaji": "seiiku",
-    "meaning": "growth, development, breeding"
+    "meaning": "growth, development, breeding",
+    "vi": "sự sinh trưởng, phát triển"
   },
   {
     "id": "n1-1444",
     "jp": "成育",
     "reading": "せいいく",
     "romaji": "seiiku",
-    "meaning": "growth, raising"
+    "meaning": "growth, raising",
+    "vi": "sự lớn lên, nuôi dưỡng"
   },
   {
     "id": "n1-1445",
     "jp": "成果",
     "reading": "せいか",
     "romaji": "seika",
-    "meaning": "results, fruits"
+    "meaning": "results, fruits",
+    "vi": "thành quả, kết quả"
   },
   {
     "id": "n1-1446",
     "jp": "正解",
     "reading": "せいかい",
     "romaji": "seikai",
-    "meaning": "correct, right answer, solution"
+    "meaning": "correct, right answer, solution",
+    "vi": "đáp án đúng, lời giải đúng"
   },
   {
     "id": "n1-1447",
     "jp": "正義",
     "reading": "せいぎ",
     "romaji": "seigi",
-    "meaning": "justice, right, righteousness"
+    "meaning": "justice, right, righteousness",
+    "vi": "chính nghĩa, công lý"
   },
   {
     "id": "n1-1448",
     "jp": "生計",
     "reading": "せいけい",
     "romaji": "seikei",
-    "meaning": "livelihood, living"
+    "meaning": "livelihood, living",
+    "vi": "kế sinh nhai, cuộc sống mưu sinh"
   },
   {
     "id": "n1-1449",
     "jp": "政権",
     "reading": "せいけん",
     "romaji": "seiken",
-    "meaning": "(political) administration, political power"
+    "meaning": "(political) administration, political power",
+    "vi": "chính quyền, quyền lực chính trị"
   },
   {
     "id": "n1-1450",
     "jp": "星座",
     "reading": "せいざ",
     "romaji": "seiza",
-    "meaning": "constellation"
+    "meaning": "constellation",
+    "vi": "chòm sao"
   },
   {
     "id": "n1-1451",
     "jp": "制裁",
     "reading": "せいさい",
     "romaji": "seisai",
-    "meaning": "restraint, sanctions, punishment"
+    "meaning": "restraint, sanctions, punishment",
+    "vi": "sự trừng phạt, chế tài"
   },
   {
     "id": "n1-1452",
     "jp": "政策",
     "reading": "せいさく",
     "romaji": "seisaku",
-    "meaning": "political measures, policy"
+    "meaning": "political measures, policy",
+    "vi": "chính sách"
   },
   {
     "id": "n1-1453",
     "jp": "生死",
     "reading": "せいし",
     "romaji": "seishi",
-    "meaning": "life and death"
+    "meaning": "life and death",
+    "vi": "sinh tử, sống chết"
   },
   {
     "id": "n1-1454",
     "jp": "静止",
     "reading": "せいし",
     "romaji": "seishi",
-    "meaning": "stillness, repose, standing still"
+    "meaning": "stillness, repose, standing still",
+    "vi": "sự đứng yên, tĩnh lặng"
   },
   {
     "id": "n1-1455",
     "jp": "誠実",
     "reading": "せいじつ",
     "romaji": "seijitsu",
-    "meaning": "sincere, honest, faithful"
+    "meaning": "sincere, honest, faithful",
+    "vi": "chân thành, trung thực"
   },
   {
     "id": "n1-1456",
     "jp": "成熟",
     "reading": "せいじゅく",
     "romaji": "seijuku",
-    "meaning": "maturity, ripeness"
+    "meaning": "maturity, ripeness",
+    "vi": "sự trưởng thành, chín muồi"
   },
   {
     "id": "n1-1457",
     "jp": "青春",
     "reading": "せいしゅん",
     "romaji": "seishun",
-    "meaning": "youth, springtime of life, adolescent"
+    "meaning": "youth, springtime of life, adolescent",
+    "vi": "tuổi trẻ, thanh xuân"
   },
   {
     "id": "n1-1458",
     "jp": "清純",
     "reading": "せいじゅん",
     "romaji": "seijun",
-    "meaning": "purity, innocence"
+    "meaning": "purity, innocence",
+    "vi": "sự trong sáng, thuần khiết"
   },
   {
     "id": "n1-1459",
     "jp": "聖書",
     "reading": "せいしょ",
     "romaji": "seisho",
-    "meaning": "Bible"
+    "meaning": "Bible",
+    "vi": "Kinh Thánh"
   },
   {
     "id": "n1-1460",
     "jp": "正常",
     "reading": "せいじょう",
     "romaji": "seijou",
-    "meaning": "normalcy, normality, normal"
+    "meaning": "normalcy, normality, normal",
+    "vi": "sự bình thường, bình thường"
   },
   {
     "id": "n1-1461",
     "jp": "制する",
     "reading": "せいする",
     "romaji": "seisuru",
-    "meaning": "to control, to command"
+    "meaning": "to control, to command",
+    "vi": "khống chế, chế ngự"
   },
   {
     "id": "n1-1462",
     "jp": "整然",
     "reading": "せいぜん",
     "romaji": "seizen",
-    "meaning": "orderly, regular, well-organized"
+    "meaning": "orderly, regular, well-organized",
+    "vi": "ngăn nắp, trật tự, có tổ chức"
   },
   {
     "id": "n1-1463",
     "jp": "盛装",
     "reading": "せいそう",
     "romaji": "seisou",
-    "meaning": "be dressed up, wear rich clothes"
+    "meaning": "be dressed up, wear rich clothes",
+    "vi": "ăn mặc lộng lẫy, trang phục sang trọng"
   },
   {
     "id": "n1-1464",
     "jp": "盛大",
     "reading": "せいだい",
     "romaji": "seidai",
-    "meaning": "grand, prosperous, magnificent"
+    "meaning": "grand, prosperous, magnificent",
+    "vi": "long trọng, hoành tráng"
   },
   {
     "id": "n1-1465",
     "jp": "清濁",
     "reading": "せいだく",
     "romaji": "seidaku",
-    "meaning": "good and evil, purity and impurity"
+    "meaning": "good and evil, purity and impurity",
+    "vi": "thiện và ác, trong và đục"
   },
   {
     "id": "n1-1466",
     "jp": "制定",
     "reading": "せいてい",
     "romaji": "seitei",
-    "meaning": "enactment, establishment, creation"
+    "meaning": "enactment, establishment, creation",
+    "vi": "sự ban hành, chế định (luật)"
   },
   {
     "id": "n1-1467",
     "jp": "静的",
     "reading": "せいてき",
     "romaji": "seiteki",
-    "meaning": "static"
+    "meaning": "static",
+    "vi": "tĩnh, tĩnh tại"
   },
   {
     "id": "n1-1468",
     "jp": "製鉄",
     "reading": "せいてつ",
     "romaji": "seitetsu",
-    "meaning": "iron manufacture"
+    "meaning": "iron manufacture",
+    "vi": "luyện sắt, sản xuất sắt"
   },
   {
     "id": "n1-1469",
     "jp": "晴天",
     "reading": "せいてん",
     "romaji": "seiten",
-    "meaning": "fine weather"
+    "meaning": "fine weather",
+    "vi": "trời quang, thời tiết đẹp"
   },
   {
     "id": "n1-1470",
     "jp": "正当",
     "reading": "せいとう",
     "romaji": "seitou",
-    "meaning": "just, due, proper"
+    "meaning": "just, due, proper",
+    "vi": "chính đáng, hợp lý"
   },
   {
     "id": "n1-1471",
     "jp": "制服",
     "reading": "せいふく",
     "romaji": "seifuku",
-    "meaning": "uniform"
+    "meaning": "uniform",
+    "vi": "đồng phục"
   },
   {
     "id": "n1-1472",
     "jp": "征服",
     "reading": "せいふく",
     "romaji": "seifuku",
-    "meaning": "conquest, subjugation, overcoming"
+    "meaning": "conquest, subjugation, overcoming",
+    "vi": "sự chinh phục, khuất phục"
   },
   {
     "id": "n1-1473",
     "jp": "製法",
     "reading": "せいほう",
     "romaji": "seihou",
-    "meaning": "manufacturing method, recipe, formula"
+    "meaning": "manufacturing method, recipe, formula",
+    "vi": "phương pháp chế tạo, công thức"
   },
   {
     "id": "n1-1474",
     "jp": "精密",
     "reading": "せいみつ",
     "romaji": "seimitsu",
-    "meaning": "precise, exact, detailed, minute"
+    "meaning": "precise, exact, detailed, minute",
+    "vi": "chính xác, tỉ mỉ, tinh vi"
   },
   {
     "id": "n1-1475",
     "jp": "税務署",
     "reading": "ぜいむしょ",
     "romaji": "zeimusho",
-    "meaning": "tax office"
+    "meaning": "tax office",
+    "vi": "cục thuế, sở thuế"
   },
   {
     "id": "n1-1476",
     "jp": "制約",
     "reading": "せいやく",
     "romaji": "seiyaku",
-    "meaning": "limitation, constraints"
+    "meaning": "limitation, constraints",
+    "vi": "sự hạn chế, ràng buộc"
   },
   {
     "id": "n1-1477",
     "jp": "勢力",
     "reading": "せいりょく",
     "romaji": "seiryoku",
-    "meaning": "influence, power, might, strength"
+    "meaning": "influence, power, might, strength",
+    "vi": "thế lực, quyền lực"
   },
   {
     "id": "n1-1478",
     "jp": "整列",
     "reading": "せいれつ",
     "romaji": "seiretsu",
-    "meaning": "stand in a row, form a line"
+    "meaning": "stand in a row, form a line",
+    "vi": "xếp hàng, sắp thành hàng"
   },
   {
     "id": "n1-1479",
     "jp": "セール",
     "reading": "セール",
     "romaji": "セール",
-    "meaning": "sale"
+    "meaning": "sale",
+    "vi": "đợt giảm giá, khuyến mãi"
   },
   {
     "id": "n1-1480",
     "jp": "急かす",
     "reading": "せかす",
     "romaji": "sekasu",
-    "meaning": "to hurry, to urge on"
+    "meaning": "to hurry, to urge on",
+    "vi": "thúc giục, giục giã"
   },
   {
     "id": "n1-1481",
     "jp": "伜",
     "reading": "せがれ",
     "romaji": "segare",
-    "meaning": "son, my son"
+    "meaning": "son, my son",
+    "vi": "con trai (của tôi)"
   },
   {
     "id": "n1-1482",
     "jp": "責務",
     "reading": "せきむ",
     "romaji": "sekimu",
-    "meaning": "duty, obligation"
+    "meaning": "duty, obligation",
+    "vi": "trách nhiệm, nghĩa vụ"
   },
   {
     "id": "n1-1483",
     "jp": "セクション",
     "reading": "セクション",
     "romaji": "セクション",
-    "meaning": "section"
+    "meaning": "section",
+    "vi": "khu vực, phần, mục"
   },
   {
     "id": "n1-1484",
     "jp": "世辞",
     "reading": "せじ",
     "romaji": "seji",
-    "meaning": "flattery, compliment"
+    "meaning": "flattery, compliment",
+    "vi": "lời khen xã giao, nịnh nọt"
   },
   {
     "id": "n1-1485",
     "jp": "世帯",
     "reading": "せたい",
     "romaji": "setai",
-    "meaning": "household"
+    "meaning": "household",
+    "vi": "hộ gia đình"
   },
   {
     "id": "n1-1486",
     "jp": "是正",
     "reading": "ぜせい",
     "romaji": "zesei",
-    "meaning": "correction, revision"
+    "meaning": "correction, revision",
+    "vi": "sự sửa chữa, chỉnh sửa"
   },
   {
     "id": "n1-1487",
     "jp": "世代",
     "reading": "せだい",
     "romaji": "sedai",
-    "meaning": "generation"
+    "meaning": "generation",
+    "vi": "thế hệ"
   },
   {
     "id": "n1-1488",
     "jp": "切開",
     "reading": "せっかい",
     "romaji": "sekkai",
-    "meaning": "opening up, cutting through"
+    "meaning": "opening up, cutting through",
+    "vi": "sự mổ xẻ, rạch (phẫu thuật)"
   },
   {
     "id": "n1-1489",
     "jp": "セックス",
     "reading": "セックス",
     "romaji": "セックス",
-    "meaning": "sex"
+    "meaning": "sex",
+    "vi": "quan hệ tình dục"
   },
   {
     "id": "n1-1490",
     "jp": "切実",
     "reading": "せつじつ",
     "romaji": "setsujitsu",
-    "meaning": "compelling, serious, severe, acute"
+    "meaning": "compelling, serious, severe, acute",
+    "vi": "thiết thực, cấp bách, nghiêm trọng"
   },
   {
     "id": "n1-1491",
     "jp": "接触",
     "reading": "せっしょく",
     "romaji": "sesshoku",
-    "meaning": "touch, contact"
+    "meaning": "touch, contact",
+    "vi": "sự tiếp xúc"
   },
   {
     "id": "n1-1492",
     "jp": "接続詞",
     "reading": "せつぞくし",
     "romaji": "setsuzokushi",
-    "meaning": "conjunction"
+    "meaning": "conjunction",
+    "vi": "liên từ"
   },
   {
     "id": "n1-1493",
     "jp": "設置",
     "reading": "せっち",
     "romaji": "setchi",
-    "meaning": "establishment, institution"
+    "meaning": "establishment, institution",
+    "vi": "sự lắp đặt, thiết lập"
   },
   {
     "id": "n1-1494",
     "jp": "折衷",
     "reading": "せっちゅう",
     "romaji": "setchuu",
-    "meaning": "compromise, cross, blending, eclecticism"
+    "meaning": "compromise, cross, blending, eclecticism",
+    "vi": "sự dung hòa, chiết trung"
   },
   {
     "id": "n1-1495",
     "jp": "設定",
     "reading": "せってい",
     "romaji": "settei",
-    "meaning": "establishment, creation"
+    "meaning": "establishment, creation",
+    "vi": "sự thiết lập, cài đặt"
   },
   {
     "id": "n1-1496",
     "jp": "説得",
     "reading": "せっとく",
     "romaji": "settoku",
-    "meaning": "persuasion"
+    "meaning": "persuasion",
+    "vi": "sự thuyết phục"
   },
   {
     "id": "n1-1497",
     "jp": "切ない",
     "reading": "せつない",
     "romaji": "setsunai",
-    "meaning": "painful, trying, sad"
+    "meaning": "painful, trying, sad",
+    "vi": "đau lòng, buồn bã, khó chịu"
   },
   {
     "id": "n1-1498",
     "jp": "絶版",
     "reading": "ぜっぱん",
     "romaji": "zeppan",
-    "meaning": "out of print"
+    "meaning": "out of print",
+    "vi": "hết bản in, ngừng xuất bản"
   },
   {
     "id": "n1-1499",
     "jp": "設立",
     "reading": "せつりつ",
     "romaji": "setsuritsu",
-    "meaning": "establishment, foundation, institution"
+    "meaning": "establishment, foundation, institution",
+    "vi": "sự thành lập, sáng lập"
   },
   {
     "id": "n1-1500",
     "jp": "攻め",
     "reading": "せめ",
     "romaji": "seme",
-    "meaning": "attack, offense"
+    "meaning": "attack, offense",
+    "vi": "sự tấn công, thế công"
   },
   {
     "id": "n1-1501",
     "jp": "ゼリー",
     "reading": "ゼリー",
     "romaji": "ゼリー",
-    "meaning": "jelly"
+    "meaning": "jelly",
+    "vi": "thạch, jelly"
   },
   {
     "id": "n1-1502",
     "jp": "セレモニー",
     "reading": "セレモニー",
     "romaji": "セレモニー",
-    "meaning": "ceremony"
+    "meaning": "ceremony",
+    "vi": "buổi lễ, nghi lễ"
   },
   {
     "id": "n1-1503",
     "jp": "世論",
     "reading": "せろん",
     "romaji": "seron",
-    "meaning": "public opinion"
+    "meaning": "public opinion",
+    "vi": "dư luận"
   },
   {
     "id": "n1-1504",
     "jp": "先",
     "reading": "せん",
     "romaji": "sen",
-    "meaning": "priority, precedence, previous"
+    "meaning": "priority, precedence, previous",
+    "vi": "trước, ưu tiên, trước đây"
   },
   {
     "id": "n1-1505",
     "jp": "繊維",
     "reading": "せんい",
     "romaji": "sen'i",
-    "meaning": "fiber, fiber, textile"
+    "meaning": "fiber, fiber, textile",
+    "vi": "sợi, chất xơ, dệt may"
   },
   {
     "id": "n1-1506",
     "jp": "全快",
     "reading": "ぜんかい",
     "romaji": "zenkai",
-    "meaning": "complete recovery of health"
+    "meaning": "complete recovery of health",
+    "vi": "hồi phục hoàn toàn (sức khỏe)"
   },
   {
     "id": "n1-1507",
     "jp": "宣教",
     "reading": "せんきょう",
     "romaji": "senkyou",
-    "meaning": "religious mission"
+    "meaning": "religious mission",
+    "vi": "truyền giáo"
   },
   {
     "id": "n1-1508",
     "jp": "宣言",
     "reading": "せんげん",
     "romaji": "sengen",
-    "meaning": "declaration, proclamation, announcement"
+    "meaning": "declaration, proclamation, announcement",
+    "vi": "lời tuyên bố, tuyên ngôn"
   },
   {
     "id": "n1-1509",
     "jp": "戦災",
     "reading": "せんさい",
     "romaji": "sensai",
-    "meaning": "war damage"
+    "meaning": "war damage",
+    "vi": "thiệt hại do chiến tranh"
   },
   {
     "id": "n1-1510",
     "jp": "専修",
     "reading": "せんしゅう",
     "romaji": "senshuu",
-    "meaning": "specialization"
+    "meaning": "specialization",
+    "vi": "sự chuyên tu, chuyên ngành"
   },
   {
     "id": "n1-1511",
     "jp": "戦術",
     "reading": "せんじゅつ",
     "romaji": "senjutsu",
-    "meaning": "tactics"
+    "meaning": "tactics",
+    "vi": "chiến thuật"
   },
   {
     "id": "n1-1512",
     "jp": "センス",
     "reading": "センス",
     "romaji": "センス",
-    "meaning": "sense (for music, style, tact, etc.)"
+    "meaning": "sense (for music, style, tact, etc.)",
+    "vi": "gu thẩm mỹ, khiếu (âm nhạc, phong cách...)"
   },
   {
     "id": "n1-1513",
     "jp": "潜水",
     "reading": "せんすい",
     "romaji": "sensui",
-    "meaning": "diving"
+    "meaning": "diving",
+    "vi": "sự lặn"
   },
   {
     "id": "n1-1514",
     "jp": "全盛",
     "reading": "ぜんせい",
     "romaji": "zensei",
-    "meaning": "height of prosperity"
+    "meaning": "height of prosperity",
+    "vi": "thời kỳ cực thịnh"
   },
   {
     "id": "n1-1515",
     "jp": "先代",
     "reading": "せんだい",
     "romaji": "sendai",
-    "meaning": "family predecessor, previous age, previous generation"
+    "meaning": "family predecessor, previous age, previous generation",
+    "vi": "đời trước, thế hệ trước (trong gia đình)"
   },
   {
     "id": "n1-1516",
     "jp": "先だって",
     "reading": "せんだって",
     "romaji": "sendatte",
-    "meaning": "recently, the other day"
+    "meaning": "recently, the other day",
+    "vi": "gần đây, hôm trước"
   },
   {
     "id": "n1-1517",
     "jp": "先着",
     "reading": "せんちゃく",
     "romaji": "senchaku",
-    "meaning": "first arrival"
+    "meaning": "first arrival",
+    "vi": "đến trước, đến sớm nhất"
   },
   {
     "id": "n1-1518",
     "jp": "前提",
     "reading": "ぜんてい",
     "romaji": "zentei",
-    "meaning": "preamble, premise, prerequisite"
+    "meaning": "preamble, premise, prerequisite",
+    "vi": "tiền đề, điều kiện tiên quyết"
   },
   {
     "id": "n1-1519",
     "jp": "先天的",
     "reading": "せんてんてき",
     "romaji": "sententeki",
-    "meaning": "inherent, congenital, hereditary"
+    "meaning": "inherent, congenital, hereditary",
+    "vi": "bẩm sinh, di truyền"
   },
   {
     "id": "n1-1520",
     "jp": "前途",
     "reading": "ぜんと",
     "romaji": "zento",
-    "meaning": "future prospects, outlook, the journey ahead"
+    "meaning": "future prospects, outlook, the journey ahead",
+    "vi": "tiền đồ, tương lai phía trước"
   },
   {
     "id": "n1-1521",
     "jp": "戦闘",
     "reading": "せんとう",
     "romaji": "sentou",
-    "meaning": "battle, fight, combat"
+    "meaning": "battle, fight, combat",
+    "vi": "chiến đấu, giao tranh"
   },
   {
     "id": "n1-1522",
     "jp": "潜入",
     "reading": "せんにゅう",
     "romaji": "sennyuu",
-    "meaning": "infiltration, sneaking in"
+    "meaning": "infiltration, sneaking in",
+    "vi": "sự xâm nhập, lẻn vào"
   },
   {
     "id": "n1-1523",
     "jp": "船舶",
     "reading": "せんぱく",
     "romaji": "senpaku",
-    "meaning": "ship"
+    "meaning": "ship",
+    "vi": "tàu thuyền"
   },
   {
     "id": "n1-1524",
     "jp": "全滅",
     "reading": "ぜんめつ",
     "romaji": "zenmetsu",
-    "meaning": "annihilation"
+    "meaning": "annihilation",
+    "vi": "sự tiêu diệt hoàn toàn, toàn diệt"
   },
   {
     "id": "n1-1525",
     "jp": "専用",
     "reading": "せんよう",
     "romaji": "sen'you",
-    "meaning": "exclusive use, personal use"
+    "meaning": "exclusive use, personal use",
+    "vi": "dùng riêng, chuyên dụng"
   },
   {
     "id": "n1-1526",
     "jp": "占領",
     "reading": "せんりょう",
     "romaji": "senryou",
-    "meaning": "occupation, possession, have a room to oneself"
+    "meaning": "occupation, possession, have a room to oneself",
+    "vi": "sự chiếm đóng, chiếm lĩnh"
   },
   {
     "id": "n1-1527",
     "jp": "善良",
     "reading": "ぜんりょう",
     "romaji": "zenryou",
-    "meaning": "goodness, excellence, virtue"
+    "meaning": "goodness, excellence, virtue",
+    "vi": "hiền lành, lương thiện"
   },
   {
     "id": "n1-1528",
     "jp": "戦力",
     "reading": "せんりょく",
     "romaji": "senryoku",
-    "meaning": "war potential"
+    "meaning": "war potential",
+    "vi": "thực lực quân sự, sức mạnh chiến đấu"
   },
   {
     "id": "n1-1529",
     "jp": "前例",
     "reading": "ぜんれい",
     "romaji": "zenrei",
-    "meaning": "precedent"
+    "meaning": "precedent",
+    "vi": "tiền lệ"
   },
   {
     "id": "n1-1530",
     "jp": "相応",
     "reading": "そうおう",
     "romaji": "souou",
-    "meaning": "suitability, fitness"
+    "meaning": "suitability, fitness",
+    "vi": "sự phù hợp, tương xứng"
   },
   {
     "id": "n1-1531",
     "jp": "総会",
     "reading": "そうかい",
     "romaji": "soukai",
-    "meaning": "general meeting"
+    "meaning": "general meeting",
+    "vi": "đại hội, tổng hội"
   },
   {
     "id": "n1-1532",
     "jp": "創刊",
     "reading": "そうかん",
     "romaji": "soukan",
-    "meaning": "launching (e.g., newspaper, first issue)"
+    "meaning": "launching (e.g., newspaper, first issue)",
+    "vi": "phát hành số đầu tiên (báo, tạp chí)"
   },
   {
     "id": "n1-1533",
     "jp": "雑木",
     "reading": "ぞうき",
     "romaji": "zouki",
-    "meaning": "various kinds of small trees, assorted trees"
+    "meaning": "various kinds of small trees, assorted trees",
+    "vi": "cây tạp, cây linh tinh"
   },
   {
     "id": "n1-1534",
     "jp": "早急",
     "reading": "そうきゅう",
     "romaji": "soukyuu",
-    "meaning": "urgent"
+    "meaning": "urgent",
+    "vi": "khẩn cấp, gấp rút"
   },
   {
     "id": "n1-1535",
     "jp": "早急",
     "reading": "さっきゅう",
     "romaji": "sakkyuu",
-    "meaning": "urgent"
+    "meaning": "urgent",
+    "vi": "khẩn cấp, gấp rút"
   },
   {
     "id": "n1-1536",
     "jp": "増強",
     "reading": "ぞうきょう",
     "romaji": "zoukyou",
-    "meaning": "reinforce, increase"
+    "meaning": "reinforce, increase",
+    "vi": "tăng cường, gia tăng"
   },
   {
     "id": "n1-1537",
     "jp": "送金",
     "reading": "そうきん",
     "romaji": "soukin",
-    "meaning": "remittance, sending money"
+    "meaning": "remittance, sending money",
+    "vi": "sự chuyển tiền, gửi tiền"
   },
   {
     "id": "n1-1538",
     "jp": "走行",
     "reading": "そうこう",
     "romaji": "soukou",
-    "meaning": "running a wheeled vehicle (e.g., car, traveling)"
+    "meaning": "running a wheeled vehicle (e.g., car, traveling)",
+    "vi": "sự chạy xe, vận hành xe"
   },
   {
     "id": "n1-1539",
     "jp": "総合",
     "reading": "そうごう",
     "romaji": "sougou",
-    "meaning": "synthesis, generalization"
+    "meaning": "synthesis, generalization",
+    "vi": "sự tổng hợp, khái quát"
   },
   {
     "id": "n1-1540",
     "jp": "捜索",
     "reading": "そうさく",
     "romaji": "sousaku",
-    "meaning": "search (esp. for someone or something missing, investigation)"
+    "meaning": "search (esp. for someone or something missing, investigation)",
+    "vi": "sự tìm kiếm, điều tra"
   },
   {
     "id": "n1-1541",
     "jp": "蔵相",
     "reading": "ぞうしょう",
     "romaji": "zoushou",
-    "meaning": "Minister of Finance"
+    "meaning": "Minister of Finance",
+    "vi": "Bộ trưởng Tài chính"
   },
   {
     "id": "n1-1542",
     "jp": "装飾",
     "reading": "そうしょく",
     "romaji": "soushoku",
-    "meaning": "ornament"
+    "meaning": "ornament",
+    "vi": "sự trang trí, đồ trang trí"
   },
   {
     "id": "n1-1543",
     "jp": "増進",
     "reading": "ぞうしん",
     "romaji": "zoushin",
-    "meaning": "promoting, increase, advance"
+    "meaning": "promoting, increase, advance",
+    "vi": "sự thúc đẩy, tăng tiến"
   },
   {
     "id": "n1-1544",
     "jp": "相対",
     "reading": "そうたい",
     "romaji": "soutai",
-    "meaning": "relative"
+    "meaning": "relative",
+    "vi": "tương đối"
   },
   {
     "id": "n1-1545",
     "jp": "壮大",
     "reading": "そうだい",
     "romaji": "soudai",
-    "meaning": "magnificent, grand, majestic"
+    "meaning": "magnificent, grand, majestic",
+    "vi": "hùng vĩ, tráng lệ"
   },
   {
     "id": "n1-1546",
     "jp": "騒動",
     "reading": "そうどう",
     "romaji": "soudou",
-    "meaning": "strife, riot, rebellion"
+    "meaning": "strife, riot, rebellion",
+    "vi": "sự náo động, bạo loạn"
   },
   {
     "id": "n1-1547",
     "jp": "遭難",
     "reading": "そうなん",
     "romaji": "sounan",
-    "meaning": "disaster, shipwreck, accident"
+    "meaning": "disaster, shipwreck, accident",
+    "vi": "gặp nạn, tai nạn (đắm tàu...)"
   },
   {
     "id": "n1-1548",
     "jp": "相場",
     "reading": "そうば",
     "romaji": "souba",
-    "meaning": "market price, speculation, estimation"
+    "meaning": "market price, speculation, estimation",
+    "vi": "giá thị trường, đầu cơ"
   },
   {
     "id": "n1-1549",
     "jp": "装備",
     "reading": "そうび",
     "romaji": "soubi",
-    "meaning": "equipment"
+    "meaning": "equipment",
+    "vi": "trang bị, thiết bị"
   },
   {
     "id": "n1-1550",
     "jp": "創立",
     "reading": "そうりつ",
     "romaji": "souritsu",
-    "meaning": "establishment, founding"
+    "meaning": "establishment, founding",
+    "vi": "sự sáng lập, thành lập"
   },
   {
     "id": "n1-1551",
     "jp": "添える",
     "reading": "そえる",
     "romaji": "soeru",
-    "meaning": "to add to, to attach, to accompany"
+    "meaning": "to add to, to attach, to accompany",
+    "vi": "thêm vào, đính kèm, đi kèm"
   },
   {
     "id": "n1-1552",
     "jp": "ソース",
     "reading": "ソース",
     "romaji": "ソース",
-    "meaning": "source"
+    "meaning": "source",
+    "vi": "nước sốt; nguồn (source)"
   },
   {
     "id": "n1-1553",
     "jp": "即座に",
     "reading": "そくざに",
     "romaji": "sokuzani",
-    "meaning": "immediately, right away"
+    "meaning": "immediately, right away",
+    "vi": "ngay lập tức"
   },
   {
     "id": "n1-1554",
     "jp": "促進",
     "reading": "そくしん",
     "romaji": "sokushin",
-    "meaning": "promotion, acceleration, encouragement"
+    "meaning": "promotion, acceleration, encouragement",
+    "vi": "sự thúc đẩy, xúc tiến"
   },
   {
     "id": "n1-1555",
     "jp": "即する",
     "reading": "そくする",
     "romaji": "sokusuru",
-    "meaning": "to conform to, to agree with, to be adapted to,"
+    "meaning": "to conform to, to agree with, to be adapted to,",
+    "vi": "phù hợp với, thích ứng với"
   },
   {
     "id": "n1-1556",
     "jp": "束縛",
     "reading": "そくばく",
     "romaji": "sokubaku",
-    "meaning": "restraint, restriction, confinement"
+    "meaning": "restraint, restriction, confinement",
+    "vi": "sự ràng buộc, trói buộc"
   },
   {
     "id": "n1-1557",
     "jp": "側面",
     "reading": "そくめん",
     "romaji": "sokumen",
-    "meaning": "side, sidelight, lateral"
+    "meaning": "side, sidelight, lateral",
+    "vi": "mặt bên, khía cạnh"
   },
   {
     "id": "n1-1558",
     "jp": "損う",
     "reading": "そこなう",
     "romaji": "sokonau",
-    "meaning": "to harm, to hurt"
+    "meaning": "to harm, to hurt",
+    "vi": "gây hại, làm tổn thương"
   },
   {
     "id": "n1-1559",
     "jp": "そこら",
     "reading": "そこら",
     "romaji": "sokora",
-    "meaning": "everywhere, somewhere"
+    "meaning": "everywhere, somewhere",
+    "vi": "quanh đó, đâu đó"
   },
   {
     "id": "n1-1560",
     "jp": "素材",
     "reading": "そざい",
     "romaji": "sozai",
-    "meaning": "raw materials, subject matter"
+    "meaning": "raw materials, subject matter",
+    "vi": "nguyên liệu thô, chất liệu, đề tài"
   },
   {
     "id": "n1-1561",
     "jp": "阻止",
     "reading": "そし",
     "romaji": "soshi",
-    "meaning": "obstruction, check, hindrance"
+    "meaning": "obstruction, check, hindrance",
+    "vi": "sự ngăn chặn, cản trở"
   },
   {
     "id": "n1-1562",
     "jp": "訴訟",
     "reading": "そしょう",
     "romaji": "soshou",
-    "meaning": "litigation, lawsuit"
+    "meaning": "litigation, lawsuit",
+    "vi": "vụ kiện, tố tụng"
   },
   {
     "id": "n1-1563",
     "jp": "育ち",
     "reading": "そだち",
     "romaji": "sodachi",
-    "meaning": "breeding, growth"
+    "meaning": "breeding, growth",
+    "vi": "sự nuôi dưỡng, trưởng thành"
   },
   {
     "id": "n1-1564",
     "jp": "措置",
     "reading": "そち",
     "romaji": "sochi",
-    "meaning": "measure, step"
+    "meaning": "measure, step",
+    "vi": "biện pháp, bước xử lý"
   },
   {
     "id": "n1-1565",
     "jp": "ソックス",
     "reading": "ソックス",
     "romaji": "ソックス",
-    "meaning": "socks"
+    "meaning": "socks",
+    "vi": "tất, vớ"
   },
   {
     "id": "n1-1566",
     "jp": "素っ気無い",
     "reading": "そっけない",
     "romaji": "sokkenai",
-    "meaning": "cold, short, curt, blunt"
+    "meaning": "cold, short, curt, blunt",
+    "vi": "lạnh nhạt, cộc lốc"
   },
   {
     "id": "n1-1567",
     "jp": "外方",
     "reading": "そっぽ",
     "romaji": "soppo",
-    "meaning": "look (or turn) the other way"
+    "meaning": "look (or turn) the other way",
+    "vi": "quay mặt đi, ngoảnh mặt"
   },
   {
     "id": "n1-1568",
     "jp": "備え付ける",
     "reading": "そなえつける",
     "romaji": "sonaetsukeru",
-    "meaning": "to provide, to equip, to install"
+    "meaning": "to provide, to equip, to install",
+    "vi": "trang bị sẵn, lắp đặt sẵn"
   },
   {
     "id": "n1-1569",
     "jp": "備わる",
     "reading": "そなわる",
     "romaji": "sonawaru",
-    "meaning": "to be furnished with"
+    "meaning": "to be furnished with",
+    "vi": "được trang bị, vốn có"
   },
   {
     "id": "n1-1570",
     "jp": "具わる",
     "reading": "そなわる",
     "romaji": "sonawaru",
-    "meaning": "to be furnished with"
+    "meaning": "to be furnished with",
+    "vi": "được trang bị, vốn có"
   },
   {
     "id": "n1-1571",
     "jp": "聳える",
     "reading": "そびえる",
     "romaji": "sobieru",
-    "meaning": "to rise, to tower, to soar"
+    "meaning": "to rise, to tower, to soar",
+    "vi": "sừng sững, cao vút"
   },
   {
     "id": "n1-1572",
     "jp": "素朴",
     "reading": "そぼく",
     "romaji": "soboku",
-    "meaning": "simplicity, artlessness, naivety"
+    "meaning": "simplicity, artlessness, naivety",
+    "vi": "mộc mạc, giản dị, chất phác"
   },
   {
     "id": "n1-1573",
     "jp": "背く",
     "reading": "そむく",
     "romaji": "somuku",
-    "meaning": "to run counter to, to go against"
+    "meaning": "to run counter to, to go against",
+    "vi": "trái ngược, đi ngược lại"
   },
   {
     "id": "n1-1574",
     "jp": "染まる",
     "reading": "そまる",
     "romaji": "somaru",
-    "meaning": "to be dyed"
+    "meaning": "to be dyed",
+    "vi": "bị nhuộm màu"
   },
   {
     "id": "n1-1575",
     "jp": "染める",
     "reading": "そめる",
     "romaji": "someru",
-    "meaning": "to dye, to color"
+    "meaning": "to dye, to color",
+    "vi": "nhuộm, tô màu"
   },
   {
     "id": "n1-1576",
     "jp": "そらす",
     "reading": "そらす",
     "romaji": "sorasu",
-    "meaning": "to bend, to warp"
+    "meaning": "to bend, to warp",
+    "vi": "làm cong, làm vênh; lảng tránh"
   },
   {
     "id": "n1-1577",
     "jp": "そり (～にのる)",
     "reading": "そり (～にのる)",
     "romaji": "sori (～ninoru)",
-    "meaning": "sleigh, sled"
+    "meaning": "sleigh, sled",
+    "vi": "xe trượt tuyết"
   },
   {
     "id": "n1-1578",
     "jp": "反る",
     "reading": "そる",
     "romaji": "soru",
-    "meaning": "to warp, to be warped, to curve"
+    "meaning": "to warp, to be warped, to curve",
+    "vi": "cong lại, bị vênh"
   },
   {
     "id": "n1-1579",
     "jp": "それゆえ",
     "reading": "それゆえ",
     "romaji": "soreyue",
-    "meaning": "therefore, for that reason, so"
+    "meaning": "therefore, for that reason, so",
+    "vi": "vì vậy, do đó"
   },
   {
     "id": "n1-1580",
     "jp": "ソロ",
     "reading": "ソロ",
     "romaji": "ソロ",
-    "meaning": "solo"
+    "meaning": "solo",
+    "vi": "đơn ca, độc tấu (solo)"
   },
   {
     "id": "n1-1581",
     "jp": "揃い",
     "reading": "そろい",
     "romaji": "soroi",
-    "meaning": "set, suit, uniform"
+    "meaning": "set, suit, uniform",
+    "vi": "bộ đồng bộ, cả bộ"
   },
   {
     "id": "n1-1582",
     "jp": "ぞんざい",
     "reading": "ぞんざい",
     "romaji": "zonzai",
-    "meaning": "rude, careless, slovenly"
+    "meaning": "rude, careless, slovenly",
+    "vi": "cẩu thả, thô lỗ"
   },
   {
     "id": "n1-1583",
     "jp": "損失",
     "reading": "そんしつ",
     "romaji": "sonshitsu",
-    "meaning": "loss"
+    "meaning": "loss",
+    "vi": "sự tổn thất, mất mát"
   },
   {
     "id": "n1-1584",
     "jp": "存続",
     "reading": "そんぞく",
     "romaji": "sonzoku",
-    "meaning": "duration, continuance"
+    "meaning": "duration, continuance",
+    "vi": "sự tồn tại lâu dài, tiếp tục tồn tại"
   },
   {
     "id": "n1-1585",
     "jp": "ダース",
     "reading": "ダース",
     "romaji": "ダース",
-    "meaning": "dozen"
+    "meaning": "dozen",
+    "vi": "một tá (12 cái)"
   },
   {
     "id": "n1-1586",
     "jp": "対応",
     "reading": "たいおう",
     "romaji": "taiou",
-    "meaning": "dealing with"
+    "meaning": "dealing with",
+    "vi": "sự ứng phó, xử lý, tương ứng"
   },
   {
     "id": "n1-1587",
     "jp": "大家",
     "reading": "たいか",
     "romaji": "taika",
-    "meaning": "rich family, distinguished family"
+    "meaning": "rich family, distinguished family",
+    "vi": "gia đình giàu có, danh gia"
   },
   {
     "id": "n1-1588",
     "jp": "退化",
     "reading": "たいか",
     "romaji": "taika",
-    "meaning": "degeneration, retrogression"
+    "meaning": "degeneration, retrogression",
+    "vi": "sự thoái hóa"
   },
   {
     "id": "n1-1589",
     "jp": "大概",
     "reading": "たいがい",
     "romaji": "taigai",
-    "meaning": "in general, mainly"
+    "meaning": "in general, mainly",
+    "vi": "nói chung, phần lớn"
   },
   {
     "id": "n1-1590",
     "jp": "体格",
     "reading": "たいかく",
     "romaji": "taikaku",
-    "meaning": "physique, constitution"
+    "meaning": "physique, constitution",
+    "vi": "thể chất, vóc dáng"
   },
   {
     "id": "n1-1591",
     "jp": "大金",
     "reading": "たいきん",
     "romaji": "taikin",
-    "meaning": "large amount of money"
+    "meaning": "large amount of money",
+    "vi": "số tiền lớn"
   },
   {
     "id": "n1-1592",
     "jp": "待遇",
     "reading": "たいぐう",
     "romaji": "taiguu",
-    "meaning": "treatment, reception"
+    "meaning": "treatment, reception",
+    "vi": "sự đãi ngộ, tiếp đãi"
   },
   {
     "id": "n1-1593",
     "jp": "対決",
     "reading": "たいけつ",
     "romaji": "taiketsu",
-    "meaning": "confrontation, showdown"
+    "meaning": "confrontation, showdown",
+    "vi": "sự đối đầu, đối chất"
   },
   {
     "id": "n1-1594",
     "jp": "体験",
     "reading": "たいけん",
     "romaji": "taiken",
-    "meaning": "personal experience"
+    "meaning": "personal experience",
+    "vi": "trải nghiệm cá nhân"
   },
   {
     "id": "n1-1595",
     "jp": "対抗",
     "reading": "たいこう",
     "romaji": "taikou",
-    "meaning": "opposition, antagonism"
+    "meaning": "opposition, antagonism",
+    "vi": "sự đối kháng, chống đối"
   },
   {
     "id": "n1-1596",
     "jp": "退治",
     "reading": "たいじ",
     "romaji": "taiji",
-    "meaning": "extermination"
+    "meaning": "extermination",
+    "vi": "sự tiêu diệt, diệt trừ"
   },
   {
     "id": "n1-1597",
     "jp": "大衆",
     "reading": "たいしゅう",
     "romaji": "taishuu",
-    "meaning": "general public"
+    "meaning": "general public",
+    "vi": "công chúng, đại chúng"
   },
   {
     "id": "n1-1598",
     "jp": "対処",
     "reading": "たいしょ",
     "romaji": "taisho",
-    "meaning": "deal with, cope"
+    "meaning": "deal with, cope",
+    "vi": "sự đối phó, xử lý"
   },
   {
     "id": "n1-1599",
     "jp": "退職",
     "reading": "たいしょく",
     "romaji": "taishoku",
-    "meaning": "retirement (from office)"
+    "meaning": "retirement (from office)",
+    "vi": "sự nghỉ hưu, thôi việc"
   },
   {
     "id": "n1-1600",
     "jp": "題する",
     "reading": "だいする",
     "romaji": "daisuru",
-    "meaning": "to title"
+    "meaning": "to title",
+    "vi": "đặt tên, đề tựa"
   },
   {
     "id": "n1-1601",
     "jp": "態勢",
     "reading": "たいせい",
     "romaji": "taisei",
-    "meaning": "attitude, conditions, tendency"
+    "meaning": "attitude, conditions, tendency",
+    "vi": "thái độ, tình thế, tư thế sẵn sàng"
   },
   {
     "id": "n1-1602",
     "jp": "対談",
     "reading": "たいだん",
     "romaji": "taidan",
-    "meaning": "talk, dialogue"
+    "meaning": "talk, dialogue",
+    "vi": "cuộc đối thoại, trò chuyện"
   },
   {
     "id": "n1-1603",
     "jp": "大胆",
     "reading": "だいたん",
     "romaji": "daitan",
-    "meaning": "bold, daring, audacious"
+    "meaning": "bold, daring, audacious",
+    "vi": "táo bạo, gan dạ"
   },
   {
     "id": "n1-1604",
     "jp": "対等",
     "reading": "たいとう",
     "romaji": "taitou",
-    "meaning": "equivalent"
+    "meaning": "equivalent",
+    "vi": "ngang hàng, bình đẳng"
   },
   {
     "id": "n1-1605",
     "jp": "台無し",
     "reading": "だいなし",
     "romaji": "dainashi",
-    "meaning": "mess, spoiled, (come to) nothing"
+    "meaning": "mess, spoiled, (come to) nothing",
+    "vi": "hỏng bét, hư hỏng, thành công cốc"
   },
   {
     "id": "n1-1606",
     "jp": "滞納",
     "reading": "たいのう",
     "romaji": "tainou",
-    "meaning": "non-payment, default"
+    "meaning": "non-payment, default",
+    "vi": "sự chậm nộp, nợ đọng"
   },
   {
     "id": "n1-1607",
     "jp": "対比",
     "reading": "たいひ",
     "romaji": "taihi",
-    "meaning": "contrast, comparison"
+    "meaning": "contrast, comparison",
+    "vi": "sự đối chiếu, so sánh"
   },
   {
     "id": "n1-1608",
     "jp": "タイピスト",
     "reading": "タイピスト",
     "romaji": "タイピスト",
-    "meaning": "typist"
+    "meaning": "typist",
+    "vi": "người đánh máy"
   },
   {
     "id": "n1-1609",
     "jp": "大部",
     "reading": "たいぶ",
     "romaji": "taibu",
-    "meaning": "most (e.g., most part, greater, fairly, a good deal, much)"
+    "meaning": "most (e.g., most part, greater, fairly, a good deal, much)",
+    "vi": "phần lớn, đa phần"
   },
   {
     "id": "n1-1610",
     "jp": "大便",
     "reading": "だいべん",
     "romaji": "daiben",
-    "meaning": "feces"
+    "meaning": "feces",
+    "vi": "phân, đại tiện"
   },
   {
     "id": "n1-1611",
     "jp": "代弁",
     "reading": "だいべん",
     "romaji": "daiben",
-    "meaning": "speak for another"
+    "meaning": "speak for another",
+    "vi": "nói thay, biện hộ cho người khác"
   },
   {
     "id": "n1-1612",
     "jp": "待望",
     "reading": "たいぼう",
     "romaji": "taibou",
-    "meaning": "long-expected, waiting"
+    "meaning": "long-expected, waiting",
+    "vi": "sự mong đợi từ lâu"
   },
   {
     "id": "n1-1613",
     "jp": "台本",
     "reading": "だいほん",
     "romaji": "daihon",
-    "meaning": "libretto, scenario"
+    "meaning": "libretto, scenario",
+    "vi": "kịch bản"
   },
   {
     "id": "n1-1614",
     "jp": "タイマー",
     "reading": "タイマー",
     "romaji": "タイマー",
-    "meaning": "timer"
+    "meaning": "timer",
+    "vi": "bộ hẹn giờ"
   },
   {
     "id": "n1-1615",
     "jp": "怠慢",
     "reading": "たいまん",
     "romaji": "taiman",
-    "meaning": "negligence, carelessness"
+    "meaning": "negligence, carelessness",
+    "vi": "sự lơ là, cẩu thả"
   },
   {
     "id": "n1-1616",
     "jp": "タイミング",
     "reading": "タイミング",
     "romaji": "タイミング",
-    "meaning": "timing"
+    "meaning": "timing",
+    "vi": "thời điểm, sự canh thời gian"
   },
   {
     "id": "n1-1617",
     "jp": "タイム",
     "reading": "タイム",
     "romaji": "タイム",
-    "meaning": "time"
+    "meaning": "time",
+    "vi": "thời gian, tạm dừng (time)"
   },
   {
     "id": "n1-1618",
     "jp": "タイムリー",
     "reading": "タイムリー",
     "romaji": "タイムリー",
-    "meaning": "timely, run-batted-in (baseball), RBI"
+    "meaning": "timely, run-batted-in (baseball), RBI",
+    "vi": "đúng lúc, kịp thời"
   },
   {
     "id": "n1-1619",
     "jp": "対面",
     "reading": "たいめん",
     "romaji": "taimen",
-    "meaning": "interview, meeting"
+    "meaning": "interview, meeting",
+    "vi": "sự gặp mặt trực tiếp"
   },
   {
     "id": "n1-1620",
     "jp": "代用",
     "reading": "だいよう",
     "romaji": "daiyou",
-    "meaning": "substitution"
+    "meaning": "substitution",
+    "vi": "sự thay thế"
   },
   {
     "id": "n1-1621",
     "jp": "体力",
     "reading": "たいりょく",
     "romaji": "tairyoku",
-    "meaning": "physical strength"
+    "meaning": "physical strength",
+    "vi": "thể lực, sức khỏe"
   },
   {
     "id": "n1-1622",
     "jp": "タイル",
     "reading": "タイル",
     "romaji": "タイル",
-    "meaning": "tile"
+    "meaning": "tile",
+    "vi": "gạch men"
   },
   {
     "id": "n1-1623",
     "jp": "対話",
     "reading": "たいわ",
     "romaji": "taiwa",
-    "meaning": "conversation, dialogue"
+    "meaning": "conversation, dialogue",
+    "vi": "cuộc đối thoại"
   },
   {
     "id": "n1-1624",
     "jp": "耐える",
     "reading": "たえる",
     "romaji": "taeru",
-    "meaning": "to endure, to put up with"
+    "meaning": "to endure, to put up with",
+    "vi": "chịu đựng, nhẫn nại"
   },
   {
     "id": "n1-1625",
     "jp": "堪える",
     "reading": "たえる",
     "romaji": "taeru",
-    "meaning": "to endure, to put up with"
+    "meaning": "to endure, to put up with",
+    "vi": "chịu đựng, nhẫn nại"
   },
   {
     "id": "n1-1626",
     "jp": "絶える",
     "reading": "たえる",
     "romaji": "taeru",
-    "meaning": "to die out, to become extinct"
+    "meaning": "to die out, to become extinct",
+    "vi": "chấm dứt, tuyệt diệt"
   },
   {
     "id": "n1-1627",
     "jp": "断える",
     "reading": "たえる",
     "romaji": "taeru",
-    "meaning": "to cease, to become extinct"
+    "meaning": "to cease, to become extinct",
+    "vi": "chấm dứt, ngừng hẳn"
   },
   {
     "id": "n1-1628",
     "jp": "打開",
     "reading": "だかい",
     "romaji": "dakai",
-    "meaning": "solution, breakthrough"
+    "meaning": "solution, breakthrough",
+    "vi": "sự đột phá, tháo gỡ (bế tắc)"
   },
   {
     "id": "n1-1629",
     "jp": "焚火",
     "reading": "たきび",
     "romaji": "takibi",
-    "meaning": "(open) fire"
+    "meaning": "(open) fire",
+    "vi": "đống lửa (ngoài trời)"
   },
   {
     "id": "n1-1630",
     "jp": "妥協",
     "reading": "だきょう",
     "romaji": "dakyou",
-    "meaning": "compromise, giving in"
+    "meaning": "compromise, giving in",
+    "vi": "sự thỏa hiệp, nhượng bộ"
   },
   {
     "id": "n1-1631",
     "jp": "たくましい",
     "reading": "たくましい",
     "romaji": "takumashii",
-    "meaning": "burly, strong, sturdy"
+    "meaning": "burly, strong, sturdy",
+    "vi": "vạm vỡ, cường tráng"
   },
   {
     "id": "n1-1632",
     "jp": "巧み",
     "reading": "たくみ",
     "romaji": "takumi",
-    "meaning": "skill, cleverness"
+    "meaning": "skill, cleverness",
+    "vi": "sự khéo léo, tài tình"
   },
   {
     "id": "n1-1633",
     "jp": "丈",
     "reading": "たけ",
     "romaji": "take",
-    "meaning": "length, height"
+    "meaning": "length, height",
+    "vi": "chiều dài, chiều cao"
   },
   {
     "id": "n1-1634",
     "jp": "打撃",
     "reading": "だげき",
     "romaji": "dageki",
-    "meaning": "blow, damage; batting (baseball)"
+    "meaning": "blow, damage; batting (baseball)",
+    "vi": "cú đánh, thiệt hại; đánh bóng (bóng chày)"
   },
   {
     "id": "n1-1635",
     "jp": "妥結",
     "reading": "だけつ",
     "romaji": "daketsu",
-    "meaning": "agreement"
+    "meaning": "agreement",
+    "vi": "sự thỏa thuận, đi đến thống nhất"
   },
   {
     "id": "n1-1636",
     "jp": "駄作",
     "reading": "ださく",
     "romaji": "dasaku",
-    "meaning": "poor work"
+    "meaning": "poor work",
+    "vi": "tác phẩm kém, dở"
   },
   {
     "id": "n1-1637",
     "jp": "足し算",
     "reading": "たしざん",
     "romaji": "tashizan",
-    "meaning": "addition"
+    "meaning": "addition",
+    "vi": "phép cộng"
   },
   {
     "id": "n1-1638",
     "jp": "多数決",
     "reading": "たすうけつ",
     "romaji": "tasuuketsu",
-    "meaning": "majority rule"
+    "meaning": "majority rule",
+    "vi": "nguyên tắc đa số, biểu quyết theo đa số"
   },
   {
     "id": "n1-1639",
     "jp": "助け",
     "reading": "たすけ",
     "romaji": "tasuke",
-    "meaning": "assistance"
+    "meaning": "assistance",
+    "vi": "sự giúp đỡ"
   },
   {
     "id": "n1-1640",
     "jp": "携わる",
     "reading": "たずさわる",
     "romaji": "tazusawaru",
-    "meaning": "to engage, to involve"
+    "meaning": "to engage, to involve",
+    "vi": "tham gia, dự phần vào"
   },
   {
     "id": "n1-1641",
     "jp": "漂う",
     "reading": "ただよう",
     "romaji": "tadayou",
-    "meaning": "to drift about, to float, to hang in air"
+    "meaning": "to drift about, to float, to hang in air",
+    "vi": "trôi dạt, lơ lửng"
   },
   {
     "id": "n1-1642",
     "jp": "立ち去る",
     "reading": "たちさる",
     "romaji": "tachisaru",
-    "meaning": "to leave, to depart"
+    "meaning": "to leave, to depart",
+    "vi": "rời đi, bỏ đi"
   },
   {
     "id": "n1-1643",
     "jp": "立ち寄る",
     "reading": "たちよる",
     "romaji": "tachiyoru",
-    "meaning": "to stop by, to drop in for a short visit"
+    "meaning": "to stop by, to drop in for a short visit",
+    "vi": "ghé qua, tạt vào"
   },
   {
     "id": "n1-1644",
     "jp": "抱っこ",
     "reading": "だっこ",
     "romaji": "dakko",
-    "meaning": "(child's) hug"
+    "meaning": "(child's) hug",
+    "vi": "bế, ẵm (trẻ nhỏ)"
   },
   {
     "id": "n1-1645",
     "jp": "達者",
     "reading": "たっしゃ",
     "romaji": "tassha",
-    "meaning": "skillful, in good health"
+    "meaning": "skillful, in good health",
+    "vi": "khéo léo, thành thạo; khỏe mạnh"
   },
   {
     "id": "n1-1646",
     "jp": "脱出",
     "reading": "だっしゅつ",
     "romaji": "dasshutsu",
-    "meaning": "escape"
+    "meaning": "escape",
+    "vi": "sự thoát ra, đào tẩu"
   },
   {
     "id": "n1-1647",
     "jp": "脱する",
     "reading": "だっする",
     "romaji": "dassuru",
-    "meaning": "to escape from, to get out"
+    "meaning": "to escape from, to get out",
+    "vi": "thoát khỏi, ra khỏi"
   },
   {
     "id": "n1-1648",
     "jp": "達成",
     "reading": "たっせい",
     "romaji": "tassei",
-    "meaning": "achievement"
+    "meaning": "achievement",
+    "vi": "sự đạt được, thành tựu"
   },
   {
     "id": "n1-1649",
     "jp": "脱退",
     "reading": "だったい",
     "romaji": "dattai",
-    "meaning": "secession, withdrawal"
+    "meaning": "secession, withdrawal",
+    "vi": "sự rút lui, ly khai"
   },
   {
     "id": "n1-1650",
     "jp": "だったら",
     "reading": "だったら",
     "romaji": "dattara",
-    "meaning": "if it's the case"
+    "meaning": "if it's the case",
+    "vi": "nếu vậy thì"
   },
   {
     "id": "n1-1651",
     "jp": "立て替える",
     "reading": "たてかえる",
     "romaji": "tatekaeru",
-    "meaning": "to pay in advance, to pay for another"
+    "meaning": "to pay in advance, to pay for another",
+    "vi": "trả trước, trả thay (người khác)"
   },
   {
     "id": "n1-1652",
     "jp": "建前",
     "reading": "たてまえ",
     "romaji": "tatemae",
-    "meaning": "position; stance one takes in public; principle"
+    "meaning": "position; stance one takes in public; principle",
+    "vi": "lập trường công khai, vẻ ngoài (khác với suy nghĩ thật)"
   },
   {
     "id": "n1-1653",
     "jp": "奉る",
     "reading": "たてまつる",
     "romaji": "tatematsuru",
-    "meaning": "to offer, to do respectfully"
+    "meaning": "to offer, to do respectfully",
+    "vi": "dâng lên, kính tặng"
   },
   {
     "id": "n1-1654",
     "jp": "だと",
     "reading": "だと",
     "romaji": "dato",
-    "meaning": "if it's the case"
+    "meaning": "if it's the case",
+    "vi": "nếu là, nếu vậy"
   },
   {
     "id": "n1-1655",
     "jp": "他動詞",
     "reading": "たどうし",
     "romaji": "tadoushi",
-    "meaning": "transitive verb (direct object)"
+    "meaning": "transitive verb (direct object)",
+    "vi": "động từ ngoại động (có tân ngữ)"
   },
   {
     "id": "n1-1656",
     "jp": "辿り着く",
     "reading": "たどりつく",
     "romaji": "tadoritsuku",
-    "meaning": "to reach, to make it somehow"
+    "meaning": "to reach, to make it somehow",
+    "vi": "cuối cùng cũng đến được"
   },
   {
     "id": "n1-1657",
     "jp": "辿る",
     "reading": "たどる",
     "romaji": "tadoru",
-    "meaning": "to follow (road, to pursue (course), to follow up"
+    "meaning": "to follow (road, to pursue (course), to follow up",
+    "vi": "lần theo, đi theo (con đường, dấu vết)"
   },
   {
     "id": "n1-1658",
     "jp": "束ねる",
     "reading": "たばねる",
     "romaji": "tabaneru",
-    "meaning": "to tie up in a bundle, to control"
+    "meaning": "to tie up in a bundle, to control",
+    "vi": "bó lại thành bó; quản lý, thống lĩnh"
   },
   {
     "id": "n1-1659",
     "jp": "だぶだぶ",
     "reading": "だぶだぶ",
     "romaji": "dabudabu",
-    "meaning": "loose, baggy"
+    "meaning": "loose, baggy",
+    "vi": "rộng thùng thình"
   },
   {
     "id": "n1-1660",
     "jp": "他方",
     "reading": "たほう",
     "romaji": "tahou",
-    "meaning": "another side, on the other hand"
+    "meaning": "another side, on the other hand",
+    "vi": "mặt khác"
   },
   {
     "id": "n1-1661",
     "jp": "多忙",
     "reading": "たぼう",
     "romaji": "tabou",
-    "meaning": "busy"
+    "meaning": "busy",
+    "vi": "bận rộn"
   },
   {
     "id": "n1-1662",
     "jp": "給う",
     "reading": "たまう",
     "romaji": "tamau",
-    "meaning": "to receive, to grant"
+    "meaning": "to receive, to grant",
+    "vi": "ban cho, nhận lấy (kính ngữ cổ)"
   },
   {
     "id": "n1-1663",
     "jp": "魂",
     "reading": "たましい",
     "romaji": "tamashii",
-    "meaning": "soul, spirit"
+    "meaning": "soul, spirit",
+    "vi": "linh hồn, tâm hồn"
   },
   {
     "id": "n1-1664",
     "jp": "溜まり",
     "reading": "たまり",
     "romaji": "tamari",
-    "meaning": "collected things, gathering place, arrears"
+    "meaning": "collected things, gathering place, arrears",
+    "vi": "nơi tụ tập, chỗ đọng lại; nợ tồn đọng"
   },
   {
     "id": "n1-1665",
     "jp": "賜る",
     "reading": "たまわる",
     "romaji": "tamawaru",
-    "meaning": "to grant, to bestow"
+    "meaning": "to grant, to bestow",
+    "vi": "ban tặng, ban cho (kính ngữ)"
   },
   {
     "id": "n1-1666",
     "jp": "保つ",
     "reading": "たもつ",
     "romaji": "tamotsu",
-    "meaning": "to keep, to preserve, to sustain"
+    "meaning": "to keep, to preserve, to sustain",
+    "vi": "giữ gìn, duy trì"
   },
   {
     "id": "n1-1667",
     "jp": "たやすい",
     "reading": "たやすい",
     "romaji": "tayasui",
-    "meaning": "easy, simple, light"
+    "meaning": "easy, simple, light",
+    "vi": "dễ dàng, đơn giản"
   },
   {
     "id": "n1-1668",
     "jp": "多様",
     "reading": "たよう",
     "romaji": "tayou",
-    "meaning": "diversity, variety"
+    "meaning": "diversity, variety",
+    "vi": "sự đa dạng"
   },
   {
     "id": "n1-1669",
     "jp": "だるい",
     "reading": "だるい",
     "romaji": "darui",
-    "meaning": "sluggish, feel heavy (tired), languid"
+    "meaning": "sluggish, feel heavy (tired), languid",
+    "vi": "uể oải, mệt mỏi rã rời"
   },
   {
     "id": "n1-1670",
     "jp": "弛み",
     "reading": "たるみ",
     "romaji": "tarumi",
-    "meaning": "slack, slackening"
+    "meaning": "slack, slackening",
+    "vi": "sự chùng, chảy xệ"
   },
   {
     "id": "n1-1671",
     "jp": "弛む",
     "reading": "たるむ",
     "romaji": "tarumu",
-    "meaning": "to slacken, to loosen, to relax"
+    "meaning": "to slacken, to loosen, to relax",
+    "vi": "chùng xuống, lỏng ra"
   },
   {
     "id": "n1-1672",
     "jp": "垂れる",
     "reading": "たれる",
     "romaji": "tareru",
-    "meaning": "to hang, to droop; to drip"
+    "meaning": "to hang, to droop; to drip",
+    "vi": "rủ xuống, treo lủng lẳng; nhỏ giọt"
   },
   {
     "id": "n1-1673",
     "jp": "タレント",
     "reading": "タレント",
     "romaji": "タレント",
-    "meaning": "talent, star, personality"
+    "meaning": "talent, star, personality",
+    "vi": "người nổi tiếng, ngôi sao truyền hình"
   },
   {
     "id": "n1-1674",
     "jp": "タワー",
     "reading": "タワー",
     "romaji": "タワー",
-    "meaning": "tower"
+    "meaning": "tower",
+    "vi": "tòa tháp"
   },
   {
     "id": "n1-1675",
     "jp": "単一",
     "reading": "たんいつ",
     "romaji": "tan'itsu",
-    "meaning": "single, simple, sole"
+    "meaning": "single, simple, sole",
+    "vi": "đơn nhất, duy nhất"
   },
   {
     "id": "n1-1676",
     "jp": "短歌",
     "reading": "たんか",
     "romaji": "tanka",
-    "meaning": "31-syllable Japanese poem"
+    "meaning": "31-syllable Japanese poem",
+    "vi": "đoản ca (thơ 31 âm tiết của Nhật)"
   },
   {
     "id": "n1-1677",
     "jp": "担架",
     "reading": "たんか",
     "romaji": "tanka",
-    "meaning": "stretcher, litter"
+    "meaning": "stretcher, litter",
+    "vi": "cáng (y tế)"
   },
   {
     "id": "n1-1678",
     "jp": "短気",
     "reading": "たんき",
     "romaji": "tanki",
-    "meaning": "quick temper"
+    "meaning": "quick temper",
+    "vi": "nóng tính"
   },
   {
     "id": "n1-1679",
     "jp": "団結",
     "reading": "だんけつ",
     "romaji": "danketsu",
-    "meaning": "unity, union, solidarity"
+    "meaning": "unity, union, solidarity",
+    "vi": "sự đoàn kết"
   },
   {
     "id": "n1-1680",
     "jp": "探検",
     "reading": "たんけん",
     "romaji": "tanken",
-    "meaning": "exploration, expedition"
+    "meaning": "exploration, expedition",
+    "vi": "sự thám hiểm"
   },
   {
     "id": "n1-1681",
     "jp": "断言",
     "reading": "だんげん",
     "romaji": "dangen",
-    "meaning": "assertion, declaration, affirmation"
+    "meaning": "assertion, declaration, affirmation",
+    "vi": "sự khẳng định chắc chắn"
   },
   {
     "id": "n1-1682",
     "jp": "短縮",
     "reading": "たんしゅく",
     "romaji": "tanshuku",
-    "meaning": "shortening, abbreviation, reduction"
+    "meaning": "shortening, abbreviation, reduction",
+    "vi": "sự rút ngắn"
   },
   {
     "id": "n1-1683",
     "jp": "断然",
     "reading": "だんぜん",
     "romaji": "danzen",
-    "meaning": "firmly, absolutely, definitely"
+    "meaning": "firmly, absolutely, definitely",
+    "vi": "kiên quyết, tuyệt đối"
   },
   {
     "id": "n1-1684",
     "jp": "炭素",
     "reading": "たんそ",
     "romaji": "tanso",
-    "meaning": "carbon (C)"
+    "meaning": "carbon (C)",
+    "vi": "cacbon"
   },
   {
     "id": "n1-1685",
     "jp": "短大",
     "reading": "たんだい",
     "romaji": "tandai",
-    "meaning": "junior college"
+    "meaning": "junior college",
+    "vi": "trường cao đẳng (2 năm)"
   },
   {
     "id": "n1-1686",
     "jp": "単調",
     "reading": "たんちょう",
     "romaji": "tanchou",
-    "meaning": "monotony, monotone, dullness"
+    "meaning": "monotony, monotone, dullness",
+    "vi": "sự đơn điệu, tẻ nhạt"
   },
   {
     "id": "n1-1687",
     "jp": "単独",
     "reading": "たんどく",
     "romaji": "tandoku",
-    "meaning": "sole, single"
+    "meaning": "sole, single",
+    "vi": "đơn độc, riêng lẻ"
   },
   {
     "id": "n1-1688",
     "jp": "旦那",
     "reading": "だんな",
     "romaji": "danna",
-    "meaning": "master (of house), husband (informal)"
+    "meaning": "master (of house), husband (informal)",
+    "vi": "chủ nhà; chồng (cách gọi thân mật)"
   },
   {
     "id": "n1-1689",
     "jp": "短波",
     "reading": "たんぱ",
     "romaji": "tanpa",
-    "meaning": "short wave"
+    "meaning": "short wave",
+    "vi": "sóng ngắn"
   },
   {
     "id": "n1-1690",
     "jp": "蛋白質",
     "reading": "たんぱくしつ",
     "romaji": "tanpakushitsu",
-    "meaning": "protein"
+    "meaning": "protein",
+    "vi": "chất đạm, protein"
   },
   {
     "id": "n1-1691",
     "jp": "ダンプ",
     "reading": "ダンプ",
     "romaji": "ダンプ",
-    "meaning": "dump truck"
+    "meaning": "dump truck",
+    "vi": "xe ben"
   },
   {
     "id": "n1-1692",
     "jp": "断面",
     "reading": "だんめん",
     "romaji": "danmen",
-    "meaning": "cross section"
+    "meaning": "cross section",
+    "vi": "mặt cắt ngang"
   },
   {
     "id": "n1-1693",
     "jp": "弾力",
     "reading": "だんりょく",
     "romaji": "danryoku",
-    "meaning": "elasticity, flexibility"
+    "meaning": "elasticity, flexibility",
+    "vi": "tính đàn hồi, độ linh hoạt"
   },
   {
     "id": "n1-1694",
     "jp": "治安",
     "reading": "ちあん",
     "romaji": "chian",
-    "meaning": "public order, security"
+    "meaning": "public order, security",
+    "vi": "an ninh trật tự"
   },
   {
     "id": "n1-1695",
     "jp": "チームワーク",
     "reading": "チームワーク",
     "romaji": "チームワーク",
-    "meaning": "teamwork"
+    "meaning": "teamwork",
+    "vi": "tinh thần đồng đội"
   },
   {
     "id": "n1-1696",
     "jp": "チェンジ",
     "reading": "チェンジ",
     "romaji": "チェンジ",
-    "meaning": "change"
+    "meaning": "change",
+    "vi": "sự thay đổi"
   },
   {
     "id": "n1-1697",
     "jp": "違える",
     "reading": "ちがえる",
     "romaji": "chigaeru",
-    "meaning": "to change"
+    "meaning": "to change",
+    "vi": "làm sai khác, làm trật (khớp)"
   },
   {
     "id": "n1-1698",
     "jp": "畜産",
     "reading": "ちくさん",
     "romaji": "chikusan",
-    "meaning": "animal husbandry"
+    "meaning": "animal husbandry",
+    "vi": "chăn nuôi"
   },
   {
     "id": "n1-1699",
     "jp": "畜生",
     "reading": "ちくしょう",
     "romaji": "chikushou",
-    "meaning": "beast, brute, damn"
+    "meaning": "beast, brute, damn",
+    "vi": "súc sinh; chết tiệt (chửi thề)"
   },
   {
     "id": "n1-1700",
     "jp": "蓄積",
     "reading": "ちくせき",
     "romaji": "chikuseki",
-    "meaning": "accumulation, accumulate, store"
+    "meaning": "accumulation, accumulate, store",
+    "vi": "sự tích lũy"
   },
   {
     "id": "n1-1701",
     "jp": "地形",
     "reading": "ちけい",
     "romaji": "chikei",
-    "meaning": "landform, geographical features, topography"
+    "meaning": "landform, geographical features, topography",
+    "vi": "địa hình"
   },
   {
     "id": "n1-1702",
     "jp": "知性",
     "reading": "ちせい",
     "romaji": "chisei",
-    "meaning": "intelligence"
+    "meaning": "intelligence",
+    "vi": "trí tuệ"
   },
   {
     "id": "n1-1703",
     "jp": "乳",
     "reading": "ちち",
     "romaji": "chichi",
-    "meaning": "milk, breast, loop"
+    "meaning": "milk, breast, loop",
+    "vi": "sữa, bầu vú"
   },
   {
     "id": "n1-1704",
     "jp": "縮まる",
     "reading": "ちぢまる",
     "romaji": "chijimaru",
-    "meaning": "to be shortened, to be contracted, to shrink"
+    "meaning": "to be shortened, to be contracted, to shrink",
+    "vi": "bị rút ngắn, co lại"
   },
   {
     "id": "n1-1705",
     "jp": "秩序",
     "reading": "ちつじょ",
     "romaji": "chitsujo",
-    "meaning": "order, regularity"
+    "meaning": "order, regularity",
+    "vi": "trật tự"
   },
   {
     "id": "n1-1706",
     "jp": "窒息",
     "reading": "ちっそく",
     "romaji": "chissoku",
-    "meaning": "suffocation"
+    "meaning": "suffocation",
+    "vi": "sự nghẹt thở, ngạt thở"
   },
   {
     "id": "n1-1707",
     "jp": "知的",
     "reading": "ちてき",
     "romaji": "chiteki",
-    "meaning": "intellectual"
+    "meaning": "intellectual",
+    "vi": "trí tuệ, thuộc về trí óc"
   },
   {
     "id": "n1-1708",
     "jp": "着手",
     "reading": "ちゃくしゅ",
     "romaji": "chakushu",
-    "meaning": "embarkation, launch"
+    "meaning": "embarkation, launch",
+    "vi": "sự bắt tay vào (làm việc gì)"
   },
   {
     "id": "n1-1709",
     "jp": "着色",
     "reading": "ちゃくしょく",
     "romaji": "chakushoku",
-    "meaning": "coloring, coloring"
+    "meaning": "coloring, coloring",
+    "vi": "sự tô màu, nhuộm màu"
   },
   {
     "id": "n1-1710",
     "jp": "着席",
     "reading": "ちゃくせき",
     "romaji": "chakuseki",
-    "meaning": "sit down, seat"
+    "meaning": "sit down, seat",
+    "vi": "ngồi vào chỗ, an tọa"
   },
   {
     "id": "n1-1711",
     "jp": "着目",
     "reading": "ちゃくもく",
     "romaji": "chakumoku",
-    "meaning": "attention"
+    "meaning": "attention",
+    "vi": "sự chú ý, để mắt tới"
   },
   {
     "id": "n1-1712",
     "jp": "着陸",
     "reading": "ちゃくりく",
     "romaji": "chakuriku",
-    "meaning": "landing, touch down"
+    "meaning": "landing, touch down",
+    "vi": "sự hạ cánh"
   },
   {
     "id": "n1-1713",
     "jp": "着工",
     "reading": "ちゃっこう",
     "romaji": "chakkou",
-    "meaning": "start of (construction) work"
+    "meaning": "start of (construction) work",
+    "vi": "khởi công"
   },
   {
     "id": "n1-1714",
     "jp": "茶の間",
     "reading": "ちゃのま",
     "romaji": "chanoma",
-    "meaning": "living room (Japanese style)"
+    "meaning": "living room (Japanese style)",
+    "vi": "phòng khách kiểu Nhật"
   },
   {
     "id": "n1-1715",
     "jp": "茶の湯",
     "reading": "ちゃのゆ",
     "romaji": "chanoyu",
-    "meaning": "tea ceremony"
+    "meaning": "tea ceremony",
+    "vi": "trà đạo"
   },
   {
     "id": "n1-1716",
     "jp": "ちやほや",
     "reading": "ちやほや",
     "romaji": "chiyahoya",
-    "meaning": "pamper, make a fuss of, spoil"
+    "meaning": "pamper, make a fuss of, spoil",
+    "vi": "nuông chiều, tâng bốc"
   },
   {
     "id": "n1-1717",
     "jp": "チャンネル",
     "reading": "チャンネル",
     "romaji": "チャンネル",
-    "meaning": "a channel"
+    "meaning": "a channel",
+    "vi": "kênh (truyền hình)"
   },
   {
     "id": "n1-1718",
     "jp": "宙返り",
     "reading": "ちゅうがえり",
     "romaji": "chuugaeri",
-    "meaning": "somersault, looping-the-loop"
+    "meaning": "somersault, looping-the-loop",
+    "vi": "cú lộn nhào"
   },
   {
     "id": "n1-1719",
     "jp": "中継",
     "reading": "ちゅうけい",
     "romaji": "chuukei",
-    "meaning": "relay, hook-up"
+    "meaning": "relay, hook-up",
+    "vi": "sự tiếp sóng, trung chuyển"
   },
   {
     "id": "n1-1720",
     "jp": "忠告",
     "reading": "ちゅうこく",
     "romaji": "chuukoku",
-    "meaning": "advice, warning"
+    "meaning": "advice, warning",
+    "vi": "lời khuyên răn"
   },
   {
     "id": "n1-1721",
     "jp": "中傷",
     "reading": "ちゅうしょう",
     "romaji": "chuushou",
-    "meaning": "slander, libel, defamation"
+    "meaning": "slander, libel, defamation",
+    "vi": "sự vu khống, nói xấu"
   },
   {
     "id": "n1-1722",
     "jp": "中枢",
     "reading": "ちゅうすう",
     "romaji": "chuusuu",
-    "meaning": "center, mainstay, nucleus"
+    "meaning": "center, mainstay, nucleus",
+    "vi": "trung tâm đầu não, hạt nhân"
   },
   {
     "id": "n1-1723",
     "jp": "抽選",
     "reading": "ちゅうせん",
     "romaji": "chuusen",
-    "meaning": "lottery, raffle, drawing (of lots)"
+    "meaning": "lottery, raffle, drawing (of lots)",
+    "vi": "sự rút thăm, xổ số"
   },
   {
     "id": "n1-1724",
     "jp": "中断",
     "reading": "ちゅうだん",
     "romaji": "chuudan",
-    "meaning": "interruption, suspension, break"
+    "meaning": "interruption, suspension, break",
+    "vi": "sự gián đoạn, tạm ngừng"
   },
   {
     "id": "n1-1725",
     "jp": "中毒",
     "reading": "ちゅうどく",
     "romaji": "chuudoku",
-    "meaning": "poisoning"
+    "meaning": "poisoning",
+    "vi": "sự ngộ độc, nghiện"
   },
   {
     "id": "n1-1726",
     "jp": "中腹",
     "reading": "ちゅうふく",
     "romaji": "chuufuku",
-    "meaning": "mountain side, halfway up"
+    "meaning": "mountain side, halfway up",
+    "vi": "lưng chừng núi"
   },
   {
     "id": "n1-1727",
     "jp": "中立",
     "reading": "ちゅうりつ",
     "romaji": "chuuritsu",
-    "meaning": "neutrality"
+    "meaning": "neutrality",
+    "vi": "sự trung lập"
   },
   {
     "id": "n1-1728",
     "jp": "中和",
     "reading": "ちゅうわ",
     "romaji": "chuuwa",
-    "meaning": "neutralize, counteract"
+    "meaning": "neutralize, counteract",
+    "vi": "sự trung hòa"
   },
   {
     "id": "n1-1729",
     "jp": "～著",
     "reading": "～ちょ",
     "romaji": "～cho",
-    "meaning": "written by ~"
+    "meaning": "written by ~",
+    "vi": "do ~ viết (tác giả)"
   },
   {
     "id": "n1-1730",
     "jp": "腸",
     "reading": "ちょう",
     "romaji": "chou",
-    "meaning": "bowels, intestines"
+    "meaning": "bowels, intestines",
+    "vi": "ruột"
   },
   {
     "id": "n1-1731",
     "jp": "蝶",
     "reading": "ちょう",
     "romaji": "chou",
-    "meaning": "butterfly"
+    "meaning": "butterfly",
+    "vi": "bướm"
   },
   {
     "id": "n1-1732",
     "jp": "超",
     "reading": "ちょう",
     "romaji": "chou",
-    "meaning": "super-, ultra-, hyper-"
+    "meaning": "super-, ultra-, hyper-",
+    "vi": "siêu-"
   },
   {
     "id": "n1-1733",
     "jp": "調印",
     "reading": "ちょういん",
     "romaji": "chouin",
-    "meaning": "signature, sign, sealing"
+    "meaning": "signature, sign, sealing",
+    "vi": "sự ký kết (văn kiện)"
   },
   {
     "id": "n1-1734",
     "jp": "聴覚",
     "reading": "ちょうかく",
     "romaji": "choukaku",
-    "meaning": "the sense of hearing"
+    "meaning": "the sense of hearing",
+    "vi": "thính giác"
   },
   {
     "id": "n1-1735",
     "jp": "長官",
     "reading": "ちょうかん",
     "romaji": "choukan",
-    "meaning": "chief, (government) secretary"
+    "meaning": "chief, (government) secretary",
+    "vi": "trưởng quan, chánh văn phòng (chức vụ)"
   },
   {
     "id": "n1-1736",
     "jp": "聴講",
     "reading": "ちょうこう",
     "romaji": "choukou",
-    "meaning": "lecture attendance, auditing"
+    "meaning": "lecture attendance, auditing",
+    "vi": "sự dự thính (bài giảng)"
   },
   {
     "id": "n1-1737",
     "jp": "徴収",
     "reading": "ちょうしゅう",
     "romaji": "choushuu",
-    "meaning": "collection, levy"
+    "meaning": "collection, levy",
+    "vi": "sự thu, thu phí"
   },
   {
     "id": "n1-1738",
     "jp": "聴診器",
     "reading": "ちょうしんき",
     "romaji": "choushinki",
-    "meaning": "stethoscope"
+    "meaning": "stethoscope",
+    "vi": "ống nghe (y tế)"
   },
   {
     "id": "n1-1739",
     "jp": "調停",
     "reading": "ちょうてい",
     "romaji": "choutei",
-    "meaning": "arbitration, conciliation, mediation"
+    "meaning": "arbitration, conciliation, mediation",
+    "vi": "sự hòa giải, trọng tài"
   },
   {
     "id": "n1-1740",
     "jp": "重複",
     "reading": "ちょうふく",
     "romaji": "choufuku",
-    "meaning": "duplication, repetition, overlapping, redundancy, restoration"
+    "meaning": "duplication, repetition, overlapping, redundancy, restoration",
+    "vi": "sự trùng lặp, chồng chéo"
   },
   {
     "id": "n1-1741",
     "jp": "長編",
     "reading": "ちょうへん",
     "romaji": "chouhen",
-    "meaning": "long (e.g., novel, film)"
+    "meaning": "long (e.g., novel, film)",
+    "vi": "tác phẩm dài kỳ (tiểu thuyết, phim)"
   },
   {
     "id": "n1-1742",
     "jp": "重宝",
     "reading": "ちょうほう",
     "romaji": "chouhou",
-    "meaning": "convenient, useful"
+    "meaning": "convenient, useful",
+    "vi": "tiện lợi, hữu dụng"
   },
   {
     "id": "n1-1743",
     "jp": "調理",
     "reading": "ちょうり",
     "romaji": "chouri",
-    "meaning": "cooking"
+    "meaning": "cooking",
+    "vi": "sự nấu nướng, chế biến món ăn"
   },
   {
     "id": "n1-1744",
     "jp": "調和",
     "reading": "ちょうわ",
     "romaji": "chouwa",
-    "meaning": "harmony"
+    "meaning": "harmony",
+    "vi": "sự hài hòa"
   },
   {
     "id": "n1-1745",
     "jp": "ちょくちょく",
     "reading": "ちょくちょく",
     "romaji": "chokuchoku",
-    "meaning": "often, frequently, now and then, occasionally"
+    "meaning": "often, frequently, now and then, occasionally",
+    "vi": "thường xuyên, thỉnh thoảng"
   },
   {
     "id": "n1-1746",
     "jp": "直面",
     "reading": "ちょくめん",
     "romaji": "chokumen",
-    "meaning": "confrontation"
+    "meaning": "confrontation",
+    "vi": "sự đối mặt"
   },
   {
     "id": "n1-1747",
     "jp": "著書",
     "reading": "ちょしょ",
     "romaji": "chosho",
-    "meaning": "literary work, book"
+    "meaning": "literary work, book",
+    "vi": "tác phẩm, sách đã viết"
   },
   {
     "id": "n1-1748",
     "jp": "貯蓄",
     "reading": "ちょちく",
     "romaji": "chochiku",
-    "meaning": "savings"
+    "meaning": "savings",
+    "vi": "tiền tiết kiệm"
   },
   {
     "id": "n1-1749",
     "jp": "直感",
     "reading": "ちょっかん",
     "romaji": "chokkan",
-    "meaning": "intuition, instinct"
+    "meaning": "intuition, instinct",
+    "vi": "trực giác"
   },
   {
     "id": "n1-1750",
     "jp": "著名",
     "reading": "ちょめい",
     "romaji": "chomei",
-    "meaning": "well-known, noted, celebrated"
+    "meaning": "well-known, noted, celebrated",
+    "vi": "nổi tiếng, danh tiếng"
   },
   {
     "id": "n1-1751",
     "jp": "ちらっと",
     "reading": "ちらっと",
     "romaji": "chiratto",
-    "meaning": "at a glance, by accident"
+    "meaning": "at a glance, by accident",
+    "vi": "thoáng qua, tình cờ"
   },
   {
     "id": "n1-1752",
     "jp": "塵",
     "reading": "ちり",
     "romaji": "chiri",
-    "meaning": "dust, dirt"
+    "meaning": "dust, dirt",
+    "vi": "bụi, bụi bẩn"
   },
   {
     "id": "n1-1753",
     "jp": "塵取り",
     "reading": "ちりとり",
     "romaji": "chiritori",
-    "meaning": "dustpan"
+    "meaning": "dustpan",
+    "vi": "cái hót rác"
   },
   {
     "id": "n1-1754",
     "jp": "賃金",
     "reading": "ちんぎん",
     "romaji": "chingin",
-    "meaning": "wages"
+    "meaning": "wages",
+    "vi": "tiền lương"
   },
   {
     "id": "n1-1755",
     "jp": "沈殿",
     "reading": "ちんでん",
     "romaji": "chinden",
-    "meaning": "precipitation, deposition, settlement"
+    "meaning": "precipitation, deposition, settlement",
+    "vi": "sự lắng đọng, kết tủa"
   },
   {
     "id": "n1-1756",
     "jp": "沈没",
     "reading": "ちんぼつ",
     "romaji": "chinbotsu",
-    "meaning": "sinking, foundering"
+    "meaning": "sinking, foundering",
+    "vi": "sự chìm (tàu)"
   },
   {
     "id": "n1-1757",
     "jp": "沈黙",
     "reading": "ちんもく",
     "romaji": "chinmoku",
-    "meaning": "silence, reticence"
+    "meaning": "silence, reticence",
+    "vi": "sự im lặng"
   },
   {
     "id": "n1-1758",
     "jp": "陳列",
     "reading": "ちんれつ",
     "romaji": "chinretsu",
-    "meaning": "exhibition, display, show"
+    "meaning": "exhibition, display, show",
+    "vi": "sự trưng bày"
   },
   {
     "id": "n1-1759",
     "jp": "追及",
     "reading": "ついきゅう",
     "romaji": "tsuikyuu",
-    "meaning": "investigation, inquiry"
+    "meaning": "investigation, inquiry",
+    "vi": "sự truy cứu, truy vấn"
   },
   {
     "id": "n1-1760",
     "jp": "追跡",
     "reading": "ついせき",
     "romaji": "tsuiseki",
-    "meaning": "pursuit"
+    "meaning": "pursuit",
+    "vi": "sự truy đuổi"
   },
   {
     "id": "n1-1761",
     "jp": "追放",
     "reading": "ついほう",
     "romaji": "tsuihou",
-    "meaning": "exile, banishment"
+    "meaning": "exile, banishment",
+    "vi": "sự trục xuất, lưu đày"
   },
   {
     "id": "n1-1762",
     "jp": "費やす",
     "reading": "ついやす",
     "romaji": "tsuiyasu",
-    "meaning": "to spend, to devote, to waste"
+    "meaning": "to spend, to devote, to waste",
+    "vi": "tiêu tốn, dành (thời gian, tiền bạc)"
   },
   {
     "id": "n1-1763",
     "jp": "墜落",
     "reading": "ついらく",
     "romaji": "tsuiraku",
-    "meaning": "falling, crashing"
+    "meaning": "falling, crashing",
+    "vi": "sự rơi, rớt (máy bay)"
   },
   {
     "id": "n1-1764",
     "jp": "痛感",
     "reading": "つうかん",
     "romaji": "tsuukan",
-    "meaning": "feeling keenly, fully realizing"
+    "meaning": "feeling keenly, fully realizing",
+    "vi": "cảm nhận sâu sắc, thấm thía"
   },
   {
     "id": "n1-1765",
     "jp": "通常",
     "reading": "つうじょう",
     "romaji": "tsuujou",
-    "meaning": "common, normal, usual"
+    "meaning": "common, normal, usual",
+    "vi": "thông thường"
   },
   {
     "id": "n1-1766",
     "jp": "痛切",
     "reading": "つうせつ",
     "romaji": "tsuusetsu",
-    "meaning": "keen, deep"
+    "meaning": "keen, deep",
+    "vi": "thấm thía, sâu sắc"
   },
   {
     "id": "n1-1767",
     "jp": "杖",
     "reading": "つえ",
     "romaji": "tsue",
-    "meaning": "cane"
+    "meaning": "cane",
+    "vi": "cây gậy"
   },
   {
     "id": "n1-1768",
     "jp": "使い道",
     "reading": "つかいみち",
     "romaji": "tsukaimichi",
-    "meaning": "use"
+    "meaning": "use",
+    "vi": "cách sử dụng, công dụng"
   },
   {
     "id": "n1-1769",
     "jp": "仕える",
     "reading": "つかえる",
     "romaji": "tsukaeru",
-    "meaning": "to serve, to work for"
+    "meaning": "to serve, to work for",
+    "vi": "phụng sự, phục vụ"
   },
   {
     "id": "n1-1770",
     "jp": "司る",
     "reading": "つかさどる",
     "romaji": "tsukasadoru",
-    "meaning": "to rule, to govern, to administer"
+    "meaning": "to rule, to govern, to administer",
+    "vi": "cai quản, chưởng quản"
   },
   {
     "id": "n1-1771",
     "jp": "つかの間",
     "reading": "つかのま",
     "romaji": "tsukanoma",
-    "meaning": "moment, brief time,"
+    "meaning": "moment, brief time,",
+    "vi": "khoảnh khắc ngắn ngủi"
   },
   {
     "id": "n1-1772",
     "jp": "月並",
     "reading": "つきなみ",
     "romaji": "tsukinami",
-    "meaning": "conventional, trite, common"
+    "meaning": "conventional, trite, common",
+    "vi": "tầm thường, sáo rỗng"
   },
   {
     "id": "n1-1773",
     "jp": "継目",
     "reading": "つぎめ",
     "romaji": "tsugime",
-    "meaning": "joint, seam"
+    "meaning": "joint, seam",
+    "vi": "mối nối, đường nối"
   },
   {
     "id": "n1-1774",
     "jp": "尽きる",
     "reading": "つきる",
     "romaji": "tsukiru",
-    "meaning": "to be used up, to be run out"
+    "meaning": "to be used up, to be run out",
+    "vi": "cạn kiệt, hết"
   },
   {
     "id": "n1-1775",
     "jp": "尽くす",
     "reading": "つくす",
     "romaji": "tsukusu",
-    "meaning": "to exhaust, to run out; to devote, to serve"
+    "meaning": "to exhaust, to run out; to devote, to serve",
+    "vi": "dốc hết, cống hiến hết mình"
   },
   {
     "id": "n1-1776",
     "jp": "つくづく",
     "reading": "つくづく",
     "romaji": "tsukuzuku",
-    "meaning": "completely, really"
+    "meaning": "completely, really",
+    "vi": "thật sự, hoàn toàn (thấm thía)"
   },
   {
     "id": "n1-1777",
     "jp": "作り",
     "reading": "つくり",
     "romaji": "tsukuri",
-    "meaning": "make up, structure, physique"
+    "meaning": "make up, structure, physique",
+    "vi": "cấu tạo, vóc dáng"
   },
   {
     "id": "n1-1778",
     "jp": "造り",
     "reading": "つくり",
     "romaji": "tsukuri",
-    "meaning": "make up, structure, physique"
+    "meaning": "make up, structure, physique",
+    "vi": "cấu tạo, kết cấu"
   },
   {
     "id": "n1-1779",
     "jp": "繕う",
     "reading": "つくろう",
     "romaji": "tsukurou",
-    "meaning": "to mend, to repair"
+    "meaning": "to mend, to repair",
+    "vi": "vá, sửa chữa"
   },
   {
     "id": "n1-1780",
     "jp": "付け加える",
     "reading": "つけくわえる",
     "romaji": "tsukekuwaeru",
-    "meaning": "to add one thing to another"
+    "meaning": "to add one thing to another",
+    "vi": "bổ sung thêm, nói thêm"
   },
   {
     "id": "n1-1781",
     "jp": "告げる",
     "reading": "つげる",
     "romaji": "tsugeru",
-    "meaning": "to inform"
+    "meaning": "to inform",
+    "vi": "báo cho biết, thông báo"
   },
   {
     "id": "n1-1782",
     "jp": "つじつま (はなしの～)",
     "reading": "つじつま (はなしの～)",
     "romaji": "tsujitsuma (hanashino～)",
-    "meaning": "coherence, consistency"
+    "meaning": "coherence, consistency",
+    "vi": "tính mạch lạc, hợp lý (của câu chuyện)"
   },
   {
     "id": "n1-1783",
     "jp": "筒",
     "reading": "つつ",
     "romaji": "tsutsu",
-    "meaning": "pipe, tube"
+    "meaning": "pipe, tube",
+    "vi": "ống"
   },
   {
     "id": "n1-1784",
     "jp": "突く",
     "reading": "つつく",
     "romaji": "tsutsuku",
-    "meaning": "to thrust, to strike, to attack; to poke, to nudge, to pick at"
+    "meaning": "to thrust, to strike, to attack; to poke, to nudge, to pick at",
+    "vi": "đâm, chọc; mổ, rỉa"
   },
   {
     "id": "n1-1785",
     "jp": "突っ突く",
     "reading": "つっつく",
     "romaji": "tsuttsuku",
-    "meaning": "to prompt someone"
+    "meaning": "to prompt someone",
+    "vi": "thúc giục, chọc ai đó"
   },
   {
     "id": "n1-1786",
     "jp": "謹む",
     "reading": "つつしむ",
     "romaji": "tsutsushimu",
-    "meaning": "to be careful, to be chaste or discreet"
+    "meaning": "to be careful, to be chaste or discreet",
+    "vi": "thận trọng, giữ gìn ý tứ"
   },
   {
     "id": "n1-1787",
     "jp": "突っ張る",
     "reading": "つっぱる",
     "romaji": "tsupparu",
-    "meaning": "to support, to become stiff; to thrust (ones opponent), to stick to (ones opinion), to insist on"
+    "meaning": "to support, to become stiff; to thrust (ones opponent), to stick to (ones opinion), to insist on",
+    "vi": "chống đỡ, cứng lại; khăng khăng giữ ý kiến"
   },
   {
     "id": "n1-1788",
     "jp": "務まる",
     "reading": "つとまる",
     "romaji": "tsutomaru",
-    "meaning": "be equal, be fit"
+    "meaning": "be equal, be fit",
+    "vi": "đảm đương nổi, xứng đáng với (vai trò)"
   },
   {
     "id": "n1-1789",
     "jp": "勤め先",
     "reading": "つとめさき",
     "romaji": "tsutomesaki",
-    "meaning": "place of work"
+    "meaning": "place of work",
+    "vi": "nơi làm việc"
   },
   {
     "id": "n1-1790",
     "jp": "努めて",
     "reading": "つとめて",
     "romaji": "tsutomete",
-    "meaning": "make an effort!, work hard!"
+    "meaning": "make an effort!, work hard!",
+    "vi": "cố gắng, nỗ lực"
   },
   {
     "id": "n1-1791",
     "jp": "津波",
     "reading": "つなみ",
     "romaji": "tsunami",
-    "meaning": "tsunami, tidal wave"
+    "meaning": "tsunami, tidal wave",
+    "vi": "sóng thần"
   },
   {
     "id": "n1-1792",
     "jp": "つねる",
     "reading": "つねる",
     "romaji": "tsuneru",
-    "meaning": "to pinch"
+    "meaning": "to pinch",
+    "vi": "véo, ngắt (da)"
   },
   {
     "id": "n1-1793",
     "jp": "角",
     "reading": "つの",
     "romaji": "tsuno",
-    "meaning": "horn"
+    "meaning": "horn",
+    "vi": "sừng"
   },
   {
     "id": "n1-1794",
     "jp": "募る",
     "reading": "つのる",
     "romaji": "tsunoru",
-    "meaning": "to invite, to solicit help, participation, etc"
+    "meaning": "to invite, to solicit help, participation, etc",
+    "vi": "kêu gọi, chiêu mộ"
   },
   {
     "id": "n1-1795",
     "jp": "唾",
     "reading": "つば",
     "romaji": "tsuba",
-    "meaning": "saliva, spit, sputum"
+    "meaning": "saliva, spit, sputum",
+    "vi": "nước bọt"
   },
   {
     "id": "n1-1796",
     "jp": "呟く",
     "reading": "つぶやく",
     "romaji": "tsubuyaku",
-    "meaning": "to mutter, to murmur"
+    "meaning": "to mutter, to murmur",
+    "vi": "lẩm bẩm, thì thầm"
   },
   {
     "id": "n1-1797",
     "jp": "つぶら",
     "reading": "つぶら",
     "romaji": "tsubura",
-    "meaning": "round, rotund"
+    "meaning": "round, rotund",
+    "vi": "tròn xoe (mắt)"
   },
   {
     "id": "n1-1798",
     "jp": "つぶる (めを～)",
     "reading": "つぶる (めを～)",
     "romaji": "tsuburu (mewo～)",
-    "meaning": "to close the eyes"
+    "meaning": "to close the eyes",
+    "vi": "nhắm mắt"
   },
   {
     "id": "n1-1799",
     "jp": "壷",
     "reading": "つぼ",
     "romaji": "tsubo",
-    "meaning": "jar, pot, vase"
+    "meaning": "jar, pot, vase",
+    "vi": "cái lọ, bình gốm"
   },
   {
     "id": "n1-1800",
     "jp": "蕾",
     "reading": "つぼみ",
     "romaji": "tsubomi",
-    "meaning": "bud, flower bud"
+    "meaning": "bud, flower bud",
+    "vi": "nụ hoa"
   },
   {
     "id": "n1-1801",
     "jp": "連なる",
     "reading": "つらなる",
     "romaji": "tsuranaru",
-    "meaning": "to extend, to stretch out, to stand in a row"
+    "meaning": "to extend, to stretch out, to stand in a row",
+    "vi": "nối dài, xếp thành hàng"
   },
   {
     "id": "n1-1802",
     "jp": "貫く",
     "reading": "つらぬく",
     "romaji": "tsuranuku",
-    "meaning": "to go through"
+    "meaning": "to go through",
+    "vi": "xuyên qua, xuyên suốt"
   },
   {
     "id": "n1-1803",
     "jp": "連ねる",
     "reading": "つらねる",
     "romaji": "tsuraneru",
-    "meaning": "to link, to join, to put together"
+    "meaning": "to link, to join, to put together",
+    "vi": "nối liền, xếp cạnh nhau"
   },
   {
     "id": "n1-1804",
     "jp": "釣り鐘",
     "reading": "つりがね",
     "romaji": "tsurigane",
-    "meaning": "temple bell (for striking)"
+    "meaning": "temple bell (for striking)",
+    "vi": "chuông chùa"
   },
   {
     "id": "n1-1805",
     "jp": "吊り革",
     "reading": "つりかわ",
     "romaji": "tsurikawa",
-    "meaning": "strap"
+    "meaning": "strap",
+    "vi": "dây đai nắm (trên tàu xe)"
   },
   {
     "id": "n1-1806",
     "jp": "手当",
     "reading": "てあて",
     "romaji": "teate",
-    "meaning": "allowance, compensation; treatment"
+    "meaning": "allowance, compensation; treatment",
+    "vi": "trợ cấp, phụ cấp; sự điều trị"
   },
   {
     "id": "n1-1807",
     "jp": "定義",
     "reading": "ていぎ",
     "romaji": "teigi",
-    "meaning": "definition"
+    "meaning": "definition",
+    "vi": "định nghĩa"
   },
   {
     "id": "n1-1808",
     "jp": "提供",
     "reading": "ていきょう",
     "romaji": "teikyou",
-    "meaning": "offer, program sponsoring"
+    "meaning": "offer, program sponsoring",
+    "vi": "sự cung cấp, tài trợ (chương trình)"
   },
   {
     "id": "n1-1809",
     "jp": "提携",
     "reading": "ていけい",
     "romaji": "teikei",
-    "meaning": "cooperation, tie-up, joint business"
+    "meaning": "cooperation, tie-up, joint business",
+    "vi": "sự hợp tác, liên kết"
   },
   {
     "id": "n1-1810",
     "jp": "体裁",
     "reading": "ていさい",
     "romaji": "teisai",
-    "meaning": "decency, style, form, appearance"
+    "meaning": "decency, style, form, appearance",
+    "vi": "hình thức, vẻ bề ngoài, thể diện"
   },
   {
     "id": "n1-1811",
     "jp": "提示",
     "reading": "ていじ",
     "romaji": "teiji",
-    "meaning": "presentation, exhibit, suggest, citation"
+    "meaning": "presentation, exhibit, suggest, citation",
+    "vi": "sự trình bày, đưa ra (đề xuất)"
   },
   {
     "id": "n1-1812",
     "jp": "ティシュペーパー",
     "reading": "ティシュペーパー",
     "romaji": "ティシュペーパー",
-    "meaning": "tissue"
+    "meaning": "tissue",
+    "vi": "khăn giấy"
   },
   {
     "id": "n1-1813",
     "jp": "定食",
     "reading": "ていしょく",
     "romaji": "teishoku",
-    "meaning": "fixed-price lunch, set meal, dinner"
+    "meaning": "fixed-price lunch, set meal, dinner",
+    "vi": "cơm phần cố định (set ăn)"
   },
   {
     "id": "n1-1814",
     "jp": "訂正",
     "reading": "ていせい",
     "romaji": "teisei",
-    "meaning": "correction, revision"
+    "meaning": "correction, revision",
+    "vi": "sự đính chính, sửa chữa"
   },
   {
     "id": "n1-1815",
     "jp": "停滞",
     "reading": "ていたい",
     "romaji": "teitai",
-    "meaning": "stagnation, tie-up, congestion, retention"
+    "meaning": "stagnation, tie-up, congestion, retention",
+    "vi": "sự trì trệ, tắc nghẽn"
   },
   {
     "id": "n1-1816",
     "jp": "邸宅",
     "reading": "ていたく",
     "romaji": "teitaku",
-    "meaning": "mansion, residence"
+    "meaning": "mansion, residence",
+    "vi": "dinh thự, biệt thự"
   },
   {
     "id": "n1-1817",
     "jp": "定年",
     "reading": "ていねん",
     "romaji": "teinen",
-    "meaning": "retirement age"
+    "meaning": "retirement age",
+    "vi": "tuổi nghỉ hưu"
   },
   {
     "id": "n1-1818",
     "jp": "堤防",
     "reading": "ていぼう",
     "romaji": "teibou",
-    "meaning": "bank, weir"
+    "meaning": "bank, weir",
+    "vi": "đê điều, đập nước"
   },
   {
     "id": "n1-1819",
     "jp": "手遅れ",
     "reading": "ておくれ",
     "romaji": "teokure",
-    "meaning": "being (too); belated treatment"
+    "meaning": "being (too); belated treatment",
+    "vi": "sự quá muộn (để chữa trị)"
   },
   {
     "id": "n1-1820",
     "jp": "でかい",
     "reading": "でかい",
     "romaji": "dekai",
-    "meaning": "huge"
+    "meaning": "huge",
+    "vi": "to lớn, khổng lồ"
   },
   {
     "id": "n1-1821",
     "jp": "手掛かり",
     "reading": "てがかり",
     "romaji": "tegakari",
-    "meaning": "hint, clue, key"
+    "meaning": "hint, clue, key",
+    "vi": "manh mối, đầu mối"
   },
   {
     "id": "n1-1822",
     "jp": "手掛ける",
     "reading": "てがける",
     "romaji": "tegakeru",
-    "meaning": "to handle, to manage, to work with"
+    "meaning": "to handle, to manage, to work with",
+    "vi": "tự tay làm, phụ trách"
   },
   {
     "id": "n1-1823",
     "jp": "手数",
     "reading": "てかず",
     "romaji": "tekazu",
-    "meaning": "trouble, labor, handling"
+    "meaning": "trouble, labor, handling",
+    "vi": "sự phiền phức, công sức bỏ ra"
   },
   {
     "id": "n1-1824",
     "jp": "手軽",
     "reading": "てがる",
     "romaji": "tegaru",
-    "meaning": "easy, simple, cheap"
+    "meaning": "easy, simple, cheap",
+    "vi": "đơn giản, dễ dàng, tiện lợi"
   },
   {
     "id": "n1-1825",
     "jp": "適応",
     "reading": "てきおう",
     "romaji": "tekiou",
-    "meaning": "adaptation, accommodation, conformity"
+    "meaning": "adaptation, accommodation, conformity",
+    "vi": "sự thích ứng"
   },
   {
     "id": "n1-1826",
     "jp": "適宜",
     "reading": "てきぎ",
     "romaji": "tekigi",
-    "meaning": "suitability"
+    "meaning": "suitability",
+    "vi": "sự thích hợp, tùy nghi"
   },
   {
     "id": "n1-1827",
     "jp": "適性",
     "reading": "てきせい",
     "romaji": "tekisei",
-    "meaning": "aptitude"
+    "meaning": "aptitude",
+    "vi": "năng khiếu, sự phù hợp (với công việc)"
   },
   {
     "id": "n1-1828",
     "jp": "できもの",
     "reading": "できもの",
     "romaji": "dekimono",
-    "meaning": "boil, rash"
+    "meaning": "boil, rash",
+    "vi": "mụn nhọt, phát ban"
   },
   {
     "id": "n1-1829",
     "jp": "手際",
     "reading": "てぎわ",
     "romaji": "tegiwa",
-    "meaning": "performance, skill, tact"
+    "meaning": "performance, skill, tact",
+    "vi": "sự khéo léo, tài xử lý công việc"
   },
   {
     "id": "n1-1830",
     "jp": "出くわす",
     "reading": "でくわす",
     "romaji": "dekuwasu",
-    "meaning": "to happen to meet, to come across"
+    "meaning": "to happen to meet, to come across",
+    "vi": "tình cờ gặp phải"
   },
   {
     "id": "n1-1831",
     "jp": "手順",
     "reading": "てじゅん",
     "romaji": "tejun",
-    "meaning": "process, procedure, protocol"
+    "meaning": "process, procedure, protocol",
+    "vi": "quy trình, trình tự"
   },
   {
     "id": "n1-1832",
     "jp": "手錠",
     "reading": "てじょう",
     "romaji": "tejou",
-    "meaning": "handcuffs, manacles"
+    "meaning": "handcuffs, manacles",
+    "vi": "còng tay"
   },
   {
     "id": "n1-1833",
     "jp": "手数",
     "reading": "てすう",
     "romaji": "tesuu",
-    "meaning": "trouble, labor, handling"
+    "meaning": "trouble, labor, handling",
+    "vi": "sự phiền phức, công sức bỏ ra"
   },
   {
     "id": "n1-1834",
     "jp": "デコレーション",
     "reading": "デコレーション",
     "romaji": "デコレーション",
-    "meaning": "decoration"
+    "meaning": "decoration",
+    "vi": "sự trang trí"
   },
   {
     "id": "n1-1835",
     "jp": "手近",
     "reading": "てぢか",
     "romaji": "tejika",
-    "meaning": "near, handy, familiar"
+    "meaning": "near, handy, familiar",
+    "vi": "gần gũi, quen thuộc, sẵn có"
   },
   {
     "id": "n1-1836",
     "jp": "てっきり",
     "reading": "てっきり",
     "romaji": "tekkiri",
-    "meaning": "surely, certainly, beyond doubt"
+    "meaning": "surely, certainly, beyond doubt",
+    "vi": "chắc chắn, đinh ninh (nhưng hóa ra sai)"
   },
   {
     "id": "n1-1837",
     "jp": "鉄鋼",
     "reading": "てっこう",
     "romaji": "tekkou",
-    "meaning": "iron and steel"
+    "meaning": "iron and steel",
+    "vi": "sắt thép"
   },
   {
     "id": "n1-1838",
     "jp": "デッサン",
     "reading": "デッサン",
     "romaji": "デッサン",
-    "meaning": "rough sketch (FRE: dessin)"
+    "meaning": "rough sketch (FRE: dessin)",
+    "vi": "bản phác thảo"
   },
   {
     "id": "n1-1839",
     "jp": "徹する",
     "reading": "てっする",
     "romaji": "tessuru",
-    "meaning": "to devote oneself, to believe in"
+    "meaning": "to devote oneself, to believe in",
+    "vi": "dốc hết mình, quán triệt"
   },
   {
     "id": "n1-1840",
     "jp": "てっぺん",
     "reading": "てっぺん",
     "romaji": "teppen",
-    "meaning": "top, summit, apex"
+    "meaning": "top, summit, apex",
+    "vi": "đỉnh, chóp"
   },
   {
     "id": "n1-1841",
     "jp": "鉄棒",
     "reading": "てつぼう",
     "romaji": "tetsubou",
-    "meaning": "iron rod, crowbar, horizontal bar (gymnastics)"
+    "meaning": "iron rod, crowbar, horizontal bar (gymnastics)",
+    "vi": "thanh sắt, xà đơn (thể dục)"
   },
   {
     "id": "n1-1842",
     "jp": "出直し",
     "reading": "でなおし",
     "romaji": "denaoshi",
-    "meaning": "adjustment, touch up"
+    "meaning": "adjustment, touch up",
+    "vi": "làm lại từ đầu"
   },
   {
     "id": "n1-1843",
     "jp": "掌",
     "reading": "てのひら",
     "romaji": "tenohira",
-    "meaning": "the palm"
+    "meaning": "the palm",
+    "vi": "lòng bàn tay"
   },
   {
     "id": "n1-1844",
     "jp": "手配",
     "reading": "てはい",
     "romaji": "tehai",
-    "meaning": "arrangement, search (by police)"
+    "meaning": "arrangement, search (by police)",
+    "vi": "sự sắp xếp, bố trí; sự truy nã"
   },
   {
     "id": "n1-1845",
     "jp": "手筈",
     "reading": "てはず",
     "romaji": "tehazu",
-    "meaning": "arrangement, plan, program"
+    "meaning": "arrangement, plan, program",
+    "vi": "sự sắp đặt, kế hoạch"
   },
   {
     "id": "n1-1846",
     "jp": "手引",
     "reading": "てびき",
     "romaji": "tebiki",
-    "meaning": "guidance, guide, introduction"
+    "meaning": "guidance, guide, introduction",
+    "vi": "sự hướng dẫn, chỉ dẫn"
   },
   {
     "id": "n1-1847",
     "jp": "手本",
     "reading": "てほん",
     "romaji": "tehon",
-    "meaning": "model, pattern"
+    "meaning": "model, pattern",
+    "vi": "khuôn mẫu, hình mẫu"
   },
   {
     "id": "n1-1848",
     "jp": "手回し",
     "reading": "てまわし",
     "romaji": "temawashi",
-    "meaning": "preparations, arrangements"
+    "meaning": "preparations, arrangements",
+    "vi": "sự chuẩn bị, thu xếp"
   },
   {
     "id": "n1-1849",
     "jp": "手元",
     "reading": "てもと",
     "romaji": "temoto",
-    "meaning": "(money) on hand or at home, one's purse; usual skill"
+    "meaning": "(money) on hand or at home, one's purse; usual skill",
+    "vi": "tiền có sẵn trong tay; tay nghề thường ngày"
   },
   {
     "id": "n1-1850",
     "jp": "デモンストレーション",
     "reading": "デモンストレーション",
     "romaji": "デモンストレーション",
-    "meaning": "demonstration"
+    "meaning": "demonstration",
+    "vi": "cuộc biểu tình, trình diễn"
   },
   {
     "id": "n1-1851",
     "jp": "照り返す",
     "reading": "てりかえす",
     "romaji": "terikaesu",
-    "meaning": "to reflect, to throw back light"
+    "meaning": "to reflect, to throw back light",
+    "vi": "phản chiếu, hắt lại (ánh sáng)"
   },
   {
     "id": "n1-1852",
     "jp": "テレックス",
     "reading": "テレックス",
     "romaji": "テレックス",
-    "meaning": "telex, teletypewriter exchange"
+    "meaning": "telex, teletypewriter exchange",
+    "vi": "điện tín (telex)"
   },
   {
     "id": "n1-1853",
     "jp": "手分け",
     "reading": "てわけ",
     "romaji": "tewake",
-    "meaning": "division of labor"
+    "meaning": "division of labor",
+    "vi": "sự phân công, chia việc"
   },
   {
     "id": "n1-1854",
     "jp": "天",
     "reading": "てん",
     "romaji": "ten",
-    "meaning": "heaven, sky"
+    "meaning": "heaven, sky",
+    "vi": "trời, thiên đường"
   },
   {
     "id": "n1-1855",
     "jp": "田園",
     "reading": "でんえん",
     "romaji": "den'en",
-    "meaning": "country, rural districts"
+    "meaning": "country, rural districts",
+    "vi": "vùng thôn quê"
   },
   {
     "id": "n1-1856",
     "jp": "天下",
     "reading": "てんか",
     "romaji": "tenka",
-    "meaning": "the world, whole country"
+    "meaning": "the world, whole country",
+    "vi": "thiên hạ, cả đất nước"
   },
   {
     "id": "n1-1857",
     "jp": "転回",
     "reading": "てんかい",
     "romaji": "tenkai",
-    "meaning": "revolution, rotation"
+    "meaning": "revolution, rotation",
+    "vi": "sự xoay chuyển, quay vòng"
   },
   {
     "id": "n1-1858",
     "jp": "連休",
     "reading": "れんきゅう",
     "romaji": "renkyuu",
-    "meaning": "consecutive holidays"
+    "meaning": "consecutive holidays",
+    "vi": "kỳ nghỉ liên tiếp"
   },
   {
     "id": "n1-1859",
     "jp": "レンジ",
     "reading": "レンジ",
     "romaji": "レンジ",
-    "meaning": "range, stove"
+    "meaning": "range, stove",
+    "vi": "bếp, lò (range)"
   },
   {
     "id": "n1-1860",
     "jp": "連日",
     "reading": "れんじつ",
     "romaji": "renjitsu",
-    "meaning": "every day"
+    "meaning": "every day",
+    "vi": "hàng ngày liên tục"
   },
   {
     "id": "n1-1861",
     "jp": "連帯",
     "reading": "れんたい",
     "romaji": "rentai",
-    "meaning": "solidarity"
+    "meaning": "solidarity",
+    "vi": "sự liên đới, đoàn kết"
   },
   {
     "id": "n1-1862",
     "jp": "レンタカー",
     "reading": "レンタカー",
     "romaji": "レンタカー",
-    "meaning": "rented car"
+    "meaning": "rented car",
+    "vi": "xe cho thuê"
   },
   {
     "id": "n1-1863",
     "jp": "連中",
     "reading": "れんちゅう",
     "romaji": "renchuu",
-    "meaning": "colleagues, company, a lot"
+    "meaning": "colleagues, company, a lot",
+    "vi": "đồng bọn, nhóm người"
   },
   {
     "id": "n1-1864",
     "jp": "レントゲン",
     "reading": "レントゲン",
     "romaji": "レントゲン",
-    "meaning": "X-ray (lit: Roentgen)"
+    "meaning": "X-ray (lit: Roentgen)",
+    "vi": "tia X (chụp X-quang)"
   },
   {
     "id": "n1-1865",
     "jp": "連邦",
     "reading": "れんぽう",
     "romaji": "renpou",
-    "meaning": "commonwealth, federation of states"
+    "meaning": "commonwealth, federation of states",
+    "vi": "liên bang"
   },
   {
     "id": "n1-1866",
     "jp": "連盟",
     "reading": "れんめい",
     "romaji": "renmei",
-    "meaning": "league, union, alliance"
+    "meaning": "league, union, alliance",
+    "vi": "liên minh, liên đoàn"
   },
   {
     "id": "n1-1867",
     "jp": "老衰",
     "reading": "ろうすい",
     "romaji": "rousui",
-    "meaning": "senility, senile decay"
+    "meaning": "senility, senile decay",
+    "vi": "sự già yếu, lão suy"
   },
   {
     "id": "n1-1868",
     "jp": "朗読",
     "reading": "ろうどく",
     "romaji": "roudoku",
-    "meaning": "reading aloud, recitation"
+    "meaning": "reading aloud, recitation",
+    "vi": "sự đọc to, ngâm đọc"
   },
   {
     "id": "n1-1869",
     "jp": "浪費",
     "reading": "ろうひ",
     "romaji": "rouhi",
-    "meaning": "waste, extravagance"
+    "meaning": "waste, extravagance",
+    "vi": "sự lãng phí"
   },
   {
     "id": "n1-1870",
     "jp": "労力",
     "reading": "ろうりょく",
     "romaji": "rouryoku",
-    "meaning": "labor, effort, trouble"
+    "meaning": "labor, effort, trouble",
+    "vi": "sức lao động, công sức"
   },
   {
     "id": "n1-1871",
     "jp": "ロープウエイ",
     "reading": "ロープウエイ",
     "romaji": "ロープウエイ",
-    "meaning": "ropeway, aerial tram"
+    "meaning": "ropeway, aerial tram",
+    "vi": "cáp treo"
   },
   {
     "id": "n1-1872",
     "jp": "ロープ",
     "reading": "ロープ",
     "romaji": "ロープ",
-    "meaning": "rope"
+    "meaning": "rope",
+    "vi": "dây thừng"
   },
   {
     "id": "n1-1873",
     "jp": "ろくな",
     "reading": "ろくな",
     "romaji": "rokuna",
-    "meaning": "satisfactory, decent"
+    "meaning": "satisfactory, decent",
+    "vi": "tử tế, ra hồn (thường dùng phủ định)"
   },
   {
     "id": "n1-1874",
     "jp": "露骨",
     "reading": "ろこつ",
     "romaji": "rokotsu",
-    "meaning": "blunt, outspoken; conspicuous; broad, suggestive"
+    "meaning": "blunt, outspoken; conspicuous; broad, suggestive",
+    "vi": "trắng trợn, lộ liễu"
   },
   {
     "id": "n1-1875",
     "jp": "ロマンチック",
     "reading": "ロマンチック",
     "romaji": "ロマンチック",
-    "meaning": "romantic"
+    "meaning": "romantic",
+    "vi": "lãng mạn"
   },
   {
     "id": "n1-1876",
     "jp": "論議",
     "reading": "ろんぎ",
     "romaji": "rongi",
-    "meaning": "discussion"
+    "meaning": "discussion",
+    "vi": "sự bàn luận, tranh luận"
   },
   {
     "id": "n1-1877",
     "jp": "論理",
     "reading": "ろんり",
     "romaji": "ronri",
-    "meaning": "logic"
+    "meaning": "logic",
+    "vi": "logic, lý luận"
   },
   {
     "id": "n1-1878",
     "jp": "惑星",
     "reading": "わくせい",
     "romaji": "wakusei",
-    "meaning": "planet"
+    "meaning": "planet",
+    "vi": "hành tinh"
   },
   {
     "id": "n1-1879",
     "jp": "技",
     "reading": "わざ",
     "romaji": "waza",
-    "meaning": "art, technique"
+    "meaning": "art, technique",
+    "vi": "kỹ thuật, ngón nghề"
   },
   {
     "id": "n1-1880",
     "jp": "わざわざ",
     "reading": "わざわざ",
     "romaji": "wazawaza",
-    "meaning": "take the trouble (to do), doing something especially rather than incidentally"
+    "meaning": "take the trouble (to do), doing something especially rather than incidentally",
+    "vi": "cất công, cố tình làm (dù không cần thiết)"
   },
   {
     "id": "n1-1881",
     "jp": "煩わしい",
     "reading": "わずらわしい",
     "romaji": "wazurawashii",
-    "meaning": "burdensome, troublesome, complicated"
+    "meaning": "burdensome, troublesome, complicated",
+    "vi": "phiền phức, rắc rối"
   },
   {
     "id": "n1-1882",
     "jp": "渡り鳥",
     "reading": "わたりどり",
     "romaji": "wataridori",
-    "meaning": "migratory bird, bird of passage"
+    "meaning": "migratory bird, bird of passage",
+    "vi": "chim di trú"
   },
   {
     "id": "n1-1883",
     "jp": "ワット",
     "reading": "ワット",
     "romaji": "ワット",
-    "meaning": "watt"
+    "meaning": "watt",
+    "vi": "oát (đơn vị công suất)"
   },
   {
     "id": "n1-1884",
     "jp": "詫び",
     "reading": "わび",
     "romaji": "wabi",
-    "meaning": "apology"
+    "meaning": "apology",
+    "vi": "lời xin lỗi"
   },
   {
     "id": "n1-1885",
     "jp": "和文",
     "reading": "わぶん",
     "romaji": "wabun",
-    "meaning": "Japanese text, sentence in Japanese"
+    "meaning": "Japanese text, sentence in Japanese",
+    "vi": "văn bản tiếng Nhật"
   },
   {
     "id": "n1-1886",
     "jp": "藁",
     "reading": "わら",
     "romaji": "wara",
-    "meaning": "straw"
+    "meaning": "straw",
+    "vi": "rơm"
   },
   {
     "id": "n1-1887",
     "jp": "～割",
     "reading": "～わり",
     "romaji": "～wari",
-    "meaning": "~ percent"
+    "meaning": "~ percent",
+    "vi": "phần mười (đơn vị tỉ lệ, 1 wari = 10%)"
   },
   {
     "id": "n1-1888",
     "jp": "割当",
     "reading": "わりあて",
     "romaji": "wariate",
-    "meaning": "allotment, allocation, quota"
+    "meaning": "allotment, allocation, quota",
+    "vi": "sự phân bổ, chỉ tiêu"
   },
   {
     "id": "n1-1889",
     "jp": "割込む",
     "reading": "わりこむ",
     "romaji": "warikomu",
-    "meaning": "to cut in, to disturb"
+    "meaning": "to cut in, to disturb",
+    "vi": "chen vào, cắt ngang"
   },
   {
     "id": "n1-1890",
     "jp": "悪者",
     "reading": "わるもの",
     "romaji": "warumono",
-    "meaning": "bad fellow, rascal"
+    "meaning": "bad fellow, rascal",
+    "vi": "kẻ xấu, kẻ ác"
   },
   {
     "id": "n1-1891",
     "jp": "我",
     "reading": "われ",
     "romaji": "ware",
-    "meaning": "me, oneself, self, ego"
+    "meaning": "me, oneself, self, ego",
+    "vi": "bản thân, cái tôi"
   },
   {
     "id": "n1-1892",
     "jp": "捗る",
     "reading": "はかどる",
     "romaji": "hakadoru",
-    "meaning": "to make progress, to move right ahead (with the work), to advance"
+    "meaning": "to make progress, to move right ahead (with the work), to advance",
+    "vi": "tiến triển thuận lợi"
   },
   {
     "id": "n1-1893",
     "jp": "はかない",
     "reading": "はかない",
     "romaji": "hakanai",
-    "meaning": "short-lived, momentary, ephemeral"
+    "meaning": "short-lived, momentary, ephemeral",
+    "vi": "phù du, ngắn ngủi"
   },
   {
     "id": "n1-1894",
     "jp": "ばかばかしい",
     "reading": "ばかばかしい",
     "romaji": "bakabakashii",
-    "meaning": "stupid"
+    "meaning": "stupid",
+    "vi": "ngớ ngẩn, ngu ngốc"
   },
   {
     "id": "n1-1895",
     "jp": "破棄",
     "reading": "はき",
     "romaji": "haki",
-    "meaning": "revocation, annulment, breaking (e.g., treaty)"
+    "meaning": "revocation, annulment, breaking (e.g., treaty)",
+    "vi": "sự hủy bỏ, xóa bỏ (hiệp ước)"
   },
   {
     "id": "n1-1896",
     "jp": "剥ぐ",
     "reading": "はぐ",
     "romaji": "hagu",
-    "meaning": "to tear off, to peel off, to rip off"
+    "meaning": "to tear off, to peel off, to rip off",
+    "vi": "lột ra, bóc ra"
   },
   {
     "id": "n1-1897",
     "jp": "迫害",
     "reading": "はくがい",
     "romaji": "hakugai",
-    "meaning": "persecution"
+    "meaning": "persecution",
+    "vi": "sự ngược đãi, đàn áp"
   },
   {
     "id": "n1-1898",
     "jp": "薄弱",
     "reading": "はくじゃく",
     "romaji": "hakujaku",
-    "meaning": "feebleness, weakness, weak"
+    "meaning": "feebleness, weakness, weak",
+    "vi": "sự yếu ớt, yếu đuối"
   },
   {
     "id": "n1-1899",
     "jp": "白状",
     "reading": "はくじょう",
     "romaji": "hakujou",
-    "meaning": "confession"
+    "meaning": "confession",
+    "vi": "sự thú nhận, khai nhận"
   },
   {
     "id": "n1-1900",
     "jp": "漠然",
     "reading": "ばくぜん",
     "romaji": "bakuzen",
-    "meaning": "obscure, vague, equivocal"
+    "meaning": "obscure, vague, equivocal",
+    "vi": "mơ hồ, mông lung"
   },
   {
     "id": "n1-1901",
     "jp": "爆弾",
     "reading": "ばくだん",
     "romaji": "bakudan",
-    "meaning": "bomb"
+    "meaning": "bomb",
+    "vi": "bom"
   },
   {
     "id": "n1-1902",
     "jp": "爆破",
     "reading": "ばくは",
     "romaji": "bakuha",
-    "meaning": "blast, explosion, blow up"
+    "meaning": "blast, explosion, blow up",
+    "vi": "sự nổ, cho nổ tung"
   },
   {
     "id": "n1-1903",
     "jp": "暴露",
     "reading": "ばくろ",
     "romaji": "bakuro",
-    "meaning": "disclosure, exposure, revelation"
+    "meaning": "disclosure, exposure, revelation",
+    "vi": "sự phơi bày, tiết lộ"
   },
   {
     "id": "n1-1904",
     "jp": "励ます",
     "reading": "はげます",
     "romaji": "hagemasu",
-    "meaning": "to encourage, to cheer, to raise (the voice)"
+    "meaning": "to encourage, to cheer, to raise (the voice)",
+    "vi": "động viên, cổ vũ"
   },
   {
     "id": "n1-1905",
     "jp": "励む",
     "reading": "はげむ",
     "romaji": "hagemu",
-    "meaning": "to be zealous, to make an effort"
+    "meaning": "to be zealous, to make an effort",
+    "vi": "nỗ lực, chuyên tâm"
   },
   {
     "id": "n1-1906",
     "jp": "剥げる",
     "reading": "はげる",
     "romaji": "hageru",
-    "meaning": "to come off, to be worn off, to fade, to discolor"
+    "meaning": "to come off, to be worn off, to fade, to discolor",
+    "vi": "bong ra, phai màu"
   },
   {
     "id": "n1-1907",
     "jp": "化ける",
     "reading": "ばける",
     "romaji": "bakeru",
-    "meaning": "to disguise, to take the form of"
+    "meaning": "to disguise, to take the form of",
+    "vi": "biến hóa, hóa thành (dạng khác)"
   },
   {
     "id": "n1-1908",
     "jp": "派遣",
     "reading": "はけん",
     "romaji": "haken",
-    "meaning": "dispatch, send"
+    "meaning": "dispatch, send",
+    "vi": "sự cử đi, phái cử"
   },
   {
     "id": "n1-1909",
     "jp": "恥",
     "reading": "はじ",
     "romaji": "haji",
-    "meaning": "shame, embarrassment"
+    "meaning": "shame, embarrassment",
+    "vi": "sự xấu hổ"
   },
   {
     "id": "n1-1910",
     "jp": "弾く",
     "reading": "はじく",
     "romaji": "hajiku",
-    "meaning": "to play (piano, guitar)"
+    "meaning": "to play (piano, guitar)",
+    "vi": "gảy, chơi (đàn)"
   },
   {
     "id": "n1-1911",
     "jp": "パジャマ",
     "reading": "パジャマ",
     "romaji": "パジャマ",
-    "meaning": "pajamas"
+    "meaning": "pajamas",
+    "vi": "đồ ngủ (pyjama)"
   },
   {
     "id": "n1-1912",
     "jp": "恥じらう",
     "reading": "はじらう",
     "romaji": "hajirau",
-    "meaning": "to feel shy, to be bashful, to blush"
+    "meaning": "to feel shy, to be bashful, to blush",
+    "vi": "e thẹn, ngượng ngùng"
   },
   {
     "id": "n1-1913",
     "jp": "恥じる",
     "reading": "はじる",
     "romaji": "hajiru",
-    "meaning": "to feel ashamed"
+    "meaning": "to feel ashamed",
+    "vi": "cảm thấy xấu hổ"
   },
   {
     "id": "n1-1914",
     "jp": "橋渡し",
     "reading": "はしわたし",
     "romaji": "hashiwatashi",
-    "meaning": "bridge building', mediation"
+    "meaning": "bridge building', mediation",
+    "vi": "sự làm cầu nối, trung gian hòa giải"
   },
   {
     "id": "n1-1915",
     "jp": "弾む",
     "reading": "はずむ",
     "romaji": "hazumu",
-    "meaning": "to bounce, to be encouraged, to splurge on"
+    "meaning": "to bounce, to be encouraged, to splurge on",
+    "vi": "nảy lên; hào hứng; chi mạnh tay"
   },
   {
     "id": "n1-1916",
     "jp": "破損",
     "reading": "はそん",
     "romaji": "hason",
-    "meaning": "damage"
+    "meaning": "damage",
+    "vi": "sự hư hỏng, hỏng hóc"
   },
   {
     "id": "n1-1917",
     "jp": "叩く",
     "reading": "はたく",
     "romaji": "hataku",
-    "meaning": "to strike, to clap, to dust, to beat"
+    "meaning": "to strike, to clap, to dust, to beat",
+    "vi": "đập, phủi (bụi), đánh"
   },
   {
     "id": "n1-1918",
     "jp": "裸足",
     "reading": "はだし",
     "romaji": "hadashi",
-    "meaning": "barefoot"
+    "meaning": "barefoot",
+    "vi": "chân trần"
   },
   {
     "id": "n1-1919",
     "jp": "果たす",
     "reading": "はたす",
     "romaji": "hatasu",
-    "meaning": "to accomplish, to fulfill, to carry out, to achieve"
+    "meaning": "to accomplish, to fulfill, to carry out, to achieve",
+    "vi": "hoàn thành, thực hiện"
   },
   {
     "id": "n1-1920",
     "jp": "蜂蜜",
     "reading": "はちみつ",
     "romaji": "hachimitsu",
-    "meaning": "honey"
+    "meaning": "honey",
+    "vi": "mật ong"
   },
   {
     "id": "n1-1921",
     "jp": "パチンコ",
     "reading": "パチンコ",
     "romaji": "パチンコ",
-    "meaning": "pachinko (Japanese pinball)"
+    "meaning": "pachinko (Japanese pinball)",
+    "vi": "pachinko (trò chơi máy bắn bi kiểu Nhật)"
   },
   {
     "id": "n1-1922",
     "jp": "罰",
     "reading": "ばつ",
     "romaji": "batsu",
-    "meaning": "punishment, penalty"
+    "meaning": "punishment, penalty",
+    "vi": "hình phạt"
   },
   {
     "id": "n1-1923",
     "jp": "発育",
     "reading": "はついく",
     "romaji": "hatsuiku",
-    "meaning": "(physical) growth, development"
+    "meaning": "(physical) growth, development",
+    "vi": "sự phát triển (thể chất)"
   },
   {
     "id": "n1-1924",
     "jp": "発芽",
     "reading": "はつが",
     "romaji": "hatsuga",
-    "meaning": "germination"
+    "meaning": "germination",
+    "vi": "sự nảy mầm"
   },
   {
     "id": "n1-1925",
     "jp": "発掘",
     "reading": "はっくつ",
     "romaji": "hakkutsu",
-    "meaning": "excavation, exhumation; discovery (e.g., new talent)"
+    "meaning": "excavation, exhumation; discovery (e.g., new talent)",
+    "vi": "sự khai quật; phát hiện (nhân tài mới)"
   },
   {
     "id": "n1-1926",
     "jp": "発言",
     "reading": "はつげん",
     "romaji": "hatsugen",
-    "meaning": "utterance, speech, proposal"
+    "meaning": "utterance, speech, proposal",
+    "vi": "phát biểu, ý kiến"
   },
   {
     "id": "n1-1927",
     "jp": "バッジ",
     "reading": "バッジ",
     "romaji": "バッジ",
-    "meaning": "badge"
+    "meaning": "badge",
+    "vi": "huy hiệu"
   },
   {
     "id": "n1-1928",
     "jp": "発生",
     "reading": "はっせい",
     "romaji": "hassei",
-    "meaning": "outbreak, spring forth, occurrence"
+    "meaning": "outbreak, spring forth, occurrence",
+    "vi": "sự phát sinh, xảy ra"
   },
   {
     "id": "n1-1929",
     "jp": "仕立てる",
     "reading": "したてる",
     "romaji": "shitateru",
-    "meaning": "to tailor, to make, to prepare"
+    "meaning": "to tailor, to make, to prepare",
+    "vi": "may đo, chuẩn bị, đào tạo"
   },
   {
     "id": "n1-1930",
     "jp": "下取り",
     "reading": "したどり",
     "romaji": "shitadori",
-    "meaning": "trade in, part exchange"
+    "meaning": "trade in, part exchange",
+    "vi": "sự đổi cũ lấy mới (trade-in)"
   },
   {
     "id": "n1-1931",
     "jp": "下火",
     "reading": "したび",
     "romaji": "shitabi",
-    "meaning": "burning low, waning, declining"
+    "meaning": "burning low, waning, declining",
+    "vi": "lửa tàn, suy yếu dần"
   },
   {
     "id": "n1-1932",
     "jp": "実",
     "reading": "じつ",
     "romaji": "jitsu",
-    "meaning": "fruit, good result"
+    "meaning": "fruit, good result",
+    "vi": "quả thực, kết quả tốt"
   },
   {
     "id": "n1-1933",
     "jp": "実家",
     "reading": "じっか",
     "romaji": "jikka",
-    "meaning": "(one's parents') home"
+    "meaning": "(one's parents') home",
+    "vi": "nhà bố mẹ đẻ, quê nhà"
   },
   {
     "id": "n1-1934",
     "jp": "失格",
     "reading": "しっかく",
     "romaji": "shikkaku",
-    "meaning": "disqualification, elimination, incapacity (legal)"
+    "meaning": "disqualification, elimination, incapacity (legal)",
+    "vi": "sự mất tư cách, bị loại"
   },
   {
     "id": "n1-1935",
     "jp": "質疑",
     "reading": "しつぎ",
     "romaji": "shitsugi",
-    "meaning": "question"
+    "meaning": "question",
+    "vi": "sự chất vấn, hỏi đáp"
   },
   {
     "id": "n1-1936",
     "jp": "失脚",
     "reading": "しっきゃく",
     "romaji": "shikkyaku",
-    "meaning": "losing one's standing, being overthrown, falling"
+    "meaning": "losing one's standing, being overthrown, falling",
+    "vi": "sự thất thế, bị lật đổ"
   },
   {
     "id": "n1-1937",
     "jp": "実業家",
     "reading": "じつぎょうか",
     "romaji": "jitsugyouka",
-    "meaning": "industrialist, businessman"
+    "meaning": "industrialist, businessman",
+    "vi": "nhà công thương, doanh nhân"
   },
   {
     "id": "n1-1938",
     "jp": "シック",
     "reading": "シック",
     "romaji": "シック",
-    "meaning": "chic"
+    "meaning": "chic",
+    "vi": "sang trọng, thanh lịch"
   },
   {
     "id": "n1-1939",
     "jp": "じっくり",
     "reading": "じっくり",
     "romaji": "jikkuri",
-    "meaning": "deliberately, carefully"
+    "meaning": "deliberately, carefully",
+    "vi": "kỹ lưỡng, chậm rãi, cẩn thận"
   },
   {
     "id": "n1-1940",
     "jp": "躾",
     "reading": "しつけ",
     "romaji": "shitsuke",
-    "meaning": "discipline, training"
+    "meaning": "discipline, training",
+    "vi": "sự dạy dỗ, giáo dục (lễ nghi)"
   },
   {
     "id": "n1-1941",
     "jp": "躾ける",
     "reading": "しつける",
     "romaji": "shitsukeru",
-    "meaning": "to discipline, to teach manners"
+    "meaning": "to discipline, to teach manners",
+    "vi": "dạy dỗ, rèn lễ nghi"
   },
   {
     "id": "n1-1942",
     "jp": "実践",
     "reading": "じっせん",
     "romaji": "jissen",
-    "meaning": "practice, put into practice"
+    "meaning": "practice, put into practice",
+    "vi": "sự thực hành, thực tiễn"
   },
   {
     "id": "n1-1943",
     "jp": "質素",
     "reading": "しっそ",
     "romaji": "shisso",
-    "meaning": "simplicity, modesty, frugality"
+    "meaning": "simplicity, modesty, frugality",
+    "vi": "sự giản dị, tiết kiệm"
   },
   {
     "id": "n1-1944",
     "jp": "実態",
     "reading": "じったい",
     "romaji": "jittai",
-    "meaning": "truth, fact"
+    "meaning": "truth, fact",
+    "vi": "thực trạng, tình hình thực tế"
   },
   {
     "id": "n1-1945",
     "jp": "失調",
     "reading": "しっちょう",
     "romaji": "shitchou",
-    "meaning": "lack of harmony, imbalance"
+    "meaning": "lack of harmony, imbalance",
+    "vi": "sự mất cân bằng, rối loạn"
   },
   {
     "id": "n1-1946",
     "jp": "嫉妬",
     "reading": "しっと",
     "romaji": "shitto",
-    "meaning": "jealousy"
+    "meaning": "jealousy",
+    "vi": "sự ghen tị, đố kỵ"
   },
   {
     "id": "n1-1947",
     "jp": "実費",
     "reading": "じっぴ",
     "romaji": "jippi",
-    "meaning": "actual expense, cost price"
+    "meaning": "actual expense, cost price",
+    "vi": "chi phí thực tế"
   },
   {
     "id": "n1-1948",
     "jp": "指摘",
     "reading": "してき",
     "romaji": "shiteki",
-    "meaning": "pointing out, identification"
+    "meaning": "pointing out, identification",
+    "vi": "sự chỉ ra, chỉ trích"
   },
   {
     "id": "n1-1949",
     "jp": "自転",
     "reading": "じてん",
     "romaji": "jiten",
-    "meaning": "rotation, spin"
+    "meaning": "rotation, spin",
+    "vi": "sự tự quay (thiên văn)"
   },
   {
     "id": "n1-1950",
     "jp": "助動詞",
     "reading": "じょどうし",
     "romaji": "jodoushi",
-    "meaning": "auxiliary verb"
+    "meaning": "auxiliary verb",
+    "vi": "trợ động từ"
   },
   {
     "id": "n1-1951",
     "jp": "淑やか",
     "reading": "しとやか",
     "romaji": "shitoyaka",
-    "meaning": "graceful"
+    "meaning": "graceful",
+    "vi": "đoan trang, dịu dàng"
   },
   {
     "id": "n1-1952",
     "jp": "萎びる",
     "reading": "しなびる",
     "romaji": "shinabiru",
-    "meaning": "to shrivel, to fade"
+    "meaning": "to shrivel, to fade",
+    "vi": "héo úa, teo lại"
   },
   {
     "id": "n1-1953",
     "jp": "シナリオ",
     "reading": "シナリオ",
     "romaji": "シナリオ",
-    "meaning": "scenario"
+    "meaning": "scenario",
+    "vi": "kịch bản"
   },
   {
     "id": "n1-1954",
     "jp": "しなやか",
     "reading": "しなやか",
     "romaji": "shinayaka",
-    "meaning": "supple, flexible, elastic"
+    "meaning": "supple, flexible, elastic",
+    "vi": "mềm mại, uyển chuyển"
   },
   {
     "id": "n1-1955",
     "jp": "屎尿",
     "reading": "しにょう",
     "romaji": "shinyou",
-    "meaning": "human waste"
+    "meaning": "human waste",
+    "vi": "chất thải của người (phân, nước tiểu)"
   },
   {
     "id": "n1-1956",
     "jp": "地主",
     "reading": "じぬし",
     "romaji": "jinushi",
-    "meaning": "landlord"
+    "meaning": "landlord",
+    "vi": "địa chủ"
   },
   {
     "id": "n1-1957",
     "jp": "凌ぐ",
     "reading": "しのぐ",
     "romaji": "shinogu",
-    "meaning": "to outdo, to surpass; to endure"
+    "meaning": "to outdo, to surpass; to endure",
+    "vi": "vượt qua, hơn hẳn; chịu đựng"
   },
   {
     "id": "n1-1958",
     "jp": "芝",
     "reading": "しば",
     "romaji": "shiba",
-    "meaning": "lawn"
+    "meaning": "lawn",
+    "vi": "bãi cỏ"
   },
   {
     "id": "n1-1959",
     "jp": "始発",
     "reading": "しはつ",
     "romaji": "shihatsu",
-    "meaning": "first train"
+    "meaning": "first train",
+    "vi": "chuyến tàu đầu tiên"
   },
   {
     "id": "n1-1960",
     "jp": "耳鼻科",
     "reading": "じびか",
     "romaji": "jibika",
-    "meaning": "otolaryngology"
+    "meaning": "otolaryngology",
+    "vi": "khoa tai mũi họng"
   },
   {
     "id": "n1-1961",
     "jp": "私物",
     "reading": "しぶつ",
     "romaji": "shibutsu",
-    "meaning": "private property, personal effects"
+    "meaning": "private property, personal effects",
+    "vi": "đồ dùng cá nhân"
   },
   {
     "id": "n1-1962",
     "jp": "しぶとい",
     "reading": "しぶとい",
     "romaji": "shibutoi",
-    "meaning": "tenacious, stubborn"
+    "meaning": "tenacious, stubborn",
+    "vi": "bền bỉ, ngoan cường"
   },
   {
     "id": "n1-1963",
     "jp": "司法",
     "reading": "しほう",
     "romaji": "shihou",
-    "meaning": "administration of justice"
+    "meaning": "administration of justice",
+    "vi": "tư pháp"
   },
   {
     "id": "n1-1964",
     "jp": "始末",
     "reading": "しまつ",
     "romaji": "shimatsu",
-    "meaning": "disposal; cleaning up afterwards"
+    "meaning": "disposal; cleaning up afterwards",
+    "vi": "sự xử lý, dọn dẹp hậu quả"
   },
   {
     "id": "n1-1965",
     "jp": "染みる",
     "reading": "しみる",
     "romaji": "shimiru",
-    "meaning": "to soak; pierce"
+    "meaning": "to soak; pierce",
+    "vi": "ngấm vào; thấm thía"
   },
   {
     "id": "n1-1966",
     "jp": "使命",
     "reading": "しめい",
     "romaji": "shimei",
-    "meaning": "mission, errand, message"
+    "meaning": "mission, errand, message",
+    "vi": "sứ mệnh, nhiệm vụ"
   },
   {
     "id": "n1-1967",
     "jp": "地元",
     "reading": "じもと",
     "romaji": "jimoto",
-    "meaning": "local"
+    "meaning": "local",
+    "vi": "địa phương, bản địa"
   },
   {
     "id": "n1-1968",
     "jp": "視野",
     "reading": "しや",
     "romaji": "shiya",
-    "meaning": "field of vision, outlook"
+    "meaning": "field of vision, outlook",
+    "vi": "tầm nhìn, tầm mắt"
   },
   {
     "id": "n1-1969",
     "jp": "弱",
     "reading": "じゃく",
     "romaji": "jaku",
-    "meaning": "delicate, supple"
+    "meaning": "delicate, supple",
+    "vi": "yếu, mảnh mai (hậu tố)"
   },
   {
     "id": "n1-1970",
     "jp": "社交",
     "reading": "しゃこう",
     "romaji": "shakou",
-    "meaning": "social life"
+    "meaning": "social life",
+    "vi": "sự giao tiếp xã hội"
   },
   {
     "id": "n1-1971",
     "jp": "ジャズ",
     "reading": "ジャズ",
     "romaji": "ジャズ",
-    "meaning": "jazz"
+    "meaning": "jazz",
+    "vi": "nhạc jazz"
   },
   {
     "id": "n1-1972",
     "jp": "謝絶",
     "reading": "しゃぜつ",
     "romaji": "shazetsu",
-    "meaning": "refusal"
+    "meaning": "refusal",
+    "vi": "sự từ chối"
   },
   {
     "id": "n1-1973",
     "jp": "社宅",
     "reading": "しゃたく",
     "romaji": "shataku",
-    "meaning": "company owned house"
+    "meaning": "company owned house",
+    "vi": "nhà ở do công ty cấp"
   },
   {
     "id": "n1-1974",
     "jp": "若干",
     "reading": "じゃっかん",
     "romaji": "jakkan",
-    "meaning": "some, few, number of"
+    "meaning": "some, few, number of",
+    "vi": "một ít, một số"
   },
   {
     "id": "n1-1975",
     "jp": "三味線",
     "reading": "しゃみせん",
     "romaji": "shamisen",
-    "meaning": "three-stringed Japanese guitar"
+    "meaning": "three-stringed Japanese guitar",
+    "vi": "đàn shamisen (đàn ba dây Nhật Bản)"
   },
   {
     "id": "n1-1976",
     "jp": "斜面",
     "reading": "しゃめん",
     "romaji": "shamen",
-    "meaning": "slope, slanting surface, bevel"
+    "meaning": "slope, slanting surface, bevel",
+    "vi": "mặt dốc, sườn dốc"
   },
   {
     "id": "n1-1977",
     "jp": "砂利",
     "reading": "じゃり",
     "romaji": "jari",
-    "meaning": "gravel, ballast, pebbles"
+    "meaning": "gravel, ballast, pebbles",
+    "vi": "sỏi, đá dăm"
   },
   {
     "id": "n1-1978",
     "jp": "洒落る",
     "reading": "しゃれる",
     "romaji": "shareru",
-    "meaning": "to joke, to play on words; stylish"
+    "meaning": "to joke, to play on words; stylish",
+    "vi": "pha trò, chơi chữ; ăn mặc thời trang"
   },
   {
     "id": "n1-1979",
     "jp": "ジャンパー",
     "reading": "ジャンパー",
     "romaji": "ジャンパー",
-    "meaning": "jacket, jumper"
+    "meaning": "jacket, jumper",
+    "vi": "áo khoác (jumper)"
   },
   {
     "id": "n1-1980",
     "jp": "ジャンプ",
     "reading": "ジャンプ",
     "romaji": "ジャンプ",
-    "meaning": "jump"
+    "meaning": "jump",
+    "vi": "cú nhảy"
   },
   {
     "id": "n1-1981",
     "jp": "ジャンボ",
     "reading": "ジャンボ",
     "romaji": "ジャンボ",
-    "meaning": "jumbo"
+    "meaning": "jumbo",
+    "vi": "cỡ lớn, khổng lồ (jumbo)"
   },
   {
     "id": "n1-1982",
     "jp": "ジャンル",
     "reading": "ジャンル",
     "romaji": "ジャンル",
-    "meaning": "genre"
+    "meaning": "genre",
+    "vi": "thể loại"
   },
   {
     "id": "n1-1983",
     "jp": "主",
     "reading": "しゅ",
     "romaji": "shu",
-    "meaning": "owner, master, god"
+    "meaning": "owner, master, god",
+    "vi": "chủ, chúa"
   },
   {
     "id": "n1-1984",
     "jp": "種",
     "reading": "しゅ",
     "romaji": "shu",
-    "meaning": "seed; variety"
+    "meaning": "seed; variety",
+    "vi": "hạt giống; chủng loại"
   },
   {
     "id": "n1-1985",
     "jp": "私有",
     "reading": "しゆう",
     "romaji": "shiyuu",
-    "meaning": "private ownership"
+    "meaning": "private ownership",
+    "vi": "sở hữu tư nhân"
   },
   {
     "id": "n1-1986",
     "jp": "～宗",
     "reading": "～しゅう",
     "romaji": "～shuu",
-    "meaning": "sect"
+    "meaning": "sect",
+    "vi": "giáo phái, tông phái"
   },
   {
     "id": "n1-1987",
     "jp": "収益",
     "reading": "しゅうえき",
     "romaji": "shuueki",
-    "meaning": "earnings, proceeds, returns"
+    "meaning": "earnings, proceeds, returns",
+    "vi": "lợi nhuận, doanh thu"
   },
   {
     "id": "n1-1988",
     "jp": "修学",
     "reading": "しゅうがく",
     "romaji": "shuugaku",
-    "meaning": "learning"
+    "meaning": "learning",
+    "vi": "việc học tập, tu học"
   },
   {
     "id": "n1-1989",
     "jp": "周期",
     "reading": "しゅうき",
     "romaji": "shuuki",
-    "meaning": "cycle, period"
+    "meaning": "cycle, period",
+    "vi": "chu kỳ"
   },
   {
     "id": "n1-1990",
     "jp": "衆議院",
     "reading": "しゅうぎいん",
     "romaji": "shuugiin",
-    "meaning": "Lower House, House of Representatives"
+    "meaning": "Lower House, House of Representatives",
+    "vi": "Hạ viện"
   },
   {
     "id": "n1-1991",
     "jp": "就業",
     "reading": "しゅうぎょう",
     "romaji": "shuugyou",
-    "meaning": "employment, starting work"
+    "meaning": "employment, starting work",
+    "vi": "sự đi làm, bắt đầu công việc"
   },
   {
     "id": "n1-1992",
     "jp": "従業員",
     "reading": "じゅうぎょういん",
     "romaji": "juugyouin",
-    "meaning": "employee, worker"
+    "meaning": "employee, worker",
+    "vi": "nhân viên"
   },
   {
     "id": "n1-1993",
     "jp": "集計",
     "reading": "しゅうけい",
     "romaji": "shuukei",
-    "meaning": "totalization, aggregate"
+    "meaning": "totalization, aggregate",
+    "vi": "sự tổng hợp, tính tổng"
   },
   {
     "id": "n1-1994",
     "jp": "襲撃",
     "reading": "しゅうげき",
     "romaji": "shuugeki",
-    "meaning": "attack, charge, raid"
+    "meaning": "attack, charge, raid",
+    "vi": "sự tấn công, đột kích"
   },
   {
     "id": "n1-1995",
     "jp": "収支",
     "reading": "しゅうし",
     "romaji": "shuushi",
-    "meaning": "income and expenditure"
+    "meaning": "income and expenditure",
+    "vi": "thu chi"
   },
   {
     "id": "n1-1996",
     "jp": "終始",
     "reading": "しゅうし",
     "romaji": "shuushi",
-    "meaning": "from beginning to end; consistent(ly)"
+    "meaning": "from beginning to end; consistent(ly)",
+    "vi": "từ đầu đến cuối; nhất quán"
   },
   {
     "id": "n1-1997",
     "jp": "修士",
     "reading": "しゅうし",
     "romaji": "shuushi",
-    "meaning": "Masters degree program"
+    "meaning": "Masters degree program",
+    "vi": "bậc thạc sĩ"
   },
   {
     "id": "n1-1998",
     "jp": "従事",
     "reading": "じゅうじ",
     "romaji": "juuji",
-    "meaning": "engaging, pursuing, following"
+    "meaning": "engaging, pursuing, following",
+    "vi": "sự tham gia, làm (công việc gì)"
   },
   {
     "id": "n1-1999",
     "jp": "終日",
     "reading": "しゅうじつ",
     "romaji": "shuujitsu",
-    "meaning": "all day"
+    "meaning": "all day",
+    "vi": "suốt cả ngày"
   },
   {
     "id": "n1-2000",
     "jp": "充実",
     "reading": "じゅうじつ",
     "romaji": "juujitsu",
-    "meaning": "fullness, perfection"
+    "meaning": "fullness, perfection",
+    "vi": "sự đầy đủ, sung mãn"
   },
   {
     "id": "n1-2001",
     "jp": "収集",
     "reading": "しゅうしゅう",
     "romaji": "shuushuu",
-    "meaning": "gathering up, collection"
+    "meaning": "gathering up, collection",
+    "vi": "sự thu thập, sưu tầm"
   },
   {
     "id": "n1-2002",
     "jp": "十字路",
     "reading": "じゅうじろ",
     "romaji": "juujiro",
-    "meaning": "crossroads"
+    "meaning": "crossroads",
+    "vi": "ngã tư"
   },
   {
     "id": "n1-2003",
     "jp": "執着",
     "reading": "しゅうじゃく",
     "romaji": "shuujaku",
-    "meaning": "attachment, adhesion, tenacity"
+    "meaning": "attachment, adhesion, tenacity",
+    "vi": "sự chấp niệm, bám chấp"
   },
   {
     "id": "n1-2004",
     "jp": "執着",
     "reading": "しゅうちゃく",
     "romaji": "shuuchaku",
-    "meaning": "attachment, adhesion, tenacity"
+    "meaning": "attachment, adhesion, tenacity",
+    "vi": "sự chấp niệm, bám chấp"
   },
   {
     "id": "n1-2005",
     "jp": "柔軟",
     "reading": "じゅうなん",
     "romaji": "juunan",
-    "meaning": "flexible"
+    "meaning": "flexible",
+    "vi": "linh hoạt, mềm dẻo"
   },
   {
     "id": "n1-2006",
     "jp": "重複",
     "reading": "じゅうふく",
     "romaji": "juufuku",
-    "meaning": "duplication, repetition, overlapping"
+    "meaning": "duplication, repetition, overlapping",
+    "vi": "sự trùng lặp, chồng chéo"
   },
   {
     "id": "n1-2007",
     "jp": "収容",
     "reading": "しゅうよう",
     "romaji": "shuuyou",
-    "meaning": "accommodation; seating; custody"
+    "meaning": "accommodation; seating; custody",
+    "vi": "sự tiếp nhận, giam giữ"
   },
   {
     "id": "n1-2008",
     "jp": "従来",
     "reading": "じゅうらい",
     "romaji": "juurai",
-    "meaning": "up to now, so far, traditional"
+    "meaning": "up to now, so far, traditional",
+    "vi": "từ trước đến nay, theo truyền thống"
   },
   {
     "id": "n1-2009",
     "jp": "守衛",
     "reading": "しゅえい",
     "romaji": "shuei",
-    "meaning": "security guard, doorkeeper"
+    "meaning": "security guard, doorkeeper",
+    "vi": "bảo vệ, người gác cổng"
   },
   {
     "id": "n1-2010",
     "jp": "主演",
     "reading": "しゅえん",
     "romaji": "shuen",
-    "meaning": "starring, playing the leading part"
+    "meaning": "starring, playing the leading part",
+    "vi": "vai diễn chính"
   },
   {
     "id": "n1-2011",
     "jp": "主観",
     "reading": "しゅかん",
     "romaji": "shukan",
-    "meaning": "subjectivity, subject, ego"
+    "meaning": "subjectivity, subject, ego",
+    "vi": "chủ quan"
   },
   {
     "id": "n1-2012",
     "jp": "修行",
     "reading": "しゅぎょう",
     "romaji": "shugyou",
-    "meaning": "pursuit of knowledge, training, ascetic practice"
+    "meaning": "pursuit of knowledge, training, ascetic practice",
+    "vi": "sự tu hành, rèn luyện"
   },
   {
     "id": "n1-2013",
     "jp": "塾",
     "reading": "じゅく",
     "romaji": "juku",
-    "meaning": "after-school (cram) school"
+    "meaning": "after-school (cram) school",
+    "vi": "trường luyện thi, lớp học thêm"
   },
   {
     "id": "n1-2014",
     "jp": "祝賀",
     "reading": "しゅくが",
     "romaji": "shukuga",
-    "meaning": "celebration, congratulations"
+    "meaning": "celebration, congratulations",
+    "vi": "sự chúc mừng, lễ mừng"
   },
   {
     "id": "n1-2015",
     "jp": "宿命",
     "reading": "しゅくめい",
     "romaji": "shukumei",
-    "meaning": "fate, destiny, predestination"
+    "meaning": "fate, destiny, predestination",
+    "vi": "định mệnh, số phận"
   },
   {
     "id": "n1-2016",
     "jp": "手芸",
     "reading": "しゅげい",
     "romaji": "shugei",
-    "meaning": "handicrafts"
+    "meaning": "handicrafts",
+    "vi": "thủ công mỹ nghệ"
   },
   {
     "id": "n1-2017",
     "jp": "主権",
     "reading": "しゅけん",
     "romaji": "shuken",
-    "meaning": "sovereignty"
+    "meaning": "sovereignty",
+    "vi": "chủ quyền"
   },
   {
     "id": "n1-2018",
     "jp": "主催",
     "reading": "しゅさい",
     "romaji": "shusai",
-    "meaning": "organization, sponsorship, to host"
+    "meaning": "organization, sponsorship, to host",
+    "vi": "sự tổ chức, chủ trì"
   },
   {
     "id": "n1-2019",
     "jp": "取材",
     "reading": "しゅざい",
     "romaji": "shuzai",
-    "meaning": "coverage, collecting data"
+    "meaning": "coverage, collecting data",
+    "vi": "sự tác nghiệp, thu thập tư liệu (báo chí)"
   },
   {
     "id": "n1-2020",
     "jp": "趣旨",
     "reading": "しゅし",
     "romaji": "shushi",
-    "meaning": "object, meaning"
+    "meaning": "object, meaning",
+    "vi": "chủ ý, mục đích"
   },
   {
     "id": "n1-2021",
     "jp": "種々",
     "reading": "しゅじゅ",
     "romaji": "shuju",
-    "meaning": "variety"
+    "meaning": "variety",
+    "vi": "đủ loại, nhiều thứ"
   },
   {
     "id": "n1-2022",
     "jp": "主食",
     "reading": "しゅしょく",
     "romaji": "shushoku",
-    "meaning": "staple food"
+    "meaning": "staple food",
+    "vi": "lương thực chính"
   },
   {
     "id": "n1-2023",
     "jp": "主人公",
     "reading": "しゅじんこう",
     "romaji": "shujinkou",
-    "meaning": "protagonist"
+    "meaning": "protagonist",
+    "vi": "nhân vật chính"
   },
   {
     "id": "n1-2024",
     "jp": "主体",
     "reading": "しゅたい",
     "romaji": "shutai",
-    "meaning": "subject, main constituent"
+    "meaning": "subject, main constituent",
+    "vi": "chủ thể"
   },
   {
     "id": "n1-2025",
     "jp": "主題",
     "reading": "しゅだい",
     "romaji": "shudai",
-    "meaning": "subject, theme, motif"
+    "meaning": "subject, theme, motif",
+    "vi": "chủ đề"
   },
   {
     "id": "n1-2026",
     "jp": "出演",
     "reading": "しゅつえん",
     "romaji": "shutsuen",
-    "meaning": "leading performer, stage appearance"
+    "meaning": "leading performer, stage appearance",
+    "vi": "sự xuất hiện trên sân khấu, tham gia biểu diễn"
   },
   {
     "id": "n1-2027",
     "jp": "出血",
     "reading": "しゅっけつ",
     "romaji": "shukketsu",
-    "meaning": "bleeding"
+    "meaning": "bleeding",
+    "vi": "sự chảy máu"
   },
   {
     "id": "n1-2028",
     "jp": "出現",
     "reading": "しゅつげん",
     "romaji": "shutsugen",
-    "meaning": "appearance, arrival"
+    "meaning": "appearance, arrival",
+    "vi": "sự xuất hiện"
   },
   {
     "id": "n1-2029",
     "jp": "出産",
     "reading": "しゅっさん",
     "romaji": "shussan",
-    "meaning": "childbirth"
+    "meaning": "childbirth",
+    "vi": "sự sinh nở"
   },
   {
     "id": "n1-2030",
     "jp": "出社",
     "reading": "しゅっしゃ",
     "romaji": "shussha",
-    "meaning": "come to work"
+    "meaning": "come to work",
+    "vi": "đến công ty làm việc"
   },
   {
     "id": "n1-2031",
     "jp": "出生",
     "reading": "しゅっしょう",
     "romaji": "shusshou",
-    "meaning": "birth"
+    "meaning": "birth",
+    "vi": "sự ra đời, sinh ra"
   },
   {
     "id": "n1-2032",
     "jp": "出生",
     "reading": "しゅっせい",
     "romaji": "shussei",
-    "meaning": "birth"
+    "meaning": "birth",
+    "vi": "sự ra đời, sinh ra"
   },
   {
     "id": "n1-2033",
     "jp": "微量",
     "reading": "びりょう",
     "romaji": "biryou",
-    "meaning": "minuscule amount, extremely small quantity"
+    "meaning": "minuscule amount, extremely small quantity",
+    "vi": "lượng cực nhỏ, vi lượng"
   },
   {
     "id": "n1-2034",
     "jp": "昼飯",
     "reading": "ひるめし",
     "romaji": "hirumeshi",
-    "meaning": "lunch (mid-day meal)"
+    "meaning": "lunch (mid-day meal)",
+    "vi": "bữa trưa"
   },
   {
     "id": "n1-2035",
     "jp": "比例",
     "reading": "ひれい",
     "romaji": "hirei",
-    "meaning": "proportion"
+    "meaning": "proportion",
+    "vi": "tỷ lệ"
   },
   {
     "id": "n1-2036",
     "jp": "疲労",
     "reading": "ひろう",
     "romaji": "hirou",
-    "meaning": "fatigue, weariness"
+    "meaning": "fatigue, weariness",
+    "vi": "sự mệt mỏi"
   },
   {
     "id": "n1-2037",
     "jp": "敏感",
     "reading": "びんかん",
     "romaji": "binkan",
-    "meaning": "sensibility, susceptibility, sensitive (to)"
+    "meaning": "sensibility, susceptibility, sensitive (to)",
+    "vi": "nhạy cảm"
   },
   {
     "id": "n1-2038",
     "jp": "貧困",
     "reading": "ひんこん",
     "romaji": "hinkon",
-    "meaning": "poverty, lack"
+    "meaning": "poverty, lack",
+    "vi": "sự nghèo khó"
   },
   {
     "id": "n1-2039",
     "jp": "品質",
     "reading": "ひんしつ",
     "romaji": "hinshitsu",
-    "meaning": "quality"
+    "meaning": "quality",
+    "vi": "chất lượng"
   },
   {
     "id": "n1-2040",
     "jp": "貧弱",
     "reading": "ひんじゃく",
     "romaji": "hinjaku",
-    "meaning": "poor, meager, insubstantial"
+    "meaning": "poor, meager, insubstantial",
+    "vi": "nghèo nàn, thiếu thốn, ốm yếu"
   },
   {
     "id": "n1-2041",
     "jp": "品種",
     "reading": "ひんしゅ",
     "romaji": "hinshu",
-    "meaning": "breed, type, variety"
+    "meaning": "breed, type, variety",
+    "vi": "giống, chủng loại"
   },
   {
     "id": "n1-2042",
     "jp": "ヒント",
     "reading": "ヒント",
     "romaji": "ヒント",
-    "meaning": "hint"
+    "meaning": "hint",
+    "vi": "gợi ý"
   },
   {
     "id": "n1-2043",
     "jp": "頻繁",
     "reading": "ひんぱん",
     "romaji": "hinpan",
-    "meaning": "frequency"
+    "meaning": "frequency",
+    "vi": "sự thường xuyên, dồn dập"
   },
   {
     "id": "n1-2044",
     "jp": "貧乏",
     "reading": "びんぼう",
     "romaji": "binbou",
-    "meaning": "poverty, destitute, poor"
+    "meaning": "poverty, destitute, poor",
+    "vi": "nghèo túng"
   },
   {
     "id": "n1-2045",
     "jp": "ファイト",
     "reading": "ファイト",
     "romaji": "ファイト",
-    "meaning": "fight"
+    "meaning": "fight",
+    "vi": "tinh thần chiến đấu, quyết tâm"
   },
   {
     "id": "n1-2046",
     "jp": "ファイル",
     "reading": "ファイル",
     "romaji": "ファイル",
-    "meaning": "file; portfolio"
+    "meaning": "file; portfolio",
+    "vi": "tệp tin, hồ sơ"
   },
   {
     "id": "n1-2047",
     "jp": "ファン",
     "reading": "ファン",
     "romaji": "ファン",
-    "meaning": "fan"
+    "meaning": "fan",
+    "vi": "người hâm mộ"
   },
   {
     "id": "n1-2048",
     "jp": "不意",
     "reading": "ふい",
     "romaji": "fui",
-    "meaning": "sudden, abrupt, unexpected"
+    "meaning": "sudden, abrupt, unexpected",
+    "vi": "bất ngờ, đột ngột"
   },
   {
     "id": "n1-2049",
     "jp": "フィルタ",
     "reading": "フィルタ",
     "romaji": "フィルタ",
-    "meaning": "filter"
+    "meaning": "filter",
+    "vi": "bộ lọc"
   },
   {
     "id": "n1-2050",
     "jp": "封",
     "reading": "ふう",
     "romaji": "fuu",
-    "meaning": "seal"
+    "meaning": "seal",
+    "vi": "niêm phong, con dấu"
   },
   {
     "id": "n1-2051",
     "jp": "封鎖",
     "reading": "ふうさ",
     "romaji": "fuusa",
-    "meaning": "blockade, freezing (funds)"
+    "meaning": "blockade, freezing (funds)",
+    "vi": "sự phong tỏa"
   },
   {
     "id": "n1-2052",
     "jp": "風車",
     "reading": "ふうしゃ",
     "romaji": "fuusha",
-    "meaning": "windmill"
+    "meaning": "windmill",
+    "vi": "cối xay gió"
   },
   {
     "id": "n1-2053",
     "jp": "風習",
     "reading": "ふうしゅう",
     "romaji": "fuushuu",
-    "meaning": "custom"
+    "meaning": "custom",
+    "vi": "phong tục"
   },
   {
     "id": "n1-2054",
     "jp": "風俗",
     "reading": "ふうぞく",
     "romaji": "fuuzoku",
-    "meaning": "manners, customs; sex industry"
+    "meaning": "manners, customs; sex industry",
+    "vi": "phong tục tập quán; ngành dịch vụ tình dục"
   },
   {
     "id": "n1-2055",
     "jp": "ブーツ",
     "reading": "ブーツ",
     "romaji": "ブーツ",
-    "meaning": "boots"
+    "meaning": "boots",
+    "vi": "giày bốt"
   },
   {
     "id": "n1-2056",
     "jp": "風土",
     "reading": "ふうど",
     "romaji": "fuudo",
-    "meaning": "natural features, climate"
+    "meaning": "natural features, climate",
+    "vi": "phong thổ, khí hậu địa phương"
   },
   {
     "id": "n1-2057",
     "jp": "ブーム",
     "reading": "ブーム",
     "romaji": "ブーム",
-    "meaning": "boom"
+    "meaning": "boom",
+    "vi": "trào lưu, cơn sốt (boom)"
   },
   {
     "id": "n1-2058",
     "jp": "フォーム",
     "reading": "フォーム",
     "romaji": "フォーム",
-    "meaning": "foam; form"
+    "meaning": "foam; form",
+    "vi": "bọt; tư thế, phong độ (form)"
   },
   {
     "id": "n1-2059",
     "jp": "部下",
     "reading": "ぶか",
     "romaji": "buka",
-    "meaning": "one's subordinate"
+    "meaning": "one's subordinate",
+    "vi": "cấp dưới"
   },
   {
     "id": "n1-2060",
     "jp": "不可欠",
     "reading": "ふかけつ",
     "romaji": "fukaketsu",
-    "meaning": "indispensable, essential"
+    "meaning": "indispensable, essential",
+    "vi": "không thể thiếu, thiết yếu"
   },
   {
     "id": "n1-2061",
     "jp": "ぶかぶか",
     "reading": "ぶかぶか",
     "romaji": "bukabuka",
-    "meaning": "too big, baggy"
+    "meaning": "too big, baggy",
+    "vi": "rộng thùng thình"
   },
   {
     "id": "n1-2062",
     "jp": "不吉",
     "reading": "ふきつ",
     "romaji": "fukitsu",
-    "meaning": "ominous, sinister, bad luck, ill omen"
+    "meaning": "ominous, sinister, bad luck, ill omen",
+    "vi": "điềm xấu, gở"
   },
   {
     "id": "n1-2063",
     "jp": "不況",
     "reading": "ふきょう",
     "romaji": "fukyou",
-    "meaning": "recession, depression, slump"
+    "meaning": "recession, depression, slump",
+    "vi": "suy thoái kinh tế"
   },
   {
     "id": "n1-2064",
     "jp": "布巾",
     "reading": "ふきん",
     "romaji": "fukin",
-    "meaning": "dish cloth"
+    "meaning": "dish cloth",
+    "vi": "khăn lau bát đĩa"
   },
   {
     "id": "n1-2065",
     "jp": "複合",
     "reading": "ふくごう",
     "romaji": "fukugou",
-    "meaning": "composite, complex"
+    "meaning": "composite, complex",
+    "vi": "sự phức hợp, tổng hợp"
   },
   {
     "id": "n1-2066",
     "jp": "福祉",
     "reading": "ふくし",
     "romaji": "fukushi",
-    "meaning": "welfare, well-being"
+    "meaning": "welfare, well-being",
+    "vi": "phúc lợi"
   },
   {
     "id": "n1-2067",
     "jp": "覆面",
     "reading": "ふくめん",
     "romaji": "fukumen",
-    "meaning": "mask, veil, disguise"
+    "meaning": "mask, veil, disguise",
+    "vi": "mặt nạ, sự che giấu danh tính"
   },
   {
     "id": "n1-2068",
     "jp": "膨れる",
     "reading": "ふくれる",
     "romaji": "fukureru",
-    "meaning": "to swell (out), to be inflated, to bulge"
+    "meaning": "to swell (out), to be inflated, to bulge",
+    "vi": "phồng lên, sưng lên"
   },
   {
     "id": "n1-2069",
     "jp": "不景気",
     "reading": "ふけいき",
     "romaji": "fukeiki",
-    "meaning": "business recession, hard times, depression"
+    "meaning": "business recession, hard times, depression",
+    "vi": "thời kỳ kinh tế khó khăn, suy thoái"
   },
   {
     "id": "n1-2070",
     "jp": "耽る",
     "reading": "ふける",
     "romaji": "fukeru",
-    "meaning": "to indulge in, to give oneself up to, to be absorbed in"
+    "meaning": "to indulge in, to give oneself up to, to be absorbed in",
+    "vi": "đắm chìm, mải mê"
   },
   {
     "id": "n1-2071",
     "jp": "老ける",
     "reading": "ふける",
     "romaji": "fukeru",
-    "meaning": "to age"
+    "meaning": "to age",
+    "vi": "già đi"
   },
   {
     "id": "n1-2072",
     "jp": "富豪",
     "reading": "ふごう",
     "romaji": "fugou",
-    "meaning": "wealthy person, millionaire"
+    "meaning": "wealthy person, millionaire",
+    "vi": "người giàu có, triệu phú"
   },
   {
     "id": "n1-2073",
     "jp": "布告",
     "reading": "ふこく",
     "romaji": "fukoku",
-    "meaning": "edict, ordinance, proclamation"
+    "meaning": "edict, ordinance, proclamation",
+    "vi": "sắc lệnh, tuyên bố"
   },
   {
     "id": "n1-2074",
     "jp": "ブザー",
     "reading": "ブザー",
     "romaji": "ブザー",
-    "meaning": "buzzer"
+    "meaning": "buzzer",
+    "vi": "còi báo, chuông báo"
   },
   {
     "id": "n1-2075",
     "jp": "負債",
     "reading": "ふさい",
     "romaji": "fusai",
-    "meaning": "debt, liabilities"
+    "meaning": "debt, liabilities",
+    "vi": "nợ nần, nợ phải trả"
   },
   {
     "id": "n1-2076",
     "jp": "不在",
     "reading": "ふざい",
     "romaji": "fuzai",
-    "meaning": "absence"
+    "meaning": "absence",
+    "vi": "sự vắng mặt"
   },
   {
     "id": "n1-2077",
     "jp": "ふさわしい",
     "reading": "ふさわしい",
     "romaji": "fusawashii",
-    "meaning": "appropriate"
+    "meaning": "appropriate",
+    "vi": "phù hợp, thích hợp"
   },
   {
     "id": "n1-2078",
     "jp": "不順",
     "reading": "ふじゅん",
     "romaji": "fujun",
-    "meaning": "irregularity, unseasonableness"
+    "meaning": "irregularity, unseasonableness",
+    "vi": "sự thất thường (thời tiết)"
   },
   {
     "id": "n1-2079",
     "jp": "負傷",
     "reading": "ふしょう",
     "romaji": "fushou",
-    "meaning": "injury, wound"
+    "meaning": "injury, wound",
+    "vi": "sự bị thương"
   },
   {
     "id": "n1-2080",
     "jp": "侮辱",
     "reading": "ぶじょく",
     "romaji": "bujoku",
-    "meaning": "insult, contempt, slight"
+    "meaning": "insult, contempt, slight",
+    "vi": "sự sỉ nhục, xúc phạm"
   },
   {
     "id": "n1-2081",
     "jp": "不審",
     "reading": "ふしん",
     "romaji": "fushin",
-    "meaning": "suspicious, doubt, infidelity"
+    "meaning": "suspicious, doubt, infidelity",
+    "vi": "sự khả nghi, đáng ngờ"
   },
   {
     "id": "n1-2082",
     "jp": "不振",
     "reading": "ふしん",
     "romaji": "fushin",
-    "meaning": "dullness, slump, stagnation"
+    "meaning": "dullness, slump, stagnation",
+    "vi": "sự trì trệ, sa sút"
   },
   {
     "id": "n1-2083",
     "jp": "武装",
     "reading": "ぶそう",
     "romaji": "busou",
-    "meaning": "arms, armament, armed"
+    "meaning": "arms, armament, armed",
+    "vi": "sự vũ trang"
   },
   {
     "id": "n1-2084",
     "jp": "札",
     "reading": "ふだ",
     "romaji": "fuda",
-    "meaning": "token, label; ticket, card; charm, talisman"
+    "meaning": "token, label; ticket, card; charm, talisman",
+    "vi": "thẻ, nhãn; vé; bùa hộ mệnh"
   },
   {
     "id": "n1-2085",
     "jp": "負担",
     "reading": "ふたん",
     "romaji": "futan",
-    "meaning": "burden; load"
+    "meaning": "burden; load",
+    "vi": "gánh nặng, trách nhiệm"
   },
   {
     "id": "n1-2086",
     "jp": "不調",
     "reading": "ふちょう",
     "romaji": "fuchou",
-    "meaning": "bad condition, disorder, slump"
+    "meaning": "bad condition, disorder, slump",
+    "vi": "tình trạng không tốt, trục trặc"
   },
   {
     "id": "n1-2087",
     "jp": "復活",
     "reading": "ふっかつ",
     "romaji": "fukkatsu",
-    "meaning": "revival (e.g., musical), restoration"
+    "meaning": "revival (e.g., musical), restoration",
+    "vi": "sự hồi sinh, phục hồi"
   },
   {
     "id": "n1-2088",
     "jp": "物議",
     "reading": "ぶつぎ",
     "romaji": "butsugi",
-    "meaning": "public discussion (criticism)"
+    "meaning": "public discussion (criticism)",
+    "vi": "sự bàn tán, dư luận chỉ trích"
   },
   {
     "id": "n1-2089",
     "jp": "復旧",
     "reading": "ふっきゅう",
     "romaji": "fukkyuu",
-    "meaning": "restoration, restitution, rehabilitation"
+    "meaning": "restoration, restitution, rehabilitation",
+    "vi": "sự khôi phục (sau sự cố)"
   },
   {
     "id": "n1-2090",
     "jp": "復興",
     "reading": "ふっこう",
     "romaji": "fukkou",
-    "meaning": "revival, renaissance, reconstruction"
+    "meaning": "revival, renaissance, reconstruction",
+    "vi": "sự tái thiết, phục hưng"
   },
   {
     "id": "n1-2091",
     "jp": "物資",
     "reading": "ぶっし",
     "romaji": "busshi",
-    "meaning": "goods, materials"
+    "meaning": "goods, materials",
+    "vi": "vật tư, hàng hóa"
   },
   {
     "id": "n1-2092",
     "jp": "仏像",
     "reading": "ぶつぞう",
     "romaji": "butsuzou",
-    "meaning": "Buddhist image (statue)"
+    "meaning": "Buddhist image (statue)",
+    "vi": "tượng Phật"
   },
   {
     "id": "n1-2093",
     "jp": "物体",
     "reading": "ぶったい",
     "romaji": "buttai",
-    "meaning": "object"
+    "meaning": "object",
+    "vi": "vật thể"
   },
   {
     "id": "n1-2094",
     "jp": "沸騰",
     "reading": "ふっとう",
     "romaji": "futtou",
-    "meaning": "boiling, seething"
+    "meaning": "boiling, seething",
+    "vi": "sự sôi trào"
   },
   {
     "id": "n1-2095",
     "jp": "不当",
     "reading": "ふとう",
     "romaji": "futou",
-    "meaning": "injustice, impropriety, unfair"
+    "meaning": "injustice, impropriety, unfair",
+    "vi": "sự bất công, không thỏa đáng"
   },
   {
     "id": "n1-2096",
     "jp": "不動産",
     "reading": "ふどうさん",
     "romaji": "fudousan",
-    "meaning": "real estate"
+    "meaning": "real estate",
+    "vi": "bất động sản"
   },
   {
     "id": "n1-2097",
     "jp": "無難",
     "reading": "ぶなん",
     "romaji": "bunan",
-    "meaning": "safety, security"
+    "meaning": "safety, security",
+    "vi": "an toàn, ổn thỏa"
   },
   {
     "id": "n1-2098",
     "jp": "赴任",
     "reading": "ふにん",
     "romaji": "funin",
-    "meaning": "(proceeding to) new appointment"
+    "meaning": "(proceeding to) new appointment",
+    "vi": "sự nhậm chức (nơi mới)"
   },
   {
     "id": "n1-2099",
     "jp": "腐敗",
     "reading": "ふはい",
     "romaji": "fuhai",
-    "meaning": "decay, depravity"
+    "meaning": "decay, depravity",
+    "vi": "sự thối rữa, thoái hóa (đạo đức)"
   },
   {
     "id": "n1-2100",
     "jp": "不評",
     "reading": "ふひょう",
     "romaji": "fuhyou",
-    "meaning": "bad reputation, disgrace, unpopularity"
+    "meaning": "bad reputation, disgrace, unpopularity",
+    "vi": "tiếng xấu, không được ưa chuộng"
   },
   {
     "id": "n1-2101",
     "jp": "不服",
     "reading": "ふふく",
     "romaji": "fufuku",
-    "meaning": "dissatisfaction, discontent, disapproval"
+    "meaning": "dissatisfaction, discontent, disapproval",
+    "vi": "bất mãn, không hài lòng, phản đối"
   },
   {
     "id": "n1-2102",
     "jp": "普遍",
     "reading": "ふへん",
     "romaji": "fuhen",
-    "meaning": "universality, ubiquity, omnipresence"
+    "meaning": "universality, ubiquity, omnipresence",
+    "vi": "tính phổ biến, tính phổ quát"
   },
   {
     "id": "n1-2103",
     "jp": "踏まえる",
     "reading": "ふまえる",
     "romaji": "fumaeru",
-    "meaning": "to be based on, to have origin in"
+    "meaning": "to be based on, to have origin in",
+    "vi": "dựa trên, căn cứ vào"
   },
   {
     "id": "n1-2104",
     "jp": "踏み込む",
     "reading": "ふみこむ",
     "romaji": "fumikomu",
-    "meaning": "to step into (someone else's territory, to break into, to raid"
+    "meaning": "to step into (someone else's territory, to break into, to raid",
+    "vi": "bước vào (lãnh thổ người khác), đột nhập, đột kích"
   },
   {
     "id": "n1-2105",
     "jp": "不明",
     "reading": "ふめい",
     "romaji": "fumei",
-    "meaning": "unknown, ambiguous"
+    "meaning": "unknown, ambiguous",
+    "vi": "không rõ, mơ hồ"
   },
   {
     "id": "n1-2106",
     "jp": "部門",
     "reading": "ぶもん",
     "romaji": "bumon",
-    "meaning": "class, group, category, department, field, branch"
+    "meaning": "class, group, category, department, field, branch",
+    "vi": "bộ phận, nhóm, danh mục, phòng ban, lĩnh vực, chi nhánh"
   },
   {
     "id": "n1-2107",
     "jp": "扶養",
     "reading": "ふよう",
     "romaji": "fuyou",
-    "meaning": "support, maintenance"
+    "meaning": "support, maintenance",
+    "vi": "phụng dưỡng, chu cấp"
   },
   {
     "id": "n1-2108",
     "jp": "ふらふら",
     "reading": "ふらふら",
     "romaji": "furafura",
-    "meaning": "unsteady on one's feet, totter, dizzy"
+    "meaning": "unsteady on one's feet, totter, dizzy",
+    "vi": "loạng choạng, chệnh choạng, chóng mặt"
   },
   {
     "id": "n1-2109",
     "jp": "ぶらぶら",
     "reading": "ぶらぶら",
     "romaji": "burabura",
-    "meaning": "dangle heavily, sway to and fro, stroll idly"
+    "meaning": "dangle heavily, sway to and fro, stroll idly",
+    "vi": "đung đưa, lắc lư, đi dạo nhàn nhã"
   },
   {
     "id": "n1-2110",
     "jp": "振り返る",
     "reading": "ふりかえる",
     "romaji": "furikaeru",
-    "meaning": "to turn head, to turn around, to look back"
+    "meaning": "to turn head, to turn around, to look back",
+    "vi": "quay đầu lại, ngoảnh lại, nhìn lại"
   },
   {
     "id": "n1-2111",
     "jp": "振り出し",
     "reading": "ふりだし",
     "romaji": "furidashi",
-    "meaning": "outset, starting point, drawing or issuing (draft)"
+    "meaning": "outset, starting point, drawing or issuing (draft)",
+    "vi": "điểm khởi đầu, xuất phát điểm; phát hành (hối phiếu)"
   },
   {
     "id": "n1-2112",
     "jp": "不良",
     "reading": "ふりょう",
     "romaji": "furyou",
-    "meaning": "badness, delinquent, failure"
+    "meaning": "badness, delinquent, failure",
+    "vi": "xấu, hư hỏng, hỏng hóc"
   },
   {
     "id": "n1-2113",
     "jp": "浮力",
     "reading": "ふりょく",
     "romaji": "furyoku",
-    "meaning": "buoyancy"
+    "meaning": "buoyancy",
+    "vi": "lực nổi"
   },
   {
     "id": "n1-2114",
     "jp": "武力",
     "reading": "ぶりょく",
     "romaji": "buryoku",
-    "meaning": "armed might, military power, the sword, force"
+    "meaning": "armed might, military power, the sword, force",
+    "vi": "vũ lực, sức mạnh quân sự"
   },
   {
     "id": "n1-2115",
     "jp": "ブル",
     "reading": "ブル",
     "romaji": "ブル",
-    "meaning": "bull"
+    "meaning": "bull",
+    "vi": "con bò đực"
   },
   {
     "id": "n1-2116",
     "jp": "震わせる",
     "reading": "ふるわせる",
     "romaji": "furuwaseru",
-    "meaning": "to be shaking, to be trembling"
+    "meaning": "to be shaking, to be trembling",
+    "vi": "làm rung, làm run lên"
   },
   {
     "id": "n1-2117",
     "jp": "無礼",
     "reading": "ぶれい",
     "romaji": "burei",
-    "meaning": "impolite, rude"
+    "meaning": "impolite, rude",
+    "vi": "vô lễ, thô lỗ"
   },
   {
     "id": "n1-2118",
     "jp": "付録",
     "reading": "ふろく",
     "romaji": "furoku",
-    "meaning": "appendix, supplement"
+    "meaning": "appendix, supplement",
+    "vi": "phụ lục"
   },
   {
     "id": "n1-2119",
     "jp": "フロント",
     "reading": "フロント",
     "romaji": "フロント",
-    "meaning": "front"
+    "meaning": "front",
+    "vi": "mặt trước, quầy lễ tân"
   },
   {
     "id": "n1-2120",
     "jp": "憤慨",
     "reading": "ふんがい",
     "romaji": "fungai",
-    "meaning": "indignation, resentment"
+    "meaning": "indignation, resentment",
+    "vi": "phẫn nộ, bất bình"
   },
   {
     "id": "n1-2121",
     "jp": "文化財",
     "reading": "ぶんかざい",
     "romaji": "bunkazai",
-    "meaning": "cultural assets, cultural property"
+    "meaning": "cultural assets, cultural property",
+    "vi": "tài sản văn hóa, di sản văn hóa"
   },
   {
     "id": "n1-2122",
     "jp": "分業",
     "reading": "ぶんぎょう",
     "romaji": "bungyou",
-    "meaning": "division of labor, specialization, assembly-line production"
+    "meaning": "division of labor, specialization, assembly-line production",
+    "vi": "phân công lao động, chuyên môn hóa"
   },
   {
     "id": "n1-2123",
     "jp": "文語",
     "reading": "ぶんご",
     "romaji": "bungo",
-    "meaning": "written language, literary language"
+    "meaning": "written language, literary language",
+    "vi": "văn viết, văn ngôn"
   },
   {
     "id": "n1-2124",
     "jp": "分散",
     "reading": "ぶんさん",
     "romaji": "bunsan",
-    "meaning": "dispersion, decentralization, variance (statistics)"
+    "meaning": "dispersion, decentralization, variance (statistics)",
+    "vi": "phân tán, phi tập trung; phương sai (thống kê)"
   },
   {
     "id": "n1-2125",
     "jp": "分子",
     "reading": "ぶんし",
     "romaji": "bunshi",
-    "meaning": "numerator, molecule"
+    "meaning": "numerator, molecule",
+    "vi": "tử số; phân tử"
   },
   {
     "id": "n1-2126",
     "jp": "紛失",
     "reading": "ふんしつ",
     "romaji": "funshitsu",
-    "meaning": "losing something"
+    "meaning": "losing something",
+    "vi": "làm mất, thất lạc"
   },
   {
     "id": "n1-2127",
     "jp": "噴出",
     "reading": "ふんしゅつ",
     "romaji": "funshutsu",
-    "meaning": "spewing, gushing, spouting"
+    "meaning": "spewing, gushing, spouting",
+    "vi": "phun trào, phụt ra"
   },
   {
     "id": "n1-2128",
     "jp": "文書",
     "reading": "ぶんしょ",
     "romaji": "bunsho",
-    "meaning": "document, writing"
+    "meaning": "document, writing",
+    "vi": "văn bản, tài liệu"
   },
   {
     "id": "n1-2129",
     "jp": "紛争",
     "reading": "ふんそう",
     "romaji": "funsou",
-    "meaning": "dispute, trouble, strife"
+    "meaning": "dispute, trouble, strife",
+    "vi": "tranh chấp, xung đột"
   },
   {
     "id": "n1-2130",
     "jp": "ふんだん",
     "reading": "ふんだん",
     "romaji": "fundan",
-    "meaning": "plentiful, abundant, lavish"
+    "meaning": "plentiful, abundant, lavish",
+    "vi": "dồi dào, phong phú, hào phóng"
   },
   {
     "id": "n1-2131",
     "jp": "分担",
     "reading": "ぶんたん",
     "romaji": "buntan",
-    "meaning": "apportionment, sharing"
+    "meaning": "apportionment, sharing",
+    "vi": "phân chia, chia sẻ (công việc)"
   },
   {
     "id": "n1-2132",
     "jp": "奮闘",
     "reading": "ふんとう",
     "romaji": "funtou",
-    "meaning": "hard struggle, strenuous effort"
+    "meaning": "hard struggle, strenuous effort",
+    "vi": "nỗ lực gian khổ, phấn đấu hết mình"
   },
   {
     "id": "n1-2133",
     "jp": "分配",
     "reading": "ぶんぱい",
     "romaji": "bunpai",
-    "meaning": "division, sharing"
+    "meaning": "division, sharing",
+    "vi": "phân phối, chia sẻ"
   },
   {
     "id": "n1-2134",
     "jp": "分母",
     "reading": "ぶんぼ",
     "romaji": "bunbo",
-    "meaning": "denominator"
+    "meaning": "denominator",
+    "vi": "mẫu số"
   },
   {
     "id": "n1-2135",
     "jp": "粉末",
     "reading": "ふんまつ",
     "romaji": "funmatsu",
-    "meaning": "fine powder"
+    "meaning": "fine powder",
+    "vi": "bột mịn"
   },
   {
     "id": "n1-2136",
     "jp": "分離",
     "reading": "ぶんり",
     "romaji": "bunri",
-    "meaning": "separation, detachment, segregation"
+    "meaning": "separation, detachment, segregation",
+    "vi": "tách biệt, phân ly"
   },
   {
     "id": "n1-2137",
     "jp": "分裂",
     "reading": "ぶんれつ",
     "romaji": "bunretsu",
-    "meaning": "split, division, break up"
+    "meaning": "split, division, break up",
+    "vi": "chia rẽ, phân liệt, tan vỡ"
   },
   {
     "id": "n1-2138",
     "jp": "ペア",
     "reading": "ペア",
     "romaji": "ペア",
-    "meaning": "pair, pear"
+    "meaning": "pair, pear",
+    "vi": "cặp đôi; quả lê"
   },
   {
     "id": "n1-2139",
     "jp": "兵器",
     "reading": "へいき",
     "romaji": "heiki",
-    "meaning": "arms, weapons, ordinance"
+    "meaning": "arms, weapons, ordinance",
+    "vi": "vũ khí, khí tài"
   },
   {
     "id": "n1-2140",
     "jp": "閉口",
     "reading": "へいこう",
     "romaji": "heikou",
-    "meaning": "shut mouth"
+    "meaning": "shut mouth",
+    "vi": "im lặng, bó tay, hết cách"
   },
   {
     "id": "n1-2141",
     "jp": "閉鎖",
     "reading": "へいさ",
     "romaji": "heisa",
-    "meaning": "closing, closure, shutdown"
+    "meaning": "closing, closure, shutdown",
+    "vi": "đóng cửa, ngừng hoạt động"
   },
   {
     "id": "n1-2142",
     "jp": "兵士",
     "reading": "へいし",
     "romaji": "heishi",
-    "meaning": "soldier"
+    "meaning": "soldier",
+    "vi": "binh sĩ, lính"
   },
   {
     "id": "n1-2143",
     "jp": "平常",
     "reading": "へいじょう",
     "romaji": "heijou",
-    "meaning": "normal, usual"
+    "meaning": "normal, usual",
+    "vi": "bình thường, thường lệ"
   },
   {
     "id": "n1-2144",
     "jp": "平方",
     "reading": "へいほう",
     "romaji": "heihou",
-    "meaning": "square (e.g., meter, square)"
+    "meaning": "square (e.g., meter, square)",
+    "vi": "bình phương, vuông (vd mét vuông)"
   },
   {
     "id": "n1-2145",
     "jp": "並列",
     "reading": "へいれつ",
     "romaji": "heiretsu",
-    "meaning": "arrangement, parallel, abreast"
+    "meaning": "arrangement, parallel, abreast",
+    "vi": "sắp xếp song song, ngang hàng"
   },
   {
     "id": "n1-2146",
     "jp": "ベース",
     "reading": "ベース",
     "romaji": "ベース",
-    "meaning": "base, bass"
+    "meaning": "base, bass",
+    "vi": "nền tảng; âm trầm"
   },
   {
     "id": "n1-2147",
     "jp": "辟易",
     "reading": "へきえき",
     "romaji": "hekieki",
-    "meaning": "wince, shrink back, succumbing to, being frightened"
+    "meaning": "wince, shrink back, succumbing to, being frightened",
+    "vi": "chùn bước, e sợ, khiếp sợ"
   },
   {
     "id": "n1-2148",
     "jp": "ぺこぺこ",
     "reading": "ぺこぺこ",
     "romaji": "pekopeko",
-    "meaning": "fawn, be very hungry"
+    "meaning": "fawn, be very hungry",
+    "vi": "nịnh bợ; đói cồn cào"
   },
   {
     "id": "n1-2149",
     "jp": "ベスト",
     "reading": "ベスト",
     "romaji": "ベスト",
-    "meaning": "best; vest"
+    "meaning": "best; vest",
+    "vi": "tốt nhất; áo gile"
   },
   {
     "id": "n1-2150",
     "jp": "ベストセラー",
     "reading": "ベストセラー",
     "romaji": "ベストセラー",
-    "meaning": "best-seller"
+    "meaning": "best-seller",
+    "vi": "sách bán chạy nhất"
   },
   {
     "id": "n1-2151",
     "jp": "隔たる",
     "reading": "へだたる",
     "romaji": "hedataru",
-    "meaning": "to be distant"
+    "meaning": "to be distant",
+    "vi": "xa cách, cách biệt"
   },
   {
     "id": "n1-2152",
     "jp": "縁",
     "reading": "へり",
     "romaji": "heri",
-    "meaning": "edge"
+    "meaning": "edge",
+    "vi": "mép, viền"
   },
   {
     "id": "n1-2153",
     "jp": "へりくだる",
     "reading": "へりくだる",
     "romaji": "herikudaru",
-    "meaning": "to deprecate oneself and praise the listener"
+    "meaning": "to deprecate oneself and praise the listener",
+    "vi": "khiêm tốn, hạ mình khiêm nhường"
   },
   {
     "id": "n1-2154",
     "jp": "弁解",
     "reading": "べんかい",
     "romaji": "benkai",
-    "meaning": "explanation, justification, excuse"
+    "meaning": "explanation, justification, excuse",
+    "vi": "biện giải, biện minh, bào chữa"
   },
   {
     "id": "n1-2155",
     "jp": "変革",
     "reading": "へんかく",
     "romaji": "henkaku",
-    "meaning": "change, reform(the) Reformation"
+    "meaning": "change, reform(the) Reformation",
+    "vi": "biến đổi, cải cách"
   },
   {
     "id": "n1-2156",
     "jp": "返還",
     "reading": "へんかん",
     "romaji": "henkan",
-    "meaning": "return, restoration"
+    "meaning": "return, restoration",
+    "vi": "hoàn trả, trả lại"
   },
   {
     "id": "n1-2157",
     "jp": "便宜",
     "reading": "べんぎ",
     "romaji": "bengi",
-    "meaning": "convenience, accommodation"
+    "meaning": "convenience, accommodation",
+    "vi": "sự tiện lợi, ưu đãi"
   },
   {
     "id": "n1-2158",
     "jp": "偏見",
     "reading": "へんけん",
     "romaji": "henken",
-    "meaning": "prejudice, narrow view"
+    "meaning": "prejudice, narrow view",
+    "vi": "định kiến, thành kiến"
   },
   {
     "id": "n1-2159",
     "jp": "弁護",
     "reading": "べんご",
     "romaji": "bengo",
-    "meaning": "defense, pleading, advocacy"
+    "meaning": "defense, pleading, advocacy",
+    "vi": "bào chữa, biện hộ"
   },
   {
     "id": "n1-2160",
     "jp": "返済",
     "reading": "へんさい",
     "romaji": "hensai",
-    "meaning": "repayment"
+    "meaning": "repayment",
+    "vi": "hoàn trả (nợ), trả nợ"
   },
   {
     "id": "n1-2161",
     "jp": "弁償",
     "reading": "べんしょう",
     "romaji": "benshou",
-    "meaning": "compensation, reparation, reimbursement"
+    "meaning": "compensation, reparation, reimbursement",
+    "vi": "bồi thường, đền bù"
   },
   {
     "id": "n1-2162",
     "jp": "変遷",
     "reading": "へんせん",
     "romaji": "hensen",
-    "meaning": "change, transition, vicissitudes"
+    "meaning": "change, transition, vicissitudes",
+    "vi": "biến thiên, thay đổi qua thời gian"
   },
   {
     "id": "n1-2163",
     "jp": "返答",
     "reading": "へんとう",
     "romaji": "hentou",
-    "meaning": "reply"
+    "meaning": "reply",
+    "vi": "trả lời, phúc đáp"
   },
   {
     "id": "n1-2164",
     "jp": "変動",
     "reading": "へんどう",
     "romaji": "hendou",
-    "meaning": "change, fluctuation"
+    "meaning": "change, fluctuation",
+    "vi": "biến động"
   },
   {
     "id": "n1-2165",
     "jp": "弁論",
     "reading": "べんろん",
     "romaji": "benron",
-    "meaning": "discussion, debate, argument"
+    "meaning": "discussion, debate, argument",
+    "vi": "biện luận, tranh luận"
   },
   {
     "id": "n1-2166",
     "jp": "穂",
     "reading": "ほ",
     "romaji": "ho",
-    "meaning": "ear (of plant), head (of plant)"
+    "meaning": "ear (of plant), head (of plant)",
+    "vi": "bông (lúa), gié"
   },
   {
     "id": "n1-2167",
     "jp": "保育",
     "reading": "ほいく",
     "romaji": "hoiku",
-    "meaning": "nursing, nurturing, rearing"
+    "meaning": "nursing, nurturing, rearing",
+    "vi": "nuôi dưỡng, chăm sóc trẻ (nhà trẻ)"
   },
   {
     "id": "n1-2168",
     "jp": "ボイコット",
     "reading": "ボイコット",
     "romaji": "ボイコット",
-    "meaning": "boycott"
+    "meaning": "boycott",
+    "vi": "tẩy chay"
   },
   {
     "id": "n1-2169",
     "jp": "ポイント",
     "reading": "ポイント",
     "romaji": "ポイント",
-    "meaning": "point"
+    "meaning": "point",
+    "vi": "điểm, điểm quan trọng"
   },
   {
     "id": "n1-2170",
     "jp": "法案",
     "reading": "ほうあん",
     "romaji": "houan",
-    "meaning": "bill (law)"
+    "meaning": "bill (law)",
+    "vi": "dự luật"
   },
   {
     "id": "n1-2171",
     "jp": "防衛",
     "reading": "ぼうえい",
     "romaji": "bouei",
-    "meaning": "defense, protection, self-defense"
+    "meaning": "defense, protection, self-defense",
+    "vi": "phòng vệ, bảo vệ, tự vệ"
   },
   {
     "id": "n1-2172",
     "jp": "防火",
     "reading": "ぼうか",
     "romaji": "bouka",
-    "meaning": "fire prevention, fire fighting, fire proof"
+    "meaning": "fire prevention, fire fighting, fire proof",
+    "vi": "phòng cháy, chữa cháy, chống cháy"
   },
   {
     "id": "n1-2173",
     "jp": "崩壊",
     "reading": "ほうかい",
     "romaji": "houkai",
-    "meaning": "collapse, decay (physics), crumbling"
+    "meaning": "collapse, decay (physics), crumbling",
+    "vi": "sụp đổ, phân rã (vật lý)"
   },
   {
     "id": "n1-2174",
     "jp": "妨害",
     "reading": "ぼうがい",
     "romaji": "bougai",
-    "meaning": "disturbance, obstruction, interference"
+    "meaning": "disturbance, obstruction, interference",
+    "vi": "cản trở, gây rối, can thiệp"
   },
   {
     "id": "n1-2175",
     "jp": "法学",
     "reading": "ほうがく",
     "romaji": "hougaku",
-    "meaning": "law, jurisprudence"
+    "meaning": "law, jurisprudence",
+    "vi": "luật học"
   },
   {
     "id": "n1-2176",
     "jp": "封建",
     "reading": "ほうけん",
     "romaji": "houken",
-    "meaning": "feudalistic"
+    "meaning": "feudalistic",
+    "vi": "phong kiến"
   },
   {
     "id": "n1-2177",
     "jp": "豊作",
     "reading": "ほうさく",
     "romaji": "housaku",
-    "meaning": "abundant harvest, bumper crop"
+    "meaning": "abundant harvest, bumper crop",
+    "vi": "mùa màng bội thu"
   },
   {
     "id": "n1-2178",
     "jp": "方策",
     "reading": "ほうさく",
     "romaji": "housaku",
-    "meaning": "plan, policy"
+    "meaning": "plan, policy",
+    "vi": "kế sách, phương sách"
   },
   {
     "id": "n1-2179",
     "jp": "奉仕",
     "reading": "ほうし",
     "romaji": "houshi",
-    "meaning": "attendance, service"
+    "meaning": "attendance, service",
+    "vi": "phục vụ, cống hiến"
   },
   {
     "id": "n1-2180",
     "jp": "方式",
     "reading": "ほうしき",
     "romaji": "houshiki",
-    "meaning": "form, method, system"
+    "meaning": "form, method, system",
+    "vi": "phương thức, cách thức, hệ thống"
   },
   {
     "id": "n1-2181",
     "jp": "放射",
     "reading": "ほうしゃ",
     "romaji": "housha",
-    "meaning": "radiation, emission"
+    "meaning": "radiation, emission",
+    "vi": "bức xạ, phát xạ"
   },
   {
     "id": "n1-2182",
     "jp": "放射能",
     "reading": "ほうしゃのう",
     "romaji": "houshanou",
-    "meaning": "radioactivity"
+    "meaning": "radioactivity",
+    "vi": "tính phóng xạ"
   },
   {
     "id": "n1-2183",
     "jp": "報酬",
     "reading": "ほうしゅう",
     "romaji": "houshuu",
-    "meaning": "remuneration, recompense, reward"
+    "meaning": "remuneration, recompense, reward",
+    "vi": "thù lao, tiền công, phần thưởng"
   },
   {
     "id": "n1-2184",
     "jp": "放出",
     "reading": "ほうしゅつ",
     "romaji": "houshutsu",
-    "meaning": "release, emit"
+    "meaning": "release, emit",
+    "vi": "giải phóng, phát ra"
   },
   {
     "id": "n1-2185",
     "jp": "報じる",
     "reading": "ほうじる",
     "romaji": "houjiru",
-    "meaning": "to inform, to report"
+    "meaning": "to inform, to report",
+    "vi": "thông báo, đưa tin"
   },
   {
     "id": "n1-2186",
     "jp": "報ずる",
     "reading": "ほうずる",
     "romaji": "houzuru",
-    "meaning": "to inform, to report"
+    "meaning": "to inform, to report",
+    "vi": "thông báo, đưa tin"
   },
   {
     "id": "n1-2187",
     "jp": "紡績",
     "reading": "ぼうせき",
     "romaji": "bouseki",
-    "meaning": "spinning"
+    "meaning": "spinning",
+    "vi": "kéo sợi, dệt vải"
   },
   {
     "id": "n1-2188",
     "jp": "呆然",
     "reading": "ぼうぜん",
     "romaji": "bouzen",
-    "meaning": "dumbfounded, overcome with surprise"
+    "meaning": "dumbfounded, overcome with surprise",
+    "vi": "sững sờ, ngẩn người"
   },
   {
     "id": "n1-2189",
     "jp": "放置",
     "reading": "ほうち",
     "romaji": "houchi",
-    "meaning": "leave as is, leave alone, neglect"
+    "meaning": "leave as is, leave alone, neglect",
+    "vi": "để mặc, bỏ mặc, sao nhãng"
   },
   {
     "id": "n1-2190",
     "jp": "膨張",
     "reading": "ぼうちょう",
     "romaji": "bouchou",
-    "meaning": "expansion, swelling, increase"
+    "meaning": "expansion, swelling, increase",
+    "vi": "giãn nở, phồng lên, gia tăng"
   },
   {
     "id": "n1-2191",
     "jp": "法廷",
     "reading": "ほうてい",
     "romaji": "houtei",
-    "meaning": "courtroom"
+    "meaning": "courtroom",
+    "vi": "phòng xử án, tòa án"
   },
   {
     "id": "n1-2192",
     "jp": "報道",
     "reading": "ほうどう",
     "romaji": "houdou",
-    "meaning": "coverage, report"
+    "meaning": "coverage, report",
+    "vi": "đưa tin, báo cáo"
   },
   {
     "id": "n1-2193",
     "jp": "冒頭",
     "reading": "ぼうとう",
     "romaji": "boutou",
-    "meaning": "beginning, start, outset"
+    "meaning": "beginning, start, outset",
+    "vi": "phần mở đầu, khởi đầu"
   },
   {
     "id": "n1-2194",
     "jp": "暴動",
     "reading": "ぼうどう",
     "romaji": "boudou",
-    "meaning": "insurrection, riot, uprising"
+    "meaning": "insurrection, riot, uprising",
+    "vi": "bạo động, nổi loạn"
   },
   {
     "id": "n1-2195",
     "jp": "褒美",
     "reading": "ほうび",
     "romaji": "houbi",
-    "meaning": "reward, prize"
+    "meaning": "reward, prize",
+    "vi": "phần thưởng"
   },
   {
     "id": "n1-2196",
     "jp": "暴風",
     "reading": "ぼうふう",
     "romaji": "boufuu",
-    "meaning": "storm, windstorm, gale"
+    "meaning": "storm, windstorm, gale",
+    "vi": "bão, gió bão"
   },
   {
     "id": "n1-2197",
     "jp": "葬る",
     "reading": "ほうむる",
     "romaji": "houmuru",
-    "meaning": "to bury, to entomb"
+    "meaning": "to bury, to entomb",
+    "vi": "chôn cất, mai táng"
   },
   {
     "id": "n1-2198",
     "jp": "放り込む",
     "reading": "ほうりこむ",
     "romaji": "hourikomu",
-    "meaning": "to throw into"
+    "meaning": "to throw into",
+    "vi": "ném vào, quăng vào"
   },
   {
     "id": "n1-2199",
     "jp": "放り出す",
     "reading": "ほうりだす",
     "romaji": "houridasu",
-    "meaning": "to throw out, to give up, to abandon"
+    "meaning": "to throw out, to give up, to abandon",
+    "vi": "ném ra, bỏ cuộc, từ bỏ"
   },
   {
     "id": "n1-2200",
     "jp": "暴力",
     "reading": "ぼうりょく",
     "romaji": "bouryoku",
-    "meaning": "violence"
+    "meaning": "violence",
+    "vi": "bạo lực"
   },
   {
     "id": "n1-2201",
     "jp": "飽和",
     "reading": "ほうわ",
     "romaji": "houwa",
-    "meaning": "saturation"
+    "meaning": "saturation",
+    "vi": "bão hòa"
   },
   {
     "id": "n1-2202",
     "jp": "ホース",
     "reading": "ホース",
     "romaji": "ホース",
-    "meaning": "hose"
+    "meaning": "hose",
+    "vi": "vòi (nước)"
   },
   {
     "id": "n1-2203",
     "jp": "ポーズ",
     "reading": "ポーズ",
     "romaji": "ポーズ",
-    "meaning": "pause"
+    "meaning": "pause",
+    "vi": "tạm dừng, dáng điệu"
   },
   {
     "id": "n1-2204",
     "jp": "ホール",
     "reading": "ホール",
     "romaji": "ホール",
-    "meaning": "hall; hole"
+    "meaning": "hall; hole",
+    "vi": "sảnh, hội trường; lỗ"
   },
   {
     "id": "n1-2205",
     "jp": "保温",
     "reading": "ほおん",
     "romaji": "hoon",
-    "meaning": "retaining warmth, keeping heat in, heat insulation"
+    "meaning": "retaining warmth, keeping heat in, heat insulation",
+    "vi": "giữ ấm, giữ nhiệt, cách nhiệt"
   },
   {
     "id": "n1-2206",
     "jp": "捕獲",
     "reading": "ほかく",
     "romaji": "hokaku",
-    "meaning": "capture, seizure"
+    "meaning": "capture, seizure",
+    "vi": "bắt giữ, tịch thu"
   },
   {
     "id": "n1-2207",
     "jp": "保管",
     "reading": "ほかん",
     "romaji": "hokan",
-    "meaning": "custody, safekeeping, storage"
+    "meaning": "custody, safekeeping, storage",
+    "vi": "bảo quản, lưu giữ"
   },
   {
     "id": "n1-2208",
     "jp": "補給",
     "reading": "ほきゅう",
     "romaji": "hokyuu",
-    "meaning": "supply, supplying, replenishment"
+    "meaning": "supply, supplying, replenishment",
+    "vi": "cung cấp, tiếp tế, bổ sung"
   },
   {
     "id": "n1-2209",
     "jp": "補強",
     "reading": "ほきょう",
     "romaji": "hokyou",
-    "meaning": "reinforcement"
+    "meaning": "reinforcement",
+    "vi": "gia cố, củng cố"
   },
   {
     "id": "n1-2210",
     "jp": "募金",
     "reading": "ぼきん",
     "romaji": "bokin",
-    "meaning": "fund-raising, collection of funds"
+    "meaning": "fund-raising, collection of funds",
+    "vi": "quyên góp, gây quỹ"
   },
   {
     "id": "n1-2211",
     "jp": "牧師",
     "reading": "ぼくし",
     "romaji": "bokushi",
-    "meaning": "pastor, minister, clergyman"
+    "meaning": "pastor, minister, clergyman",
+    "vi": "mục sư"
   },
   {
     "id": "n1-2212",
     "jp": "捕鯨",
     "reading": "ほげい",
     "romaji": "hogei",
-    "meaning": "whaling"
+    "meaning": "whaling",
+    "vi": "săn cá voi"
   },
   {
     "id": "n1-2213",
     "jp": "惚ける",
     "reading": "ぼける",
     "romaji": "bokeru",
-    "meaning": "to grow senile, to fade"
+    "meaning": "to grow senile, to fade",
+    "vi": "lú lẫn, mờ nhạt đi"
   },
   {
     "id": "n1-2214",
     "jp": "保険",
     "reading": "ほけん",
     "romaji": "hoken",
-    "meaning": "insurance, guarantee"
+    "meaning": "insurance, guarantee",
+    "vi": "bảo hiểm, bảo đảm"
   },
   {
     "id": "n1-2215",
     "jp": "母校",
     "reading": "ぼこう",
     "romaji": "bokou",
-    "meaning": "alma mater"
+    "meaning": "alma mater",
+    "vi": "trường cũ"
   },
   {
     "id": "n1-2216",
     "jp": "母国",
     "reading": "ぼこく",
     "romaji": "bokoku",
-    "meaning": "one's home country (same as 自分の国 (じぶんのくに))"
+    "meaning": "one's home country (same as 自分の国 (じぶんのくに))",
+    "vi": "quê hương, tổ quốc"
   },
   {
     "id": "n1-2217",
     "jp": "誇る",
     "reading": "ほこる",
     "romaji": "hokoru",
-    "meaning": "to boast of, to be proud of"
+    "meaning": "to boast of, to be proud of",
+    "vi": "tự hào về, khoe khoang"
   },
   {
     "id": "n1-2218",
     "jp": "綻びる",
     "reading": "ほころびる",
     "romaji": "hokorobiru",
-    "meaning": "to come apart at the seams, to smile broadly"
+    "meaning": "to come apart at the seams, to smile broadly",
+    "vi": "sứt chỉ, bung ra; cười tươi rạng rỡ"
   },
   {
     "id": "n1-2219",
     "jp": "干し～",
     "reading": "ほし～",
     "romaji": "hoshi～",
-    "meaning": "dried ~"
+    "meaning": "dried ~",
+    "vi": "~ khô, ~ phơi khô"
   },
   {
     "id": "n1-2220",
     "jp": "ポジション",
     "reading": "ポジション",
     "romaji": "ポジション",
-    "meaning": "position"
+    "meaning": "position",
+    "vi": "vị trí"
   },
   {
     "id": "n1-2221",
     "jp": "干し物",
     "reading": "ほしもの",
     "romaji": "hoshimono",
-    "meaning": "dried washing (clothes"
+    "meaning": "dried washing (clothes",
+    "vi": "quần áo phơi khô"
   },
   {
     "id": "n1-2222",
     "jp": "保守",
     "reading": "ほしゅ",
     "romaji": "hoshu",
-    "meaning": "conservative, maintaining"
+    "meaning": "conservative, maintaining",
+    "vi": "bảo thủ; bảo trì"
   },
   {
     "id": "n1-2223",
     "jp": "補充",
     "reading": "ほじゅう",
     "romaji": "hojuu",
-    "meaning": "supplementation, replenishment, replenishing"
+    "meaning": "supplementation, replenishment, replenishing",
+    "vi": "bổ sung, bù đắp"
   },
   {
     "id": "n1-2224",
     "jp": "補助",
     "reading": "ほじょ",
     "romaji": "hojo",
-    "meaning": "assistance, support, auxiliary"
+    "meaning": "assistance, support, auxiliary",
+    "vi": "trợ giúp, hỗ trợ, phụ trợ"
   },
   {
     "id": "n1-2225",
     "jp": "舗装",
     "reading": "ほそう",
     "romaji": "hosou",
-    "meaning": "pavement, road surface"
+    "meaning": "pavement, road surface",
+    "vi": "lát đường, trải nhựa đường"
   },
   {
     "id": "n1-2226",
     "jp": "補足",
     "reading": "ほそく",
     "romaji": "hosoku",
-    "meaning": "supplement, complement"
+    "meaning": "supplement, complement",
+    "vi": "bổ sung, bổ khuyết"
   },
   {
     "id": "n1-2227",
     "jp": "墓地",
     "reading": "ぼち",
     "romaji": "bochi",
-    "meaning": "cemetery, graveyard"
+    "meaning": "cemetery, graveyard",
+    "vi": "nghĩa trang"
   },
   {
     "id": "n1-2228",
     "jp": "発作",
     "reading": "ほっさ",
     "romaji": "hossa",
-    "meaning": "fit, attack"
+    "meaning": "fit, attack",
+    "vi": "cơn co giật, cơn phát bệnh"
   },
   {
     "id": "n1-2229",
     "jp": "没収",
     "reading": "ぼっしゅう",
     "romaji": "bosshuu",
-    "meaning": "forfeited"
+    "meaning": "forfeited",
+    "vi": "tịch thu, sung công"
   },
   {
     "id": "n1-2230",
     "jp": "発足",
     "reading": "ほっそく",
     "romaji": "hossoku",
-    "meaning": "starting, inauguration"
+    "meaning": "starting, inauguration",
+    "vi": "khởi động, thành lập"
   },
   {
     "id": "n1-2231",
     "jp": "ポット",
     "reading": "ポット",
     "romaji": "ポット",
-    "meaning": "pot"
+    "meaning": "pot",
+    "vi": "bình, ấm"
   },
   {
     "id": "n1-2232",
     "jp": "ほっぺた",
     "reading": "ほっぺた",
     "romaji": "hoppeta",
-    "meaning": "cheek"
+    "meaning": "cheek",
+    "vi": "má"
   },
   {
     "id": "n1-2233",
     "jp": "ぼつぼつ",
     "reading": "ぼつぼつ",
     "romaji": "botsubotsu",
-    "meaning": "gradually, here and there, spots"
+    "meaning": "gradually, here and there, spots",
+    "vi": "dần dần, rải rác, lốm đốm"
   },
   {
     "id": "n1-2234",
     "jp": "没落",
     "reading": "ぼつらく",
     "romaji": "botsuraku",
-    "meaning": "ruin, fall, collapse"
+    "meaning": "ruin, fall, collapse",
+    "vi": "suy tàn, sụp đổ"
   },
   {
     "id": "n1-2235",
     "jp": "解ける",
     "reading": "ほどける",
     "romaji": "hodokeru",
-    "meaning": "to come untied, to come apart"
+    "meaning": "to come untied, to come apart",
+    "vi": "được cởi ra, tuột ra"
   },
   {
     "id": "n1-2236",
     "jp": "施す",
     "reading": "ほどこす",
     "romaji": "hodokosu",
-    "meaning": "to give, to conduct, to perform"
+    "meaning": "to give, to conduct, to perform",
+    "vi": "ban phát, thực hiện, tiến hành"
   },
   {
     "id": "n1-2237",
     "jp": "ほとり",
     "reading": "ほとり",
     "romaji": "hotori",
-    "meaning": "vicinity of lake; river"
+    "meaning": "vicinity of lake; river",
+    "vi": "bên bờ (hồ, sông)"
   },
   {
     "id": "n1-2238",
     "jp": "ぼやく",
     "reading": "ぼやく",
     "romaji": "boyaku",
-    "meaning": "to grumble, to complain"
+    "meaning": "to grumble, to complain",
+    "vi": "cằn nhằn, phàn nàn"
   },
   {
     "id": "n1-2239",
     "jp": "ぼやける",
     "reading": "ぼやける",
     "romaji": "boyakeru",
-    "meaning": "to become dim, to become blurred"
+    "meaning": "to become dim, to become blurred",
+    "vi": "trở nên mờ, nhòe đi"
   },
   {
     "id": "n1-2240",
     "jp": "保養",
     "reading": "ほよう",
     "romaji": "hoyou",
-    "meaning": "health preservation, recuperation, recreation"
+    "meaning": "health preservation, recuperation, recreation",
+    "vi": "dưỡng sức, tĩnh dưỡng, nghỉ ngơi"
   },
   {
     "id": "n1-2241",
     "jp": "捕虜",
     "reading": "ほりょ",
     "romaji": "horyo",
-    "meaning": "prisoner of war"
+    "meaning": "prisoner of war",
+    "vi": "tù binh"
   },
   {
     "id": "n1-2242",
     "jp": "ボルト",
     "reading": "ボルト",
     "romaji": "ボルト",
-    "meaning": "volt; bolt"
+    "meaning": "volt; bolt",
+    "vi": "vôn; bu lông"
   },
   {
     "id": "n1-2243",
     "jp": "滅びる",
     "reading": "ほろびる",
     "romaji": "horobiru",
-    "meaning": "to be ruined, to perish, to be destroyed"
+    "meaning": "to be ruined, to perish, to be destroyed",
+    "vi": "bị diệt vong, bị hủy diệt"
   },
   {
     "id": "n1-2244",
     "jp": "滅ぼす",
     "reading": "ほろぼす",
     "romaji": "horobosu",
-    "meaning": "to destroy, to overthrow, to ruin"
+    "meaning": "to destroy, to overthrow, to ruin",
+    "vi": "tiêu diệt, lật đổ, hủy hoại"
   },
   {
     "id": "n1-2245",
     "jp": "本格",
     "reading": "ほんかく",
     "romaji": "honkaku",
-    "meaning": "propriety, full-scale"
+    "meaning": "propriety, full-scale",
+    "vi": "chính thức, quy mô lớn, đúng bài bản"
   },
   {
     "id": "n1-2246",
     "jp": "本館",
     "reading": "ほんかん",
     "romaji": "honkan",
-    "meaning": "main building"
+    "meaning": "main building",
+    "vi": "tòa nhà chính"
   },
   {
     "id": "n1-2247",
     "jp": "本気",
     "reading": "ほんき",
     "romaji": "honki",
-    "meaning": "seriousness, truth, sanctity"
+    "meaning": "seriousness, truth, sanctity",
+    "vi": "sự nghiêm túc, thật lòng"
   },
   {
     "id": "n1-2248",
     "jp": "本国",
     "reading": "ほんごく",
     "romaji": "hongoku",
-    "meaning": "one's own country"
+    "meaning": "one's own country",
+    "vi": "quê hương, nước mình"
   },
   {
     "id": "n1-2249",
     "jp": "本質",
     "reading": "ほんしつ",
     "romaji": "honshitsu",
-    "meaning": "essence, true nature, reality"
+    "meaning": "essence, true nature, reality",
+    "vi": "bản chất, thực chất"
   },
   {
     "id": "n1-2250",
     "jp": "本体",
     "reading": "ほんたい",
     "romaji": "hontai",
-    "meaning": "substance, body, trunk"
+    "meaning": "substance, body, trunk",
+    "vi": "thực thể, thân chính"
   },
   {
     "id": "n1-2251",
     "jp": "本音",
     "reading": "ほんね",
     "romaji": "honne",
-    "meaning": "(one's) real intention, motive"
+    "meaning": "(one's) real intention, motive",
+    "vi": "ý định thật, lòng thật"
   },
   {
     "id": "n1-2252",
     "jp": "本能",
     "reading": "ほんのう",
     "romaji": "honnou",
-    "meaning": "instinct"
+    "meaning": "instinct",
+    "vi": "bản năng"
   },
   {
     "id": "n1-2253",
     "jp": "本場",
     "reading": "ほんば",
     "romaji": "honba",
-    "meaning": "home, best place, genuine"
+    "meaning": "home, best place, genuine",
+    "vi": "quê hương (của thứ gì), nơi chính gốc"
   },
   {
     "id": "n1-2254",
     "jp": "ポンプ",
     "reading": "ポンプ",
     "romaji": "ポンプ",
-    "meaning": "pump"
+    "meaning": "pump",
+    "vi": "máy bơm"
   },
   {
     "id": "n1-2255",
     "jp": "本文",
     "reading": "ほんぶん",
     "romaji": "honbun",
-    "meaning": "text (of document), body (of letter)"
+    "meaning": "text (of document), body (of letter)",
+    "vi": "nội dung chính (văn bản), phần thân (thư)"
   },
   {
     "id": "n1-2256",
     "jp": "本名",
     "reading": "ほんみょう",
     "romaji": "honmyou",
-    "meaning": "real name"
+    "meaning": "real name",
+    "vi": "tên thật"
   },
   {
     "id": "n1-2257",
     "jp": "マーク",
     "reading": "マーク",
     "romaji": "マーク",
-    "meaning": "mark"
+    "meaning": "mark",
+    "vi": "dấu hiệu, ký hiệu"
   },
   {
     "id": "n1-2258",
     "jp": "マイ～",
     "reading": "マイ～",
     "romaji": "マイ～",
-    "meaning": "my ~, one's own ~"
+    "meaning": "my ~, one's own ~",
+    "vi": "~ của riêng mình"
   },
   {
     "id": "n1-2259",
     "jp": "マイクロフォン",
     "reading": "マイクロフォン",
     "romaji": "マイクロフォン",
-    "meaning": "microphone"
+    "meaning": "microphone",
+    "vi": "micrô"
   },
   {
     "id": "n1-2260",
     "jp": "埋蔵",
     "reading": "まいぞう",
     "romaji": "maizou",
-    "meaning": "buried property, treasure trove"
+    "meaning": "buried property, treasure trove",
+    "vi": "chôn giấu, kho báu chôn giấu"
   },
   {
     "id": "n1-2261",
     "jp": "舞う",
     "reading": "まう",
     "romaji": "mau",
-    "meaning": "to dance, to flutter about, to revolve"
+    "meaning": "to dance, to flutter about, to revolve",
+    "vi": "múa, bay lượn, xoay tròn"
   },
   {
     "id": "n1-2262",
     "jp": "真上",
     "reading": "まうえ",
     "romaji": "maue",
-    "meaning": "just above, right overhead"
+    "meaning": "just above, right overhead",
+    "vi": "ngay phía trên"
   },
   {
     "id": "n1-2263",
     "jp": "前売",
     "reading": "まえうり",
     "romaji": "maeuri",
-    "meaning": "advance sale, booking"
+    "meaning": "advance sale, booking",
+    "vi": "bán trước, đặt trước (vé)"
   },
   {
     "id": "n1-2264",
     "jp": "前置き",
     "reading": "まえおき",
     "romaji": "maeoki",
-    "meaning": "preface, introduction"
+    "meaning": "preface, introduction",
+    "vi": "lời mở đầu, dẫn nhập"
   },
   {
     "id": "n1-2265",
     "jp": "任す",
     "reading": "まかす",
     "romaji": "makasu",
-    "meaning": "to entrust, to leave to a person"
+    "meaning": "to entrust, to leave to a person",
+    "vi": "giao phó, ủy thác"
   },
   {
     "id": "n1-2266",
     "jp": "負かす",
     "reading": "まかす",
     "romaji": "makasu",
-    "meaning": "to defeat"
+    "meaning": "to defeat",
+    "vi": "đánh bại"
   },
   {
     "id": "n1-2267",
     "jp": "賄う",
     "reading": "まかなう",
     "romaji": "makanau",
-    "meaning": "to give board to, to provide meals, to pay"
+    "meaning": "to give board to, to provide meals, to pay",
+    "vi": "cung cấp (bữa ăn), chi trả, trang trải"
   },
   {
     "id": "n1-2268",
     "jp": "紛らわしい",
     "reading": "まぎらわしい",
     "romaji": "magirawashii",
-    "meaning": "confusing, misleading, ambiguous"
+    "meaning": "confusing, misleading, ambiguous",
+    "vi": "dễ gây nhầm lẫn, mập mờ"
   },
   {
     "id": "n1-2269",
     "jp": "紛れる",
     "reading": "まぎれる",
     "romaji": "magireru",
-    "meaning": "to be diverted, to slip into"
+    "meaning": "to be diverted, to slip into",
+    "vi": "bị phân tán, lẫn vào"
   },
   {
     "id": "n1-2270",
     "jp": "真心",
     "reading": "まごころ",
     "romaji": "magokoro",
-    "meaning": "sincerity, devotion"
+    "meaning": "sincerity, devotion",
+    "vi": "lòng thành, sự tận tâm"
   },
   {
     "id": "n1-2271",
     "jp": "まごつく",
     "reading": "まごつく",
     "romaji": "magotsuku",
-    "meaning": "to be confused, to be flustered"
+    "meaning": "to be confused, to be flustered",
+    "vi": "bối rối, luống cuống"
   },
   {
     "id": "n1-2272",
     "jp": "誠",
     "reading": "まこと",
     "romaji": "makoto",
-    "meaning": "truth, faith, fidelity"
+    "meaning": "truth, faith, fidelity",
+    "vi": "sự chân thành, lòng trung thực"
   },
   {
     "id": "n1-2273",
     "jp": "誠に",
     "reading": "まことに",
     "romaji": "makotoni",
-    "meaning": "indeed, really (very polite), absolutely"
+    "meaning": "indeed, really (very polite), absolutely",
+    "vi": "thật sự, quả thực (rất lịch sự)"
   },
   {
     "id": "n1-2274",
     "jp": "まさしく",
     "reading": "まさしく",
     "romaji": "masashiku",
-    "meaning": "surely, no doubt, evidently"
+    "meaning": "surely, no doubt, evidently",
+    "vi": "chắc chắn, rõ ràng"
   },
   {
     "id": "n1-2275",
     "jp": "勝る",
     "reading": "まさる",
     "romaji": "masaru",
-    "meaning": "to excel, to surpass, to out-rival"
+    "meaning": "to excel, to surpass, to out-rival",
+    "vi": "vượt trội, hơn hẳn"
   },
   {
     "id": "n1-2276",
     "jp": "～増し",
     "reading": "～増し",
     "romaji": "～増shi",
-    "meaning": "~increase"
+    "meaning": "~increase",
+    "vi": "~ tăng thêm"
   },
   {
     "id": "n1-2277",
     "jp": "交える",
     "reading": "まじえる",
     "romaji": "majieru",
-    "meaning": "to mix, to converse with, to cross (swords)"
+    "meaning": "to mix, to converse with, to cross (swords)",
+    "vi": "pha trộn, trò chuyện cùng, giao (kiếm)"
   },
   {
     "id": "n1-2278",
     "jp": "真下",
     "reading": "ました",
     "romaji": "mashita",
-    "meaning": "right under, directly below"
+    "meaning": "right under, directly below",
+    "vi": "ngay bên dưới"
   },
   {
     "id": "n1-2279",
     "jp": "まして",
     "reading": "まして",
     "romaji": "mashite",
-    "meaning": "still more, still less (with neg. verb), to say nothing of"
+    "meaning": "still more, still less (with neg. verb), to say nothing of",
+    "vi": "huống chi, huống hồ"
   },
   {
     "id": "n1-2280",
     "jp": "交わる",
     "reading": "まじわる",
     "romaji": "majiwaru",
-    "meaning": "to cross, to intersect, to mingle with,"
+    "meaning": "to cross, to intersect, to mingle with,",
+    "vi": "giao nhau, cắt nhau, hòa lẫn"
   },
   {
     "id": "n1-2281",
     "jp": "麻酔",
     "reading": "ますい",
     "romaji": "masui",
-    "meaning": "anesthesia"
+    "meaning": "anesthesia",
+    "vi": "gây mê, gây tê"
   },
   {
     "id": "n1-2282",
     "jp": "またがる (うまを～)",
     "reading": "またがる (うまを～)",
     "romaji": "matagaru (umawo～)",
-    "meaning": "to straddle"
+    "meaning": "to straddle",
+    "vi": "cưỡi (ngựa), dang chân ngồi lên"
   },
   {
     "id": "n1-2283",
     "jp": "待ち合わせ",
     "reading": "まちあわせ",
     "romaji": "machiawase",
-    "meaning": "appointment"
+    "meaning": "appointment",
+    "vi": "cuộc hẹn gặp"
   },
   {
     "id": "n1-2284",
     "jp": "待ち遠しい",
     "reading": "まちどおしい",
     "romaji": "machidooshii",
-    "meaning": "looking forward to"
+    "meaning": "looking forward to",
+    "vi": "mong chờ, nóng lòng chờ đợi"
   },
   {
     "id": "n1-2285",
     "jp": "待ち望む",
     "reading": "まちのぞむ",
     "romaji": "machinozomu",
-    "meaning": "to look anxiously for, to wait eagerly for"
+    "meaning": "to look anxiously for, to wait eagerly for",
+    "vi": "mong đợi, khắc khoải chờ mong"
   },
   {
     "id": "n1-2286",
     "jp": "まちまち",
     "reading": "まちまち",
     "romaji": "machimachi",
-    "meaning": "various, different"
+    "meaning": "various, different",
+    "vi": "khác nhau, đa dạng"
   },
   {
     "id": "n1-2287",
     "jp": "末期",
     "reading": "まっき",
     "romaji": "makki",
-    "meaning": "deathbed, hour of death"
+    "meaning": "deathbed, hour of death",
+    "vi": "lúc hấp hối, giai đoạn cuối"
   },
   {
     "id": "n1-2288",
     "jp": "真っ二つ",
     "reading": "まっぷたつ",
     "romaji": "mapputatsu",
-    "meaning": "in two equal parts"
+    "meaning": "in two equal parts",
+    "vi": "chia làm hai phần bằng nhau"
   },
   {
     "id": "n1-2289",
     "jp": "まと",
     "reading": "まと",
     "romaji": "mato",
-    "meaning": "mark, target"
+    "meaning": "mark, target",
+    "vi": "mục tiêu, đích ngắm"
   },
   {
     "id": "n1-2290",
     "jp": "纏まり",
     "reading": "まとまり",
     "romaji": "matomari",
-    "meaning": "conclusion, settlement, consistency"
+    "meaning": "conclusion, settlement, consistency",
+    "vi": "sự gắn kết, thống nhất, ổn thỏa"
   },
   {
     "id": "n1-2291",
     "jp": "纏め",
     "reading": "まとめ",
     "romaji": "matome",
-    "meaning": "settlement, conclusion"
+    "meaning": "settlement, conclusion",
+    "vi": "tổng kết, kết luận"
   },
   {
     "id": "n1-2292",
     "jp": "免れる",
     "reading": "まぬがれる",
     "romaji": "manugareru",
-    "meaning": "to escape from, to be exempted"
+    "meaning": "to escape from, to be exempted",
+    "vi": "thoát khỏi, được miễn"
   },
   {
     "id": "n1-2293",
     "jp": "招き",
     "reading": "まねき",
     "romaji": "maneki",
-    "meaning": "invitation"
+    "meaning": "invitation",
+    "vi": "lời mời"
   },
   {
     "id": "n1-2294",
     "jp": "瞬き",
     "reading": "まばたき",
     "romaji": "mabataki",
-    "meaning": "wink, twinkling (of stars), flicker (of light)"
+    "meaning": "wink, twinkling (of stars), flicker (of light)",
+    "vi": "chớp mắt, lấp lánh (của sao), nhấp nháy (ánh sáng)"
   },
   {
     "id": "n1-2295",
     "jp": "麻痺",
     "reading": "まひ",
     "romaji": "mahi",
-    "meaning": "paralysis, palsy, numbness"
+    "meaning": "paralysis, palsy, numbness",
+    "vi": "tê liệt, bại liệt"
   },
   {
     "id": "n1-2296",
     "jp": "～まみれ",
     "reading": "～まみれ",
     "romaji": "～mamire",
-    "meaning": "covered with (by, in) ~"
+    "meaning": "covered with (by, in) ~",
+    "vi": "đầy ~, dính đầy ~"
   },
   {
     "id": "n1-2297",
     "jp": "眉",
     "reading": "まゆ",
     "romaji": "mayu",
-    "meaning": "eyebrow"
+    "meaning": "eyebrow",
+    "vi": "lông mày"
   },
   {
     "id": "n1-2298",
     "jp": "鞠",
     "reading": "まり",
     "romaji": "mari",
-    "meaning": "ball"
+    "meaning": "ball",
+    "vi": "quả bóng"
   },
   {
     "id": "n1-2299",
     "jp": "丸ごと",
     "reading": "まるごと",
     "romaji": "marugoto",
-    "meaning": "in its entirety, whole, wholly"
+    "meaning": "in its entirety, whole, wholly",
+    "vi": "nguyên vẹn, toàn bộ"
   },
   {
     "id": "n1-2300",
     "jp": "まるっきり",
     "reading": "まるっきり",
     "romaji": "marukkiri",
-    "meaning": "completely, perfectly, just as if"
+    "meaning": "completely, perfectly, just as if",
+    "vi": "hoàn toàn, y hệt như"
   },
   {
     "id": "n1-2301",
     "jp": "丸々",
     "reading": "まるまる",
     "romaji": "marumaru",
-    "meaning": "completely"
+    "meaning": "completely",
+    "vi": "hoàn toàn, trọn vẹn"
   },
   {
     "id": "n1-2302",
     "jp": "丸める",
     "reading": "まるめる",
     "romaji": "marumeru",
-    "meaning": "to make round, to round off, to roll up"
+    "meaning": "to make round, to round off, to roll up",
+    "vi": "làm tròn, vo tròn, cuộn lại"
   },
   {
     "id": "n1-2303",
     "jp": "満月",
     "reading": "まんげつ",
     "romaji": "mangetsu",
-    "meaning": "full moon"
+    "meaning": "full moon",
+    "vi": "trăng tròn"
   },
   {
     "id": "n1-2304",
     "jp": "満場",
     "reading": "まんじょう",
     "romaji": "manjou",
-    "meaning": "unanimous, whole audience"
+    "meaning": "unanimous, whole audience",
+    "vi": "toàn thể (khán giả), nhất trí"
   },
   {
     "id": "n1-2305",
     "jp": "真ん前",
     "reading": "まんまえ",
     "romaji": "manmae",
-    "meaning": "right in front, under the nose"
+    "meaning": "right in front, under the nose",
+    "vi": "ngay trước mặt"
   },
   {
     "id": "n1-2306",
     "jp": "真ん丸い",
     "reading": "まんまるい",
     "romaji": "manmarui",
-    "meaning": "perfectly circular"
+    "meaning": "perfectly circular",
+    "vi": "tròn xoe, tròn vành vạnh"
   },
   {
     "id": "n1-2307",
     "jp": "真ん円い",
     "reading": "まんまるい",
     "romaji": "manmarui",
-    "meaning": "perfectly round"
+    "meaning": "perfectly round",
+    "vi": "tròn xoe, tròn vành vạnh"
   },
   {
     "id": "n1-2308",
     "jp": "～味",
     "reading": "～み",
     "romaji": "～mi",
-    "meaning": "~ cast (sense of taste)"
+    "meaning": "~ cast (sense of taste)",
+    "vi": "vị ~, sắc thái ~"
   },
   {
     "id": "n1-2309",
     "jp": "見合い",
     "reading": "みあい",
     "romaji": "miai",
-    "meaning": "formal marriage interview"
+    "meaning": "formal marriage interview",
+    "vi": "xem mắt (hôn nhân)"
   },
   {
     "id": "n1-2310",
     "jp": "見合わせる",
     "reading": "みあわせる",
     "romaji": "miawaseru",
-    "meaning": "to exchange glances; to postpone"
+    "meaning": "to exchange glances; to postpone",
+    "vi": "nhìn nhau; hoãn lại"
   },
   {
     "id": "n1-2311",
     "jp": "見落とす",
     "reading": "みおとす",
     "romaji": "miotosu",
-    "meaning": "to overlook, to fail to notice"
+    "meaning": "to overlook, to fail to notice",
+    "vi": "bỏ sót, không để ý"
   },
   {
     "id": "n1-2312",
     "jp": "未開",
     "reading": "みかい",
     "romaji": "mikai",
-    "meaning": "savage land, backward region, uncivilized"
+    "meaning": "savage land, backward region, uncivilized",
+    "vi": "vùng đất hoang sơ, lạc hậu, chưa khai hóa"
   },
   {
     "id": "n1-2313",
     "jp": "味覚",
     "reading": "みかく",
     "romaji": "mikaku",
-    "meaning": "taste, palate, sense of taste"
+    "meaning": "taste, palate, sense of taste",
+    "vi": "vị giác"
   },
   {
     "id": "n1-2314",
     "jp": "幹",
     "reading": "みき",
     "romaji": "miki",
-    "meaning": "(tree) trunk"
+    "meaning": "(tree) trunk",
+    "vi": "thân cây"
   },
   {
     "id": "n1-2315",
     "jp": "見苦しい",
     "reading": "みぐるしい",
     "romaji": "migurushii",
-    "meaning": "unsightly, ugly"
+    "meaning": "unsightly, ugly",
+    "vi": "khó coi, xấu xí"
   },
   {
     "id": "n1-2316",
     "jp": "見込み",
     "reading": "みこみ",
     "romaji": "mikomi",
-    "meaning": "prospects, expectation, hope"
+    "meaning": "prospects, expectation, hope",
+    "vi": "triển vọng, kỳ vọng"
   },
   {
     "id": "n1-2317",
     "jp": "未婚",
     "reading": "みこん",
     "romaji": "mikon",
-    "meaning": "unmarried"
+    "meaning": "unmarried",
+    "vi": "chưa kết hôn, độc thân"
   },
   {
     "id": "n1-2318",
     "jp": "未熟",
     "reading": "みじゅく",
     "romaji": "mijuku",
-    "meaning": "inexperience, unskilled, immature"
+    "meaning": "inexperience, unskilled, immature",
+    "vi": "non nớt, thiếu kinh nghiệm, chưa chín chắn"
   },
   {
     "id": "n1-2319",
     "jp": "微塵",
     "reading": "みじん",
     "romaji": "mijin",
-    "meaning": "particle, atom"
+    "meaning": "particle, atom",
+    "vi": "hạt bụi nhỏ, nguyên tử"
   },
   {
     "id": "n1-2320",
     "jp": "水気",
     "reading": "みずけ",
     "romaji": "mizuke",
-    "meaning": "moisture, dampness"
+    "meaning": "moisture, dampness",
+    "vi": "độ ẩm, hơi nước"
   },
   {
     "id": "n1-2321",
     "jp": "ミスプリント",
     "reading": "ミスプリント",
     "romaji": "ミスプリント",
-    "meaning": "misprint"
+    "meaning": "misprint",
+    "vi": "lỗi in ấn"
   },
   {
     "id": "n1-2322",
     "jp": "みすぼらしい",
     "reading": "みすぼらしい",
     "romaji": "misuborashii",
-    "meaning": "shabby, seedy"
+    "meaning": "shabby, seedy",
+    "vi": "tồi tàn, rách rưới"
   },
   {
     "id": "n1-2323",
     "jp": "ミセス",
     "reading": "ミセス",
     "romaji": "ミセス",
-    "meaning": "Mrs."
+    "meaning": "Mrs.",
+    "vi": "bà (Mrs.)"
   },
   {
     "id": "n1-2324",
     "jp": "見せびらかす",
     "reading": "みせびらかす",
     "romaji": "misebirakasu",
-    "meaning": "to show off, to flaunt"
+    "meaning": "to show off, to flaunt",
+    "vi": "khoe khoang, phô trương"
   },
   {
     "id": "n1-2325",
     "jp": "見せ物",
     "reading": "みせもの",
     "romaji": "misemono",
-    "meaning": "show, exhibition"
+    "meaning": "show, exhibition",
+    "vi": "buổi biểu diễn, triển lãm"
   },
   {
     "id": "n1-2326",
     "jp": "溝",
     "reading": "みぞ",
     "romaji": "mizo",
-    "meaning": "ditch, drain, gutter, gap"
+    "meaning": "ditch, drain, gutter, gap",
+    "vi": "rãnh, mương, khoảng cách"
   },
   {
     "id": "n1-2327",
     "jp": "満たす",
     "reading": "みたす",
     "romaji": "mitasu",
-    "meaning": "to satisfy, to ingratiate, to fill, to fulfill"
+    "meaning": "to satisfy, to ingratiate, to fill, to fulfill",
+    "vi": "làm thỏa mãn, lấp đầy, đáp ứng"
   },
   {
     "id": "n1-2328",
     "jp": "乱す",
     "reading": "みだす",
     "romaji": "midasu",
-    "meaning": "to throw out of order, to disarrange, to disturb"
+    "meaning": "to throw out of order, to disarrange, to disturb",
+    "vi": "làm rối loạn, xáo trộn"
   },
   {
     "id": "n1-2329",
     "jp": "乱れる",
     "reading": "みだれる",
     "romaji": "midareru",
-    "meaning": "to get confused, to be disordered, to be disturbed"
+    "meaning": "to get confused, to be disordered, to be disturbed",
+    "vi": "trở nên rối loạn, mất trật tự"
   },
   {
     "id": "n1-2330",
     "jp": "未知",
     "reading": "みち",
     "romaji": "michi",
-    "meaning": "not yet known"
+    "meaning": "not yet known",
+    "vi": "chưa biết, chưa rõ"
   },
   {
     "id": "n1-2331",
     "jp": "身近",
     "reading": "みぢか",
     "romaji": "mijika",
-    "meaning": "near oneself, close to one, familiar"
+    "meaning": "near oneself, close to one, familiar",
+    "vi": "gần gũi, thân thuộc"
   },
   {
     "id": "n1-2332",
     "jp": "導く",
     "reading": "みちびく",
     "romaji": "michibiku",
-    "meaning": "to be guided, to be shown"
+    "meaning": "to be guided, to be shown",
+    "vi": "dẫn dắt, hướng dẫn"
   },
   {
     "id": "n1-2333",
     "jp": "密集",
     "reading": "みっしゅう",
     "romaji": "misshuu",
-    "meaning": "crowd, close formation, dense"
+    "meaning": "crowd, close formation, dense",
+    "vi": "đông đúc, tập trung dày đặc"
   },
   {
     "id": "n1-2334",
     "jp": "密接",
     "reading": "みっせつ",
     "romaji": "missetsu",
-    "meaning": "connected, close, intimate"
+    "meaning": "connected, close, intimate",
+    "vi": "gắn bó chặt chẽ, mật thiết"
   },
   {
     "id": "n1-2335",
     "jp": "密度",
     "reading": "みつど",
     "romaji": "mitsudo",
-    "meaning": "density"
+    "meaning": "density",
+    "vi": "mật độ"
   },
   {
     "id": "n1-2336",
     "jp": "見積もり",
     "reading": "みつもり",
     "romaji": "mitsumori",
-    "meaning": "estimation, quotation"
+    "meaning": "estimation, quotation",
+    "vi": "ước tính, báo giá"
   },
   {
     "id": "n1-2337",
     "jp": "未定",
     "reading": "みてい",
     "romaji": "mitei",
-    "meaning": "not yet fixed, undecided, pending"
+    "meaning": "not yet fixed, undecided, pending",
+    "vi": "chưa quyết định, chưa xác định"
   },
   {
     "id": "n1-2338",
     "jp": "見通し",
     "reading": "みとおし",
     "romaji": "mitooshi",
-    "meaning": "perspective, unobstructed view, prospect"
+    "meaning": "perspective, unobstructed view, prospect",
+    "vi": "tầm nhìn, dự đoán, triển vọng"
   },
   {
     "id": "n1-2339",
     "jp": "見なす",
     "reading": "みなす",
     "romaji": "minasu",
-    "meaning": "to consider as, to regard"
+    "meaning": "to consider as, to regard",
+    "vi": "coi như, xem như"
   },
   {
     "id": "n1-2340",
     "jp": "源",
     "reading": "みなもと",
     "romaji": "minamoto",
-    "meaning": "source, origin"
+    "meaning": "source, origin",
+    "vi": "nguồn gốc, cội nguồn"
   },
   {
     "id": "n1-2341",
     "jp": "見習う",
     "reading": "みならう",
     "romaji": "minarau",
-    "meaning": "to follow another's example"
+    "meaning": "to follow another's example",
+    "vi": "học theo, noi gương"
   },
   {
     "id": "n1-2342",
     "jp": "身なり",
     "reading": "みなり",
     "romaji": "minari",
-    "meaning": "personal appearance"
+    "meaning": "personal appearance",
+    "vi": "diện mạo, cách ăn mặc"
   },
   {
     "id": "n1-2343",
     "jp": "峰",
     "reading": "みね",
     "romaji": "mine",
-    "meaning": "peak, ridge"
+    "meaning": "peak, ridge",
+    "vi": "đỉnh núi, sống núi"
   },
   {
     "id": "n1-2344",
     "jp": "身の上",
     "reading": "みのうえ",
     "romaji": "minoue",
-    "meaning": "one's future, one's welfare, one's personal history"
+    "meaning": "one's future, one's welfare, one's personal history",
+    "vi": "số phận, hoàn cảnh riêng, tiểu sử bản thân"
   },
   {
     "id": "n1-2345",
     "jp": "見逃す",
     "reading": "みのがす",
     "romaji": "minogasu",
-    "meaning": "to miss, to overlook, to leave at large"
+    "meaning": "to miss, to overlook, to leave at large",
+    "vi": "bỏ lỡ, bỏ qua, bỏ sót"
   },
   {
     "id": "n1-2346",
     "jp": "身の回り",
     "reading": "みのまわり",
     "romaji": "minomawari",
-    "meaning": "one's personal appearance, personal belongings"
+    "meaning": "one's personal appearance, personal belongings",
+    "vi": "vật dụng cá nhân, xung quanh bản thân"
   },
   {
     "id": "n1-2347",
     "jp": "見計らう",
     "reading": "みはからう",
     "romaji": "mihakarau",
-    "meaning": "to choose at one's own discretion"
+    "meaning": "to choose at one's own discretion",
+    "vi": "tự cân nhắc lựa chọn, liệu chừng"
   },
   {
     "id": "n1-2348",
     "jp": "見晴らし",
     "reading": "みはらし",
     "romaji": "miharashi",
-    "meaning": "view"
+    "meaning": "view",
+    "vi": "tầm nhìn, quang cảnh"
   },
   {
     "id": "n1-2349",
     "jp": "身振り",
     "reading": "みぶり",
     "romaji": "miburi",
-    "meaning": "gesture"
+    "meaning": "gesture",
+    "vi": "cử chỉ, điệu bộ"
   },
   {
     "id": "n1-2350",
     "jp": "脈",
     "reading": "みゃく",
     "romaji": "myaku",
-    "meaning": "pulse"
+    "meaning": "pulse",
+    "vi": "mạch (đập)"
   },
   {
     "id": "n1-2351",
     "jp": "ミュージック",
     "reading": "ミュージック",
     "romaji": "ミュージック",
-    "meaning": "music"
+    "meaning": "music",
+    "vi": "âm nhạc"
   },
   {
     "id": "n1-2352",
     "jp": "未練",
     "reading": "みれん",
     "romaji": "miren",
-    "meaning": "lingering affection, attachment, regret(s)"
+    "meaning": "lingering affection, attachment, regret(s)",
+    "vi": "quyến luyến, tiếc nuối"
   },
   {
     "id": "n1-2353",
     "jp": "見渡す",
     "reading": "みわたす",
     "romaji": "miwatasu",
-    "meaning": "to look out over, to survey (scene), to take an extensive view of"
+    "meaning": "to look out over, to survey (scene), to take an extensive view of",
+    "vi": "nhìn bao quát, phóng tầm mắt"
   },
   {
     "id": "n1-2354",
     "jp": "民宿",
     "reading": "みんしゅく",
     "romaji": "minshuku",
-    "meaning": "private house providing lodging and meals to tourists"
+    "meaning": "private house providing lodging and meals to tourists",
+    "vi": "nhà nghỉ tư nhân (kiểu homestay)"
   },
   {
     "id": "n1-2355",
     "jp": "民族",
     "reading": "みんぞく",
     "romaji": "minzoku",
-    "meaning": "people, race"
+    "meaning": "people, race",
+    "vi": "dân tộc"
   },
   {
     "id": "n1-2356",
     "jp": "民俗",
     "reading": "みんぞく",
     "romaji": "minzoku",
-    "meaning": "folk customs"
+    "meaning": "folk customs",
+    "vi": "phong tục dân gian"
   },
   {
     "id": "n1-2357",
     "jp": "無意味",
     "reading": "むいみ",
     "romaji": "muimi",
-    "meaning": "nonsense, no meaning"
+    "meaning": "nonsense, no meaning",
+    "vi": "vô nghĩa"
   },
   {
     "id": "n1-2358",
     "jp": "ムード",
     "reading": "ムード",
     "romaji": "ムード",
-    "meaning": "mood"
+    "meaning": "mood",
+    "vi": "tâm trạng, không khí"
   },
   {
     "id": "n1-2359",
     "jp": "無口",
     "reading": "むくち",
     "romaji": "mukuchi",
-    "meaning": "reticence"
+    "meaning": "reticence",
+    "vi": "ít nói, kiệm lời"
   },
   {
     "id": "n1-2360",
     "jp": "婿",
     "reading": "むこ",
     "romaji": "muko",
-    "meaning": "son-in-law"
+    "meaning": "son-in-law",
+    "vi": "con rể"
   },
   {
     "id": "n1-2361",
     "jp": "無効",
     "reading": "むこう",
     "romaji": "mukou",
-    "meaning": "invalid, no effect, unavailable"
+    "meaning": "invalid, no effect, unavailable",
+    "vi": "không có hiệu lực, vô hiệu"
   },
   {
     "id": "n1-2362",
     "jp": "無言",
     "reading": "むごん",
     "romaji": "mugon",
-    "meaning": "silence"
+    "meaning": "silence",
+    "vi": "im lặng, không nói"
   },
   {
     "id": "n1-2363",
     "jp": "無邪気",
     "reading": "むじゃき",
     "romaji": "mujaki",
-    "meaning": "innocence, simple-mindedness"
+    "meaning": "innocence, simple-mindedness",
+    "vi": "ngây thơ, hồn nhiên"
   },
   {
     "id": "n1-2364",
     "jp": "むしる",
     "reading": "むしる",
     "romaji": "mushiru",
-    "meaning": "to pluck, to pick, to tear"
+    "meaning": "to pluck, to pick, to tear",
+    "vi": "nhổ, bứt, xé"
   },
   {
     "id": "n1-2365",
     "jp": "結び",
     "reading": "むすび",
     "romaji": "musubi",
-    "meaning": "ending, conclusion, union"
+    "meaning": "ending, conclusion, union",
+    "vi": "kết thúc, kết luận, liên kết"
   },
   {
     "id": "n1-2366",
     "jp": "結び付き",
     "reading": "むすびつき",
     "romaji": "musubitsuki",
-    "meaning": "connection, relation"
+    "meaning": "connection, relation",
+    "vi": "mối liên kết, quan hệ"
   },
   {
     "id": "n1-2367",
     "jp": "結び付く",
     "reading": "むすびつく",
     "romaji": "musubitsuku",
-    "meaning": "to be connected or related, to join together"
+    "meaning": "to be connected or related, to join together",
+    "vi": "được kết nối, liên quan đến nhau"
   },
   {
     "id": "n1-2368",
     "jp": "結び付ける",
     "reading": "むすびつける",
     "romaji": "musubitsukeru",
-    "meaning": "to combine, to join, to tie on, to attach with a knot"
+    "meaning": "to combine, to join, to tie on, to attach with a knot",
+    "vi": "kết hợp, gắn kết, buộc lại"
   },
   {
     "id": "n1-2369",
     "jp": "無線",
     "reading": "むせん",
     "romaji": "musen",
-    "meaning": "wireless, radio"
+    "meaning": "wireless, radio",
+    "vi": "vô tuyến, không dây"
   },
   {
     "id": "n1-2370",
     "jp": "無駄遣い",
     "reading": "むだづかい",
     "romaji": "mudazukai",
-    "meaning": "waste money on, squander money on"
+    "meaning": "waste money on, squander money on",
+    "vi": "tiêu xài lãng phí, phung phí tiền"
   },
   {
     "id": "n1-2371",
     "jp": "無断",
     "reading": "むだん",
     "romaji": "mudan",
-    "meaning": "without permission, without notice"
+    "meaning": "without permission, without notice",
+    "vi": "không xin phép, tự tiện"
   },
   {
     "id": "n1-2372",
     "jp": "無知",
     "reading": "むち",
     "romaji": "muchi",
-    "meaning": "ignorance"
+    "meaning": "ignorance",
+    "vi": "sự ngu dốt, thiếu hiểu biết"
   },
   {
     "id": "n1-2373",
     "jp": "無茶",
     "reading": "むちゃ",
     "romaji": "mucha",
-    "meaning": "absurd, unreasonable"
+    "meaning": "absurd, unreasonable",
+    "vi": "vô lý, quá đáng"
   },
   {
     "id": "n1-2374",
     "jp": "無茶苦茶",
     "reading": "むちゃくちゃ",
     "romaji": "muchakucha",
-    "meaning": "confused, jumbled, mixed up, unreasonable"
+    "meaning": "confused, jumbled, mixed up, unreasonable",
+    "vi": "lộn xộn, hỗn độn, vô lý"
   },
   {
     "id": "n1-2375",
     "jp": "空しい",
     "reading": "むなしい",
     "romaji": "munashii",
-    "meaning": "vacant, futile, vain"
+    "meaning": "vacant, futile, vain",
+    "vi": "trống rỗng, vô ích, vô vọng"
   },
   {
     "id": "n1-2376",
     "jp": "無念",
     "reading": "むねん",
     "romaji": "munen",
-    "meaning": "chagrin, regret"
+    "meaning": "chagrin, regret",
+    "vi": "hối tiếc, cay đắng"
   },
   {
     "id": "n1-2377",
     "jp": "無能",
     "reading": "むのう",
     "romaji": "munou",
-    "meaning": "inefficiency, incompetence"
+    "meaning": "inefficiency, incompetence",
+    "vi": "bất tài, kém cỏi"
   },
   {
     "id": "n1-2378",
     "jp": "無闇に",
     "reading": "むやみに",
     "romaji": "muyamini",
-    "meaning": "unreasonably, absurdly, at random"
+    "meaning": "unreasonably, absurdly, at random",
+    "vi": "vô cớ, bừa bãi, tùy tiện"
   },
   {
     "id": "n1-2379",
     "jp": "無用",
     "reading": "むよう",
     "romaji": "muyou",
-    "meaning": "useless, needlessness, unnecessariness"
+    "meaning": "useless, needlessness, unnecessariness",
+    "vi": "vô dụng, không cần thiết"
   },
   {
     "id": "n1-2380",
     "jp": "斑",
     "reading": "むら",
     "romaji": "mura",
-    "meaning": "unevenness, inconsistency, irregularity"
+    "meaning": "unevenness, inconsistency, irregularity",
+    "vi": "không đồng đều, lốm đốm"
   },
   {
     "id": "n1-2381",
     "jp": "群がる",
     "reading": "むらがる",
     "romaji": "muragaru",
-    "meaning": "to swarm, to gather"
+    "meaning": "to swarm, to gather",
+    "vi": "tụ tập, tập hợp thành đám"
   },
   {
     "id": "n1-2382",
     "jp": "無論",
     "reading": "むろん",
     "romaji": "muron",
-    "meaning": "of course, naturally"
+    "meaning": "of course, naturally",
+    "vi": "đương nhiên, dĩ nhiên"
   },
   {
     "id": "n1-2383",
     "jp": "名産",
     "reading": "めいさん",
     "romaji": "meisan",
-    "meaning": "noted product"
+    "meaning": "noted product",
+    "vi": "đặc sản"
   },
   {
     "id": "n1-2384",
     "jp": "名称",
     "reading": "めいしょう",
     "romaji": "meishou",
-    "meaning": "name"
+    "meaning": "name",
+    "vi": "tên gọi"
   },
   {
     "id": "n1-2385",
     "jp": "命中",
     "reading": "めいちゅう",
     "romaji": "meichuu",
-    "meaning": "a hit"
+    "meaning": "a hit",
+    "vi": "bắn trúng, trúng đích"
   },
   {
     "id": "n1-2386",
     "jp": "明白",
     "reading": "めいはく",
     "romaji": "meihaku",
-    "meaning": "obvious, clear"
+    "meaning": "obvious, clear",
+    "vi": "rõ ràng, hiển nhiên"
   },
   {
     "id": "n1-2387",
     "jp": "名簿",
     "reading": "めいぼ",
     "romaji": "meibo",
-    "meaning": "register of names"
+    "meaning": "register of names",
+    "vi": "danh sách tên"
   },
   {
     "id": "n1-2388",
     "jp": "名誉",
     "reading": "めいよ",
     "romaji": "meiyo",
-    "meaning": "honor, credit, prestige"
+    "meaning": "honor, credit, prestige",
+    "vi": "danh dự, uy tín"
   },
   {
     "id": "n1-2389",
     "jp": "明瞭",
     "reading": "めいりょう",
     "romaji": "meiryou",
-    "meaning": "clarity"
+    "meaning": "clarity",
+    "vi": "rõ ràng, minh bạch"
   },
   {
     "id": "n1-2390",
     "jp": "明朗",
     "reading": "めいろう",
     "romaji": "meirou",
-    "meaning": "bright, clear, cheerful"
+    "meaning": "bright, clear, cheerful",
+    "vi": "vui vẻ, tươi sáng, lạc quan"
   },
   {
     "id": "n1-2391",
     "jp": "メーカー",
     "reading": "メーカー",
     "romaji": "メーカー",
-    "meaning": "manufacturer"
+    "meaning": "manufacturer",
+    "vi": "nhà sản xuất"
   },
   {
     "id": "n1-2392",
     "jp": "目方",
     "reading": "めかた",
     "romaji": "mekata",
-    "meaning": "weight"
+    "meaning": "weight",
+    "vi": "trọng lượng"
   },
   {
     "id": "n1-2393",
     "jp": "恵み",
     "reading": "めぐみ",
     "romaji": "megumi",
-    "meaning": "blessing"
+    "meaning": "blessing",
+    "vi": "phước lành, ân huệ"
   },
   {
     "id": "n1-2394",
     "jp": "恵む",
     "reading": "めぐむ",
     "romaji": "megumu",
-    "meaning": "to bless, to show mercy to"
+    "meaning": "to bless, to show mercy to",
+    "vi": "ban ơn, thương xót"
   },
   {
     "id": "n1-2395",
     "jp": "目覚しい",
     "reading": "めざましい",
     "romaji": "mezamashii",
-    "meaning": "brilliant, remarkable"
+    "meaning": "brilliant, remarkable",
+    "vi": "đáng kinh ngạc, nổi bật"
   },
   {
     "id": "n1-2396",
     "jp": "目覚める",
     "reading": "めざめる",
     "romaji": "mezameru",
-    "meaning": "to wake up"
+    "meaning": "to wake up",
+    "vi": "thức dậy, tỉnh giấc"
   },
   {
     "id": "n1-2397",
     "jp": "召す",
     "reading": "めす",
     "romaji": "mesu",
-    "meaning": "to call, to send for, to put on"
+    "meaning": "to call, to send for, to put on",
+    "vi": "triệu tập, mời gọi (kính ngữ)"
   },
   {
     "id": "n1-2398",
     "jp": "雌",
     "reading": "めす",
     "romaji": "mesu",
-    "meaning": "female (animal)"
+    "meaning": "female (animal)",
+    "vi": "con cái (động vật giống cái)"
   },
   {
     "id": "n1-2399",
     "jp": "目付き",
     "reading": "めつき",
     "romaji": "metsuki",
-    "meaning": "look, expression of the eyes, eyes"
+    "meaning": "look, expression of the eyes, eyes",
+    "vi": "ánh mắt, vẻ mặt"
   },
   {
     "id": "n1-2400",
     "jp": "滅亡",
     "reading": "めつぼう",
     "romaji": "metsubou",
-    "meaning": "downfall, collapse, destruction"
+    "meaning": "downfall, collapse, destruction",
+    "vi": "diệt vong, sụp đổ"
   },
   {
     "id": "n1-2401",
     "jp": "メディア",
     "reading": "メディア",
     "romaji": "メディア",
-    "meaning": "media"
+    "meaning": "media",
+    "vi": "truyền thông, phương tiện truyền thông"
   },
   {
     "id": "n1-2402",
     "jp": "目途",
     "reading": "めど",
     "romaji": "medo",
-    "meaning": "goal, outlook"
+    "meaning": "goal, outlook",
+    "vi": "mục tiêu, triển vọng"
   },
   {
     "id": "n1-2403",
     "jp": "目盛",
     "reading": "めもり",
     "romaji": "memori",
-    "meaning": "scale, gradations"
+    "meaning": "scale, gradations",
+    "vi": "vạch chia độ, thang đo"
   },
   {
     "id": "n1-2404",
     "jp": "メロディー",
     "reading": "メロディー",
     "romaji": "メロディー",
-    "meaning": "melody"
+    "meaning": "melody",
+    "vi": "giai điệu"
   },
   {
     "id": "n1-2405",
     "jp": "面会",
     "reading": "めんかい",
     "romaji": "menkai",
-    "meaning": "interview"
+    "meaning": "interview",
+    "vi": "gặp mặt, thăm viếng"
   },
   {
     "id": "n1-2406",
     "jp": "免除",
     "reading": "めんじょ",
     "romaji": "menjo",
-    "meaning": "exemption, exoneration, discharge"
+    "meaning": "exemption, exoneration, discharge",
+    "vi": "miễn trừ, xá miễn"
   },
   {
     "id": "n1-2407",
     "jp": "面する",
     "reading": "めんする",
     "romaji": "mensuru",
-    "meaning": "to face on, to look out on to"
+    "meaning": "to face on, to look out on to",
+    "vi": "hướng ra, đối diện với"
   },
   {
     "id": "n1-2408",
     "jp": "面目",
     "reading": "めんぼく",
     "romaji": "menboku",
-    "meaning": "face, honor, reputation"
+    "meaning": "face, honor, reputation",
+    "vi": "thể diện, danh dự"
   },
   {
     "id": "n1-2409",
     "jp": "面目",
     "reading": "めんもく",
     "romaji": "menmoku",
-    "meaning": "face, honor, reputation"
+    "meaning": "face, honor, reputation",
+    "vi": "thể diện, danh dự"
   },
   {
     "id": "n1-2410",
     "jp": "～網",
     "reading": "～もう",
     "romaji": "～mou",
-    "meaning": "~ network"
+    "meaning": "~ network",
+    "vi": "mạng lưới ~"
   },
   {
     "id": "n1-2411",
     "jp": "設ける",
     "reading": "もうける",
     "romaji": "moukeru",
-    "meaning": "to create, to establish"
+    "meaning": "to create, to establish",
+    "vi": "thiết lập, thành lập"
   },
   {
     "id": "n1-2412",
     "jp": "申し入れる",
     "reading": "もうしいれる",
     "romaji": "moushiireru",
-    "meaning": "to propose, to suggest"
+    "meaning": "to propose, to suggest",
+    "vi": "đề nghị, đề xuất"
   },
   {
     "id": "n1-2413",
     "jp": "申込",
     "reading": "もうしこみ",
     "romaji": "moushikomi",
-    "meaning": "application, request, proposal"
+    "meaning": "application, request, proposal",
+    "vi": "đơn đăng ký, yêu cầu, đề nghị"
   },
   {
     "id": "n1-2414",
     "jp": "申出",
     "reading": "もうしで",
     "romaji": "moushide",
-    "meaning": "request, claim, report"
+    "meaning": "request, claim, report",
+    "vi": "yêu cầu, khiếu nại, báo cáo"
   },
   {
     "id": "n1-2415",
     "jp": "申し出る",
     "reading": "もうしでる",
     "romaji": "moushideru",
-    "meaning": "to report to, to tell, to suggest"
+    "meaning": "to report to, to tell, to suggest",
+    "vi": "trình bày, đề xuất, thông báo"
   },
   {
     "id": "n1-2416",
     "jp": "申し分",
     "reading": "もうしぶん",
     "romaji": "moushibun",
-    "meaning": "objection, shortcomings"
+    "meaning": "objection, shortcomings",
+    "vi": "điểm thiếu sót, chỗ chê trách"
   },
   {
     "id": "n1-2417",
     "jp": "盲点",
     "reading": "もうてん",
     "romaji": "mouten",
-    "meaning": "blind spot"
+    "meaning": "blind spot",
+    "vi": "điểm mù"
   },
   {
     "id": "n1-2418",
     "jp": "猛烈",
     "reading": "もうれつ",
     "romaji": "mouretsu",
-    "meaning": "violent, vehement, rage"
+    "meaning": "violent, vehement, rage",
+    "vi": "dữ dội, mãnh liệt"
   },
   {
     "id": "n1-2419",
     "jp": "モーテル",
     "reading": "モーテル",
     "romaji": "モーテル",
-    "meaning": "motel"
+    "meaning": "motel",
+    "vi": "nhà nghỉ ven đường (motel)"
   },
   {
     "id": "n1-2420",
     "jp": "もがく",
     "reading": "もがく",
     "romaji": "mogaku",
-    "meaning": "to struggle, to wriggle, to be impatient"
+    "meaning": "to struggle, to wriggle, to be impatient",
+    "vi": "vùng vẫy, giãy giụa, nôn nóng"
   },
   {
     "id": "n1-2421",
     "jp": "目録",
     "reading": "もくろく",
     "romaji": "mokuroku",
-    "meaning": "catalogue, catalog, list"
+    "meaning": "catalogue, catalog, list",
+    "vi": "danh mục, mục lục"
   },
   {
     "id": "n1-2422",
     "jp": "目論見",
     "reading": "もくろみ",
     "romaji": "mokuromi",
-    "meaning": "a plan, a scheme, intention"
+    "meaning": "a plan, a scheme, intention",
+    "vi": "kế hoạch, mưu tính, ý đồ"
   },
   {
     "id": "n1-2423",
     "jp": "模型",
     "reading": "もけい",
     "romaji": "mokei",
-    "meaning": "model, dummy, marquette"
+    "meaning": "model, dummy, marquette",
+    "vi": "mô hình"
   },
   {
     "id": "n1-2424",
     "jp": "模索",
     "reading": "もさく",
     "romaji": "mosaku",
-    "meaning": "groping (for)"
+    "meaning": "groping (for)",
+    "vi": "mò mẫm, dò dẫm (tìm kiếm)"
   },
   {
     "id": "n1-2425",
     "jp": "もしかして",
     "reading": "もしかして",
     "romaji": "moshikashite",
-    "meaning": "perhaps, possibly"
+    "meaning": "perhaps, possibly",
+    "vi": "có lẽ, có thể"
   },
   {
     "id": "n1-2426",
     "jp": "もしくは",
     "reading": "もしくは",
     "romaji": "moshikuha",
-    "meaning": "or, otherwise"
+    "meaning": "or, otherwise",
+    "vi": "hoặc, hoặc là"
   },
   {
     "id": "n1-2427",
     "jp": "もたらす",
     "reading": "もたらす",
     "romaji": "motarasu",
-    "meaning": "to bring, to take, to bring about"
+    "meaning": "to bring, to take, to bring about",
+    "vi": "mang lại, đem đến, gây ra"
   },
   {
     "id": "n1-2428",
     "jp": "持ち切り",
     "reading": "もちきり",
     "romaji": "mochikiri",
-    "meaning": "hot topic, talk of the town"
+    "meaning": "hot topic, talk of the town",
+    "vi": "chủ đề nóng, đề tài bàn tán"
   },
   {
     "id": "n1-2429",
     "jp": "目下",
     "reading": "もっか",
     "romaji": "mokka",
-    "meaning": "at present, now"
+    "meaning": "at present, now",
+    "vi": "hiện tại, bây giờ"
   },
   {
     "id": "n1-2430",
     "jp": "専ら",
     "reading": "もっぱら",
     "romaji": "moppara",
-    "meaning": "wholly, solely, entirely"
+    "meaning": "wholly, solely, entirely",
+    "vi": "hoàn toàn, chỉ chuyên về"
   },
   {
     "id": "n1-2431",
     "jp": "もてなす",
     "reading": "もてなす",
     "romaji": "motenasu",
-    "meaning": "to entertain, to make welcome"
+    "meaning": "to entertain, to make welcome",
+    "vi": "tiếp đãi, chiêu đãi"
   },
   {
     "id": "n1-2432",
     "jp": "もてる",
     "reading": "もてる",
     "romaji": "moteru",
-    "meaning": "to be well liked, to be popular"
+    "meaning": "to be well liked, to be popular",
+    "vi": "được yêu thích, được ưa chuộng"
   },
   {
     "id": "n1-2433",
     "jp": "モニター",
     "reading": "モニター",
     "romaji": "モニター",
-    "meaning": "(computer) monitor"
+    "meaning": "(computer) monitor",
+    "vi": "màn hình (máy tính)"
   },
   {
     "id": "n1-2434",
     "jp": "物好き",
     "reading": "ものずき",
     "romaji": "monozuki",
-    "meaning": "(idle) curiosity"
+    "meaning": "(idle) curiosity",
+    "vi": "tò mò (vẩn vơ)"
   },
   {
     "id": "n1-2435",
     "jp": "物足りない",
     "reading": "ものたりない",
     "romaji": "monotarinai",
-    "meaning": "unsatisfied, unsatisfactory"
+    "meaning": "unsatisfied, unsatisfactory",
+    "vi": "chưa thỏa mãn, còn thiếu gì đó"
   },
   {
     "id": "n1-2436",
     "jp": "もはや",
     "reading": "もはや",
     "romaji": "mohaya",
-    "meaning": "already, now"
+    "meaning": "already, now",
+    "vi": "đã, giờ đây (không còn...)"
   },
   {
     "id": "n1-2437",
     "jp": "模範",
     "reading": "もはん",
     "romaji": "mohan",
-    "meaning": "model, example"
+    "meaning": "model, example",
+    "vi": "khuôn mẫu, tấm gương"
   },
   {
     "id": "n1-2438",
     "jp": "模倣",
     "reading": "もほう",
     "romaji": "mohou",
-    "meaning": "imitation, copying"
+    "meaning": "imitation, copying",
+    "vi": "bắt chước, sao chép"
   },
   {
     "id": "n1-2439",
     "jp": "もめる",
     "reading": "もめる",
     "romaji": "momeru",
-    "meaning": "to disagree, to dispute"
+    "meaning": "to disagree, to dispute",
+    "vi": "bất đồng, tranh cãi"
   },
   {
     "id": "n1-2440",
     "jp": "股",
     "reading": "もも",
     "romaji": "momo",
-    "meaning": "thigh, femur"
+    "meaning": "thigh, femur",
+    "vi": "đùi, xương đùi"
   },
   {
     "id": "n1-2441",
     "jp": "腿",
     "reading": "もも",
     "romaji": "momo",
-    "meaning": "thigh, femur"
+    "meaning": "thigh, femur",
+    "vi": "đùi, xương đùi"
   },
   {
     "id": "n1-2442",
     "jp": "催す",
     "reading": "もよおす",
     "romaji": "moyoosu",
-    "meaning": "to hold (a meeting), to give (a dinner)"
+    "meaning": "to hold (a meeting), to give (a dinner)",
+    "vi": "tổ chức (cuộc họp, bữa tiệc)"
   },
   {
     "id": "n1-2443",
     "jp": "漏らす",
     "reading": "もらす",
     "romaji": "morasu",
-    "meaning": "to let leak, to reveal"
+    "meaning": "to let leak, to reveal",
+    "vi": "để lộ, tiết lộ"
   },
   {
     "id": "n1-2444",
     "jp": "盛り上がる",
     "reading": "もりあがる",
     "romaji": "moriagaru",
-    "meaning": "to rouse, to swell, to rise"
+    "meaning": "to rouse, to swell, to rise",
+    "vi": "sôi động lên, dâng cao, trở nên náo nhiệt"
   },
   {
     "id": "n1-2445",
     "jp": "漏る",
     "reading": "もる",
     "romaji": "moru",
-    "meaning": "to leak, to run out"
+    "meaning": "to leak, to run out",
+    "vi": "rò rỉ, chảy ra"
   },
   {
     "id": "n1-2446",
     "jp": "漏れる",
     "reading": "もれる",
     "romaji": "moreru",
-    "meaning": "to leak out, to escape, to filter out"
+    "meaning": "to leak out, to escape, to filter out",
+    "vi": "rò rỉ ra, thoát ra, lọt ra"
   },
   {
     "id": "n1-2447",
     "jp": "脆い",
     "reading": "もろい",
     "romaji": "moroi",
-    "meaning": "brittle, fragile, tender-hearted"
+    "meaning": "brittle, fragile, tender-hearted",
+    "vi": "giòn, dễ vỡ, mềm yếu (tình cảm)"
   },
   {
     "id": "n1-2448",
     "jp": "もろに",
     "reading": "もろに",
     "romaji": "moroni",
-    "meaning": "completely, altogether, bodily"
+    "meaning": "completely, altogether, bodily",
+    "vi": "hoàn toàn, trực tiếp"
   },
   {
     "id": "n1-2449",
     "jp": "矢",
     "reading": "や",
     "romaji": "ya",
-    "meaning": "arrow"
+    "meaning": "arrow",
+    "vi": "mũi tên"
   },
   {
     "id": "n1-2450",
     "jp": "野外",
     "reading": "やがい",
     "romaji": "yagai",
-    "meaning": "fields, outskirts, open air, suburbs"
+    "meaning": "fields, outskirts, open air, suburbs",
+    "vi": "ngoài trời, ngoại ô"
   },
   {
     "id": "n1-2451",
     "jp": "～薬",
     "reading": "～やく",
     "romaji": "～yaku",
-    "meaning": "medicine"
+    "meaning": "medicine",
+    "vi": "thuốc ~"
   },
   {
     "id": "n1-2452",
     "jp": "夜具",
     "reading": "やぐ",
     "romaji": "yagu",
-    "meaning": "bedding"
+    "meaning": "bedding",
+    "vi": "chăn đệm, đồ dùng khi ngủ"
   },
   {
     "id": "n1-2453",
     "jp": "役職",
     "reading": "やくしょく",
     "romaji": "yakushoku",
-    "meaning": "post, managerial position, official position"
+    "meaning": "post, managerial position, official position",
+    "vi": "chức vụ quản lý, chức vụ chính thức"
   },
   {
     "id": "n1-2454",
     "jp": "役場",
     "reading": "やくば",
     "romaji": "yakuba",
-    "meaning": "town hall"
+    "meaning": "town hall",
+    "vi": "ủy ban thị trấn, tòa thị chính"
   },
   {
     "id": "n1-2455",
     "jp": "やけに",
     "reading": "やけに",
     "romaji": "yakeni",
-    "meaning": "sure, very"
+    "meaning": "sure, very",
+    "vi": "rất, quá đỗi"
   },
   {
     "id": "n1-2456",
     "jp": "屋敷",
     "reading": "やしき",
     "romaji": "yashiki",
-    "meaning": "mansion"
+    "meaning": "mansion",
+    "vi": "dinh thự, biệt thự"
   },
   {
     "id": "n1-2457",
     "jp": "養う",
     "reading": "やしなう",
     "romaji": "yashinau",
-    "meaning": "to rear, to maintain, to cultivate"
+    "meaning": "to rear, to maintain, to cultivate",
+    "vi": "nuôi dưỡng, bồi dưỡng"
   },
   {
     "id": "n1-2458",
     "jp": "野心",
     "reading": "やしん",
     "romaji": "yashin",
-    "meaning": "ambition, aspiration"
+    "meaning": "ambition, aspiration",
+    "vi": "tham vọng, hoài bão"
   },
   {
     "id": "n1-2459",
     "jp": "安っぽい",
     "reading": "やすっぽい",
     "romaji": "yasuppoi",
-    "meaning": "cheap-looking, tawdry"
+    "meaning": "cheap-looking, tawdry",
+    "vi": "trông rẻ tiền, kém sang"
   },
   {
     "id": "n1-2460",
     "jp": "休める",
     "reading": "やすめる",
     "romaji": "yasumeru",
-    "meaning": "to rest, to suspend, to give relief"
+    "meaning": "to rest, to suspend, to give relief",
+    "vi": "cho nghỉ ngơi, tạm dừng"
   },
   {
     "id": "n1-2461",
     "jp": "野生",
     "reading": "やせい",
     "romaji": "yasei",
-    "meaning": "wild"
+    "meaning": "wild",
+    "vi": "hoang dã"
   },
   {
     "id": "n1-2462",
     "jp": "奴",
     "reading": "やつ",
     "romaji": "yatsu",
-    "meaning": "(vulg.) fellow, guy, chap"
+    "meaning": "(vulg.) fellow, guy, chap",
+    "vi": "gã, thằng cha (thô tục)"
   },
   {
     "id": "n1-2463",
     "jp": "闇",
     "reading": "やみ",
     "romaji": "yami",
-    "meaning": "darkness, shady, illegal"
+    "meaning": "darkness, shady, illegal",
+    "vi": "bóng tối, mờ ám, phi pháp"
   },
   {
     "id": "n1-2464",
     "jp": "病む",
     "reading": "やむ",
     "romaji": "yamu",
-    "meaning": "to fall ill, to be ill"
+    "meaning": "to fall ill, to be ill",
+    "vi": "mắc bệnh, ốm đau"
   },
   {
     "id": "n1-2465",
     "jp": "ややこしい",
     "reading": "ややこしい",
     "romaji": "yayakoshii",
-    "meaning": "puzzling, tangled, complicated, complex"
+    "meaning": "puzzling, tangled, complicated, complex",
+    "vi": "rắc rối, phức tạp"
   },
   {
     "id": "n1-2466",
     "jp": "やりとおす",
     "reading": "やりとおす",
     "romaji": "yaritoosu",
-    "meaning": "to carry through, to achieve, to complete"
+    "meaning": "to carry through, to achieve, to complete",
+    "vi": "làm đến cùng, hoàn thành trọn vẹn"
   },
   {
     "id": "n1-2467",
     "jp": "やりとげる",
     "reading": "やりとげる",
     "romaji": "yaritogeru",
-    "meaning": "to accomplish"
+    "meaning": "to accomplish",
+    "vi": "hoàn thành, đạt được"
   },
   {
     "id": "n1-2468",
     "jp": "和らげる",
     "reading": "やわらげる",
     "romaji": "yawarageru",
-    "meaning": "to soften, to moderate, to relieve"
+    "meaning": "to soften, to moderate, to relieve",
+    "vi": "làm dịu, làm giảm nhẹ"
   },
   {
     "id": "n1-2469",
     "jp": "ヤング",
     "reading": "ヤング",
     "romaji": "ヤング",
-    "meaning": "young"
+    "meaning": "young",
+    "vi": "trẻ, giới trẻ"
   },
   {
     "id": "n1-2470",
     "jp": "～油",
     "reading": "～ゆ",
     "romaji": "～yu",
-    "meaning": "~ oil"
+    "meaning": "~ oil",
+    "vi": "dầu ~"
   },
   {
     "id": "n1-2471",
     "jp": "優位",
     "reading": "ゆうい",
     "romaji": "yuui",
-    "meaning": "predominance, ascendancy, superiority"
+    "meaning": "predominance, ascendancy, superiority",
+    "vi": "ưu thế, vượt trội"
   },
   {
     "id": "n1-2472",
     "jp": "憂鬱",
     "reading": "ゆううつ",
     "romaji": "yuuutsu",
-    "meaning": "depression, melancholy"
+    "meaning": "depression, melancholy",
+    "vi": "u uất, sầu muộn"
   },
   {
     "id": "n1-2473",
     "jp": "有益",
     "reading": "ゆうえき",
     "romaji": "yuueki",
-    "meaning": "beneficial, profitable"
+    "meaning": "beneficial, profitable",
+    "vi": "có ích, có lợi"
   },
   {
     "id": "n1-2474",
     "jp": "優越",
     "reading": "ゆうえつ",
     "romaji": "yuuetsu",
-    "meaning": "supremacy, predominance, being superior to"
+    "meaning": "supremacy, predominance, being superior to",
+    "vi": "ưu việt, vượt trội hơn"
   },
   {
     "id": "n1-2475",
     "jp": "勇敢",
     "reading": "ゆうかん",
     "romaji": "yuukan",
-    "meaning": "bravery, heroism, gallantry"
+    "meaning": "bravery, heroism, gallantry",
+    "vi": "dũng cảm, gan dạ"
   },
   {
     "id": "n1-2476",
     "jp": "夕暮れ",
     "reading": "ゆうぐれ",
     "romaji": "yuugure",
-    "meaning": "evening, (evening) twilight"
+    "meaning": "evening, (evening) twilight",
+    "vi": "buổi chiều tà, hoàng hôn"
   },
   {
     "id": "n1-2477",
     "jp": "融資",
     "reading": "ゆうし",
     "romaji": "yuushi",
-    "meaning": "financing, loan"
+    "meaning": "financing, loan",
+    "vi": "cấp vốn, cho vay"
   },
   {
     "id": "n1-2478",
     "jp": "有する",
     "reading": "ゆうする",
     "romaji": "yuusuru",
-    "meaning": "to own, to be endowed with"
+    "meaning": "to own, to be endowed with",
+    "vi": "sở hữu, có được"
   },
   {
     "id": "n1-2479",
     "jp": "優勢",
     "reading": "ゆうせい",
     "romaji": "yuusei",
-    "meaning": "superiority, superior power, predominance"
+    "meaning": "superiority, superior power, predominance",
+    "vi": "ưu thế, chiếm ưu thế"
   },
   {
     "id": "n1-2480",
     "jp": "優先",
     "reading": "ゆうせん",
     "romaji": "yuusen",
-    "meaning": "preference, priority"
+    "meaning": "preference, priority",
+    "vi": "ưu tiên"
   },
   {
     "id": "n1-2481",
     "jp": "誘導",
     "reading": "ゆうどう",
     "romaji": "yuudou",
-    "meaning": "guidance, leading, inducement"
+    "meaning": "guidance, leading, inducement",
+    "vi": "dẫn dắt, hướng dẫn, dụ dẫn"
   },
   {
     "id": "n1-2482",
     "jp": "融通",
     "reading": "ゆうずう",
     "romaji": "yuuzuu",
-    "meaning": "adaptability, versatility, finance"
+    "meaning": "adaptability, versatility, finance",
+    "vi": "linh hoạt, xoay xở (tài chính)"
   },
   {
     "id": "n1-2483",
     "jp": "優美",
     "reading": "ゆうび",
     "romaji": "yuubi",
-    "meaning": "grace, refinement, elegance"
+    "meaning": "grace, refinement, elegance",
+    "vi": "duyên dáng, tao nhã"
   },
   {
     "id": "n1-2484",
     "jp": "有望",
     "reading": "ゆうぼう",
     "romaji": "yuubou",
-    "meaning": "good prospects, full of hope, promising"
+    "meaning": "good prospects, full of hope, promising",
+    "vi": "triển vọng, đầy hứa hẹn"
   },
   {
     "id": "n1-2485",
     "jp": "遊牧",
     "reading": "ゆうぼく",
     "romaji": "yuuboku",
-    "meaning": "nomadism"
+    "meaning": "nomadism",
+    "vi": "du mục"
   },
   {
     "id": "n1-2486",
     "jp": "夕焼け",
     "reading": "ゆうやけ",
     "romaji": "yuuyake",
-    "meaning": "sunset"
+    "meaning": "sunset",
+    "vi": "ráng chiều, hoàng hôn"
   },
   {
     "id": "n1-2487",
     "jp": "有力",
     "reading": "ゆうりょく",
     "romaji": "yuuryoku",
-    "meaning": "influence, prominence; potent"
+    "meaning": "influence, prominence; potent",
+    "vi": "có thế lực, nổi bật, mạnh mẽ"
   },
   {
     "id": "n1-2488",
     "jp": "幽霊",
     "reading": "ゆうれい",
     "romaji": "yuurei",
-    "meaning": "ghost, specter, phantom"
+    "meaning": "ghost, specter, phantom",
+    "vi": "ma, hồn ma"
   },
   {
     "id": "n1-2489",
     "jp": "誘惑",
     "reading": "ゆうわく",
     "romaji": "yuuwaku",
-    "meaning": "temptation, allurement, lure"
+    "meaning": "temptation, allurement, lure",
+    "vi": "sự cám dỗ, quyến rũ"
   },
   {
     "id": "n1-2490",
     "jp": "故",
     "reading": "ゆえ",
     "romaji": "yue",
-    "meaning": "reason, cause, circumstances"
+    "meaning": "reason, cause, circumstances",
+    "vi": "lý do, nguyên nhân, hoàn cảnh"
   },
   {
     "id": "n1-2491",
     "jp": "歪む",
     "reading": "ゆがむ",
     "romaji": "yugamu",
-    "meaning": "to warp, to be crooked, to be distorted"
+    "meaning": "to warp, to be crooked, to be distorted",
+    "vi": "bị cong vênh, méo mó"
   },
   {
     "id": "n1-2492",
     "jp": "揺さぶる",
     "reading": "ゆさぶる",
     "romaji": "yusaburu",
-    "meaning": "to shake, to jolt, to rock, to swing"
+    "meaning": "to shake, to jolt, to rock, to swing",
+    "vi": "lắc, rung, làm chao đảo"
   },
   {
     "id": "n1-2493",
     "jp": "濯ぐ",
     "reading": "ゆすぐ",
     "romaji": "yusugu",
-    "meaning": "to rinse, to wash out"
+    "meaning": "to rinse, to wash out",
+    "vi": "xả (nước), giặt sạch"
   },
   {
     "id": "n1-2494",
     "jp": "ゆとり",
     "reading": "ゆとり",
     "romaji": "yutori",
-    "meaning": "reserve, affluence, time (to spare)"
+    "meaning": "reserve, affluence, time (to spare)",
+    "vi": "sự dư dả, thong thả, thời gian rảnh"
   },
   {
     "id": "n1-2495",
     "jp": "ユニーク",
     "reading": "ユニーク",
     "romaji": "ユニーク",
-    "meaning": "unique"
+    "meaning": "unique",
+    "vi": "độc đáo, có một không hai"
   },
   {
     "id": "n1-2496",
     "jp": "ユニフォーム",
     "reading": "ユニフォーム",
     "romaji": "ユニフォーム",
-    "meaning": "uniform"
+    "meaning": "uniform",
+    "vi": "đồng phục"
   },
   {
     "id": "n1-2497",
     "jp": "指差す",
     "reading": "ゆびさす",
     "romaji": "yubisasu",
-    "meaning": "to point at"
+    "meaning": "to point at",
+    "vi": "chỉ tay vào"
   },
   {
     "id": "n1-2498",
     "jp": "弓",
     "reading": "ゆみ",
     "romaji": "yumi",
-    "meaning": "bow"
+    "meaning": "bow",
+    "vi": "cung (vũ khí)"
   },
   {
     "id": "n1-2499",
     "jp": "揺らぐ",
     "reading": "ゆらぐ",
     "romaji": "yuragu",
-    "meaning": "to swing, to sway, to shake"
+    "meaning": "to swing, to sway, to shake",
+    "vi": "lung lay, dao động"
   },
   {
     "id": "n1-2500",
     "jp": "緩む",
     "reading": "ゆるむ",
     "romaji": "yurumu",
-    "meaning": "to become loose, to slacken"
+    "meaning": "to become loose, to slacken",
+    "vi": "trở nên lỏng lẻo, chùng xuống"
   },
   {
     "id": "n1-2501",
     "jp": "緩める",
     "reading": "ゆるめる",
     "romaji": "yurumeru",
-    "meaning": "to loosen, to slow down"
+    "meaning": "to loosen, to slow down",
+    "vi": "nới lỏng, làm chậm lại"
   },
   {
     "id": "n1-2502",
     "jp": "緩やか",
     "reading": "ゆるやか",
     "romaji": "yuruyaka",
-    "meaning": "lenient"
+    "meaning": "lenient",
+    "vi": "khoan dung, thoải mái, thoai thoải"
   },
   {
     "id": "n1-2503",
     "jp": "要因",
     "reading": "よういん",
     "romaji": "youin",
-    "meaning": "primary factor, main cause"
+    "meaning": "primary factor, main cause",
+    "vi": "nguyên nhân chính, yếu tố chủ chốt"
   },
   {
     "id": "n1-2504",
     "jp": "溶液",
     "reading": "ようえき",
     "romaji": "youeki",
-    "meaning": "solution"
+    "meaning": "solution",
+    "vi": "dung dịch"
   },
   {
     "id": "n1-2505",
     "jp": "用件",
     "reading": "ようけん",
     "romaji": "youken",
-    "meaning": "business"
+    "meaning": "business",
+    "vi": "việc cần làm, công việc"
   },
   {
     "id": "n1-2506",
     "jp": "養護",
     "reading": "ようご",
     "romaji": "yougo",
-    "meaning": "protection, nursing, protective care"
+    "meaning": "protection, nursing, protective care",
+    "vi": "bảo vệ, chăm sóc, nuôi dưỡng"
   },
   {
     "id": "n1-2507",
     "jp": "用紙",
     "reading": "ようし",
     "romaji": "youshi",
-    "meaning": "a form"
+    "meaning": "a form",
+    "vi": "tờ mẫu, giấy tờ (biểu mẫu)"
   },
   {
     "id": "n1-2508",
     "jp": "様式",
     "reading": "ようしき",
     "romaji": "youshiki",
-    "meaning": "style, form, pattern"
+    "meaning": "style, form, pattern",
+    "vi": "kiểu cách, hình thức"
   },
   {
     "id": "n1-2509",
     "jp": "要する",
     "reading": "ようする",
     "romaji": "yousuru",
-    "meaning": "to demand, to require, to take"
+    "meaning": "to demand, to require, to take",
+    "vi": "đòi hỏi, yêu cầu, cần đến"
   },
   {
     "id": "n1-2510",
     "jp": "要請",
     "reading": "ようせい",
     "romaji": "yousei",
-    "meaning": "claim, demand, request, application"
+    "meaning": "claim, demand, request, application",
+    "vi": "yêu cầu, thỉnh cầu, đề nghị"
   },
   {
     "id": "n1-2511",
     "jp": "様相",
     "reading": "ようそう",
     "romaji": "yousou",
-    "meaning": "aspect"
+    "meaning": "aspect",
+    "vi": "diện mạo, khía cạnh"
   },
   {
     "id": "n1-2512",
     "jp": "用品",
     "reading": "ようひん",
     "romaji": "youhin",
-    "meaning": "articles, supplies, parts"
+    "meaning": "articles, supplies, parts",
+    "vi": "vật dụng, đồ dùng"
   },
   {
     "id": "n1-2513",
     "jp": "洋風",
     "reading": "ようふう",
     "romaji": "youfuu",
-    "meaning": "western style"
+    "meaning": "western style",
+    "vi": "kiểu phương Tây"
   },
   {
     "id": "n1-2514",
     "jp": "用法",
     "reading": "ようほう",
     "romaji": "youhou",
-    "meaning": "directions, rules of use"
+    "meaning": "directions, rules of use",
+    "vi": "cách dùng, quy tắc sử dụng"
   },
   {
     "id": "n1-2515",
     "jp": "要望",
     "reading": "ようぼう",
     "romaji": "youbou",
-    "meaning": "demand for, request"
+    "meaning": "demand for, request",
+    "vi": "nguyện vọng, yêu cầu"
   },
   {
     "id": "n1-2516",
     "jp": "余暇",
     "reading": "よか",
     "romaji": "yoka",
-    "meaning": "leisure, leisure time, spare time"
+    "meaning": "leisure, leisure time, spare time",
+    "vi": "thời gian rảnh rỗi, nhàn rỗi"
   },
   {
     "id": "n1-2517",
     "jp": "予感",
     "reading": "よかん",
     "romaji": "yokan",
-    "meaning": "presentiment, premonition"
+    "meaning": "presentiment, premonition",
+    "vi": "linh cảm, dự cảm"
   },
   {
     "id": "n1-2518",
     "jp": "余興",
     "reading": "よきょう",
     "romaji": "yokyou",
-    "meaning": "side show, entertainment"
+    "meaning": "side show, entertainment",
+    "vi": "tiết mục giải trí phụ"
   },
   {
     "id": "n1-2519",
     "jp": "預金",
     "reading": "よきん",
     "romaji": "yokin",
-    "meaning": "deposit, bank account"
+    "meaning": "deposit, bank account",
+    "vi": "tiền gửi, tài khoản ngân hàng"
   },
   {
     "id": "n1-2520",
     "jp": "欲",
     "reading": "よく",
     "romaji": "yoku",
-    "meaning": "greed, wants"
+    "meaning": "greed, wants",
+    "vi": "lòng tham, ham muốn"
   },
   {
     "id": "n1-2521",
     "jp": "抑圧",
     "reading": "よくあつ",
     "romaji": "yokuatsu",
-    "meaning": "restraint, oppression, suppression"
+    "meaning": "restraint, oppression, suppression",
+    "vi": "kìm nén, áp bức, đàn áp"
   },
   {
     "id": "n1-2522",
     "jp": "浴室",
     "reading": "よくしつ",
     "romaji": "yokushitsu",
-    "meaning": "bathroom, bath"
+    "meaning": "bathroom, bath",
+    "vi": "phòng tắm"
   },
   {
     "id": "n1-2523",
     "jp": "抑制",
     "reading": "よくせい",
     "romaji": "yokusei",
-    "meaning": "control, restraint, suppression"
+    "meaning": "control, restraint, suppression",
+    "vi": "kiềm chế, kiểm soát, ức chế"
   },
   {
     "id": "n1-2524",
     "jp": "欲深い",
     "reading": "よくふかい",
     "romaji": "yokufukai",
-    "meaning": "greedy"
+    "meaning": "greedy",
+    "vi": "tham lam"
   },
   {
     "id": "n1-2525",
     "jp": "欲望",
     "reading": "よくぼう",
     "romaji": "yokubou",
-    "meaning": "desire, appetite"
+    "meaning": "desire, appetite",
+    "vi": "ham muốn, dục vọng"
   },
   {
     "id": "n1-2526",
     "jp": "避ける",
     "reading": "よける",
     "romaji": "yokeru",
-    "meaning": "to avoid (physical contact with; to ward off, to avert"
+    "meaning": "to avoid (physical contact with; to ward off, to avert",
+    "vi": "tránh né, né tránh, ngăn ngừa"
   },
   {
     "id": "n1-2527",
     "jp": "予言",
     "reading": "よげん",
     "romaji": "yogen",
-    "meaning": "prediction, promise, prognostication"
+    "meaning": "prediction, promise, prognostication",
+    "vi": "lời tiên tri, dự đoán"
   },
   {
     "id": "n1-2528",
     "jp": "横綱",
     "reading": "よこづな",
     "romaji": "yokozuna",
-    "meaning": "sumo grand champion"
+    "meaning": "sumo grand champion",
+    "vi": "đại lực sĩ sumo (yokozuna)"
   },
   {
     "id": "n1-2529",
     "jp": "汚れ",
     "reading": "よごれ",
     "romaji": "yogore",
-    "meaning": "dirt, filth"
+    "meaning": "dirt, filth",
+    "vi": "vết bẩn, sự dơ bẩn"
   },
   {
     "id": "n1-2530",
     "jp": "よし (かん)",
     "reading": "よし (かん)",
     "romaji": "yoshi (kan)",
-    "meaning": "all right!"
+    "meaning": "all right!",
+    "vi": "được rồi!"
   },
   {
     "id": "n1-2531",
     "jp": "良し",
     "reading": "よし",
     "romaji": "yoshi",
-    "meaning": "all right!"
+    "meaning": "all right!",
+    "vi": "được, tốt!"
   },
   {
     "id": "n1-2532",
     "jp": "善し悪し",
     "reading": "よしあし",
     "romaji": "yoshiashi",
-    "meaning": "good or bad, merits or demerits, quality"
+    "meaning": "good or bad, merits or demerits, quality",
+    "vi": "tốt xấu, ưu khuyết điểm"
   },
   {
     "id": "n1-2533",
     "jp": "余所見",
     "reading": "よそみ",
     "romaji": "yosomi",
-    "meaning": "looking away, looking aside"
+    "meaning": "looking away, looking aside",
+    "vi": "nhìn đi chỗ khác, không tập trung"
   },
   {
     "id": "n1-2534",
     "jp": "余地",
     "reading": "よち",
     "romaji": "yochi",
-    "meaning": "place, room, margin"
+    "meaning": "place, room, margin",
+    "vi": "chỗ trống, dư địa, khoảng trống"
   },
   {
     "id": "n1-2535",
     "jp": "よって (よりどころ)",
     "reading": "よって (よりどころ)",
     "romaji": "yotte (yoridokoro)",
-    "meaning": "therefore, consequently"
+    "meaning": "therefore, consequently",
+    "vi": "do đó, vì vậy"
   },
   {
     "id": "n1-2536",
     "jp": "与党",
     "reading": "よとう",
     "romaji": "yotou",
-    "meaning": "government party, (ruling) party in power, government"
+    "meaning": "government party, (ruling) party in power, government",
+    "vi": "đảng cầm quyền"
   },
   {
     "id": "n1-2537",
     "jp": "呼び止める",
     "reading": "よびとめる",
     "romaji": "yobitomeru",
-    "meaning": "to flag down"
+    "meaning": "to flag down",
+    "vi": "gọi dừng lại, chặn lại"
   },
   {
     "id": "n1-2538",
     "jp": "夜更し",
     "reading": "よふかし",
     "romaji": "yofukashi",
-    "meaning": "staying up late, keeping late hours"
+    "meaning": "staying up late, keeping late hours",
+    "vi": "thức khuya"
   },
   {
     "id": "n1-2539",
     "jp": "夜更け",
     "reading": "よふけ",
     "romaji": "yofuke",
-    "meaning": "late at night"
+    "meaning": "late at night",
+    "vi": "đêm khuya"
   },
   {
     "id": "n1-2540",
     "jp": "余程",
     "reading": "よほど",
     "romaji": "yohodo",
-    "meaning": "very, much, to a large extent, quite"
+    "meaning": "very, much, to a large extent, quite",
+    "vi": "rất, khá nhiều, đáng kể"
   },
   {
     "id": "n1-2541",
     "jp": "読み上げる",
     "reading": "よみあげる",
     "romaji": "yomiageru",
-    "meaning": "to read out loud (and clearly), to call a roll"
+    "meaning": "to read out loud (and clearly), to call a roll",
+    "vi": "đọc to lên, đọc điểm danh"
   },
   {
     "id": "n1-2542",
     "jp": "～寄り",
     "reading": "～より",
     "romaji": "～yori",
-    "meaning": "near to ~ (e.g., North by East)"
+    "meaning": "near to ~ (e.g., North by East)",
+    "vi": "gần về phía ~"
   },
   {
     "id": "n1-2543",
     "jp": "寄り掛かる",
     "reading": "よりかかる",
     "romaji": "yorikakaru",
-    "meaning": "to lean against, to recline on, to lean on, to rely on"
+    "meaning": "to lean against, to recline on, to lean on, to rely on",
+    "vi": "tựa vào, dựa vào"
   },
   {
     "id": "n1-2544",
     "jp": "世論",
     "reading": "よろん",
     "romaji": "yoron",
-    "meaning": "public opinion"
+    "meaning": "public opinion",
+    "vi": "dư luận, công luận"
   },
   {
     "id": "n1-2545",
     "jp": "弱る",
     "reading": "よわる",
     "romaji": "yowaru",
-    "meaning": "to weaken, to be troubled, to be emaciated"
+    "meaning": "to weaken, to be troubled, to be emaciated",
+    "vi": "suy yếu, gặp khó khăn, gầy yếu đi"
   },
   {
     "id": "n1-2546",
     "jp": "来場",
     "reading": "らいじょう",
     "romaji": "raijou",
-    "meaning": "attendance"
+    "meaning": "attendance",
+    "vi": "đến dự, có mặt (tại sự kiện)"
   },
   {
     "id": "n1-2547",
     "jp": "ライス",
     "reading": "ライス",
     "romaji": "ライス",
-    "meaning": "rice"
+    "meaning": "rice",
+    "vi": "cơm"
   },
   {
     "id": "n1-2548",
     "jp": "酪農",
     "reading": "らくのう",
     "romaji": "rakunou",
-    "meaning": "dairy farming"
+    "meaning": "dairy farming",
+    "vi": "chăn nuôi bò sữa"
   },
   {
     "id": "n1-2549",
     "jp": "落下",
     "reading": "らっか",
     "romaji": "rakka",
-    "meaning": "fall, drop, come down"
+    "meaning": "fall, drop, come down",
+    "vi": "rơi xuống, rớt xuống"
   },
   {
     "id": "n1-2550",
     "jp": "楽観",
     "reading": "らっかん",
     "romaji": "rakkan",
-    "meaning": "optimism"
+    "meaning": "optimism",
+    "vi": "sự lạc quan"
   },
   {
     "id": "n1-2551",
     "jp": "ランプ",
     "reading": "ランプ",
     "romaji": "ランプ",
-    "meaning": "lamp; ramp"
+    "meaning": "lamp; ramp",
+    "vi": "đèn; đường dốc"
   },
   {
     "id": "n1-2552",
     "jp": "濫用",
     "reading": "らんよう",
     "romaji": "ran'you",
-    "meaning": "abuse, misuse, using to excess"
+    "meaning": "abuse, misuse, using to excess",
+    "vi": "lạm dụng, sử dụng sai mục đích"
   },
   {
     "id": "n1-2553",
     "jp": "リード",
     "reading": "リード",
     "romaji": "リード",
-    "meaning": "lead; reed"
+    "meaning": "lead; reed",
+    "vi": "dẫn đầu; lưỡi gà (nhạc cụ)"
   },
   {
     "id": "n1-2554",
     "jp": "理屈",
     "reading": "りくつ",
     "romaji": "rikutsu",
-    "meaning": "theory, reason"
+    "meaning": "theory, reason",
+    "vi": "lý lẽ, lý thuyết"
   },
   {
     "id": "n1-2555",
     "jp": "利子",
     "reading": "りし",
     "romaji": "rishi",
-    "meaning": "interest (bank)"
+    "meaning": "interest (bank)",
+    "vi": "tiền lãi (ngân hàng)"
   },
   {
     "id": "n1-2556",
     "jp": "利潤",
     "reading": "りじゅん",
     "romaji": "rijun",
-    "meaning": "profit, returns"
+    "meaning": "profit, returns",
+    "vi": "lợi nhuận"
   },
   {
     "id": "n1-2557",
     "jp": "理性",
     "reading": "りせい",
     "romaji": "risei",
-    "meaning": "reason, sense"
+    "meaning": "reason, sense",
+    "vi": "lý trí"
   },
   {
     "id": "n1-2558",
     "jp": "利息",
     "reading": "りそく",
     "romaji": "risoku",
-    "meaning": "interest (bank)"
+    "meaning": "interest (bank)",
+    "vi": "tiền lãi (ngân hàng)"
   },
   {
     "id": "n1-2559",
     "jp": "立体",
     "reading": "りったい",
     "romaji": "rittai",
-    "meaning": "solid body"
+    "meaning": "solid body",
+    "vi": "khối lập thể, vật thể 3 chiều"
   },
   {
     "id": "n1-2560",
     "jp": "立方",
     "reading": "りっぽう",
     "romaji": "rippou",
-    "meaning": "cube"
+    "meaning": "cube",
+    "vi": "lập phương"
   },
   {
     "id": "n1-2561",
     "jp": "立法",
     "reading": "りっぽう",
     "romaji": "rippou",
-    "meaning": "legislation, lawmaking"
+    "meaning": "legislation, lawmaking",
+    "vi": "lập pháp"
   },
   {
     "id": "n1-2562",
     "jp": "利点",
     "reading": "りてん",
     "romaji": "riten",
-    "meaning": "advantage, point in favor"
+    "meaning": "advantage, point in favor",
+    "vi": "ưu điểm, điểm lợi"
   },
   {
     "id": "n1-2563",
     "jp": "略奪",
     "reading": "りゃくだつ",
     "romaji": "ryakudatsu",
-    "meaning": "pillage, looting, robbery"
+    "meaning": "pillage, looting, robbery",
+    "vi": "cướp bóc, cướp phá"
   },
   {
     "id": "n1-2564",
     "jp": "略語",
     "reading": "りゃくご",
     "romaji": "ryakugo",
-    "meaning": "abbreviation, acronym"
+    "meaning": "abbreviation, acronym",
+    "vi": "từ viết tắt"
   },
   {
     "id": "n1-2565",
     "jp": "流通",
     "reading": "りゅうつう",
     "romaji": "ryuutsuu",
-    "meaning": "circulation of money or goods, distribution"
+    "meaning": "circulation of money or goods, distribution",
+    "vi": "lưu thông (tiền, hàng hóa), phân phối"
   },
   {
     "id": "n1-2566",
     "jp": "領域",
     "reading": "りょういき",
     "romaji": "ryouiki",
-    "meaning": "area, territory, region"
+    "meaning": "area, territory, region",
+    "vi": "lãnh thổ, khu vực, phạm vi"
   },
   {
     "id": "n1-2567",
     "jp": "了解",
     "reading": "りょうかい",
     "romaji": "ryoukai",
-    "meaning": "comprehension, consent, understanding"
+    "meaning": "comprehension, consent, understanding",
+    "vi": "hiểu, đồng ý, thông hiểu"
   },
   {
     "id": "n1-2568",
     "jp": "領海",
     "reading": "りょうかい",
     "romaji": "ryoukai",
-    "meaning": "territorial waters"
+    "meaning": "territorial waters",
+    "vi": "lãnh hải"
   },
   {
     "id": "n1-2569",
     "jp": "両極",
     "reading": "りょうきょく",
     "romaji": "ryoukyoku",
-    "meaning": "both extremities, north and south poles"
+    "meaning": "both extremities, north and south poles",
+    "vi": "hai cực, Bắc Nam cực"
   },
   {
     "id": "n1-2570",
     "jp": "良好",
     "reading": "りょうこう",
     "romaji": "ryoukou",
-    "meaning": "favorable, satisfactory"
+    "meaning": "favorable, satisfactory",
+    "vi": "tốt, thuận lợi"
   },
   {
     "id": "n1-2571",
     "jp": "良識",
     "reading": "りょうしき",
     "romaji": "ryoushiki",
-    "meaning": "good sense"
+    "meaning": "good sense",
+    "vi": "lương tri, nhận thức đúng đắn"
   },
   {
     "id": "n1-2572",
     "jp": "良質",
     "reading": "りょうしつ",
     "romaji": "ryoushitsu",
-    "meaning": "good quality, superior quality"
+    "meaning": "good quality, superior quality",
+    "vi": "chất lượng tốt, chất lượng cao"
   },
   {
     "id": "n1-2573",
     "jp": "了承",
     "reading": "りょうしょう",
     "romaji": "ryoushou",
-    "meaning": "acknowledgment, understanding"
+    "meaning": "acknowledgment, understanding",
+    "vi": "chấp thuận, thông cảm"
   },
   {
     "id": "n1-2574",
     "jp": "良心",
     "reading": "りょうしん",
     "romaji": "ryoushin",
-    "meaning": "conscience"
+    "meaning": "conscience",
+    "vi": "lương tâm"
   },
   {
     "id": "n1-2575",
     "jp": "領地",
     "reading": "りょうち",
     "romaji": "ryouchi",
-    "meaning": "territory"
+    "meaning": "territory",
+    "vi": "lãnh địa"
   },
   {
     "id": "n1-2576",
     "jp": "領土",
     "reading": "りょうど",
     "romaji": "ryoudo",
-    "meaning": "territory, possession"
+    "meaning": "territory, possession",
+    "vi": "lãnh thổ"
   },
   {
     "id": "n1-2577",
     "jp": "両立",
     "reading": "りょうりつ",
     "romaji": "ryouritsu",
-    "meaning": "compatibility, coexistence, standing together"
+    "meaning": "compatibility, coexistence, standing together",
+    "vi": "song hành, cùng tồn tại, tương thích"
   },
   {
     "id": "n1-2578",
     "jp": "旅客",
     "reading": "りょかく",
     "romaji": "ryokaku",
-    "meaning": "passenger"
+    "meaning": "passenger",
+    "vi": "hành khách"
   },
   {
     "id": "n1-2579",
     "jp": "旅券",
     "reading": "りょけん",
     "romaji": "ryoken",
-    "meaning": "passport"
+    "meaning": "passport",
+    "vi": "hộ chiếu"
   },
   {
     "id": "n1-2580",
     "jp": "履歴",
     "reading": "りれき",
     "romaji": "rireki",
-    "meaning": "personal history, background, log"
+    "meaning": "personal history, background, log",
+    "vi": "lý lịch, tiểu sử, nhật ký"
   },
   {
     "id": "n1-2581",
     "jp": "理論",
     "reading": "りろん",
     "romaji": "riron",
-    "meaning": "theory"
+    "meaning": "theory",
+    "vi": "lý thuyết"
   },
   {
     "id": "n1-2582",
     "jp": "林業",
     "reading": "りんぎょう",
     "romaji": "ringyou",
-    "meaning": "forestry"
+    "meaning": "forestry",
+    "vi": "lâm nghiệp"
   },
   {
     "id": "n1-2583",
     "jp": "類",
     "reading": "るい",
     "romaji": "rui",
-    "meaning": "kind, class, family"
+    "meaning": "kind, class, family",
+    "vi": "loại, chủng loại, họ"
   },
   {
     "id": "n1-2584",
     "jp": "類推",
     "reading": "るいすい",
     "romaji": "ruisui",
-    "meaning": "analogy"
+    "meaning": "analogy",
+    "vi": "loại suy, suy luận tương tự"
   },
   {
     "id": "n1-2585",
     "jp": "類似",
     "reading": "るいじ",
     "romaji": "ruiji",
-    "meaning": "analogous"
+    "meaning": "analogous",
+    "vi": "tương tự, giống nhau"
   },
   {
     "id": "n1-2586",
     "jp": "ルーズ",
     "reading": "ルーズ",
     "romaji": "ルーズ",
-    "meaning": "loose"
+    "meaning": "loose",
+    "vi": "lỏng lẻo, xuề xòa"
   },
   {
     "id": "n1-2587",
     "jp": "冷酷",
     "reading": "れいこく",
     "romaji": "reikoku",
-    "meaning": "cruelty, coldheartedness, ruthless"
+    "meaning": "cruelty, coldheartedness, ruthless",
+    "vi": "tàn nhẫn, lạnh lùng"
   },
   {
     "id": "n1-2588",
     "jp": "冷蔵",
     "reading": "れいぞう",
     "romaji": "reizou",
-    "meaning": "refrigeration"
+    "meaning": "refrigeration",
+    "vi": "làm lạnh, ướp lạnh"
   },
   {
     "id": "n1-2589",
     "jp": "冷淡",
     "reading": "れいたん",
     "romaji": "reitan",
-    "meaning": "coolness, indifference"
+    "meaning": "coolness, indifference",
+    "vi": "lãnh đạm, thờ ơ"
   },
   {
     "id": "n1-2590",
     "jp": "レース",
     "reading": "レース",
     "romaji": "レース",
-    "meaning": "race; lace"
+    "meaning": "race; lace",
+    "vi": "cuộc đua; ren"
   },
   {
     "id": "n1-2591",
     "jp": "レギュラー",
     "reading": "レギュラー",
     "romaji": "レギュラー",
-    "meaning": "regular"
+    "meaning": "regular",
+    "vi": "chính thức, thường xuyên"
   },
   {
     "id": "n1-2592",
     "jp": "レッスン",
     "reading": "レッスン",
     "romaji": "レッスン",
-    "meaning": "lesson"
+    "meaning": "lesson",
+    "vi": "bài học"
   },
   {
     "id": "n1-2593",
     "jp": "レディー",
     "reading": "レディー",
     "romaji": "レディー",
-    "meaning": "lady"
+    "meaning": "lady",
+    "vi": "quý cô"
   },
   {
     "id": "n1-2594",
     "jp": "レバー",
     "reading": "レバー",
     "romaji": "レバー",
-    "meaning": "lever; liver"
+    "meaning": "lever; liver",
+    "vi": "cần gạt; gan"
   },
   {
     "id": "n1-2595",
     "jp": "恋愛",
     "reading": "れんあい",
     "romaji": "ren'ai",
-    "meaning": "love, romance"
+    "meaning": "love, romance",
+    "vi": "tình yêu"
   },
   {
     "id": "n1-2596",
     "jp": "バッテリー",
     "reading": "バッテリー",
     "romaji": "バッテリー",
-    "meaning": "battery"
+    "meaning": "battery",
+    "vi": "pin, ắc quy"
   },
   {
     "id": "n1-2597",
     "jp": "バット",
     "reading": "バット",
     "romaji": "バット",
-    "meaning": "bat, vat"
+    "meaning": "bat, vat",
+    "vi": "gậy đánh bóng chày; thùng chứa lớn"
   },
   {
     "id": "n1-2598",
     "jp": "発病",
     "reading": "はつびょう",
     "romaji": "hatsubyou",
-    "meaning": "attack, to become sick"
+    "meaning": "attack, to become sick",
+    "vi": "phát bệnh, đổ bệnh"
   },
   {
     "id": "n1-2599",
     "jp": "初耳",
     "reading": "はつみみ",
     "romaji": "hatsumimi",
-    "meaning": "something heard for the first time"
+    "meaning": "something heard for the first time",
+    "vi": "lần đầu nghe thấy, tin mới nghe"
   },
   {
     "id": "n1-2600",
     "jp": "果て",
     "reading": "はて",
     "romaji": "hate",
-    "meaning": "the end, the extremity, the limit(s)"
+    "meaning": "the end, the extremity, the limit(s)",
+    "vi": "điểm cuối, tận cùng, giới hạn"
   },
   {
     "id": "n1-2601",
     "jp": "果てる",
     "reading": "はてる",
     "romaji": "hateru",
-    "meaning": "to end, to be finished, to be exhausted"
+    "meaning": "to end, to be finished, to be exhausted",
+    "vi": "kết thúc, chấm dứt, kiệt sức"
   },
   {
     "id": "n1-2602",
     "jp": "ばてる",
     "reading": "ばてる",
     "romaji": "bateru",
-    "meaning": "to be exhausted, to be worn out"
+    "meaning": "to be exhausted, to be worn out",
+    "vi": "kiệt sức, mệt lử"
   },
   {
     "id": "n1-2603",
     "jp": "パトカー",
     "reading": "パトカー",
     "romaji": "パトカー",
-    "meaning": "patrol car"
+    "meaning": "patrol car",
+    "vi": "xe tuần tra"
   },
   {
     "id": "n1-2604",
     "jp": "甚だ",
     "reading": "はなはだ",
     "romaji": "hanahada",
-    "meaning": "very, greatly, exceedingly"
+    "meaning": "very, greatly, exceedingly",
+    "vi": "rất, vô cùng"
   },
   {
     "id": "n1-2605",
     "jp": "華々しい",
     "reading": "はなばなしい",
     "romaji": "hanabanashii",
-    "meaning": "brilliant, magnificent, spectacular"
+    "meaning": "brilliant, magnificent, spectacular",
+    "vi": "rực rỡ, hoành tráng, ngoạn mục"
   },
   {
     "id": "n1-2606",
     "jp": "花びら",
     "reading": "はなびら",
     "romaji": "hanabira",
-    "meaning": "(flower) petal"
+    "meaning": "(flower) petal",
+    "vi": "cánh hoa"
   },
   {
     "id": "n1-2607",
     "jp": "華やか",
     "reading": "はなやか",
     "romaji": "hanayaka",
-    "meaning": "brilliant, gorgeous, florid"
+    "meaning": "brilliant, gorgeous, florid",
+    "vi": "rực rỡ, lộng lẫy"
   },
   {
     "id": "n1-2608",
     "jp": "阻む",
     "reading": "はばむ",
     "romaji": "habamu",
-    "meaning": "to keep someone from doing, to stop, to oppose"
+    "meaning": "to keep someone from doing, to stop, to oppose",
+    "vi": "ngăn cản, cản trở, chống lại"
   },
   {
     "id": "n1-2609",
     "jp": "浜",
     "reading": "はま",
     "romaji": "hama",
-    "meaning": "beach, seashore"
+    "meaning": "beach, seashore",
+    "vi": "bãi biển"
   },
   {
     "id": "n1-2610",
     "jp": "浜辺",
     "reading": "はまべ",
     "romaji": "hamabe",
-    "meaning": "beach, foreshore"
+    "meaning": "beach, foreshore",
+    "vi": "bờ biển"
   },
   {
     "id": "n1-2611",
     "jp": "はまる",
     "reading": "はまる",
     "romaji": "hamaru",
-    "meaning": "to get into, to go into, to fit, to be fit for, to suit"
+    "meaning": "to get into, to go into, to fit, to be fit for, to suit",
+    "vi": "vừa khít, lọt vào, hợp với, mê mẩn (điều gì)"
   },
   {
     "id": "n1-2612",
     "jp": "早める",
     "reading": "はやめる",
     "romaji": "hayameru",
-    "meaning": "to hasten, to quicken, to accelerate"
+    "meaning": "to hasten, to quicken, to accelerate",
+    "vi": "đẩy nhanh, làm sớm hơn"
   },
   {
     "id": "n1-2613",
     "jp": "腹立ち",
     "reading": "はらだち",
     "romaji": "haradachi",
-    "meaning": "anger"
+    "meaning": "anger",
+    "vi": "sự tức giận"
   },
   {
     "id": "n1-2614",
     "jp": "原っぱ",
     "reading": "はらっぱ",
     "romaji": "harappa",
-    "meaning": "open field, empty lot, plain"
+    "meaning": "open field, empty lot, plain",
+    "vi": "bãi đất trống, cánh đồng hoang"
   },
   {
     "id": "n1-2615",
     "jp": "はらはら",
     "reading": "はらはら",
     "romaji": "harahara",
-    "meaning": "feel nervous"
+    "meaning": "feel nervous",
+    "vi": "hồi hộp, lo lắng"
   },
   {
     "id": "n1-2616",
     "jp": "ばらまく",
     "reading": "ばらまく",
     "romaji": "baramaku",
-    "meaning": "to disseminate, to scatter"
+    "meaning": "to disseminate, to scatter",
+    "vi": "rải ra, phát tán"
   },
   {
     "id": "n1-2617",
     "jp": "張り紙",
     "reading": "はりがみ",
     "romaji": "harigami",
-    "meaning": "notice, poster"
+    "meaning": "notice, poster",
+    "vi": "tờ thông báo, áp phích"
   },
   {
     "id": "n1-2618",
     "jp": "遥か",
     "reading": "はるか",
     "romaji": "haruka",
-    "meaning": "far, far-away, distant"
+    "meaning": "far, far-away, distant",
+    "vi": "xa xôi, xa xăm"
   },
   {
     "id": "n1-2619",
     "jp": "破裂",
     "reading": "はれつ",
     "romaji": "haretsu",
-    "meaning": "explosion, rupture, break off"
+    "meaning": "explosion, rupture, break off",
+    "vi": "vỡ tung, nổ, đứt gãy"
   },
   {
     "id": "n1-2620",
     "jp": "腫れる",
     "reading": "はれる",
     "romaji": "hareru",
-    "meaning": "to swell (from inflammation, to become swollen)"
+    "meaning": "to swell (from inflammation, to become swollen)",
+    "vi": "sưng lên (do viêm)"
   },
   {
     "id": "n1-2621",
     "jp": "繁栄",
     "reading": "はんえい",
     "romaji": "han'ei",
-    "meaning": "prospering, prosperity, flourishing"
+    "meaning": "prospering, prosperity, flourishing",
+    "vi": "thịnh vượng, phồn vinh"
   },
   {
     "id": "n1-2622",
     "jp": "版画",
     "reading": "はんが",
     "romaji": "hanga",
-    "meaning": "art print"
+    "meaning": "art print",
+    "vi": "tranh khắc gỗ, bản in nghệ thuật"
   },
   {
     "id": "n1-2623",
     "jp": "ハンガー",
     "reading": "ハンガー",
     "romaji": "ハンガー",
-    "meaning": "(coat) hanger"
+    "meaning": "(coat) hanger",
+    "vi": "móc áo"
   },
   {
     "id": "n1-2624",
     "jp": "反感",
     "reading": "はんかん",
     "romaji": "hankan",
-    "meaning": "antipathy, revolt, animosity"
+    "meaning": "antipathy, revolt, animosity",
+    "vi": "ác cảm, phản kháng"
   },
   {
     "id": "n1-2625",
     "jp": "反響",
     "reading": "はんきょう",
     "romaji": "hankyou",
-    "meaning": "echo, reverberation, repercussion"
+    "meaning": "echo, reverberation, repercussion",
+    "vi": "tiếng vang, dư âm, phản hồi"
   },
   {
     "id": "n1-2626",
     "jp": "パンク",
     "reading": "パンク",
     "romaji": "パンク",
-    "meaning": "puncture, bursting; punk"
+    "meaning": "puncture, bursting; punk",
+    "vi": "thủng lốp, nổ; nhạc punk"
   },
   {
     "id": "n1-2627",
     "jp": "反撃",
     "reading": "はんげき",
     "romaji": "hangeki",
-    "meaning": "counterattack, counteroffensive, counterblow"
+    "meaning": "counterattack, counteroffensive, counterblow",
+    "vi": "phản công"
   },
   {
     "id": "n1-2628",
     "jp": "判決",
     "reading": "はんけつ",
     "romaji": "hanketsu",
-    "meaning": "judicial decision, judgment, sentence, decree"
+    "meaning": "judicial decision, judgment, sentence, decree",
+    "vi": "phán quyết, bản án"
   },
   {
     "id": "n1-2629",
     "jp": "反射",
     "reading": "はんしゃ",
     "romaji": "hansha",
-    "meaning": "reflection, reverberation"
+    "meaning": "reflection, reverberation",
+    "vi": "phản xạ, dội lại"
   },
   {
     "id": "n1-2630",
     "jp": "繁盛",
     "reading": "はんじょう",
     "romaji": "hanjou",
-    "meaning": "prosperity, flourishing, thriving"
+    "meaning": "prosperity, flourishing, thriving",
+    "vi": "thịnh vượng, phát đạt"
   },
   {
     "id": "n1-2631",
     "jp": "繁殖",
     "reading": "はんしょく",
     "romaji": "hanshoku",
-    "meaning": "breed, multiply, propagation"
+    "meaning": "breed, multiply, propagation",
+    "vi": "sinh sản, nhân giống"
   },
   {
     "id": "n1-2632",
     "jp": "反する",
     "reading": "はんする",
     "romaji": "hansuru",
-    "meaning": "to be inconsistent with, to oppose, to contradict"
+    "meaning": "to be inconsistent with, to oppose, to contradict",
+    "vi": "trái ngược với, đối lập, mâu thuẫn"
   },
   {
     "id": "n1-2633",
     "jp": "判定",
     "reading": "はんてい",
     "romaji": "hantei",
-    "meaning": "judgment, decision, award, verdict"
+    "meaning": "judgment, decision, award, verdict",
+    "vi": "phán định, phán quyết"
   },
   {
     "id": "n1-2634",
     "jp": "万人",
     "reading": "ばんにん",
     "romaji": "bannin",
-    "meaning": "all people, everybody, 10000 people"
+    "meaning": "all people, everybody, 10000 people",
+    "vi": "mọi người, muôn người"
   },
   {
     "id": "n1-2635",
     "jp": "晩年",
     "reading": "ばんねん",
     "romaji": "bannen",
-    "meaning": "(one's) last years"
+    "meaning": "(one's) last years",
+    "vi": "những năm cuối đời"
   },
   {
     "id": "n1-2636",
     "jp": "反応",
     "reading": "はんのう",
     "romaji": "hannou",
-    "meaning": "reaction, response"
+    "meaning": "reaction, response",
+    "vi": "phản ứng, phản hồi"
   },
   {
     "id": "n1-2637",
     "jp": "万能",
     "reading": "ばんのう",
     "romaji": "bannou",
-    "meaning": "all-purpose, almighty, omnipotent"
+    "meaning": "all-purpose, almighty, omnipotent",
+    "vi": "vạn năng, toàn năng"
   },
   {
     "id": "n1-2638",
     "jp": "半端",
     "reading": "はんぱ",
     "romaji": "hanpa",
-    "meaning": "fragment, fraction, incompleteness"
+    "meaning": "fragment, fraction, incompleteness",
+    "vi": "dở dang, không trọn vẹn, lẻ"
   },
   {
     "id": "n1-2639",
     "jp": "反発",
     "reading": "はんぱつ",
     "romaji": "hanpatsu",
-    "meaning": "repelling, rebound, oppose"
+    "meaning": "repelling, rebound, oppose",
+    "vi": "phản đối, đẩy lùi, bật lại"
   },
   {
     "id": "n1-2640",
     "jp": "反乱",
     "reading": "はんらん",
     "romaji": "hanran",
-    "meaning": "rebellion, revolt, uprising"
+    "meaning": "rebellion, revolt, uprising",
+    "vi": "phản loạn, nổi dậy"
   },
   {
     "id": "n1-2641",
     "jp": "氾濫",
     "reading": "はんらん",
     "romaji": "hanran",
-    "meaning": "overflowing, flood"
+    "meaning": "overflowing, flood",
+    "vi": "tràn ngập, lũ lụt"
   },
   {
     "id": "n1-2642",
     "jp": "美",
     "reading": "び",
     "romaji": "bi",
-    "meaning": "beauty"
+    "meaning": "beauty",
+    "vi": "cái đẹp"
   },
   {
     "id": "n1-2643",
     "jp": "ひいては",
     "reading": "ひいては",
     "romaji": "hiiteha",
-    "meaning": "not only…but also, in addition to, consequently"
+    "meaning": "not only…but also, in addition to, consequently",
+    "vi": "hơn nữa, không những thế, và do đó"
   },
   {
     "id": "n1-2644",
     "jp": "ビールス",
     "reading": "ビールス",
     "romaji": "ビールス",
-    "meaning": "virus"
+    "meaning": "virus",
+    "vi": "vi-rút"
   },
   {
     "id": "n1-2645",
     "jp": "控室",
     "reading": "ひかえしつ",
     "romaji": "hikaeshitsu",
-    "meaning": "waiting room"
+    "meaning": "waiting room",
+    "vi": "phòng chờ"
   },
   {
     "id": "n1-2646",
     "jp": "控える",
     "reading": "ひかえる",
     "romaji": "hikaeru",
-    "meaning": "to hold back; to make notes"
+    "meaning": "to hold back; to make notes",
+    "vi": "kiềm chế, hạn chế; ghi chú"
   },
   {
     "id": "n1-2647",
     "jp": "悲観",
     "reading": "ひかん",
     "romaji": "hikan",
-    "meaning": "pessimism, disappointment"
+    "meaning": "pessimism, disappointment",
+    "vi": "bi quan, thất vọng"
   },
   {
     "id": "n1-2648",
     "jp": "引き上げる",
     "reading": "ひきあげる",
     "romaji": "hikiageru",
-    "meaning": "to withdraw, to leave, to pull out"
+    "meaning": "to withdraw, to leave, to pull out",
+    "vi": "rút lui, rút ra, kéo lên"
   },
   {
     "id": "n1-2649",
     "jp": "率いる",
     "reading": "ひきいる",
     "romaji": "hikiiru",
-    "meaning": "to lead, to spearhead (a group), to command (troops)"
+    "meaning": "to lead, to spearhead (a group), to command (troops)",
+    "vi": "dẫn dắt, chỉ huy"
   },
   {
     "id": "n1-2650",
     "jp": "引き起こす",
     "reading": "ひきおこす",
     "romaji": "hikiokosu",
-    "meaning": "to cause"
+    "meaning": "to cause",
+    "vi": "gây ra"
   },
   {
     "id": "n1-2651",
     "jp": "引下げる",
     "reading": "ひきさげる",
     "romaji": "hikisageru",
-    "meaning": "to pull down, to lower, to reduce, to withdraw"
+    "meaning": "to pull down, to lower, to reduce, to withdraw",
+    "vi": "kéo xuống, hạ thấp, giảm bớt, rút lại"
   },
   {
     "id": "n1-2652",
     "jp": "引きずる",
     "reading": "ひきずる",
     "romaji": "hikizuru",
-    "meaning": "to drag along, to pull, to prolong"
+    "meaning": "to drag along, to pull, to prolong",
+    "vi": "kéo lê, kéo dài"
   },
   {
     "id": "n1-2653",
     "jp": "引取る",
     "reading": "ひきとる",
     "romaji": "hikitoru",
-    "meaning": "to take back; to adopt; to leave"
+    "meaning": "to take back; to adopt; to leave",
+    "vi": "nhận lại, nhận nuôi, rời đi"
   },
   {
     "id": "n1-2654",
     "jp": "否決",
     "reading": "ひけつ",
     "romaji": "hiketsu",
-    "meaning": "rejection, negation, voting down"
+    "meaning": "rejection, negation, voting down",
+    "vi": "bác bỏ (bằng biểu quyết)"
   },
   {
     "id": "n1-2655",
     "jp": "日頃",
     "reading": "ひごろ",
     "romaji": "higoro",
-    "meaning": "normally, habitually"
+    "meaning": "normally, habitually",
+    "vi": "thường ngày, thường lệ"
   },
   {
     "id": "n1-2656",
     "jp": "久しい",
     "reading": "ひさしい",
     "romaji": "hisashii",
-    "meaning": "long, long-continued, old (story)"
+    "meaning": "long, long-continued, old (story)",
+    "vi": "đã lâu, kéo dài đã lâu"
   },
   {
     "id": "n1-2657",
     "jp": "悲惨",
     "reading": "ひさん",
     "romaji": "hisan",
-    "meaning": "tragedy, disaster; misery, wretched, pitiful"
+    "meaning": "tragedy, disaster; misery, wretched, pitiful",
+    "vi": "bi thảm, thảm khốc"
   },
   {
     "id": "n1-2658",
     "jp": "ビジネス",
     "reading": "ビジネス",
     "romaji": "ビジネス",
-    "meaning": "business"
+    "meaning": "business",
+    "vi": "kinh doanh"
   },
   {
     "id": "n1-2659",
     "jp": "比重",
     "reading": "ひじゅう",
     "romaji": "hijuu",
-    "meaning": "specific gravity"
+    "meaning": "specific gravity",
+    "vi": "tỷ trọng"
   },
   {
     "id": "n1-2660",
     "jp": "美術",
     "reading": "びじゅつ",
     "romaji": "bijutsu",
-    "meaning": "art, fine arts"
+    "meaning": "art, fine arts",
+    "vi": "mỹ thuật"
   },
   {
     "id": "n1-2661",
     "jp": "秘書",
     "reading": "ひしょ",
     "romaji": "hisho",
-    "meaning": "(private) secretary"
+    "meaning": "(private) secretary",
+    "vi": "thư ký (riêng)"
   },
   {
     "id": "n1-2662",
     "jp": "微笑",
     "reading": "びしょう",
     "romaji": "bishou",
-    "meaning": "smile"
+    "meaning": "smile",
+    "vi": "nụ cười"
   },
   {
     "id": "n1-2663",
     "jp": "歪む",
     "reading": "ひずむ",
     "romaji": "hizumu",
-    "meaning": "to warp, to be distorted"
+    "meaning": "to warp, to be distorted",
+    "vi": "bị méo mó, cong vênh"
   },
   {
     "id": "n1-2664",
     "jp": "密か",
     "reading": "ひそか",
     "romaji": "hisoka",
-    "meaning": "secret, private, surreptitious"
+    "meaning": "secret, private, surreptitious",
+    "vi": "bí mật, lén lút"
   },
   {
     "id": "n1-2665",
     "jp": "浸す",
     "reading": "ひたす",
     "romaji": "hitasu",
-    "meaning": "to soak, to dip, to drench"
+    "meaning": "to soak, to dip, to drench",
+    "vi": "ngâm, nhúng, làm ướt đẫm"
   },
   {
     "id": "n1-2666",
     "jp": "ひたすら",
     "reading": "ひたすら",
     "romaji": "hitasura",
-    "meaning": "nothing but, earnestly, intently"
+    "meaning": "nothing but, earnestly, intently",
+    "vi": "chỉ một mực, chuyên tâm, hết lòng"
   },
   {
     "id": "n1-2667",
     "jp": "左利き",
     "reading": "ひだりきき",
     "romaji": "hidarikiki",
-    "meaning": "left-handedness, sake drinker, left-hander"
+    "meaning": "left-handedness, sake drinker, left-hander",
+    "vi": "thuận tay trái; người thích uống rượu"
   },
   {
     "id": "n1-2668",
     "jp": "引っ掻く",
     "reading": "ひっかく",
     "romaji": "hikkaku",
-    "meaning": "to scratch"
+    "meaning": "to scratch",
+    "vi": "cào, gãi"
   },
   {
     "id": "n1-2669",
     "jp": "必修",
     "reading": "ひっしゅう",
     "romaji": "hisshuu",
-    "meaning": "required (subject)"
+    "meaning": "required (subject)",
+    "vi": "môn học bắt buộc"
   },
   {
     "id": "n1-2670",
     "jp": "びっしょり",
     "reading": "びっしょり",
     "romaji": "bisshori",
-    "meaning": "wet through, drenched"
+    "meaning": "wet through, drenched",
+    "vi": "ướt sũng, ướt đẫm"
   },
   {
     "id": "n1-2671",
     "jp": "必然",
     "reading": "ひつぜん",
     "romaji": "hitsuzen",
-    "meaning": "inevitable, necessary"
+    "meaning": "inevitable, necessary",
+    "vi": "tất yếu, tất nhiên"
   },
   {
     "id": "n1-2672",
     "jp": "匹敵",
     "reading": "ひってき",
     "romaji": "hitteki",
-    "meaning": "comparing with, rival, equal"
+    "meaning": "comparing with, rival, equal",
+    "vi": "sánh ngang, ngang hàng"
   },
   {
     "id": "n1-2673",
     "jp": "一息",
     "reading": "ひといき",
     "romaji": "hitoiki",
-    "meaning": "a breath, a pause, an effort"
+    "meaning": "a breath, a pause, an effort",
+    "vi": "một hơi thở, một lúc nghỉ, một nỗ lực"
   },
   {
     "id": "n1-2674",
     "jp": "人影",
     "reading": "ひとかげ",
     "romaji": "hitokage",
-    "meaning": "man's shadow, soul"
+    "meaning": "man's shadow, soul",
+    "vi": "bóng người"
   },
   {
     "id": "n1-2675",
     "jp": "人柄",
     "reading": "ひとがら",
     "romaji": "hitogara",
-    "meaning": "personality, character"
+    "meaning": "personality, character",
+    "vi": "nhân cách, tính cách"
   },
   {
     "id": "n1-2676",
     "jp": "人気",
     "reading": "ひとけ",
     "romaji": "hitoke",
-    "meaning": "sign of life"
+    "meaning": "sign of life",
+    "vi": "dấu hiệu có người, hơi người"
   },
   {
     "id": "n1-2677",
     "jp": "一頃",
     "reading": "ひところ",
     "romaji": "hitokoro",
-    "meaning": "once, some time ago"
+    "meaning": "once, some time ago",
+    "vi": "một dạo, trước đây"
   },
   {
     "id": "n1-2678",
     "jp": "人質",
     "reading": "ひとじち",
     "romaji": "hitojichi",
-    "meaning": "hostage"
+    "meaning": "hostage",
+    "vi": "con tin"
   },
   {
     "id": "n1-2679",
     "jp": "一筋",
     "reading": "ひとすじ",
     "romaji": "hitosuji",
-    "meaning": "a line, earnestly, blindly, straightforwardly"
+    "meaning": "a line, earnestly, blindly, straightforwardly",
+    "vi": "một đường thẳng; chuyên nhất, một lòng"
   },
   {
     "id": "n1-2680",
     "jp": "人目",
     "reading": "ひとめ",
     "romaji": "hitome",
-    "meaning": "glimpse, public gaze"
+    "meaning": "glimpse, public gaze",
+    "vi": "ánh mắt người khác, sự chú ý của mọi người"
   },
   {
     "id": "n1-2681",
     "jp": "日取り",
     "reading": "ひどり",
     "romaji": "hidori",
-    "meaning": "fixed date, appointed day"
+    "meaning": "fixed date, appointed day",
+    "vi": "ngày ấn định"
   },
   {
     "id": "n1-2682",
     "jp": "雛",
     "reading": "ひな",
     "romaji": "hina",
-    "meaning": "young bird, chick, doll"
+    "meaning": "young bird, chick, doll",
+    "vi": "chim non, gà con; búp bê"
   },
   {
     "id": "n1-2683",
     "jp": "雛祭",
     "reading": "ひなまつり",
     "romaji": "hinamatsuri",
-    "meaning": "Girls' (dolls') Festival"
+    "meaning": "Girls' (dolls') Festival",
+    "vi": "lễ hội búp bê (Hinamatsuri)"
   },
   {
     "id": "n1-2684",
     "jp": "日向",
     "reading": "ひなた",
     "romaji": "hinata",
-    "meaning": "sunny place, in the sun"
+    "meaning": "sunny place, in the sun",
+    "vi": "chỗ có nắng, ngoài nắng"
   },
   {
     "id": "n1-2685",
     "jp": "非難",
     "reading": "ひなん",
     "romaji": "hinan",
-    "meaning": "blame, attack, criticism"
+    "meaning": "blame, attack, criticism",
+    "vi": "chỉ trích, phê phán"
   },
   {
     "id": "n1-2686",
     "jp": "避難",
     "reading": "ひなん",
     "romaji": "hinan",
-    "meaning": "taking refuge, finding shelter"
+    "meaning": "taking refuge, finding shelter",
+    "vi": "lánh nạn, trú ẩn"
   },
   {
     "id": "n1-2687",
     "jp": "日の丸",
     "reading": "ひのまる",
     "romaji": "hinomaru",
-    "meaning": "the Japanese flag"
+    "meaning": "the Japanese flag",
+    "vi": "quốc kỳ Nhật Bản"
   },
   {
     "id": "n1-2688",
     "jp": "火花",
     "reading": "ひばな",
     "romaji": "hibana",
-    "meaning": "spark"
+    "meaning": "spark",
+    "vi": "tia lửa"
   },
   {
     "id": "n1-2689",
     "jp": "ひび (かべの～)",
     "reading": "ひび (かべの～)",
     "romaji": "hibi (kabeno～)",
-    "meaning": "crack, fissure, flaw"
+    "meaning": "crack, fissure, flaw",
+    "vi": "vết nứt (trên tường)"
   },
   {
     "id": "n1-2690",
     "jp": "悲鳴",
     "reading": "ひめい",
     "romaji": "himei",
-    "meaning": "shriek, scream"
+    "meaning": "shriek, scream",
+    "vi": "tiếng thét, tiếng la hét"
   },
   {
     "id": "n1-2691",
     "jp": "冷やかす",
     "reading": "ひやかす",
     "romaji": "hiyakasu",
-    "meaning": "to banter, to make fun of, to jeer at, to cool, to refrigerate"
+    "meaning": "to banter, to make fun of, to jeer at, to cool, to refrigerate",
+    "vi": "trêu chọc, giễu cợt; làm mát, làm lạnh"
   },
   {
     "id": "n1-2692",
     "jp": "日焼け",
     "reading": "ひやけ",
     "romaji": "hiyake",
-    "meaning": "sunburn"
+    "meaning": "sunburn",
+    "vi": "cháy nắng, rám nắng"
   },
   {
     "id": "n1-2693",
     "jp": "標語",
     "reading": "ひょうご",
     "romaji": "hyougo",
-    "meaning": "motto, slogan, catchword"
+    "meaning": "motto, slogan, catchword",
+    "vi": "khẩu hiệu, phương châm"
   },
   {
     "id": "n1-2694",
     "jp": "描写",
     "reading": "びょうしゃ",
     "romaji": "byousha",
-    "meaning": "depiction, description, portrayal"
+    "meaning": "depiction, description, portrayal",
+    "vi": "miêu tả, khắc họa"
   },
   {
     "id": "n1-2695",
     "jp": "ひょっと",
     "reading": "ひょっと",
     "romaji": "hyotto",
-    "meaning": "possibly, accidentally"
+    "meaning": "possibly, accidentally",
+    "vi": "có thể, tình cờ"
   },
   {
     "id": "n1-2696",
     "jp": "びら",
     "reading": "びら",
     "romaji": "bira",
-    "meaning": "handout, leaflet"
+    "meaning": "handout, leaflet",
+    "vi": "tờ rơi"
   },
   {
     "id": "n1-2697",
     "jp": "平たい",
     "reading": "ひらたい",
     "romaji": "hiratai",
-    "meaning": "flat, even, level"
+    "meaning": "flat, even, level",
+    "vi": "phẳng, bằng phẳng"
   },
   {
     "id": "n1-2698",
     "jp": "びり",
     "reading": "びり",
     "romaji": "biri",
-    "meaning": "last on the list, at the bottom"
+    "meaning": "last on the list, at the bottom",
+    "vi": "hạng chót, cuối bảng"
   },
   {
     "id": "n1-2699",
     "jp": "比率",
     "reading": "ひりつ",
     "romaji": "hiritsu",
-    "meaning": "ratio, proportion, percentage"
+    "meaning": "ratio, proportion, percentage",
+    "vi": "tỷ lệ, tỷ suất"
   }
 ]
