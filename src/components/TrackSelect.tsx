@@ -61,21 +61,7 @@ export default function TrackSelect({ onSelect }: TrackSelectProps) {
                 },
               }}
             >
-              <div
-                style={{
-                  fontSize: 20,
-                  fontWeight: 800,
-                  color: "#fff",
-                  background: "#7aa7d9",
-                  width: 44,
-                  height: 44,
-                  lineHeight: "44px",
-                  borderRadius: "50%",
-                  margin: "0 auto 8px",
-                }}
-              >
-                En
-              </div>
+              <div style={{ fontSize: 32, marginBottom: 8 }}>🇬🇧</div>
               <div style={{ fontSize: 20, fontWeight: 700, color: "#7aa7d9", marginBottom: 6 }}>
                 {t("trackSelect.englishTitle")}
               </div>

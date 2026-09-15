@@ -13,6 +13,29 @@ interface AlphabetTableProps {
 
 const KANA_GROUPS: KanaGroup[] = ['basic', 'dakuten', 'handakuten', 'yoon']
 
+// Each kana group is made up of consecutive "rows" (a/i/u/e/o style), always
+// in the same fixed order the data files declare them in. Chunking by these
+// sizes groups characters the way learners actually study them (a, ka, sa...)
+// instead of an arbitrary number of characters per line.
+const ROW_SIZES: Record<KanaGroup, number[]> = {
+  basic: [5, 5, 5, 5, 5, 5, 5, 3, 5, 3],
+  dakuten: [5, 5, 5, 5],
+  handakuten: [5],
+  yoon: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+}
+
+function chunkIntoRows<T>(items: T[], group: KanaGroup): T[][] {
+  const sizes = ROW_SIZES[group]
+  const rows: T[][] = []
+  let offset = 0
+  for (const size of sizes) {
+    rows.push(items.slice(offset, offset + size))
+    offset += size
+  }
+  if (offset < items.length) rows.push(items.slice(offset))
+  return rows.filter((row) => row.length > 0)
+}
+
 export default function AlphabetTable({ set, onBack }: AlphabetTableProps) {
   const { t } = useTranslation()
   const accent = set === 'hiragana' ? '#7aa7d9' : set === 'katakana' ? '#7ad9a3' : '#d9a97a'
@@ -74,15 +97,25 @@ export default function AlphabetTable({ set, onBack }: AlphabetTableProps) {
         KANA_GROUPS.map((group) => {
           const chars = (set === 'hiragana' ? HIRAGANA : KATAKANA).filter((c) => c.group === group)
           if (chars.length === 0) return null
+          const rows = chunkIntoRows(chars, group)
           return (
             <div key={group} style={{ marginBottom: 20 }}>
-              <Text style={{ display: 'block', color: '#8a97a3', marginBottom: 8, fontWeight: 600 }}>
+              <Text style={{ display: 'block', color: '#8a97a3', marginBottom: 10, fontWeight: 600 }}>
                 {t(`japanese.alphabetTable.group.${group}`)}
               </Text>
-              <Row gutter={[10, 10]}>
-                {chars.map((c) => (
-                  <Col xs={6} sm={4} key={c.char}>
+              {rows.map((row) => (
+                <div
+                  key={row[0].char}
+                  style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    gap: 10,
+                    marginBottom: 10,
+                  }}
+                >
+                  {row.map((c) => (
                     <Card
+                      key={c.char}
                       hoverable
                       onClick={() => speak(c.char, 'ja-JP')}
                       style={{
@@ -90,15 +123,19 @@ export default function AlphabetTable({ set, onBack }: AlphabetTableProps) {
                         textAlign: 'center',
                         border: `1px solid ${accent}33`,
                         cursor: 'pointer',
+                        width: 'calc(20% - 8px)',
+                        minWidth: 60,
+                        flexGrow: 0,
+                        flexShrink: 0,
                       }}
                       styles={{ body: { padding: '12px 4px' } }}
                     >
                       <div style={{ fontSize: 26, fontWeight: 700, color: '#3d4954' }}>{c.char}</div>
                       <Text style={{ color: '#a3adb6', fontSize: 12 }}>{c.romaji}</Text>
                     </Card>
-                  </Col>
-                ))}
-              </Row>
+                  ))}
+                </div>
+              ))}
             </div>
           )
         })
