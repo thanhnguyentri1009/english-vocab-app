@@ -134,6 +134,8 @@
     "englishSubtitle": "Từ vựng, ngữ pháp và luyện nói",
     "japaneseTitle": "日本語 (Tiếng Nhật)",
     "japaneseSubtitle": "Hiragana, katakana, kanji và từ vựng theo cấp độ JLPT",
+    "chineseTitle": "中文 (Tiếng Trung)",
+    "chineseSubtitle": "Bính âm, thanh điệu và từ vựng HSK",
     "switchTrack": "Đổi"
   },
   "japanese": {
@@ -212,6 +214,75 @@
       "levelOverviewBack": "← Tổng quan cấp độ",
       "questionCounter": "Câu {{current}} / {{total}}",
       "prompt": "Từ tiếng Nhật của nghĩa này là gì?"
+    }
+  },
+  "chinese": {
+    "tabs": {
+      "pinyin": "Bính âm",
+      "vocabulary": "Từ vựng"
+    },
+    "pinyinSelect": {
+      "title": "Hệ thống Bính âm",
+      "subtitle": "Chọn một phần để khám phá",
+      "initials": "Thanh mẫu (声母)",
+      "initialsSubtitle": "Các âm phụ âm đầu",
+      "finals": "Vận mẫu (韵母)",
+      "finalsSubtitle": "Các âm vần/nguyên âm",
+      "tones": "Thanh điệu (声调)",
+      "tonesSubtitle": "Bốn thanh và thanh nhẹ"
+    },
+    "pinyinChart": {
+      "back": "← Bính âm",
+      "tapToListen": "Chạm vào để nghe phát âm"
+    },
+    "levelSelect": {
+      "title": "Từ vựng tiếng Trung",
+      "subtitle": "Chọn cấp độ HSK để bắt đầu học từ mới"
+    },
+    "levelDetail": {
+      "allLevels": "Tất cả cấp độ",
+      "wordsLearned": "Đã học {{learned}} / {{total}} từ",
+      "completeMessage": "🎉 Bạn đã học hết tất cả từ ở cấp độ này!",
+      "wordsPerRound": "Số từ mỗi lượt",
+      "continueLearning": "Tiếp tục học",
+      "startLearning": "Bắt đầu học",
+      "reviewLearned": "Ôn tập từ đã học",
+      "viewLearnedWords": "Xem từ đã học ({{count}})",
+      "modalTitle": "Từ bạn đã học — {{title}}",
+      "searchPlaceholder": "Tìm từ...",
+      "noSearchResults": "Không tìm thấy từ nào phù hợp"
+    },
+    "wordLearn": {
+      "levelOverview": "← Tổng quan cấp độ",
+      "wordCounter": "Từ {{current}} / {{total}}",
+      "listen": "Nghe",
+      "tapToTranslate": "(Chạm vào thẻ để xem nghĩa)",
+      "back": "Quay lại",
+      "startQuiz": "Bắt đầu kiểm tra",
+      "nextWord": "Từ tiếp theo"
+    },
+    "quiz": {
+      "scored": "Bạn đạt {{score}}/{{total}} điểm",
+      "masteredSingle": "Tuyệt vời! Bạn đã nắm vững từ này.",
+      "masteredPlural": "Tuyệt vời! Bạn đã nắm vững {{count}} từ này.",
+      "reviewMissed": "Xem lại những từ bạn đã sai và thử lại.",
+      "learnNewWords": "Học từ mới",
+      "levelOverview": "Tổng quan cấp độ",
+      "wordsMissed": "Từ bạn đã sai ({{count}})",
+      "levelOverviewBack": "← Tổng quan cấp độ",
+      "questionCounter": "Câu {{current}} / {{total}}",
+      "prompt": "Từ tiếng Trung của nghĩa này là gì?"
+    },
+    "review": {
+      "scored": "Bạn đạt {{score}}/{{total}} điểm",
+      "perfect": "Tuyệt vời! Bạn đã thuộc hết những từ này.",
+      "tryAgainMessage": "Ôn tập thêm một lượt nữa với những từ bạn đã sai.",
+      "reviewAgain": "Ôn tập lại",
+      "levelOverview": "Tổng quan cấp độ",
+      "wordsMissed": "Từ bạn đã sai ({{count}})",
+      "levelOverviewBack": "← Tổng quan cấp độ",
+      "questionCounter": "Câu {{current}} / {{total}}",
+      "prompt": "Từ tiếng Trung của nghĩa này là gì?"
     }
   },
   "exerciseQuiz": {

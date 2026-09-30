@@ -1,4 +1,4 @@
-export type LearningTrack = 'english' | 'japanese'
+export type LearningTrack = 'english' | 'japanese' | 'chinese'
 
 const STORAGE_KEY = 'learning-track'
 
@@ -7,7 +7,7 @@ const STORAGE_KEY = 'learning-track'
 export function getLearningTrack(): LearningTrack | null {
   try {
     const stored = localStorage.getItem(STORAGE_KEY)
-    if (stored === 'english' || stored === 'japanese') return stored
+    if (stored === 'english' || stored === 'japanese' || stored === 'chinese') return stored
   } catch {
     // localStorage may be unavailable
   }

@@ -6,30 +6,43 @@ import LanguageSwitcher from "./components/LanguageSwitcher";
 import SyncCodeGate from "./components/SyncCodeGate";
 import TrackSelect from "./components/TrackSelect";
 import TrackSwitcher from "./components/TrackSwitcher";
+import ChineseApp from "./components/chinese/ChineseApp";
 import EnglishApp from "./components/english/EnglishApp";
 import JapaneseApp from "./components/japanese/JapaneseApp";
 import { signOutAccount } from "./utils/account";
-import { clearSyncCode, getSyncCode, getSyncLabel, setSyncCode } from "./utils/syncCode";
 import {
   clearLearningTrack,
   getLearningTrack,
   setLearningTrack,
   type LearningTrack,
 } from "./utils/learningTrack";
+import {
+  clearSyncCode,
+  getSyncCode,
+  getSyncLabel,
+  setSyncCode,
+} from "./utils/syncCode";
 
 const baseTheme = {
   algorithm: theme.defaultAlgorithm,
   token: {
     colorPrimary: "#7aa7d9",
-    fontFamily: "'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif",
+    fontFamily:
+      "'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif",
     borderRadius: 12,
   },
 };
 
 function App() {
-  const [track, setTrackState] = useState<LearningTrack | null>(() => getLearningTrack());
-  const [syncCode, setSyncCodeState] = useState<string | null>(() => getSyncCode());
-  const [syncLabel, setSyncLabelState] = useState<string | null>(() => getSyncLabel());
+  const [track, setTrackState] = useState<LearningTrack | null>(() =>
+    getLearningTrack(),
+  );
+  const [syncCode, setSyncCodeState] = useState<string | null>(() =>
+    getSyncCode(),
+  );
+  const [syncLabel, setSyncLabelState] = useState<string | null>(() =>
+    getSyncLabel(),
+  );
 
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
@@ -64,6 +77,17 @@ function App() {
         </ConfigProvider>
       ) : track === "japanese" ? (
         <JapaneseApp
+          syncCode={syncCode}
+          displayName={syncLabel ?? syncCode}
+          onSwitchAccount={() => {
+            clearSyncCode();
+            setSyncCodeState(null);
+            setSyncLabelState(null);
+            void signOutAccount();
+          }}
+        />
+      ) : track === "chinese" ? (
+        <ChineseApp
           syncCode={syncCode}
           displayName={syncLabel ?? syncCode}
           onSwitchAccount={() => {

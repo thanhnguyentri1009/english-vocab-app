@@ -134,6 +134,8 @@
     "englishSubtitle": "Vocabulary, grammar, and speaking practice",
     "japaneseTitle": "日本語 (Japanese)",
     "japaneseSubtitle": "Hiragana, katakana, kanji, and JLPT vocabulary",
+    "chineseTitle": "中文 (Chinese)",
+    "chineseSubtitle": "Pinyin, tones, and HSK vocabulary",
     "switchTrack": "Switch"
   },
   "japanese": {
@@ -212,6 +214,75 @@
       "levelOverviewBack": "← Level overview",
       "questionCounter": "Question {{current}} / {{total}}",
       "prompt": "What is the Japanese word for this meaning?"
+    }
+  },
+  "chinese": {
+    "tabs": {
+      "pinyin": "Pinyin",
+      "vocabulary": "Vocabulary"
+    },
+    "pinyinSelect": {
+      "title": "Pinyin System",
+      "subtitle": "Choose a section to explore",
+      "initials": "Initials (声母)",
+      "initialsSubtitle": "The consonant sounds",
+      "finals": "Finals (韵母)",
+      "finalsSubtitle": "The vowel sounds",
+      "tones": "Tones (声调)",
+      "tonesSubtitle": "The four tones and neutral tone"
+    },
+    "pinyinChart": {
+      "back": "← Pinyin",
+      "tapToListen": "Tap a character to hear it"
+    },
+    "levelSelect": {
+      "title": "Chinese Vocabulary",
+      "subtitle": "Pick an HSK level to start learning words"
+    },
+    "levelDetail": {
+      "allLevels": "All levels",
+      "wordsLearned": "{{learned}} / {{total}} words learned",
+      "completeMessage": "🎉 You've learned every word in this level!",
+      "wordsPerRound": "Words per round",
+      "continueLearning": "Continue learning",
+      "startLearning": "Start learning",
+      "reviewLearned": "Review learned words",
+      "viewLearnedWords": "View learned words ({{count}})",
+      "modalTitle": "Words you've learned — {{title}}",
+      "searchPlaceholder": "Search words...",
+      "noSearchResults": "No matching words found"
+    },
+    "wordLearn": {
+      "levelOverview": "← Level overview",
+      "wordCounter": "Word {{current}} / {{total}}",
+      "listen": "Listen",
+      "tapToTranslate": "(Tap the card to see the meaning)",
+      "back": "Back",
+      "startQuiz": "Start the quiz",
+      "nextWord": "Next word"
+    },
+    "quiz": {
+      "scored": "You scored {{score}}/{{total}}",
+      "masteredSingle": "Great job! You have mastered this word.",
+      "masteredPlural": "Great job! You have mastered these {{count}} words.",
+      "reviewMissed": "Review the words you missed and try again.",
+      "learnNewWords": "Learn new words",
+      "levelOverview": "Level overview",
+      "wordsMissed": "Words you missed ({{count}})",
+      "levelOverviewBack": "← Level overview",
+      "questionCounter": "Question {{current}} / {{total}}",
+      "prompt": "What is the Chinese word for this meaning?"
+    },
+    "review": {
+      "scored": "You scored {{score}}/{{total}}",
+      "perfect": "Perfect! You know all these words.",
+      "tryAgainMessage": "Take another round to review the ones you missed.",
+      "reviewAgain": "Review again",
+      "levelOverview": "Level overview",
+      "wordsMissed": "Words you missed ({{count}})",
+      "levelOverviewBack": "← Level overview",
+      "questionCounter": "Question {{current}} / {{total}}",
+      "prompt": "What is the Chinese word for this meaning?"
     }
   },
   "exerciseQuiz": {

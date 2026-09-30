@@ -97,6 +97,35 @@ export default function TrackSelect({ onSelect }: TrackSelectProps) {
               <Text style={{ color: "#6b7580" }}>{t("trackSelect.japaneseSubtitle")}</Text>
             </Card>
           </Col>
+          <Col xs={24} sm={12} style={{ display: "flex" }}>
+            <Card
+              hoverable
+              onClick={() => onSelect("chinese")}
+              style={{
+                textAlign: "center",
+                borderRadius: 16,
+                background: "#fef3ea",
+                border: "1px solid #e8826a33",
+                boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
+                width: "100%",
+              }}
+              styles={{
+                body: {
+                  padding: "28px 16px",
+                  height: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                },
+              }}
+            >
+              <div style={{ fontSize: 32, marginBottom: 8 }}>🇨🇳</div>
+              <div style={{ fontSize: 20, fontWeight: 700, color: "#e8826a", marginBottom: 6 }}>
+                {t("trackSelect.chineseTitle")}
+              </div>
+              <Text style={{ color: "#6b7580" }}>{t("trackSelect.chineseSubtitle")}</Text>
+            </Card>
+          </Col>
         </Row>
       </div>
     </div>

@@ -1,0 +1,349 @@
+import { ConfigProvider, theme } from "antd";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { useLocation, useNavigate } from "react-router-dom";
+import ChineseLevelDetail from "./ChineseLevelDetail";
+import ChineseQuiz from "./ChineseQuiz";
+import ChineseReview from "./ChineseReview";
+import ChineseWordLearn from "./ChineseWordLearn";
+import PinyinSelect, { type PinyinSet } from "./PinyinSelect";
+import PinyinChart from "./PinyinChart";
+import LevelSelect from "../LevelSelect";
+import { CHINESE_LEVELS } from "../../data/chinese/levels";
+import { CHINESE_VOCABULARY } from "../../data/chinese/vocabulary";
+import type { HskLevel } from "../../data/chinese/types";
+import {
+  loadChineseProgress,
+  pushChineseRemoteProgress,
+  saveChineseProgress,
+  subscribeChineseRemoteProgress,
+  type ChineseProgressState,
+} from "../../utils/chinese/progress";
+
+const DEFAULT_BATCH_SIZE = 6;
+const PINYIN_SETS: PinyinSet[] = ["initials", "finals", "tones"];
+
+type ChineseStage =
+  | "pinyinSelect"
+  | "pinyinChart"
+  | "vocabLevelSelect"
+  | "vocabLevelDetail"
+  | "vocabLearn"
+  | "vocabQuiz"
+  | "vocabReview";
+
+interface ChineseAppProps {
+  syncCode: string;
+  displayName: string;
+  onSwitchAccount: () => void;
+}
+
+export default function ChineseApp({ syncCode, displayName, onSwitchAccount }: ChineseAppProps) {
+  const { t } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // location.pathname is "/zh[/...]" — segments here are everything after "zh".
+  const allSegments = location.pathname.split("/").filter(Boolean);
+  const segments = allSegments[0] === "zh" ? allSegments.slice(1) : [];
+
+  const section = segments[0]; // undefined | 'pinyin' | 'vocabulary'
+  const pinyinSetKey = section === "pinyin" ? (segments[1] as PinyinSet | undefined) : undefined;
+  const pinyinSet = pinyinSetKey && PINYIN_SETS.includes(pinyinSetKey) ? pinyinSetKey : null;
+
+  const rawLevel = section === "vocabulary" ? segments[1] : undefined;
+  const matchedLevel = rawLevel
+    ? CHINESE_LEVELS.find((l) => l.key.toLowerCase() === rawLevel.toLowerCase())
+    : undefined;
+  const levelKey = (matchedLevel?.key ?? null) as HskLevel | null;
+  const subRoute = section === "vocabulary" ? segments[2] : undefined;
+
+  const stage: ChineseStage =
+    section === "pinyin"
+      ? pinyinSet
+        ? "pinyinChart"
+        : "pinyinSelect"
+      : section === "vocabulary"
+        ? !levelKey
+          ? "vocabLevelSelect"
+          : subRoute === "quiz"
+            ? "vocabQuiz"
+            : subRoute === "learn"
+              ? "vocabLearn"
+              : subRoute === "review"
+                ? "vocabReview"
+                : "vocabLevelDetail"
+        : "pinyinSelect";
+
+  const activeTab: "pinyin" | "vocabulary" = section === "vocabulary" ? "vocabulary" : "pinyin";
+  const showTabBar = stage === "pinyinSelect" || stage === "vocabLevelSelect";
+
+  // Redirect unknown routes back to a sane place within /zh.
+  useEffect(() => {
+    if (section === "pinyin" && segments[1] && !pinyinSet) {
+      navigate("/zh/pinyin", { replace: true });
+    } else if (section === "vocabulary" && segments[1] && !levelKey) {
+      navigate("/zh/vocabulary", { replace: true });
+    } else if (section && section !== "pinyin" && section !== "vocabulary") {
+      navigate("/zh", { replace: true });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [section, segments[1], pinyinSet, levelKey]);
+
+  const [progress, setProgress] = useState<ChineseProgressState>(() => loadChineseProgress(syncCode));
+  const [batchSize, setBatchSize] = useState(() => progress.batchSize ?? DEFAULT_BATCH_SIZE);
+
+  const appliedRemoteRef = useRef(false);
+  const autoResumedRef = useRef(false);
+  const remoteSyncedRef = useRef(false);
+
+  useEffect(() => {
+    saveChineseProgress(syncCode, progress);
+  }, [syncCode, progress]);
+
+  useEffect(() => {
+    remoteSyncedRef.current = false;
+    const unsubscribe = subscribeChineseRemoteProgress(syncCode, (remoteState) => {
+      remoteSyncedRef.current = true;
+      setProgress((current) => {
+        const remoteTime = remoteState.updatedAt ?? 0;
+        const localTime = current.updatedAt ?? 0;
+        if (remoteTime < localTime) {
+          pushChineseRemoteProgress(syncCode, current);
+          return current;
+        }
+        if (!appliedRemoteRef.current) {
+          appliedRemoteRef.current = true;
+          if (remoteState.batchSize) setBatchSize(remoteState.batchSize);
+        }
+        return remoteState;
+      });
+    });
+    return unsubscribe;
+  }, [syncCode]);
+
+  // Resuming a saved vocabulary session only applies at the /zh root.
+  useEffect(() => {
+    if (autoResumedRef.current) return;
+    if (location.pathname !== "/zh") return;
+    const session = progress.session;
+    if (!session) return;
+    autoResumedRef.current = true;
+    const suffix =
+      session.screen === "learn" ? "/learn" : session.screen === "quiz" ? "/quiz" : "";
+    navigate(`/zh/vocabulary/${session.level.toLowerCase()}${suffix}`, { replace: true });
+  }, [progress.session, location.pathname, navigate]);
+
+  const level = levelKey ? CHINESE_LEVELS.find((l) => l.key === levelKey) : undefined;
+  const pool = levelKey ? CHINESE_VOCABULARY[levelKey] ?? [] : [];
+  const learnedWords = (levelKey && progress.learnedWords[levelKey]) || [];
+  const resumeWordIndex =
+    levelKey && progress.session?.level === levelKey ? progress.session.wordIndex : 0;
+
+  const learnedSet = useMemo(() => new Set(learnedWords), [learnedWords]);
+  const batch = useMemo(() => {
+    if (!pool.length) return [];
+    return pool.filter((w) => !learnedSet.has(w.id)).slice(0, batchSize);
+  }, [pool, learnedSet, batchSize]);
+  const reviewWords = useMemo(() => pool.filter((w) => learnedSet.has(w.id)), [pool, learnedSet]);
+
+  const updateProgress = (updater: (p: ChineseProgressState) => ChineseProgressState) => {
+    setProgress((prev) => {
+      const next = { ...updater(prev), updatedAt: Date.now() };
+      saveChineseProgress(syncCode, next);
+      if (remoteSyncedRef.current) {
+        pushChineseRemoteProgress(syncCode, next);
+      }
+      return next;
+    });
+  };
+
+  const persistSession = (session: ChineseProgressState["session"]) => {
+    updateProgress((p) => ({ ...p, session }));
+  };
+
+  const handleChangeBatchSize = (size: number) => {
+    setBatchSize(size);
+    updateProgress((p) => ({ ...p, batchSize: size }));
+  };
+
+  const handleSelectLevel = (key: string) => {
+    const wordIndex = progress.session?.level === key ? progress.session.wordIndex : 0;
+    navigate(`/zh/vocabulary/${key.toLowerCase()}`);
+    persistSession({ level: key as HskLevel, screen: "levelDetail", wordIndex });
+  };
+
+  const handleBackToLevels = () => {
+    navigate("/zh/vocabulary");
+    updateProgress((p) => ({ ...p, session: undefined }));
+  };
+
+  const handleBackToDetail = () => {
+    if (!levelKey) return;
+    navigate(`/zh/vocabulary/${levelKey.toLowerCase()}`);
+    persistSession({ level: levelKey, screen: "levelDetail", wordIndex: resumeWordIndex });
+  };
+
+  const handleContinueLearning = () => {
+    if (!levelKey) return;
+    navigate(`/zh/vocabulary/${levelKey.toLowerCase()}/learn`);
+    persistSession({ level: levelKey, screen: "learn", wordIndex: resumeWordIndex });
+  };
+
+  const handleWordIndexChange = (wordIndex: number) => {
+    if (!levelKey) return;
+    persistSession({ level: levelKey, screen: "learn", wordIndex });
+  };
+
+  const handleFinishLearn = () => {
+    if (!levelKey) return;
+    navigate(`/zh/vocabulary/${levelKey.toLowerCase()}/quiz`);
+    persistSession({ level: levelKey, screen: "quiz", wordIndex: 0 });
+  };
+
+  const handleQuizComplete = () => {
+    if (!levelKey) return;
+    const updatedSet = new Set(progress.learnedWords[levelKey] ?? []);
+    batch.forEach((w) => updatedSet.add(w.id));
+    const updatedLearnedWords = Array.from(updatedSet);
+    updateProgress((p) => ({
+      ...p,
+      learnedWords: { ...p.learnedWords, [levelKey]: updatedLearnedWords },
+      session: { level: levelKey, screen: "quiz", wordIndex: 0 },
+    }));
+  };
+
+  const handleNextBatch = () => {
+    if (!levelKey) return;
+    navigate(`/zh/vocabulary/${levelKey.toLowerCase()}/learn`);
+    persistSession({ level: levelKey, screen: "learn", wordIndex: 0 });
+  };
+
+  const handleStartReview = () => {
+    if (!levelKey) return;
+    navigate(`/zh/vocabulary/${levelKey.toLowerCase()}/review`);
+  };
+
+  const handleBackFromReview = () => {
+    if (!levelKey) return;
+    navigate(`/zh/vocabulary/${levelKey.toLowerCase()}`);
+  };
+
+  return (
+    <ConfigProvider
+      theme={{
+        algorithm: theme.defaultAlgorithm,
+        token: {
+          colorPrimary: level?.accent || "#e8826a",
+          fontFamily: "'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif",
+          borderRadius: 12,
+        },
+      }}
+    >
+    <div style={{ minHeight: "100vh", background: "linear-gradient(180deg, #f4f7fb 0%, #fbfcfe 220px)" }}>
+      {showTabBar && (
+        <ChineseTabBar
+          active={activeTab}
+          onChange={(tab) => navigate(tab === "pinyin" ? "/zh/pinyin" : "/zh/vocabulary")}
+        />
+      )}
+
+      {stage === "pinyinSelect" && (
+        <PinyinSelect onSelect={(set) => navigate(`/zh/pinyin/${set}`)} />
+      )}
+      {stage === "pinyinChart" && pinyinSet && (
+        <PinyinChart set={pinyinSet} onBack={() => navigate("/zh/pinyin")} />
+      )}
+      {stage === "vocabLevelSelect" && (
+        <LevelSelect
+          topicTitle={t("chinese.levelSelect.title")}
+          topicSubtitle={t("chinese.levelSelect.subtitle")}
+          levels={CHINESE_LEVELS}
+          vocabulary={CHINESE_VOCABULARY}
+          onSelect={handleSelectLevel}
+          learnedWords={progress.learnedWords}
+          syncCode={displayName}
+          onSwitchAccount={onSwitchAccount}
+          onBackToTopics={() => navigate("/zh/pinyin")}
+        />
+      )}
+      {stage === "vocabLevelDetail" && level && (
+        <ChineseLevelDetail
+          level={level}
+          pool={pool}
+          learnedWords={learnedWords}
+          batchSize={batchSize}
+          onChangeBatchSize={handleChangeBatchSize}
+          onContinue={handleContinueLearning}
+          onReview={handleStartReview}
+          onBack={handleBackToLevels}
+        />
+      )}
+      {stage === "vocabLearn" && level && (
+        <ChineseWordLearn
+          words={batch}
+          accent={level.accent}
+          initialIndex={resumeWordIndex}
+          onIndexChange={handleWordIndexChange}
+          onFinish={handleFinishLearn}
+          onBack={handleBackToDetail}
+        />
+      )}
+      {stage === "vocabQuiz" && level && (
+        <ChineseQuiz
+          words={batch}
+          pool={pool}
+          accent={level.accent}
+          onComplete={handleQuizComplete}
+          onDone={handleNextBatch}
+          onBack={handleBackToDetail}
+        />
+      )}
+      {stage === "vocabReview" && level && (
+        <ChineseReview words={reviewWords} pool={pool} accent={level.accent} onBack={handleBackFromReview} />
+      )}
+    </div>
+    </ConfigProvider>
+  );
+}
+
+function ChineseTabBar({
+  active,
+  onChange,
+}: {
+  active: "pinyin" | "vocabulary";
+  onChange: (tab: "pinyin" | "vocabulary") => void;
+}) {
+  const { t } = useTranslation();
+  const tabs: { key: "pinyin" | "vocabulary"; labelKey: string }[] = [
+    { key: "pinyin", labelKey: "chinese.tabs.pinyin" },
+    { key: "vocabulary", labelKey: "chinese.tabs.vocabulary" },
+  ];
+  return (
+    <div style={{ display: "flex", justifyContent: "center", padding: "20px 16px 0", gap: 4 }}>
+      {tabs.map((tab) => {
+        const isActive = tab.key === active;
+        return (
+          <button
+            key={tab.key}
+            onClick={() => onChange(tab.key)}
+            style={{
+              padding: "8px 20px",
+              borderRadius: 999,
+              border: "none",
+              background: isActive ? "#e8826a" : "rgba(0,0,0,0.06)",
+              color: isActive ? "#fff" : "#6b7a8a",
+              fontWeight: isActive ? 600 : 400,
+              fontSize: 14,
+              cursor: "pointer",
+              fontFamily: "inherit",
+              transition: "all 0.15s",
+            }}
+          >
+            {t(tab.labelKey)}
+          </button>
+        );
+      })}
+    </div>
+  );
+}

@@ -31,7 +31,7 @@ export default function TrackSwitcher({ track, onSwitch }: TrackSwitcherProps) {
         gap: 6,
       }}
     >
-      <span>{track === "japanese" ? "🇯🇵" : "🇬🇧"}</span>
+      <span>{track === "japanese" ? "🇯🇵" : track === "chinese" ? "🇨🇳" : "🇬🇧"}</span>
       <span>{t("trackSelect.switchTrack")}</span>
     </button>
   );
