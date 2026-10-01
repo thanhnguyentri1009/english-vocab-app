@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react'
 import { Button, Empty, Input, List, Modal, Progress, Segmented, Space, Typography } from 'antd'
-import { LeftOutlined, ReloadOutlined, SearchOutlined, UnorderedListOutlined } from '@ant-design/icons'
+import { LeftOutlined, ReloadOutlined, SearchOutlined, SoundOutlined, UnorderedListOutlined } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
+import { speak } from '../../utils/speech'
 import type { ChineseWord } from '../../data/chinese/types'
 import type { LevelInfo } from '../../data/english/vocabulary/topics'
 
@@ -155,9 +156,18 @@ export default function ChineseLevelDetail({
             renderItem={(word) => (
               <List.Item>
                 <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
-                  <Text strong>
-                    {word.zh} <Text type="secondary">{word.pinyin}</Text>
-                  </Text>
+                  <Space size={4}>
+                    <Button
+                      type="text"
+                      size="small"
+                      icon={<SoundOutlined />}
+                      onClick={() => speak(word.zh, 'zh-CN')}
+                      style={{ color: level.accent }}
+                    />
+                    <Text strong>
+                      {word.zh} <Text type="secondary">{word.pinyin}</Text>
+                    </Text>
+                  </Space>
                   <Text style={{ color: '#8a97a3' }}>{isVietnamese ? word.vi : word.meaning}</Text>
                 </Space>
               </List.Item>
