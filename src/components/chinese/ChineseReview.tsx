@@ -38,7 +38,8 @@ interface ChineseReviewProps {
 // Practice mode: reshuffles the learned words into a fresh question order
 // every round and never persists score, mistakes, or position anywhere.
 export default function ChineseReview({ words, pool, accent, onBack }: ChineseReviewProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const isVietnamese = i18n.language.startsWith('vi')
   const [round, setRound] = useState(0)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const questions = useMemo(() => buildQuestions(words, pool), [words, pool, round])
@@ -143,7 +144,7 @@ export default function ChineseReview({ words, pool, accent, onBack }: ChineseRe
                 <List.Item>
                   <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
                     <Text strong>{word.zh}</Text>
-                    <Text style={{ color: '#8a97a3' }}>{word.meaning}</Text>
+                    <Text style={{ color: '#8a97a3' }}>{isVietnamese ? word.vi : word.meaning}</Text>
                   </Space>
                 </List.Item>
               )}
@@ -199,7 +200,7 @@ export default function ChineseReview({ words, pool, accent, onBack }: ChineseRe
             wordBreak: 'break-word',
           }}
         >
-          {question.word.meaning}
+          {isVietnamese ? question.word.vi : question.word.meaning}
         </Title>
       </Card>
 

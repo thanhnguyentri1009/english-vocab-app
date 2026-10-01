@@ -30,7 +30,8 @@ export default function ChineseLevelDetail({
   onReview,
   onBack,
 }: ChineseLevelDetailProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const isVietnamese = i18n.language.startsWith('vi')
   const [showLearned, setShowLearned] = useState(false)
   const [searchText, setSearchText] = useState('')
   const learnedSet = new Set(learnedWords)
@@ -45,7 +46,8 @@ export default function ChineseLevelDetail({
       (w) =>
         w.zh.toLowerCase().includes(query) ||
         w.pinyin.toLowerCase().includes(query) ||
-        w.meaning.toLowerCase().includes(query),
+        w.meaning.toLowerCase().includes(query) ||
+        w.vi.toLowerCase().includes(query),
     )
   }, [learnedEntries, searchText])
 
@@ -156,7 +158,7 @@ export default function ChineseLevelDetail({
                   <Text strong>
                     {word.zh} <Text type="secondary">{word.pinyin}</Text>
                   </Text>
-                  <Text style={{ color: '#8a97a3' }}>{word.meaning}</Text>
+                  <Text style={{ color: '#8a97a3' }}>{isVietnamese ? word.vi : word.meaning}</Text>
                 </Space>
               </List.Item>
             )}

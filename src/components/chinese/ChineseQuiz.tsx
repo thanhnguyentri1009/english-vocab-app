@@ -38,7 +38,8 @@ interface ChineseQuizProps {
 }
 
 export default function ChineseQuiz({ words, pool, accent, onComplete, onDone, onBack }: ChineseQuizProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const isVietnamese = i18n.language.startsWith('vi')
   const questions = useMemo(() => buildQuestions(words, pool), [words, pool])
   const [step, setStep] = useState(0)
   const [selected, setSelected] = useState<ChineseWord | null>(null)
@@ -134,7 +135,7 @@ export default function ChineseQuiz({ words, pool, accent, onComplete, onDone, o
                 <List.Item>
                   <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
                     <Text strong>{word.zh}</Text>
-                    <Text style={{ color: '#8a97a3' }}>{word.meaning}</Text>
+                    <Text style={{ color: '#8a97a3' }}>{isVietnamese ? word.vi : word.meaning}</Text>
                   </Space>
                 </List.Item>
               )}
@@ -190,7 +191,7 @@ export default function ChineseQuiz({ words, pool, accent, onComplete, onDone, o
             wordBreak: 'break-word',
           }}
         >
-          {question.word.meaning}
+          {isVietnamese ? question.word.vi : question.word.meaning}
         </Title>
       </Card>
 
