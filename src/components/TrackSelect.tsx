@@ -1,8 +1,8 @@
-import { Card, Col, Row, Typography } from "antd";
+import { ArrowRightOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
 import type { LearningTrack } from "../utils/learningTrack";
-
-const { Title, Text } = Typography;
+import { TRACKS } from "./AppHeader";
+import PageHeader from "./PageHeader";
 
 interface TrackSelectProps {
   onSelect: (track: LearningTrack) => void;
@@ -11,122 +11,31 @@ interface TrackSelectProps {
 export default function TrackSelect({ onSelect }: TrackSelectProps) {
   const { t } = useTranslation();
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: 16,
-        background: "linear-gradient(180deg, #eaf3ff 0%, #fbfcfe 220px)",
-      }}
-    >
-      <div style={{ maxWidth: 520, width: "100%" }}>
-        <Title
-          level={3}
-          style={{ textAlign: "center", color: "#5b6b7a", marginTop: 0 }}
-        >
-          {t("trackSelect.title")}
-        </Title>
-        <Text
-          style={{
-            display: "block",
-            textAlign: "center",
-            marginBottom: 24,
-            color: "#8a97a3",
-          }}
-        >
-          {t("trackSelect.subtitle")}
-        </Text>
-        <Row gutter={[16, 16]} justify="center" align="stretch">
-          <Col xs={24} sm={12} style={{ display: "flex" }}>
-            <Card
-              hoverable
-              onClick={() => onSelect("english")}
-              style={{
-                textAlign: "center",
-                borderRadius: 16,
-                background: "#eaf3ff",
-                border: "1px solid #7aa7d933",
-                boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
-                width: "100%",
-              }}
-              styles={{
-                body: {
-                  padding: "28px 16px",
-                  height: "100%",
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                },
-              }}
-            >
-              <div style={{ fontSize: 32, marginBottom: 8 }}>🇬🇧</div>
-              <div style={{ fontSize: 20, fontWeight: 700, color: "#7aa7d9", marginBottom: 6 }}>
-                {t("trackSelect.englishTitle")}
-              </div>
-              <Text style={{ color: "#6b7580" }}>{t("trackSelect.englishSubtitle")}</Text>
-            </Card>
-          </Col>
-          <Col xs={24} sm={12} style={{ display: "flex" }}>
-            <Card
-              hoverable
-              onClick={() => onSelect("japanese")}
-              style={{
-                textAlign: "center",
-                borderRadius: 16,
-                background: "#fdeaf0",
-                border: "1px solid #d97aa033",
-                boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
-                width: "100%",
-              }}
-              styles={{
-                body: {
-                  padding: "28px 16px",
-                  height: "100%",
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                },
-              }}
-            >
-              <div style={{ fontSize: 32, marginBottom: 8 }}>🇯🇵</div>
-              <div style={{ fontSize: 20, fontWeight: 700, color: "#d97aa0", marginBottom: 6 }}>
-                {t("trackSelect.japaneseTitle")}
-              </div>
-              <Text style={{ color: "#6b7580" }}>{t("trackSelect.japaneseSubtitle")}</Text>
-            </Card>
-          </Col>
-          <Col xs={24} sm={12} style={{ display: "flex" }}>
-            <Card
-              hoverable
-              onClick={() => onSelect("chinese")}
-              style={{
-                textAlign: "center",
-                borderRadius: 16,
-                background: "#fef3ea",
-                border: "1px solid #e8826a33",
-                boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
-                width: "100%",
-              }}
-              styles={{
-                body: {
-                  padding: "28px 16px",
-                  height: "100%",
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                },
-              }}
-            >
-              <div style={{ fontSize: 32, marginBottom: 8 }}>🇨🇳</div>
-              <div style={{ fontSize: 20, fontWeight: 700, color: "#e8826a", marginBottom: 6 }}>
-                {t("trackSelect.chineseTitle")}
-              </div>
-              <Text style={{ color: "#6b7580" }}>{t("trackSelect.chineseSubtitle")}</Text>
-            </Card>
-          </Col>
-        </Row>
+    <div className="page page-wide" style={{ paddingTop: "clamp(40px, 10vh, 112px)" }}>
+      <PageHeader
+        eyebrow={t("eyebrow.welcome")}
+        title={t("trackSelect.title")}
+        subtitle={t("trackSelect.subtitle")}
+      />
+      <div className="choice-grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
+        {TRACKS.map((track) => (
+          <button
+            key={track.key}
+            type="button"
+            className="choice"
+            style={{ minHeight: 240, padding: 24 }}
+            onClick={() => onSelect(track.key)}
+          >
+            <span className="choice-glyph" lang={track.lang}>
+              {track.glyph}
+            </span>
+            <span className="choice-title">{t(track.titleKey)}</span>
+            <span className="choice-sub">{t(`trackSelect.${track.key}Subtitle`)}</span>
+            <span className="choice-meta" style={{ color: "var(--ink)", fontWeight: 500 }}>
+              {t("trackSelect.start")} <ArrowRightOutlined style={{ fontSize: 12 }} />
+            </span>
+          </button>
+        ))}
       </div>
     </div>
   );

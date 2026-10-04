@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState, type ReactNode } from 'react'
-import { Button, Card, Typography, Row, Col, Progress, Space, Result, List } from 'antd'
-import { CheckCircleFilled, CloseCircleFilled } from '@ant-design/icons'
+import { useEffect, useMemo, useState } from 'react'
+import { Button } from 'antd'
+import { ReloadOutlined } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
+import { useHotkeys } from '../../hooks/useHotkeys'
+import { KeyHint, QuizOption, QuizPrompt, QuizResult, SessionBar, optionState } from '../ui/Session'
 import type { VocabularyWord } from '../../data/english/vocabulary'
 
-const { Title, Text } = Typography
 
 interface Question {
   word: VocabularyWord
@@ -31,13 +32,13 @@ function buildQuestions(words: VocabularyWord[], pool: VocabularyWord[]): Questi
 interface ReviewProps {
   words: VocabularyWord[]
   pool: VocabularyWord[]
-  accent: string
+  accent?: string
   onBack: () => void
 }
 
 // Practice mode: reshuffles the learned words into a fresh question order
 // every round and never persists score, mistakes, or position anywhere.
-export default function Review({ words, pool, accent, onBack }: ReviewProps) {
+export default function Review({ words, pool, onBack }: ReviewProps) {
   const { t } = useTranslation()
   const [round, setRound] = useState(0)
   // `round` is a deliberate cache-buster so "Review again" reshuffles.
@@ -101,157 +102,91 @@ export default function Review({ words, pool, accent, onBack }: ReviewProps) {
     setFinished(false)
   }
 
+  // 1–4 picks the matching option.
+  useHotkeys(
+    Object.fromEntries(
+      (question?.options ?? []).map((option, i) => [String(i + 1), () => choose(option)]),
+    ),
+    !finished,
+  )
+
   if (questions.length === 0) {
     return (
-      <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
-        <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
-          {t('review.levelOverviewBack')}
-        </Button>
+      <div className="session">
+        <SessionBar current={0} total={0} onExit={onBack} exitLabel={t('review.levelOverviewBack')} />
       </div>
     )
   }
 
   if (finished) {
     return (
-      <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
-        <Result
-          status={score === questions.length ? 'success' : 'info'}
+      <div className="session">
+        <QuizResult
+          score={score}
+          total={questions.length}
           title={t('review.scored', { score, total: questions.length })}
-          subTitle={score === questions.length ? t('review.perfect') : t('review.tryAgainMessage')}
-          extra={[
-            <Button
-              key="again"
-              type="primary"
-              style={{ background: accent, borderColor: accent }}
-              onClick={restart}
-            >
-              {t('review.reviewAgain')}
-            </Button>,
-            <Button key="back" onClick={onBack}>
-              {t('review.levelOverview')}
-            </Button>,
-          ]}
+          subtitle={
+            score === questions.length ? t('review.perfect') : t('review.tryAgainMessage')
+          }
+          actions={
+            <>
+              <Button type="primary" size="large" icon={<ReloadOutlined />} onClick={restart}>
+                {t('review.reviewAgain')}
+              </Button>
+              <Button size="large" onClick={onBack}>
+                {t('review.levelOverview')}
+              </Button>
+            </>
+          }
+          missedTitle={t('review.wordsMissed', { count: missedWords.length })}
+          missed={missedWords.map((word) => ({
+            key: word.en,
+            primary: word.en,
+            secondary: word.vi,
+            lang: 'en',
+          }))}
         />
-        {missedWords.length > 0 && (
-          <Card
-            title={t('review.wordsMissed', { count: missedWords.length })}
-            style={{ borderRadius: 16, marginTop: 8 }}
-          >
-            <List
-              size="small"
-              dataSource={missedWords}
-              renderItem={(word) => (
-                <List.Item>
-                  <Space style={{ justifyContent: 'space-between', width: '100%' }} wrap>
-                    <Text strong>{word.en}</Text>
-                    <Text style={{ color: '#8a97a3' }}>{word.vi}</Text>
-                  </Space>
-                </List.Item>
-              )}
-            />
-          </Card>
-        )}
       </div>
     )
   }
 
   return (
-    <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
-      <Space
-        style={{
-          width: '100%',
-          justifyContent: 'space-between',
-          marginBottom: 16,
-          flexWrap: 'wrap',
-          rowGap: 8,
-        }}
-      >
-        <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
-          {t('review.levelOverviewBack')}
-        </Button>
-        <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
-          {t('review.questionCounter', { current: step + 1, total: questions.length })}
-        </Text>
-      </Space>
-      <Progress
-        percent={((step + 1) / questions.length) * 100}
-        showInfo={false}
-        strokeColor={accent}
-        style={{ marginBottom: 24 }}
+    <div className="session">
+      <SessionBar
+        current={step + 1}
+        total={questions.length}
+        onExit={onBack}
+        exitLabel={t('review.levelOverviewBack')}
       />
 
-      <Card
-        style={{
-          borderRadius: 20,
-          textAlign: 'center',
-          background: '#fff',
-          border: `1px solid ${accent}33`,
-          boxShadow: '0 4px 16px rgba(0,0,0,0.05)',
-          marginBottom: 24,
-        }}
-      >
-        <Text style={{ color: '#8a97a3' }}>{t('review.prompt')}</Text>
-        <Title
-          level={2}
-          style={{
-            margin: '8px 0 0',
-            color: '#3d4954',
-            fontSize: 'clamp(22px, 6vw, 32px)',
-            wordBreak: 'break-word',
-          }}
-        >
-          {question.word.vi}
-        </Title>
-      </Card>
+      <QuizPrompt label={t('review.prompt')}>{question.word.vi}</QuizPrompt>
 
-      <Row gutter={[16, 16]}>
-        {question.options.map((option) => {
-          const isCorrect = option.en === question.word.en
+      <div className="quiz-options">
+        {question.options.map((option, optionIndex) => {
           const isFlashingWrong = flashWrong === option.en
           const isPermanentlyWrong = !isFlashingWrong && wrongOptions.has(option.en)
-          const isDisabled = Boolean(selected) || isFlashingWrong || isPermanentlyWrong
-          let background = '#fff'
-          let borderColor = '#e5e9ed'
-          let icon: ReactNode = null
-          if (selected && isCorrect) {
-            background = '#f0fbf4'
-            borderColor = '#7ad9a3'
-            icon = <CheckCircleFilled style={{ color: '#52c47f' }} />
-          } else if (isFlashingWrong) {
-            background = '#fff3f0'
-            borderColor = '#e88'
-            icon = <CloseCircleFilled style={{ color: '#e26a5a' }} />
-          } else if (isPermanentlyWrong) {
-            background = '#f5f5f5'
-            borderColor = '#e5e9ed'
-            icon = <CloseCircleFilled style={{ color: '#c7ccd1' }} />
-          }
           return (
-            <Col xs={24} sm={12} key={option.en}>
-              <Card
-                hoverable={!isDisabled}
-                onClick={() => choose(option)}
-                style={{
-                  borderRadius: 14,
-                  textAlign: 'center',
-                  background,
-                  border: `1.5px solid ${borderColor}`,
-                  cursor: isDisabled ? 'default' : 'pointer',
-                  opacity: isPermanentlyWrong ? 0.7 : 1,
-                }}
-                styles={{ body: { padding: '16px 8px' } }}
-              >
-                <Space wrap style={{ justifyContent: 'center', width: '100%' }}>
-                  <Text strong style={{ fontSize: 16, wordBreak: 'break-word' }}>
-                    {option.en}
-                  </Text>
-                  {icon}
-                </Space>
-              </Card>
-            </Col>
+            <QuizOption
+              key={option.en}
+              index={optionIndex}
+              state={optionState({
+                isCorrect: option.en === question.word.en,
+                answered: Boolean(selected),
+                flashing: isFlashingWrong,
+                eliminated: isPermanentlyWrong,
+              })}
+              disabled={Boolean(selected) || isFlashingWrong || isPermanentlyWrong}
+              onClick={() => choose(option)}
+              main={option.en}
+              lang="en"
+            />
           )
         })}
-      </Row>
+      </div>
+
+      <KeyHint>
+        <kbd>1</kbd>–<kbd>4</kbd> {t('hotkeys.answer')}
+      </KeyHint>
     </div>
   )
 }

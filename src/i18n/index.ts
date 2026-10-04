@@ -12,9 +12,9 @@ function detectLanguage(): AppLanguage {
     const stored = localStorage.getItem(STORAGE_KEY)
     if (stored === 'en' || stored === 'vi') return stored
   } catch {
-    // localStorage may be unavailable — fall through to the default
+    // localStorage may be unavailable — fall through to the browser language
   }
-  return 'en'
+  return typeof navigator !== 'undefined' && navigator.language?.toLowerCase().startsWith('vi') ? 'vi' : 'en'
 }
 
 void i18n.use(initReactI18next).init({
@@ -27,7 +27,10 @@ void i18n.use(initReactI18next).init({
   interpolation: { escapeValue: false },
 })
 
+document.documentElement.lang = i18n.language
+
 i18n.on('languageChanged', (lng) => {
+  document.documentElement.lang = lng
   try {
     localStorage.setItem(STORAGE_KEY, lng)
   } catch {

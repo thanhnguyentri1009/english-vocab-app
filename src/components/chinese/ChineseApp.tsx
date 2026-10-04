@@ -1,4 +1,3 @@
-import { ConfigProvider, theme } from "antd";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -34,11 +33,9 @@ type ChineseStage =
 
 interface ChineseAppProps {
   syncCode: string;
-  displayName: string;
-  onSwitchAccount: () => void;
 }
 
-export default function ChineseApp({ syncCode, displayName, onSwitchAccount }: ChineseAppProps) {
+export default function ChineseApp({ syncCode }: ChineseAppProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
@@ -230,17 +227,8 @@ export default function ChineseApp({ syncCode, displayName, onSwitchAccount }: C
   };
 
   return (
-    <ConfigProvider
-      theme={{
-        algorithm: theme.defaultAlgorithm,
-        token: {
-          colorPrimary: level?.accent || "#e8826a",
-          fontFamily: "'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif",
-          borderRadius: 12,
-        },
-      }}
-    >
-    <div style={{ minHeight: "100vh", background: "linear-gradient(180deg, #f4f7fb 0%, #fbfcfe 220px)" }}>
+    <>
+    <div>
       {showTabBar && (
         <ChineseTabBar
           active={activeTab}
@@ -262,9 +250,6 @@ export default function ChineseApp({ syncCode, displayName, onSwitchAccount }: C
           vocabulary={CHINESE_VOCABULARY}
           onSelect={handleSelectLevel}
           learnedWords={progress.learnedWords}
-          syncCode={displayName}
-          onSwitchAccount={onSwitchAccount}
-          onBackToTopics={() => navigate("/zh/pinyin")}
         />
       )}
       {stage === "vocabLevelDetail" && level && (
@@ -303,7 +288,7 @@ export default function ChineseApp({ syncCode, displayName, onSwitchAccount }: C
         <ChineseReview words={reviewWords} pool={pool} accent={level.accent} onBack={handleBackFromReview} />
       )}
     </div>
-    </ConfigProvider>
+    </>
   );
 }
 
@@ -320,30 +305,23 @@ function ChineseTabBar({
     { key: "vocabulary", labelKey: "chinese.tabs.vocabulary" },
   ];
   return (
-    <div style={{ display: "flex", justifyContent: "center", padding: "20px 16px 0", gap: 4 }}>
+    <nav className="tabs-wrap">
+    <div className="tabs" role="tablist">
       {tabs.map((tab) => {
         const isActive = tab.key === active;
         return (
           <button
             key={tab.key}
+            type="button"
+            role="tab"
+            aria-selected={isActive}
             onClick={() => onChange(tab.key)}
-            style={{
-              padding: "8px 20px",
-              borderRadius: 999,
-              border: "none",
-              background: isActive ? "#e8826a" : "rgba(0,0,0,0.06)",
-              color: isActive ? "#fff" : "#6b7a8a",
-              fontWeight: isActive ? 600 : 400,
-              fontSize: 14,
-              cursor: "pointer",
-              fontFamily: "inherit",
-              transition: "all 0.15s",
-            }}
           >
             {t(tab.labelKey)}
           </button>
         );
       })}
     </div>
+    </nav>
   );
 }

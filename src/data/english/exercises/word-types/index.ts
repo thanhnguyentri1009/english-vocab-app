@@ -9,8 +9,8 @@ const WORD_TYPES_MIXED: ExerciseCategory = {
   key: "word-types-mixed",
   title: "Word Types",
   subtitle: "Danh từ, động từ, tính từ & trạng từ trộn lẫn",
-  color: "#eef4fb",
-  accent: "#4a90d9",
+  color: "#ffffff",
+  accent: "#2c4d86",
   questions: seededShuffle(
     [...NOUN_QUESTIONS, ...VERB_QUESTIONS, ...ADJECTIVE_QUESTIONS, ...ADVERB_QUESTIONS],
     20240501

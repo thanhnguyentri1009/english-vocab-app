@@ -1,4 +1,3 @@
-import { ConfigProvider, theme } from "antd";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -47,11 +46,9 @@ type Stage =
 
 interface EnglishAppProps {
   syncCode: string;
-  displayName: string;
-  onSwitchAccount: () => void;
 }
 
-export default function EnglishApp({ syncCode, displayName, onSwitchAccount }: EnglishAppProps) {
+export default function EnglishApp({ syncCode }: EnglishAppProps) {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -281,24 +278,8 @@ export default function EnglishApp({ syncCode, displayName, onSwitchAccount }: E
   const showTabBar = stage === "topicSelect" || stage === "speakingHome" || stage === "exerciseQuiz";
 
   return (
-    <ConfigProvider
-      theme={{
-        algorithm: theme.defaultAlgorithm,
-        token: {
-          colorPrimary: level?.accent || "#7aa7d9",
-          fontFamily: "'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif",
-          borderRadius: 12,
-        },
-      }}
-    >
-      <div
-        style={{
-          minHeight: "100vh",
-          background: level?.color
-            ? `linear-gradient(180deg, ${level.color} 0%, #fbfcfe 220px)`
-            : "linear-gradient(180deg, #f4f7fb 0%, #fbfcfe 220px)",
-        }}
-      >
+    <>
+      <div>
         {/* Main tab bar (shown on home & exercise category screens) */}
         {showTabBar && (
           <MainTabBar
@@ -314,8 +295,6 @@ export default function EnglishApp({ syncCode, displayName, onSwitchAccount }: E
           <TopicSelect
             topics={TOPICS}
             onSelect={handleSelectTopic}
-            syncCode={displayName}
-            onSwitchAccount={onSwitchAccount}
           />
         )}
         {stage === "exerciseQuiz" && exerciseSection && exerciseCategory && (
@@ -333,8 +312,6 @@ export default function EnglishApp({ syncCode, displayName, onSwitchAccount }: E
             vocabulary={vocabulary}
             onSelect={handleSelectLevel}
             learnedWords={progress.learnedWords}
-            syncCode={displayName}
-            onSwitchAccount={onSwitchAccount}
             onBackToTopics={handleBackToTopics}
           />
         )}
@@ -391,7 +368,7 @@ export default function EnglishApp({ syncCode, displayName, onSwitchAccount }: E
           />
         )}
       </div>
-    </ConfigProvider>
+    </>
   );
 }
 
@@ -411,37 +388,23 @@ function MainTabBar({
 }) {
   const { t } = useTranslation();
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        padding: "20px 16px 0",
-        gap: 4,
-      }}
-    >
+    <nav className="tabs-wrap">
+    <div className="tabs" role="tablist">
       {TABS.map((tab) => {
         const isActive = tab.key === active;
         return (
           <button
             key={tab.key}
+            type="button"
+            role="tab"
+            aria-selected={isActive}
             onClick={() => onChange(tab.key)}
-            style={{
-              padding: "8px 20px",
-              borderRadius: 999,
-              border: "none",
-              background: isActive ? "#7aa7d9" : "rgba(0,0,0,0.06)",
-              color: isActive ? "#fff" : "#6b7a8a",
-              fontWeight: isActive ? 600 : 400,
-              fontSize: 14,
-              cursor: "pointer",
-              fontFamily: "inherit",
-              transition: "all 0.15s",
-            }}
           >
             {t(tab.labelKey)}
           </button>
         );
       })}
     </div>
+    </nav>
   );
 }

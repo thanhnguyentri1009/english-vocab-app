@@ -143,22 +143,22 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
   return (
     <div
       style={{
-        minHeight: "100vh",
+        minHeight: "calc(100svh - 52px)",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         padding: 16,
-        background: "linear-gradient(180deg, #eaf3ff 0%, #fbfcfe 220px)",
+        background: "#f6f5f1",
       }}
     >
-      <Card style={{ maxWidth: 360, width: "100%", borderRadius: 16, textAlign: "center" }}>
-        <Title level={3} style={{ marginTop: 0, color: "#5b6b7a" }}>
+      <Card style={{ maxWidth: 360, width: "100%", borderRadius: 10, textAlign: "center" }}>
+        <Title level={3} style={{ marginTop: 0, color: "#3d4046" }}>
           {t("syncGate.welcome")}
         </Title>
 
         {pendingUser ? (
           <>
-            <Text style={{ color: "#8a97a3", display: "block", marginBottom: 20 }}>
+            <Text style={{ color: "#5f636b", display: "block", marginBottom: 20 }}>
               {t("syncGate.verifyInstructionsBefore")}
               <Text strong>{pendingUser.email}</Text>
               {t("syncGate.verifyInstructionsAfter")}
@@ -192,13 +192,13 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
             >
               {t("syncGate.resendEmail")}
             </Button>
-            <Button type="link" size="small" onClick={handleLeaveVerify} style={{ color: "#a3adb6" }}>
+            <Button type="link" size="small" onClick={handleLeaveVerify} style={{ color: "#8b8f96" }}>
               {t("syncGate.useDifferentEmail")}
             </Button>
           </>
         ) : mode === "account" ? (
           <>
-            <Text style={{ color: "#8a97a3", display: "block", marginBottom: 20 }}>
+            <Text style={{ color: "#5f636b", display: "block", marginBottom: 20 }}>
               {accountMode === "register"
                 ? t("syncGate.registerSubtitle")
                 : t("syncGate.loginSubtitle")}
@@ -243,7 +243,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
               {accountMode === "register" ? t("syncGate.signUp") : t("syncGate.logIn")}
             </Button>
 
-            <Text style={{ color: "#8a97a3", fontSize: 13, display: "block", marginTop: 16 }}>
+            <Text style={{ color: "#5f636b", fontSize: 13, display: "block", marginTop: 16 }}>
               {accountMode === "register" ? (
                 <>
                   {t("syncGate.alreadyHaveAccount")}{" "}
@@ -284,19 +284,19 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
                 setMode("code");
                 setAccountError("");
               }}
-              style={{ marginTop: 4, color: "#a3adb6" }}
+              style={{ marginTop: 4, color: "#8b8f96" }}
             >
               {t("syncGate.useSyncCodeInstead")}
             </Button>
           </>
         ) : (
           <>
-            <Text style={{ color: "#8a97a3", display: "block", marginBottom: 8 }}>
+            <Text style={{ color: "#5f636b", display: "block", marginBottom: 8 }}>
               {t("syncGate.codeSubtitle")}
             </Text>
-            <Text style={{ color: "#7aa7d9", fontSize: 13, display: "block", marginBottom: 20 }}>
+            <Text style={{ color: "#2c4d86", fontSize: 13, display: "block", marginBottom: 20 }}>
               {t("syncGate.guestHintBefore")}
-              <Text strong style={{ color: "#7aa7d9" }}>{t("syncGate.guestWord")}</Text>
+              <Text strong style={{ color: "#2c4d86" }}>{t("syncGate.guestWord")}</Text>
               {t("syncGate.guestHintAfter")}
             </Text>
             <Input
@@ -334,7 +334,7 @@ export default function SyncCodeGate({ onSubmit }: SyncCodeGateProps) {
                 setMode("account");
                 setCodeError("");
               }}
-              style={{ marginTop: 12, color: "#a3adb6" }}
+              style={{ marginTop: 12, color: "#8b8f96" }}
             >
               {t("syncGate.signUpLoginInstead")}
             </Button>

@@ -4,7 +4,9 @@
     "cancel": "Huỷ",
     "close": "Đóng",
     "redo": "Làm lại",
-    "signedInAs": "Đang đăng nhập với"
+    "signedInAs": "Đang đăng nhập với",
+    "showMore": "Xem thêm ({{count}})",
+    "wordsLearnedCaption": "từ đã học"
   },
   "tabs": {
     "vocabulary": "Từ vựng",
@@ -54,12 +56,14 @@
     "couldNotConnect": "Không thể kết nối lúc này. Vui lòng thử lại."
   },
   "topicSelect": {
-    "title": "English Vocabulary Builder",
-    "subtitle": "Chọn một chủ đề để bắt đầu học từ mới"
+    "title": "Từ vựng tiếng Anh",
+    "subtitle": "Chọn một chủ đề để bắt đầu học từ mới",
+    "meta": "{{levels}} cấp độ · {{words}} từ"
   },
   "levelSelect": {
     "topics": "Chủ đề",
-    "learnedCount": "Đã học {{learned}}/{{total}}"
+    "learnedCount": "Đã học {{learned}}/{{total}}",
+    "words": "{{learned}} / {{total}} từ"
   },
   "levelDetail": {
     "allLevels": "Tất cả cấp độ",
@@ -75,10 +79,10 @@
     "noSearchResults": "Không tìm thấy từ nào phù hợp"
   },
   "wordLearn": {
-    "levelOverview": "← Tổng quan cấp độ",
+    "levelOverview": "Tổng quan cấp độ",
     "wordCounter": "Từ {{current}} / {{total}}",
     "listen": "Nghe",
-    "tapToTranslate": "(Chạm vào thẻ để xem nghĩa)",
+    "tapToTranslate": "Chạm vào thẻ để xem nghĩa",
     "back": "Quay lại",
     "startQuiz": "Bắt đầu kiểm tra",
     "nextWord": "Từ tiếp theo"
@@ -91,7 +95,7 @@
     "learnNewWords": "Học từ mới",
     "levelOverview": "Tổng quan cấp độ",
     "wordsMissed": "Từ bạn đã sai ({{count}})",
-    "levelOverviewBack": "← Tổng quan cấp độ",
+    "levelOverviewBack": "Tổng quan cấp độ",
     "questionCounter": "Câu {{current}} / {{total}}",
     "prompt": "Từ tiếng Anh của từ này là gì?"
   },
@@ -102,7 +106,7 @@
     "reviewAgain": "Ôn tập lại",
     "levelOverview": "Tổng quan cấp độ",
     "wordsMissed": "Từ bạn đã sai ({{count}})",
-    "levelOverviewBack": "← Tổng quan cấp độ",
+    "levelOverviewBack": "Tổng quan cấp độ",
     "questionCounter": "Câu {{current}} / {{total}}",
     "prompt": "Từ tiếng Anh của từ này là gì?"
   },
@@ -132,11 +136,12 @@
     "subtitle": "Chọn một ngôn ngữ để bắt đầu — bạn có thể đổi bất cứ lúc nào.",
     "englishTitle": "Tiếng Anh",
     "englishSubtitle": "Từ vựng, ngữ pháp và luyện nói",
-    "japaneseTitle": "日本語 (Tiếng Nhật)",
+    "japaneseTitle": "Tiếng Nhật",
     "japaneseSubtitle": "Hiragana, katakana, kanji và từ vựng theo cấp độ JLPT",
-    "chineseTitle": "中文 (Tiếng Trung)",
+    "chineseTitle": "Tiếng Trung",
     "chineseSubtitle": "Bính âm, thanh điệu và từ vựng HSK",
-    "switchTrack": "Đổi"
+    "switchTrack": "Đổi",
+    "start": "Bắt đầu học"
   },
   "japanese": {
     "tabs": {
@@ -154,7 +159,7 @@
       "kanjiSubtitle": "Chữ Hán cơ bản (JLPT N5)"
     },
     "alphabetTable": {
-      "back": "← Bảng chữ cái",
+      "back": "Bảng chữ cái",
       "tapToListen": "Chạm vào một ký tự để nghe phát âm",
       "onyomi": "Âm On",
       "kunyomi": "Âm Kun",
@@ -184,10 +189,10 @@
       "noSearchResults": "Không tìm thấy từ nào phù hợp"
     },
     "wordLearn": {
-      "levelOverview": "← Tổng quan cấp độ",
+      "levelOverview": "Tổng quan cấp độ",
       "wordCounter": "Từ {{current}} / {{total}}",
       "listen": "Nghe",
-      "tapToTranslate": "(Chạm vào thẻ để xem nghĩa)",
+      "tapToTranslate": "Chạm vào thẻ để xem nghĩa",
       "back": "Quay lại",
       "startQuiz": "Bắt đầu kiểm tra",
       "nextWord": "Từ tiếp theo"
@@ -200,7 +205,7 @@
       "learnNewWords": "Học từ mới",
       "levelOverview": "Tổng quan cấp độ",
       "wordsMissed": "Từ bạn đã sai ({{count}})",
-      "levelOverviewBack": "← Tổng quan cấp độ",
+      "levelOverviewBack": "Tổng quan cấp độ",
       "questionCounter": "Câu {{current}} / {{total}}",
       "prompt": "Từ tiếng Nhật của nghĩa này là gì?"
     },
@@ -211,7 +216,7 @@
       "reviewAgain": "Ôn tập lại",
       "levelOverview": "Tổng quan cấp độ",
       "wordsMissed": "Từ bạn đã sai ({{count}})",
-      "levelOverviewBack": "← Tổng quan cấp độ",
+      "levelOverviewBack": "Tổng quan cấp độ",
       "questionCounter": "Câu {{current}} / {{total}}",
       "prompt": "Từ tiếng Nhật của nghĩa này là gì?"
     }
@@ -232,7 +237,7 @@
       "tonesSubtitle": "Bốn thanh và thanh nhẹ"
     },
     "pinyinChart": {
-      "back": "← Bính âm",
+      "back": "Bính âm",
       "tapToListen": "Chạm vào để nghe phát âm"
     },
     "levelSelect": {
@@ -253,10 +258,10 @@
       "noSearchResults": "Không tìm thấy từ nào phù hợp"
     },
     "wordLearn": {
-      "levelOverview": "← Tổng quan cấp độ",
+      "levelOverview": "Tổng quan cấp độ",
       "wordCounter": "Từ {{current}} / {{total}}",
       "listen": "Nghe",
-      "tapToTranslate": "(Chạm vào thẻ để xem nghĩa)",
+      "tapToTranslate": "Chạm vào thẻ để xem nghĩa",
       "back": "Quay lại",
       "startQuiz": "Bắt đầu kiểm tra",
       "nextWord": "Từ tiếp theo"
@@ -269,7 +274,7 @@
       "learnNewWords": "Học từ mới",
       "levelOverview": "Tổng quan cấp độ",
       "wordsMissed": "Từ bạn đã sai ({{count}})",
-      "levelOverviewBack": "← Tổng quan cấp độ",
+      "levelOverviewBack": "Tổng quan cấp độ",
       "questionCounter": "Câu {{current}} / {{total}}",
       "prompt": "Từ tiếng Trung của nghĩa này là gì?"
     },
@@ -280,7 +285,7 @@
       "reviewAgain": "Ôn tập lại",
       "levelOverview": "Tổng quan cấp độ",
       "wordsMissed": "Từ bạn đã sai ({{count}})",
-      "levelOverviewBack": "← Tổng quan cấp độ",
+      "levelOverviewBack": "Tổng quan cấp độ",
       "questionCounter": "Câu {{current}} / {{total}}",
       "prompt": "Từ tiếng Trung của nghĩa này là gì?"
     }
@@ -288,8 +293,8 @@
   "exerciseQuiz": {
     "redoConfirmTitle": "Làm lại Stage {{n}}?",
     "redoConfirmContent": "Kết quả đã lưu của stage này sẽ bị xoá và bạn sẽ làm lại từ đầu.",
-    "correctAnswersTotal": "✓ Câu trả lời đúng — {{count}} câu",
-    "correctAnswersStage": "✓ Câu trả lời đúng — {{score}}/{{total}} ở Stage {{stage}}",
+    "correctAnswersTotal": "Câu trả lời đúng — {{count}} câu",
+    "correctAnswersStage": "Câu trả lời đúng — {{score}}/{{total}} ở Stage {{stage}}",
     "noCorrectYet": "Chưa có câu trả lời đúng nào.",
     "stageOf": "Stage {{current}} / {{total}}",
     "complete": "Hoàn thành",
@@ -316,6 +321,26 @@
     "stageScoreLine": "{{score}}/{{size}} đúng",
     "stageMasteredLine": "Đã thuộc {{mastered}}/{{size}}",
     "stageLabel": "Stage {{n}}",
-    "questionRange": "Câu {{start}}–{{end}}"
+    "questionRange": "Câu {{start}}–{{end}}",
+    "noArticle": "Ø (không dùng mạo từ)"
+  },
+  "hotkeys": {
+    "flip": "lật thẻ",
+    "navigate": "từ trước / sau",
+    "listen": "nghe",
+    "answer": "chọn đáp án",
+    "next": "câu tiếp"
+  },
+  "header": {
+    "switchAccount": "Đổi tài khoản",
+    "chooseLanguage": "Chọn ngôn ngữ muốn học"
+  },
+  "eyebrow": {
+    "welcome": "Xin chào",
+    "vocabulary": "Từ vựng",
+    "levels": "Chọn cấp độ",
+    "speaking": "Luyện nói",
+    "alphabet": "Hệ chữ viết",
+    "pinyin": "Phát âm"
   }
 }

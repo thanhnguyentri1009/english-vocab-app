@@ -1,22 +1,24 @@
-import { Button, Card, Col, Row, Typography } from "antd";
-import { LeftOutlined } from "@ant-design/icons";
+import { ArrowRightOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
 import type { LevelInfo } from "../data/english/vocabulary/topics";
-
-const { Title, Text } = Typography;
+import PageHeader from "./PageHeader";
 
 interface LevelSelectProps {
   topicTitle: string;
   topicSubtitle: string;
   levels: LevelInfo[];
   // Only `.length` is ever read — loosened from `VocabularyWord[]` so this
-  // component can be reused for the Japanese track's JLPT-level picker too.
+  // component can be reused for the Japanese and Chinese level pickers too.
   vocabulary: Record<string, unknown[]>;
   onSelect: (levelKey: string) => void;
   learnedWords: Partial<Record<string, string[]>>;
-  syncCode: string;
-  onSwitchAccount: () => void;
-  onBackToTopics: () => void;
+  onBackToTopics?: () => void;
+}
+
+// Short codes (A1, N5, HSK 1, 7.0+) read best as a large numeral; names
+// (Time, Daily Life) as an ordinary title.
+function isCode(title: string) {
+  return title.length <= 7 && !/[a-z]/.test(title);
 }
 
 export default function LevelSelect({
@@ -26,108 +28,42 @@ export default function LevelSelect({
   vocabulary,
   onSelect,
   learnedWords,
-  syncCode,
-  onSwitchAccount,
   onBackToTopics,
 }: LevelSelectProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const nf = new Intl.NumberFormat(i18n.language);
   return (
-    <div style={{ padding: "24px 16px", maxWidth: 960, margin: "0 auto" }}>
-      <Button
-        type="text"
-        icon={<LeftOutlined />}
-        onClick={onBackToTopics}
-        style={{ paddingLeft: 4, paddingRight: 4, marginBottom: 8 }}
-      >
-        {t("levelSelect.topics")}
-      </Button>
-      <Title
-        level={2}
-        style={{
-          textAlign: "center",
-          color: "#5b6b7a",
-          fontSize: "clamp(22px, 6vw, 30px)",
-        }}
-      >
-        {topicTitle}
-      </Title>
-      <Text
-        style={{
-          display: "block",
-          textAlign: "center",
-          marginBottom: 8,
-          color: "#8a97a3",
-        }}
-      >
-        {topicSubtitle}
-      </Text>
-      <div style={{ textAlign: "center", marginBottom: 32 }}>
-        <Text style={{ color: "#a3adb6" }}>
-          {t("common.signedInAs")} <Text strong>{syncCode}</Text>
-        </Text>{" "}
-        <Button
-          type="link"
-          size="small"
-          onClick={onSwitchAccount}
-          style={{ padding: 0 }}
-        >
-          {t("common.switch")}
-        </Button>
-      </div>
-      <Row gutter={[20, 20]} justify="center" align="stretch">
+    <div className="page page-wide">
+      <PageHeader
+        eyebrow={t("eyebrow.levels")}
+        title={topicTitle}
+        subtitle={topicSubtitle}
+        backLabel={t("levelSelect.topics")}
+        onBack={onBackToTopics}
+      />
+      <div className="choice-grid">
         {levels.map((level) => {
-          const learnedCount = learnedWords[level.key]?.length ?? 0;
+          const learned = learnedWords[level.key]?.length ?? 0;
           const total = vocabulary[level.key]?.length ?? 0;
+          const percent = total > 0 ? Math.min(100, (learned / total) * 100) : 0;
           return (
-            <Col key={level.key} xs={12} sm={12} md={6}>
-              <Card
-                hoverable
-                onClick={() => onSelect(level.key)}
-                style={{
-                  textAlign: "center",
-                  borderRadius: 16,
-                  background: level.color,
-                  border: `1px solid ${level.accent}33`,
-                  boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
-                  height: "100%",
-                  minHeight: 180,
-                }}
-                styles={{
-                  body: {
-                    padding: "28px 12px",
-                    height: "100%",
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                  },
-                }}
-              >
-                <div
-                  style={{
-                    fontSize: "clamp(18px, 4vw, 26px)",
-                    fontWeight: 700,
-                    color: level.accent,
-                    marginBottom: 6,
-                    lineHeight: 1.25,
-                  }}
-                >
-                  {level.title}
-                </div>
-                <Text style={{ color: "#6b7580" }}>{level.subtitle}</Text>
-                <Text
-                  style={{
-                    display: "block",
-                    color: level.accent,
-                    marginTop: 4,
-                  }}
-                >
-                  {learnedCount > 0 ? t("levelSelect.learnedCount", { learned: learnedCount, total }) : " "}
-                </Text>
-              </Card>
-            </Col>
+            <button key={level.key} type="button" className="choice" onClick={() => onSelect(level.key)}>
+              <ArrowRightOutlined className="choice-arrow" />
+              <span className={isCode(level.title) ? "choice-code" : "choice-title"}>{level.title}</span>
+              <span className="choice-sub">{level.subtitle}</span>
+              <span className="choice-meta-progress">
+                <span className="meter">
+                  <span style={{ width: `${percent}%` }} />
+                </span>
+                <span className="meter-label">
+                  <span>{t("levelSelect.words", { learned: nf.format(learned), total: nf.format(total) })}</span>
+                  <span>{Math.round(percent)}%</span>
+                </span>
+              </span>
+            </button>
           );
         })}
-      </Row>
+      </div>
     </div>
   );
 }

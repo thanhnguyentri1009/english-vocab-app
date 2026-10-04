@@ -1,10 +1,12 @@
-import { ArrowLeftOutlined, AudioOutlined, SoundOutlined } from "@ant-design/icons";
+import { AudioOutlined } from "@ant-design/icons";
 import { Button, Typography } from "antd";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import type { SpeakingLevel } from "../../data/english/speaking/sentences";
+import { speak } from "../../utils/speech";
+import { ListenButton, SessionBar } from "../ui/Session";
 
-const { Text, Title } = Typography;
+const { Text } = Typography;
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const SpeechRecognitionAPI: any =
@@ -12,28 +14,38 @@ const SpeechRecognitionAPI: any =
     ? (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
     : null;
 
+// Recognition often returns numbers as digits ("5 years") while the target
+// sentences spell them out, so map digits back to words before comparing.
+const NUMBER_WORDS: Record<string, string> = {
+  "0": "zero", "1": "one", "2": "two", "3": "three", "4": "four", "5": "five",
+  "6": "six", "7": "seven", "8": "eight", "9": "nine", "10": "ten",
+  "1st": "first", "2nd": "second", "3rd": "third",
+};
+
 function normalise(s: string): string[] {
   return s
     .toLowerCase()
+    // "work-life" may come back from recognition as "work life": split
+    // hyphenated words instead of gluing them into one token.
+    .replace(/[-–—]/g, " ")
     .replace(/[^a-z0-9\s]/g, "")
     .trim()
     .split(/\s+/)
-    .filter(Boolean);
+    .filter(Boolean)
+    .map((w) => NUMBER_WORDS[w] ?? w);
 }
 
 function matchScore(target: string, heard: string): number {
   const targetWords = normalise(target);
   const heardSet = new Set(normalise(heard));
-  const matched = targetWords.filter((w) => heardSet.has(w)).length;
+  // A hyphenated target ("well-being") may be heard as one word ("wellbeing").
+  const matched = targetWords.filter(
+    (w, i) =>
+      heardSet.has(w) ||
+      heardSet.has(w + (targetWords[i + 1] ?? "")) ||
+      heardSet.has((targetWords[i - 1] ?? "") + w),
+  ).length;
   return targetWords.length === 0 ? 0 : matched / targetWords.length;
-}
-
-function speak(text: string) {
-  if (!window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "en-US";
-  window.speechSynthesis.speak(utter);
 }
 
 type Status = "idle" | "listening" | "done";
@@ -114,7 +126,7 @@ export default function SpeakingSession({ level, onBack }: Props) {
   };
 
   const resultColor =
-    score >= 0.85 ? "#22c55e" : score >= 0.5 ? "#f97316" : "#ef4444";
+    score >= 0.85 ? "#1f7a46" : score >= 0.5 ? "#946200" : "#b8352b";
   const resultLabel =
     score >= 0.85
       ? t("speakingSession.excellent")
@@ -132,83 +144,15 @@ export default function SpeakingSession({ level, onBack }: Props) {
         }
       `}</style>
 
-      <div style={{ padding: "20px 16px", maxWidth: 600, margin: "0 auto" }}>
-        {/* Header */}
-        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
-          <Button
-            icon={<ArrowLeftOutlined />}
-            type="text"
-            onClick={onBack}
-            style={{ flexShrink: 0 }}
-          />
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <Title level={4} style={{ margin: 0, color: level.accent, fontSize: 18 }}>
-              {t("speakingSession.headerTitle", { label: level.label })}
-            </Title>
-            <Text style={{ color: "#8a97a3", fontSize: 13 }}>
-              {t("speakingSession.counter", { current: index + 1, total })}
-            </Text>
-          </div>
-        </div>
+      <div className="session">
+        <SessionBar current={index + 1} total={total} onExit={onBack} exitLabel={t("speakingSession.headerTitle", { label: level.label })} />
 
-        {/* Progress bar */}
-        <div
-          style={{ height: 4, background: "#f0f0f0", borderRadius: 2, marginBottom: 28 }}
-        >
-          <div
-            style={{
-              height: "100%",
-              width: `${((index + 1) / total) * 100}%`,
-              background: level.accent,
-              borderRadius: 2,
-              transition: "width 0.3s",
-            }}
-          />
-        </div>
-
-        {/* Sentence card */}
-        <div
-          style={{
-            background: "#fff",
-            borderRadius: 20,
-            padding: "32px 24px",
-            boxShadow: "0 4px 20px rgba(0,0,0,0.07)",
-            textAlign: "center",
-            marginBottom: 28,
-            position: "relative",
-          }}
-        >
-          <Text
-            style={{
-              fontSize: "clamp(16px, 4vw, 20px)",
-              fontWeight: 600,
-              color: "#1e293b",
-              lineHeight: 1.6,
-              display: "block",
-            }}
-          >
-            {sentence.text}
-          </Text>
-          {/* Listen button */}
-          <button
-            onClick={() => speak(sentence.text)}
-            title={t("speakingSession.listenTitle")}
-            style={{
-              position: "absolute",
-              top: 12,
-              right: 14,
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-              color: level.accent,
-              fontSize: 18,
-              padding: 4,
-              opacity: 0.7,
-              lineHeight: 1,
-            }}
-          >
-            <SoundOutlined />
-          </button>
+        <span className="eyebrow" style={{ textAlign: "center" }}>
+          {t("speakingSession.headerTitle", { label: level.label })}
+        </span>
+        <div className="flashcard-face" style={{ minHeight: 0, padding: "36px 28px 24px", marginBottom: 32 }}>
+          <p className="speaking-sentence" lang="en">{sentence.text}</p>
+          <ListenButton onClick={() => speak(sentence.text, "en-US")} label={t("speakingSession.listenTitle")} />
         </div>
 
         {/* Microphone / result area */}
@@ -223,7 +167,7 @@ export default function SpeakingSession({ level, onBack }: Props) {
                   height: 80,
                   borderRadius: "50%",
                   background:
-                    status === "listening" ? "#ef4444" : level.accent,
+                    status === "listening" ? "#b8352b" : level.accent,
                   border: "none",
                   cursor: SpeechRecognitionAPI ? "pointer" : "not-allowed",
                   display: "inline-flex",
@@ -244,7 +188,7 @@ export default function SpeakingSession({ level, onBack }: Props) {
                 <AudioOutlined style={{ fontSize: 32, color: "#fff" }} />
               </button>
 
-              <div style={{ marginTop: 10, color: "#94a3b8", fontSize: 14 }}>
+              <div style={{ marginTop: 10, color: "#5f636b", fontSize: 14 }}>
                 {!SpeechRecognitionAPI
                   ? t("speakingSession.requiresChrome")
                   : status === "idle"
@@ -288,16 +232,16 @@ export default function SpeakingSession({ level, onBack }: Props) {
               {/* Transcript */}
               <div
                 style={{
-                  background: "#f8fafc",
-                  borderRadius: 12,
+                  background: "#f6f5f1",
+                  borderRadius: 10,
                   padding: "10px 16px",
                   marginBottom: 20,
                   maxWidth: 420,
                   margin: "0 auto 20px",
                 }}
               >
-                <Text style={{ color: "#94a3b8", fontSize: 12 }}>{t("speakingSession.youSaid")}</Text>
-                <Text style={{ color: "#334155", fontSize: 14, fontStyle: "italic" }}>
+                <Text style={{ color: "#5f636b", fontSize: 12 }}>{t("speakingSession.youSaid")}</Text>
+                <Text style={{ color: "#1c1d1f", fontSize: 14, fontStyle: "italic" }}>
                   "{transcript}"
                 </Text>
               </div>

@@ -1,17 +1,16 @@
-import { ConfigProvider, theme } from "antd";
+import { ConfigProvider } from "antd";
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import LanguageSwitcher from "./components/LanguageSwitcher";
+import { appTheme } from "./theme";
+import AppHeader from "./components/AppHeader";
 import SyncCodeGate from "./components/SyncCodeGate";
 import TrackSelect from "./components/TrackSelect";
-import TrackSwitcher from "./components/TrackSwitcher";
 import ChineseApp from "./components/chinese/ChineseApp";
 import EnglishApp from "./components/english/EnglishApp";
 import JapaneseApp from "./components/japanese/JapaneseApp";
 import { signOutAccount } from "./utils/account";
 import {
-  clearLearningTrack,
   getLearningTrack,
   setLearningTrack,
   type LearningTrack,
@@ -22,16 +21,6 @@ import {
   getSyncLabel,
   setSyncCode,
 } from "./utils/syncCode";
-
-const baseTheme = {
-  algorithm: theme.defaultAlgorithm,
-  token: {
-    colorPrimary: "#7aa7d9",
-    fontFamily:
-      "'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif",
-    borderRadius: 12,
-  },
-};
 
 function App() {
   const [track, setTrackState] = useState<LearningTrack | null>(() =>
@@ -44,29 +33,33 @@ function App() {
     getSyncLabel(),
   );
 
+  const changeTrack = (next: LearningTrack) => {
+    setLearningTrack(next);
+    setTrackState(next);
+  };
+
+  const switchAccount = () => {
+    clearSyncCode();
+    setSyncCodeState(null);
+    setSyncLabelState(null);
+    void signOutAccount();
+  };
+
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
-      <LanguageSwitcher />
-      {track && (
-        <TrackSwitcher
+      <ConfigProvider theme={appTheme}>
+        <AppHeader
           track={track}
-          onSwitch={() => {
-            clearLearningTrack();
-            setTrackState(null);
-          }}
+          onChangeTrack={changeTrack}
+          account={
+            track && syncCode
+              ? { name: syncLabel ?? syncCode, onSwitch: switchAccount }
+              : null
+          }
         />
-      )}
-      {!track ? (
-        <ConfigProvider theme={baseTheme}>
-          <TrackSelect
-            onSelect={(selected) => {
-              setLearningTrack(selected);
-              setTrackState(selected);
-            }}
-          />
-        </ConfigProvider>
-      ) : !syncCode ? (
-        <ConfigProvider theme={baseTheme}>
+        {!track ? (
+          <TrackSelect onSelect={changeTrack} />
+        ) : !syncCode ? (
           <SyncCodeGate
             onSubmit={(code, label) => {
               setSyncCode(code, label);
@@ -74,41 +67,14 @@ function App() {
               setSyncLabelState(label ?? null);
             }}
           />
-        </ConfigProvider>
-      ) : track === "japanese" ? (
-        <JapaneseApp
-          syncCode={syncCode}
-          displayName={syncLabel ?? syncCode}
-          onSwitchAccount={() => {
-            clearSyncCode();
-            setSyncCodeState(null);
-            setSyncLabelState(null);
-            void signOutAccount();
-          }}
-        />
-      ) : track === "chinese" ? (
-        <ChineseApp
-          syncCode={syncCode}
-          displayName={syncLabel ?? syncCode}
-          onSwitchAccount={() => {
-            clearSyncCode();
-            setSyncCodeState(null);
-            setSyncLabelState(null);
-            void signOutAccount();
-          }}
-        />
-      ) : (
-        <EnglishApp
-          syncCode={syncCode}
-          displayName={syncLabel ?? syncCode}
-          onSwitchAccount={() => {
-            clearSyncCode();
-            setSyncCodeState(null);
-            setSyncLabelState(null);
-            void signOutAccount();
-          }}
-        />
-      )}
+        ) : track === "japanese" ? (
+          <JapaneseApp syncCode={syncCode} />
+        ) : track === "chinese" ? (
+          <ChineseApp syncCode={syncCode} />
+        ) : (
+          <EnglishApp syncCode={syncCode} />
+        )}
+      </ConfigProvider>
     </BrowserRouter>
   );
 }

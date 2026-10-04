@@ -1,10 +1,10 @@
-import { Button, Card, Col, Row, Typography } from 'antd'
-import { LeftOutlined } from '@ant-design/icons'
+import { Typography } from 'antd'
+import PageHeader from '../PageHeader'
 import { useTranslation } from 'react-i18next'
 import { HIRAGANA, KATAKANA, KANJI, type AlphabetSet, type KanaGroup } from '../../data/japanese/alphabet'
-import { speak } from '../../utils/speech'
+import { kanaSpeechText, kanjiReadingSpeechText, speak } from '../../utils/speech'
 
-const { Title, Text } = Typography
+const { Text } = Typography
 
 interface AlphabetTableProps {
   set: AlphabetSet
@@ -36,107 +36,93 @@ function chunkIntoRows<T>(items: T[], group: KanaGroup): T[][] {
   return rows.filter((row) => row.length > 0)
 }
 
+function ReadingChips({ label, readings }: { label: string; readings: string[] }) {
+  if (readings.length === 0) return null
+  return (
+    <div className="kanji-readings">
+      <span className="kanji-readings-label">{label}</span>
+      {readings.map((r) => (
+        <button
+          key={r}
+          type="button"
+          className="reading-chip"
+          onClick={() => speak(kanjiReadingSpeechText(r), 'ja-JP')}
+        >
+          {r}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 export default function AlphabetTable({ set, onBack }: AlphabetTableProps) {
   const { t } = useTranslation()
-  const accent = set === 'hiragana' ? '#7aa7d9' : set === 'katakana' ? '#7ad9a3' : '#d9a97a'
 
   return (
-    <div style={{ padding: '24px 16px', maxWidth: 720, margin: '0 auto' }}>
-      <Button
-        type="text"
-        icon={<LeftOutlined />}
-        onClick={onBack}
-        style={{ paddingLeft: 4, paddingRight: 4, marginBottom: 8 }}
-      >
-        {t('japanese.alphabetTable.back')}
-      </Button>
-      <Title level={2} style={{ textAlign: 'center', color: accent, fontSize: 'clamp(22px, 6vw, 30px)' }}>
-        {t(`japanese.alphabetSelect.${set}`)}
-      </Title>
-      <Text style={{ display: 'block', textAlign: 'center', marginBottom: 24, color: '#8a97a3' }}>
-        {t('japanese.alphabetTable.tapToListen')}
-      </Text>
+    <div className="page">
+      <PageHeader
+        eyebrow={t('eyebrow.alphabet')}
+        title={t(`japanese.alphabetSelect.${set}`)}
+        subtitle={t('japanese.alphabetTable.tapToListen')}
+        backLabel={t('japanese.alphabetTable.back')}
+        onBack={onBack}
+      />
 
       {set === 'kanji' ? (
-        <Row gutter={[12, 12]}>
+        <div className="list">
           {KANJI.map((k) => (
-            <Col xs={12} sm={8} key={k.char}>
-              <Card
-                hoverable
-                onClick={() => speak(k.char, 'ja-JP')}
-                style={{
-                  borderRadius: 14,
-                  textAlign: 'center',
-                  border: `1px solid ${accent}33`,
-                  cursor: 'pointer',
-                }}
-                styles={{ body: { padding: '14px 10px' } }}
+            <div key={k.char} className="kanji-row">
+              <button
+                type="button"
+                className="kanji-char"
+                onClick={() => speak(kanjiReadingSpeechText(k.kunYomi[0] ?? k.onYomi[0] ?? k.char), 'ja-JP')}
+                aria-label={k.char}
               >
-                <div style={{ fontSize: 34, fontWeight: 700, color: '#3d4954' }}>{k.char}</div>
-                <Text style={{ display: 'block', color: '#5b6b7a', marginTop: 4 }}>
-                  {k.meanings.join(', ')}
-                </Text>
-                {k.onYomi.length > 0 && (
-                  <Text style={{ display: 'block', color: '#a3adb6', fontSize: 12, marginTop: 4 }}>
-                    {t('japanese.alphabetTable.onyomi')}: {k.onYomi.join('、')}
-                  </Text>
-                )}
-                {k.kunYomi.length > 0 && (
-                  <Text style={{ display: 'block', color: '#a3adb6', fontSize: 12 }}>
-                    {t('japanese.alphabetTable.kunyomi')}: {k.kunYomi.join('、')}
-                  </Text>
-                )}
-                <Text style={{ display: 'block', color: '#c7ccd1', fontSize: 12, marginTop: 4 }}>
-                  {t('japanese.alphabetTable.strokes', { count: k.strokeCount })}
-                </Text>
-              </Card>
-            </Col>
+                {k.char}
+              </button>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <span className="list-title">{k.meanings.join(', ')}</span>
+                <ReadingChips label={t('japanese.alphabetTable.onyomi')} readings={k.onYomi} />
+                <ReadingChips label={t('japanese.alphabetTable.kunyomi')} readings={k.kunYomi} />
+                <span className="list-sub">{t('japanese.alphabetTable.strokes', { count: k.strokeCount })}</span>
+              </div>
+            </div>
           ))}
-        </Row>
+        </div>
       ) : (
         KANA_GROUPS.map((group) => {
           const chars = (set === 'hiragana' ? HIRAGANA : KATAKANA).filter((c) => c.group === group)
           if (chars.length === 0) return null
           const rows = chunkIntoRows(chars, group)
           return (
-            <div key={group} style={{ marginBottom: 20 }}>
-              <Text style={{ display: 'block', color: '#8a97a3', marginBottom: 10, fontWeight: 600 }}>
+            <section key={group} style={{ marginBottom: 24 }}>
+              <Text strong style={{ display: 'block', marginBottom: 8 }}>
                 {t(`japanese.alphabetTable.group.${group}`)}
               </Text>
-              {rows.map((row) => (
-                <div
-                  key={row[0].char}
-                  style={{
-                    display: 'flex',
-                    flexWrap: 'wrap',
-                    gap: 10,
-                    marginBottom: 10,
-                  }}
-                >
-                  {row.map((c) => (
-                    <Card
-                      key={c.char}
-                      hoverable
-                      onClick={() => speak(c.char, 'ja-JP')}
-                      style={{
-                        borderRadius: 12,
-                        textAlign: 'center',
-                        border: `1px solid ${accent}33`,
-                        cursor: 'pointer',
-                        width: 'calc(20% - 8px)',
-                        minWidth: 60,
-                        flexGrow: 0,
-                        flexShrink: 0,
-                      }}
-                      styles={{ body: { padding: '12px 4px' } }}
-                    >
-                      <div style={{ fontSize: 26, fontWeight: 700, color: '#3d4954' }}>{c.char}</div>
-                      <Text style={{ color: '#a3adb6', fontSize: 12 }}>{c.romaji}</Text>
-                    </Card>
-                  ))}
-                </div>
-              ))}
-            </div>
+              <div className="tile-groups">
+                {rows.map((row) => (
+                  <div
+                    key={row[0].char}
+                    className="tile-grid"
+                    style={{ gridTemplateColumns: `repeat(${group === 'yoon' ? 3 : 5}, minmax(0, 1fr))` }}
+                  >
+                    {row.map((c) => (
+                      <button
+                        key={c.char}
+                        type="button"
+                        className="tile"
+                        onClick={() => speak(kanaSpeechText(c.char), 'ja-JP')}
+                      >
+                        <span className="tile-main" lang="ja">
+                          {c.char}
+                        </span>
+                        <span className="tile-sub">{c.romaji}</span>
+                      </button>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </section>
           )
         })
       )}

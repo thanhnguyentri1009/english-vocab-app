@@ -4,7 +4,9 @@
     "cancel": "Cancel",
     "close": "Close",
     "redo": "Redo",
-    "signedInAs": "Signed in as"
+    "signedInAs": "Signed in as",
+    "showMore": "Show more ({{count}})",
+    "wordsLearnedCaption": "words learned"
   },
   "tabs": {
     "vocabulary": "Vocabulary",
@@ -54,12 +56,14 @@
     "couldNotConnect": "Could not connect right now. Please try again."
   },
   "topicSelect": {
-    "title": "English Vocabulary Builder",
-    "subtitle": "Pick a topic to start learning new words"
+    "title": "English vocabulary",
+    "subtitle": "Pick a topic to start learning new words",
+    "meta": "{{levels}} levels · {{words}} words"
   },
   "levelSelect": {
     "topics": "Topics",
-    "learnedCount": "{{learned}}/{{total}} learned"
+    "learnedCount": "{{learned}}/{{total}} learned",
+    "words": "{{learned}} / {{total}} words"
   },
   "levelDetail": {
     "allLevels": "All levels",
@@ -75,10 +79,10 @@
     "noSearchResults": "No matching words found"
   },
   "wordLearn": {
-    "levelOverview": "← Level overview",
+    "levelOverview": "Level overview",
     "wordCounter": "Word {{current}} / {{total}}",
     "listen": "Listen",
-    "tapToTranslate": "(Tap the card to see the translation)",
+    "tapToTranslate": "Tap the card to see the translation",
     "back": "Back",
     "startQuiz": "Start the quiz",
     "nextWord": "Next word"
@@ -91,7 +95,7 @@
     "learnNewWords": "Learn new words",
     "levelOverview": "Level overview",
     "wordsMissed": "Words you missed ({{count}})",
-    "levelOverviewBack": "← Level overview",
+    "levelOverviewBack": "Level overview",
     "questionCounter": "Question {{current}} / {{total}}",
     "prompt": "What is the English word for this?"
   },
@@ -102,7 +106,7 @@
     "reviewAgain": "Review again",
     "levelOverview": "Level overview",
     "wordsMissed": "Words you missed ({{count}})",
-    "levelOverviewBack": "← Level overview",
+    "levelOverviewBack": "Level overview",
     "questionCounter": "Question {{current}} / {{total}}",
     "prompt": "What is the English word for this?"
   },
@@ -132,11 +136,12 @@
     "subtitle": "Pick a language to start with — you can switch anytime.",
     "englishTitle": "English",
     "englishSubtitle": "Vocabulary, grammar, and speaking practice",
-    "japaneseTitle": "日本語 (Japanese)",
+    "japaneseTitle": "Japanese",
     "japaneseSubtitle": "Hiragana, katakana, kanji, and JLPT vocabulary",
-    "chineseTitle": "中文 (Chinese)",
+    "chineseTitle": "Chinese",
     "chineseSubtitle": "Pinyin, tones, and HSK vocabulary",
-    "switchTrack": "Switch"
+    "switchTrack": "Switch",
+    "start": "Start learning"
   },
   "japanese": {
     "tabs": {
@@ -154,11 +159,12 @@
       "kanjiSubtitle": "Basic characters (JLPT N5)"
     },
     "alphabetTable": {
-      "back": "← Alphabet",
+      "back": "Alphabet",
       "tapToListen": "Tap a character to hear it",
       "onyomi": "On'yomi",
       "kunyomi": "Kun'yomi",
-      "strokes": "{{count}} strokes",
+      "strokes_one": "{{count}} stroke",
+      "strokes_other": "{{count}} strokes",
       "group": {
         "basic": "Basic",
         "dakuten": "Dakuten (voiced)",
@@ -184,10 +190,10 @@
       "noSearchResults": "No matching words found"
     },
     "wordLearn": {
-      "levelOverview": "← Level overview",
+      "levelOverview": "Level overview",
       "wordCounter": "Word {{current}} / {{total}}",
       "listen": "Listen",
-      "tapToTranslate": "(Tap the card to see the meaning)",
+      "tapToTranslate": "Tap the card to see the meaning",
       "back": "Back",
       "startQuiz": "Start the quiz",
       "nextWord": "Next word"
@@ -200,7 +206,7 @@
       "learnNewWords": "Learn new words",
       "levelOverview": "Level overview",
       "wordsMissed": "Words you missed ({{count}})",
-      "levelOverviewBack": "← Level overview",
+      "levelOverviewBack": "Level overview",
       "questionCounter": "Question {{current}} / {{total}}",
       "prompt": "What is the Japanese word for this meaning?"
     },
@@ -211,7 +217,7 @@
       "reviewAgain": "Review again",
       "levelOverview": "Level overview",
       "wordsMissed": "Words you missed ({{count}})",
-      "levelOverviewBack": "← Level overview",
+      "levelOverviewBack": "Level overview",
       "questionCounter": "Question {{current}} / {{total}}",
       "prompt": "What is the Japanese word for this meaning?"
     }
@@ -232,7 +238,7 @@
       "tonesSubtitle": "The four tones and neutral tone"
     },
     "pinyinChart": {
-      "back": "← Pinyin",
+      "back": "Pinyin",
       "tapToListen": "Tap a character to hear it"
     },
     "levelSelect": {
@@ -253,10 +259,10 @@
       "noSearchResults": "No matching words found"
     },
     "wordLearn": {
-      "levelOverview": "← Level overview",
+      "levelOverview": "Level overview",
       "wordCounter": "Word {{current}} / {{total}}",
       "listen": "Listen",
-      "tapToTranslate": "(Tap the card to see the meaning)",
+      "tapToTranslate": "Tap the card to see the meaning",
       "back": "Back",
       "startQuiz": "Start the quiz",
       "nextWord": "Next word"
@@ -269,7 +275,7 @@
       "learnNewWords": "Learn new words",
       "levelOverview": "Level overview",
       "wordsMissed": "Words you missed ({{count}})",
-      "levelOverviewBack": "← Level overview",
+      "levelOverviewBack": "Level overview",
       "questionCounter": "Question {{current}} / {{total}}",
       "prompt": "What is the Chinese word for this meaning?"
     },
@@ -280,7 +286,7 @@
       "reviewAgain": "Review again",
       "levelOverview": "Level overview",
       "wordsMissed": "Words you missed ({{count}})",
-      "levelOverviewBack": "← Level overview",
+      "levelOverviewBack": "Level overview",
       "questionCounter": "Question {{current}} / {{total}}",
       "prompt": "What is the Chinese word for this meaning?"
     }
@@ -288,8 +294,8 @@
   "exerciseQuiz": {
     "redoConfirmTitle": "Redo Stage {{n}}?",
     "redoConfirmContent": "This clears your saved answers for this stage and starts it over.",
-    "correctAnswersTotal": "✓ Correct Answers — {{count}} total",
-    "correctAnswersStage": "✓ Correct Answers — {{score}}/{{total}} in Stage {{stage}}",
+    "correctAnswersTotal": "Correct Answers — {{count}} total",
+    "correctAnswersStage": "Correct Answers — {{score}}/{{total}} in Stage {{stage}}",
     "noCorrectYet": "No correct answers yet.",
     "stageOf": "Stage {{current}} of {{total}}",
     "complete": "Complete",
@@ -316,6 +322,26 @@
     "stageScoreLine": "{{score}}/{{size}} correct",
     "stageMasteredLine": "{{mastered}}/{{size}} mastered",
     "stageLabel": "Stage {{n}}",
-    "questionRange": "Q {{start}}–{{end}}"
+    "questionRange": "Q {{start}}–{{end}}",
+    "noArticle": "Ø (no article)"
+  },
+  "hotkeys": {
+    "flip": "flip",
+    "navigate": "previous / next",
+    "listen": "listen",
+    "answer": "choose an answer",
+    "next": "next"
+  },
+  "header": {
+    "switchAccount": "Switch account",
+    "chooseLanguage": "Choose a language to learn"
+  },
+  "eyebrow": {
+    "welcome": "Welcome",
+    "vocabulary": "Vocabulary",
+    "levels": "Choose a level",
+    "speaking": "Speaking practice",
+    "alphabet": "Writing systems",
+    "pinyin": "Pronunciation"
   }
 }

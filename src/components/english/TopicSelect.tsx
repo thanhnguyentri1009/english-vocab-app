@@ -1,97 +1,50 @@
-import { Button, Card, Col, Row, Typography } from "antd";
+import { ArrowRightOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
-import type { Topic, TopicInfo } from "../../data/english/vocabulary";
-
-const { Title, Text } = Typography;
+import {
+  getLevelsForTopic,
+  getVocabularyForTopic,
+  type Topic,
+  type TopicInfo,
+} from "../../data/english/vocabulary";
+import PageHeader from "../PageHeader";
 
 interface TopicSelectProps {
   topics: TopicInfo[];
   onSelect: (topic: Topic) => void;
-  syncCode: string;
-  onSwitchAccount: () => void;
 }
 
-export default function TopicSelect({
-  topics,
-  onSelect,
-  syncCode,
-  onSwitchAccount,
-}: TopicSelectProps) {
-  const { t } = useTranslation();
+function topicStats(topic: Topic) {
+  const levels = getLevelsForTopic(topic);
+  const vocabulary = getVocabularyForTopic(topic);
+  const words = levels.reduce((sum, l) => sum + (vocabulary[l.key]?.length ?? 0), 0);
+  return { levels: levels.length, words };
+}
+
+export default function TopicSelect({ topics, onSelect }: TopicSelectProps) {
+  const { t, i18n } = useTranslation();
+  const nf = new Intl.NumberFormat(i18n.language);
   return (
-    <div style={{ padding: "24px 16px", maxWidth: 960, margin: "0 auto" }}>
-      <Title
-        level={2}
-        style={{
-          textAlign: "center",
-          color: "#5b6b7a",
-          fontSize: "clamp(22px, 6vw, 30px)",
-        }}
-      >
-        {t("topicSelect.title")}
-      </Title>
-      <Text
-        style={{
-          display: "block",
-          textAlign: "center",
-          marginBottom: 8,
-          color: "#8a97a3",
-        }}
-      >
-        {t("topicSelect.subtitle")}
-      </Text>
-      <div style={{ textAlign: "center", marginBottom: 32 }}>
-        <Text style={{ color: "#a3adb6" }}>
-          {t("common.signedInAs")} <Text strong>{syncCode}</Text>
-        </Text>{" "}
-        <Button
-          type="link"
-          size="small"
-          onClick={onSwitchAccount}
-          style={{ padding: 0 }}
-        >
-          {t("common.switch")}
-        </Button>
+    <div className="page page-wide">
+      <PageHeader
+        eyebrow={t("eyebrow.vocabulary")}
+        title={t("topicSelect.title")}
+        subtitle={t("topicSelect.subtitle")}
+      />
+      <div className="choice-grid">
+        {topics.map((topic) => {
+          const stats = topicStats(topic.key);
+          return (
+            <button key={topic.key} type="button" className="choice" onClick={() => onSelect(topic.key)}>
+              <ArrowRightOutlined className="choice-arrow" />
+              <span className="choice-title">{topic.title}</span>
+              <span className="choice-sub">{topic.subtitle}</span>
+              <span className="choice-meta">
+                {t("topicSelect.meta", { levels: stats.levels, words: nf.format(stats.words) })}
+              </span>
+            </button>
+          );
+        })}
       </div>
-      <Row gutter={[20, 20]} justify="center" align="stretch">
-        {topics.map((topic) => (
-          <Col key={topic.key} xs={24} sm={12} md={8}>
-            <Card
-              hoverable
-              onClick={() => onSelect(topic.key)}
-              style={{
-                textAlign: "center",
-                borderRadius: 16,
-                background: topic.color,
-                border: `1px solid ${topic.accent}33`,
-                boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
-                height: "100%",
-              }}
-              styles={{
-                body: {
-                  padding: "32px 16px",
-                  height: "100%",
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                },
-              }}
-            >
-              <div
-                style={{
-                  fontSize: 26,
-                  fontWeight: 700,
-                  color: topic.accent,
-                  marginBottom: 6,
-                }}
-              >
-                {topic.title}
-              </div>
-              <Text style={{ color: "#6b7580" }}>{topic.subtitle}</Text>
-            </Card>
-          </Col>
-        ))}
-      </Row>
     </div>
   );
 }

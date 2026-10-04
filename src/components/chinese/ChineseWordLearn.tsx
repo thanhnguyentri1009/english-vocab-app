@@ -1,179 +1,58 @@
-import { useEffect, useRef, useState } from 'react'
-import { Button, Card, Typography, Row, Col, Progress, Space } from 'antd'
-import { LeftOutlined, RightOutlined, SoundOutlined } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
 import type { ChineseWord } from '../../data/chinese/types'
-import { speak } from '../../utils/speech'
-
-const { Title, Text, Paragraph } = Typography
+import { chineseSpeechText, speak } from '../../utils/speech'
+import FlashcardDeck from '../ui/FlashcardDeck'
+import { ListenButton } from '../ui/Session'
 
 interface ChineseWordLearnProps {
   words: ChineseWord[]
-  accent: string
+  accent?: string
   initialIndex?: number
   onIndexChange?: (index: number) => void
   onFinish: () => void
   onBack: () => void
 }
 
+const speakWord = (w: ChineseWord) => speak(chineseSpeechText(w), 'zh-CN')
+
 export default function ChineseWordLearn({
   words,
-  accent,
-  initialIndex = 0,
+  initialIndex,
   onIndexChange,
   onFinish,
   onBack,
 }: ChineseWordLearnProps) {
   const { t, i18n } = useTranslation()
-  const [index, setIndex] = useState(() =>
-    Math.min(initialIndex, Math.max(words.length - 1, 0)),
-  )
-  const [flipped, setFlipped] = useState(false)
-  const word = words[index]
-  const isLast = index === words.length - 1
   const isVietnamese = i18n.language.startsWith('vi')
-
-  const isFirstRender = useRef(true)
-  useEffect(() => {
-    if (isFirstRender.current) {
-      isFirstRender.current = false
-      return
-    }
-    onIndexChange?.(index)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [index])
-
-  const goNext = () => {
-    if (isLast) {
-      onFinish()
-      return
-    }
-    setFlipped(false)
-    setIndex((i) => i + 1)
-  }
-
-  const goPrev = () => {
-    if (index === 0) return
-    setFlipped(false)
-    setIndex((i) => i - 1)
-  }
-
   return (
-    <div style={{ padding: '24px 16px', maxWidth: 640, margin: '0 auto' }}>
-      <Space
-        style={{
-          width: '100%',
-          justifyContent: 'space-between',
-          marginBottom: 16,
-          flexWrap: 'wrap',
-          rowGap: 8,
-        }}
-      >
-        <Button type="text" onClick={onBack} style={{ paddingLeft: 4, paddingRight: 4 }}>
-          {t('chinese.wordLearn.levelOverview')}
-        </Button>
-        <Text style={{ color: '#8a97a3', whiteSpace: 'nowrap' }}>
-          {t('chinese.wordLearn.wordCounter', { current: index + 1, total: words.length })}
-        </Text>
-      </Space>
-      <Progress
-        percent={((index + 1) / words.length) * 100}
-        showInfo={false}
-        strokeColor={accent}
-        style={{ marginBottom: 24 }}
-      />
-
-      <Card
-        onClick={() => setFlipped((f) => !f)}
-        hoverable
-        style={{
-          borderRadius: 20,
-          textAlign: 'center',
-          minHeight: 260,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          background: '#fff',
-          border: `1px solid ${accent}33`,
-          boxShadow: '0 4px 16px rgba(0,0,0,0.05)',
-          cursor: 'pointer',
-        }}
-        styles={{ body: { width: '100%', padding: '20px 16px' } }}
-      >
-        {!flipped ? (
-          <div>
-            <Title
-              level={2}
-              style={{
-                margin: 0,
-                color: '#3d4954',
-                fontSize: 'clamp(28px, 8vw, 44px)',
-                wordBreak: 'break-word',
-              }}
-            >
+    <FlashcardDeck
+      words={words}
+      initialIndex={initialIndex}
+      onIndexChange={onIndexChange}
+      onFinish={onFinish}
+      onBack={onBack}
+      i18nPrefix="chinese."
+      speakWord={speakWord}
+      renderFront={(word, play) => (
+        <>
+          <h2 className="flashcard-word" lang="zh-CN">
+            {word.zh}
+          </h2>
+          <div className="flashcard-reading">{word.pinyin}</div>
+          <ListenButton onClick={play} label={t('chinese.wordLearn.listen')} />
+        </>
+      )}
+      renderBack={(word) => (
+        <>
+          <h2 className="flashcard-meaning">{isVietnamese ? word.vi : word.meaning}</h2>
+          <div className="flashcard-meta">
+            <strong style={{ color: 'var(--ink)' }} lang="zh-CN">
               {word.zh}
-            </Title>
-            <Text style={{ display: 'block', marginTop: 4, color: '#a3adb6', fontSize: 18 }}>
-              {word.pinyin}
-            </Text>
-            <Button
-              type="text"
-              icon={<SoundOutlined />}
-              onClick={(e) => {
-                e.stopPropagation()
-                speak(word.zh, 'zh-CN')
-              }}
-              style={{ marginTop: 4, color: accent }}
-            >
-              {t('chinese.wordLearn.listen')}
-            </Button>
-            <Text style={{ display: 'block', marginTop: 16, color: '#a3adb6' }}>
-              {t('chinese.wordLearn.tapToTranslate')}
-            </Text>
+            </strong>
+            <span>{word.pinyin}</span>
           </div>
-        ) : (
-          <div>
-            <Title
-              level={2}
-              style={{
-                margin: 0,
-                color: accent,
-                fontSize: 'clamp(22px, 6vw, 32px)',
-                wordBreak: 'break-word',
-              }}
-            >
-              {isVietnamese ? word.vi : word.meaning}
-            </Title>
-            <Paragraph style={{ margin: '12px 0 0', color: '#5b6b7a' }}>{word.pinyin}</Paragraph>
-            <Text style={{ display: 'block', marginTop: 16, color: '#a3adb6' }}>
-              {word.zh} {word.pinyin}
-            </Text>
-          </div>
-        )}
-      </Card>
-
-      <Row justify="center" style={{ marginTop: 24 }} gutter={16}>
-        <Col>
-          <Button
-            icon={<LeftOutlined />}
-            onClick={goPrev}
-            disabled={index === 0}
-            shape="round"
-          >
-            {t('chinese.wordLearn.back')}
-          </Button>
-        </Col>
-        <Col>
-          <Button
-            type="primary"
-            onClick={goNext}
-            shape="round"
-            style={{ background: accent, borderColor: accent }}
-          >
-            {isLast ? t('chinese.wordLearn.startQuiz') : t('chinese.wordLearn.nextWord')} <RightOutlined />
-          </Button>
-        </Col>
-      </Row>
-    </div>
+        </>
+      )}
+    />
   )
 }
