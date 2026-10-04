@@ -104,7 +104,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     question: "He spoke ___ to the elderly woman.",
     options: ["kind", "kindness", "kindly", "kinder"],
     correctIndex: 2,
-    explanation: "'Kindly' (kind + ly) bổ nghĩa cho động từ 'spoke', diễn tả cách anh ấy nói chuyện tử tế, ân cần với bà cụ. Tính từ 'kind' không đứng được ngay sau chủ ngữ để bổ nghĩa động từ thường; 'kindness' (danh từ) và 'kinder' (so sánh hơn của tính từ) cũng không phù hợp."
+    explanation: "'Kindly' (kind + ly) bổ nghĩa cho động từ 'spoke', diễn tả cách anh ấy nói chuyện tử tế, ân cần với bà cụ. Tính từ 'kind' không thể đứng sau động từ thường 'spoke' để bổ nghĩa cho nó; 'kindness' (danh từ) và 'kinder' (so sánh hơn của tính từ) cũng không phù hợp."
   },
   {
     id: "adv016",
@@ -125,7 +125,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     question: "He performed ___ at the concert last night.",
     options: ["brilliant", "brilliance", "brilliantly", "brillianted"],
     correctIndex: 2,
-    explanation: "'Brilliantly' (brilliant + ly) bổ nghĩa cho động từ 'performed', khen ngợi màn trình diễn xuất sắc trong buổi hòa nhạc. Tính từ 'brilliant' không đứng được sau chủ ngữ để bổ nghĩa cho một động từ hành động; 'brilliance' (danh từ) cũng vậy."
+    explanation: "'Brilliantly' (brilliant + ly) bổ nghĩa cho động từ 'performed', khen ngợi màn trình diễn xuất sắc trong buổi hòa nhạc. Tính từ 'brilliant' không thể đứng sau động từ hành động 'performed' để bổ nghĩa cho nó; 'brilliance' (danh từ) cũng vậy."
   },
   {
     id: "adv019",
@@ -150,24 +150,24 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv022",
-    question: "He ___ arrived when the meeting started.",
+    question: "He had ___ arrived when the meeting started.",
     options: ["bare", "barely", "bareness", "bares"],
     correctIndex: 1,
-    explanation: "'Barely' (bare + ly) nghĩa là 'vừa đủ, hầu như không kịp', bổ nghĩa cho động từ 'arrived' - anh ấy đến đúng lúc cuộc họp bắt đầu, sát nút. Tính từ 'bare' (trần, trơ) mang nghĩa khác hẳn nên không thể dùng làm trạng từ ở đây; 'bareness' (danh từ) cũng sai vị trí."
+    explanation: "'Barely' (bare + ly) nghĩa là 'vừa đủ, hầu như không kịp', bổ nghĩa cho động từ 'arrived' - anh ấy vừa mới đến thì cuộc họp đã bắt đầu, rất sát giờ. Tính từ 'bare' (trần, trơ) mang nghĩa khác hẳn nên không thể dùng làm trạng từ ở đây; 'bareness' (danh từ) cũng sai vị trí."
   },
   {
     id: "adv023",
-    question: "She finished the project ___ before the deadline.",
+    question: "She ___ missed the deadline for the project.",
     options: ["near", "nearly", "nearness", "nearing"],
     correctIndex: 1,
-    explanation: "'Nearly' (near + ly) nghĩa là 'gần như, suýt soát', bổ nghĩa cho cụm trạng ngữ 'before the deadline' để nói cô ấy hoàn thành gần sát hạn chót. Lưu ý 'nearly' khác nghĩa với 'near' (gần, về khoảng cách) - đây là một cặp dễ nhầm vì hình thức giống nhau nhưng nghĩa lệch nhau. 'Nearness' (danh từ) không thể đứng ở vị trí này."
+    explanation: "'Nearly' (near + ly) nghĩa là 'suýt, gần như', bổ nghĩa cho động từ 'missed' - cô ấy suýt nữa thì trễ hạn nộp dự án. Lưu ý 'nearly' khác nghĩa với 'near' (gần, về khoảng cách) - đây là một cặp dễ nhầm vì hình thức giống nhau nhưng nghĩa lệch nhau. 'Nearness' (danh từ) và 'nearing' (V-ing) không thể đứng ở vị trí này."
   },
   {
     id: "adv024",
     question: "They ___ go to the cinema on weekends.",
     options: ["usual", "usually", "usefulness", "usefully"],
     correctIndex: 1,
-    explanation: "'Usually' (usual + ly) là trạng từ tần suất, đứng đầu câu để nói về thói quen lặp lại của họ vào cuối tuần. Nó bổ nghĩa cho cả hành động 'go to the cinema' chứ không riêng một từ nào. Các lựa chọn còn lại như 'usefulness'/'usefully' đến từ từ gốc khác ('useful' - hữu ích), hoàn toàn lạc đề về nghĩa."
+    explanation: "'Usually' (usual + ly) là trạng từ tần suất, đứng giữa chủ ngữ và động từ thường để nói về thói quen lặp lại của họ vào cuối tuần. Nó bổ nghĩa cho cả hành động 'go to the cinema' chứ không riêng một từ nào. Các lựa chọn còn lại như 'usefulness'/'usefully' đến từ từ gốc khác ('useful' - hữu ích), hoàn toàn lạc đề về nghĩa."
   },
   {
     id: "adv025",
@@ -242,9 +242,9 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv035",
     question: "The stars shone ___ in the night sky.",
-    options: ["bright", "brightness", "brightly", "brightest"],
+    options: ["brighten", "brightness", "brightly", "brightest"],
     correctIndex: 2,
-    explanation: "'Brightly' (bright + ly) bổ nghĩa cho động từ 'shone', miêu tả những vì sao tỏa sáng rực rỡ trên bầu trời đêm. Tính từ 'bright' không đứng được sau động từ 'shone' theo cách này; 'brightest' là dạng so sánh nhất của tính từ, cũng không phù hợp ngữ pháp ở đây."
+    explanation: "'Brightly' (bright + ly) bổ nghĩa cho động từ 'shone', miêu tả những vì sao tỏa sáng rực rỡ trên bầu trời đêm. 'Brighten' là động từ ('làm sáng lên') nên không thể bổ nghĩa cho 'shone'; 'brightest' là dạng so sánh nhất của tính từ, cũng không phù hợp ngữ pháp ở đây."
   },
   {
     id: "adv036",
@@ -304,7 +304,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv044",
-    question: "She writes her diary ___ every evening.",
+    question: "She writes in her diary ___ every evening.",
     options: ["faithful", "faith", "faithfully", "faithed"],
     correctIndex: 2,
     explanation: "'Faithfully' (faithful + ly) bổ nghĩa cho động từ 'writes', nghĩa là cô ấy viết nhật ký đều đặn, trung thành với thói quen mỗi tối. 'Faith' (danh từ, 'niềm tin') và 'faithed' (không phải từ thật) đều không phù hợp ở vị trí này."
@@ -342,7 +342,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     question: "The elderly man walked ___ to the park.",
     options: ["slow", "slowly", "slowness", "slowed"],
     correctIndex: 1,
-    explanation: "'Slowly' (slow + ly) bổ nghĩa cho động từ 'walked', miêu tả ông cụ đi bộ chậm rãi đến công viên. Tính từ 'slow' không đứng được ngay sau chủ ngữ để bổ nghĩa cho một động từ hành động như vậy."
+    explanation: "'Slowly' (slow + ly) bổ nghĩa cho động từ 'walked', miêu tả ông cụ đi bộ chậm rãi đến công viên. Tính từ 'slow' không thể đứng sau động từ hành động 'walked' để bổ nghĩa cho nó."
   },
   {
     id: "adv050",
@@ -388,14 +388,14 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv056",
-    question: "The workers completed the building ___ ahead of schedule.",
-    options: ["week", "weeks", "weekly", "weekdays"],
+    question: "The magazine is published ___.",
+    options: ["week", "weeks", "weekly", "weekend"],
     correctIndex: 2,
-    explanation: "'Weekly' là một trạng từ đặc biệt: tính từ và trạng từ có cùng hình thức, không thêm -ly nữa, nghĩa là 'hàng tuần', bổ nghĩa cho 'completed... ahead of schedule' để nói công việc được hoàn thành đều đặn theo tuần. Danh từ số ít/số nhiều 'week/weeks' không thể tự đứng làm trạng từ; 'weekdays' chỉ những ngày trong tuần chứ không mang nghĩa tần suất."
+    explanation: "'Weekly' là một trạng từ đặc biệt: tính từ và trạng từ có cùng hình thức, không thêm -ly nữa, nghĩa là 'hàng tuần', ở đây bổ nghĩa cho động từ 'is published' để chỉ tần suất xuất bản của tạp chí. Danh từ số ít/số nhiều 'week/weeks' không thể tự đứng làm trạng từ tần suất; 'weekend' (cuối tuần) là danh từ và không mang nghĩa 'hàng tuần'."
   },
   {
     id: "adv057",
-    question: "He ___ reads the news to stay updated.",
+    question: "He reads the news ___ to stay updated.",
     options: ["day", "daily", "daytime", "daydream"],
     correctIndex: 1,
     explanation: "'Daily' cũng là trạng từ đặc biệt không thêm -ly (giống weekly, monthly, yearly), nghĩa là 'hàng ngày', bổ nghĩa cho động từ 'reads'. 'Day' là danh từ đơn thuần, còn 'daytime' (ban ngày) và 'daydream' (mơ mộng giữa ban ngày) đều lạc nghĩa so với ý 'mỗi ngày'."
@@ -479,10 +479,10 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv069",
-    question: "She became ___ famous after the book was published.",
+    question: "She became ___ known after the book was published.",
     options: ["wide", "widely", "wideness", "widen"],
     correctIndex: 1,
-    explanation: "'Widely' (wide + ly) là trạng từ chỉ mức độ/phạm vi, đứng trước tính từ 'famous' để nói cô ấy trở nên nổi tiếng rộng rãi sau khi sách xuất bản. 'Wideness' (danh từ) và 'widen' (động từ, 'mở rộng') đều sai từ loại ở vị trí này."
+    explanation: "'Widely' (wide + ly) là trạng từ chỉ mức độ/phạm vi, đứng trước phân từ 'known' để nói cô ấy trở nên được biết đến rộng rãi sau khi sách xuất bản. 'Wideness' (danh từ) và 'widen' (động từ, 'mở rộng') đều sai từ loại ở vị trí này."
   },
   {
     id: "adv070",
@@ -587,7 +587,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     question: "She ___ admitted she was wrong.",
     options: ["humble", "humbleness", "humbly", "humbled"],
     correctIndex: 2,
-    explanation: "'Humbly' (humble + ly, bỏ chữ e câm trước khi thêm -ly) bổ nghĩa cho động từ 'admitted', nghĩa là cô ấy thừa nhận sai lầm một cách khiêm tốn. 'Humbleness' (danh từ) không thể đứng ở vị trí trạng từ này."
+    explanation: "'Humbly' (humble → humbly, đổi đuôi -le thành -ly) bổ nghĩa cho động từ 'admitted', nghĩa là cô ấy thừa nhận sai lầm một cách khiêm tốn. 'Humbleness' (danh từ) không thể đứng ở vị trí trạng từ này."
   },
   {
     id: "adv085",
@@ -683,9 +683,9 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv098",
     question: "She arrived ___ after everyone else had left.",
-    options: ["long", "long after", "at long last", "shortly"],
+    options: ["short", "long after", "at long last", "shortly"],
     correctIndex: 3,
-    explanation: "'Shortly' (short + ly) bổ nghĩa cho cụm 'after everyone else had left', tạo thành cụm cố định 'shortly after' nghĩa là 'ngay sau đó, không lâu sau'. Lựa chọn 'long after' mang nghĩa ngược lại (rất lâu sau) nên không phù hợp ngữ cảnh câu vốn ngụ ý cô đến gần thời điểm mọi người rời đi. Ghi nhớ cụm 'shortly after/before' như một cách diễn đạt hai mốc thời gian sát nhau."
+    explanation: "'Shortly' (short + ly) kết hợp với 'after' tạo thành cụm cố định 'shortly after' nghĩa là 'ngay sau đó, không lâu sau'. Phương án 'long after' sẽ làm lặp 'after' ('long after after...') nên sai ngữ pháp; 'at long last' (cuối cùng thì) không đứng trước 'after' theo cách này; còn 'short' là tính từ, không dùng như trạng từ trong cụm này. Ghi nhớ cụm 'shortly after/before' để diễn đạt hai mốc thời gian sát nhau."
   },
   {
     id: "adv099",
@@ -696,10 +696,10 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv100",
-    question: "She dances ___ than anyone in the class.",
+    question: "She dances ___ than anyone else in the class.",
     options: ["beautiful", "more beautiful", "beautifully", "more beautifully"],
     correctIndex: 3,
-    explanation: "'More beautifully' là dạng so sánh hơn của trạng từ 'beautifully' (trạng từ nhiều âm tiết dùng 'more' thay vì thêm -er), bổ nghĩa cho động từ 'dances' trong phép so sánh. Tính từ 'beautiful' hay 'more beautiful' đều sai vì cần trạng từ để bổ nghĩa cho động từ 'dances' chứ không phải danh từ."
+    explanation: "'More beautifully' là dạng so sánh hơn của trạng từ 'beautifully' (trạng từ nhiều âm tiết dùng 'more' thay vì thêm -er), bổ nghĩa cho động từ 'dances' trong phép so sánh. Tính từ 'beautiful' hay 'more beautiful' đều sai vì cần trạng từ để bổ nghĩa cho động từ 'dances', còn tính từ chỉ bổ nghĩa cho danh từ."
   },
   {
     id: "adv101",
@@ -711,9 +711,9 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv102",
     question: "She runs ___ of all the athletes on the team.",
-    options: ["quick", "quickly", "quickest", "most quickly"],
+    options: ["quick", "quickly", "more quickly", "most quickly"],
     correctIndex: 3,
-    explanation: "'Most quickly' là so sánh nhất của trạng từ 'quickly' (trạng từ có đuôi -ly dùng 'most' thay vì thêm -est), bổ nghĩa cho động từ 'runs' trong so sánh với tất cả vận động viên. 'Quickest' sai vì không thể vừa giữ đuôi -ly vừa thêm -est cùng lúc kiểu 'quicklyest'."
+    explanation: "'Most quickly' là so sánh nhất của trạng từ 'quickly' (trạng từ có đuôi -ly dùng 'most' thay vì thêm -est), bổ nghĩa cho động từ 'runs' trong so sánh với tất cả vận động viên. 'More quickly' là so sánh hơn nên không dùng được khi so sánh với tất cả ('of all'); 'quick' là tính từ và 'quickly' chưa ở dạng so sánh nhất."
   },
   {
     id: "adv103",
@@ -734,7 +734,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     question: "She studied ___ for the exam and passed it easily.",
     options: ["thorough", "thoroughly", "more thoroughly", "most thoroughly"],
     correctIndex: 1,
-    explanation: "Câu này không có cấu trúc so sánh (không có 'than'), nên chỉ cần trạng từ gốc 'thoroughly' (thorough + ly) bổ nghĩa cho động từ 'studied'. Thêm 'more' hay 'most' vào đây là thừa và sai ngữ pháp vì không có đối tượng nào được đem ra so sánh. Đây là điểm cần chú ý: không phải cứ thấy trạng từ dài là mặc định phải so sánh."
+    explanation: "Câu này không có cấu trúc so sánh (không có 'than'), nên chỉ cần trạng từ gốc 'thoroughly' (thorough + ly) bổ nghĩa cho động từ 'studied'. Thêm 'more' hay 'most' vào đây là không phù hợp vì câu không nêu đối tượng nào để so sánh. Đây là điểm cần chú ý: không phải cứ thấy trạng từ dài là mặc định phải so sánh."
   },
   {
     id: "adv106",
@@ -745,7 +745,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv107",
-    question: "She ___ goes to bed before midnight.",
+    question: "She is a night owl and ___ goes to bed before midnight.",
     options: ["ever", "never", "always", "ever never"],
     correctIndex: 1,
     explanation: "'Never' (không bao giờ) là trạng từ tần suất phù hợp nhất vì câu diễn tả việc hoàn toàn không xảy ra: cô ấy không bao giờ đi ngủ trước nửa đêm. 'Ever' thường chỉ dùng tự nhiên trong câu hỏi/phủ định/so sánh chứ không đứng một mình trong câu khẳng định như thế này, còn 'always' lại mang nghĩa ngược lại (luôn luôn)."
@@ -761,29 +761,29 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     id: "adv109",
     question: "I have ___ seen such a beautiful sunset.",
     options: ["ever", "never", "already", "yet"],
-    correctIndex: 0,
-    explanation: "'Ever' (đã từng, bao giờ) thường xuất hiện trong câu nghi vấn, phủ định hoặc câu mang sắc thái cảm thán để nhấn mạnh trải nghiệm, như ở đây diễn tả sự ngạc nhiên trước cảnh hoàng hôn đẹp hiếm có. Phân biệt với 'never' (không bao giờ) vốn dùng để phủ định một hành động chưa từng xảy ra, còn 'already' và 'yet' chỉ dùng khi nói về việc đã/chưa hoàn thành một hành động cụ thể, không phù hợp với sắc thái nhấn mạnh trải nghiệm ở đây."
+    correctIndex: 1,
+    explanation: "'Never' (chưa bao giờ) dùng với thì hiện tại hoàn thành để nói về một trải nghiệm chưa từng có: 'I have never seen such a beautiful sunset' (Tôi chưa từng thấy cảnh hoàng hôn nào đẹp như vậy). 'Ever' không dùng trong câu khẳng định kiểu 'I have ever seen...' mà chỉ dùng trong câu hỏi, câu phủ định hoặc sau so sánh nhất ('the most beautiful sunset I have ever seen'). 'Already' và 'yet' nói về việc đã/chưa hoàn thành một hành động, không hợp với ý nhấn mạnh trải nghiệm ở đây."
   },
   {
     id: "adv110",
     question: "She has ___ finished her homework.",
-    options: ["yet", "still", "already", "just"],
+    options: ["yet", "still", "already", "ever"],
     correctIndex: 2,
     explanation: "'Already' (đã ... rồi) dùng trong câu khẳng định ở thì hiện tại hoàn thành để nói một việc đã hoàn thành, ở đây là 'has already finished her homework'. Nó thường đứng giữa trợ động từ 'has' và động từ chính. Phân biệt với 'yet' (dùng trong câu hỏi/phủ định) và 'still' (diễn tả việc đang tiếp diễn, chưa kết thúc) - cả hai đều không hợp với câu khẳng định này."
   },
   {
     id: "adv111",
     question: "Have you read the book ___?",
-    options: ["already", "just", "yet", "ever"],
+    options: ["still", "just", "yet", "ever"],
     correctIndex: 2,
-    explanation: "'Yet' (chưa, đã... chưa) dùng trong câu hỏi và câu phủ định ở thì hiện tại hoàn thành, thường đứng cuối câu như trong 'Have you read the book yet?'. Phân biệt với 'already' (dùng trong câu khẳng định) và 'just' (vừa mới, chỉ hành động vừa xảy ra) - cả hai không phù hợp với câu hỏi này."
+    explanation: "'Yet' (chưa, đã... chưa) dùng trong câu hỏi và câu phủ định ở thì hiện tại hoàn thành, thường đứng cuối câu như trong 'Have you read the book yet?'. Phân biệt với 'still' (vẫn còn), 'just' (vừa mới) và 'ever' (từng) - các trạng từ này thường đứng trước động từ chính chứ không đứng cuối câu hỏi như 'yet', nên không phù hợp ở đây."
   },
   {
     id: "adv112",
     question: "He has ___ arrived; he is parking the car.",
-    options: ["yet", "already", "still", "just"],
+    options: ["yet", "ever", "still", "just"],
     correctIndex: 3,
-    explanation: "'Just' (vừa mới) diễn tả một hành động vừa mới xảy ra ngay trước thời điểm nói, đứng giữa trợ động từ 'has' và động từ chính 'arrived'. Ngữ cảnh 'he is parking the car' xác nhận anh ấy vừa mới đến. 'Yet' và 'already' đều mang nghĩa về việc đã/chưa hoàn thành lâu hơn, không khớp với ý 'vừa mới' ở đây."
+    explanation: "'Just' (vừa mới) diễn tả một hành động vừa mới xảy ra ngay trước thời điểm nói, đứng giữa trợ động từ 'has' và động từ chính 'arrived'. Ngữ cảnh 'he is parking the car' xác nhận anh ấy vừa mới đến. 'Yet' chỉ dùng trong câu hỏi/phủ định, 'ever' dùng trong câu hỏi hoặc sau so sánh nhất, còn 'still' (vẫn còn) không hợp với hành động đã hoàn tất 'arrived', nên chỉ 'just' phù hợp."
   },
   {
     id: "adv113",
@@ -795,7 +795,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv114",
     question: "She is ___ waiting for the bus.",
-    options: ["already", "yet", "still", "just"],
+    options: ["already", "yet", "still", "ever"],
     correctIndex: 2,
     explanation: "'Still' (vẫn còn) diễn tả một hành động đang tiếp diễn, kéo dài đến hiện tại, đứng trước động từ chính 'waiting'. Phân biệt với 'already' (đã hoàn thành) và 'yet' (dùng ở câu hỏi/phủ định) - cả hai không hợp với ý 'vẫn đang chờ' ở đây."
   },
@@ -823,23 +823,23 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv118",
     question: "She looked ___ and saw the birds flying overhead.",
-    options: ["up", "upon", "upper", "upward"],
+    options: ["up", "upon", "upper", "uptake"],
     correctIndex: 0,
-    explanation: "'Up' (lên trên) là trạng từ chỉ hướng, bổ nghĩa cho động từ 'looked' để chỉ hành động ngước nhìn lên trời. 'Upward' cũng chỉ hướng lên nhưng thường trang trọng hơn và ít tự nhiên với 'look' bằng 'up'; 'upon' là giới từ, không phải trạng từ chỉ hướng đơn thuần."
+    explanation: "'Up' (lên trên) là trạng từ chỉ hướng, bổ nghĩa cho động từ 'looked' để chỉ hành động ngước nhìn lên trời. 'Upper' là tính từ (phía trên, chỉ đứng trước danh từ), 'uptake' là danh từ, còn 'upon' là giới từ cần tân ngữ đi kèm - đều không thể bổ nghĩa cho 'looked' như trạng từ 'up'."
   },
   {
     id: "adv119",
     question: "The cat jumped ___ from the shelf.",
-    options: ["down", "downward", "below", "under"],
+    options: ["down", "downy", "below", "under"],
     correctIndex: 0,
-    explanation: "'Down' (xuống) là trạng từ chỉ hướng, bổ nghĩa cho động từ 'jumped' để nói con mèo nhảy xuống từ giá sách. 'Below' và 'under' đều là giới từ cần có tân ngữ đi kèm, không thể đứng một mình sau 'jumped' như trạng từ 'down'."
+    explanation: "'Down' (xuống) là trạng từ chỉ hướng, bổ nghĩa cho động từ 'jumped' để nói con mèo nhảy xuống từ giá sách. 'Downy' là tính từ (nghĩa 'phủ lông tơ'), còn 'below' và 'under' đều là giới từ cần có tân ngữ đi kèm, không thể đứng một mình sau 'jumped' như trạng từ 'down'."
   },
   {
     id: "adv120",
     question: "Turn ___ at the traffic light.",
-    options: ["left", "leftward", "leftside", "to the left side"],
+    options: ["left", "leftover", "leftside", "lefty"],
     correctIndex: 0,
-    explanation: "'Left' (sang trái) là trạng từ chỉ hướng, dùng trực tiếp sau động từ chỉ chuyển động như 'turn' mà không cần giới từ. Cụm dài hơn 'to the left side' tuy đúng nghĩa nhưng không tự nhiên bằng cách dùng trạng từ đơn 'left' trong khẩu lệnh ngắn gọn này; 'leftward' ít dùng trong văn nói thông thường."
+    explanation: "'Left' (sang trái) là trạng từ chỉ hướng, dùng trực tiếp sau động từ chỉ chuyển động như 'turn' mà không cần giới từ. 'Leftover' là danh từ/tính từ (nghĩa 'đồ thừa, còn sót lại'), 'lefty' là danh từ chỉ người thuận tay trái, còn 'leftside' không phải từ chuẩn - đều không chỉ hướng như 'left'."
   },
   {
     id: "adv121",
@@ -851,16 +851,16 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv122",
     question: "___, she was a famous actress.",
-    options: ["Former", "Formerly", "Before", "Formerness"],
+    options: ["Former", "Formerly", "Formal", "Formerness"],
     correctIndex: 1,
     explanation: "'Formerly' (trước đây, ngày xưa) là trạng từ chỉ thời gian, đứng đầu câu để giới thiệu một sự thật đã không còn đúng ở hiện tại - cô ấy từng là diễn viên nổi tiếng. Đừng nhầm với tính từ 'former' (trước đây, cựu) vốn phải đứng trước danh từ như 'the former actress' chứ không thể đứng đầu câu độc lập như vậy."
   },
   {
     id: "adv123",
     question: "He will ___ leave for Paris.",
-    options: ["soon", "shortly", "immediately", "presently"],
-    correctIndex: 2,
-    explanation: "'Immediately' (ngay lập tức) bổ nghĩa cho động từ 'leave', diễn tả hành động xảy ra tức thì, không trì hoãn. So với 'soon' và 'shortly' (chỉ thời gian gần nhưng ít khẩn cấp hơn) hay 'presently' (thường mang nghĩa khác), 'immediately' là từ nhấn mạnh tính tức khắc phù hợp nhất với trợ động từ 'will'."
+    options: ["immediate", "immediately", "immediacy", "immediateness"],
+    correctIndex: 1,
+    explanation: "'Immediately' (immediate + ly) là trạng từ chỉ thời gian nghĩa 'ngay lập tức', đứng giữa trợ động từ 'will' và động từ chính 'leave' để bổ nghĩa cho 'leave'. 'Immediate' là tính từ, còn 'immediacy' và 'immediateness' là danh từ, nên đều không thể bổ nghĩa cho động từ."
   },
   {
     id: "adv124",
@@ -941,7 +941,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv135",
-    question: "He performed ___ in the group project.",
+    question: "He performed ___ of all the members in the group project.",
     options: ["good", "well", "better", "best"],
     correctIndex: 3,
     explanation: "'Best' là dạng so sánh nhất bất quy tắc của trạng từ 'well' (well → better → best), bổ nghĩa cho động từ 'performed' trong dự án nhóm. Đây là chuỗi bất quy tắc quan trọng cần nhớ, không theo quy tắc thêm -est hay 'most' thông thường; 'good' là tính từ gốc tương ứng, không dùng được ở vị trí trạng từ này."
@@ -997,7 +997,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv143",
-    question: "He drives ___ carefully ___ to avoid accidents.",
+    question: "He drives ___ carefully ___ he has never had an accident.",
     options: ["so / that", "such / that", "too / to", "enough / to"],
     correctIndex: 0,
     explanation: "Cấu trúc đúng ở đây là 'so + trạng từ (carefully) + that + mệnh đề kết quả': 'He drives so carefully that...' diễn đạt mức độ dẫn đến kết quả. 'Such... that' chỉ dùng với danh từ, còn 'too... to' và 'enough... to' đi với động từ nguyên mẫu chứ không phải mệnh đề 'that', nên không khớp cấu trúc của câu này."
@@ -1025,10 +1025,10 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv147",
-    question: "He arrived ___ early ___ get a good seat.",
+    question: "He arrived ___ late ___ get a good seat.",
     options: ["so / that", "too / to", "enough / to", "such / that"],
     correctIndex: 1,
-    explanation: "Cấu trúc 'too + trạng từ + to V' diễn đạt nghĩa 'quá... để làm gì đó', nên đáp án đúng là 'too / to': 'arrived too early to get a good seat' (đến quá sớm, trước khi có chỗ ngồi tốt). Phân biệt với 'so... that' phải đi kèm một mệnh đề đầy đủ, còn 'enough... to' đặt trạng từ trước 'enough' chứ không dùng với 'too'."
+    explanation: "Cấu trúc 'too + trạng từ + to V' diễn đạt nghĩa 'quá... nên không thể làm gì đó', nên đáp án đúng là 'too / to': 'arrived too late to get a good seat' (đến quá muộn nên không có được chỗ ngồi tốt). Phân biệt với 'so... that' phải đi kèm một mệnh đề đầy đủ, 'enough... to' phải đặt trạng từ trước 'enough' ('late enough to'), còn 'such... that' chỉ đi với danh từ."
   },
   {
     id: "adv148",
@@ -1126,7 +1126,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     question: "She closed the door ___ so as not to wake the baby.",
     options: ["gentle", "gentleness", "gently", "gentled"],
     correctIndex: 2,
-    explanation: "'Gently' (gentle + ly, bỏ e trước khi thêm ly) bổ nghĩa cho động từ 'closed', nghĩa là cô ấy khép cửa nhẹ nhàng để không đánh thức em bé. 'Gentleness' (danh từ) không thể đứng ở vị trí trạng từ bổ nghĩa cho động từ này."
+    explanation: "'Gently' (gentle → gently, đổi đuôi -le thành -ly) bổ nghĩa cho động từ 'closed', nghĩa là cô ấy khép cửa nhẹ nhàng để không đánh thức em bé. 'Gentleness' (danh từ) không thể đứng ở vị trí trạng từ bổ nghĩa cho động từ này."
   },
   {
     id: "adv162",
@@ -1147,7 +1147,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     question: "She fell ___ the moment she sat down.",
     options: ["asleep", "sleep", "sleeping", "slept"],
     correctIndex: 0,
-    explanation: "'Asleep' là một trạng từ/vị từ đặc biệt, chỉ dùng sau động từ như 'fall' hay 'be', không đứng trước danh từ, tạo thành cụm cố định 'fall asleep' nghĩa là 'chìm vào giấc ngủ'. 'Sleep' (động từ nguyên mẫu/danh từ) và 'sleeping' (-ing) không kết hợp tự nhiên với 'fell' theo cách này; 'slept' là dạng quá khứ của chính động từ cần theo sau, nên không thể lặp lại một động từ chia thì khác ở vị trí đó."
+    explanation: "'Asleep' là một trạng từ/vị từ đặc biệt, chỉ dùng sau động từ như 'fall' hay 'be', không đứng trước danh từ, tạo thành cụm cố định 'fall asleep' nghĩa là 'chìm vào giấc ngủ'. 'Sleep' (động từ nguyên mẫu/danh từ) và 'sleeping' (-ing) không kết hợp tự nhiên với 'fell' theo cách này; 'slept' là động từ chia ở quá khứ nên không thể đứng ngay sau động từ 'fell'."
   },
   {
     id: "adv165",
@@ -1186,17 +1186,17 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv170",
-    question: "The road ___ leading to the village was narrow.",
+    question: "The road ___ was blocked, so we had to turn back.",
     options: ["ahead", "forward", "behind", "backward"],
     correctIndex: 0,
-    explanation: "'Ahead' (phía trước) là trạng từ chỉ vị trí, đứng sau danh từ 'road' để chỉ rõ con đường phía trước dẫn đến ngôi làng. 'Forward' chỉ hướng chuyển động chứ không dùng để định vị một vật tĩnh như con đường theo cách này; 'behind' (phía sau) và 'backward' (về phía sau) đều sai nghĩa vì trái ngược với ý 'phía trước'."
+    explanation: "'Ahead' (phía trước) là trạng từ chỉ vị trí, đứng sau danh từ 'road' để chỉ đoạn đường phía trước - vì đường phía trước bị chặn nên phải quay lại. 'Forward' chỉ hướng chuyển động chứ không dùng để định vị một vật tĩnh như con đường theo cách này; 'behind' (phía sau) và 'backward' (về phía sau) đều sai nghĩa vì không giải thích được việc phải quay lại."
   },
   {
     id: "adv171",
     question: "She walked ___ without looking back.",
-    options: ["forth", "forward", "before", "ahead"],
+    options: ["front", "forward", "before", "foremost"],
     correctIndex: 1,
-    explanation: "'Forward' (về phía trước) là trạng từ chỉ hướng, bổ nghĩa cho động từ 'walked' để nói cô ấy bước tiếp mà không ngoái lại. 'Forth' gần nghĩa nhưng thường đi cùng cụm cố định như 'back and forth', ít tự nhiên khi đứng một mình sau 'walked' như 'forward'; 'ahead' thường đi kèm giới từ 'of' khi so sánh vị trí, còn 'before' chủ yếu là giới từ/liên từ chỉ thời gian."
+    explanation: "'Forward' (về phía trước) là trạng từ chỉ hướng, bổ nghĩa cho động từ 'walked' để nói cô ấy bước tiếp về phía trước mà không ngoái lại. 'Front' là danh từ/tính từ, cần đi với giới từ ('to the front'); 'foremost' nghĩa là 'hàng đầu, quan trọng nhất'; còn 'before' chủ yếu là giới từ/liên từ chỉ thời gian - đều không phù hợp ở đây."
   },
   {
     id: "adv172",
@@ -1208,9 +1208,9 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv173",
     question: "She returned ___ after a year abroad.",
-    options: ["home", "homely", "homeward", "homeness"],
+    options: ["home", "homely", "homes", "homeness"],
     correctIndex: 0,
-    explanation: "'Home' có thể tự làm trạng từ chỉ nơi chốn (không cần giới từ 'to'), bổ nghĩa cho động từ 'returned': 'returned home' nghĩa là trở về nhà. 'Homely' là tính từ (nghĩa 'giản dị, mộc mạc') chứ không phải trạng từ chỉ hướng; 'homeward' đúng là trạng từ chỉ hướng nhưng ít tự nhiên hơn 'home' trong câu này, còn 'homeness' không phải từ thật."
+    explanation: "'Home' có thể tự làm trạng từ chỉ nơi chốn (không cần giới từ 'to'), bổ nghĩa cho động từ 'returned': 'returned home' nghĩa là trở về nhà. 'Homely' là tính từ (nghĩa 'giản dị, mộc mạc') chứ không phải trạng từ chỉ hướng; 'homes' là danh từ số nhiều nên không làm trạng từ được, còn 'homeness' không phải từ thật."
   },
   {
     id: "adv174",
@@ -1243,23 +1243,23 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv178",
     question: "The sun rises ___ in the east.",
-    options: ["every day", "everyday", "always", "each day"],
+    options: ["every day", "everyday", "every days", "ever day"],
     correctIndex: 0,
-    explanation: "'Every day' (viết thành hai từ) là cụm trạng từ chỉ thời gian nghĩa là 'mỗi ngày', bổ nghĩa cho động từ 'rises'. Cần phân biệt với 'everyday' (viết liền) - đó là tính từ nghĩa 'hàng ngày, bình thường' và phải đứng trước danh từ, không thể bổ nghĩa cho động từ như trạng từ 'every day'."
+    explanation: "'Every day' (viết thành hai từ) là cụm trạng từ chỉ thời gian nghĩa là 'mỗi ngày', bổ nghĩa cho động từ 'rises'. Cần phân biệt với 'everyday' (viết liền) - đó là tính từ nghĩa 'hàng ngày, bình thường' và phải đứng trước danh từ, không thể bổ nghĩa cho động từ như trạng từ 'every day'. 'Every days' và 'ever day' đều sai chính tả/ngữ pháp."
   },
   {
     id: "adv179",
     question: "She called me ___ afternoon.",
-    options: ["yesterday", "last", "the other", "passed"],
+    options: ["yesterday", "last", "tomorrow", "passed"],
     correctIndex: 0,
-    explanation: "'Yesterday' kết hợp với 'afternoon' tạo thành cụm trạng từ chỉ thời gian cụ thể 'yesterday afternoon' (chiều hôm qua), bổ nghĩa cho động từ 'called'. 'Last' cần đi với danh từ chỉ thời gian theo cấu trúc khác, không tự nhiên bằng 'yesterday afternoon'; còn 'the other' và 'passed' không tạo thành cụm trạng từ chỉ thời gian chuẩn trong tiếng Anh."
+    explanation: "'Yesterday' kết hợp với 'afternoon' tạo thành cụm trạng từ chỉ thời gian cụ thể 'yesterday afternoon' (chiều hôm qua), bổ nghĩa cho động từ 'called'. 'Tomorrow' chỉ tương lai nên mâu thuẫn với động từ quá khứ 'called'; 'last afternoon' không phải cách nói tự nhiên (người ta dùng 'yesterday afternoon'), còn 'passed' là động từ nên không tạo thành cụm trạng từ chỉ thời gian."
   },
   {
     id: "adv180",
     question: "I'll see you ___ morning.",
-    options: ["this", "next", "tomorrow", "the future"],
+    options: ["yesterday", "after", "tomorrow", "the future"],
     correctIndex: 2,
-    explanation: "'Tomorrow' kết hợp với 'morning' tạo thành cụm trạng từ chỉ thời gian tương lai 'tomorrow morning' (sáng mai), bổ nghĩa cho cả câu. 'This morning' chỉ dùng cho hiện tại/quá khứ gần, không hợp với hành động tương lai 'I'll see you'; 'next' cần một danh từ khác đi kèm hợp lý hơn và 'the future' là cụm danh từ chung chung, không đủ cụ thể để dùng ở đây."
+    explanation: "'Tomorrow' kết hợp với 'morning' tạo thành cụm trạng từ chỉ thời gian tương lai 'tomorrow morning' (sáng mai), phù hợp với thì tương lai 'I'll see you'. 'Yesterday morning' chỉ quá khứ nên mâu thuẫn với thì tương lai; 'after morning' không phải cách nói đúng, còn 'the future morning' không phải cụm chỉ thời gian chuẩn trong tiếng Anh."
   },
   {
     id: "adv181",
@@ -1299,7 +1299,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv186",
     question: "He spoke ___ to make his point.",
-    options: "Deliberately / Deliberate / Deliberation / Deliberated".split(" / "),
+    options: "deliberately / deliberate / deliberation / deliberated".split(" / "),
     correctIndex: 0,
     explanation: "'Deliberately' (deliberate + ly) bổ nghĩa cho động từ 'spoke', nghĩa là anh ấy nói một cách cố ý, có chủ đích để nhấn mạnh quan điểm. 'Deliberate' (tính từ/động từ) và 'deliberation' (danh từ, 'sự cân nhắc') đều sai từ loại ở vị trí trạng từ này."
   },
@@ -1326,7 +1326,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   },
   {
     id: "adv190",
-    question: "The teacher spoke ___ to encourage the shy student.",
+    question: "The teacher spoke ___ to the shy student.",
     options: ["encourage", "encouragingly", "encouraged", "encouragement"],
     correctIndex: 1,
     explanation: "'Encouragingly' (encouraging + ly) bổ nghĩa cho động từ 'spoke', nghĩa là giáo viên nói chuyện với giọng khích lệ để động viên học sinh nhút nhát. 'Encouraged' (tính từ bị động) và 'encouragement' (danh từ) đều sai từ loại ở vị trí trạng từ chỉ cách thức này."
@@ -1350,12 +1350,12 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     question: "She ___ hinted that something was wrong.",
     options: ["subtle", "subtlety", "subtly", "subtled"],
     correctIndex: 2,
-    explanation: "'Subtly' (subtle + ly, bỏ e trước khi thêm ly) bổ nghĩa cho động từ 'hinted', nghĩa là cô ấy ám chỉ một cách tinh tế, kín đáo rằng có gì đó không ổn. 'Subtlety' (danh từ) không thể đứng ở vị trí trạng từ bổ nghĩa cho động từ này."
+    explanation: "'Subtly' (subtle → subtly, đổi đuôi -le thành -ly) bổ nghĩa cho động từ 'hinted', nghĩa là cô ấy ám chỉ một cách tinh tế, kín đáo rằng có gì đó không ổn. 'Subtlety' (danh từ) không thể đứng ở vị trí trạng từ bổ nghĩa cho động từ này."
   },
   {
     id: "adv194",
     question: "He ___ pointed out the flaws in the argument.",
-    options: "Sharply / Sharp / Sharpness / Sharpen".split(" / "),
+    options: "sharply / sharp / sharpness / sharpen".split(" / "),
     correctIndex: 0,
     explanation: "'Sharply' (sharp + ly) bổ nghĩa cho cụm động từ 'pointed out', nghĩa là anh ấy chỉ ra những sai sót trong lập luận một cách sắc bén, thẳng thắn. 'Sharp' (tính từ) và 'sharpen' (động từ, 'làm sắc') đều sai từ loại ở vị trí trạng từ chỉ cách thức này."
   },
@@ -1376,7 +1376,7 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
   {
     id: "adv197",
     question: "She ___ believes that hard work pays off.",
-    options: "Firm / Firmly / Firmness / Firmed".split(" / "),
+    options: "firm / firmly / firmness / firmed".split(" / "),
     correctIndex: 1,
     explanation: "'Firmly' (firm + ly) bổ nghĩa cho động từ 'believes', nghĩa là cô ấy tin chắc, vững vàng rằng làm việc chăm chỉ sẽ được đền đáp. 'Firmness' (danh từ) và 'firmed' (động từ quá khứ) đều sai từ loại ở vị trí trạng từ này."
   },
@@ -1399,6 +1399,6 @@ export const ADVERB_QUESTIONS: ExerciseQuestion[] = [
     question: "He dedicated himself ___ to his craft.",
     options: ["whole", "wholeness", "wholly", "wholesome"],
     correctIndex: 2,
-    explanation: "'Wholly' (whole + ly, giữ nguyên hai chữ l) bổ nghĩa cho cụm 'dedicated himself', nghĩa là anh ấy cống hiến hoàn toàn, tuyệt đối cho nghề nghiệp của mình. Cẩn thận chính tả: 'wholly' có hai chữ l vì gốc 'whole' đã có l, cộng thêm -ly. 'Wholesome' là tính từ hoàn toàn khác nghĩa ('lành mạnh, bổ dưỡng'), dễ gây nhầm lẫn về hình thức nhưng không liên quan đến nghĩa 'toàn bộ, hoàn toàn' cần ở đây."
+    explanation: "'Wholly' (whole bỏ 'e' + ly) bổ nghĩa cho cụm 'dedicated himself', nghĩa là anh ấy cống hiến hoàn toàn, tuyệt đối cho nghề nghiệp của mình. Cẩn thận chính tả: 'wholly' bỏ chữ 'e' của 'whole' và có hai chữ l (một của gốc 'whole', một của đuôi -ly). 'Wholesome' là tính từ hoàn toàn khác nghĩa ('lành mạnh, bổ dưỡng'), dễ gây nhầm lẫn về hình thức nhưng không liên quan đến nghĩa 'toàn bộ, hoàn toàn' cần ở đây."
   },
 ];
