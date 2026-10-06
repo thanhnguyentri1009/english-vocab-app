@@ -11,15 +11,6 @@ function RuleBox({ children, accent }: { children: React.ReactNode; accent: stri
   );
 }
 
-function ExampleRow({ en, vi, note }: { en: string; vi: string; note?: string }) {
-  return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 2, padding: "10px 14px", background: "rgba(255,255,255,0.7)", borderRadius: 10, marginBottom: 8 }}>
-      <span style={{ fontSize: 15, fontWeight: 700, color: "#333" }}>{en}</span>
-      <span style={{ fontSize: 13, color: "#555" }}>→ {vi}</span>
-      {note && <span style={{ fontSize: 11, color: "#999", fontStyle: "italic" }}>{note}</span>}
-    </div>
-  );
-}
 
 function Tag({ children, color }: { children: React.ReactNode; color: string }) {
   return (

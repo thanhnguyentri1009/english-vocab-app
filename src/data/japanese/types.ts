@@ -1,5 +1,12 @@
 export type JlptLevel = 'N5' | 'N4' | 'N3' | 'N2' | 'N1'
 
+export interface JapaneseExample {
+  sentence: string
+  reading: string
+  vi: string
+  meaning: string
+}
+
 // `meaning` is the English gloss from the JLPT source dataset; `vi` is a
 // Vietnamese translation added on top of it. `id` is a stable generated key
 // (e.g. "n5-0042"), used instead of `jp` for progress/quiz identity since
@@ -11,4 +18,5 @@ export interface JapaneseWord {
   romaji: string
   meaning: string
   vi: string
+  example?: JapaneseExample
 }

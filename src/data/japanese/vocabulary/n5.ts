@@ -9,7 +9,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ああ",
     "romaji": "aa",
     "meaning": "Ah!, Oh!",
-    "vi": "À! Ồ!"
+    "vi": "À! Ồ!",
+    "example": { "sentence": "ああ、そうですか。", "reading": "ああ、そうですか。", "vi": "À, vậy à?", "meaning": "Oh, is that so?" }
   },
   {
     "id": "n5-0002",
@@ -17,7 +18,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あう",
     "romaji": "au",
     "meaning": "to meet, to see",
-    "vi": "gặp, gặp gỡ"
+    "vi": "gặp, gặp gỡ",
+    "example": { "sentence": "明日、友達に会います。", "reading": "あした、ともだちにあいます。", "vi": "Ngày mai tôi gặp bạn bè.", "meaning": "Tomorrow I will meet my friends." }
   },
   {
     "id": "n5-0003",
@@ -25,7 +27,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あお",
     "romaji": "ao",
     "meaning": "blue",
-    "vi": "màu xanh (dương)"
+    "vi": "màu xanh (dương)",
+    "example": { "sentence": "青が好きです。", "reading": "あおがすきです。", "vi": "Tôi thích màu xanh.", "meaning": "I like blue." }
   },
   {
     "id": "n5-0004",
@@ -33,7 +36,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あおい",
     "romaji": "aoi",
     "meaning": "blue",
-    "vi": "xanh (dương)"
+    "vi": "xanh (dương)",
+    "example": { "sentence": "空は青いです。", "reading": "そらはあおいです。", "vi": "Bầu trời màu xanh.", "meaning": "The sky is blue." }
   },
   {
     "id": "n5-0005",
@@ -41,7 +45,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あか",
     "romaji": "aka",
     "meaning": "red",
-    "vi": "màu đỏ"
+    "vi": "màu đỏ",
+    "example": { "sentence": "赤のペンを持っています。", "reading": "あかのぺんをもっています。", "vi": "Tôi có bút màu đỏ.", "meaning": "I have a red pen." }
   },
   {
     "id": "n5-0006",
@@ -49,7 +54,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あかい",
     "romaji": "akai",
     "meaning": "red",
-    "vi": "đỏ"
+    "vi": "đỏ",
+    "example": { "sentence": "あの花は赤いです。", "reading": "あのはなはあかいです。", "vi": "Bông hoa kia màu đỏ.", "meaning": "That flower is red." }
   },
   {
     "id": "n5-0007",
@@ -57,7 +63,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あかるい",
     "romaji": "akarui",
     "meaning": "bright (in reference to personality or weather); cheerful",
-    "vi": "sáng sủa (tính cách, thời tiết); vui vẻ"
+    "vi": "sáng sủa (tính cách, thời tiết); vui vẻ",
+    "example": { "sentence": "この部屋は明るいです。", "reading": "このへやはあかるいです。", "vi": "Căn phòng này sáng sủa.", "meaning": "This room is bright." }
   },
   {
     "id": "n5-0008",
@@ -65,7 +72,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あき",
     "romaji": "aki",
     "meaning": "fall (season)",
-    "vi": "mùa thu"
+    "vi": "mùa thu",
+    "example": { "sentence": "秋はとてもきれいです。", "reading": "あきはとてもきれいです。", "vi": "Mùa thu rất đẹp.", "meaning": "Autumn is very beautiful." }
   },
   {
     "id": "n5-0009",
@@ -73,7 +81,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あく",
     "romaji": "aku",
     "meaning": "to open, to become open",
-    "vi": "mở, mở ra (tự mở)"
+    "vi": "mở, mở ra (tự mở)",
+    "example": { "sentence": "窓が開きます。", "reading": "まどがあきます。", "vi": "Cửa sổ mở ra.", "meaning": "The window opens." }
   },
   {
     "id": "n5-0010",
@@ -81,7 +90,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あける",
     "romaji": "akeru",
     "meaning": "to open (v.t.)",
-    "vi": "mở (cái gì đó)"
+    "vi": "mở (cái gì đó)",
+    "example": { "sentence": "窓を開けてください。", "reading": "まどをあけてください。", "vi": "Xin hãy mở cửa sổ.", "meaning": "Please open the window." }
   },
   {
     "id": "n5-0011",
@@ -89,7 +99,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あげる",
     "romaji": "ageru",
     "meaning": "to raise, to lift",
-    "vi": "nâng lên, nhấc lên"
+    "vi": "nâng lên, nhấc lên",
+    "example": { "sentence": "手を上げてください。", "reading": "てをあげてください。", "vi": "Xin hãy giơ tay lên.", "meaning": "Please raise your hand." }
   },
   {
     "id": "n5-0012",
@@ -97,7 +108,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あさ",
     "romaji": "asa",
     "meaning": "morning",
-    "vi": "buổi sáng"
+    "vi": "buổi sáng",
+    "example": { "sentence": "朝ご飯を食べます。", "reading": "あさごはんをたべます。", "vi": "Tôi ăn sáng.", "meaning": "I eat breakfast." }
   },
   {
     "id": "n5-0013",
@@ -105,7 +117,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あさごはん",
     "romaji": "asagohan",
     "meaning": "breakfast",
-    "vi": "bữa sáng"
+    "vi": "bữa sáng",
+    "example": { "sentence": "朝御飯はパンです。", "reading": "あさごはんはぱんです。", "vi": "Bữa sáng là bánh mì.", "meaning": "Breakfast is bread." }
   },
   {
     "id": "n5-0014",
@@ -113,7 +126,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あさって",
     "romaji": "asatte",
     "meaning": "day after tomorrow",
-    "vi": "ngày kia"
+    "vi": "ngày kia",
+    "example": { "sentence": "明後日、東京に行きます。", "reading": "あさって、とうきょうにいきます。", "vi": "Ngày kia tôi đi Tokyo.", "meaning": "I will go to Tokyo the day after tomorrow." }
   },
   {
     "id": "n5-0015",
@@ -121,7 +135,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あし",
     "romaji": "ashi",
     "meaning": "foot; leg",
-    "vi": "bàn chân; chân"
+    "vi": "bàn chân; chân",
+    "example": { "sentence": "足が痛いです。", "reading": "あしがいたいです。", "vi": "Chân tôi đau.", "meaning": "My foot hurts." }
   },
   {
     "id": "n5-0016",
@@ -129,7 +144,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あした",
     "romaji": "ashita",
     "meaning": "tomorrow",
-    "vi": "ngày mai"
+    "vi": "ngày mai",
+    "example": { "sentence": "明日、学校に行きます。", "reading": "あした、がっこうにいきます。", "vi": "Ngày mai tôi đi học.", "meaning": "Tomorrow I will go to school." }
   },
   {
     "id": "n5-0017",
@@ -137,7 +153,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あそこ",
     "romaji": "asoko",
     "meaning": "there, over there, that place",
-    "vi": "ở đó, đằng kia, chỗ đó"
+    "vi": "ở đó, đằng kia, chỗ đó",
+    "example": { "sentence": "あそこに図書館があります。", "reading": "あそこにとしょかんがあります。", "vi": "Ở chỗ đó có thư viện.", "meaning": "There is a library over there." }
   },
   {
     "id": "n5-0018",
@@ -145,7 +162,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あそぶ",
     "romaji": "asobu",
     "meaning": "to play; to spend time pleasantly; to hang out",
-    "vi": "chơi; dành thời gian vui vẻ; đi chơi"
+    "vi": "chơi; dành thời gian vui vẻ; đi chơi",
+    "example": { "sentence": "公園で遊びます。", "reading": "こうえんであそびます。", "vi": "Tôi chơi ở công viên.", "meaning": "I play in the park." }
   },
   {
     "id": "n5-0019",
@@ -153,7 +171,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あたたかい",
     "romaji": "atatakai",
     "meaning": "warm",
-    "vi": "ấm áp"
+    "vi": "ấm áp",
+    "example": { "sentence": "今日は暖かいです。", "reading": "きょうはあたたかいです。", "vi": "Hôm nay trời ấm.", "meaning": "Today is warm." }
   },
   {
     "id": "n5-0020",
@@ -161,7 +180,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あたま",
     "romaji": "atama",
     "meaning": "head",
-    "vi": "đầu"
+    "vi": "đầu",
+    "example": { "sentence": "頭が痛いです。", "reading": "あたまがいたいです。", "vi": "Đầu tôi đau.", "meaning": "My head hurts." }
   },
   {
     "id": "n5-0021",
@@ -169,7 +189,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あたらしい",
     "romaji": "atarashii",
     "meaning": "new",
-    "vi": "mới"
+    "vi": "mới",
+    "example": { "sentence": "新しい本を買いました。", "reading": "あたらしいほんをかいました。", "vi": "Tôi đã mua cuốn sách mới.", "meaning": "I bought a new book." }
   },
   {
     "id": "n5-0022",
@@ -177,7 +198,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あちら",
     "romaji": "achira",
     "meaning": "this way (polite)",
-    "vi": "hướng này, phía này (lịch sự)"
+    "vi": "hướng này, phía này (lịch sự)",
+    "example": { "sentence": "あちらへどうぞ。", "reading": "あちらへどうぞ。", "vi": "Mời đi về phía đó.", "meaning": "Please go that way." }
   },
   {
     "id": "n5-0023",
@@ -185,7 +207,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あつい",
     "romaji": "atsui",
     "meaning": "hot (in reference to weather), warm",
-    "vi": "nóng (thời tiết), ấm"
+    "vi": "nóng (thời tiết), ấm",
+    "example": { "sentence": "今日はとても暑いです。", "reading": "きょうはとてもあついです。", "vi": "Hôm nay rất nóng.", "meaning": "Today is very hot." }
   },
   {
     "id": "n5-0024",
@@ -193,7 +216,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あつい",
     "romaji": "atsui",
     "meaning": "hot (objects)",
-    "vi": "nóng (vật thể)"
+    "vi": "nóng (vật thể)",
+    "example": { "sentence": "このスープは熱いです。", "reading": "このすーぷはあついです。", "vi": "Súp này nóng.", "meaning": "This soup is hot." }
   },
   {
     "id": "n5-0025",
@@ -201,7 +225,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あつい",
     "romaji": "atsui",
     "meaning": "kind, warm(hearted), thick, deep",
-    "vi": "tốt bụng, nồng hậu, dày, sâu sắc"
+    "vi": "tốt bụng, nồng hậu, dày, sâu sắc",
+    "example": { "sentence": "この本は厚いです。", "reading": "このほんはあついです。", "vi": "Cuốn sách này dày.", "meaning": "This book is thick." }
   },
   {
     "id": "n5-0026",
@@ -209,7 +234,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あっち",
     "romaji": "atchi",
     "meaning": "over there",
-    "vi": "đằng kia"
+    "vi": "đằng kia",
+    "example": { "sentence": "あっちに行ってください。", "reading": "あっちにいってください。", "vi": "Xin hãy đi về phía đó.", "meaning": "Please go over there." }
   },
   {
     "id": "n5-0027",
@@ -217,7 +243,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あと",
     "romaji": "ato",
     "meaning": "afterwards (later); in the future; the rest; since then",
-    "vi": "sau đó (về sau); trong tương lai; phần còn lại; từ đó"
+    "vi": "sau đó (về sau); trong tương lai; phần còn lại; từ đó",
+    "example": { "sentence": "後で電話します。", "reading": "あとででんわします。", "vi": "Tôi sẽ gọi điện sau.", "meaning": "I will call later." }
   },
   {
     "id": "n5-0028",
@@ -225,7 +252,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あなた",
     "romaji": "anata",
     "meaning": "you",
-    "vi": "bạn, anh/chị"
+    "vi": "bạn, anh/chị",
+    "example": { "sentence": "あなたは学生ですか？", "reading": "あなたはがくせいですか？", "vi": "Bạn có phải là học sinh không?", "meaning": "Are you a student?" }
   },
   {
     "id": "n5-0029",
@@ -233,7 +261,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あに",
     "romaji": "ani",
     "meaning": "(my) older brother (humble)",
-    "vi": "anh trai (của tôi, khiêm nhường)"
+    "vi": "anh trai (của tôi, khiêm nhường)",
+    "example": { "sentence": "兄は東京に住んでいます。", "reading": "あにはとうきょうにすんでいます。", "vi": "Anh trai tôi sống ở Tokyo.", "meaning": "My older brother lives in Tokyo." }
   },
   {
     "id": "n5-0030",
@@ -241,7 +270,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あね",
     "romaji": "ane",
     "meaning": "(my) older sister (humble)",
-    "vi": "chị gái (của tôi, khiêm nhường)"
+    "vi": "chị gái (của tôi, khiêm nhường)",
+    "example": { "sentence": "姉は料理が上手です。", "reading": "あねはりょうりがじょうずです。", "vi": "Chị gái tôi nấu ăn giỏi.", "meaning": "My older sister is good at cooking." }
   },
   {
     "id": "n5-0031",
@@ -249,7 +279,8 @@ export const N5: JapaneseWord[] = [
     "reading": "アパート",
     "romaji": "アパート",
     "meaning": "apartment (abbr.)",
-    "vi": "căn hộ (viết tắt)"
+    "vi": "căn hộ (viết tắt)",
+    "example": { "sentence": "アパートに住んでいます。", "reading": "あぱーとにすんでいます。", "vi": "Tôi sống trong căn hộ.", "meaning": "I live in an apartment." }
   },
   {
     "id": "n5-0032",
@@ -257,7 +288,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あの",
     "romaji": "ano",
     "meaning": "that over there; like that, that way; um...",
-    "vi": "cái kia; như thế, kiểu đó; ơ..."
+    "vi": "cái kia; như thế, kiểu đó; ơ...",
+    "example": { "sentence": "あの映画を見ましたか？", "reading": "あのえいがをみましたか？", "vi": "Bạn đã xem bộ phim đó chưa?", "meaning": "Did you watch that movie?" }
   },
   {
     "id": "n5-0033",
@@ -265,7 +297,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あびる",
     "romaji": "abiru",
     "meaning": "to bathe, to shower",
-    "vi": "tắm, tắm vòi sen"
+    "vi": "tắm, tắm vòi sen",
+    "example": { "sentence": "毎日シャワーを浴びます。", "reading": "まいにちしゃわーをあびます。", "vi": "Tôi tắm hàng ngày.", "meaning": "I shower every day." }
   },
   {
     "id": "n5-0034",
@@ -273,7 +306,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あぶない",
     "romaji": "abunai",
     "meaning": "dangerous, critical",
-    "vi": "nguy hiểm, nghiêm trọng"
+    "vi": "nguy hiểm, nghiêm trọng",
+    "example": { "sentence": "ここは危ないです。", "reading": "ここはあぶないです。", "vi": "Chỗ này nguy hiểm.", "meaning": "This place is dangerous." }
   },
   {
     "id": "n5-0035",
@@ -281,7 +315,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あまい",
     "romaji": "amai",
     "meaning": "generous, sweet",
-    "vi": "hào phóng, ngọt ngào"
+    "vi": "hào phóng, ngọt ngào",
+    "example": { "sentence": "このケーキは甘いです。", "reading": "このけーきはあまいです。", "vi": "Chiếc bánh này ngọt.", "meaning": "This cake is sweet." }
   },
   {
     "id": "n5-0036",
@@ -289,7 +324,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あまり",
     "romaji": "amari",
     "meaning": "not very; surplus",
-    "vi": "không lắm; dư thừa"
+    "vi": "không lắm; dư thừa",
+    "example": { "sentence": "あまり食べません。", "reading": "あまりたべません。", "vi": "Tôi không ăn nhiều lắm.", "meaning": "I don't eat very much." }
   },
   {
     "id": "n5-0037",
@@ -297,7 +333,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あめ",
     "romaji": "ame",
     "meaning": "rain",
-    "vi": "mưa"
+    "vi": "mưa",
+    "example": { "sentence": "今日は雨です。", "reading": "きょうはあめです。", "vi": "Hôm nay trời mưa.", "meaning": "It is raining today." }
   },
   {
     "id": "n5-0038",
@@ -305,7 +342,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あめ",
     "romaji": "ame",
     "meaning": "(hard) candy",
-    "vi": "kẹo (cứng)"
+    "vi": "kẹo (cứng)",
+    "example": { "sentence": "飴を一つください。", "reading": "あめをひとつください。", "vi": "Cho tôi một cái kẹo.", "meaning": "Please give me one candy." }
   },
   {
     "id": "n5-0039",
@@ -313,7 +351,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あらう",
     "romaji": "arau",
     "meaning": "to wash",
-    "vi": "rửa, giặt"
+    "vi": "rửa, giặt",
+    "example": { "sentence": "手を洗ってください。", "reading": "てをあらってください。", "vi": "Xin hãy rửa tay.", "meaning": "Please wash your hands." }
   },
   {
     "id": "n5-0040",
@@ -321,7 +360,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ある",
     "romaji": "aru",
     "meaning": "to be, to have",
-    "vi": "tồn tại, có (vật vô tri)"
+    "vi": "tồn tại, có (vật vô tri)",
+    "example": { "sentence": "机の上に本があります。", "reading": "つくえのうえにほんがあります。", "vi": "Có cuốn sách trên bàn.", "meaning": "There is a book on the desk." }
   },
   {
     "id": "n5-0041",
@@ -329,7 +369,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ある",
     "romaji": "aru",
     "meaning": "to be, to have",
-    "vi": "tồn tại, có (vật vô tri)"
+    "vi": "tồn tại, có (vật vô tri)",
+    "example": { "sentence": "財布が有ります。", "reading": "さいふがあります。", "vi": "Có ví tiền.", "meaning": "There is a wallet." }
   },
   {
     "id": "n5-0042",
@@ -337,7 +378,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あるく",
     "romaji": "aruku",
     "meaning": "to walk",
-    "vi": "đi bộ"
+    "vi": "đi bộ",
+    "example": { "sentence": "毎朝、公園を歩きます。", "reading": "まいあさ、こうえんをあるきます。", "vi": "Mỗi buổi sáng tôi đi bộ ở công viên.", "meaning": "Every morning I walk in the park." }
   },
   {
     "id": "n5-0043",
@@ -345,7 +387,8 @@ export const N5: JapaneseWord[] = [
     "reading": "あれ",
     "romaji": "are",
     "meaning": "that one (over there)",
-    "vi": "cái đó (đằng kia)"
+    "vi": "cái đó (đằng kia)",
+    "example": { "sentence": "あれは何ですか？", "reading": "あれはなんですか？", "vi": "Cái đó là cái gì?", "meaning": "What is that?" }
   },
   {
     "id": "n5-0044",
@@ -353,7 +396,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いい; よい",
     "romaji": "ii; yoi",
     "meaning": "good",
-    "vi": "tốt"
+    "vi": "tốt",
+    "example": { "sentence": "この本はいいです。", "reading": "このほんはいいです。", "vi": "Cuốn sách này tốt.", "meaning": "This book is good." }
   },
   {
     "id": "n5-0045",
@@ -361,7 +405,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いいえ",
     "romaji": "iie",
     "meaning": "no, not at all",
-    "vi": "không, không hề"
+    "vi": "không, không hề",
+    "example": { "sentence": "いいえ、違います。", "reading": "いいえ、ちがいます。", "vi": "Không, sai rồi.", "meaning": "No, that is wrong." }
   },
   {
     "id": "n5-0046",
@@ -369,7 +414,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いう",
     "romaji": "iu",
     "meaning": "to say",
-    "vi": "nói"
+    "vi": "nói",
+    "example": { "sentence": "先生は何と言いましたか？", "reading": "せんせいはなんといいましたか？", "vi": "Thầy/cô đã nói gì?", "meaning": "What did the teacher say?" }
   },
   {
     "id": "n5-0047",
@@ -377,7 +423,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いえ",
     "romaji": "ie",
     "meaning": "house, home",
-    "vi": "nhà"
+    "vi": "nhà",
+    "example": { "sentence": "家に帰りました。", "reading": "いえにかえりました。", "vi": "Tôi đã về nhà.", "meaning": "I returned home." }
   },
   {
     "id": "n5-0048",
@@ -385,7 +432,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いかが",
     "romaji": "ikaga",
     "meaning": "how, in what way",
-    "vi": "như thế nào"
+    "vi": "như thế nào",
+    "example": { "sentence": "お体はいかがですか？", "reading": "おからだはいかがですか？", "vi": "Sức khỏe của bạn thế nào?", "meaning": "How is your health?" }
   },
   {
     "id": "n5-0049",
@@ -393,7 +441,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いく; ゆく",
     "romaji": "iku; yuku",
     "meaning": "to go",
-    "vi": "đi"
+    "vi": "đi",
+    "example": { "sentence": "学校に行きます。", "reading": "がっこうにいきます。", "vi": "Tôi đi học.", "meaning": "I go to school." }
   },
   {
     "id": "n5-0050",
@@ -401,7 +450,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いくつ",
     "romaji": "ikutsu",
     "meaning": "how many, how old",
-    "vi": "bao nhiêu, mấy tuổi"
+    "vi": "bao nhiêu, mấy tuổi",
+    "example": { "sentence": "りんごがいくつありますか？", "reading": "りんごがいくつありますか？", "vi": "Có bao nhiêu quả táo?", "meaning": "How many apples are there?" }
   },
   {
     "id": "n5-0051",
@@ -409,7 +459,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いくら",
     "romaji": "ikura",
     "meaning": "how much, how many",
-    "vi": "bao nhiêu"
+    "vi": "bao nhiêu",
+    "example": { "sentence": "これはいくらですか？", "reading": "これはいくらですか？", "vi": "Cái này bao nhiêu tiền?", "meaning": "How much is this?" }
   },
   {
     "id": "n5-0052",
@@ -417,7 +468,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いけ",
     "romaji": "ike",
     "meaning": "pond",
-    "vi": "ao"
+    "vi": "ao",
+    "example": { "sentence": "池に魚がいます。", "reading": "いけにさかながいます。", "vi": "Trong ao có cá.", "meaning": "There are fish in the pond." }
   },
   {
     "id": "n5-0053",
@@ -425,7 +477,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いしゃ",
     "romaji": "isha",
     "meaning": "doctor; physician",
-    "vi": "bác sĩ"
+    "vi": "bác sĩ",
+    "example": { "sentence": "医者に行きました。", "reading": "いしゃにいきました。", "vi": "Tôi đã đi gặp bác sĩ.", "meaning": "I went to the doctor." }
   },
   {
     "id": "n5-0054",
@@ -433,7 +486,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いす",
     "romaji": "isu",
     "meaning": "chair",
-    "vi": "cái ghế"
+    "vi": "cái ghế",
+    "example": { "sentence": "椅子に座ってください。", "reading": "いすにすわってください。", "vi": "Xin hãy ngồi xuống ghế.", "meaning": "Please sit on the chair." }
   },
   {
     "id": "n5-0055",
@@ -441,7 +495,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いそがしい",
     "romaji": "isogashii",
     "meaning": "busy (people, days)",
-    "vi": "bận rộn (người, ngày)"
+    "vi": "bận rộn (người, ngày)",
+    "example": { "sentence": "今日はとても忙しいです。", "reading": "きょうはとてもいそがしいです。", "vi": "Hôm nay tôi rất bận.", "meaning": "I am very busy today." }
   },
   {
     "id": "n5-0056",
@@ -449,7 +504,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いたい",
     "romaji": "itai",
     "meaning": "hurt; painful; sore",
-    "vi": "đau; đau đớn; nhức"
+    "vi": "đau; đau đớn; nhức",
+    "example": { "sentence": "足が痛いです。", "reading": "あしがいたいです。", "vi": "Chân tôi đau.", "meaning": "My leg is painful." }
   },
   {
     "id": "n5-0057",
@@ -457,7 +513,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いち",
     "romaji": "ichi",
     "meaning": "one",
-    "vi": "một"
+    "vi": "một",
+    "example": { "sentence": "一から始めましょう。", "reading": "いちからはじめましょう。", "vi": "Hãy bắt đầu từ một.", "meaning": "Let's start from one." }
   },
   {
     "id": "n5-0058",
@@ -465,7 +522,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いちにち",
     "romaji": "ichinichi",
     "meaning": "one day (duration)",
-    "vi": "một ngày (khoảng thời gian)"
+    "vi": "một ngày (khoảng thời gian)",
+    "example": { "sentence": "一日に三回食べます。", "reading": "いちにちにさんかいたべます。", "vi": "Tôi ăn ba bữa một ngày.", "meaning": "I eat three times a day." }
   },
   {
     "id": "n5-0059",
@@ -473,7 +531,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いちばん",
     "romaji": "ichiban",
     "meaning": "best (most), first, number one",
-    "vi": "tốt nhất, đầu tiên, số một"
+    "vi": "tốt nhất, đầu tiên, số một",
+    "example": { "sentence": "日本語が一番好きです。", "reading": "にほんごがいちばんすきです。", "vi": "Tôi thích tiếng Nhật nhất.", "meaning": "I like Japanese the most." }
   },
   {
     "id": "n5-0060",
@@ -481,7 +540,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いつ",
     "romaji": "itsu",
     "meaning": "when",
-    "vi": "khi nào"
+    "vi": "khi nào",
+    "example": { "sentence": "いつ日本に来ましたか？", "reading": "いつにほんにきましたか？", "vi": "Bạn đến Nhật Bản khi nào?", "meaning": "When did you come to Japan?" }
   },
   {
     "id": "n5-0061",
@@ -489,7 +549,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いつか",
     "romaji": "itsuka",
     "meaning": "five days; fifth day of the month",
-    "vi": "năm ngày; ngày mùng năm"
+    "vi": "năm ngày; ngày mùng năm",
+    "example": { "sentence": "五日に会議があります。", "reading": "いつかにかいぎがあります。", "vi": "Ngày mùng năm có cuộc họp.", "meaning": "There is a meeting on the 5th." }
   },
   {
     "id": "n5-0062",
@@ -497,7 +558,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いっしょ",
     "romaji": "issho",
     "meaning": "together",
-    "vi": "cùng nhau"
+    "vi": "cùng nhau",
+    "example": { "sentence": "一緒に食べましょう。", "reading": "いっしょにたべましょう。", "vi": "Hãy cùng nhau ăn.", "meaning": "Let's eat together." }
   },
   {
     "id": "n5-0063",
@@ -505,7 +567,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いつつ",
     "romaji": "itsutsu",
     "meaning": "five things",
-    "vi": "năm cái"
+    "vi": "năm cái",
+    "example": { "sentence": "りんごが五つあります。", "reading": "りんごがいつつあります。", "vi": "Có năm quả táo.", "meaning": "There are five apples." }
   },
   {
     "id": "n5-0064",
@@ -513,7 +576,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いつも",
     "romaji": "itsumo",
     "meaning": "always, usually, every time, never (with neg. verb)",
-    "vi": "luôn luôn, thường xuyên, mọi lúc, không bao giờ (với thể phủ định)"
+    "vi": "luôn luôn, thường xuyên, mọi lúc, không bao giờ (với thể phủ định)",
+    "example": { "sentence": "いつも早く起きます。", "reading": "いつもはやくおきます。", "vi": "Tôi luôn dậy sớm.", "meaning": "I always wake up early." }
   },
   {
     "id": "n5-0065",
@@ -521,7 +585,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いぬ",
     "romaji": "inu",
     "meaning": "dog",
-    "vi": "con chó"
+    "vi": "con chó",
+    "example": { "sentence": "犬を飼っています。", "reading": "いぬをかっています。", "vi": "Tôi nuôi chó.", "meaning": "I have a dog." }
   },
   {
     "id": "n5-0066",
@@ -529,7 +594,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いま",
     "romaji": "ima",
     "meaning": "now",
-    "vi": "bây giờ"
+    "vi": "bây giờ",
+    "example": { "sentence": "今、何時ですか？", "reading": "いま、なんじですか？", "vi": "Bây giờ là mấy giờ?", "meaning": "What time is it now?" }
   },
   {
     "id": "n5-0067",
@@ -537,7 +603,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いみ",
     "romaji": "imi",
     "meaning": "meaning, significance",
-    "vi": "ý nghĩa"
+    "vi": "ý nghĩa",
+    "example": { "sentence": "この言葉の意味は何ですか？", "reading": "このことばのいみはなんですか？", "vi": "Nghĩa của từ này là gì?", "meaning": "What is the meaning of this word?" }
   },
   {
     "id": "n5-0068",
@@ -545,7 +612,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いもうと",
     "romaji": "imouto",
     "meaning": "younger sister (humble)",
-    "vi": "em gái (khiêm nhường)"
+    "vi": "em gái (khiêm nhường)",
+    "example": { "sentence": "妹は高校生です。", "reading": "いもうとはこうこうせいです。", "vi": "Em gái tôi là học sinh trung học.", "meaning": "My younger sister is a high school student." }
   },
   {
     "id": "n5-0069",
@@ -553,7 +621,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いや",
     "romaji": "iya",
     "meaning": "disagreeable, detestable, unpleasant",
-    "vi": "khó chịu, đáng ghét"
+    "vi": "khó chịu, đáng ghét",
+    "example": { "sentence": "野菜が嫌いです。", "reading": "やさいがいやです。", "vi": "Tôi không thích rau.", "meaning": "I dislike vegetables." }
   },
   {
     "id": "n5-0070",
@@ -561,7 +630,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いりぐち",
     "romaji": "iriguchi",
     "meaning": "entrance",
-    "vi": "lối vào"
+    "vi": "lối vào",
+    "example": { "sentence": "入口はどこですか？", "reading": "いりぐちはどこですか？", "vi": "Lối vào ở đâu?", "meaning": "Where is the entrance?" }
   },
   {
     "id": "n5-0071",
@@ -569,7 +639,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いる",
     "romaji": "iru",
     "meaning": "(humble) to be (animate), to exist",
-    "vi": "có, tồn tại (người/vật sống, khiêm nhường)"
+    "vi": "có, tồn tại (người/vật sống, khiêm nhường)",
+    "example": { "sentence": "部屋に猫が居ます。", "reading": "へやにねこがいます。", "vi": "Trong phòng có con mèo.", "meaning": "There is a cat in the room." }
   },
   {
     "id": "n5-0072",
@@ -577,7 +648,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いる",
     "romaji": "iru",
     "meaning": "to need",
-    "vi": "cần"
+    "vi": "cần",
+    "example": { "sentence": "何が要りますか？", "reading": "なにがいりますか？", "vi": "Bạn cần gì?", "meaning": "What do you need?" }
   },
   {
     "id": "n5-0073",
@@ -585,7 +657,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いれる",
     "romaji": "ireru",
     "meaning": "to put in",
-    "vi": "cho vào, bỏ vào"
+    "vi": "cho vào, bỏ vào",
+    "example": { "sentence": "バッグに財布を入れます。", "reading": "ばっぐにさいふをいれます。", "vi": "Tôi cho ví vào túi.", "meaning": "I put the wallet in the bag." }
   },
   {
     "id": "n5-0074",
@@ -593,7 +666,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いろ",
     "romaji": "iro",
     "meaning": "color",
-    "vi": "màu sắc"
+    "vi": "màu sắc",
+    "example": { "sentence": "好きな色は何ですか？", "reading": "すきないろはなんですか？", "vi": "Màu yêu thích của bạn là gì?", "meaning": "What is your favorite color?" }
   },
   {
     "id": "n5-0075",
@@ -601,7 +675,8 @@ export const N5: JapaneseWord[] = [
     "reading": "いろいろ",
     "romaji": "iroiro",
     "meaning": "various",
-    "vi": "đa dạng, nhiều loại"
+    "vi": "đa dạng, nhiều loại",
+    "example": { "sentence": "色々な食べ物があります。", "reading": "いろいろなたべものがあります。", "vi": "Có nhiều loại thức ăn.", "meaning": "There are various foods." }
   },
   {
     "id": "n5-0076",
@@ -609,7 +684,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うえ",
     "romaji": "ue",
     "meaning": "above (up, top, etc.), over, on top of",
-    "vi": "phía trên, bên trên"
+    "vi": "phía trên, bên trên",
+    "example": { "sentence": "棚の上に本があります。", "reading": "たなのうえにほんがあります。", "vi": "Có sách trên kệ.", "meaning": "There are books on the shelf." }
   },
   {
     "id": "n5-0077",
@@ -617,7 +693,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うしろ",
     "romaji": "ushiro",
     "meaning": "back, behind, rear",
-    "vi": "phía sau, đằng sau"
+    "vi": "phía sau, đằng sau",
+    "example": { "sentence": "後ろを見てください。", "reading": "うしろをみてください。", "vi": "Xin hãy nhìn ra phía sau.", "meaning": "Please look behind you." }
   },
   {
     "id": "n5-0078",
@@ -625,7 +702,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うすい",
     "romaji": "usui",
     "meaning": "thin, weak",
-    "vi": "mỏng, nhạt, yếu"
+    "vi": "mỏng, nhạt, yếu",
+    "example": { "sentence": "このスープは薄いです。", "reading": "このすーぷはうすいです。", "vi": "Súp này nhạt.", "meaning": "This soup is weak/thin." }
   },
   {
     "id": "n5-0079",
@@ -633,7 +711,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うた",
     "romaji": "uta",
     "meaning": "a song",
-    "vi": "bài hát"
+    "vi": "bài hát",
+    "example": { "sentence": "好きな歌を歌います。", "reading": "すきなうたをうたいます。", "vi": "Tôi hát bài hát yêu thích.", "meaning": "I sing my favorite song." }
   },
   {
     "id": "n5-0080",
@@ -641,7 +720,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うたう",
     "romaji": "utau",
     "meaning": "to sing",
-    "vi": "hát"
+    "vi": "hát",
+    "example": { "sentence": "カラオケで歌います。", "reading": "からおけでうたいます。", "vi": "Tôi hát karaoke.", "meaning": "I sing at karaoke." }
   },
   {
     "id": "n5-0081",
@@ -649,7 +729,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うち",
     "romaji": "uchi",
     "meaning": "home; house; my place",
-    "vi": "nhà; nhà mình"
+    "vi": "nhà; nhà mình",
+    "example": { "sentence": "うちに帰りましょう。", "reading": "うちにかえりましょう。", "vi": "Hãy về nhà thôi.", "meaning": "Let's go home." }
   },
   {
     "id": "n5-0082",
@@ -657,7 +738,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うまれる",
     "romaji": "umareru",
     "meaning": "to be born",
-    "vi": "được sinh ra"
+    "vi": "được sinh ra",
+    "example": { "sentence": "東京で生まれました。", "reading": "とうきょうでうまれました。", "vi": "Tôi sinh ra ở Tokyo.", "meaning": "I was born in Tokyo." }
   },
   {
     "id": "n5-0083",
@@ -665,7 +747,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うみ",
     "romaji": "umi",
     "meaning": "sea, beach",
-    "vi": "biển"
+    "vi": "biển",
+    "example": { "sentence": "夏は海に行きます。", "reading": "なつはうみにいきます。", "vi": "Mùa hè tôi đi biển.", "meaning": "I go to the beach in summer." }
   },
   {
     "id": "n5-0084",
@@ -673,7 +756,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うる",
     "romaji": "uru",
     "meaning": "to sell (v.t.)",
-    "vi": "bán"
+    "vi": "bán",
+    "example": { "sentence": "本を百円で売ります。", "reading": "ほんをひゃくえんでうります。", "vi": "Tôi bán cuốn sách với giá một trăm yên.", "meaning": "I sell a book for 100 yen." }
   },
   {
     "id": "n5-0085",
@@ -681,7 +765,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うるさい",
     "romaji": "urusai",
     "meaning": "noisy; annoying",
-    "vi": "ồn ào; phiền phức"
+    "vi": "ồn ào; phiền phức",
+    "example": { "sentence": "子供がうるさいです。", "reading": "こどもがうるさいです。", "vi": "Đứa trẻ ồn ào.", "meaning": "The child is noisy." }
   },
   {
     "id": "n5-0086",
@@ -689,7 +774,8 @@ export const N5: JapaneseWord[] = [
     "reading": "うわぎ",
     "romaji": "uwagi",
     "meaning": "coat, jacket",
-    "vi": "áo khoác"
+    "vi": "áo khoác",
+    "example": { "sentence": "上着を着てください。", "reading": "うわぎをきてください。", "vi": "Xin hãy mặc áo khoác.", "meaning": "Please put on a jacket." }
   },
   {
     "id": "n5-0087",
@@ -697,7 +783,8 @@ export const N5: JapaneseWord[] = [
     "reading": "え",
     "romaji": "e",
     "meaning": "a painting; a picture; a drawing",
-    "vi": "bức tranh; bức vẽ"
+    "vi": "bức tranh; bức vẽ",
+    "example": { "sentence": "壁に絵を飾ります。", "reading": "かべにえをかざります。", "vi": "Tôi treo tranh lên tường.", "meaning": "I decorate the wall with a painting." }
   },
   {
     "id": "n5-0088",
@@ -705,7 +792,8 @@ export const N5: JapaneseWord[] = [
     "reading": "えいが",
     "romaji": "eiga",
     "meaning": "movie, film",
-    "vi": "phim"
+    "vi": "phim",
+    "example": { "sentence": "映画を見ます。", "reading": "えいがをみます。", "vi": "Tôi xem phim.", "meaning": "I watch a movie." }
   },
   {
     "id": "n5-0089",
@@ -713,7 +801,8 @@ export const N5: JapaneseWord[] = [
     "reading": "えいがかん",
     "romaji": "eigakan",
     "meaning": "movie theater, cinema",
-    "vi": "rạp chiếu phim"
+    "vi": "rạp chiếu phim",
+    "example": { "sentence": "映画館に行きます。", "reading": "えいがかんにいきます。", "vi": "Tôi đi rạp chiếu phim.", "meaning": "I go to the movie theater." }
   },
   {
     "id": "n5-0090",
@@ -721,7 +810,8 @@ export const N5: JapaneseWord[] = [
     "reading": "えいご",
     "romaji": "eigo",
     "meaning": "English (language)",
-    "vi": "tiếng Anh"
+    "vi": "tiếng Anh",
+    "example": { "sentence": "英語を勉強しています。", "reading": "えいごをべんきょうしています。", "vi": "Tôi đang học tiếng Anh.", "meaning": "I am studying English." }
   },
   {
     "id": "n5-0091",
@@ -729,7 +819,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ええ",
     "romaji": "ee",
     "meaning": "yes",
-    "vi": "vâng, dạ"
+    "vi": "vâng, dạ",
+    "example": { "sentence": "ええ、そうです。", "reading": "ええ、そうです。", "vi": "Vâng, đúng vậy.", "meaning": "Yes, that is right." }
   },
   {
     "id": "n5-0092",
@@ -737,7 +828,8 @@ export const N5: JapaneseWord[] = [
     "reading": "えき",
     "romaji": "eki",
     "meaning": "station",
-    "vi": "nhà ga"
+    "vi": "nhà ga",
+    "example": { "sentence": "駅はどこですか？", "reading": "えきはどこですか？", "vi": "Nhà ga ở đâu?", "meaning": "Where is the station?" }
   },
   {
     "id": "n5-0093",
@@ -745,7 +837,8 @@ export const N5: JapaneseWord[] = [
     "reading": "エレベーター",
     "romaji": "エレベーター",
     "meaning": "elevator",
-    "vi": "thang máy"
+    "vi": "thang máy",
+    "example": { "sentence": "エレベーターで上がります。", "reading": "えれべーたーであがります。", "vi": "Tôi đi thang máy lên.", "meaning": "I go up by elevator." }
   },
   {
     "id": "n5-0094",
@@ -753,7 +846,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～えん",
     "romaji": "～en",
     "meaning": "Yen",
-    "vi": "yên (tiền Nhật)"
+    "vi": "yên (tiền Nhật)",
+    "example": { "sentence": "これは五百円です。", "reading": "これはごひゃくえんです。", "vi": "Cái này là năm trăm yên.", "meaning": "This is 500 yen." }
   },
   {
     "id": "n5-0095",
@@ -761,7 +855,8 @@ export const N5: JapaneseWord[] = [
     "reading": "えんぴつ",
     "romaji": "enpitsu",
     "meaning": "pencil",
-    "vi": "bút chì"
+    "vi": "bút chì",
+    "example": { "sentence": "鉛筆で書きます。", "reading": "えんぴつでかきます。", "vi": "Tôi viết bằng bút chì.", "meaning": "I write with a pencil." }
   },
   {
     "id": "n5-0096",
@@ -769,7 +864,8 @@ export const N5: JapaneseWord[] = [
     "reading": "お～",
     "romaji": "o～",
     "meaning": "honorable ~ (honorific)",
-    "vi": "tiền tố kính ngữ (o-)"
+    "vi": "tiền tố kính ngữ (o-)",
+    "example": { "sentence": "お茶を飲みませんか？", "reading": "おちゃをのみませんか？", "vi": "Bạn có muốn uống trà không?", "meaning": "Would you like to drink tea?" }
   },
   {
     "id": "n5-0097",
@@ -777,7 +873,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おいしい",
     "romaji": "oishii",
     "meaning": "delicious, tasty",
-    "vi": "ngon"
+    "vi": "ngon",
+    "example": { "sentence": "この料理はおいしいです。", "reading": "このりょうりはおいしいです。", "vi": "Món ăn này rất ngon.", "meaning": "This dish is delicious." }
   },
   {
     "id": "n5-0098",
@@ -785,7 +882,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おおい",
     "romaji": "ooi",
     "meaning": "many; there are a lot",
-    "vi": "nhiều"
+    "vi": "nhiều",
+    "example": { "sentence": "ここには人が多いです。", "reading": "ここにはひとがおおいです。", "vi": "Nơi đây có nhiều người.", "meaning": "There are many people here." }
   },
   {
     "id": "n5-0099",
@@ -793,7 +891,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おおきい",
     "romaji": "ookii",
     "meaning": "big, large",
-    "vi": "to, lớn"
+    "vi": "to, lớn",
+    "example": { "sentence": "この犬は大きいです。", "reading": "このいぬはおおきいです。", "vi": "Con chó này to.", "meaning": "This dog is big." }
   },
   {
     "id": "n5-0100",
@@ -801,7 +900,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おおきな",
     "romaji": "ookina",
     "meaning": "big",
-    "vi": "to, lớn"
+    "vi": "to, lớn",
+    "example": { "sentence": "大きな木があります。", "reading": "おおきなきがあります。", "vi": "Có cây cổ thụ to.", "meaning": "There is a big tree." }
   },
   {
     "id": "n5-0101",
@@ -809,7 +909,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おおぜい",
     "romaji": "oozei",
     "meaning": "great number of people",
-    "vi": "đông người"
+    "vi": "đông người",
+    "example": { "sentence": "公園に大勢います。", "reading": "こうえんにおおぜいいます。", "vi": "Có đông người ở công viên.", "meaning": "There are a lot of people in the park." }
   },
   {
     "id": "n5-0102",
@@ -817,7 +918,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おかあさん",
     "romaji": "okaasan",
     "meaning": "mother (formal)",
-    "vi": "mẹ (trang trọng)"
+    "vi": "mẹ (trang trọng)",
+    "example": { "sentence": "お母さんはどこですか？", "reading": "おかあさんはどこですか？", "vi": "Mẹ ở đâu?", "meaning": "Where is your mother?" }
   },
   {
     "id": "n5-0103",
@@ -825,7 +927,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おかし",
     "romaji": "okashi",
     "meaning": "confections, sweets, snack",
-    "vi": "bánh kẹo, đồ ăn vặt"
+    "vi": "bánh kẹo, đồ ăn vặt",
+    "example": { "sentence": "お菓子を食べます。", "reading": "おかしをたべます。", "vi": "Tôi ăn bánh kẹo.", "meaning": "I eat sweets." }
   },
   {
     "id": "n5-0104",
@@ -833,7 +936,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おかね",
     "romaji": "okane",
     "meaning": "money",
-    "vi": "tiền"
+    "vi": "tiền",
+    "example": { "sentence": "お金が足りません。", "reading": "おかねがたりません。", "vi": "Tiền không đủ.", "meaning": "There isn't enough money." }
   },
   {
     "id": "n5-0105",
@@ -841,7 +945,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おきる",
     "romaji": "okiru",
     "meaning": "to get up (e.g., from sleeping); to happen",
-    "vi": "thức dậy; xảy ra"
+    "vi": "thức dậy; xảy ra",
+    "example": { "sentence": "七時に起きます。", "reading": "しちじにおきます。", "vi": "Tôi thức dậy lúc bảy giờ.", "meaning": "I get up at seven o'clock." }
   },
   {
     "id": "n5-0106",
@@ -849,7 +954,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おく",
     "romaji": "oku",
     "meaning": "to put; to lay; to place",
-    "vi": "đặt, để"
+    "vi": "đặt, để",
+    "example": { "sentence": "本を机の上に置きます。", "reading": "ほんをつくえのうえにおきます。", "vi": "Tôi đặt sách lên bàn.", "meaning": "I put the book on the desk." }
   },
   {
     "id": "n5-0107",
@@ -857,7 +963,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おくさん",
     "romaji": "okusan",
     "meaning": "(someone else's) wife (hon.)",
-    "vi": "vợ (của người khác, kính ngữ)"
+    "vi": "vợ (của người khác, kính ngữ)",
+    "example": { "sentence": "奥さんはお元気ですか？", "reading": "おくさんはおげんきですか？", "vi": "Vợ của anh/chị khỏe không?", "meaning": "Is your wife doing well?" }
   },
   {
     "id": "n5-0108",
@@ -865,7 +972,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おさけ",
     "romaji": "osake",
     "meaning": "sake; alcohol",
-    "vi": "rượu sake; rượu"
+    "vi": "rượu sake; rượu",
+    "example": { "sentence": "お酒を飲みません。", "reading": "おさけをのみません。", "vi": "Tôi không uống rượu.", "meaning": "I don't drink alcohol." }
   },
   {
     "id": "n5-0109",
@@ -873,7 +981,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おさら",
     "romaji": "osara",
     "meaning": "plate, dish",
-    "vi": "cái đĩa"
+    "vi": "cái đĩa",
+    "example": { "sentence": "お皿を洗います。", "reading": "おさらをあらいます。", "vi": "Tôi rửa bát đĩa.", "meaning": "I wash the dishes." }
   },
   {
     "id": "n5-0110",
@@ -881,7 +990,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おじさん",
     "romaji": "ojisan",
     "meaning": "uncle, middle-aged man",
-    "vi": "chú, bác; người đàn ông trung niên"
+    "vi": "chú, bác; người đàn ông trung niên",
+    "example": { "sentence": "おじさんは医者です。", "reading": "おじさんはいしゃです。", "vi": "Chú/bác là bác sĩ.", "meaning": "My uncle is a doctor." }
   },
   {
     "id": "n5-0111",
@@ -889,7 +999,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おじいさん",
     "romaji": "ojiisan",
     "meaning": "grandfather, male senior citizen",
-    "vi": "ông; cụ ông"
+    "vi": "ông; cụ ông",
+    "example": { "sentence": "おじいさんは八十歳です。", "reading": "おじいさんははちじっさいです。", "vi": "Ông nội tám mươi tuổi.", "meaning": "My grandfather is eighty years old." }
   },
   {
     "id": "n5-0112",
@@ -897,7 +1008,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おしえる",
     "romaji": "oshieru",
     "meaning": "to teach, to inform, to instruct",
-    "vi": "dạy, chỉ bảo"
+    "vi": "dạy, chỉ bảo",
+    "example": { "sentence": "日本語を教えています。", "reading": "にほんごをおしえています。", "vi": "Tôi đang dạy tiếng Nhật.", "meaning": "I am teaching Japanese." }
   },
   {
     "id": "n5-0113",
@@ -905,7 +1017,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おす",
     "romaji": "osu",
     "meaning": "to push, to press, to stamp (e.g., a passport)",
-    "vi": "đẩy, ấn, đóng dấu (vd hộ chiếu)"
+    "vi": "đẩy, ấn, đóng dấu (vd hộ chiếu)",
+    "example": { "sentence": "ボタンを押してください。", "reading": "ぼたんをおしてください。", "vi": "Xin hãy bấm nút.", "meaning": "Please press the button." }
   },
   {
     "id": "n5-0114",
@@ -913,7 +1026,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おそい",
     "romaji": "osoi",
     "meaning": "slow; (to be) late",
-    "vi": "chậm; trễ"
+    "vi": "chậm; trễ",
+    "example": { "sentence": "電車が遅いです。", "reading": "でんしゃがおそいです。", "vi": "Tàu điện chậm.", "meaning": "The train is slow." }
   },
   {
     "id": "n5-0115",
@@ -921,7 +1035,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おちゃ",
     "romaji": "ocha",
     "meaning": "(green) tea",
-    "vi": "trà (xanh)"
+    "vi": "trà (xanh)",
+    "example": { "sentence": "お茶を一杯飲みます。", "reading": "おちゃをいっぱいのみます。", "vi": "Tôi uống một tách trà.", "meaning": "I drink a cup of green tea." }
   },
   {
     "id": "n5-0116",
@@ -929,7 +1044,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おてあらい",
     "romaji": "otearai",
     "meaning": "toilet, restroom, bathroom (lit., a place to wash one's hands)",
-    "vi": "nhà vệ sinh (nghĩa đen: nơi rửa tay)"
+    "vi": "nhà vệ sinh (nghĩa đen: nơi rửa tay)",
+    "example": { "sentence": "お手洗いはどこですか？", "reading": "おてあらいはどこですか？", "vi": "Nhà vệ sinh ở đâu?", "meaning": "Where is the restroom?" }
   },
   {
     "id": "n5-0117",
@@ -937,7 +1053,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おとうさん",
     "romaji": "otousan",
     "meaning": "father (formal)",
-    "vi": "bố (trang trọng)"
+    "vi": "bố (trang trọng)",
+    "example": { "sentence": "お父さんは何の仕事をしていますか？", "reading": "おとうさんはなんのしごとをしていますか？", "vi": "Bố bạn làm nghề gì?", "meaning": "What does your father do for work?" }
   },
   {
     "id": "n5-0118",
@@ -945,7 +1062,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おとうと",
     "romaji": "otouto",
     "meaning": "younger brother",
-    "vi": "em trai"
+    "vi": "em trai",
+    "example": { "sentence": "弟は学生です。", "reading": "おとうとはがくせいです。", "vi": "Em trai tôi là học sinh.", "meaning": "My younger brother is a student." }
   },
   {
     "id": "n5-0119",
@@ -953,7 +1071,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おとこ",
     "romaji": "otoko",
     "meaning": "man, male",
-    "vi": "đàn ông, nam giới"
+    "vi": "đàn ông, nam giới",
+    "example": { "sentence": "あの男は誰ですか？", "reading": "あのおとこはだれですか？", "vi": "Người đàn ông kia là ai?", "meaning": "Who is that man?" }
   },
   {
     "id": "n5-0120",
@@ -961,7 +1080,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おとこのこ",
     "romaji": "otokonoko",
     "meaning": "boy",
-    "vi": "cậu bé"
+    "vi": "cậu bé",
+    "example": { "sentence": "男の子が走っています。", "reading": "おとこのこがはしっています。", "vi": "Cậu bé đang chạy.", "meaning": "The boy is running." }
   },
   {
     "id": "n5-0121",
@@ -969,7 +1089,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おととい",
     "romaji": "ototoi",
     "meaning": "the day before yesterday",
-    "vi": "hôm kia"
+    "vi": "hôm kia",
+    "example": { "sentence": "一昨日、映画を見ました。", "reading": "おととい、えいがをみました。", "vi": "Hôm kia tôi đã xem phim.", "meaning": "I watched a movie the day before yesterday." }
   },
   {
     "id": "n5-0122",
@@ -977,7 +1098,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おととし",
     "romaji": "ototoshi",
     "meaning": "year before last",
-    "vi": "năm kia"
+    "vi": "năm kia",
+    "example": { "sentence": "おととし、日本に来ました。", "reading": "おととし、にほんにきました。", "vi": "Năm kia tôi đến Nhật Bản.", "meaning": "I came to Japan the year before last." }
   },
   {
     "id": "n5-0123",
@@ -985,7 +1107,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おとな",
     "romaji": "otona",
     "meaning": "adult",
-    "vi": "người lớn"
+    "vi": "người lớn",
+    "example": { "sentence": "大人の切符を二枚ください。", "reading": "おとなのきっぷをにまいください。", "vi": "Cho tôi hai vé người lớn.", "meaning": "Please give me two adult tickets." }
   },
   {
     "id": "n5-0124",
@@ -993,7 +1116,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おなか",
     "romaji": "onaka",
     "meaning": "stomach",
-    "vi": "bụng"
+    "vi": "bụng",
+    "example": { "sentence": "お腹が空きました。", "reading": "おなかがすきました。", "vi": "Tôi đói bụng rồi.", "meaning": "I am hungry." }
   },
   {
     "id": "n5-0125",
@@ -1001,7 +1125,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おなじ",
     "romaji": "onaji",
     "meaning": "same, identical",
-    "vi": "giống nhau"
+    "vi": "giống nhau",
+    "example": { "sentence": "同じクラスです。", "reading": "おなじくらすです。", "vi": "Chúng tôi cùng lớp.", "meaning": "We are in the same class." }
   },
   {
     "id": "n5-0126",
@@ -1009,7 +1134,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おにいさん",
     "romaji": "oniisan",
     "meaning": "(someone else's) older brother (formal)",
-    "vi": "anh trai (của người khác, trang trọng)"
+    "vi": "anh trai (của người khác, trang trọng)",
+    "example": { "sentence": "お兄さんは何歳ですか？", "reading": "おにいさんはなんさいですか？", "vi": "Anh trai bạn bao nhiêu tuổi?", "meaning": "How old is your older brother?" }
   },
   {
     "id": "n5-0127",
@@ -1017,7 +1143,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おねえさん",
     "romaji": "oneesan",
     "meaning": "older sister (formal)",
-    "vi": "chị gái (trang trọng)"
+    "vi": "chị gái (trang trọng)",
+    "example": { "sentence": "お姉さんはきれいですね。", "reading": "おねえさんはきれいですね。", "vi": "Chị gái bạn đẹp nhỉ.", "meaning": "Your older sister is beautiful." }
   },
   {
     "id": "n5-0128",
@@ -1025,7 +1152,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おばさん",
     "romaji": "obasan",
     "meaning": "aunt",
-    "vi": "cô, dì"
+    "vi": "cô, dì",
+    "example": { "sentence": "おばさんはやさしいです。", "reading": "おばさんはやさしいです。", "vi": "Cô/dì tôi rất tốt bụng.", "meaning": "My aunt is kind." }
   },
   {
     "id": "n5-0129",
@@ -1033,7 +1161,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おばあさん",
     "romaji": "obaasan",
     "meaning": "grandmother, female senior-citizen",
-    "vi": "bà; cụ bà"
+    "vi": "bà; cụ bà",
+    "example": { "sentence": "おばあさんは元気です。", "reading": "おばあさんはげんきです。", "vi": "Bà nội/ngoại khỏe mạnh.", "meaning": "My grandmother is healthy." }
   },
   {
     "id": "n5-0130",
@@ -1041,7 +1170,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おふろ",
     "romaji": "ofuro",
     "meaning": "a bath",
-    "vi": "bồn tắm, tắm"
+    "vi": "bồn tắm, tắm",
+    "example": { "sentence": "お風呂に入ります。", "reading": "おふろにはいります。", "vi": "Tôi tắm.", "meaning": "I take a bath." }
   },
   {
     "id": "n5-0131",
@@ -1049,7 +1179,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おべんとう",
     "romaji": "obentou",
     "meaning": "a boxed lunch",
-    "vi": "cơm hộp"
+    "vi": "cơm hộp",
+    "example": { "sentence": "お弁当を作ります。", "reading": "おべんとうをつくります。", "vi": "Tôi làm cơm hộp.", "meaning": "I make a boxed lunch." }
   },
   {
     "id": "n5-0132",
@@ -1057,7 +1188,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おぼえる",
     "romaji": "oboeru",
     "meaning": "to learn, to commit to memory, to remember, to memorize",
-    "vi": "học, ghi nhớ, thuộc lòng"
+    "vi": "học, ghi nhớ, thuộc lòng",
+    "example": { "sentence": "単語を覚えます。", "reading": "たんごをおぼえます。", "vi": "Tôi ghi nhớ từ vựng.", "meaning": "I memorize vocabulary." }
   },
   {
     "id": "n5-0133",
@@ -1065,7 +1197,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おまわりさん",
     "romaji": "omawarisan",
     "meaning": "policeman (friendly term)",
-    "vi": "chú công an (cách gọi thân mật)"
+    "vi": "chú công an (cách gọi thân mật)",
+    "example": { "sentence": "おまわりさんに道を聞きます。", "reading": "おまわりさんにみちをききます。", "vi": "Tôi hỏi chú cảnh sát đường đi.", "meaning": "I ask the police officer for directions." }
   },
   {
     "id": "n5-0134",
@@ -1073,7 +1206,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おもい",
     "romaji": "omoi",
     "meaning": "heavy; serious",
-    "vi": "nặng; nghiêm trọng"
+    "vi": "nặng; nghiêm trọng",
+    "example": { "sentence": "荷物が重いです。", "reading": "にもつがおもいです。", "vi": "Hành lý nặng.", "meaning": "The luggage is heavy." }
   },
   {
     "id": "n5-0135",
@@ -1081,7 +1215,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おもしろい",
     "romaji": "omoshiroi",
     "meaning": "interesting, amusing",
-    "vi": "thú vị, hay"
+    "vi": "thú vị, hay",
+    "example": { "sentence": "この映画は面白いです。", "reading": "このえいがはおもしろいです。", "vi": "Bộ phim này thú vị.", "meaning": "This movie is interesting." }
   },
   {
     "id": "n5-0136",
@@ -1089,7 +1224,8 @@ export const N5: JapaneseWord[] = [
     "reading": "およぐ",
     "romaji": "oyogu",
     "meaning": "to swim",
-    "vi": "bơi"
+    "vi": "bơi",
+    "example": { "sentence": "プールで泳ぎます。", "reading": "ぷーるでおよぎます。", "vi": "Tôi bơi ở bể bơi.", "meaning": "I swim in the pool." }
   },
   {
     "id": "n5-0137",
@@ -1097,7 +1233,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おりる",
     "romaji": "oriru",
     "meaning": "to get off",
-    "vi": "xuống (xe, tàu)"
+    "vi": "xuống (xe, tàu)",
+    "example": { "sentence": "バスから降ります。", "reading": "ばすからおります。", "vi": "Tôi xuống xe buýt.", "meaning": "I get off the bus." }
   },
   {
     "id": "n5-0138",
@@ -1105,7 +1242,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おわる",
     "romaji": "owaru",
     "meaning": "to finish, to close",
-    "vi": "kết thúc, đóng lại"
+    "vi": "kết thúc, đóng lại",
+    "example": { "sentence": "授業が終わります。", "reading": "じゅぎょうがおわります。", "vi": "Buổi học kết thúc.", "meaning": "The class finishes." }
   },
   {
     "id": "n5-0139",
@@ -1113,7 +1251,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おんがく",
     "romaji": "ongaku",
     "meaning": "Music",
-    "vi": "âm nhạc"
+    "vi": "âm nhạc",
+    "example": { "sentence": "音楽を聴きます。", "reading": "おんがくをききます。", "vi": "Tôi nghe nhạc.", "meaning": "I listen to music." }
   },
   {
     "id": "n5-0140",
@@ -1121,7 +1260,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おんな",
     "romaji": "onna",
     "meaning": "woman, female",
-    "vi": "phụ nữ, nữ giới"
+    "vi": "phụ nữ, nữ giới",
+    "example": { "sentence": "あの女は誰ですか？", "reading": "あのおんなはだれですか？", "vi": "Người phụ nữ kia là ai?", "meaning": "Who is that woman?" }
   },
   {
     "id": "n5-0141",
@@ -1129,7 +1269,8 @@ export const N5: JapaneseWord[] = [
     "reading": "おんなのこ",
     "romaji": "onnanoko",
     "meaning": "girl",
-    "vi": "cô bé"
+    "vi": "cô bé",
+    "example": { "sentence": "女の子が歌っています。", "reading": "おんなのこがうたっています。", "vi": "Cô bé đang hát.", "meaning": "The girl is singing." }
   },
   {
     "id": "n5-0142",
@@ -1137,7 +1278,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～かい",
     "romaji": "～kai",
     "meaning": "counter for occurrences (~ times)",
-    "vi": "trợ từ đếm số lần"
+    "vi": "trợ từ đếm số lần",
+    "example": { "sentence": "日本に三回来ました。", "reading": "にほんにさんかいきました。", "vi": "Tôi đã đến Nhật ba lần.", "meaning": "I have been to Japan three times." }
   },
   {
     "id": "n5-0143",
@@ -1145,7 +1287,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～かい",
     "romaji": "～kai",
     "meaning": "counter for stories (floors) of a building",
-    "vi": "trợ từ đếm tầng nhà"
+    "vi": "trợ từ đếm tầng nhà",
+    "example": { "sentence": "三階に住んでいます。", "reading": "さんがいにすんでいます。", "vi": "Tôi sống ở tầng ba.", "meaning": "I live on the third floor." }
   },
   {
     "id": "n5-0144",
@@ -1153,7 +1296,8 @@ export const N5: JapaneseWord[] = [
     "reading": "がいこく",
     "romaji": "gaikoku",
     "meaning": "foreign country; abroad",
-    "vi": "nước ngoài"
+    "vi": "nước ngoài",
+    "example": { "sentence": "外国に行きたいです。", "reading": "がいこくにいきたいです。", "vi": "Tôi muốn đi nước ngoài.", "meaning": "I want to go abroad." }
   },
   {
     "id": "n5-0145",
@@ -1161,7 +1305,8 @@ export const N5: JapaneseWord[] = [
     "reading": "がいこくじん",
     "romaji": "gaikokujin",
     "meaning": "foreigner",
-    "vi": "người nước ngoài"
+    "vi": "người nước ngoài",
+    "example": { "sentence": "外国人の友達がいます。", "reading": "がいこくじんのともだちがいます。", "vi": "Tôi có bạn người nước ngoài.", "meaning": "I have a foreign friend." }
   },
   {
     "id": "n5-0146",
@@ -1169,7 +1314,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かいしゃ",
     "romaji": "kaisha",
     "meaning": "company, corporation",
-    "vi": "công ty"
+    "vi": "công ty",
+    "example": { "sentence": "会社で働いています。", "reading": "かいしゃではたらいています。", "vi": "Tôi đang làm việc ở công ty.", "meaning": "I am working at a company." }
   },
   {
     "id": "n5-0147",
@@ -1177,7 +1323,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かいだん",
     "romaji": "kaidan",
     "meaning": "stairs",
-    "vi": "cầu thang"
+    "vi": "cầu thang",
+    "example": { "sentence": "階段で上がります。", "reading": "かいだんであがります。", "vi": "Tôi đi cầu thang bộ lên.", "meaning": "I go up by stairs." }
   },
   {
     "id": "n5-0148",
@@ -1185,7 +1332,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かいもの",
     "romaji": "kaimono",
     "meaning": "shopping",
-    "vi": "mua sắm"
+    "vi": "mua sắm",
+    "example": { "sentence": "買い物に行きます。", "reading": "かいものにいきます。", "vi": "Tôi đi mua sắm.", "meaning": "I go shopping." }
   },
   {
     "id": "n5-0149",
@@ -1193,7 +1341,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かう",
     "romaji": "kau",
     "meaning": "to buy",
-    "vi": "mua"
+    "vi": "mua",
+    "example": { "sentence": "スーパーで野菜を買います。", "reading": "すーぱーでやさいをかいます。", "vi": "Tôi mua rau ở siêu thị.", "meaning": "I buy vegetables at the supermarket." }
   },
   {
     "id": "n5-0150",
@@ -1201,7 +1350,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かえす",
     "romaji": "kaesu",
     "meaning": "to return something",
-    "vi": "trả lại (cái gì đó)"
+    "vi": "trả lại (cái gì đó)",
+    "example": { "sentence": "借りた本を返します。", "reading": "かりたほんをかえします。", "vi": "Tôi trả lại cuốn sách đã mượn.", "meaning": "I return the book I borrowed." }
   },
   {
     "id": "n5-0151",
@@ -1209,7 +1359,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かえる",
     "romaji": "kaeru",
     "meaning": "to go back, to go home, to return",
-    "vi": "về, trở về nhà, quay lại"
+    "vi": "về, trở về nhà, quay lại",
+    "example": { "sentence": "家に帰ります。", "reading": "いえにかえります。", "vi": "Tôi về nhà.", "meaning": "I return home." }
   },
   {
     "id": "n5-0152",
@@ -1217,7 +1368,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かお",
     "romaji": "kao",
     "meaning": "face (body part)",
-    "vi": "khuôn mặt"
+    "vi": "khuôn mặt",
+    "example": { "sentence": "顔を洗います。", "reading": "かおをあらいます。", "vi": "Tôi rửa mặt.", "meaning": "I wash my face." }
   },
   {
     "id": "n5-0153",
@@ -1225,7 +1377,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かかる",
     "romaji": "kakaru",
     "meaning": "it takes (amount of time, money) (v.i.)",
-    "vi": "mất (thời gian, tiền bạc)"
+    "vi": "mất (thời gian, tiền bạc)",
+    "example": { "sentence": "駅まで十分かかります。", "reading": "えきまでじゅっぷんかかります。", "vi": "Mất mười phút đến nhà ga.", "meaning": "It takes ten minutes to the station." }
   },
   {
     "id": "n5-0154",
@@ -1233,7 +1386,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かぎ",
     "romaji": "kagi",
     "meaning": "a lock; a key",
-    "vi": "ổ khóa; chìa khóa"
+    "vi": "ổ khóa; chìa khóa",
+    "example": { "sentence": "鍵をなくしました。", "reading": "かぎをなくしました。", "vi": "Tôi đã mất chìa khóa.", "meaning": "I lost my key." }
   },
   {
     "id": "n5-0155",
@@ -1241,7 +1395,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かく",
     "romaji": "kaku",
     "meaning": "to write",
-    "vi": "viết"
+    "vi": "viết",
+    "example": { "sentence": "手紙を書きます。", "reading": "てがみをかきます。", "vi": "Tôi viết thư.", "meaning": "I write a letter." }
   },
   {
     "id": "n5-0156",
@@ -1249,7 +1404,8 @@ export const N5: JapaneseWord[] = [
     "reading": "がくせい",
     "romaji": "gakusei",
     "meaning": "student",
-    "vi": "học sinh, sinh viên"
+    "vi": "học sinh, sinh viên",
+    "example": { "sentence": "学生は勉強します。", "reading": "がくせいはべんきょうします。", "vi": "Học sinh học bài.", "meaning": "Students study." }
   },
   {
     "id": "n5-0157",
@@ -1257,7 +1413,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～かげつ",
     "romaji": "～kagetsu",
     "meaning": "(number of) months",
-    "vi": "số tháng"
+    "vi": "số tháng",
+    "example": { "sentence": "三か月日本語を勉強しました。", "reading": "さんかげつにほんごをべんきょうしました。", "vi": "Tôi đã học tiếng Nhật ba tháng.", "meaning": "I studied Japanese for three months." }
   },
   {
     "id": "n5-0158",
@@ -1265,7 +1422,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かける",
     "romaji": "kakeru",
     "meaning": "to put on (e.g., glasses); to hang (e.g., on a wall)",
-    "vi": "đeo (vd kính); treo (vd lên tường)"
+    "vi": "đeo (vd kính); treo (vd lên tường)",
+    "example": { "sentence": "メガネをかけています。", "reading": "めがねをかけています。", "vi": "Tôi đang đeo kính.", "meaning": "I am wearing glasses." }
   },
   {
     "id": "n5-0159",
@@ -1273,7 +1431,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かける",
     "romaji": "kakeru",
     "meaning": "to dial/call (e.g., phone); to sit down",
-    "vi": "quay số/gọi (điện thoại); ngồi xuống"
+    "vi": "quay số/gọi (điện thoại); ngồi xuống",
+    "example": { "sentence": "電話をかけます。", "reading": "でんわをかけます。", "vi": "Tôi gọi điện thoại.", "meaning": "I make a phone call." }
   },
   {
     "id": "n5-0160",
@@ -1281,7 +1440,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かさ",
     "romaji": "kasa",
     "meaning": "umbrella, parasol",
-    "vi": "cái ô, dù"
+    "vi": "cái ô, dù",
+    "example": { "sentence": "傘を持っています。", "reading": "かさをもっています。", "vi": "Tôi có ô.", "meaning": "I have an umbrella." }
   },
   {
     "id": "n5-0161",
@@ -1289,7 +1449,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かす",
     "romaji": "kasu",
     "meaning": "to lend",
-    "vi": "cho mượn"
+    "vi": "cho mượn",
+    "example": { "sentence": "友達に本を貸します。", "reading": "ともだちにほんをかします。", "vi": "Tôi cho bạn mượn sách.", "meaning": "I lend a book to my friend." }
   },
   {
     "id": "n5-0162",
@@ -1297,7 +1458,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かぜ",
     "romaji": "kaze",
     "meaning": "wind, breeze",
-    "vi": "gió"
+    "vi": "gió",
+    "example": { "sentence": "今日は風が強いです。", "reading": "きょうはかぜがつよいです。", "vi": "Hôm nay gió mạnh.", "meaning": "Today the wind is strong." }
   },
   {
     "id": "n5-0163",
@@ -1305,7 +1467,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かぜ",
     "romaji": "kaze",
     "meaning": "cold, flu",
-    "vi": "cảm, cúm"
+    "vi": "cảm, cúm",
+    "example": { "sentence": "風邪を引きました。", "reading": "かぜをひきました。", "vi": "Tôi bị cảm.", "meaning": "I caught a cold." }
   },
   {
     "id": "n5-0164",
@@ -1313,7 +1476,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かた",
     "romaji": "kata",
     "meaning": "-- honorific form for 人 (ひと) --; way of doing",
-    "vi": "kính ngữ của 'người'; cách làm"
+    "vi": "kính ngữ của 'người'; cách làm",
+    "example": { "sentence": "田中さんという方ですか？", "reading": "たなかさんというかたですか？", "vi": "Bạn có phải là người tên Tanaka không?", "meaning": "Are you the person called Tanaka?" }
   },
   {
     "id": "n5-0165",
@@ -1321,7 +1485,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かぞく",
     "romaji": "kazoku",
     "meaning": "family, members of a family",
-    "vi": "gia đình, thành viên gia đình"
+    "vi": "gia đình, thành viên gia đình",
+    "example": { "sentence": "家族みんなで旅行します。", "reading": "かぞくみんなでりょこうします。", "vi": "Cả gia đình cùng đi du lịch.", "meaning": "The whole family goes on a trip." }
   },
   {
     "id": "n5-0166",
@@ -1329,7 +1494,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かたかな",
     "romaji": "katakana",
     "meaning": "katakana",
-    "vi": "chữ katakana"
+    "vi": "chữ katakana",
+    "example": { "sentence": "片仮名を練習します。", "reading": "かたかなをれんしゅうします。", "vi": "Tôi luyện tập katakana.", "meaning": "I practice katakana." }
   },
   {
     "id": "n5-0167",
@@ -1337,7 +1503,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～がつ",
     "romaji": "～gatsu",
     "meaning": "month of year",
-    "vi": "tháng trong năm"
+    "vi": "tháng trong năm",
+    "example": { "sentence": "三月に花見をします。", "reading": "さんがつにはなみをします。", "vi": "Tháng ba chúng tôi đi ngắm hoa.", "meaning": "We go cherry blossom viewing in March." }
   },
   {
     "id": "n5-0168",
@@ -1345,7 +1512,8 @@ export const N5: JapaneseWord[] = [
     "reading": "がっこう",
     "romaji": "gakkou",
     "meaning": "a school",
-    "vi": "trường học"
+    "vi": "trường học",
+    "example": { "sentence": "学校は近いです。", "reading": "がっこうはちかいです。", "vi": "Trường học gần đây.", "meaning": "The school is nearby." }
   },
   {
     "id": "n5-0169",
@@ -1353,7 +1521,8 @@ export const N5: JapaneseWord[] = [
     "reading": "カップ",
     "romaji": "カップ",
     "meaning": "cup",
-    "vi": "cái cốc"
+    "vi": "cái cốc",
+    "example": { "sentence": "カップにコーヒーを入れます。", "reading": "かっぷにこーひーをいれます。", "vi": "Tôi rót cà phê vào cốc.", "meaning": "I pour coffee into the cup." }
   },
   {
     "id": "n5-0170",
@@ -1361,7 +1530,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かてい",
     "romaji": "katei",
     "meaning": "home; family",
-    "vi": "gia đình, tổ ấm"
+    "vi": "gia đình, tổ ấm",
+    "example": { "sentence": "家庭が大切です。", "reading": "かていがたいせつです。", "vi": "Gia đình rất quan trọng.", "meaning": "Family is important." }
   },
   {
     "id": "n5-0171",
@@ -1369,7 +1539,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かど",
     "romaji": "kado",
     "meaning": "corner (e.g., desk, pavement)",
-    "vi": "góc (vd bàn, vỉa hè)"
+    "vi": "góc (vd bàn, vỉa hè)",
+    "example": { "sentence": "角を曲がってください。", "reading": "かどをまがってください。", "vi": "Xin hãy rẽ ở góc đường.", "meaning": "Please turn at the corner." }
   },
   {
     "id": "n5-0172",
@@ -1377,7 +1548,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かばん",
     "romaji": "kaban",
     "meaning": "bag, basket",
-    "vi": "cái túi, giỏ"
+    "vi": "cái túi, giỏ",
+    "example": { "sentence": "かばんを持っています。", "reading": "かばんをもっています。", "vi": "Tôi mang túi.", "meaning": "I carry a bag." }
   },
   {
     "id": "n5-0173",
@@ -1385,7 +1557,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かびん",
     "romaji": "kabin",
     "meaning": "(flower) vase",
-    "vi": "lọ hoa"
+    "vi": "lọ hoa",
+    "example": { "sentence": "花瓶に花を入れます。", "reading": "かびんにはなをいれます。", "vi": "Tôi cắm hoa vào lọ.", "meaning": "I put flowers in the vase." }
   },
   {
     "id": "n5-0174",
@@ -1393,7 +1566,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かぶる",
     "romaji": "kaburu",
     "meaning": "to wear, to put on (e.g., a hat on the head)",
-    "vi": "đội (vd mũ lên đầu)"
+    "vi": "đội (vd mũ lên đầu)",
+    "example": { "sentence": "帽子をかぶります。", "reading": "ぼうしをかぶります。", "vi": "Tôi đội mũ.", "meaning": "I put on a hat." }
   },
   {
     "id": "n5-0175",
@@ -1401,7 +1575,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かみ",
     "romaji": "kami",
     "meaning": "paper",
-    "vi": "giấy"
+    "vi": "giấy",
+    "example": { "sentence": "紙に書きます。", "reading": "かみにかきます。", "vi": "Tôi viết lên giấy.", "meaning": "I write on paper." }
   },
   {
     "id": "n5-0176",
@@ -1409,7 +1584,8 @@ export const N5: JapaneseWord[] = [
     "reading": "カメラ",
     "romaji": "カメラ",
     "meaning": "camera",
-    "vi": "máy ảnh"
+    "vi": "máy ảnh",
+    "example": { "sentence": "カメラで写真を撮ります。", "reading": "かめらでしゃしんをとります。", "vi": "Tôi chụp ảnh bằng máy ảnh.", "meaning": "I take photos with a camera." }
   },
   {
     "id": "n5-0177",
@@ -1417,7 +1593,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かようび",
     "romaji": "kayoubi",
     "meaning": "Tuesday",
-    "vi": "thứ Ba"
+    "vi": "thứ Ba",
+    "example": { "sentence": "火曜日に会議があります。", "reading": "かようびにかいぎがあります。", "vi": "Thứ Ba có cuộc họp.", "meaning": "There is a meeting on Tuesday." }
   },
   {
     "id": "n5-0178",
@@ -1425,7 +1602,8 @@ export const N5: JapaneseWord[] = [
     "reading": "からい",
     "romaji": "karai",
     "meaning": "hot and spicy; salty",
-    "vi": "cay; mặn"
+    "vi": "cay; mặn",
+    "example": { "sentence": "この料理は辛いです。", "reading": "このりょうりはからいです。", "vi": "Món ăn này cay.", "meaning": "This dish is spicy." }
   },
   {
     "id": "n5-0179",
@@ -1433,7 +1611,8 @@ export const N5: JapaneseWord[] = [
     "reading": "からだ",
     "romaji": "karada",
     "meaning": "body; health",
-    "vi": "cơ thể; sức khỏe"
+    "vi": "cơ thể; sức khỏe",
+    "example": { "sentence": "体を大切にしてください。", "reading": "からだをたいせつにしてください。", "vi": "Hãy giữ gìn sức khỏe.", "meaning": "Please take care of your body." }
   },
   {
     "id": "n5-0180",
@@ -1441,7 +1620,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かりる",
     "romaji": "kariru",
     "meaning": "to borrow, to owe",
-    "vi": "mượn, nợ"
+    "vi": "mượn, nợ",
+    "example": { "sentence": "本を借ります。", "reading": "ほんをかります。", "vi": "Tôi mượn sách.", "meaning": "I borrow a book." }
   },
   {
     "id": "n5-0181",
@@ -1449,7 +1629,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～がる",
     "romaji": "～garu",
     "meaning": "feel",
-    "vi": "cảm thấy (hậu tố)"
+    "vi": "cảm thấy (hậu tố)",
+    "example": { "sentence": "嬉しそうにしています。", "reading": "うれしそうにしています。", "vi": "Họ có vẻ vui vẻ.", "meaning": "They seem happy." }
   },
   {
     "id": "n5-0182",
@@ -1457,7 +1638,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かるい",
     "romaji": "karui",
     "meaning": "light, non-serious, minor",
-    "vi": "nhẹ, không nghiêm trọng, nhỏ"
+    "vi": "nhẹ, không nghiêm trọng, nhỏ",
+    "example": { "sentence": "この荷物は軽いです。", "reading": "このにもつはかるいです。", "vi": "Hành lý này nhẹ.", "meaning": "This luggage is light." }
   },
   {
     "id": "n5-0183",
@@ -1465,7 +1647,8 @@ export const N5: JapaneseWord[] = [
     "reading": "カレー",
     "romaji": "カレー",
     "meaning": "curry (abbr. for curry and rice)",
-    "vi": "cà ri (viết tắt của cơm cà ri)"
+    "vi": "cà ri (viết tắt của cơm cà ri)",
+    "example": { "sentence": "カレーを食べます。", "reading": "かれーをたべます。", "vi": "Tôi ăn cà ri.", "meaning": "I eat curry." }
   },
   {
     "id": "n5-0184",
@@ -1473,7 +1656,8 @@ export const N5: JapaneseWord[] = [
     "reading": "カレンダー",
     "romaji": "カレンダー",
     "meaning": "calendar",
-    "vi": "lịch"
+    "vi": "lịch",
+    "example": { "sentence": "カレンダーを見ます。", "reading": "かれんだーをみます。", "vi": "Tôi xem lịch.", "meaning": "I look at the calendar." }
   },
   {
     "id": "n5-0185",
@@ -1481,7 +1665,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かわ",
     "romaji": "kawa",
     "meaning": "river",
-    "vi": "sông"
+    "vi": "sông",
+    "example": { "sentence": "川で泳ぎます。", "reading": "かわでおよぎます。", "vi": "Tôi bơi ở sông.", "meaning": "I swim in the river." }
   },
   {
     "id": "n5-0186",
@@ -1489,7 +1674,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～がわ",
     "romaji": "～gawa",
     "meaning": "~ side",
-    "vi": "phía ~"
+    "vi": "phía ~",
+    "example": { "sentence": "右側を走ります。", "reading": "みぎがわをはしります。", "vi": "Tôi chạy ở phía bên phải.", "meaning": "I run on the right side." }
   },
   {
     "id": "n5-0187",
@@ -1497,7 +1683,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かわいい",
     "romaji": "kawaii",
     "meaning": "cute, adorable",
-    "vi": "dễ thương, đáng yêu"
+    "vi": "dễ thương, đáng yêu",
+    "example": { "sentence": "可愛い猫がいます。", "reading": "かわいいねこがいます。", "vi": "Có con mèo dễ thương.", "meaning": "There is a cute cat." }
   },
   {
     "id": "n5-0188",
@@ -1505,7 +1692,8 @@ export const N5: JapaneseWord[] = [
     "reading": "かんじ",
     "romaji": "kanji",
     "meaning": "kanji; Chinese character",
-    "vi": "chữ Hán (kanji)"
+    "vi": "chữ Hán (kanji)",
+    "example": { "sentence": "漢字を勉強します。", "reading": "かんじをべんきょうします。", "vi": "Tôi học chữ Hán.", "meaning": "I study kanji." }
   },
   {
     "id": "n5-0189",
@@ -1513,7 +1701,8 @@ export const N5: JapaneseWord[] = [
     "reading": "き",
     "romaji": "ki",
     "meaning": "tree, wood, timber",
-    "vi": "cây, gỗ"
+    "vi": "cây, gỗ",
+    "example": { "sentence": "木の下に座ります。", "reading": "きのしたにすわります。", "vi": "Tôi ngồi dưới gốc cây.", "meaning": "I sit under the tree." }
   },
   {
     "id": "n5-0190",
@@ -1521,7 +1710,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きいろ",
     "romaji": "kiiro",
     "meaning": "yellow",
-    "vi": "màu vàng"
+    "vi": "màu vàng",
+    "example": { "sentence": "黄色が好きです。", "reading": "きいろがすきです。", "vi": "Tôi thích màu vàng.", "meaning": "I like yellow." }
   },
   {
     "id": "n5-0191",
@@ -1529,7 +1719,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きいろい",
     "romaji": "kiiroi",
     "meaning": "yellow",
-    "vi": "vàng"
+    "vi": "vàng",
+    "example": { "sentence": "バナナは黄色いです。", "reading": "ばななはきいろいです。", "vi": "Chuối màu vàng.", "meaning": "Bananas are yellow." }
   },
   {
     "id": "n5-0192",
@@ -1537,7 +1728,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きえる",
     "romaji": "kieru",
     "meaning": "to vanish, to disappear",
-    "vi": "biến mất"
+    "vi": "biến mất",
+    "example": { "sentence": "電気が消えました。", "reading": "でんきがきえました。", "vi": "Đèn tắt rồi.", "meaning": "The light went out." }
   },
   {
     "id": "n5-0193",
@@ -1545,7 +1737,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きく",
     "romaji": "kiku",
     "meaning": "to hear, to listen, to ask",
-    "vi": "nghe, hỏi"
+    "vi": "nghe, hỏi",
+    "example": { "sentence": "音楽を聞きます。", "reading": "おんがくをききます。", "vi": "Tôi nghe nhạc.", "meaning": "I listen to music." }
   },
   {
     "id": "n5-0194",
@@ -1553,7 +1746,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きた",
     "romaji": "kita",
     "meaning": "north",
-    "vi": "hướng bắc"
+    "vi": "hướng bắc",
+    "example": { "sentence": "北に進んでください。", "reading": "きたにすすんでください。", "vi": "Xin hãy đi về hướng bắc.", "meaning": "Please proceed north." }
   },
   {
     "id": "n5-0195",
@@ -1561,7 +1755,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ギター",
     "romaji": "ギター",
     "meaning": "guitar",
-    "vi": "đàn guitar"
+    "vi": "đàn guitar",
+    "example": { "sentence": "ギターを弾きます。", "reading": "ぎたーをひきます。", "vi": "Tôi chơi đàn guitar.", "meaning": "I play the guitar." }
   },
   {
     "id": "n5-0196",
@@ -1569,7 +1764,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きたない",
     "romaji": "kitanai",
     "meaning": "dirty, unclean, filthy",
-    "vi": "bẩn, dơ"
+    "vi": "bẩn, dơ",
+    "example": { "sentence": "部屋が汚いです。", "reading": "へやがきたないです。", "vi": "Phòng bẩn.", "meaning": "The room is dirty." }
   },
   {
     "id": "n5-0197",
@@ -1577,7 +1773,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きっさてん",
     "romaji": "kissaten",
     "meaning": "café",
-    "vi": "quán cà phê"
+    "vi": "quán cà phê",
+    "example": { "sentence": "喫茶店でコーヒーを飲みます。", "reading": "きっさてんでこーひーをのみます。", "vi": "Tôi uống cà phê ở quán cà phê.", "meaning": "I drink coffee at the café." }
   },
   {
     "id": "n5-0198",
@@ -1585,7 +1782,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きって",
     "romaji": "kitte",
     "meaning": "postal (postage) stamps",
-    "vi": "tem thư"
+    "vi": "tem thư",
+    "example": { "sentence": "切手を貼ります。", "reading": "きってをはります。", "vi": "Tôi dán tem.", "meaning": "I put on a stamp." }
   },
   {
     "id": "n5-0199",
@@ -1593,7 +1791,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きっぷ",
     "romaji": "kippu",
     "meaning": "a ticket",
-    "vi": "vé"
+    "vi": "vé",
+    "example": { "sentence": "切符を買います。", "reading": "きっぷをかいます。", "vi": "Tôi mua vé.", "meaning": "I buy a ticket." }
   },
   {
     "id": "n5-0200",
@@ -1601,7 +1800,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きのう",
     "romaji": "kinou",
     "meaning": "yesterday",
-    "vi": "hôm qua"
+    "vi": "hôm qua",
+    "example": { "sentence": "昨日は何をしましたか？", "reading": "きのうはなにをしましたか？", "vi": "Hôm qua bạn đã làm gì?", "meaning": "What did you do yesterday?" }
   },
   {
     "id": "n5-0201",
@@ -1609,7 +1809,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きゅう",
     "romaji": "kyuu",
     "meaning": "nine",
-    "vi": "chín"
+    "vi": "chín",
+    "example": { "sentence": "九時に起きます。", "reading": "くじにおきます。", "vi": "Tôi dậy lúc chín giờ.", "meaning": "I get up at nine o'clock." }
   },
   {
     "id": "n5-0202",
@@ -1617,7 +1818,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ぎゅうにく",
     "romaji": "gyuuniku",
     "meaning": "beef",
-    "vi": "thịt bò"
+    "vi": "thịt bò",
+    "example": { "sentence": "牛肉が好きです。", "reading": "ぎゅうにくがすきです。", "vi": "Tôi thích thịt bò.", "meaning": "I like beef." }
   },
   {
     "id": "n5-0203",
@@ -1625,7 +1827,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ぎゅうにゅう",
     "romaji": "gyuunyuu",
     "meaning": "milk",
-    "vi": "sữa"
+    "vi": "sữa",
+    "example": { "sentence": "毎朝、牛乳を飲みます。", "reading": "まいあさ、ぎゅうにゅうをのみます。", "vi": "Tôi uống sữa mỗi buổi sáng.", "meaning": "I drink milk every morning." }
   },
   {
     "id": "n5-0204",
@@ -1633,7 +1836,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きょう",
     "romaji": "kyou",
     "meaning": "today, this day",
-    "vi": "hôm nay"
+    "vi": "hôm nay",
+    "example": { "sentence": "今日は暑いです。", "reading": "きょうはあついです。", "vi": "Hôm nay trời nóng.", "meaning": "It is hot today." }
   },
   {
     "id": "n5-0205",
@@ -1641,7 +1845,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きょうしつ",
     "romaji": "kyoushitsu",
     "meaning": "classroom",
-    "vi": "phòng học"
+    "vi": "phòng học",
+    "example": { "sentence": "教室に入ります。", "reading": "きょうしつにはいります。", "vi": "Tôi vào phòng học.", "meaning": "I enter the classroom." }
   },
   {
     "id": "n5-0206",
@@ -1649,7 +1854,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きょうだい",
     "romaji": "kyoudai",
     "meaning": "siblings (humble), brothers and sisters",
-    "vi": "anh chị em (khiêm nhường)"
+    "vi": "anh chị em (khiêm nhường)",
+    "example": { "sentence": "兄弟は三人います。", "reading": "きょうだいはさんにんいます。", "vi": "Tôi có ba anh chị em.", "meaning": "I have three siblings." }
   },
   {
     "id": "n5-0207",
@@ -1657,7 +1863,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きょねん",
     "romaji": "kyonen",
     "meaning": "last year",
-    "vi": "năm ngoái"
+    "vi": "năm ngoái",
+    "example": { "sentence": "去年、日本に来ました。", "reading": "きょねん、にほんにきました。", "vi": "Năm ngoái tôi đến Nhật Bản.", "meaning": "I came to Japan last year." }
   },
   {
     "id": "n5-0208",
@@ -1665,7 +1872,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きらい",
     "romaji": "kirai",
     "meaning": "dislike",
-    "vi": "ghét, không thích"
+    "vi": "ghét, không thích",
+    "example": { "sentence": "魚が嫌いです。", "reading": "さかながきらいです。", "vi": "Tôi không thích cá.", "meaning": "I dislike fish." }
   },
   {
     "id": "n5-0209",
@@ -1673,7 +1881,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きる",
     "romaji": "kiru",
     "meaning": "to cut; to hang up (a phone)",
-    "vi": "cắt; cúp máy (điện thoại)"
+    "vi": "cắt; cúp máy (điện thoại)",
+    "example": { "sentence": "ハサミで紙を切ります。", "reading": "はさみでかみをきります。", "vi": "Tôi dùng kéo cắt giấy.", "meaning": "I cut paper with scissors." }
   },
   {
     "id": "n5-0210",
@@ -1681,7 +1890,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きる",
     "romaji": "kiru",
     "meaning": "to put on (clothes above your waist); to wear",
-    "vi": "mặc (áo, phần trên cơ thể)"
+    "vi": "mặc (áo, phần trên cơ thể)",
+    "example": { "sentence": "シャツを着ます。", "reading": "しゃつをきます。", "vi": "Tôi mặc áo sơ mi.", "meaning": "I put on a shirt." }
   },
   {
     "id": "n5-0211",
@@ -1689,7 +1899,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きれい",
     "romaji": "kirei",
     "meaning": "pretty, clean, tidy",
-    "vi": "đẹp, sạch sẽ, gọn gàng"
+    "vi": "đẹp, sạch sẽ, gọn gàng",
+    "example": { "sentence": "あの花はきれいです。", "reading": "あのはなはきれいです。", "vi": "Bông hoa kia đẹp.", "meaning": "That flower is pretty." }
   },
   {
     "id": "n5-0212",
@@ -1697,7 +1908,8 @@ export const N5: JapaneseWord[] = [
     "reading": "キロ; キログラム",
     "romaji": "キロ; キログラム",
     "meaning": "(abbr.) kilo (kilogram)",
-    "vi": "ki-lô-gam (viết tắt)"
+    "vi": "ki-lô-gam (viết tắt)",
+    "example": { "sentence": "体重は五十キロです。", "reading": "たいじゅうはごじゅうきろです。", "vi": "Tôi nặng năm mươi ki-lô.", "meaning": "I weigh fifty kilograms." }
   },
   {
     "id": "n5-0213",
@@ -1705,7 +1917,8 @@ export const N5: JapaneseWord[] = [
     "reading": "キロ; キロメートル",
     "romaji": "キロ; キロメートル",
     "meaning": "(abbr.) kilo (kilometer)",
-    "vi": "ki-lô-mét (viết tắt)"
+    "vi": "ki-lô-mét (viết tắt)",
+    "example": { "sentence": "学校まで一キロです。", "reading": "がっこうまでいちきろです。", "vi": "Một ki-lô-mét đến trường.", "meaning": "It is one kilometer to school." }
   },
   {
     "id": "n5-0214",
@@ -1713,7 +1926,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ぎんこう",
     "romaji": "ginkou",
     "meaning": "bank",
-    "vi": "ngân hàng"
+    "vi": "ngân hàng",
+    "example": { "sentence": "銀行はどこですか？", "reading": "ぎんこうはどこですか？", "vi": "Ngân hàng ở đâu?", "meaning": "Where is the bank?" }
   },
   {
     "id": "n5-0215",
@@ -1721,7 +1935,8 @@ export const N5: JapaneseWord[] = [
     "reading": "きんようび",
     "romaji": "kin'youbi",
     "meaning": "Friday",
-    "vi": "thứ Sáu"
+    "vi": "thứ Sáu",
+    "example": { "sentence": "金曜日に映画を見ます。", "reading": "きんようびにえいがをみます。", "vi": "Thứ Sáu tôi đi xem phim.", "meaning": "I watch a movie on Friday." }
   },
   {
     "id": "n5-0216",
@@ -1729,7 +1944,8 @@ export const N5: JapaneseWord[] = [
     "reading": "く",
     "romaji": "ku",
     "meaning": "nine",
-    "vi": "chín"
+    "vi": "chín",
+    "example": { "sentence": "九月に日本に行きます。", "reading": "くがつにほんにいきます。", "vi": "Tháng chín tôi đi Nhật Bản.", "meaning": "I go to Japan in September." }
   },
   {
     "id": "n5-0217",
@@ -1737,7 +1953,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くすり",
     "romaji": "kusuri",
     "meaning": "medicine",
-    "vi": "thuốc"
+    "vi": "thuốc",
+    "example": { "sentence": "薬を飲みます。", "reading": "くすりをのみます。", "vi": "Tôi uống thuốc.", "meaning": "I take medicine." }
   },
   {
     "id": "n5-0218",
@@ -1745,7 +1962,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ください",
     "romaji": "kudasai",
     "meaning": "(with te-form verb) please do for me",
-    "vi": "xin hãy (dùng với thể te của động từ)"
+    "vi": "xin hãy (dùng với thể te của động từ)",
+    "example": { "sentence": "窓を開けてください。", "reading": "まどをあけてください。", "vi": "Xin hãy mở cửa sổ.", "meaning": "Please open the window." }
   },
   {
     "id": "n5-0219",
@@ -1753,7 +1971,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くだもの",
     "romaji": "kudamono",
     "meaning": "fruit",
-    "vi": "trái cây"
+    "vi": "trái cây",
+    "example": { "sentence": "果物を食べます。", "reading": "くだものをたべます。", "vi": "Tôi ăn trái cây.", "meaning": "I eat fruit." }
   },
   {
     "id": "n5-0220",
@@ -1761,7 +1980,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くち",
     "romaji": "kuchi",
     "meaning": "job opening; mouth",
-    "vi": "vị trí tuyển dụng; miệng"
+    "vi": "vị trí tuyển dụng; miệng",
+    "example": { "sentence": "口を開けてください。", "reading": "くちをあけてください。", "vi": "Xin hãy mở miệng.", "meaning": "Please open your mouth." }
   },
   {
     "id": "n5-0221",
@@ -1769,7 +1989,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くつ",
     "romaji": "kutsu",
     "meaning": "shoes, footwear",
-    "vi": "giày, dép"
+    "vi": "giày, dép",
+    "example": { "sentence": "新しい靴を買いました。", "reading": "あたらしいくつをかいました。", "vi": "Tôi đã mua đôi giày mới.", "meaning": "I bought new shoes." }
   },
   {
     "id": "n5-0222",
@@ -1777,7 +1998,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くつした",
     "romaji": "kutsushita",
     "meaning": "socks",
-    "vi": "tất, vớ"
+    "vi": "tất, vớ",
+    "example": { "sentence": "靴下を履きます。", "reading": "くつしたをはきます。", "vi": "Tôi mang tất.", "meaning": "I put on socks." }
   },
   {
     "id": "n5-0223",
@@ -1785,7 +2007,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くに",
     "romaji": "kuni",
     "meaning": "country; place of origin",
-    "vi": "đất nước; quê quán"
+    "vi": "đất nước; quê quán",
+    "example": { "sentence": "どの国から来ましたか？", "reading": "どのくにからきましたか？", "vi": "Bạn đến từ nước nào?", "meaning": "Which country are you from?" }
   },
   {
     "id": "n5-0224",
@@ -1793,7 +2016,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くもり",
     "romaji": "kumori",
     "meaning": "cloudiness, cloudy weather",
-    "vi": "trời nhiều mây, u ám"
+    "vi": "trời nhiều mây, u ám",
+    "example": { "sentence": "今日は曇りです。", "reading": "きょうはくもりです。", "vi": "Hôm nay trời nhiều mây.", "meaning": "It is cloudy today." }
   },
   {
     "id": "n5-0225",
@@ -1801,7 +2025,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くもる",
     "romaji": "kumoru",
     "meaning": "to become cloudy, to become dim",
-    "vi": "trở nên nhiều mây, mờ đi"
+    "vi": "trở nên nhiều mây, mờ đi",
+    "example": { "sentence": "午後から曇ります。", "reading": "ごごからくもります。", "vi": "Buổi chiều trời sẽ nhiều mây.", "meaning": "It will become cloudy in the afternoon." }
   },
   {
     "id": "n5-0226",
@@ -1809,7 +2034,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くらい",
     "romaji": "kurai",
     "meaning": "dark, gloomy",
-    "vi": "tối, u ám"
+    "vi": "tối, u ám",
+    "example": { "sentence": "部屋が暗いです。", "reading": "へやがくらいです。", "vi": "Phòng tối.", "meaning": "The room is dark." }
   },
   {
     "id": "n5-0227",
@@ -1817,7 +2043,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～くらい; ぐらい",
     "romaji": "～kurai; gurai",
     "meaning": "approximate (quantity)",
-    "vi": "khoảng, chừng"
+    "vi": "khoảng, chừng",
+    "example": { "sentence": "三時間くらいかかります。", "reading": "さんじかんくらいかかります。", "vi": "Mất khoảng ba tiếng.", "meaning": "It takes about three hours." }
   },
   {
     "id": "n5-0228",
@@ -1825,7 +2052,8 @@ export const N5: JapaneseWord[] = [
     "reading": "クラス",
     "romaji": "クラス",
     "meaning": "a class",
-    "vi": "lớp học"
+    "vi": "lớp học",
+    "example": { "sentence": "私のクラスは三十人います。", "reading": "わたしのくらすはさんじゅうにんいます。", "vi": "Lớp tôi có ba mươi người.", "meaning": "My class has thirty people." }
   },
   {
     "id": "n5-0229",
@@ -1833,7 +2061,8 @@ export const N5: JapaneseWord[] = [
     "reading": "グラム",
     "romaji": "グラム",
     "meaning": "gram",
-    "vi": "gam"
+    "vi": "gam",
+    "example": { "sentence": "二百グラムください。", "reading": "にひゃくぐらむください。", "vi": "Cho tôi hai trăm gam.", "meaning": "Please give me 200 grams." }
   },
   {
     "id": "n5-0230",
@@ -1841,7 +2070,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くる",
     "romaji": "kuru",
     "meaning": "to come",
-    "vi": "đến"
+    "vi": "đến",
+    "example": { "sentence": "友達が来ます。", "reading": "ともだちがきます。", "vi": "Bạn bè đến.", "meaning": "My friend is coming." }
   },
   {
     "id": "n5-0231",
@@ -1849,7 +2079,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くるま",
     "romaji": "kuruma",
     "meaning": "car, vehicle",
-    "vi": "xe hơi, xe cộ"
+    "vi": "xe hơi, xe cộ",
+    "example": { "sentence": "車を運転します。", "reading": "くるまをうんてんします。", "vi": "Tôi lái xe.", "meaning": "I drive a car." }
   },
   {
     "id": "n5-0232",
@@ -1857,7 +2088,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くろ",
     "romaji": "kuro",
     "meaning": "black",
-    "vi": "màu đen"
+    "vi": "màu đen",
+    "example": { "sentence": "黒が好きです。", "reading": "くろがすきです。", "vi": "Tôi thích màu đen.", "meaning": "I like black." }
   },
   {
     "id": "n5-0233",
@@ -1865,7 +2097,8 @@ export const N5: JapaneseWord[] = [
     "reading": "くろい",
     "romaji": "kuroi",
     "meaning": "black; dark",
-    "vi": "đen; tối"
+    "vi": "đen; tối",
+    "example": { "sentence": "黒い犬がいます。", "reading": "くろいいぬがいます。", "vi": "Có con chó đen.", "meaning": "There is a black dog." }
   },
   {
     "id": "n5-0234",
@@ -1873,7 +2106,8 @@ export const N5: JapaneseWord[] = [
     "reading": "けいかん",
     "romaji": "keikan",
     "meaning": "police officer",
-    "vi": "cảnh sát"
+    "vi": "cảnh sát",
+    "example": { "sentence": "警官が来ました。", "reading": "けいかんがきました。", "vi": "Cảnh sát đến rồi.", "meaning": "The police officer came." }
   },
   {
     "id": "n5-0235",
@@ -1881,7 +2115,8 @@ export const N5: JapaneseWord[] = [
     "reading": "けさ",
     "romaji": "kesa",
     "meaning": "this morning",
-    "vi": "sáng nay"
+    "vi": "sáng nay",
+    "example": { "sentence": "今朝、雨が降りました。", "reading": "けさ、あめがふりました。", "vi": "Sáng nay trời đã mưa.", "meaning": "It rained this morning." }
   },
   {
     "id": "n5-0236",
@@ -1889,7 +2124,8 @@ export const N5: JapaneseWord[] = [
     "reading": "けす",
     "romaji": "kesu",
     "meaning": "to erase, to delete, to turn off power",
-    "vi": "xóa, tắt (nguồn điện)"
+    "vi": "xóa, tắt (nguồn điện)",
+    "example": { "sentence": "黒板を消します。", "reading": "こくばんをけします。", "vi": "Tôi lau bảng đen.", "meaning": "I erase the blackboard." }
   },
   {
     "id": "n5-0237",
@@ -1897,7 +2133,8 @@ export const N5: JapaneseWord[] = [
     "reading": "けっこう",
     "romaji": "kekkou",
     "meaning": "splendid; enough, tolerably",
-    "vi": "tuyệt vời; đủ, tạm được"
+    "vi": "tuyệt vời; đủ, tạm được",
+    "example": { "sentence": "この料理は結構おいしいです。", "reading": "このりょうりはけっこうおいしいです。", "vi": "Món ăn này cũng khá ngon.", "meaning": "This dish is quite delicious." }
   },
   {
     "id": "n5-0238",
@@ -1905,7 +2142,8 @@ export const N5: JapaneseWord[] = [
     "reading": "けっこん (する)",
     "romaji": "kekkon (suru)",
     "meaning": "marriage (get married)",
-    "vi": "kết hôn"
+    "vi": "kết hôn",
+    "example": { "sentence": "来年、結婚します。", "reading": "らいねん、けっこんします。", "vi": "Năm sau tôi kết hôn.", "meaning": "I will get married next year." }
   },
   {
     "id": "n5-0239",
@@ -1913,7 +2151,8 @@ export const N5: JapaneseWord[] = [
     "reading": "げつようび",
     "romaji": "getsuyoubi",
     "meaning": "Monday",
-    "vi": "thứ Hai"
+    "vi": "thứ Hai",
+    "example": { "sentence": "月曜日に会議があります。", "reading": "げつようびにかいぎがあります。", "vi": "Thứ Hai có cuộc họp.", "meaning": "There is a meeting on Monday." }
   },
   {
     "id": "n5-0240",
@@ -1921,7 +2160,8 @@ export const N5: JapaneseWord[] = [
     "reading": "げんかん",
     "romaji": "genkan",
     "meaning": "entrance (to a house or a building)",
-    "vi": "cửa ra vào (nhà, tòa nhà)"
+    "vi": "cửa ra vào (nhà, tòa nhà)",
+    "example": { "sentence": "玄関で靴を脱ぎます。", "reading": "げんかんでくつをぬぎます。", "vi": "Tôi bỏ giày ở cửa vào nhà.", "meaning": "I take off my shoes at the entrance." }
   },
   {
     "id": "n5-0241",
@@ -1929,7 +2169,8 @@ export const N5: JapaneseWord[] = [
     "reading": "げんき",
     "romaji": "genki",
     "meaning": "health(y), energetic",
-    "vi": "khỏe mạnh, tràn đầy năng lượng"
+    "vi": "khỏe mạnh, tràn đầy năng lượng",
+    "example": { "sentence": "お元気ですか？", "reading": "おげんきですか？", "vi": "Bạn khỏe không?", "meaning": "How are you?" }
   },
   {
     "id": "n5-0242",
@@ -1937,7 +2178,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～こ",
     "romaji": "～ko",
     "meaning": "counter for small items (e.g., fruits, cups)",
-    "vi": "trợ từ đếm vật nhỏ (vd trái cây, cốc)"
+    "vi": "trợ từ đếm vật nhỏ (vd trái cây, cốc)",
+    "example": { "sentence": "りんごを三個ください。", "reading": "りんごをみっつください。", "vi": "Cho tôi ba quả táo.", "meaning": "Please give me three apples." }
   },
   {
     "id": "n5-0243",
@@ -1945,7 +2187,8 @@ export const N5: JapaneseWord[] = [
     "reading": "ご",
     "romaji": "go",
     "meaning": "five",
-    "vi": "năm"
+    "vi": "năm",
+    "example": { "sentence": "五時に来てください。", "reading": "ごじにきてください。", "vi": "Xin hãy đến lúc năm giờ.", "meaning": "Please come at five o'clock." }
   },
   {
     "id": "n5-0244",
@@ -1953,7 +2196,8 @@ export const N5: JapaneseWord[] = [
     "reading": "～ご",
     "romaji": "～go",
     "meaning": "word, language",
-    "vi": "từ, ngôn ngữ (hậu tố)"
+    "vi": "từ, ngôn ngữ (hậu tố)",
+    "example": { "sentence": "日本語で話しましょう。", "reading": "にほんごではなしましょう。", "vi": "Hãy nói bằng tiếng Nhật.", "meaning": "Let's speak in Japanese." }
   },
   {
     "id": "n5-0245",
@@ -1961,7 +2205,8 @@ export const N5: JapaneseWord[] = [
     "reading": "こうえん",
     "romaji": "kouen",
     "meaning": "a park",
-    "vi": "công viên"
+    "vi": "công viên",
+    "example": { "sentence": "公園で散歩します。", "reading": "こうえんでさんぽします。", "vi": "Tôi đi dạo ở công viên.", "meaning": "I take a walk in the park." }
   },
   {
     "id": "n5-0246",
@@ -1969,7 +2214,8 @@ export const N5: JapaneseWord[] = [
     "reading": "こうさてん",
     "romaji": "kousaten",
     "meaning": "intersection",
-    "vi": "ngã tư"
+    "vi": "ngã tư",
+    "example": { "sentence": "交差点を右に曲がります。", "reading": "こうさてんをみぎにまがります。", "vi": "Tôi rẽ phải ở ngã tư.", "meaning": "I turn right at the intersection." }
   },
   {
     "id": "n5-0247",
@@ -1977,7 +2223,8 @@ export const N5: JapaneseWord[] = [
     "reading": "こうちゃ",
     "romaji": "koucha",
     "meaning": "black tea",
-    "vi": "trà đen (hồng trà)"
+    "vi": "trà đen (hồng trà)",
+    "example": { "sentence": "紅茶を飲みます。", "reading": "こうちゃをのみます。", "vi": "Tôi uống trà đen.", "meaning": "I drink black tea." }
   },
   {
     "id": "n5-0248",
@@ -1985,7 +2232,8 @@ export const N5: JapaneseWord[] = [
     "reading": "こうばん",
     "romaji": "kouban",
     "meaning": "police box",
-    "vi": "chốt cảnh sát (koban)"
+    "vi": "chốt cảnh sát (koban)",
+    "example": { "sentence": "交番で道を聞きます。", "reading": "こうばんでみちをききます。", "vi": "Tôi hỏi đường ở chốt cảnh sát.", "meaning": "I ask for directions at the police box." }
   },
   {
     "id": "n5-0249",
@@ -1993,7 +2241,8 @@ export const N5: JapaneseWord[] = [
     "reading": "こえ",
     "romaji": "koe",
     "meaning": "voice",
-    "vi": "giọng nói"
+    "vi": "giọng nói",
+    "example": { "sentence": "先生の声が大きいです。", "reading": "せんせいのこえがおおきいです。", "vi": "Giọng thầy/cô to.", "meaning": "The teacher's voice is loud." }
   },
   {
     "id": "n5-0250",
@@ -2001,7 +2250,8 @@ export const N5: JapaneseWord[] = [
     "reading": "コート",
     "romaji": "コート",
     "meaning": "coat; court (e.g., tennis)",
-    "vi": "áo khoác; sân (vd tennis)"
+    "vi": "áo khoác; sân (vd tennis)",
+    "example": { "sentence": "ここに座ってください。", "reading": "ここにすわってください。", "vi": "Xin hãy ngồi đây.", "meaning": "Please sit here." }
   },
   {
     "id": "n5-0251",

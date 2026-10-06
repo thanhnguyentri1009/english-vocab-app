@@ -796,6 +796,37 @@
   content: '”';
 }
 
+.flashcard-example-block {
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: var(--bg-sunk);
+  border-radius: 10px;
+  text-align: center;
+  max-width: 48ch;
+  width: 100%;
+}
+
+.flashcard-example-sentence {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+.flashcard-example-reading {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+}
+
+.flashcard-example-translation {
+  margin-top: 6px;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--ink-2);
+}
+
 .flashcard-hint {
   margin-top: auto;
   padding-top: 28px;

@@ -55,6 +55,15 @@ export default function JapaneseWordLearn({
             </strong>
             <span>{word.romaji}</span>
           </div>
+          {word.example && (
+            <div className="flashcard-example-block">
+              <div className="flashcard-example-sentence" lang="ja">{word.example.sentence}</div>
+              <div className="flashcard-example-reading" lang="ja">{word.example.reading}</div>
+              <div className="flashcard-example-translation">
+                {isVietnamese ? word.example.vi : word.example.meaning}
+              </div>
+            </div>
+          )}
         </>
       )}
     />

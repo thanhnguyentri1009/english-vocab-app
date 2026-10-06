@@ -51,6 +51,15 @@ export default function ChineseWordLearn({
             </strong>
             <span>{word.pinyin}</span>
           </div>
+          {word.example && (
+            <div className="flashcard-example-block">
+              <div className="flashcard-example-sentence" lang="zh-CN">{word.example.sentence}</div>
+              <div className="flashcard-example-reading">{word.example.pinyin}</div>
+              <div className="flashcard-example-translation">
+                {isVietnamese ? word.example.vi : word.example.meaning}
+              </div>
+            </div>
+          )}
         </>
       )}
     />
