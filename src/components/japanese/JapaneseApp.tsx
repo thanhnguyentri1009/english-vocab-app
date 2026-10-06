@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
 import AlphabetSelect from "./AlphabetSelect";
 import AlphabetTable from "./AlphabetTable";
+import JapaneseBeginnerGuide from "./JapaneseBeginnerGuide";
 import JapaneseLevelDetail from "./JapaneseLevelDetail";
 import JapaneseQuiz from "./JapaneseQuiz";
 import JapaneseReview from "./JapaneseReview";
@@ -24,6 +25,7 @@ const DEFAULT_BATCH_SIZE = 6;
 const ALPHABET_SETS: AlphabetSet[] = ["hiragana", "katakana", "kanji"];
 
 type JapaneseStage =
+  | "beginner"
   | "alphabetSelect"
   | "alphabetTable"
   | "vocabLevelSelect"
@@ -57,24 +59,27 @@ export default function JapaneseApp({ syncCode }: JapaneseAppProps) {
   const subRoute = section === "vocabulary" ? segments[2] : undefined;
 
   const stage: JapaneseStage =
-    section === "alphabet"
-      ? alphabetSet
-        ? "alphabetTable"
-        : "alphabetSelect"
-      : section === "vocabulary"
-        ? !levelKey
-          ? "vocabLevelSelect"
-          : subRoute === "quiz"
-            ? "vocabQuiz"
-            : subRoute === "learn"
-              ? "vocabLearn"
-              : subRoute === "review"
-                ? "vocabReview"
-                : "vocabLevelDetail"
-        : "alphabetSelect";
+    section === "beginner"
+      ? "beginner"
+      : section === "alphabet"
+        ? alphabetSet
+          ? "alphabetTable"
+          : "alphabetSelect"
+        : section === "vocabulary"
+          ? !levelKey
+            ? "vocabLevelSelect"
+            : subRoute === "quiz"
+              ? "vocabQuiz"
+              : subRoute === "learn"
+                ? "vocabLearn"
+                : subRoute === "review"
+                  ? "vocabReview"
+                  : "vocabLevelDetail"
+          : "beginner";
 
-  const activeTab: "alphabet" | "vocabulary" = section === "vocabulary" ? "vocabulary" : "alphabet";
-  const showTabBar = stage === "alphabetSelect" || stage === "vocabLevelSelect";
+  const activeTab: "beginner" | "alphabet" | "vocabulary" =
+    section === "vocabulary" ? "vocabulary" : section === "alphabet" ? "alphabet" : "beginner";
+  const showTabBar = stage === "beginner" || stage === "alphabetSelect" || stage === "vocabLevelSelect";
 
   // Redirect unknown routes back to a sane place within /jp.
   useEffect(() => {
@@ -82,7 +87,7 @@ export default function JapaneseApp({ syncCode }: JapaneseAppProps) {
       navigate("/jp/alphabet", { replace: true });
     } else if (section === "vocabulary" && segments[1] && !levelKey) {
       navigate("/jp/vocabulary", { replace: true });
-    } else if (section && section !== "alphabet" && section !== "vocabulary") {
+    } else if (section && section !== "alphabet" && section !== "vocabulary" && section !== "beginner") {
       navigate("/jp", { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -233,10 +238,13 @@ export default function JapaneseApp({ syncCode }: JapaneseAppProps) {
       {showTabBar && (
         <JapaneseTabBar
           active={activeTab}
-          onChange={(tab) => navigate(tab === "alphabet" ? "/jp/alphabet" : "/jp/vocabulary")}
+          onChange={(tab) =>
+            navigate(tab === "alphabet" ? "/jp/alphabet" : tab === "vocabulary" ? "/jp/vocabulary" : "/jp/beginner")
+          }
         />
       )}
 
+      {stage === "beginner" && <JapaneseBeginnerGuide />}
       {stage === "alphabetSelect" && (
         <AlphabetSelect onSelect={(set) => navigate(`/jp/alphabet/${set}`)} />
       )}
@@ -297,11 +305,12 @@ function JapaneseTabBar({
   active,
   onChange,
 }: {
-  active: "alphabet" | "vocabulary";
-  onChange: (tab: "alphabet" | "vocabulary") => void;
+  active: "beginner" | "alphabet" | "vocabulary";
+  onChange: (tab: "beginner" | "alphabet" | "vocabulary") => void;
 }) {
   const { t } = useTranslation();
-  const tabs: { key: "alphabet" | "vocabulary"; labelKey: string }[] = [
+  const tabs: { key: "beginner" | "alphabet" | "vocabulary"; labelKey: string }[] = [
+    { key: "beginner", labelKey: "japanese.tabs.beginner" },
     { key: "alphabet", labelKey: "japanese.tabs.alphabet" },
     { key: "vocabulary", labelKey: "japanese.tabs.vocabulary" },
   ];

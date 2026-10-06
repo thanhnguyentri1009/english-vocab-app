@@ -9,6 +9,7 @@
     "wordsLearnedCaption": "từ đã học"
   },
   "tabs": {
+    "beginner": "Người mới bắt đầu",
     "vocabulary": "Từ vựng",
     "grammar": "Ngữ pháp",
     "wordTypes": "Loại từ",
@@ -145,6 +146,7 @@
   },
   "japanese": {
     "tabs": {
+      "beginner": "Người mới bắt đầu",
       "alphabet": "Bảng chữ cái",
       "vocabulary": "Từ vựng"
     },
@@ -223,6 +225,7 @@
   },
   "chinese": {
     "tabs": {
+      "beginner": "Người mới bắt đầu",
       "pinyin": "Bính âm",
       "vocabulary": "Từ vựng"
     },

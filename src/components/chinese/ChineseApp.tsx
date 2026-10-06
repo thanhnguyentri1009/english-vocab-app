@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
+import ChineseBeginnerGuide from "./ChineseBeginnerGuide";
 import ChineseLevelDetail from "./ChineseLevelDetail";
 import ChineseQuiz from "./ChineseQuiz";
 import ChineseReview from "./ChineseReview";
@@ -23,6 +24,7 @@ const DEFAULT_BATCH_SIZE = 6;
 const PINYIN_SETS: PinyinSet[] = ["initials", "finals", "tones"];
 
 type ChineseStage =
+  | "beginner"
   | "pinyinSelect"
   | "pinyinChart"
   | "vocabLevelSelect"
@@ -56,24 +58,27 @@ export default function ChineseApp({ syncCode }: ChineseAppProps) {
   const subRoute = section === "vocabulary" ? segments[2] : undefined;
 
   const stage: ChineseStage =
-    section === "pinyin"
-      ? pinyinSet
-        ? "pinyinChart"
-        : "pinyinSelect"
-      : section === "vocabulary"
-        ? !levelKey
-          ? "vocabLevelSelect"
-          : subRoute === "quiz"
-            ? "vocabQuiz"
-            : subRoute === "learn"
-              ? "vocabLearn"
-              : subRoute === "review"
-                ? "vocabReview"
-                : "vocabLevelDetail"
-        : "pinyinSelect";
+    section === "beginner"
+      ? "beginner"
+      : section === "pinyin"
+        ? pinyinSet
+          ? "pinyinChart"
+          : "pinyinSelect"
+        : section === "vocabulary"
+          ? !levelKey
+            ? "vocabLevelSelect"
+            : subRoute === "quiz"
+              ? "vocabQuiz"
+              : subRoute === "learn"
+                ? "vocabLearn"
+                : subRoute === "review"
+                  ? "vocabReview"
+                  : "vocabLevelDetail"
+          : "beginner";
 
-  const activeTab: "pinyin" | "vocabulary" = section === "vocabulary" ? "vocabulary" : "pinyin";
-  const showTabBar = stage === "pinyinSelect" || stage === "vocabLevelSelect";
+  const activeTab: "beginner" | "pinyin" | "vocabulary" =
+    section === "vocabulary" ? "vocabulary" : section === "pinyin" ? "pinyin" : "beginner";
+  const showTabBar = stage === "pinyinSelect" || stage === "vocabLevelSelect" || stage === "beginner";
 
   // Redirect unknown routes back to a sane place within /zh.
   useEffect(() => {
@@ -81,7 +86,7 @@ export default function ChineseApp({ syncCode }: ChineseAppProps) {
       navigate("/zh/pinyin", { replace: true });
     } else if (section === "vocabulary" && segments[1] && !levelKey) {
       navigate("/zh/vocabulary", { replace: true });
-    } else if (section && section !== "pinyin" && section !== "vocabulary") {
+    } else if (section && section !== "pinyin" && section !== "vocabulary" && section !== "beginner") {
       navigate("/zh", { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -232,10 +237,13 @@ export default function ChineseApp({ syncCode }: ChineseAppProps) {
       {showTabBar && (
         <ChineseTabBar
           active={activeTab}
-          onChange={(tab) => navigate(tab === "pinyin" ? "/zh/pinyin" : "/zh/vocabulary")}
+          onChange={(tab) =>
+            navigate(tab === "pinyin" ? "/zh/pinyin" : tab === "vocabulary" ? "/zh/vocabulary" : "/zh/beginner")
+          }
         />
       )}
 
+      {stage === "beginner" && <ChineseBeginnerGuide />}
       {stage === "pinyinSelect" && (
         <PinyinSelect onSelect={(set) => navigate(`/zh/pinyin/${set}`)} />
       )}
@@ -296,11 +304,12 @@ function ChineseTabBar({
   active,
   onChange,
 }: {
-  active: "pinyin" | "vocabulary";
-  onChange: (tab: "pinyin" | "vocabulary") => void;
+  active: "beginner" | "pinyin" | "vocabulary";
+  onChange: (tab: "beginner" | "pinyin" | "vocabulary") => void;
 }) {
   const { t } = useTranslation();
-  const tabs: { key: "pinyin" | "vocabulary"; labelKey: string }[] = [
+  const tabs: { key: "beginner" | "pinyin" | "vocabulary"; labelKey: string }[] = [
+    { key: "beginner", labelKey: "chinese.tabs.beginner" },
     { key: "pinyin", labelKey: "chinese.tabs.pinyin" },
     { key: "vocabulary", labelKey: "chinese.tabs.vocabulary" },
   ];

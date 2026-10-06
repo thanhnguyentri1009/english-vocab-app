@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
+import EnglishBeginnerGuide from "./EnglishBeginnerGuide";
 import ExerciseQuiz from "./ExerciseQuiz";
 import LevelDetail from "./LevelDetail";
 import Quiz from "./Quiz";
@@ -34,6 +35,7 @@ const DEFAULT_BATCH_SIZE = 6;
 type ExerciseSection = "grammar" | "word-types";
 
 type Stage =
+  | "beginner"
   | "topicSelect"
   | "select"
   | "levelDetail"
@@ -54,6 +56,9 @@ export default function EnglishApp({ syncCode }: EnglishAppProps) {
 
   const segments = location.pathname.split("/").filter(Boolean);
   const rawTopic = segments[0];
+
+  // Determine if this is the beginner section
+  const isBeginner = rawTopic === "beginner";
 
   // Determine if this is a speaking section
   const isSpeaking = rawTopic === "speaking";
@@ -81,27 +86,29 @@ export default function EnglishApp({ syncCode }: EnglishAppProps) {
   const levelKey = matchedLevel ? matchedLevel.key : null;
   const subRoute = segments[2];
 
-  const stage: Stage = isSpeaking
-    ? speakingLevelKey && speakingLevel
-      ? "speakingSession"
-      : "speakingHome"
-    : exerciseSection
-      ? "exerciseQuiz"
-      : !topicKey
-        ? "topicSelect"
-        : !levelKey
-          ? "select"
-          : subRoute === "quiz"
-            ? "quiz"
-            : subRoute === "learn"
-              ? "learn"
-              : subRoute === "review"
-                ? "review"
-                : "levelDetail";
+  const stage: Stage = isBeginner
+    ? "beginner"
+    : isSpeaking
+      ? speakingLevelKey && speakingLevel
+        ? "speakingSession"
+        : "speakingHome"
+      : exerciseSection
+        ? "exerciseQuiz"
+        : !topicKey
+          ? "topicSelect"
+          : !levelKey
+            ? "select"
+            : subRoute === "quiz"
+              ? "quiz"
+              : subRoute === "learn"
+                ? "learn"
+                : subRoute === "review"
+                  ? "review"
+                  : "levelDetail";
 
   // Redirect unknown routes
   useEffect(() => {
-    if (segments[0] && !topicKey && !exerciseSection && !isSpeaking) {
+    if (segments[0] && !topicKey && !exerciseSection && !isSpeaking && !isBeginner) {
       navigate("/", { replace: true });
     } else if (topicKey && segments[1] && !levelKey) {
       navigate(`/${topicKey}`, { replace: true });
@@ -113,7 +120,7 @@ export default function EnglishApp({ syncCode }: EnglishAppProps) {
       navigate("/speaking", { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [segments[0], segments[1], topicKey, levelKey, exerciseSection, isSpeaking, speakingLevelKey]);
+  }, [segments[0], segments[1], topicKey, levelKey, exerciseSection, isSpeaking, isBeginner, speakingLevelKey]);
 
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress(syncCode));
   const [batchSize, setBatchSize] = useState(() => progress.batchSize ?? DEFAULT_BATCH_SIZE);
@@ -272,10 +279,10 @@ export default function EnglishApp({ syncCode }: EnglishAppProps) {
   const topicInfo = topicKey ? TOPICS.find((t) => t.key === topicKey) : undefined;
 
   // Determine active main tab
-  const activeTab = isSpeaking ? "speaking" : (exerciseSection ?? "vocabulary");
+  const activeTab = isBeginner ? "beginner" : isSpeaking ? "speaking" : (exerciseSection ?? "vocabulary");
 
   // Which stages show the main tab bar
-  const showTabBar = stage === "topicSelect" || stage === "speakingHome" || stage === "exerciseQuiz";
+  const showTabBar = stage === "beginner" || stage === "topicSelect" || stage === "speakingHome" || stage === "exerciseQuiz";
 
   return (
     <>
@@ -291,6 +298,7 @@ export default function EnglishApp({ syncCode }: EnglishAppProps) {
           />
         )}
 
+        {stage === "beginner" && <EnglishBeginnerGuide />}
         {stage === "topicSelect" && (
           <TopicSelect
             topics={TOPICS}
@@ -373,6 +381,7 @@ export default function EnglishApp({ syncCode }: EnglishAppProps) {
 }
 
 const TABS = [
+  { key: "beginner", labelKey: "tabs.beginner" },
   { key: "vocabulary", labelKey: "tabs.vocabulary" },
   { key: "grammar", labelKey: "tabs.grammar" },
   { key: "word-types", labelKey: "tabs.wordTypes" },

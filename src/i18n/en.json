@@ -9,6 +9,7 @@
     "wordsLearnedCaption": "words learned"
   },
   "tabs": {
+    "beginner": "Beginner Guide",
     "vocabulary": "Vocabulary",
     "grammar": "Grammar",
     "wordTypes": "Word Types",
@@ -145,6 +146,7 @@
   },
   "japanese": {
     "tabs": {
+      "beginner": "Beginner Guide",
       "alphabet": "Alphabet",
       "vocabulary": "Vocabulary"
     },
@@ -224,6 +226,7 @@
   },
   "chinese": {
     "tabs": {
+      "beginner": "Beginner Guide",
       "pinyin": "Pinyin",
       "vocabulary": "Vocabulary"
     },
