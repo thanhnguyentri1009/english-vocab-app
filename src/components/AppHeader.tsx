@@ -82,10 +82,10 @@ export default function AppHeader({ track, onChangeTrack, account }: AppHeaderPr
           type="button"
           className="brand"
           onClick={() => current && navigate(current.home)}
-          aria-label="Vocab"
+          aria-label="PolyVocab"
         >
           <BrandMark className="brand-mark" />
-          <span className="brand-name">Vocab</span>
+          <span className="brand-name">PolyVocab</span>
         </button>
 
         {current && (

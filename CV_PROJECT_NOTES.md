@@ -7,10 +7,10 @@ job and available space.
 
 ## Project
 
-**English Vocabulary Builder** — a personal, full-stack web app for
-learning English vocabulary, grammar, and speaking, with progress synced
-across devices. Live on GitHub Pages, source on GitHub
-(`thanhnguyentri1009/english-vocab-app`).
+**PolyVocab** — a personal, full-stack multilingual web app for learning
+English, Japanese, and Chinese (vocabulary, grammar, and speaking), with
+progress synced across devices. Live on GitHub Pages, source on GitHub
+(`thanhnguyentri1009/polyvocab`).
 
 ## Tech stack
 
