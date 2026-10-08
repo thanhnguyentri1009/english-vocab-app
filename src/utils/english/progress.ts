@@ -72,14 +72,43 @@ export function subscribeRemoteProgress(
   return onSnapshot(
     progressDocRef(code),
     (snapshot) => {
-      const data = snapshot.data()
-      if (!data) return
-      onUpdate({
-        learnedWords: (data.learnedWords as ProgressState['learnedWords']) ?? {},
-        session: (data.session as Session | null | undefined) ?? undefined,
-        batchSize: (data.batchSize as number | null | undefined) ?? undefined,
-        updatedAt: (data.updatedAt as number | undefined) ?? 0,
-      })
+      const raw = snapshot.data()
+
+      if (!raw) {
+        onUpdate({ learnedWords: {} })
+        return
+      }
+
+      // New nested format: raw.english.*
+      const nested = (raw.english ?? null) as Record<string, unknown> | null
+      if (nested) {
+        onUpdate({
+          learnedWords: (nested.learnedWords as ProgressState['learnedWords']) ?? {},
+          session: (nested.session as Session | null | undefined) ?? undefined,
+          batchSize: (nested.batchSize as number | null | undefined) ?? undefined,
+          updatedAt: (nested.updatedAt as number | undefined) ?? 0,
+        })
+        return
+      }
+
+      // Migrate from old flat format (learnedWords at root level)
+      if (raw.learnedWords) {
+        const migrated: ProgressState = {
+          learnedWords: (raw.learnedWords as ProgressState['learnedWords']) ?? {},
+          session: (raw.session as Session | null | undefined) ?? undefined,
+          batchSize: (raw.batchSize as number | null | undefined) ?? undefined,
+          updatedAt: (raw.updatedAt as number | undefined) ?? 0,
+        }
+        setDoc(
+          progressDocRef(code),
+          { english: { ...migrated, serverUpdatedAt: serverTimestamp() } },
+          { merge: true },
+        ).catch(() => {})
+        onUpdate(migrated)
+        return
+      }
+
+      onUpdate({ learnedWords: {} })
     },
     () => {
       // offline or blocked — local cache keeps the app usable
@@ -88,14 +117,19 @@ export function subscribeRemoteProgress(
 }
 
 export function pushRemoteProgress(code: string, state: ProgressState) {
-  // Firestore rejects `undefined` field values — use `null` instead.
-  setDoc(progressDocRef(code), {
-    learnedWords: state.learnedWords,
-    session: state.session ?? null,
-    batchSize: state.batchSize ?? null,
-    updatedAt: state.updatedAt ?? Date.now(),
-    serverUpdatedAt: serverTimestamp(),
-  }).catch(() => {
+  setDoc(
+    progressDocRef(code),
+    {
+      english: {
+        learnedWords: state.learnedWords,
+        session: state.session ?? null,
+        batchSize: state.batchSize ?? null,
+        updatedAt: state.updatedAt ?? Date.now(),
+        serverUpdatedAt: serverTimestamp(),
+      },
+    },
+    { merge: true },
+  ).catch(() => {
     // offline — local cache already has the data, will sync on the next change
   })
 }
