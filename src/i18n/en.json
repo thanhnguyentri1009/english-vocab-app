@@ -148,7 +148,18 @@
     "tabs": {
       "beginner": "Beginner Guide",
       "alphabet": "Alphabet",
-      "vocabulary": "Vocabulary"
+      "vocabulary": "Vocabulary",
+      "sentences": "Sentences"
+    },
+    "sentences": {
+      "title": "Sentence Practice",
+      "subtitle": "Learn how to read and build sentences by topic",
+      "basic": "Basic",
+      "advanced": "Advanced",
+      "backToCategories": "Back",
+      "breakdownTitle": "Sentence breakdown",
+      "prev": "Previous",
+      "next": "Next"
     },
     "alphabetSelect": {
       "title": "Japanese Alphabet",
@@ -228,7 +239,18 @@
     "tabs": {
       "beginner": "Beginner Guide",
       "pinyin": "Pinyin",
-      "vocabulary": "Vocabulary"
+      "vocabulary": "Vocabulary",
+      "sentences": "Sentences"
+    },
+    "sentences": {
+      "title": "Sentence Practice",
+      "subtitle": "Learn how to read and build sentences by topic",
+      "basic": "Basic",
+      "advanced": "Advanced",
+      "backToCategories": "Back",
+      "breakdownTitle": "Sentence breakdown",
+      "prev": "Previous",
+      "next": "Next"
     },
     "pinyinSelect": {
       "title": "Pinyin System",

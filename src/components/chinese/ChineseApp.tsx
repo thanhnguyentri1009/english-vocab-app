@@ -6,12 +6,16 @@ import ChineseLevelDetail from "./ChineseLevelDetail";
 import ChineseQuiz from "./ChineseQuiz";
 import ChineseReview from "./ChineseReview";
 import ChineseWordLearn from "./ChineseWordLearn";
+import ChineseSentenceLearn from "./ChineseSentenceLearn";
 import PinyinSelect, { type PinyinSet } from "./PinyinSelect";
 import PinyinChart from "./PinyinChart";
 import LevelSelect from "../LevelSelect";
+import SentenceCategorySelect from "../sentences/SentenceCategorySelect";
 import { CHINESE_LEVELS } from "../../data/chinese/levels";
 import { CHINESE_VOCABULARY } from "../../data/chinese/vocabulary";
+import { CHINESE_SENTENCES } from "../../data/chinese/sentences";
 import type { HskLevel } from "../../data/chinese/types";
+import type { SentenceCategory, SentenceDifficulty } from "../../data/sentences/categories";
 import {
   loadChineseProgress,
   pushChineseRemoteProgress,
@@ -31,7 +35,9 @@ type ChineseStage =
   | "vocabLevelDetail"
   | "vocabLearn"
   | "vocabQuiz"
-  | "vocabReview";
+  | "vocabReview"
+  | "sentenceSelect"
+  | "sentenceLearn";
 
 interface ChineseAppProps {
   syncCode: string;
@@ -46,7 +52,7 @@ export default function ChineseApp({ syncCode }: ChineseAppProps) {
   const allSegments = location.pathname.split("/").filter(Boolean);
   const segments = allSegments[0] === "zh" ? allSegments.slice(1) : [];
 
-  const section = segments[0]; // undefined | 'pinyin' | 'vocabulary'
+  const section = segments[0]; // undefined | 'pinyin' | 'vocabulary' | 'sentences'
   const pinyinSetKey = section === "pinyin" ? (segments[1] as PinyinSet | undefined) : undefined;
   const pinyinSet = pinyinSetKey && PINYIN_SETS.includes(pinyinSetKey) ? pinyinSetKey : null;
 
@@ -56,6 +62,13 @@ export default function ChineseApp({ syncCode }: ChineseAppProps) {
     : undefined;
   const levelKey = (matchedLevel?.key ?? null) as HskLevel | null;
   const subRoute = section === "vocabulary" ? segments[2] : undefined;
+
+  // Sentence routing: /zh/sentences/{category}/{difficulty}
+  const sentenceCategory = section === "sentences" ? (segments[1] as SentenceCategory | undefined) : undefined;
+  const sentenceDifficulty = section === "sentences" ? (segments[2] as SentenceDifficulty | undefined) : undefined;
+  const validSentenceCats = ["daily_life", "nature", "food", "work", "travel", "family"] as const;
+  const validCat = sentenceCategory && (validSentenceCats as readonly string[]).includes(sentenceCategory) ? sentenceCategory as SentenceCategory : null;
+  const validDiff = sentenceDifficulty === "basic" || sentenceDifficulty === "advanced" ? sentenceDifficulty : null;
 
   const stage: ChineseStage =
     section === "beginner"
@@ -74,11 +87,15 @@ export default function ChineseApp({ syncCode }: ChineseAppProps) {
                 : subRoute === "review"
                   ? "vocabReview"
                   : "vocabLevelDetail"
-          : "beginner";
+          : section === "sentences"
+            ? validCat && validDiff
+              ? "sentenceLearn"
+              : "sentenceSelect"
+            : "beginner";
 
-  const activeTab: "beginner" | "pinyin" | "vocabulary" =
-    section === "vocabulary" ? "vocabulary" : section === "pinyin" ? "pinyin" : "beginner";
-  const showTabBar = stage === "pinyinSelect" || stage === "vocabLevelSelect" || stage === "beginner";
+  const activeTab: "beginner" | "pinyin" | "vocabulary" | "sentences" =
+    section === "vocabulary" ? "vocabulary" : section === "pinyin" ? "pinyin" : section === "sentences" ? "sentences" : "beginner";
+  const showTabBar = stage === "pinyinSelect" || stage === "vocabLevelSelect" || stage === "beginner" || stage === "sentenceSelect";
 
   // Redirect unknown routes back to a sane place within /zh.
   useEffect(() => {
@@ -86,7 +103,9 @@ export default function ChineseApp({ syncCode }: ChineseAppProps) {
       navigate("/zh/pinyin", { replace: true });
     } else if (section === "vocabulary" && segments[1] && !levelKey) {
       navigate("/zh/vocabulary", { replace: true });
-    } else if (section && section !== "pinyin" && section !== "vocabulary" && section !== "beginner") {
+    } else if (section === "sentences" && segments[1] && (!validCat || (segments[2] && !validDiff))) {
+      navigate("/zh/sentences", { replace: true });
+    } else if (section && section !== "pinyin" && section !== "vocabulary" && section !== "beginner" && section !== "sentences") {
       navigate("/zh", { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -238,7 +257,12 @@ export default function ChineseApp({ syncCode }: ChineseAppProps) {
         <ChineseTabBar
           active={activeTab}
           onChange={(tab) =>
-            navigate(tab === "pinyin" ? "/zh/pinyin" : tab === "vocabulary" ? "/zh/vocabulary" : "/zh/beginner")
+            navigate(
+              tab === "pinyin" ? "/zh/pinyin"
+              : tab === "vocabulary" ? "/zh/vocabulary"
+              : tab === "sentences" ? "/zh/sentences"
+              : "/zh/beginner"
+            )
           }
         />
       )}
@@ -295,6 +319,20 @@ export default function ChineseApp({ syncCode }: ChineseAppProps) {
       {stage === "vocabReview" && level && (
         <ChineseReview words={reviewWords} pool={pool} accent={level.accent} onBack={handleBackFromReview} />
       )}
+      {stage === "sentenceSelect" && (
+        <SentenceCategorySelect
+          lang="zh"
+          onSelect={(cat, diff) => navigate(`/zh/sentences/${cat}/${diff}`)}
+        />
+      )}
+      {stage === "sentenceLearn" && validCat && validDiff && (
+        <ChineseSentenceLearn
+          sentences={CHINESE_SENTENCES[validCat][validDiff]}
+          category={validCat}
+          difficulty={validDiff}
+          onBack={() => navigate("/zh/sentences")}
+        />
+      )}
     </div>
     </>
   );
@@ -304,14 +342,15 @@ function ChineseTabBar({
   active,
   onChange,
 }: {
-  active: "beginner" | "pinyin" | "vocabulary";
-  onChange: (tab: "beginner" | "pinyin" | "vocabulary") => void;
+  active: "beginner" | "pinyin" | "vocabulary" | "sentences";
+  onChange: (tab: "beginner" | "pinyin" | "vocabulary" | "sentences") => void;
 }) {
   const { t } = useTranslation();
-  const tabs: { key: "beginner" | "pinyin" | "vocabulary"; labelKey: string }[] = [
+  const tabs: { key: "beginner" | "pinyin" | "vocabulary" | "sentences"; labelKey: string }[] = [
     { key: "beginner", labelKey: "chinese.tabs.beginner" },
     { key: "pinyin", labelKey: "chinese.tabs.pinyin" },
     { key: "vocabulary", labelKey: "chinese.tabs.vocabulary" },
+    { key: "sentences", labelKey: "chinese.tabs.sentences" },
   ];
   return (
     <nav className="tabs-wrap">

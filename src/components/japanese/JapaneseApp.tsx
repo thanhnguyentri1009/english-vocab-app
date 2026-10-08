@@ -8,11 +8,15 @@ import JapaneseLevelDetail from "./JapaneseLevelDetail";
 import JapaneseQuiz from "./JapaneseQuiz";
 import JapaneseReview from "./JapaneseReview";
 import JapaneseWordLearn from "./JapaneseWordLearn";
+import JapaneseSentenceLearn from "./JapaneseSentenceLearn";
 import LevelSelect from "../LevelSelect";
+import SentenceCategorySelect from "../sentences/SentenceCategorySelect";
 import type { AlphabetSet } from "../../data/japanese/alphabet";
 import { JAPANESE_LEVELS } from "../../data/japanese/levels";
 import { JAPANESE_VOCABULARY } from "../../data/japanese/vocabulary";
+import { JAPANESE_SENTENCES } from "../../data/japanese/sentences";
 import type { JlptLevel } from "../../data/japanese/types";
+import type { SentenceCategory, SentenceDifficulty } from "../../data/sentences/categories";
 import {
   loadJapaneseProgress,
   pushJapaneseRemoteProgress,
@@ -32,7 +36,9 @@ type JapaneseStage =
   | "vocabLevelDetail"
   | "vocabLearn"
   | "vocabQuiz"
-  | "vocabReview";
+  | "vocabReview"
+  | "sentenceSelect"
+  | "sentenceLearn";
 
 interface JapaneseAppProps {
   syncCode: string;
@@ -47,7 +53,7 @@ export default function JapaneseApp({ syncCode }: JapaneseAppProps) {
   const allSegments = location.pathname.split("/").filter(Boolean);
   const segments = allSegments[0] === "jp" ? allSegments.slice(1) : [];
 
-  const section = segments[0]; // undefined | 'alphabet' | 'vocabulary'
+  const section = segments[0]; // undefined | 'alphabet' | 'vocabulary' | 'sentences'
   const alphabetSetKey = section === "alphabet" ? (segments[1] as AlphabetSet | undefined) : undefined;
   const alphabetSet = alphabetSetKey && ALPHABET_SETS.includes(alphabetSetKey) ? alphabetSetKey : null;
 
@@ -57,6 +63,13 @@ export default function JapaneseApp({ syncCode }: JapaneseAppProps) {
     : undefined;
   const levelKey = (matchedLevel?.key ?? null) as JlptLevel | null;
   const subRoute = section === "vocabulary" ? segments[2] : undefined;
+
+  // Sentence routing: /jp/sentences/{category}/{difficulty}
+  const sentenceCategory = section === "sentences" ? (segments[1] as SentenceCategory | undefined) : undefined;
+  const sentenceDifficulty = section === "sentences" ? (segments[2] as SentenceDifficulty | undefined) : undefined;
+  const validSentenceCats = ["daily_life", "nature", "food", "work", "travel", "family"] as const;
+  const validCat = sentenceCategory && (validSentenceCats as readonly string[]).includes(sentenceCategory) ? sentenceCategory as SentenceCategory : null;
+  const validDiff = sentenceDifficulty === "basic" || sentenceDifficulty === "advanced" ? sentenceDifficulty : null;
 
   const stage: JapaneseStage =
     section === "beginner"
@@ -75,11 +88,15 @@ export default function JapaneseApp({ syncCode }: JapaneseAppProps) {
                 : subRoute === "review"
                   ? "vocabReview"
                   : "vocabLevelDetail"
-          : "beginner";
+          : section === "sentences"
+            ? validCat && validDiff
+              ? "sentenceLearn"
+              : "sentenceSelect"
+            : "beginner";
 
-  const activeTab: "beginner" | "alphabet" | "vocabulary" =
-    section === "vocabulary" ? "vocabulary" : section === "alphabet" ? "alphabet" : "beginner";
-  const showTabBar = stage === "beginner" || stage === "alphabetSelect" || stage === "vocabLevelSelect";
+  const activeTab: "beginner" | "alphabet" | "vocabulary" | "sentences" =
+    section === "vocabulary" ? "vocabulary" : section === "alphabet" ? "alphabet" : section === "sentences" ? "sentences" : "beginner";
+  const showTabBar = stage === "beginner" || stage === "alphabetSelect" || stage === "vocabLevelSelect" || stage === "sentenceSelect";
 
   // Redirect unknown routes back to a sane place within /jp.
   useEffect(() => {
@@ -87,7 +104,9 @@ export default function JapaneseApp({ syncCode }: JapaneseAppProps) {
       navigate("/jp/alphabet", { replace: true });
     } else if (section === "vocabulary" && segments[1] && !levelKey) {
       navigate("/jp/vocabulary", { replace: true });
-    } else if (section && section !== "alphabet" && section !== "vocabulary" && section !== "beginner") {
+    } else if (section === "sentences" && segments[1] && (!validCat || (segments[2] && !validDiff))) {
+      navigate("/jp/sentences", { replace: true });
+    } else if (section && section !== "alphabet" && section !== "vocabulary" && section !== "beginner" && section !== "sentences") {
       navigate("/jp", { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -239,7 +258,12 @@ export default function JapaneseApp({ syncCode }: JapaneseAppProps) {
         <JapaneseTabBar
           active={activeTab}
           onChange={(tab) =>
-            navigate(tab === "alphabet" ? "/jp/alphabet" : tab === "vocabulary" ? "/jp/vocabulary" : "/jp/beginner")
+            navigate(
+              tab === "alphabet" ? "/jp/alphabet"
+              : tab === "vocabulary" ? "/jp/vocabulary"
+              : tab === "sentences" ? "/jp/sentences"
+              : "/jp/beginner"
+            )
           }
         />
       )}
@@ -296,6 +320,20 @@ export default function JapaneseApp({ syncCode }: JapaneseAppProps) {
       {stage === "vocabReview" && level && (
         <JapaneseReview words={reviewWords} pool={pool} accent={level.accent} onBack={handleBackFromReview} />
       )}
+      {stage === "sentenceSelect" && (
+        <SentenceCategorySelect
+          lang="jp"
+          onSelect={(cat, diff) => navigate(`/jp/sentences/${cat}/${diff}`)}
+        />
+      )}
+      {stage === "sentenceLearn" && validCat && validDiff && (
+        <JapaneseSentenceLearn
+          sentences={JAPANESE_SENTENCES[validCat][validDiff]}
+          category={validCat}
+          difficulty={validDiff}
+          onBack={() => navigate("/jp/sentences")}
+        />
+      )}
     </div>
     </>
   );
@@ -305,14 +343,15 @@ function JapaneseTabBar({
   active,
   onChange,
 }: {
-  active: "beginner" | "alphabet" | "vocabulary";
-  onChange: (tab: "beginner" | "alphabet" | "vocabulary") => void;
+  active: "beginner" | "alphabet" | "vocabulary" | "sentences";
+  onChange: (tab: "beginner" | "alphabet" | "vocabulary" | "sentences") => void;
 }) {
   const { t } = useTranslation();
-  const tabs: { key: "beginner" | "alphabet" | "vocabulary"; labelKey: string }[] = [
+  const tabs: { key: "beginner" | "alphabet" | "vocabulary" | "sentences"; labelKey: string }[] = [
     { key: "beginner", labelKey: "japanese.tabs.beginner" },
     { key: "alphabet", labelKey: "japanese.tabs.alphabet" },
     { key: "vocabulary", labelKey: "japanese.tabs.vocabulary" },
+    { key: "sentences", labelKey: "japanese.tabs.sentences" },
   ];
   return (
     <nav className="tabs-wrap">

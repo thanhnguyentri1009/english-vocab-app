@@ -148,7 +148,18 @@
     "tabs": {
       "beginner": "Người mới bắt đầu",
       "alphabet": "Bảng chữ cái",
-      "vocabulary": "Từ vựng"
+      "vocabulary": "Từ vựng",
+      "sentences": "Câu"
+    },
+    "sentences": {
+      "title": "Luyện câu",
+      "subtitle": "Học cách đọc và cấu tạo câu theo chủ đề",
+      "basic": "Cơ bản",
+      "advanced": "Nâng cao",
+      "backToCategories": "Quay lại",
+      "breakdownTitle": "Phân tích câu",
+      "prev": "Câu trước",
+      "next": "Câu tiếp"
     },
     "alphabetSelect": {
       "title": "Bảng chữ cái tiếng Nhật",
@@ -227,7 +238,18 @@
     "tabs": {
       "beginner": "Người mới bắt đầu",
       "pinyin": "Bính âm",
-      "vocabulary": "Từ vựng"
+      "vocabulary": "Từ vựng",
+      "sentences": "Câu"
+    },
+    "sentences": {
+      "title": "Luyện câu",
+      "subtitle": "Học cách đọc và cấu tạo câu theo chủ đề",
+      "basic": "Cơ bản",
+      "advanced": "Nâng cao",
+      "backToCategories": "Quay lại",
+      "breakdownTitle": "Phân tích câu",
+      "prev": "Câu trước",
+      "next": "Câu tiếp"
     },
     "pinyinSelect": {
       "title": "Hệ thống Bính âm",
