@@ -1,4 +1,4 @@
-export type HskLevel = 'HSK1' | 'HSK2' | 'HSK3' | 'HSK4' | 'HSK5' | 'HSK6'
+export type HskLevel = 'STARTER' | 'HSK1' | 'HSK2' | 'HSK3' | 'HSK4' | 'HSK5' | 'HSK6'
 
 export interface ChineseExample {
   sentence: string

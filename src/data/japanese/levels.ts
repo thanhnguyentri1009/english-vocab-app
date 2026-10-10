@@ -3,6 +3,13 @@ import type { LevelInfo } from '../english/vocabulary/topics'
 // Same LevelInfo shape the English topics use (key/title/subtitle/color/accent).
 export const JAPANESE_LEVELS: LevelInfo[] = [
   {
+    key: 'STARTER',
+    title: 'Starter',
+    subtitle: 'Before N5 — first words',
+    color: '#ffffff',
+    accent: '#2c4d86',
+  },
+  {
     key: 'N5',
     title: 'N5',
     subtitle: 'Beginner',

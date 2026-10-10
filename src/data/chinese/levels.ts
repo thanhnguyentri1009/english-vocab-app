@@ -1,6 +1,7 @@
 import type { LevelInfo } from '../english/vocabulary/topics'
 
 export const CHINESE_LEVELS: LevelInfo[] = [
+  { key: 'STARTER', title: 'Starter', subtitle: 'Before HSK 1 — first words', color: '#ffffff', accent: '#2c4d86' },
   { key: 'HSK1', title: 'HSK 1', subtitle: 'Beginner', color: '#ffffff', accent: '#2c4d86' },
   { key: 'HSK2', title: 'HSK 2', subtitle: 'Elementary', color: '#ffffff', accent: '#2c4d86' },
   { key: 'HSK3', title: 'HSK 3', subtitle: 'Intermediate', color: '#ffffff', accent: '#2c4d86' },

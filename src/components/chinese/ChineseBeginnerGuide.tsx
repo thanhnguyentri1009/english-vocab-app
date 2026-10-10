@@ -375,7 +375,7 @@ export default function ChineseBeginnerGuide() {
 
       <div style={{ marginTop: 28, padding: "16px 20px", background: "linear-gradient(135deg, #fff6ea, #eaf3ff)", borderRadius: 16, border: "1px solid #e0d8f0", textAlign: "center" }}>
         <Text style={{ fontSize: 14, color: "#666" }}>
-          Đã nắm vững cơ bản? Bắt đầu học từ vựng từ <strong>HSK 1</strong> để xây dựng vốn từ!
+          Đã nắm vững cơ bản? Bắt đầu với cấp <strong>Starter</strong> (từ vựng nền tảng) rồi lên <strong>HSK 1</strong> để xây dựng vốn từ!
         </Text>
       </div>
     </div>

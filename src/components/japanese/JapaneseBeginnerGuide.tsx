@@ -352,7 +352,7 @@ export default function JapaneseBeginnerGuide() {
 
       <div style={{ marginTop: 28, padding: "16px 20px", background: "linear-gradient(135deg, #fff6ea, #eaf3ff)", borderRadius: 16, border: "1px solid #e0d8f0", textAlign: "center" }}>
         <Text style={{ fontSize: 14, color: "#666" }}>
-          Đã nắm vững cơ bản? Học bảng chữ <strong>Hiragana</strong> ở tab tiếp theo, rồi mới vào từ vựng JLPT!
+          Đã nắm vững cơ bản? Học bảng chữ <strong>Hiragana</strong> ở tab tiếp theo, rồi học cấp <strong>Starter</strong> (từ vựng nền tảng) trước khi vào JLPT N5!
         </Text>
       </div>
     </div>
